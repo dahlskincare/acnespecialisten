@@ -377,8 +377,20 @@ $show_all_results_title = "Se resultat";
 $faq_categories = array(
     '' => array(
         new Question(
-            title: '',
-            text: ''
+            title: 'Hur många behandlingar behövs för att behandla rosacea?',
+            text: '<p class="p200">Antalet behandlingar varierar beroende på hur utbredd och allvarlig din rosacea är. De flesta kunder ser tydliga förbättringar efter 3–6 behandlingar, men en fullständig behandlingsplan kan omfatta fler sessioner. Under din kostnadsfria konsultation sätter vi upp en individuell plan utifrån dina förutsättningar.</p>'
+        ),
+        new Question(
+            title: 'Kan rosacea botas helt?',
+            text: '<p class="p200">Rosacea är ett kroniskt hudtillstånd som inte kan botas permanent, men det går att hålla under god kontroll med rätt behandling och hudvård. Med regelbundna behandlingar och en anpassad hudrutin kan symtomen minska markant och huden hålla sig lugn under längre perioder.</p>'
+        ),
+        new Question(
+            title: 'Är rosaceabehandling smärtsam?',
+            text: '<p class="p200">Våra rosaceabehandlingar är utformade för att vara så skonsamma som möjligt. Du kan uppleva en lätt värmekänsla eller rodnad under behandlingen, men detta är övergående. Våra terapeuter anpassar alltid intensiteten efter din hudkänslighet.</p>'
+        ),
+        new Question(
+            title: 'Kan alla hudtyper behandlas för rosacea?',
+            text: '<p class="p200">Ja, vi behandlar rosacea på alla hudtyper. Behandlingen anpassas alltid individuellt utifrån din hudtyp och graden av rosacea. Boka en kostnadsfri konsultation så bedömer vi din hud och rekommenderar rätt behandling för dig.</p>'
         ),
     ),
 );

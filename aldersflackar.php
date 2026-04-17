@@ -240,21 +240,25 @@ $faq_categories = array(
       'Generella frågor' => array(
             new Question(
                   title: 'Är alla konsultationer kostnadsfria på AcneSpecialisten?',
-                  text: 'Ja, vi erbjuder alltid kostnadsfria konsultationer för våra kunder, förutsatt att de närvarar vid den bokade tiden.'
+                  text: '<p class="p200">Ja, vi erbjuder alltid kostnadsfria konsultationer för våra kunder, förutsatt att de närvarar vid den bokade tiden.</p>'
             ),
             new Question(
                   title: 'Vad kan jag förvänta mig under en konsultation hos AcneSpecialisten?',
-                  text: 'Under konsultationen kommer en av våra hudterapeuter att noggrant analysera din hudtyp och diskutera dina hudproblem. Vi kommer även att gå igenom din nuvarande hudvårdsrutin och ge personliga rekommendationer för behandlingar och produkter som bäst passar dina behov.'
+                  text: '<p class="p200">Under konsultationen kommer en av våra hudterapeuter att noggrant analysera din hudtyp och diskutera dina hudproblem. Vi kommer även att gå igenom din nuvarande hudvårdsrutin och ge personliga rekommendationer för behandlingar och produkter som bäst passar dina behov.</p>'
             ),
       ),
       'Frågor om behandling' => array(
             new Question(
                   title: 'Vilka behandlingar erbjuder AcneSpecialisten för olika hudproblem?',
-                  text: 'På AcneSpecialisten erbjuder vi ett brett utbud av behandlingar anpassade för specifika hudproblem, inklusive avancerad acnebehandling, skonsam rosaceabehandling och noggrann portömning, samt andra specialbehandlingar för olika hudtillstånd.'
+                  text: '<p class="p200">På AcneSpecialisten erbjuder vi ett brett utbud av behandlingar anpassade för specifika hudproblem, inklusive avancerad acnebehandling, skonsam rosaceabehandling och noggrann portömning, samt andra specialbehandlingar för olika hudtillstånd.</p>'
             ),
             new Question(
                   title: 'Anpassar ni behandlingarna för olika hudtyper?',
-                  text: 'Absolut, på AcneSpecialisten anpassar vi våra behandlingar för att passa en mängd olika hudtyper, från mycket känslig till oljig hy, för att säkerställa den mest effektiva och skonsamma behandlingen.'
+                  text: '<p class="p200">Absolut, på AcneSpecialisten anpassar vi våra behandlingar för att passa en mängd olika hudtyper, från mycket känslig till oljig hy, för att säkerställa den mest effektiva och skonsamma behandlingen.</p>'
+            ),
+            new Question(
+                  title: 'Kommer borttagna leverfläckar tillbaka?',
+                  text: '<p class="p200">En behandlad leverfläck (ålderfläck) försvinner men ny pigmentbildning kan uppstå på samma eller andra ställen om du utsätter huden för sol utan skydd. Orsaken är att solens UV-strålar aktiverar melaninproduktionen, vilket skapar nya fläckar. Genom att använda solskydd dagligen minskar du risken betydligt. Vi rekommenderar alltid SPF som en del av din dagliga rutin för att bibehålla resultatet efter behandling.</p>'
             ),
       ),
 );

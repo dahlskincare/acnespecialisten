@@ -566,6 +566,10 @@ $faq_categories = array(
             text: '<p class="p200">Priset för permanent hårborttagning varierar beroende på vilket område du vill behandla och storleken på ytan. Armhålor kostar 1595 kr per behandling medan större områden som hela ben kostar 2595 kr per behandling. Intimbehandlingar som brasiliansk + runt anus kostar också 2595 kr per behandling. Du hittar alla priser för olika behandlingsområden högre upp på denna sida där du kan välja det område du är intresserad av. För att få en komplett behandlingsplan med totalkostnad baserat på dina önskemål rekommenderar vi att du bokar en kostnadsfri konsultation där vi går igenom vilka områden du vill behandla och hur många behandlingar som behövs för optimalt resultat.</p>'
         ),
         new Question(
+            title: 'Vad kostar permanent hårborttagning för hela kroppen?',
+            text: '<p class="p200">Vi erbjuder inte ett fast paket för hela kroppen eftersom alla har olika önskemål om vilka områden de vill behandla. Däremot tar vi gärna fram ett pris anpassat efter just de områden du vill ha behandlade. Boka en kostnadsfri konsultation så går vi igenom dina önskemål och sätter ihop en behandlingsplan med ett skräddarsytt pris.</p>'
+        ),
+        new Question(
             title: 'Erbjuder ni paketpriser för permanent hårborttagning?',
             text: '<p class="p200">Ja, vi erbjuder förmånliga paketpriser när du väljer att behandla flera områden samtidigt. Många av våra kunder kombinerar exempelvis hela ben med armhålor och intimbehandling för att få en helhetslösning till ett bättre pris än om områdena behandlas separat. Det exakta priset för ditt paket beror på vilka områden du väljer att kombinera och hur stor yta som ska behandlas. Vi rekommenderar att du bokar en kostnadsfri konsultation där vi tar fram ett skräddarsytt paket med priser som är anpassat efter just dina önskemål och behov.</p>'
         ),

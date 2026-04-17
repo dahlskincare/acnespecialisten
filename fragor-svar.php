@@ -10,6 +10,7 @@ $faq_categories = array(
     'Bokning' => array(
         new Question('Hur bokar jag en tid för behandling?', '<p class="p200">Du kan boka en tid för behandling genom att besöka vår hemsida och välja den tjänst du är intresserad av. Alternativt kan du kontakta vår kundtjänst direkt för personlig assistans.</p>'),
         new Question('Kan jag boka tid via telefon?', '<p class="p200">Ja, du kan boka tid via telefon genom att ringa oss på <a class="b200 underline color-deep-sea-400" href="tel:08-29 61 01" title="Ring oss">08 29 61 01</a>. Vi hjälper dig gärna att hitta en tid som passar dig och svarar på eventuella frågor om våra behandlingar.</p>'),
+        new Question('När har ni telefontid?', '<p class="p200">Vår telefontid är vardagar 10:00 - 18:00. För snabbast svar rekommenderar vi att du kontaktar oss via chatten som du hittar nere i högra hörnet på vår webbplats och lämnar din e-postadress, så återkommer vi så snart vi kan.</p>'),
         new Question('Har ni långa väntetider?', '<p class="p200">Nej, vi har inga väntetider. Du bokar nästa tillgängliga tid direkt via vår bokningssida eller genom att kontakta oss på telefon <a class="b200 underline color-deep-sea-400" href="tel:08-29 61 01" title="Ring oss">08 29 61 01</a>. Lediga tider för konsultationer finns ofta tillgängliga inom de närmaste dagarna och behandlingar vanligtvis inom en till två veckor.</p>'),
         new Question('Kan jag ändra eller avboka min bokning?', '<p class="p200">Ja, du kan ändra eller avboka din bokning. Vi ber dig att meddela oss så snart som möjligt om du behöver göra ändringar i din bokning då den ska genomföras minst 24 timmar innan den bokade tiden.</p>'),
         new Question('Vilka är era öppettider?', '<p class="p200">Våra kliniker i Stockholm har öppet vardagar mellan 07:00-21:00. Helger och kvällar bokas enligt tillgänglighet. Du kan enkelt se lediga tider och boka direkt via vår bokningssida, eller kontakta oss på telefon 08 29 61 01 så hjälper vi dig att hitta en tid som passar.</p>'),
@@ -31,31 +32,35 @@ $faq_categories = array(
     'Behandlingar' => array(
         new Question(
             title: 'Vilka behandlingar erbjuder AcneSpecialisten för olika hudproblem?',
-            text: 'På AcneSpecialisten erbjuder vi ett brett utbud av behandlingar anpassade för specifika hudproblem, inklusive avancerad acnebehandling, skonsam rosaceabehandling och noggrann portömning, samt andra specialbehandlingar för olika hudtillstånd.'
+            text: '<p class="p200">På AcneSpecialisten erbjuder vi ett brett utbud av behandlingar anpassade för specifika hudproblem, inklusive avancerad acnebehandling, skonsam rosaceabehandling och noggrann portömning, samt andra specialbehandlingar för olika hudtillstånd.</p>'
         ),
         new Question(
             title: 'Vad är den genomsnittliga tidsåtgången för en behandling?',
-            text: 'En typisk behandling hos AcneSpecialisten tar mellan 60 och 90 min, beroende på behandlingens art och dina individuella hudvårdsbehov.'
+            text: '<p class="p200">En typisk behandling hos AcneSpecialisten tar mellan 60 och 90 min, beroende på behandlingens art och dina individuella hudvårdsbehov.</p>'
         ),
         new Question(
             title: 'Hur många behandlingar rekommenderas för att uppnå synliga resultat?',
-            text: 'Antalet rekommenderade behandlingar varierar beroende på individens hudproblem och hudtyp. I genomsnitt ser kunderna betydande förbättringar efter 2-4 behandlingssessioner.'
+            text: '<p class="p200">Antalet rekommenderade behandlingar varierar beroende på individens hudproblem och hudtyp. I genomsnitt ser kunderna betydande förbättringar efter 2-4 behandlingssessioner.</p>'
         ),
         new Question(
             title: 'Är behandlingarna hos AcneSpecialisten smärtsamma?',
-            text: 'Vi strävar efter att göra våra behandlingar så bekväma som möjligt. Viss lätt smärta kan upplevas under behandling av inflammerade områden eller vid extraktioner, men denna känsla är övergående och hanteras med största omsorg för din komfort.'
+            text: '<p class="p200">Vi strävar efter att göra våra behandlingar så bekväma som möjligt. Viss lätt smärta kan upplevas under behandling av inflammerade områden eller vid extraktioner, men denna känsla är övergående och hanteras med största omsorg för din komfort.</p>'
         ),
         new Question(
             title: 'Anpassar ni behandlingarna för olika hudtyper?',
-            text: 'Absolut, på AcneSpecialisten anpassar vi våra behandlingar för att passa en mängd olika hudtyper, från mycket känslig till oljig hy, för att säkerställa den mest effektiva och skonsamma behandlingen.'
+            text: '<p class="p200">Absolut, på AcneSpecialisten anpassar vi våra behandlingar för att passa en mängd olika hudtyper, från mycket känslig till oljig hy, för att säkerställa den mest effektiva och skonsamma behandlingen.</p>'
+        ),
+        new Question(
+            title: 'Vad kostar permanent hårborttagning för hela kroppen?',
+            text: '<p class="p200">Vi erbjuder inte permanent hårborttagning för hela kroppen som ett färdigt paket, eftersom varje kund har olika önskemål om vilka områden de vill behandla. Vi sätter istället ihop ett pris baserat på just de kroppsdelar du är intresserad av. Kontakta oss via chatten eller boka en kostnadsfri konsultation så hjälper vi dig med ett skräddarsytt prisförslag.</p>'
         ),
         new Question(
             title: 'Behandlar ni vårtor?',
-            text: 'Vi behandlar inte vanliga vårtor som orsakas av virus. Däremot behandlar vi åldersvårtor (seborrhoiska keratoser) som är godartade hudförändringar som ofta uppkommer med åldern. Om du är osäker på vilken typ av hudförändring du har, rekommenderar vi att du bokar en kostnadsfri konsultation så att våra hudspecialister kan bedöma ditt fall.'
+            text: '<p class="p200">Vi behandlar inte vanliga vårtor som orsakas av virus. Däremot behandlar vi åldersvårtor (seborrhoiska keratoser) som är godartade hudförändringar som ofta uppkommer med åldern. Om du är osäker på vilken typ av hudförändring du har, rekommenderar vi att du bokar en kostnadsfri konsultation så att våra hudspecialister kan bedöma ditt fall.</p>'
         ),
         new Question(
             title: 'Erbjuder ni behandlingar för fransar och bryn?',
-            text: 'Ja, vi erbjuder behandlingar för fransar och bryn genom skönhetsdelen av vår verksamhet Sveriges Skönhetscenter. Här hittar du behandlingar som brynplock, brynfärgning, fransfärgning och fransförlängning. Du kan läsa mer om vårt kompletta utbud av frans- och brynbehandlingar på <a class="b200 underline color-deep-sea-400" href="https://www.sverigesskonhetscenter.se/behandlingar/fransar-bryn/" target="_blank">sverigesskonhetscenter.se/behandlingar/fransar-bryn</a>.'
+            text: '<p class="p200">Ja, vi erbjuder behandlingar för fransar och bryn genom skönhetsdelen av vår verksamhet Sveriges Skönhetscenter. Här hittar du behandlingar som brynplock, brynfärgning, fransfärgning och fransförlängning. Du kan läsa mer om vårt kompletta utbud av frans- och brynbehandlingar på <a class="b200 underline color-deep-sea-400" href="https://www.sverigesskonhetscenter.se/behandlingar/fransar-bryn/" target="_blank">sverigesskonhetscenter.se/behandlingar/fransar-bryn</a>.</p>'
         ),
         new Question(
             title: 'Behandlar ni eksem?',
@@ -69,37 +74,53 @@ $faq_categories = array(
     'Konsultationer' => array(
         new Question(
             title: 'Är alla konsultationer kostnadsfria på AcneSpecialisten?',
-            text: 'Ja, vi erbjuder alltid kostnadsfria konsultationer för våra kunder, förutsatt att de närvarar vid den bokade tiden.'
+            text: '<p class="p200">Ja, vi erbjuder alltid kostnadsfria konsultationer för våra kunder, förutsatt att de närvarar vid den bokade tiden.</p>'
         ),
         new Question(
             title: 'Vad kan jag förvänta mig under en konsultation hos AcneSpecialisten?',
-            text: 'Under konsultationen kommer en av våra hudspecialister att noggrant analysera din hudtyp och diskutera dina hudproblem. Vi kommer även att gå igenom din nuvarande hudvårdsrutin och ge personliga rekommendationer för behandlingar och produkter som bäst passar dina behov.'
+            text: '<p class="p200">Under konsultationen kommer en av våra hudspecialister att noggrant analysera din hudtyp och diskutera dina hudproblem. Vi kommer även att gå igenom din nuvarande hudvårdsrutin och ge personliga rekommendationer för behandlingar och produkter som bäst passar dina behov.</p>'
         ),
         new Question(
             title: 'Varför får jag ingen länk till online-mötet?',
-            text: 'Vi använder inte traditionella möteslänkar för våra online-konsultationer. För iOS-användare (iPhone/iPad) ringer vi upp dig via vanligt videosamtal på din bokade tid. För Android-användare skickar vi en länk via SMS i samband med den bokade tiden. Se till att ange ditt telefonnummer korrekt när du bokar så att vi kan kontakta dig.'
+            text: '<p class="p200">Vi använder inte traditionella möteslänkar för våra online-konsultationer. För iOS-användare (iPhone/iPad) ringer vi upp dig via vanligt videosamtal på din bokade tid. För Android-användare skickar vi en länk via SMS i samband med den bokade tiden. Se till att ange ditt telefonnummer korrekt när du bokar så att vi kan kontakta dig.</p>'
         ),
     ),
     'Produkter' => array(
         new Question(
             title: 'Hur kan jag hitta de rätta produkterna för min hudtyp?',
-            text: 'För att hitta de produkter som passar just din hudtyp bäst, erbjuder vi kostnadsfria hudkonsultationer där våra experter analyserar din hud och rekommenderar produkter anpassade efter dina unika behov och hudtillstånd.'
+            text: '<p class="p200">För att hitta de produkter som passar just din hudtyp bäst, erbjuder vi kostnadsfria hudkonsultationer där våra experter analyserar din hud och rekommenderar produkter anpassade efter dina unika behov och hudtillstånd.</p>'
+        ),
+        new Question(
+            title: 'Kan jag köpa produkter utan att boka en behandling?',
+            text: '<p class="p200">Ja, du kan köpa produkter från oss utan att boka en behandling. Vi rekommenderar dock en kostnadsfri konsultation först, så att vi kan säkerställa att du får de produkter som är rätt för just din hud och ditt hudproblem.</p>'
+        ),
+        new Question(
+            title: 'Skickar ni produkter hem?',
+            text: '<p class="p200">Ja, vi skickar produkter hem till dig. Du kan enkelt beställa via vår webbshop och få leverans direkt till din dörr. Har du frågor om vilka produkter som passar dig bäst är du välkommen att kontakta oss via chatten på vår webbplats.</p>'
         ),
     ),
     'Skötselråd och rutiner' => array(
         new Question(
             title: 'Vilka eftervårdstips bör jag följa efter en behandling?',
-            text: 'Efter en behandling rekommenderar vi specifika eftervårdstips för att maximera behandlingens effektivitet och stödja din huds läkningsprocess. Detta kan inkludera råd om fuktgivande, solskydd och hur du undviker vissa produkter eller aktiviteter under en viss tid.'
+            text: '<p class="p200">Efter en behandling rekommenderar vi specifika eftervårdstips för att maximera behandlingens effektivitet och stödja din huds läkningsprocess. Detta kan inkludera råd om fuktgivande, solskydd och hur du undviker vissa produkter eller aktiviteter under en viss tid.</p>'
+        ),
+        new Question(
+            title: 'Hur snabbt ser man resultat av behandlingarna?',
+            text: '<p class="p200">Det varierar beroende på vilket hudproblem som behandlas och din hudtyp. Många kunder märker förbättringar redan efter 2–4 behandlingar, men för mer djupgående hudproblem som acne eller pigmentfläckar kan det ta längre tid. Din terapeut sätter upp en behandlingsplan anpassad efter dina förutsättningar och ger dig realistiska förväntningar på resultatet.</p>'
+        ),
+        new Question(
+            title: 'Vad bör jag undvika direkt efter en behandling?',
+            text: '<p class="p200">Direkt efter en behandling rekommenderar vi att du undviker stark sol, bastu, intensiv träning och parfymerade produkter under minst 24 timmar. Huden är extra känslig efter behandling och behöver tid att återhämta sig. Din terapeut ger dig alltid individuella råd anpassade efter den behandling du genomgått.</p>'
         ),
     ),
     'Priser och betalning' => array(
         new Question(
             title: 'Hur kan jag ta reda på priserna för era behandlingar?',
-            text: 'Våra behandlingspriser finns listade på vår hemsida. För varje specifik behandling hittar du detaljerad prisinformation som hjälper dig att planera ditt besök.'
+            text: '<p class="p200">Våra behandlingspriser finns listade på vår hemsida. För varje specifik behandling hittar du detaljerad prisinformation som hjälper dig att planera ditt besök.</p>'
         ),
         new Question(
             title: 'Erbjuder ni några paketpriser eller rabatter för flera behandlingar?',
-            text: 'Ja, vi erbjuder ibland paketpriser eller rabatter vid bokning av flera behandlingar. Detta är ett utmärkt sätt att få en omfattande behandling till ett reducerat pris. För mer information om aktuella erbjudanden, besök vår hemsida eller kontakta oss direkt.'
+            text: '<p class="p200">Ja, vi erbjuder ibland paketpriser eller rabatter vid bokning av flera behandlingar. Detta är ett utmärkt sätt att få en omfattande behandling till ett reducerat pris. För mer information om aktuella erbjudanden, besök vår hemsida eller kontakta oss direkt.</p>'
         ),
     ),
 );
