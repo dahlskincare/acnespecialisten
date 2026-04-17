@@ -10,6 +10,7 @@ $faq_categories = array(
     'Bokning' => array(
         new Question('Hur bokar jag en tid för behandling?', '<p class="p200">Du kan boka en tid för behandling genom att besöka vår hemsida och välja den tjänst du är intresserad av. Alternativt kan du kontakta vår kundtjänst direkt för personlig assistans.</p>'),
         new Question('Kan jag boka tid via telefon?', '<p class="p200">Ja, du kan boka tid via telefon genom att ringa oss på <a class="b200 underline color-deep-sea-400" href="tel:08-29 61 01" title="Ring oss">08 29 61 01</a>. Vi hjälper dig gärna att hitta en tid som passar dig och svarar på eventuella frågor om våra behandlingar.</p>'),
+        new Question('När har ni telefontid?', '<p class="p200">Vår telefontid är vardagar 10:00 - 18:00. För snabbast svar rekommenderar vi att du kontaktar oss via chatten som du hittar nere i högra hörnet på vår webbplats och lämnar din e-postadress, så återkommer vi så snart vi kan.</p>'),
         new Question('Har ni långa väntetider?', '<p class="p200">Nej, vi har inga väntetider. Du bokar nästa tillgängliga tid direkt via vår bokningssida eller genom att kontakta oss på telefon <a class="b200 underline color-deep-sea-400" href="tel:08-29 61 01" title="Ring oss">08 29 61 01</a>. Lediga tider för konsultationer finns ofta tillgängliga inom de närmaste dagarna och behandlingar vanligtvis inom en till två veckor.</p>'),
         new Question('Kan jag ändra eller avboka min bokning?', '<p class="p200">Ja, du kan ändra eller avboka din bokning. Vi ber dig att meddela oss så snart som möjligt om du behöver göra ändringar i din bokning då den ska genomföras minst 24 timmar innan den bokade tiden.</p>'),
         new Question('Vilka är era öppettider?', '<p class="p200">Våra kliniker i Stockholm har öppet vardagar mellan 07:00-21:00. Helger och kvällar bokas enligt tillgänglighet. Du kan enkelt se lediga tider och boka direkt via vår bokningssida, eller kontakta oss på telefon 08 29 61 01 så hjälper vi dig att hitta en tid som passar.</p>'),
@@ -48,6 +49,10 @@ $faq_categories = array(
         new Question(
             title: 'Anpassar ni behandlingarna för olika hudtyper?',
             text: 'Absolut, på AcneSpecialisten anpassar vi våra behandlingar för att passa en mängd olika hudtyper, från mycket känslig till oljig hy, för att säkerställa den mest effektiva och skonsamma behandlingen.'
+        ),
+        new Question(
+            title: 'Vad kostar permanent hårborttagning för hela kroppen?',
+            text: 'Vi erbjuder inte permanent hårborttagning för hela kroppen som ett färdigt paket, eftersom varje kund har olika önskemål om vilka områden de vill behandla. Vi sätter istället ihop ett pris baserat på just de kroppsdelar du är intresserad av. Kontakta oss via chatten eller boka en kostnadsfri konsultation så hjälper vi dig med ett skräddarsytt prisförslag.'
         ),
         new Question(
             title: 'Behandlar ni vårtor?',

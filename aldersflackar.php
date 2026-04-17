@@ -256,6 +256,10 @@ $faq_categories = array(
                   title: 'Anpassar ni behandlingarna för olika hudtyper?',
                   text: 'Absolut, på AcneSpecialisten anpassar vi våra behandlingar för att passa en mängd olika hudtyper, från mycket känslig till oljig hy, för att säkerställa den mest effektiva och skonsamma behandlingen.'
             ),
+            new Question(
+                  title: 'Kommer borttagna leverfläckar tillbaka?',
+                  text: '<p class="p200">En behandlad leverfläck (ålderfläck) försvinner men ny pigmentbildning kan uppstå på samma eller andra ställen om du utsätter huden för sol utan skydd. Orsaken är att solens UV-strålar aktiverar melaninproduktionen, vilket skapar nya fläckar. Genom att använda solskydd dagligen minskar du risken betydligt. Vi rekommenderar alltid SPF som en del av din dagliga rutin för att bibehålla resultatet efter behandling.</p>'
+            ),
       ),
 );
 
