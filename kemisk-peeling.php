@@ -227,8 +227,8 @@ $big_types = array(
             ),
             new Procedure(
                 label: '6 behandlingar',
-                price: '8995 kr',
-                savings: 'Spara 2975 kr',
+                price: '9995 kr',
+                savings: 'Spara 1975 kr',
                 booking_url: 'https://boka.acnespecialisten.se?flow=chemicalpeeling&skipable_problem=SKIP&area=Service_ChemicalPeeling_TCA&procedures=PriceClass_B_Procedure_6'
             ),
         )
