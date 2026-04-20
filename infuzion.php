@@ -40,16 +40,16 @@ $model = new Service(
         ),
         new Procedure(
             label: '3 behandlingar',
-            price: '7995 kr',
-            savings: 'Spara 990 kr',
+            price: '6995 kr',
+            savings: 'Spara 1990 kr',
             booking_url: 'https://boka.acnespecialisten.se?flow=infuzion&area=Infuzion_1xArea&procedures=PriceClass_6_Procedure_3',
             booking_url_label: 'Boka tid för behandling',
             booking_url_title: 'Boka tid för behandling'
         ),
         new Procedure(
             label: '5 behandlingar',
-            price: '10995 kr',
-            savings: 'Spara 3980 kr',
+            price: '9995 kr',
+            savings: 'Spara 4980 kr',
             booking_url: 'https://boka.acnespecialisten.se?flow=infuzion&area=Infuzion_1xArea&procedures=PriceClass_6_Procedure_5',
             booking_url_label: 'Boka tid för behandling',
             booking_url_title: 'Boka tid för behandling'
