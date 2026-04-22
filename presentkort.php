@@ -140,7 +140,7 @@ $path_segments = [
                                 <div class="gc-number">01</div>
                                 <h2 class="l10n">Swisha önskat belopp</h2>
                             </div>
-                            <div class="gc-text l10n">Skicka valfritt belopp till 123 010 64 43 som du vill sätta in på presentkortet.</div>
+                            <div class="gc-text l10n">Skicka valfritt belopp till 123 011 85 47 som du vill sätta in på presentkortet.</div>
                         </div>
                         <div class="gift-card-step" id="step-2-small">
                             <div class="flex-row align-center">
@@ -163,7 +163,7 @@ $path_segments = [
                                 <div class="gc-number">01</div>
                                 <div class="gc-texts">
                                     <h2 class="l10n">Swisha önskat belopp</h2>
-                                    <div class="l10n">Skicka valfritt belopp till 123 010 64 43 som du vill sätta in på presentkortet.</div>
+                                    <div class="l10n">Skicka valfritt belopp till 123 011 85 47 som du vill sätta in på presentkortet.</div>
                                 </div>
                             </div>
                         </div>
