@@ -388,6 +388,10 @@ $faq_categories = array(
                   title: 'Finns det någon åldersgräns för behandling av födelsemärken?',
                   text: '<p class="p200">Ja, du måste vara minst 18 år för att genomgå behandling av födelsemärken.</p>'
             ),
+            new Question(
+                  title: 'Kan ni ta bort utåtstående eller upphöjda födelsemärken?',
+                  text: '<p class="p200">Ja, vi behandlar både platta och upphöjda (utåtstående) födelsemärken. För upphöjda födelsemärken är laserbehandling ofta det mest effektiva alternativet, medan CryoPen kan passa bra för mindre varianter. Vid din kostnadsfria konsultation bedömer vi vilket alternativ som lämpar sig bäst för just ditt födelsemärke.</p>'
+            ),
       ),
 );
 
