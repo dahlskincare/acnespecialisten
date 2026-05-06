@@ -536,10 +536,10 @@ $service_categories = array(
     //     image_large: '/bilder/hudbehandlingar/424x324/vaxning.webp',
     //     image_title: 'Vaxningsbehandlingar',
     //     image_alt: 'Person som genomgår vaxningsbehandling på klinik',
-    //     booking_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559/vaxning-brasiliansk-intim-man--3281249',
+    //     booking_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-135539/vaxning-3438077',
     //     booking_url_title: 'Boka tid för manzilian',
     //     booking_url_label: 'Manzilian',
-    //     consultation_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559/vaxning-brasiliansk-3281247',
+    //     consultation_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-135539/vaxning-3438077',
     //     consultation_url_title: 'Boka tid för brasiliansk vaxning',
     //     consultation_url_label: 'Brasiliansk',
     //     services: array(

@@ -18,7 +18,7 @@ $model = new Service(
     image_large: 'bilder/varumarken/424x456/exceed.webp',
     image_alt: 'Ansiktsbehandlingar för problemhy',
     image_title: 'Ansiktsbehandlingar för problemhy',
-    consultation_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-sundbyberg-135394/konsultation-dual-injector-3434240',
+    consultation_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-135394/konsultation-dual-injector-3434240',
     consultation_url_label: 'Boka hudkonsultation',
     consultation_url_title: 'Boka tid för hudkonsultation',
     booking_url: 'https://boka.acnespecialisten.se?flow=dualinjector&area=Microneedling_1xArea',
