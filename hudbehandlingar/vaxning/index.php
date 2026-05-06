@@ -23,10 +23,10 @@ $model = new Service(
     image_large: 'bilder/hudbehandlingar/424x456/vaxning.webp',
     image_alt: 'Vaxning',
     image_title: 'Vaxning',
-    consultation_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559/vaxning-brasiliansk-3281247',
+    consultation_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-135539/vaxning-3438077',
     consultation_url_label: 'Brasiliansk',
     consultation_url_title: 'Boka tid för brasiliansk vaxning',
-    booking_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559/vaxning-brasiliansk-intim-man--3281249',
+    booking_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-135539/vaxning-3438077',
     booking_url_label: 'Manzilian',
     booking_url_title: 'Boka tid för manzilian',
 );
@@ -77,7 +77,7 @@ $treatment_areas = array(
                 title: 'Hela ansiktet',
                 duration: '30 min',
                 price: '595 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559/vaxning-ansikte-fullface--3281261',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-135539/vaxning-3438077',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling'
             ),
@@ -88,7 +88,7 @@ $treatment_areas = array(
                 title: 'Överläpp',
                 duration: '10 min',
                 price: '295 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559/vaxning-overlapp-3281252',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-135539/vaxning-3438077',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling'
             ),
@@ -99,7 +99,7 @@ $treatment_areas = array(
                 title: 'Haka',
                 duration: '10 min',
                 price: '295 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559/vaxning-haka-3281262',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-135539/vaxning-3438077',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling'
             ),
@@ -120,7 +120,7 @@ $treatment_areas = array(
                 title: 'Armhålor',
                 duration: '20 min',
                 price: '495 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559/vaxning-armhalor-3281242',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-135539/vaxning-3438077',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling'
             ),
@@ -131,7 +131,7 @@ $treatment_areas = array(
                 title: 'Bröst',
                 duration: '40 min',
                 price: '695 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559/vaxning-brost-3281248',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-135539/vaxning-3438077',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling'
             ),
@@ -142,7 +142,7 @@ $treatment_areas = array(
                 title: 'Mage',
                 duration: '40 min',
                 price: '695 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559/vaxning-mage-3281255',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-135539/vaxning-3438077',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling'
             ),
@@ -153,7 +153,7 @@ $treatment_areas = array(
                 title: 'Rygg',
                 duration: '40 min',
                 price: '795 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559/vaxning-rygg-3281259',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-135539/vaxning-3438077',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling'
             ),
@@ -164,7 +164,7 @@ $treatment_areas = array(
                 title: 'Armar (Hela)',
                 duration: '40 min',
                 price: '795 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559/vaxning-armar-hela--3281258',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-135539/vaxning-3438077',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling'
             ),
@@ -175,7 +175,7 @@ $treatment_areas = array(
                 title: 'Armar (Halva)',
                 duration: '30 min',
                 price: '595 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559/vaxning-armar-halva--3281263',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-135539/vaxning-3438077',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling'
             ),
@@ -196,7 +196,7 @@ $treatment_areas = array(
                 title: 'Ben (Hela)',
                 duration: '50 min',
                 price: '1 195 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559/vaxning-ben-hela--3281257',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-135539/vaxning-3438077',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling'
             ),
@@ -207,7 +207,7 @@ $treatment_areas = array(
                 title: 'Ben (Halva)',
                 duration: '30 min',
                 price: '895 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559/vaxning-ben-halva--3281245',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-135539/vaxning-3438077',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling'
             ),
@@ -228,7 +228,7 @@ $treatment_areas = array(
                 title: 'Brasiliansk',
                 duration: '40 min',
                 price: '995 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559/vaxning-brasiliansk-3281247',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-135539/vaxning-3438077',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling'
             ),
@@ -239,7 +239,7 @@ $treatment_areas = array(
                 title: 'Rumpa (Inre & Yttre)',
                 duration: '30 min',
                 price: '595 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559/vaxning-rumpa-inre-yttre--3281254',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-135539/vaxning-3438077',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling'
             ),
@@ -250,7 +250,7 @@ $treatment_areas = array(
                 title: 'Bikinilinje',
                 duration: '20 min',
                 price: '595 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559/vaxning-bikiniljnje-3281264',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-135539/vaxning-3438077',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling'
             ),
@@ -271,7 +271,7 @@ $treatment_areas = array(
                 title: 'Clean & Smooth',
                 duration: '60 min',
                 price: '1 395 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559/vaxning-clean-smooth-brasiliansk-armhalor--3281260',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-135539/vaxning-3438077',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling'
             ),
@@ -282,7 +282,7 @@ $treatment_areas = array(
                 title: 'Silky Legs',
                 duration: '80 min',
                 price: '1 995 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559/vaxning-silky-legs-hela-ben-bikinilinje-armhalor--3281250',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-135539/vaxning-3438077',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling'
             ),
@@ -293,7 +293,7 @@ $treatment_areas = array(
                 title: 'Full Body Basic',
                 duration: '100 min',
                 price: '2 595 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559/vaxning-full-body-basic-hela-ben-hela-armar-armhalor-brasiliansk--3281251',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-135539/vaxning-3438077',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling'
             ),
@@ -304,7 +304,7 @@ $treatment_areas = array(
                 title: 'Glow Face',
                 duration: '30 min',
                 price: '495 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559/vaxning-glow-face-hela-ansiktet--3281244',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-135539/vaxning-3438077',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling'
             ),
@@ -325,7 +325,7 @@ $treatment_areas = array(
                 title: 'Brasiliansk (Man)',
                 duration: '50 min',
                 price: '1 495 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559/vaxning-brasiliansk-intim-man--3281249',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-135539/vaxning-3438077',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling'
             ),
@@ -336,7 +336,7 @@ $treatment_areas = array(
                 title: 'Rumpa (Man)',
                 duration: '30 min',
                 price: '995 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559/vaxning-rumpa-intim-man--3281256',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-135539/vaxning-3438077',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling'
             ),
@@ -347,7 +347,7 @@ $treatment_areas = array(
                 title: 'Bikinilinje (Man)',
                 duration: '30 min',
                 price: '995 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559/vaxning-bikiniljnje-intim-man--3281253',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-135539/vaxning-3438077',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling'
             ),
@@ -368,7 +368,7 @@ $treatment_areas = array(
                 title: 'Clean Chest & Back',
                 duration: '80 min',
                 price: '1 995 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559/vaxning-clean-chest-back-brost-mage-rygg--3281246',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-135539/vaxning-3438077',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling'
             ),
@@ -379,7 +379,7 @@ $treatment_areas = array(
                 title: 'Full Body Pro',
                 duration: '120 min',
                 price: '2 595 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559/vaxning-full-body-pro-hela-ben-brost-rygg-armhalor--3281243',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-135539/vaxning-3438077',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling'
             ),

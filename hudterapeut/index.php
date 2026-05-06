@@ -15,7 +15,7 @@ $specialists = array(
         rating: 4.8,
         num_treatments: 911,
         since_year: 2018,
-        booking_url: 'https://www.bokadirekt.se/places/sveriges-skonhetscenter-sundbyberg-135394',
+        booking_url: 'https://www.bokadirekt.se/places/sveriges-skonhetscenter-acnespecialisten-sundbyberg-135394',
     ),
     new Specialist(
         name: 'Vilma Libom',
@@ -28,7 +28,7 @@ $specialists = array(
         rating: 4.8,
         num_treatments: 905,
         since_year: 2022,
-        booking_url: 'https://www.bokadirekt.se/places/sveriges-skonhetscenter-ostermalm-135539',
+        booking_url: 'https://www.bokadirekt.se/places/sveriges-skonhetscenter-acnespecialisten-ostermalm-135539',
     ),
     new Specialist(
         name: 'Julia Eklund',
@@ -41,7 +41,7 @@ $specialists = array(
         rating: 4.8,
         num_treatments: 795,
         since_year: 2021,
-        booking_url: 'https://www.bokadirekt.se/places/sveriges-skonhetscenter-sodermalm-135540',
+        booking_url: 'https://www.bokadirekt.se/places/sveriges-skonhetscenter-acnespecialisten-sodermalm-135540',
     ),
     new Specialist(
         name: 'Sally Johansson',
@@ -54,7 +54,7 @@ $specialists = array(
         rating: 4.8,
         num_treatments: 668,
         since_year: 2020,
-        booking_url: 'https://www.bokadirekt.se/places/sveriges-skonhetscenter-sodermalm-135540',
+        booking_url: 'https://www.bokadirekt.se/places/sveriges-skonhetscenter-acnespecialisten-sodermalm-135540',
     ),
     new Specialist(
         name: 'Emma Fogelkvist',
@@ -67,7 +67,7 @@ $specialists = array(
         rating: 4.8,
         num_treatments: 43,
         since_year: 2021,
-        booking_url: 'https://www.bokadirekt.se/places/sveriges-skonhetscenter-ostermalm-135539',
+        booking_url: 'https://www.bokadirekt.se/places/sveriges-skonhetscenter-acnespecialisten-ostermalm-135539',
     ),
     new Specialist(
         name: 'Ulrika Bill',
@@ -80,7 +80,7 @@ $specialists = array(
         rating: 4.7,
         num_treatments: 1090,
         since_year: 2023,
-        booking_url: 'https://www.bokadirekt.se/places/sveriges-skonhetscenter-ostermalm-135539',
+        booking_url: 'https://www.bokadirekt.se/places/sveriges-skonhetscenter-acnespecialisten-ostermalm-135539',
     ),
     new Specialist(
         name: 'Veronika Benedik',
@@ -93,7 +93,7 @@ $specialists = array(
         rating: 4.7,
         num_treatments: 1069,
         since_year: 1995,
-        booking_url: 'https://www.bokadirekt.se/places/sveriges-skonhetscenter-sundbyberg-135394',
+        booking_url: 'https://www.bokadirekt.se/places/sveriges-skonhetscenter-acnespecialisten-sundbyberg-135394',
     ),
     new Specialist(
         name: 'Jennifer Messner',
@@ -106,7 +106,7 @@ $specialists = array(
         rating: 4.7,
         num_treatments: 355,
         since_year: 2022,
-        booking_url: 'https://www.bokadirekt.se/places/sveriges-skonhetscenter-ostermalm-135539',
+        booking_url: 'https://www.bokadirekt.se/places/sveriges-skonhetscenter-acnespecialisten-ostermalm-135539',
     ),
     new Specialist(
         name: 'Fanny Eklund',
@@ -119,7 +119,7 @@ $specialists = array(
         rating: 4.6,
         num_treatments: 437,
         since_year: 2023,
-        booking_url: 'https://www.bokadirekt.se/places/sveriges-skonhetscenter-sodermalm-135540',
+        booking_url: 'https://www.bokadirekt.se/places/sveriges-skonhetscenter-acnespecialisten-sodermalm-135540',
     ),
     new Specialist(
         name: 'Georgina Youkhana',
@@ -132,7 +132,7 @@ $specialists = array(
         rating: 4.5,
         num_treatments: 359,
         since_year: 2022,
-        booking_url: 'https://www.bokadirekt.se/places/sveriges-skonhetscenter-sundbyberg-135394',
+        booking_url: 'https://www.bokadirekt.se/places/sveriges-skonhetscenter-acnespecialisten-sundbyberg-135394',
     ),
 );
 ?>

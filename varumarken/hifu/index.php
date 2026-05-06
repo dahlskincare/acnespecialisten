@@ -18,10 +18,10 @@ $model = new Service(
     image_large: 'bilder/varumarken/424x456/hifu.webp',
     image_alt: 'HIFU ultraljudsbehandling',
     image_title: 'HIFU ultraljudsbehandling',
-    consultation_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/konsultation-hifu-3442781',
+    consultation_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-135539/konsultation-hifu-3442781',
     consultation_url_label: 'Boka hudkonsultation',
     consultation_url_title: 'Boka tid för hudkonsultation',
-    booking_url: 'https://www.bokadirekt.se/places/sveriges-skonhetscenter-ostermalm-135539?sr=47EAD38D_275D_472B_96E6_68A5C5965983',
+    booking_url: 'https://www.bokadirekt.se/places/sveriges-skonhetscenter-acnespecialisten-ostermalm-135539?sr=47EAD38D_275D_472B_96E6_68A5C5965983',
     booking_url_label: 'Boka behandling',
     booking_url_title: 'Boka tid för behandling',
 );
@@ -50,7 +50,7 @@ $treatment_areas = array(
                 title: 'Hifu - Ansikte + Hals',
                 duration: '60 min',
                 price: '7 750 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/hifu-ansikte-hals-3442771',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-135539/hifu-ansikte-hals-3442771',
                 url_label: 'Boka',
                 url_title: 'Boka tid för HIFU ansikte + hals'
             ),
@@ -61,7 +61,7 @@ $treatment_areas = array(
                 title: 'Hifu - Kinder + Nasolabiala linjer + Käklinje',
                 duration: '30 min',
                 price: '6 200 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/hifu-kinder-nasolabiala-linjer-kaklinje-3442766',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-135539/hifu-kinder-nasolabiala-linjer-kaklinje-3442766',
                 url_label: 'Boka',
                 url_title: 'Boka tid för HIFU kinder + nasolabiala linjer + käklinje'
             ),
@@ -72,7 +72,7 @@ $treatment_areas = array(
                 title: 'Hifu - Ögonbrynslyft + Panna',
                 duration: '30 min',
                 price: '4 900 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/hifu-ogonbrynslyft-panna-3442779',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-135539/hifu-ogonbrynslyft-panna-3442779',
                 url_label: 'Boka',
                 url_title: 'Boka tid för HIFU ögonbrynslyft + panna'
             ),
@@ -83,7 +83,7 @@ $treatment_areas = array(
                 title: 'Hifu - Hals + Dubbelhaka',
                 duration: '30 min',
                 price: '4 500 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/hifu-hals-dubbelhaka-3442773',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-135539/hifu-hals-dubbelhaka-3442773',
                 url_label: 'Boka',
                 url_title: 'Boka tid för HIFU hals + dubbelhaka'
             ),
@@ -104,7 +104,7 @@ $treatment_areas = array(
                 title: 'Hifu - Mage',
                 duration: '60 min',
                 price: '5 200 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/hifu-mage-3442768',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-135539/hifu-mage-3442768',
                 url_label: 'Boka',
                 url_title: 'Boka tid för HIFU mage'
             ),
@@ -115,7 +115,7 @@ $treatment_areas = array(
                 title: 'Hifu - Kärlekshandtag',
                 duration: '30 min',
                 price: '3 900 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/hifu-karlekshandtag-3442767',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-135539/hifu-karlekshandtag-3442767',
                 url_label: 'Boka',
                 url_title: 'Boka tid för HIFU kärlekshandtag'
             ),
@@ -126,7 +126,7 @@ $treatment_areas = array(
                 title: 'Hifu - Insida lår',
                 duration: '30 min',
                 price: '4 500 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/hifu-insida-lar-3442772',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-135539/hifu-insida-lar-3442772',
                 url_label: 'Boka',
                 url_title: 'Boka tid för HIFU insida lår'
             ),
@@ -137,7 +137,7 @@ $treatment_areas = array(
                 title: 'Hifu - Baksida lår',
                 duration: '30 min',
                 price: '4 500 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/hifu-baksida-lar-3442774',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-135539/hifu-baksida-lar-3442774',
                 url_label: 'Boka',
                 url_title: 'Boka tid för HIFU baksida lår'
             ),
@@ -148,7 +148,7 @@ $treatment_areas = array(
                 title: 'Hifu - Rygg',
                 duration: '50 min',
                 price: '4 500 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/hifu-rygg-3442777',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-135539/hifu-rygg-3442777',
                 url_label: 'Boka',
                 url_title: 'Boka tid för HIFU rygg'
             ),
@@ -159,7 +159,7 @@ $treatment_areas = array(
                 title: 'Hifu - Armar',
                 duration: '30 min',
                 price: '3 800 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/hifu-armar-3442775',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-135539/hifu-armar-3442775',
                 url_label: 'Boka',
                 url_title: 'Boka tid för HIFU armar'
             ),
@@ -170,7 +170,7 @@ $treatment_areas = array(
                 title: 'Hifu - Under bh-band',
                 duration: '30 min',
                 price: '3 800 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/hifu-under-bh-band-3442778',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-135539/hifu-under-bh-band-3442778',
                 url_label: 'Boka',
                 url_title: 'Boka tid för HIFU under bh-band'
             ),
@@ -181,7 +181,7 @@ $treatment_areas = array(
                 title: 'Hifu - Bröst',
                 duration: '30 min',
                 price: '3 200 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/hifu-brost-3442776',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-135539/hifu-brost-3442776',
                 url_label: 'Boka',
                 url_title: 'Boka tid för HIFU bröst'
             ),
@@ -192,7 +192,7 @@ $treatment_areas = array(
                 title: 'Hifu - Över knän',
                 duration: '30 min',
                 price: '2 700 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/hifu-over-knan-3442780',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-135539/hifu-over-knan-3442780',
                 url_label: 'Boka',
                 url_title: 'Boka tid för HIFU över knän'
             ),
@@ -203,7 +203,7 @@ $treatment_areas = array(
                 title: 'Hifu - Dekolletage',
                 duration: '30 min',
                 price: '2 700 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/hifu-dekolletage-3442808',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-135539/hifu-dekolletage-3442808',
                 url_label: 'Boka',
                 url_title: 'Boka tid för HIFU dekolletage'
             ),
@@ -224,7 +224,7 @@ $treatment_areas = array(
                 title: 'Hifu - Paket - Mage + Kärlekshandtag',
                 duration: '90 min',
                 price: '8 500 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/hifu-paket-mage-karlekshandtag-3442770',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-135539/hifu-paket-mage-karlekshandtag-3442770',
                 url_label: 'Boka',
                 url_title: 'Boka tid för HIFU mage + kärlekshandtag'
             ),
@@ -235,7 +235,7 @@ $treatment_areas = array(
                 title: 'Hifu - Paket - Lår + Insida lår',
                 duration: '60 min',
                 price: '8 200 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/hifu-paket-lar-insida-lar-3442769',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-135539/hifu-paket-lar-insida-lar-3442769',
                 url_label: 'Boka',
                 url_title: 'Boka tid för HIFU lår + insida lår'
             ),
@@ -246,7 +246,7 @@ $treatment_areas = array(
                 title: 'Hifu - Paket - Överkropp (Armar + Under bh-band + Bröst)',
                 duration: '60 min',
                 price: '7 200 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/hifu-paket-overkropp-armar-under-bh-band-brost--3442807',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-135539/hifu-paket-overkropp-armar-under-bh-band-brost--3442807',
                 url_label: 'Boka',
                 url_title: 'Boka tid för HIFU överkropp'
             ),
