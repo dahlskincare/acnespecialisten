@@ -62,7 +62,7 @@ $review_platforms =
             logo_alt: 'Trustpilot',
             logo_title: 'Trustpilot',
             rating: 4.8,
-            link: new Link('638 omdömen', 'https://se.trustpilot.com/review/acnespecialisten.se', 'Trustpilot Omdömen'),
+            link: new Link('843 omdömen', 'https://se.trustpilot.com/review/acnespecialisten.se', 'Trustpilot Omdömen'),
             icons: $icon_registry['Trustpilot'],
         ),
         new ReviewPlatform(
@@ -75,7 +75,7 @@ $review_platforms =
         )
     );
 
-$total_reviews = '19 157 omdömen totalt';
+$total_reviews = '19 362 omdömen totalt';
 
 if (!isset($reviews)) {
     $reviews = array(
