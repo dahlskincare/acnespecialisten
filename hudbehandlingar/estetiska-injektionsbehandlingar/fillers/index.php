@@ -250,7 +250,7 @@ $results = array(
             ),
             employee: new ResultEmployee(
                 image: 'https://via.placeholder.com/102x102.webm',
-                name: 'Cazzandra Lindberg'
+                name: 'Cazzandra L'
             ),
         )
     ),

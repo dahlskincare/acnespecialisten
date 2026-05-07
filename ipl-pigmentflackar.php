@@ -353,7 +353,7 @@ $results = array(
             ),
             employee: new ResultEmployee(
                 image: 'https://via.placeholder.com/102x102.webm',
-                name: 'Cazzandra Lindberg'
+                name: 'Cazzandra L'
             ),
         )
     ),
@@ -453,11 +453,11 @@ $faq_view_more = 'Se fler frågor & svar';
 $specialists_title = 'Våra hudterapeuter';
 $specialists = array(
     new Specialist(
-        name: 'Cazzandra Lindberg',
+        name: 'Cazzandra L',
         title: 'Hudterapeut sedan 2015',
         image: 'bilder/hudterapeut/312x312/hudterapeut-cazzandra.webp',
-        image_alt: 'Cazzandra Lindberg',
-        image_title: 'Cazzandra Lindberg'
+        image_alt: 'Cazzandra L',
+        image_title: 'Cazzandra L'
     ),
     new Specialist(
         name: 'Veronika Benedik',

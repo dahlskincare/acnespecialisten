@@ -1075,11 +1075,11 @@ $faq_url_title = "läs flera frågor relaterat till akne";
 
 $specialists = array(
       new Specialist(
-            name: 'Cazzandra Lindberg',
+            name: 'Cazzandra L',
             title: 'Hudterapeut sedan 2015',
             image: 'bilder/hudterapeut/312x312/hudterapeut-cazzandra.webp',
-            image_alt: 'Cazzandra Lindberg, hudterapeut med specialisering i aknebehandling',
-            image_title: 'Cazzandra Lindberg - Expert på aknebehandling'
+            image_alt: 'Cazzandra L, hudterapeut med specialisering i aknebehandling',
+            image_title: 'Cazzandra L - Expert på aknebehandling'
       ),
       new Specialist(
             name: 'Veronika Benedik',

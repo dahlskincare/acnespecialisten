@@ -5,11 +5,11 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $specialists = array(
     new Specialist(
-        name: 'Cazzandra Lindberg',
+        name: 'Cazzandra L',
         title: 'Hudterapeut sedan 2018',
-        image: '/bilder/hudterapeut/312x312/cazzandra-lindberg.webp',
-        image_alt: 'Porträttbild på hudterapeuten Cazzandra Lindbergf',
-        image_title: 'Hudterapeut Cazzandra Lindberg',
+        image: '/bilder/hudterapeut/312x312/cazzandra-l.webp',
+        image_alt: 'Porträttbild på hudterapeuten Cazzandra L',
+        image_title: 'Hudterapeut Cazzandra L',
         city: 'Sundbyberg',
         description: '',
         rating: 4.8,
