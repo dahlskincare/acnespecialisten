@@ -328,11 +328,11 @@ $reviews_view_more = 'Se alla omdömen';
 $specialists_title = 'Våra hudterapeuter';
 $specialists = array(
     new Specialist(
-        name: 'Cazzandra Lindberg',
+        name: 'Cazzandra L',
         title: 'Hudterapeut sedan 2015',
         image: 'bilder/hudterapeut/312x312/hudterapeut-cazzandra.webp',
-        image_alt: 'Cazzandra Lindberg, hudterapeut med specialisering på vakuumsug mot pormaskar',
-        image_title: 'Cazzandra Lindberg - Expert på vakuumsug mot pormaskar'
+        image_alt: 'Cazzandra L, hudterapeut med specialisering på vakuumsug mot pormaskar',
+        image_title: 'Cazzandra L - Expert på vakuumsug mot pormaskar'
     ),
     new Specialist(
         name: 'Veronika Benedik',

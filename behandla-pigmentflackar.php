@@ -240,11 +240,11 @@ $faq_url_title = "läs flera frågor relaterat till pigmentfläcksbehandling";
 
 $specialists = array(
     new Specialist(
-        name: 'Cassandra Lindberg',
+        name: 'Cazzandra L',
         title: 'Hudterapeut sedan 2015',
         image: 'bilder/hudterapeut/312x312/hudterapeut-cazzandra.webp',
-        image_title: 'Cassandra Lindberg, Hudterapeut hos Acnespecialisten sedan 2015',
-        image_alt: 'Cassandra Lindberg - Erfaren Hudterapeut hos Acnespecialisten'
+        image_title: 'Cazzandra L, Hudterapeut hos Acnespecialisten sedan 2015',
+        image_alt: 'Cazzandra L - Erfaren Hudterapeut hos Acnespecialisten'
     ),
     new Specialist(
         name: 'Veronika Benedik',

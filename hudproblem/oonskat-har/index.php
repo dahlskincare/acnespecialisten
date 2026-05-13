@@ -245,11 +245,11 @@ $faq_url_title = "läs flera frågor relaterat";
 
 $specialists = array(
       new Specialist(
-            name: 'Cazzandra Lindberg',
+            name: 'Cazzandra L',
             title: 'Hudterapeut sedan 2015',
             image: 'bilder/hudterapeut/312x312/hudterapeut-cazzandra.webp',
-            image_alt: 'Cazzandra Lindberg, hudterapeut med specialisering i behandling mot oönskat hår',
-            image_title: 'Cazzandra Lindberg - Expert på oönskat hår'
+            image_alt: 'Cazzandra L, hudterapeut med specialisering i behandling mot oönskat hår',
+            image_title: 'Cazzandra L - Expert på oönskat hår'
       ),
       new Specialist(
             name: 'Veronika Benedik',

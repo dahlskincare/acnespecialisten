@@ -2,11 +2,11 @@
 if (!isset($specialists)) {
     $specialists = array(
         new Specialist(
-            name: 'Cazzandra Lindberg',
+            name: 'Cazzandra L',
             title: 'Hudterapeut sedan 2018',
             image: 'bilder/hudterapeut/312x312/hudterapeut-cazzandra.webp',
-            image_title: 'Hudterapeut Cazzandra Lindberg',
-            image_alt: 'Porträttbild på hudterapeuten Cazzandra Lindberg',
+            image_title: 'Hudterapeut Cazzandra L',
+            image_alt: 'Porträttbild på hudterapeuten Cazzandra L',
         ),
         new Specialist(
             name: 'Vilma Libom',

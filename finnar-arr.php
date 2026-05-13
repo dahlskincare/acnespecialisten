@@ -574,11 +574,11 @@ $faq_url_title = "läs flera frågor relaterat till ärr";
 
 $specialists = array(
       new Specialist(
-            name: 'Cazzandra Lindberg',
+            name: 'Cazzandra L',
             title: 'Hudterapeut sedan 2015',
             image: 'bilder/hudterapeut/312x312/hudterapeut-cazzandra.webp',
-            image_alt: 'Cazzandra Lindberg, hudterapeut med expertis i ärr av finnar',
-            image_title: 'Cazzandra Lindberg - Expert på behandling av ärr från finnar'
+            image_alt: 'Cazzandra L, hudterapeut med expertis i ärr av finnar',
+            image_title: 'Cazzandra L - Expert på behandling av ärr från finnar'
       ),
       new Specialist(
             name: 'Veronika Benedik',

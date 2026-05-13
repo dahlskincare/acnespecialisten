@@ -407,11 +407,11 @@ $faq_url_title = "Läs flera frågor relaterat till seborré";
 
 $specialists = array(
       new Specialist(
-            name: 'Cazzandra Lindberg',
+            name: 'Cazzandra L',
             title: 'Hudterapeut sedan 2015',
             image: 'bilder/hudterapeut/312x312/hudterapeut-cazzandra.webp',
-            image_alt: 'Cazzandra Lindberg, hudterapeut med specialisering i seborrébehandling',
-            image_title: 'Cazzandra Lindberg - Expert på seborrébehandling'
+            image_alt: 'Cazzandra L, hudterapeut med specialisering i seborrébehandling',
+            image_title: 'Cazzandra L - Expert på seborrébehandling'
       ),
       new Specialist(
             name: 'Veronika Benedik',

@@ -691,11 +691,11 @@ $faq_categories = array(
 
 $specialists = array(
       new Specialist(
-            name: 'Cazzandra Lindberg',
+            name: 'Cazzandra L',
             title: 'Hudterapeut sedan 2015',
             image: 'bilder/hudterapeut/312x312/hudterapeut-cazzandra.webp',
-            image_alt: 'Cazzandra Lindberg, hudterapeut med specialisering i pormaskbehandling',
-            image_title: 'Cazzandra Lindberg - Expert på pormaskbehandling'
+            image_alt: 'Cazzandra L, hudterapeut med specialisering i pormaskbehandling',
+            image_title: 'Cazzandra L - Expert på pormaskbehandling'
       ),
       new Specialist(
             name: 'Veronika Benedik',
