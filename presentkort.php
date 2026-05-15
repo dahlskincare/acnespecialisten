@@ -122,7 +122,7 @@ $path_segments = [
             <div id="content">
                 <section id="title">
                     <h1 class="l10n">Presentkort</h1>
-                    <p class="l10n">Ge bort en omtänksam gåva med ett presentkort på hudvårdfrån AcneSpecialisten. Nu kan du enkelt skicka en uppskattad present utan att besöka kliniken. Swisha oss det valda beloppet eller ange önskad behandling, och vi skickar ett vackert utformat presentkort direkt till dig eller mottagaren. Våra presentkort är en flexibel gåva som ger mottagaren friheten att välja bland våra många hudvårdsbehandlingar eller kvalitetsprodukter, perfekt för att visa att du bryr dig.</p>
+                    <p class="l10n">Ge bort en omtänksam gåva med ett presentkort på hudvård från AcneSpecialisten. Köp enkelt ett presentkort online via Bokadirekt – välj den klinik som passar dig bäst. Presentkortet är en flexibel gåva som ger mottagaren friheten att välja bland våra många hudvårdsbehandlingar eller kvalitetsprodukter, perfekt för att visa att du bryr dig.</p>
                     <div class="button b200 expand" onclick="document.querySelector('#steps').scrollIntoView()">Köp ett presentkort</div>
                     <div class="button outline b200 expand" onclick="document.querySelector('#terms-modal-overlay').classList.remove('is-hidden')">Allmänna villkor</div>
                 </section>
@@ -134,57 +134,12 @@ $path_segments = [
                     </picture>
                 </section>
                 <section id="steps">
-                    <div class="is-hidden-desktop">
-                        <div class="gift-card-step" id="step-1-small">
-                            <div class="flex-row align-center">
-                                <div class="gc-number">01</div>
-                                <h2 class="l10n">Swisha önskat belopp</h2>
-                            </div>
-                            <div class="gc-text l10n">Skicka valfritt belopp till 123 011 85 47 som du vill sätta in på presentkortet.</div>
-                        </div>
-                        <div class="gift-card-step" id="step-2-small">
-                            <div class="flex-row align-center">
-                                <div class="gc-number">02</div>
-                                <h2 class="l10n">Skicka in</h2>
-                            </div>
-                            <div class="gc-text l10n">Skicka i din information och bifoga en skärmbild på Swish bekräftelsen till info@acnespecialisten.se</div>
-                        </div>
-                        <div class="gift-card-step">
-                            <div class="flex-row align-center">
-                                <div class="gc-number">03</div>
-                                <h2 class="l10n">Få ditt presentkort</h2>
-                            </div>
-                            <div class="gc-text l10n">Vi skickar ett digitalt presentkort online till dig inom 1 dag. Vi skickar även presentkortet fysiskt via posten enligt önskemål, detta tar normalt 2-3 dagar.</div>
-                        </div>
-                    </div>
-                    <div class="is-hidden-touch">
-                        <div class="gift-card-step" id="step-1-large">
-                            <div class="flex-row align-center">
-                                <div class="gc-number">01</div>
-                                <div class="gc-texts">
-                                    <h2 class="l10n">Swisha önskat belopp</h2>
-                                    <div class="l10n">Skicka valfritt belopp till 123 011 85 47 som du vill sätta in på presentkortet.</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class=" gift-card-step" id="step-2-large">
-                            <div class="flex-row align-center">
-                                <div class="gc-number">02</div>
-                                <div class="gc-texts">
-                                    <h2 class="l10n">Skicka in</h2>
-                                    <div class="gc-text l10n">Skicka i din information och bifoga en skärmbild på Swish bekräftelsen till info@acnespecialisten.se</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="gift-card-step">
-                            <div class="flex-row align-center">
-                                <div class="gc-number">03</div>
-                                <div class="gc-texts">
-                                    <h2 class="l10n">Få ditt presentkort</h2>
-                                    <div class="l10n">Vi skickar ett digitalt presentkort till dig inom 1 dag. Vi skickar även presentkortet fysiskt via posten enligt önskemål, detta tar normalt 2-3 dagar.</div>
-                                </div>
-                            </div>
-                        </div>
+                    <h2 class="l10n">Välj klinik</h2>
+                    <p class="gc-text l10n">Klicka på din närmaste klinik för att köpa presentkortet via Bokadirekt.</p>
+                    <div id="clinic-selector">
+                        <a href="https://www.bokadirekt.se/places/sveriges-skonhetscenter-acnespecialisten-sodermalm-135540/giftcard/checkout" class="button b200 expand l10n" target="_blank" rel="noopener">Södermalm</a>
+                        <a href="https://www.bokadirekt.se/places/sveriges-skonhetscenter-acnespecialisten-ostermalm-135539/giftcard/checkout" class="button b200 expand l10n" target="_blank" rel="noopener">Östermalm</a>
+                        <a href="https://www.bokadirekt.se/places/sveriges-skonhetscenter-acnespecialisten-sundbyberg-135394/giftcard/checkout" class="button b200 expand l10n" target="_blank" rel="noopener">Sundbyberg</a>
                     </div>
                 </section>
                 <section id="flyers">
@@ -279,8 +234,6 @@ $path_segments = [
         </div>
     </main>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
-    <script src="presentkort/gift-cards.js"></script>
-
     <div id="terms-modal-overlay" class="is-hidden">
         <div id="terms-modal">
             <h2>Presentkortsvillkor</h2>
