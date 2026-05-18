@@ -303,7 +303,7 @@ $treatment_areas = array(
                 image_alt: '4 - 6 st',
                 image_title: '4 - 6 st',
                 title: '4 - 6 st',
-                duration: '20 min',
+                duration: '30 min',
                 price: '3995 kr',
                 url: 'https://boka.acnespecialisten.se?flow=cryopen&skipable_problem=Problem_skintags&quantity=PriceClass_Skin_Imperfections_4-6',
                 url_label: 'Boka',
