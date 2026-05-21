@@ -363,7 +363,7 @@ $faq_categories = array(
                   text: '<p class="p200">Priset på 1995 kr gäller för behandling av 1 hudförändring. För flera hudflikar har vi följande priser baserat på antal:</p>
                   <p class="p200 mt-m">1 hudförändring: 1995 kr (20 min)<br />
                   2-3 hudförändringar: 2995 kr - 20 min<br />
-                  4-6 hudförändringar: 3995 kr - 20 min<br />
+                  4-6 hudförändringar: 3995 kr - 30 min<br />
                   7-10 hudförändringar: 4995 kr - 30 min<br />
                   11-20 hudförändringar: 7995 kr - 50 min<br />
                   21-50 hudförändringar: 15995 kr - 90 min</p>

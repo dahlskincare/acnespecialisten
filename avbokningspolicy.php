@@ -48,7 +48,7 @@ $path_segments = [
                         '' => array(
                             new Question('Avbokningspolicy', '<p class="p200">Avbokning bör ske senast 24 timmar före din inbokade tid. Om du avbokar senare än så, eller uteblir från ditt bokade besök, kommer en avbokningsavgift att debiteras. Observera att denna policy gäller oavsett anledning till avbokning, även vid sjukdom på behandlingsdagen.</p>'),
                             new Question('Hur avbokar jag min tid?', '<p class="p200">För att säkerställa en smidig avbokning rekommenderar vi att du använder avbokningskoden du mottog i din bokningsbekräftelse. Om du väljer att avboka via e-post eller telefonsvarare, var noga med att inkludera ditt fullständiga namn, den behandling du har bokat, samt den specifika dagen och tiden för din bokning.'),
-                            new Question('Hur debiteras ett uteblivet besök?', '<p class="p200">Debitering sker via Billecta faktura som skickas via e-post.</p>'),
+                            new Question('Hur debiteras ett uteblivet besök?', '<p class="p200">Vid sen avbokning eller uteblivet besök debiterar vi 500–1500 kronor beroende på den bokade behandlingen. Debitering sker via faktura som skickas ut via noshow.nu från Skinstory AB.</p>'),
                         )
                     );
                     include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php');
