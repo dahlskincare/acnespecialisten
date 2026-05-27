@@ -81,8 +81,8 @@ $faq_categories = array(
             text: '<p class="p200">Under konsultationen kommer en av våra hudspecialister att noggrant analysera din hudtyp och diskutera dina hudproblem. Vi kommer även att gå igenom din nuvarande hudvårdsrutin och ge personliga rekommendationer för behandlingar och produkter som bäst passar dina behov.</p>'
         ),
         new Question(
-            title: 'Varför får jag ingen länk till online-mötet?',
-            text: '<p class="p200">Vi använder inte traditionella möteslänkar för våra online-konsultationer. För iOS-användare (iPhone/iPad) ringer vi upp dig via vanligt videosamtal på din bokade tid. För Android-användare skickar vi en länk via SMS i samband med den bokade tiden. Se till att ange ditt telefonnummer korrekt när du bokar så att vi kan kontakta dig.</p>'
+            title: 'Hur fungerar länken till mitt online-möte?',
+            text: '<p class="p200">För bokningar gjorda från och med 27 maj 2026 skickar vi en Google Meet-länk i ditt bekräftelsemejl – klicka på länken på din bokade tid så är du direkt inne i mötet. För äldre bokningar gäller ett annat system: iOS-användare (iPhone/iPad) ringer vi upp via FaceTime på bokad tid, och Android-användare skickar vi en länk via SMS i samband med den bokade tiden.</p>'
         ),
     ),
     'Produkter' => array(

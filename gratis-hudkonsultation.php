@@ -216,7 +216,7 @@ $results_images = array(
                             ),
                             new Question(
                                 title: 'Hur fungerar tekniken för online-konsultationen?',
-                                text: '<p class="p200">För online-konsultationer använder vi olika metoder beroende på din enhet. Om du har iOS (iPhone/iPad) ringer vi upp dig via vanligt videosamtal på din bokade tid. För Android-användare skickar vi en länk via SMS i samband med den bokade tiden. Se till att ange ditt telefonnummer korrekt när du bokar så att vi kan kontakta dig på rätt sätt.</p>'
+                                text: '<p class="p200">För bokningar gjorda från och med 27 maj 2026 skickar vi en Google Meet-länk i ditt bekräftelsemejl – klicka på länken vid din bokade tid. För äldre bokningar: iOS-användare (iPhone/iPad) ringer vi upp via FaceTime på bokad tid. Android-användare skickar vi en länk via SMS i samband med den bokade tiden. Se till att ange ditt telefonnummer korrekt när du bokar.</p>'
                             ),
                             new Question(
                                 title: 'Kan jag kontakta er för att ställa frågor innan jag bokar?',
