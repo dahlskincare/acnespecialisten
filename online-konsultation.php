@@ -138,7 +138,7 @@ $results_images = array(
                         </div>
                     </div>
                     <div class="mt-xl l10n">
-                        <p class="p200">På vår <a class="b200 underline color-deep-sea-400" href="/gratis-hudkonsultation.php" title="Mer information om hudkonsultation">hudkonsultation</a> via FaceTime läggs grunden för att hjälpa dig på bästa sätt. Vi identifierar och analyserar din hy, ger förslag på en behandling som skulle passa dig samt rekommenderar lämpliga hudvårdsprodukter.</p>
+                        <p class="p200">På vår <a class="b200 underline color-deep-sea-400" href="/gratis-hudkonsultation.php" title="Mer information om hudkonsultation">hudkonsultation</a> via videosamtal läggs grunden för att hjälpa dig på bästa sätt. Vi identifierar och analyserar din hy, ger förslag på en behandling som skulle passa dig samt rekommenderar lämpliga hudvårdsprodukter.</p>
                     </div>
                 </section>
                 <section id="results" class="large-margin">
