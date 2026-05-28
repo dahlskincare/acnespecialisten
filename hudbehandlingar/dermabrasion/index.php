@@ -93,7 +93,7 @@ $big_types = array(
     ),
     new Service(
         title: 'HydraDermabrasion - Boost & Glow',
-        duration: '40 min',
+        duration: '50 min',
         price: null,
         content: '<p class="p200">Upptäck vår specialanpassade Hydrafacial-behandling för mogen hy. Vi använder ett unikt serum berikat med två kraftfulla peptider som aktiverar hudens egna proteiner, essentiella för elasticitet och fasthet. Denna djupgående behandling penetrerar huden för att stärka dess struktur, vilket minskar synligheten av rynkor och fina linjer för en omedelbar boost och strålande lyster.</p>',
         image_small: '/bilder/hudbehandlingar/200x200/hydrafacial-boost-glow.webp',
@@ -130,7 +130,7 @@ $big_types = array(
     ),
     new Service(
         title: 'HydraDermabrasion - Mot Pormaskar',
-        duration: '40 min',
+        duration: '50 min',
         price: null,
         content: '<p class="p200">Vår Hydrafacial-behandling för problemhy är skräddarsydd för att effektivt bekämpa pormaskar och finnar. Genom att använda en intensiv peeling med två specifika syror tar vi målmedvetet bort orenheter och överflödigt talg som bidrar till problemhy. Denna djuprengörande process minskar pormaskar och finnar, lämnar huden ren och klar med förbättrad hudtextur.</p>',
         image_small: '/bilder/hudbehandlingar/200x200/hydrafacial-pormaskar.webp',

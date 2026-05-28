@@ -273,7 +273,7 @@ $articles = array(
             image_large: null,
             image_alt: 'När ska jag söka hjälp för finnar i ansiktet?',
             image_title: 'När ska jag söka hjälp för finnar i ansiktet?',
-            content: '<p class="p200">finnar i ansiktet kan vara mer än bara ett kosmetiskt problem. De kan också vara en källa till fysisk och emotionell stress. Om du märker att dina finnar är ihållande eller blir värre är det dags att överväga professionell hjälp. Att hantera finnarna tidigt är avgörande för att minska risken för ärrbildning och andra långsiktiga effekter på huden. Professionell rådgivning kan inte bara hjälpa till att behandla befintliga utbrott, utan också ge insikt i förebyggande åtgärder och skräddarsydda hudvårdsrutiner.</p>',
+            content: '<p class="p200">Finnar i ansiktet kan vara mer än bara ett kosmetiskt problem. De kan också vara en källa till fysisk och emotionell stress. Om du märker att dina finnar är ihållande eller blir värre är det dags att överväga professionell hjälp. Att hantera finnarna tidigt är avgörande för att minska risken för ärrbildning och andra långsiktiga effekter på huden. Professionell rådgivning kan inte bara hjälpa till att behandla befintliga utbrott, utan också ge insikt i förebyggande åtgärder och skräddarsydda hudvårdsrutiner.</p>',
       ),
 
       new Article(
