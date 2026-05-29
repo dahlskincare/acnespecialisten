@@ -132,7 +132,7 @@ $types_description = '';
 $big_types = array(
     new Service(
         title: 'Vakuumsug mot pormaskar',
-        duration: '40 min',
+        duration: '50 min',
         price: null,
         content: '',
         image_small: '/bilder/hudbehandlingar/200x200/hydrafacial-pormaskar.webp',
