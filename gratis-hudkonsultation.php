@@ -186,7 +186,7 @@ $results_images = array(
                     $reviews_narrow = true;
                     include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php');
                     ?>
-                    <a class="mt-xl button b200 outline expand auto-width l10n" href="https://se.trustpilot.com/review/acnespecialisten.se" title="Se alla omdömen">Se alla omdömen</a>
+                    <a class="mt-xl button b200 outline expand auto-width l10n" href="/recensioner-omdomen.php" title="Se alla omdömen">Se alla omdömen</a>
                 </section>
                 <section id="faq" class="large-margin">
                     <div class="flex-row align-end justify-space-between">
