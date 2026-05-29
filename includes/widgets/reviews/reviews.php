@@ -69,7 +69,7 @@ $review_platforms =
             logo_url: 'images/brands/bokadirekt.svg',
             logo_alt: 'Bokadirekt',
             logo_title: 'Bokadirekt',
-            link: new Link('18 136 omdömen', 'https://www.bokadirekt.se/places/sveriges-skonhetscenter-acnespecialisten-sundbyberg-135394', 'Bokadirekt Omdömen'),
+            link: new Link('18 136 omdömen', 'https://www.bokadirekt.se/sok?q=sveriges+skonhetscenter+acnespecialisten', 'Bokadirekt Omdömen'),
             rating: 4.8,
             icons: $icon_registry['Bokadirekt'],
         )
