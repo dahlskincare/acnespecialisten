@@ -961,7 +961,7 @@ $brands_url_title = "Varumärken för pormaskar";
                               $reviews_narrow = true;
                               include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php');
                               ?>
-                              <a class="mt-xl button b200 outline expand auto-width l10n" title="Omdömen" href="https://se.trustpilot.com/review/acnespecialisten.se">Läs fler omdömen</a>
+                              <a class="mt-xl button b200 outline expand auto-width l10n" title="Omdömen" href="/recensioner-omdomen.php">Läs fler omdömen</a>
                         </section>
                         <section id="faq">
                               <h2 class="big l10n">Frågor & Svar</h2>
