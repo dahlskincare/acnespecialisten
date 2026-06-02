@@ -15,6 +15,10 @@ if (!isset($show_review_banners_header)) {
     $show_review_banners_header = true;
 }
 
+if (!isset($show_view_more_button)) {
+    $show_view_more_button = true;
+}
+
 class ReviewPlatform
 {
     public function __construct(
@@ -215,7 +219,9 @@ if (!isset($reviews)) {
             </div>
         <?php } ?>
     </div>
-    <a href="/recensioner-omdomen.php" title="Se alla omdömen" class="button b200 outline mt-xl expand is-hidden-desktop l10n">
-        Se alla omdömen
-    </a>
+    <?php if ($show_view_more_button) { ?>
+        <a href="/recensioner-omdomen.php" title="Se alla omdömen" class="button b200 outline mt-xl expand is-hidden-desktop l10n">
+            Se alla omdömen
+        </a>
+    <?php } ?>
 </div>

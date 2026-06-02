@@ -277,7 +277,6 @@ $top_articles = array(
 
 $reviews_title = 'Omdömen';
 
-$reviews_view_more = 'Se alla omdömen';
 
 $faq_title = 'Frågor & Svar';
 $faq_categories = array(
@@ -444,7 +443,6 @@ $faq_view_more = 'Se fler frågor & svar';
                     $reviews_narrow = true;
                     include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php');
                     ?>
-                    <a class="mt-xl button b200 outline expand auto-width l10n" href="/recensioner-omdomen.php" title="Se alla omdömen"><?php echo $reviews_view_more ?></a>
                 </section>
                 <section id="faq" class="large-margin">
                     <h2 class="big l10n"><?php echo $faq_title ?></h2>
