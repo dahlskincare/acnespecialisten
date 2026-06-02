@@ -73,13 +73,13 @@ $review_platforms =
             logo_url: 'images/brands/bokadirekt.svg',
             logo_alt: 'Bokadirekt',
             logo_title: 'Bokadirekt',
-            link: new Link('18 136 omdömen', 'https://www.bokadirekt.se/sok?q=sveriges+skonhetscenter+acnespecialisten', 'Bokadirekt Omdömen'),
+            link: new Link('35 849 omdömen', 'https://www.bokadirekt.se/sok?q=sveriges+skonhetscenter+acnespecialisten', 'Bokadirekt Omdömen'),
             rating: 4.8,
             icons: $icon_registry['Bokadirekt'],
         )
     );
 
-$total_reviews = '19 362 omdömen totalt';
+$total_reviews = '37 075 omdömen totalt';
 
 if (!isset($reviews)) {
     $reviews = array(
