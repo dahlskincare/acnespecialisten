@@ -105,7 +105,7 @@ $path_segments = [
 
     <title class="l10n">Digitalt presentkort på hudvård & skönhet</title>
     <meta name="title" content="Digitalt presentkort på hudvård & skönhet" class="l10n">
-    <meta name="description" content="Ge bort skönhet med ett digitalt presentkort. Perfekt för hudvård, ansiktsbehandlingar och mer. Skicka kärlek online med ett klick!" class="l10n">
+    <meta name="description" content="Ge bort ett digitalt presentkort på hudvård från AcneSpecialisten. Köp på plats i kliniken eller online via Bokadirekt. Vill du ha det fysiskt hemskickat hjälper vår kundtjänst dig." class="l10n">
     <meta name="keywords" content="presentkort, presentkort hudvård, digitalt presentkort, skicka digitalt presentkort, presentkort online, skicka presentkort online" class="l10n">
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
 
@@ -122,7 +122,7 @@ $path_segments = [
             <div id="content">
                 <section id="title">
                     <h1 class="l10n">Presentkort</h1>
-                    <p class="l10n">Ge bort en omtänksam gåva med ett presentkort på hudvård från AcneSpecialisten. Köp enkelt ett presentkort online via Bokadirekt – välj den klinik som passar dig bäst. Presentkortet är en flexibel gåva som ger mottagaren friheten att välja bland våra många hudvårdsbehandlingar eller kvalitetsprodukter, perfekt för att visa att du bryr dig.</p>
+                    <p class="l10n">Ge bort en omtänksam gåva med ett presentkort på hudvård från AcneSpecialisten. Du kan köpa presentkort på plats på någon av våra kliniker eller online. Online köper du enkelt via Bokadirekt genom att klicka på din närmaste klinik nedan. Vill du få presentkortet fysiskt hemskickat hör du av dig till vår <a href="kontakt.php">kundtjänst</a>, så skickar vi ett presentkort med valt belopp eller behandling.</p>
                     <div class="button b200 expand" onclick="document.querySelector('#steps').scrollIntoView()">Köp ett presentkort</div>
                 </section>
                 <section id="image">
@@ -143,16 +143,16 @@ $path_segments = [
                 </section>
                 <section id="flyers">
                     <div class="gift-card-flyer">
-                        <div class="h500 is-hidden-desktop l10n">Välj belopp eller behandling</div>
+                        <div class="h500 is-hidden-desktop l10n">Köp på plats eller få det hemskickat</div>
                         <picture>
                             <source media="(max-width: 1023px)" srcset="/bilder/presentkort/mobile/slide-1.webp">
                             <source media="(min-width: 1024px)" srcset="/bilder/presentkort/desktop/slide-1.webp">
-                            <img loading="lazy" src="/bilder/presentkort/mobile/slide-1.webp" alt="Välj Belopp eller Behandling" title="Välj Belopp eller Behandling" width="358" height="272" />
+                            <img loading="lazy" src="/bilder/presentkort/mobile/slide-1.webp" alt="Köp presentkort på plats eller få det hemskickat" title="Köp presentkort på plats eller få det hemskickat" width="358" height="272" />
                         </picture>
                         <div>
-                            <div class="gcf-header is-hidden-touch l10n">Välj belopp eller behandling</div>
+                            <div class="gcf-header is-hidden-touch l10n">Köp på plats eller få det hemskickat</div>
                             <div class="gcf-text l10n">
-                                På AcneSpecialisten ger vi dig flexibiliteten att skräddarsy ditt presentkort. Du kan välja att antingen ange ett specifikt belopp eller namnge en särskild behandling som du önskar ge bort. Detta gör våra presentkort till en personlig och uppskattad gåva, anpassad efter mottagarens behov och önskemål.
+                                Du är varmt välkommen att köpa presentkort på plats på någon av våra kliniker. Vill du hellre få presentkortet fysiskt hemskickat hör du av dig till vår <a href="kontakt.php">kundtjänst</a>, så skickar vi ett presentkort med det belopp eller den behandling du väljer.
                             </div>
                             <button class="outline b200 expand l10n" onclick="document.querySelector('#steps').scrollIntoView()">Beställ ett presentkort</button>
                         </div>
