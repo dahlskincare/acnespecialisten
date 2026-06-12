@@ -15,6 +15,10 @@ if (!isset($show_review_banners_header)) {
     $show_review_banners_header = true;
 }
 
+if (!isset($show_view_more_button)) {
+    $show_view_more_button = true;
+}
+
 class ReviewPlatform
 {
     public function __construct(
@@ -69,13 +73,13 @@ $review_platforms =
             logo_url: 'images/brands/bokadirekt.svg',
             logo_alt: 'Bokadirekt',
             logo_title: 'Bokadirekt',
-            link: new Link('18 136 omdömen', 'https://www.bokadirekt.se/sok?q=sveriges+skonhetscenter+acnespecialisten', 'Bokadirekt Omdömen'),
+            link: new Link('35 849 omdömen', 'https://www.bokadirekt.se/sok?q=sveriges+skonhetscenter+acnespecialisten', 'Bokadirekt Omdömen'),
             rating: 4.8,
             icons: $icon_registry['Bokadirekt'],
         )
     );
 
-$total_reviews = '19 362 omdömen totalt';
+$total_reviews = '37 075 omdömen totalt';
 
 if (!isset($reviews)) {
     $reviews = array(
@@ -215,7 +219,9 @@ if (!isset($reviews)) {
             </div>
         <?php } ?>
     </div>
-    <a href="/recensioner-omdomen.php" title="Se alla omdömen" class="button b200 outline mt-xl expand is-hidden-desktop l10n">
-        Se alla omdömen
-    </a>
+    <?php if ($show_view_more_button) { ?>
+        <a href="/recensioner-omdomen.php" title="Se alla omdömen" class="button b200 outline mt-xl expand is-hidden-desktop l10n">
+            Se alla omdömen
+        </a>
+    <?php } ?>
 </div>

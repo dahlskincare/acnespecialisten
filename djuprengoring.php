@@ -309,7 +309,6 @@ $results = array(
 
 $reviews_title = 'Omdömen';
 
-$reviews_view_more = 'Se alla omdömen';
 
 $specialists_title = 'Våra hudterapeuter';
 $specialists = array(
@@ -517,7 +516,6 @@ $all_brands = array(
                     $reviews_narrow = true;
                     include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php');
                     ?>
-                    <a class="mt-xl button b200 outline expand auto-width l10n" href="/recensioner-omdomen.php" title="Se alla omdömen"><?php echo $reviews_view_more ?></a>
                 </section>
                 <section id="specialists" class="large-margin">
                     <div class="flex-row justify-space-between">

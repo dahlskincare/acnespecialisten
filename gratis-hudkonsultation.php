@@ -186,7 +186,6 @@ $results_images = array(
                     $reviews_narrow = true;
                     include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php');
                     ?>
-                    <a class="mt-xl button b200 outline expand auto-width l10n" href="/recensioner-omdomen.php" title="Se alla omdömen">Se alla omdömen</a>
                 </section>
                 <section id="faq" class="large-margin">
                     <div class="flex-row align-end justify-space-between">
@@ -216,7 +215,7 @@ $results_images = array(
                             ),
                             new Question(
                                 title: 'Hur fungerar tekniken för online-konsultationen?',
-                                text: '<p class="p200">För bokningar gjorda från och med 27 maj 2026 skickar vi en Google Meet-länk i ditt bekräftelsemejl. Klicka på länken vid din bokade tid. För äldre bokningar: iOS-användare (iPhone/iPad) ringer vi upp via FaceTime på bokad tid. Android-användare skickar vi en länk via SMS i samband med den bokade tiden. Se till att ange ditt telefonnummer korrekt när du bokar.</p>'
+                                text: '<p class="p200">För bokningar gjorda från och med juni 2026 skickar vi en Google Meet-länk i ditt bekräftelsemejl. Klicka på länken vid din bokade tid så är du direkt inne i mötet. Konsultationer som bokades innan dess sker via FaceTime, där vi ringer upp dig på din bokade tid.</p>'
                             ),
                             new Question(
                                 title: 'Kan jag kontakta er för att ställa frågor innan jag bokar?',
