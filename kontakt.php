@@ -2,6 +2,17 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
+// Session carries the anti-spam timestamp for the time-trap check below.
+// Default cache_limiter also sends no-cache headers, so the form page
+// is never served from cache without a fresh timestamp.
+session_start();
+
+// Time-trap: stamp the session when the form page renders. On POST the
+// stamp is left untouched here - the check further down reads and clears it.
+if (!array_key_exists('message', $_POST)) {
+    $_SESSION['contact_form_ts'] = time();
+}
+
 $path_segments = array(
     new PathSegment('Kontakt', '/kontakt.php'),
 );
@@ -113,6 +124,20 @@ $salons = array(
                     $honeypot = $_POST['website'] ?? '';
                     $is_bot = !empty($honeypot);
 
+                    // Time-trap: the form page sets a timestamp in the session. If it is
+                    // missing the sender never loaded the form (direct POST), and a reply
+                    // within 5 seconds is too fast for a human. The stamp is ONE-TIME -
+                    // it is cleared after the check, so one form load allows at most one
+                    // submission. Messages without a space are also rejected (gibberish
+                    // bots send single character strings).
+                    // Bots get no email sent, but still see the confirmation below.
+                    $form_ts = $_SESSION['contact_form_ts'] ?? 0;
+                    unset($_SESSION['contact_form_ts']);
+                    $is_bot = $is_bot
+                        || $form_ts <= 0
+                        || time() - $form_ts < 5
+                        || strpos(trim($_POST['message'] ?? ''), ' ') === false;
+
                     // Sanitize inputs to prevent HTML/Script injection
                     $category = htmlspecialchars(strip_tags($_POST['category'] ?? ''), ENT_QUOTES, 'UTF-8');
                     $name = htmlspecialchars(strip_tags($_POST['name'] ?? ''), ENT_QUOTES, 'UTF-8');
@@ -164,6 +189,12 @@ $salons = array(
                         $headers .= 'From: Acnespecialisten <info@acnespecialisten.se>' . "\r\n";
                         $headers .= 'Reply-To: ' . $email . "\r\n";
                         mail($to, $subject, $message, $headers);
+
+                        // Fresh stamp after a successful send: a customer who goes back
+                        // (bfcache does not re-render the form page) and sends a second
+                        // message is not blocked, while a bot on the same session is
+                        // still limited to one submission per 5 seconds.
+                        $_SESSION['contact_form_ts'] = time();
                     }
                 ?>
                     <section id="confirmation">
