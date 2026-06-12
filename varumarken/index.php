@@ -11,6 +11,14 @@ $green_banner_content = new GreenBannerContent(
 
 $header_brands = array(
       new Brand(
+            label: 'HIFU',
+            image: 'bilder/logotyper/hifu.svg',
+            image_alt: 'HIFU logotyp',
+            image_title: 'HIFU - ultraljud',
+            url: 'varumarken/hifu/',
+            url_title: 'HIFU',
+      ),
+      new Brand(
             label: 'Fraction CO2',
             image: 'bilder/logotyper/fraction-co2.svg',
             image_alt: 'Fraction CO2 logotyp',
@@ -130,14 +138,6 @@ $header_brands = array(
             url: 'microdermabrasion.php',
             url_title: 'Microdermabrasion',
       ),
-      new Brand(
-            label: 'HIFU',
-            image: 'bilder/logotyper/hifu.svg',
-            image_alt: 'HIFU logotyp',
-            image_title: 'HIFU - ultraljud',
-            url: 'varumarken/hifu/',
-            url_title: 'HIFU',
-      ),
 );
 
 $link_brands = array(
@@ -202,6 +202,7 @@ $link_brands = array(
             services: array(
                   "/infuzion.php" => "Infuzion",
                   "/varumarken/dual-injector/" => "Dual Injector",
+                  "/varumarken/hifu/" => "HIFU",
             )
       ),
       new BrandCategory(
@@ -216,6 +217,24 @@ $link_brands = array(
 );
 
 $brand_cards = array(
+      new Brand(
+            label: 'HIFU',
+            image: 'bilder/logotyper/hifu.svg',
+            image_alt: 'HIFU logotyp',
+            image_title: 'HIFU - ultraljud',
+            photo: 'bilder/varumarken/424x324/hifu.webp',
+            photo_alt: 'HIFU ultraljudsbehandling',
+            photo_title: 'HIFU - ultraljud',
+            title: 'HIFU',
+            subtitle: 'Hudåtstramning med ultraljud',
+            description: 'HIFU (High-Intensity Focused Ultrasound) är en avancerad icke-kirurgisk behandling som använder fokuserad ultraljudsenergi för att strama åt huden. Behandlingen når djupt ner till SMAS-lagret och stimulerar kollagenproduktionen för synliga resultat utan kniv eller återhämtningstid.',
+            url: 'varumarken/hifu/',
+            url_title: 'Läs mer om HIFU',
+            booking_url: 'https://www.bokadirekt.se/places/sveriges-skonhetscenter-acnespecialisten-ostermalm-135539?sr=47EAD38D_275D_472B_96E6_68A5C5965983',
+            booking_url_title: 'Boka tid för HIFU-behandling',
+            consultation_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-135539/konsultation-hifu-3442781',
+            consultation_url_title: 'Boka gratis hudkonsultation',
+      ),
       new Brand(
             label: 'Alma Hybrid CO2',
             image: 'bilder/logotyper/alma-hybrid.svg',
@@ -466,24 +485,6 @@ $brand_cards = array(
             booking_url: 'https://boka.acnespecialisten.se?flow=microdermabrasion',
             booking_url_title: 'Boka tid för Microdermabrasion-behandling',
             consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Service&Consultationwhat=Consultation_Method_Dermabrasion',
-            consultation_url_title: 'Boka gratis hudkonsultation',
-      ),
-      new Brand(
-            label: 'HIFU',
-            image: 'bilder/logotyper/hifu.svg',
-            image_alt: 'HIFU logotyp',
-            image_title: 'HIFU - ultraljud',
-            photo: 'bilder/varumarken/424x324/hifu.webp',
-            photo_alt: 'HIFU ultraljudsbehandling',
-            photo_title: 'HIFU - ultraljud',
-            title: 'HIFU',
-            subtitle: 'Hudåtstramning med ultraljud',
-            description: 'HIFU (High-Intensity Focused Ultrasound) är en avancerad icke-kirurgisk behandling som använder fokuserad ultraljudsenergi för att strama åt huden. Behandlingen når djupt ner till SMAS-lagret och stimulerar kollagenproduktionen för synliga resultat utan kniv eller återhämtningstid.',
-            url: 'varumarken/hifu/',
-            url_title: 'Läs mer om HIFU',
-            booking_url: 'https://www.bokadirekt.se/places/sveriges-skonhetscenter-acnespecialisten-ostermalm-135539?sr=47EAD38D_275D_472B_96E6_68A5C5965983',
-            booking_url_title: 'Boka tid för HIFU-behandling',
-            consultation_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-135539/konsultation-hifu-3442781',
             consultation_url_title: 'Boka gratis hudkonsultation',
       ),
 );
