@@ -530,7 +530,7 @@ $all_brands = array(
 
 <head>
 
-    <link rel="canonical" href="https://www.acnespecialisten.se/hudbehandlingar/laser-mot-hudproblem/" />
+    <link rel="canonical" href="https://www.acnespecialisten.se/hudbehandlingar/vaxning/" />
 
     <title><?php echo $seo_title ?></title>
     <meta name="description" content="<?php echo $seo_description ?>">
