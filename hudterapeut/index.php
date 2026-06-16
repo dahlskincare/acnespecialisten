@@ -134,19 +134,20 @@ $specialists = array(
         since_year: 2021,
         booking_url: 'https://www.bokadirekt.se/places/sveriges-skonhetscenter-acnespecialisten-ostermalm-135539',
     ),
-    new Specialist(
-        name: 'Sally Johansson',
-        title: 'Hudterapeut sedan 2020',
-        image: '/bilder/hudterapeut/312x312/sally-johansson.webp',
-        image_alt: 'Porträttbild på hudterapeuten Sally Johansson',
-        image_title: 'Hudterapeut Sally Johansson',
-        city: 'Södermalm',
-        description: '',
-        rating: 4.8,
-        num_treatments: 668,
-        since_year: 2020,
-        booking_url: 'https://www.bokadirekt.se/places/sveriges-skonhetscenter-acnespecialisten-sodermalm-135540',
-    ),
+    // Pausad: Sally Johansson har slutat men kan komma tillbaka – avkommentera för att återaktivera.
+    // new Specialist(
+    //     name: 'Sally Johansson',
+    //     title: 'Hudterapeut sedan 2020',
+    //     image: '/bilder/hudterapeut/312x312/sally-johansson.webp',
+    //     image_alt: 'Porträttbild på hudterapeuten Sally Johansson',
+    //     image_title: 'Hudterapeut Sally Johansson',
+    //     city: 'Södermalm',
+    //     description: '',
+    //     rating: 4.8,
+    //     num_treatments: 668,
+    //     since_year: 2020,
+    //     booking_url: 'https://www.bokadirekt.se/places/sveriges-skonhetscenter-acnespecialisten-sodermalm-135540',
+    // ),
 );
 ?>
 <!DOCTYPE html>
