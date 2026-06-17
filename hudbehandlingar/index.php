@@ -170,11 +170,6 @@ $people_search_for = array(
         url_title: 'Läs mer om PRX-T33'
     ),
     new Treatment(
-        label: 'HIFU',
-        url: '/varumarken/hifu/',
-        url_title: 'Läs mer om HIFU'
-    ),
-    new Treatment(
         label: 'Dermabrasion',
         url: '/hudbehandlingar/dermabrasion/',
         url_title: 'Läs mer om dermabrasion'
@@ -198,6 +193,11 @@ $people_search_for = array(
         label: 'Fillers',
         url: '/hudbehandlingar/estetiska-injektionsbehandlingar/fillers/',
         url_title: 'Läs mer om fillers'
+    ),
+    new Treatment(
+        label: 'HIFU ultraljud',
+        url: '/varumarken/hifu/',
+        url_title: 'Läs mer om HIFU ultraljud'
     ),
 );
 

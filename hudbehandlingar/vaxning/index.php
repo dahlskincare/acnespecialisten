@@ -4,7 +4,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Professionell vaxning i Stockholm – Omedelbar hårborttagning';
-$seo_description = 'Upplev omedelbar hårborttagning med skonsam vaxning. Våra erfarna terapeuter ger dig silkeslen hud direkt. Boka din tid idag och känn skillnaden!';
+$seo_description = 'Upplev omedelbar hårborttagning med skonsam vaxning. Våra erfarna hudterapeuter ger dig silkeslen hud direkt. Boka din tid idag och känn skillnaden!';
 $seo_keywords = 'vaxning, omedelbar hårborttagning, hårborttagning vaxning, vaxning stockholm, vaxa bort hår, brasiliansk vaxning, skonsam hårborttagning';
 
 $seo_image = 'bilder/hudbehandlingar/424x456/vaxning.webp';
@@ -35,7 +35,7 @@ $floating_box = 'Omedelbar hårborttagning med vaxning.';
 
 $description_title = 'Vad är vaxning?';
 $description_text = '<p class="p200">Vaxning är en beprövad och effektiv metod för omedelbar hårborttagning som ger dig slät och len hud direkt efter behandlingen. Hårstråna avlägsnas från roten, vilket ger ett resultat som varar i flera veckor. Behandlingen passar för alla kroppsdelar, från ansikte och armar till ben, rygg och intimområden.</p>
-<p class="p200 mt-m">Till skillnad från rakning som endast tar bort hårstrået vid ytan, ger vaxning ett långvarigare resultat och tunnare återväxt över tid. Metoden passar de flesta hud- och hårtyper och utförs med skonsamma tekniker som minimerar risken för irritation. Vaxning är ett utmärkt alternativ för dig som vill ha en snabb och effektiv lösning utan behov av avancerad teknik eller återhämtningstid.</p>';
+<p class="p200 mt-m">Till skillnad från rakning som endast tar bort hårstrået vid ytan, ger vaxning ett slätt resultat som håller i flera veckor innan håret växer tillbaka. Metoden passar de flesta hud- och hårtyper och utförs med skonsamma tekniker som minimerar risken för irritation. Vaxning är ett utmärkt alternativ för dig som vill ha en snabb och effektiv lösning utan behov av avancerad teknik eller återhämtningstid.</p>';
 
 $top_articles = array(
     'preparing' => new Article(
@@ -54,7 +54,7 @@ $top_articles = array(
         image_alt: 'Hur fungerar vaxning?',
         image_title: 'Hur fungerar vaxning?',
         content: '<p class="p200">Vaxning är en snabb och effektiv metod för att ta bort oönskat hår. Under behandlingen appliceras varmt eller kallt vax på huden, som sedan avlägsnas tillsammans med hårstråna från roten. Resultatet är en slät hud som varar i flera veckor.</p>
-        <p class="p200 mt-m">Direkt efter behandlingen kan du uppleva viss rodnad eller en lätt känsla av irritation, detta är helt normalt och brukar lägga sig snabbt. Regelbunden vaxning kan leda till att hårstråna blir tunnare och färre över tid. Våra terapeuter arbetar med professionell teknik för att vaxningen ska vara så behaglig som möjligt och ge ett långvarigt resultat.</p>',
+        <p class="p200 mt-m">Direkt efter behandlingen kan du uppleva viss rodnad eller en lätt känsla av irritation, detta är helt normalt och brukar lägga sig snabbt. Eftersom håret tas bort från roten dröjer det flera veckor innan återväxten kommer tillbaka. Våra hudterapeuter arbetar med professionell teknik för att vaxningen ska vara så behaglig som möjligt och ge ett slätt resultat.</p>',
     ),
 );
 
@@ -271,129 +271,38 @@ $bottom_articles = array(
     )
 );
 
-$brands_title = 'Märken vi jobbar med';
-$all_brands = array(
-    new Brand(
-        label: 'Alma Hybrid',
-        image: 'bilder/logotyper/alma-hybrid.svg',
-        image_alt: 'Alma Hybrid logotyp',
-        image_title: 'Alma Hybrid CO2',
-        url: '/alma-hybrid-co2-laser.php',
-        url_title: 'Alma Hybrid',
-    ),
-    new Brand(
-        label: 'Dermapen',
-        image: 'bilder/logotyper/dermapen.svg',
-        image_alt: 'Dermapen logotyp',
-        image_title: 'Dermapen - Microneedling',
-        url: '/dermapen.php',
-        url_title: 'Dermapen',
-    ),
-    new Brand(
-        label: 'Harmony XL Pro',
-        image: 'bilder/logotyper/harmony-xl-pro.png',
-        image_alt: 'Harmony XL Pro logotyp',
-        image_title: 'Alma Harmony XL Pro',
-        url: '/alma-harmony-xl-pro.php',
-        url_title: 'Harmony XL Pro',
-    ),
-    new Brand(
-        label: 'HydraFacial',
-        image: 'bilder/logotyper/hydrafacial.svg',
-        image_alt: 'HydraFacial logotyp',
-        image_title: 'HydraFacial - Dermabrasion',
-        url: '/hydrafacial.php',
-        url_title: 'HydraFacial',
-    ),
-    new Brand(
-        label: 'Skin Tech',
-        image: 'bilder/logotyper/skin-tech.svg',
-        image_alt: 'Skin Tech logotyp',
-        image_title: 'Skin Tech - kemisk peeling',
-        url: '/varumarken/skin-tech/',
-        url_title: 'Skin Tech',
-    ),
-    new Brand(
-        label: 'Alma Rejuve Dye-VL',
-        image: 'bilder/logotyper/rejuve-dye-vl.svg',
-        image_alt: 'Alma Rejuve Dye-VL logotyp',
-        image_title: 'Alma Rejuve Dye-VL - IPL',
-        url: '/varumarken/rejuve-dye-vl/',
-        url_title: 'Alma Rejuve Dye-VL',
-    ),
-    new Brand(
-        label: 'CryoPen',
-        image: 'bilder/logotyper/cryopen.svg',
-        image_alt: 'CryoPen logotyp',
-        image_title: 'CryoPen - frysbehandling',
-        url: '/cryopen.php',
-        url_title: 'CryoPen',
-    ),
-    new Brand(
-        label: 'Splendor X',
-        image: 'bilder/logotyper/splendor-x.png',
-        image_alt: 'Splendor X logotyp',
-        image_title: 'Splendor X - Permanent hårborttagning med laser',
-        url: '/varumarken/splendor-x/',
-        url_title: 'Splendor X',
-    ),
-    new Brand(
-        label: 'Soprano Ice',
-        image: 'bilder/logotyper/soprano-ice.png',
-        image_alt: 'Soprano Ice logotyp',
-        image_title: 'Soprano Ice - Permanent hårborttagning med laser',
-        url: '/varumarken/soprano-ice/',
-        url_title: 'Soprano Ice',
-    ),
-    new Brand(
-        label: 'Infuzion',
-        image: 'bilder/logotyper/infuzion.svg',
-        image_alt: 'Infuzion logotyp',
-        image_title: 'Infuzion - nålfri skinbooster',
-        url: '/infuzion.php',
-        url_title: 'Infuzion',
-    ),
-    new Brand(
-        label: 'Lumenis',
-        image: 'bilder/logotyper/lumenis.svg',
-        image_alt: 'Lumenis logotyp',
-        image_title: 'Lumenis - Permanent hårborttagning med laser',
-        url: '/varumarken/splendor-x/',
-        url_title: 'Lumenis',
-    ),
-    new Brand(
-        label: 'PRX-T33',
-        image: 'bilder/logotyper/prx-t33.svg',
-        image_alt: 'PRX-T33 logotyp',
-        image_title: 'PRX-T33 - kemisk peeling',
-        url: '/prx-t33.php',
-        url_title: 'PRX-T33',
-    ),
-    new Brand(
-        label: 'Exceed',
-        image: 'bilder/logotyper/exceed.png',
-        image_alt: 'Exceed logotyp',
-        image_title: 'Exceed - microneedling',
-        url: '/varumarken/exceed/',
-        url_title: 'Exceed',
-    ),
-    new Brand(
-        label: 'Microdermabrasion',
-        image: 'bilder/logotyper/microdermabrasion.png',
-        image_alt: 'Microdermabrasion logotyp',
-        image_title: 'Microdermabrasion - hudslipning',
-        url: '/microdermabrasion.php',
-        url_title: 'Microdermabrasion',
-    ),
-    new Brand(
-        label: 'DAHL Skincare',
-        image: 'bilder/logotyper/dahl-skincare.webp',
-        image_alt: 'DAHL Skincare logotyp',
-        image_title: 'DAHL Skincare - hudvårdsprodukter',
-        url: 'https://www.dahlskincare.com/sv/',
-        url_title: 'DAHL Skincare',
-    ),
+$reviews_title = 'Omdömen';
+
+$faq_title = 'Frågor & Svar';
+$faq_categories = array(
+    '' => array(
+        new Question(
+            title: 'Hur långt måste håret vara inför vaxning?',
+            text: '<p class="p200">För bästa resultat bör håret vara cirka 0,5–1 cm långt, vilket motsvarar ungefär två till tre veckors återväxt. Då får vaxet ordentligt fäste och hårstråna kan dras med från roten. Är håret för kort fastnar inte vaxet, och är det för långt kan behandlingen kännas mer obehaglig.</p>'
+        ),
+        new Question(
+            title: 'Gör vaxning ont?',
+            text: '<p class="p200">Vaxning innebär ett kort ögonblick av obehag när vaxet dras av, men de flesta upplever det som fullt hanterbart. Känsligheten varierar beroende på område och individ. Vår hudterapeut arbetar snabbt och med skonsam teknik för att göra behandlingen så behaglig som möjligt.</p>'
+        ),
+        new Question(
+            title: 'Hur länge håller resultatet?',
+            text: '<p class="p200">Eftersom håret avlägsnas från roten håller resultatet betydligt längre än vid rakning, vanligtvis i tre till fyra veckor innan håret växer tillbaka. Vill du ha ett mer bestående resultat kan vi även berätta om våra övriga behandlingar vid din bokning.</p>'
+        ),
+        new Question(
+            title: 'Utförs vaxningen av en hudterapeut?',
+            text: '<p class="p200">Ja, all vaxning utförs av en av våra erfarna hudterapeuter. Du är därmed i trygga händer med någon som har stor vana av både ansikts-, kropps- och intimvaxning och som anpassar behandlingen efter din hud och dina behov.</p>'
+        ),
+        new Question(
+            title: 'Kan jag vaxa om jag har känslig hud?',
+            text: '<p class="p200">Vaxning passar de flesta hudtyper, även känslig hud. Vår hudterapeut väljer teknik och vax utifrån ditt område och din hud för att minimera risken för irritation. Har du en hudåkomma, använder starka hudvårdssyror eller andra läkemedel som påverkar huden är du välkommen att berätta det före behandlingen så att vi kan anpassa den.</p>'
+        ),
+        new Question(
+            title: 'Vad bör jag tänka på inför och efter behandlingen?',
+            text: '<p class="p200">Låt håret växa ut och undvik att raka området minst två veckor innan. Efter behandlingen är huden extra känslig, undvik därför sol, bastu, intensiv träning och parfymerade produkter det första dygnet. Exfoliera och återfukta huden regelbundet några dagar efter för att motverka inåtväxta hårstrån.</p>'
+        ),
+    )
 );
+$faq_view_more = 'Se fler frågor & svar';
 ?>
 <!DOCTYPE html>
 <html lang="<?php echo $lang ?>">
@@ -515,20 +424,18 @@ $all_brands = array(
                         ?>
                     </section>
                 <?php } ?>
-                <?php if (isset($service_brands)) { ?>
-                    <section id="service-brands" class="large-margin">
-                        <?php if (isset($service_brands_title)) { ?>
-                            <h2 class="h500"><?php echo $service_brands_title ?></h2>
-                        <?php } ?>
-                        <?php if (isset($service_brands_text)) { ?>
-                            <div class="mt-xs"><?php echo $service_brands_text ?></div>
-                        <?php } ?>
-                        <div class="mt-xl">
-                            <?php
-                            $brands = $service_brands;
-                            include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/brands/brands.php');
-                            ?>
-                        </div>
+                <section id="reviews" class="large-margin">
+                    <h2 class="big l10n"><?php echo $reviews_title ?></h2>
+                    <?php
+                    $reviews_narrow = true;
+                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php');
+                    ?>
+                </section>
+                <?php if (isset($faq_categories)) { ?>
+                    <section id="faq" class="large-margin">
+                        <h2 class="big l10n"><?php echo $faq_title ?></h2>
+                        <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
+                        <a class="mt-xl button b200 outline expand auto-width l10n" href="fragor-svar.php" title="Se fler frågor"><?php echo $faq_view_more ?></a>
                     </section>
                 <?php } ?>
 
