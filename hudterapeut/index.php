@@ -62,7 +62,7 @@ $specialists = array(
         image: '/bilder/hudterapeut/312x312/veronika-benedik.webp',
         image_alt: 'Porträttbild på hudterapeuten Veronika Benedik',
         image_title: 'Hudterapeut Veronika Benedik',
-        city: 'Stockholm',
+        city: 'Sundbyberg',
         description: '',
         rating: 4.7,
         num_treatments: 1451,
@@ -164,7 +164,7 @@ $specialists = array(
     ),
     new Specialist(
         name: 'Emma Fogelkvist',
-        title: 'Hudterapeut sedan 2022',
+        title: 'Hudterapeut sedan 2021',
         image: '/bilder/hudterapeut/312x312/emma-fogelkvist.webp',
         image_alt: 'Porträttbild på hudterapeuten Emma Fogelkvist',
         image_title: 'Hudterapeut Emma Fogelkvist',
