@@ -18,12 +18,16 @@
             </div>
         </div>
         <div class="specialist-card-info">
-            <strong><?php echo $specialist->num_treatments ?>&nbsp;</strong>
-            <span class="l10n">omdömen</span>
+            <span class="sci-part">
+                <strong><?php echo $specialist->num_treatments ?>&nbsp;</strong>
+                <span class="l10n">omdömen</span>
+            </span>
             <div class="dot"></div>
-            <span class="l10n">Hudterapeut&nbsp;</span>
-            <strong class="l10n">sedan&nbsp;</strong>
-            <strong><?php echo $specialist->since_year ?></strong>
+            <span class="sci-part">
+                <span class="l10n">Hudterapeut&nbsp;</span>
+                <strong class="l10n">sedan&nbsp;</strong>
+                <strong><?php echo $specialist->since_year ?></strong>
+            </span>
         </div>
         <div class="specialist-card-description"><?php echo $specialist->description ?></div>
         <?php if (isset($specialist->booking_url)) { ?>

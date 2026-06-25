@@ -16,6 +16,8 @@
         border-top: 0;
         border-bottom-right-radius: $radius-l;
         border-bottom-left-radius: $radius-l;
+        // Tillåt info-raden att svara på kortets egen bredd (container query nedan).
+        container-type: inline-size;
 
         .specialist-card-title {
             display: flex;
@@ -70,11 +72,18 @@
             margin-top: $m;
             padding: $m 0;
             display: flex;
+            flex-wrap: wrap;
             align-items: center;
             border-top: 1px solid $light-200;
             border-bottom: 1px solid $light-200;
 
-            span {
+            .sci-part {
+                display: inline-flex;
+                align-items: center;
+                white-space: nowrap;
+            }
+
+            .sci-part>span {
                 color: $dark-200;
             }
 
@@ -84,6 +93,17 @@
                 width: 5px;
                 height: 5px;
                 border-radius: 50%;
+            }
+
+            // För smala kort: stapla de två halvorna på var sin rad och dölj
+            // punkten, så att "Hudterapeut sedan ÅÅÅÅ" aldrig klipps av.
+            @container (max-width: 320px) {
+                flex-direction: column;
+                align-items: flex-start;
+
+                .dot {
+                    display: none;
+                }
             }
         }
 
