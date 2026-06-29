@@ -115,9 +115,9 @@ $treatments = array(
         url_title: 'Läs mer om skinbooster'
     ),
     new Treatment(
-        label: 'Vaxning',
-        url: '/hudbehandlingar/vaxning/',
-        url_title: 'Läs mer om vaxningar'
+        label: 'HIFU ultraljud',
+        url: '/varumarken/hifu/',
+        url_title: 'Läs mer om HIFU ultraljud'
     ),
 );
 
@@ -195,9 +195,9 @@ $people_search_for = array(
         url_title: 'Läs mer om fillers'
     ),
     new Treatment(
-        label: 'HIFU ultraljud',
-        url: '/varumarken/hifu/',
-        url_title: 'Läs mer om HIFU ultraljud'
+        label: 'Vaxning',
+        url: '/hudbehandlingar/vaxning/',
+        url_title: 'Läs mer om vaxningar'
     ),
 );
 

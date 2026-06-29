@@ -124,18 +124,22 @@ $salons = array(
                     $honeypot = $_POST['website'] ?? '';
                     $is_bot = !empty($honeypot);
 
-                    // Time-trap: the form page sets a timestamp in the session. If it is
-                    // missing the sender never loaded the form (direct POST), and a reply
-                    // within 5 seconds is too fast for a human. The stamp is ONE-TIME -
+                    // Time-trap: the form page sets a timestamp in the session. A reply
+                    // within 3 seconds is too fast for a human. The stamp is ONE-TIME -
                     // it is cleared after the check, so one form load allows at most one
-                    // submission. Messages without a space are also rejected (gibberish
+                    // submission. We do NOT block when the stamp is missing: an expired
+                    // session or blocked cookies would otherwise silently drop real
+                    // customers. Messages without a space are also rejected (gibberish
                     // bots send single character strings).
                     // Bots get no email sent, but still see the confirmation below.
+                    //
+                    // If spam returns: re-add `|| $form_ts <= 0` below and raise the
+                    // 3-second threshold (back to 5 or higher).
                     $form_ts = $_SESSION['contact_form_ts'] ?? 0;
                     unset($_SESSION['contact_form_ts']);
+                    $too_fast = $form_ts > 0 && (time() - $form_ts < 3);
                     $is_bot = $is_bot
-                        || $form_ts <= 0
-                        || time() - $form_ts < 5
+                        || $too_fast
                         || strpos(trim($_POST['message'] ?? ''), ' ') === false;
 
                     // Sanitize inputs to prevent HTML/Script injection
@@ -193,7 +197,7 @@ $salons = array(
                         // Fresh stamp after a successful send: a customer who goes back
                         // (bfcache does not re-render the form page) and sends a second
                         // message is not blocked, while a bot on the same session is
-                        // still limited to one submission per 5 seconds.
+                        // still limited to one submission per 3 seconds.
                         $_SESSION['contact_form_ts'] = time();
                     }
                 ?>
