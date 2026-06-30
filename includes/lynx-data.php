@@ -150,11 +150,10 @@
 | /hudbehandlingar/ansiktsbehandling/hudterapeutens-val/ | 4 | – | – | –/– | OK | 0 |
 | / (Homepage) | 41 | Homepage | 28 | 3/2 | POOR | 296 |
 
-## Saknar LYNX-data (i repot, ej i LYNX-listan) — kartlagt 2026-06-30
-Dessa `.php`-sidor finns i repot men dök inte upp i LYNX Pages-vyn (ej spårade / nya / utanför LYNX-urval):
-- `avbokningspolicy.php`, `karriar.php` (utility)
-- `stress-acne.php`, `stress-finnar.php`, `svarta-pormaskar.php`, `tonarsacne.php`, `torr-hy.php`, `vakuumsug-pormaskar.php` (innehållssidor)
-- `varumarken/dual-injector/`, `varumarken/exceed/`, `varumarken/hifu/` (brand pages)
+## Coverage — status IDAG (snapshot 2026-06-30)
+Detta är vad vi har **nu**. Räkna inte med framtida data — mer kan dyka upp i en LYNX-uppdatering, men vi planerar utifrån det vi ser idag. Nästan alla repo-sidor finns i LYNX (den tidigare "saknas"-listan var ett skärmdumps-artefakt — stress-acne, stress-finnar, karriar, avbokningspolicy, `varumarken/dual-injector`, `/exceed` och `/hifu` finns alla).
+- **⚠️ Saknar AI COPY-data just nu (flaggas):** `avbokningspolicy.php` (–) och `karriar.php` (PENDING). Sidorna är **inte nya** — datan finns bara inte i LYNX idag. Den kan dyka upp i en framtida uppdatering, men vi räknar inte med det och jobbar med det vi har.
+- Hittas en repo-sida inte alls i LYNX: troligen utanför urval / ny — sök i LYNX för att bekräfta.
 - OBS: LYNX listar `/varumarken/powerlite-photonova/` som inte finns som katalog i repot — verifiera.
 
 ## Prio-signaler (input till framtida prioriteringslista)
