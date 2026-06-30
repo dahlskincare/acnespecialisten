@@ -226,7 +226,8 @@ Sidorna rankar redan på sökord. Omskrivningen får höja kvaliteten **utan att
 3. Skriv om **alla textblocktyper på sidan** (§13.D) — inte bara de LYNX-flaggade — enligt §2–§4; kör §3-checklistan + §6 SEO-skydd.
 4. Lös gap-punkter inom ramarna (grannämne → länk; ingen medicin/cancer).
 5. Logga i §11 (baseline + vad/varför). Följ Definition of Done (§13.E).
-6. Promota till prod (§13.A) → vänta på LYNX-refresh → utvärdera (§10).
+6. **Push `staging` → TESTA att sidan gick upp:** hämta staging-URL:en (`https://www.acnespecialisten-staging.minoch.com/<sida>`) och bekräfta **HTTP 200 + renderad HTML** (inte blankt/500) samt att sökord/claims syns i svaret. Fångar PHP-strängfel (§13.C). En sida är inte klar förrän den verifierat laddar.
+7. Promota till prod (§13.A) → vänta på LYNX-refresh → utvärdera (§10).
 
 ---
 
@@ -371,7 +372,7 @@ Claima en sida här **innan** du rör den. Töm raden när den är klar (logga i
 
 **D. Svep ALLA textblock, inte bara intro — och inte bara de LYNX-flaggade.** LYNX betygsätter all renderad text och visar sällan en flagga per block, så **LYNX:s flagg-lista är inte arbetslistan — hela sidan är det** (texten ska dessutom vara bra för Google oavsett vad LYNX råkar visa). Block som redan är genuint tighta/SLIGHT kan lämnas (§1.1), men utgå från hela sidan, inte flagg-listan. Obligatoriskt per sida: (1) grön banner-description, (2) ProblemTrivia content, (3) ProblemTrivia extended_content ("Läs mer" — ofta fet-etikett-listor → de-fluffa; prosa om det var utfylld prosa, stramad lista om sektionens syfte är uppräkning, se nedan), (4) service-/behandlingskort, (5) FAQ-svar. "Klar" = alla blocktyper klarar §3. **Bevara varje distinkt punkt — döm efter sektionens SYFTE (kräver helhetsblick, inte block-för-block).** Är sektionens hela poäng att räkna upp poster med beskrivning (varningstecken, ansiktszoner, behandlingsmetoder) → **behåll posterna distinkta; en stramad, de-fluffad lista är då helt rätt, inte en nödlösning.** Var "listan" i själva verket utfylld prosa → gör om till bunden prosa. Oavsett vilket: döda etikett-filler-formatet och fyllnaden men **slå aldrig ihop två poänger till en vagare mening eller tappa någon.** Räkna punkterna före/efter — antalet ska stämma (ex: "fysisk smärta" och "utebliven förbättring" är två tecken, inte ett). Det här är ett skäl till att vi läser HELA sidan: bara så vet vi en sektions syfte.
 
-**E. Definition of Done.** `git diff` rör bara mål-`.php` (+ logg); deploy grön; sidan laddar 200/renderar; sökord finns kvar (grep); LYNX-baseline + ändring loggad i §11. Först då töms claim i §12.
+**E. Definition of Done.** `git diff` rör bara mål-`.php` (+ logg); deploy grön; **sidan testad på staging-URL → HTTP 200 + renderad HTML (inte blankt/500, §13.C) §7.6**; sökord finns kvar (grep); LYNX-baseline + ändring loggad i §11. Först då töms claim i §12.
 
 **F. Baseline + rollback.** Spara sidans LYNX-stats FÖRE ändring (§11). Per-sidans commit = revert-enhet. Trigger: tappar sidan i LYNX RANK / sökord efter prod-deploy → `git revert` av den commiten, utvärdera sen.
 
