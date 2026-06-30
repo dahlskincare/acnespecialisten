@@ -85,6 +85,7 @@ Axeln = **fyllnad/mall ↔ rak konkret täthet**. Bekräftat mot facit på acne.
 - [ ] Puls: en kort + en lång mening; inga 3 i rad i samma längd; ingen staccato?
 - [ ] ≤1 korrelativ-komma per mening; inga 3+ hopkedjade bisatser; "och"-listor orörda?
 - [ ] Inte samma **"[sats], och [sats]"-fog upprepad** i blocket (1 naturlig OK, flera = AI-rytm)? Variera med "som"/egen mening.
+- [ ] Inga **inskjutna bisatser med dubbla komman** ("X, en aside, Y")? Skriv rakt.
 - [ ] **Aktivt och direkt** ("undvik solning två veckor innan"), inte passivt/hedgat ("det rekommenderas att du undviker solning")?
 - [ ] **Varierad öppning mot systerblock** — inte varje block börjar "Akne i ansiktet…" (upprepad öppning = AI-parallellism)?
 - [ ] **Ingen poäng upprepad mellan block** (samma orsak, t.ex. hormonell, sägs en gång — inte i tre block)?
@@ -166,7 +167,7 @@ Plockat från acne/rosacea/microneedling/alma-hybrid (sidor ägaren gillar). OBS
 
 ## 5. Låsta ramar (gäller alla sidor)
 - **Kosmetiskt** — **lägg inte till** nya medicinska/diagnos-påståenden, hudcancer eller "sök läkare/medicinsk vård" (LYNX YMYL-gap). **MEN: befintligt sidinnehåll är godkänt** — strippa inte godkänd formulering (t.ex. "undvika kraftfulla läkemedel med biverkningar" = OK kosmetisk-spår-positionering). Befintliga sidor är referensen för *vad vi får säga* (innehåll + tillåtna påståenden). Hänvisa till **vår klinik/hudterapeut** är OK.
-- **Inga aktiva ingredienser eller namngivna organismer** (t.ex. inte "Cutibacterium acnes").
+- **Organism-namn & ingredienser = factual OK** (finns på godkända sidor: "Cutibacterium acnes", AHA/BHA/salicylsyra på kemisk-peeling). På *tillståndssidor* (acne) pivotera dock inte till "använd ingrediens X" som lösningen — ramen är ärftlig/hormonell + klinikbehandling. Strippa aldrig godkänt befintligt.
 - **Kost minimal**, akne ramas som ärftlig/hormonell.
 - **Inga em-streck** (uppfattas som ett AI-tell). Omformulera.
 - Undvik svensk AI-vokabulär & marknads-fluff:
@@ -179,12 +180,14 @@ Plockat från acne/rosacea/microneedling/alma-hybrid (sidor ägaren gillar). OBS
 - **Siloing:** grannämne (t.ex. rosacea) → kort omnämnande + **intern länk** till den sidan, aldrig dubblerat innehåll.
 - **Huvud- vs bonussidor:** huvudtermen bor på huvudsidan (t.ex. "akne"→acne.php, "pigmentfläckar"→pigmentflackar.php). Bonussidor håller sig till sin long-tail och tävlar inte om huvudtermen.
 - **Siffror** bara om verifierbara på sidan eller internt bekräftade; pris med "Från".
+- **Reglerna är heuristiker, inte stela lagar.** Använd omdöme — befintligt godkänt innehåll och en genuint bättre formulering trumfar en regel som inte tillför i sammanhanget. Vi rutar inte in oss.
 
 ---
 
 ## 6. ⚠️ SEO-skydd — bryt inte sökord/ranking
 Sidorna rankar redan på sökord. Omskrivningen får höja kvaliteten **utan att ta bort signalerna som funkar**:
 - **Bevara primärt sökord + viktiga varianter** i `$seo_title`, H1, H2:er och brödtext. Skriv aldrig bort sökordet ur sidan (t.ex. "akne i ansiktet" måste finnas kvar).
+- **Bryt inte sökordsfrasen i onödan med ett tecken** — ett *onödigt* komma direkt efter ("akne i ansiktet, …") matchar exakt-frasen sämre, så låt den flyta när det går. (Inget förbud — komma efter frasen är OK när det behövs grammatiskt.)
 - **Rör `$seo_title` / `$seo_description` försiktigt** — om du ändrar, behåll sökordet och förbättra bara. **`$seo_keywords` är en lagring** av sidans sökord (Google ignorerar taggen) — ta aldrig bort termer där, även dubbletter får stå.
 - **Ändra ALDRIG filnamn/URL** (dödar ranking + kräver redirect).
 - **Radera inte hela sektioner** som bär rankande innehåll — komprimera prosan, behåll ämnestäckningen.
@@ -289,12 +292,14 @@ Korrelera mot LYNX-refresh. Senaste först. Spara alltid **LYNX-baseline** (FÖR
 | behandla-pigmentflackar.php | 14 | – | – | –/– | SIGNIFICANT | GOOD | – | 16 |
 | hudproblem/hudforandringar/ | 10 | – | 17 | 3/2 | SIGNIFICANT | OK | – | 8 |
 
-### 2026-06-30 — `acne-ansikte.php` (SIGNIFICANT) — ÅTERSTÄLLD, görs om
-**Status:** Provomskrivningarna nedan **rullades tillbaka till original** eftersom vi finslipade formel/ramar under tiden (täthet = substans inte kortare §13.N · sökordsbevarande §6 · helt block-svep §13.D). Görs om i ETT rent svep med färdig playbook. LYNX-baseline ovan gäller fortfarande. Att ta med i omskrivningen (lärdomar + checklista):
+### 2026-06-30 — `acne-ansikte.php` (SIGNIFICANT) — OMSKRIVEN, väntar LYNX-refresh
+**Gjort:** Skrev om de **7 flaggade blocken** (banner + Vad/Varför/Orsaker/När/Var = SIGNIFICANT, Hur = MODERATE) → SLIGHT-mål, varierade öppningar, ingen upprepad ", och"-fog, befintliga claims/sökord bevarade. Regler reviderade: organism-namn/ingredienser factual OK (§5), komma-efter-sökfras mjukad till riktlinje (§6), "heuristiker inte stela lagar" (§5). **Cutibacterium acnes STANNAR** (godkänt befintligt — bakteriens namn). LYNX-vyn (3 nya bilder 30 jun) = **samma 10 block**, inga gömda extra. Logga före/efter i lynx-examples.php när LYNX uppdaterats.
+**NÄSTA — beslut: OPTION B (svep alla block):** skriv om **alla återstående textblock** på acne-ansikte (extended_content "Läs mer"-listor, Metoden-stegen, 4 behandlingskort, $about_title, procedures) — inte bara de 7 — eftersom vi inte vet vilka LYNX rate:ar + texten ska vara bra för Google. Behåll allt godkänt (Cutibacterium, sökord, claims, "Från"-pris). Mål SLIGHT, formel §2, ramar §5. Sedan committa+pusha hela sidan till `staging` och logga LYNX-refresh.
+**Tidigare:** Provomskrivningarna nedan **rullades tillbaka till original** eftersom vi finslipade formel/ramar under tiden (täthet = substans inte kortare §13.N · sökordsbevarande §6 · helt block-svep §13.D). Görs om i ETT rent svep med färdig playbook. LYNX-baseline ovan gäller fortfarande. Att ta med i omskrivningen (lärdomar + checklista):
 - Täthet = SUBSTANS, inte kortare text (§13.N). Bevara alla målfraser (§6).
 - Block att svepa: banner-description (rad 27), alla ProblemTrivia `content` (rad 62, 70, 82, 101, 117, 141) **och** deras `extended_content`, avslutande CTA (rad 149).
 - `extended_content` är bold-label-listor (rad 84–92, 103–109, 119–133, 143–147) → gör om till bunden prosa (§13.D).
-- Ta bort organismen *Cutibacterium acnes* (rad 72). Pris → "Från 1595 kr" (rad 220). Konkret image_alt (rad 21). CTA utan "…, så går vi igenom…".
+- **Behåll** *Cutibacterium acnes* (rad ~72) — godkänt befintligt. Pris → "Från 1595 kr" (rad 220). Konkret image_alt (rad 21). CTA utan "…, så går vi igenom…".
 - `$seo_keywords` (rad 10) lämnas orört (sökordslagring).
 
 ---
@@ -304,7 +309,7 @@ Claima en sida här **innan** du rör den. Töm raden när den är klar (logga i
 
 | Sida | Ägare (terminal/namn) | Status | Tid |
 |------|------------------------|--------|-----|
-| acne-ansikte.php | (ledig) | återställd till original — görs om med färdig playbook | 2026-06-30 |
+| acne-ansikte.php | huvudsession | OMSKRIVEN (7 block) → staging, väntar LYNX-refresh | 2026-06-30 |
 
 ---
 

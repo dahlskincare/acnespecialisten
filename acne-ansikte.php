@@ -24,7 +24,7 @@ $floating_box = '';
 
 $green_banner_content = new GreenBannerContent(
       title: 'Akne i ansiktet',
-      description: 'Att ha akne i ansiktet kan vara både påfrestande och frustrerande. Det påverkar inte bara din hy utan kan även ha en påtaglig inverkan på ditt självförtroende och din självkänsla. Men du är inte ensam, och det finns många effektiva sätt att hantera och behandla akne. På denna sida kommer vi utforska vad akne är, varför det uppstår, och de bästa metoderna för att behandla det.',
+      description: 'Akne i ansiktet sätter sig där talgkörtlarna är som tätast: i pannan, på näsan, kinderna och hakan. För många påverkar den både huden och självkänslan. Det viktiga att komma ihåg är att den går att behandla. Här går vi igenom varför akne uppstår i ansiktet och vilka behandlingar som fungerar bäst.',
       links_touch: [
             new Link('Boka konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Acne', 'Boka gratis konsultation för akne i ansiktet'),
             new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_Acne', 'Boka denna behandling'),
@@ -59,7 +59,7 @@ $trivias = array(
       new ProblemTrivia(
             prefix: 'Vad',
             title: ' är akne i ansiktet?',
-            content: '<p class="p200">Akne i ansiktet är en vanlig hudåkomma som påverkar miljontals människor världen över, både unga och vuxna. Detta tillstånd kännetecknas av uppkomsten av pormaskar, finnar, papler, pustler och i vissa fall mer allvarliga noduler och cystor. Akne utvecklas främst i områden med högt antal talgkörtlar, såsom ansiktet, bröstet och ryggen. De fysiska symtomen på akne kan leda till både kroppsligt besvär och känslomässig press.</p>',
+            content: '<p class="p200">Akne i ansiktet syns som pormaskar, finnar, papler och pustler. I svårare fall bildas djupare noduler och cystor. Det börjar i talgkörtlarna som sitter tätt i ansiktet och tillverkar talg för att hålla huden mjuk. Vid överproduktion hinner huden inte göra sig av med överskottet, som tillsammans med döda hudceller täpper till porerna. Bakterier samlas i den igentäppta poren och utlöser en inflammation. Det är inflammationen som syns som en röd, öm finne, och därför sitter akne oftast där talgkörtlarna är som flest: i pannan, på näsan, kinderna och hakan.</p>',
             extended_content: null,
             icons: array()
       ),
@@ -67,7 +67,7 @@ $trivias = array(
       new ProblemTrivia(
             prefix: 'Varför',
             title: ' får man akne?',
-            content: '<p class="p200">Akne i ansiktet orsakas av flera faktorer som samverkar. En av de mest framträdande orsakerna är hormonella förändringar, vilket förklarar varför många upplever akne under tonåren och vid vissa perioder i livet, som under menstruationscykeln. Hormonella förändringar leder till ökad produktion av talg (fett), en oljig substans som produceras av talgkörtlarna i huden.',
+            content: '<p class="p200">Bakom akne i ansiktet ligger framför allt hormoner och ärftlighet. Under tonåren, menstruationscykeln och graviditeten ökar nivåerna av manliga könshormoner, som finns hos både kvinnor och män. De får talgkörtlarna att producera mer talg, och då täpps porerna lättare till. Har dina föräldrar haft akne är risken större att du också får det, eftersom hudens benägenhet att överproducera talg till stor del är ärftlig.',
 
             extended_content: '<p class="p200 mt-xl">Den ökade talgproduktionen kan blockera porerna, vilket skapar en idealisk miljö för bakterier att växa, särskilt bakterien Cutibacterium acnes. Denna bakterie kan leda till inflammation och utveckling av inflammerade finnar och cystor. Utöver detta kan genetiska faktorer spela en betydande roll, om dina föräldrar har haft akne, ökar chanserna att du också utvecklar det.</p>
 
@@ -79,7 +79,7 @@ $trivias = array(
             prefix: 'Orsaker',
             title: ' till plötslig akne i ansiktet',
 
-            content: '<p class="p200">Plötslig akne i ansiktet kan vara både frustrerande och bekymmersamt, särskilt om du inte vanligtvis har problem med huden. Det finns flera faktorer som kan leda till en oväntad uppblossning av akne. En av de vanligaste orsakerna är hormonella förändringar, vilket kan ske vid olika tidpunkter i livet, såsom under puberteten, menstruationscykeln, graviditet eller på grund av p-piller.',
+            content: '<p class="p200">Plötslig akne i ansiktet utan att du brukar ha hudproblem beror nästan alltid på en hormonell svängning. Puberteten, menstruationscykeln, graviditeten och byte av p-piller höjer halten manliga könshormoner och drar igång talgproduktionen. Stress spär på genom att höja kroppens kortisol, och även nya hudvårdsprodukter eller läkemedel kan utlösa ett utbrott.',
 
             extended_content: '<ul><li class="mt-xl"><strong>Hormonella förändringar</strong> kan även spela en stor roll i uppkomsten av plötslig akne. Under puberteten, menstruationscykler, graviditet och till och med klimakteriet, kan nivåerna av manliga könshormon öka. Detta leder till ökad produktion av talg i talgkörtlarna, vilket kan gå över styr och orsaka utslag.</li>
 
@@ -98,7 +98,7 @@ $trivias = array(
             prefix: 'När',
             title: ' ska du söka hjälp för svår akne?',
 
-            content: '<p class="p200">Att leva med svår akne kan vara extremt påfrestande både fysiskt och känslomässigt. Du kanske har provat ett flertal olika behandlingar utan att se någon förbättring. Det är viktigt att veta när det är dags att söka professionell hjälp för din akne. Här är några tecken att hålla utkik efter:',
+            content: '<p class="p200">Egenvård räcker inte alltid. Svår akne som inte svarar på produkter hemifrån behöver en hudterapeuts bedömning. Ju tidigare du söker hjälp, desto mindre är risken för bestående ärr. De här tecknen visar att det är dags att boka tid:',
 
             extended_content: '<ul><li class="mt-xl"><strong> Utebliven förbättring:</strong> Om du har använt hudvårdsprodukter under en längre tid utan att uppleva någon märkbar förbättring, kan det vara ett tecken på att du behöver en mer intensiv behandling.</li>
 
@@ -114,7 +114,7 @@ $trivias = array(
       new ProblemTrivia(
             prefix: 'Var',
             title: ' i ansiktet akne uppstår och dess betydelse',
-            content: '<p class="p200">Akne i ansiktet kan uppträda på flera olika sätt, beroende på typ av akne och hudtyp. Vanliga områden där akne ofta förekommer är pannan, näsan, kinderna och hakan. Symtomen kan variera från små, icke-inflammatoriska pormaskar till större, smärtsamma och inflammerade cystor. Det är också bra att veta att akne ofta dyker upp i områden med högt antal talgkörtlar.</p>',
+            content: '<p class="p200">Var akne sitter i ansiktet hänger ihop med var talgkörtlarna är som flest: pannan, näsan, kinderna, hakan och käklinjen. Utbrotten ser olika ut beroende på område, från ytliga pormaskar till djupa, ömma cystor. Nedan tittar vi närmare på varje område.</p>',
 
             extended_content: '<ul><li class="mt-xl"><strong>Panna:</strong> Akne i pannan är ofta små finnar eller pormaskar. Dessa kan uppstå på grund av att hårsäckarna täpps igen av överflödig olja, svett eller hårprodukter.</li>
 
@@ -138,7 +138,7 @@ $trivias = array(
       new ProblemTrivia(
             prefix: 'Hur',
             title: ' får man bort akne i ansiktet?',
-            content: '<p class="p200">När det kommer till att behandla akne i ansiktet finns det en rad olika metoder som kan hjälpa dig att nå renare och friskare hud. Viktigt är att förstå att det inte finns en universallösning, och ofta kan en kombination av behandlingar vara den mest effektiva strategin.</p>',
+            content: '<p class="p200">Det finns ingen universallösning för akne i ansiktet. Vi läser av hur djupt utbrotten sitter och anpassar behandlingen efter det, och oftast ger en kombination av metoder bäst resultat. Här är metoderna vi använder.</p>',
 
             extended_content: '<ul><li class="mt-xl"><strong>Behandlingar hos hudterapeut:</strong> En licensierad hudterapeut kan erbjuda mer avancerade behandlingar som kemisk peeling och microneedling. Kemisk peeling innebär applicering av en kemisk syra som får huden att fjälla och därmed främja ny, frisk hud att växa fram. Microneedling använder små nålar för att skapa mikrokanaler i huden, vilket stimulerar kollagenproduktionen och förbättrar hudens textur och ton.</li>
 
