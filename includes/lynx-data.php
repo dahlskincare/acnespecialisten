@@ -150,11 +150,9 @@
 | /hudbehandlingar/ansiktsbehandling/hudterapeutens-val/ | 4 | – | – | –/– | OK | 0 |
 | / (Homepage) | 41 | Homepage | 28 | 3/2 | POOR | 296 |
 
-## Coverage — status IDAG (snapshot 2026-06-30)
-Detta är vad vi har **nu**. Räkna inte med framtida data — mer kan dyka upp i en LYNX-uppdatering, men vi planerar utifrån det vi ser idag. Nästan alla repo-sidor finns i LYNX (den tidigare "saknas"-listan var ett skärmdumps-artefakt — stress-acne, stress-finnar, karriar, avbokningspolicy, `varumarken/dual-injector`, `/exceed` och `/hifu` finns alla).
-- **⚠️ Saknar AI COPY-data just nu (flaggas):** `avbokningspolicy.php` (–) och `karriar.php` (PENDING). Sidorna är **inte nya** — datan finns bara inte i LYNX idag. Den kan dyka upp i en framtida uppdatering, men vi räknar inte med det och jobbar med det vi har.
-- Hittas en repo-sida inte alls i LYNX: troligen utanför urval / ny — sök i LYNX för att bekräfta.
-- OBS: LYNX listar `/varumarken/powerlite-photonova/` som inte finns som katalog i repot — verifiera.
+## Status — datan vi har idag (2026-06-30)
+Detta är informationen som lagts in hittills. Är en sida eller ett fält blankt betyder det bara att datan inte matats in än — vi uppdaterar när mer kommer.
+- Utan AI COPY-data idag: `avbokningspolicy.php`, `karriar.php` (blanka tills vidare).
 
 ## Prio-signaler (input till framtida prioriteringslista)
 - **Prio 1:** de 4 SIGNIFICANT (störst: ytliga-blodkarl KW172).
