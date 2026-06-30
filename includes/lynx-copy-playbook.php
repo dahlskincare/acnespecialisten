@@ -85,6 +85,9 @@ Axeln = **fyllnad/mall ↔ rak konkret täthet**. Bekräftat mot facit på acne.
 - [ ] Puls: en kort + en lång mening; inga 3 i rad i samma längd; ingen staccato?
 - [ ] ≤1 korrelativ-komma per mening; inga 3+ hopkedjade bisatser; "och"-listor orörda?
 - [ ] Inte samma **"[sats], och [sats]"-fog upprepad** i blocket (1 naturlig OK, flera = AI-rytm)? Variera med "som"/egen mening.
+- [ ] **Aktivt och direkt** ("undvik solning två veckor innan"), inte passivt/hedgat ("det rekommenderas att du undviker solning")?
+- [ ] **Varierad öppning mot systerblock** — inte varje block börjar "Akne i ansiktet…" (upprepad öppning = AI-parallellism)?
+- [ ] **Ingen poäng upprepad mellan block** (samma orsak, t.ex. hormonell, sägs en gång — inte i tre block)?
 - [ ] Inga staplade "kan"; ingen "[antal] olika [X]"-padding?
 - [ ] Minst en verifierbar siffra/tidsram istället för superlativ? (pris med "Från")
 - [ ] **Inga em-streck**; ingen svensk AI-vokabulär (se §5)?
@@ -141,7 +144,12 @@ Aldrig bara "boka tid". Forma CTA:n som en resa med en namngiven vinst, och vari
 - **Inga aktiva ingredienser eller namngivna organismer** (t.ex. inte "Cutibacterium acnes").
 - **Kost minimal**, akne ramas som ärftlig/hormonell.
 - **Inga em-streck** (uppfattas som ett AI-tell). Omformulera.
-- Undvik svensk AI-vokabulär: *"spelar en avgörande roll", "i takt med att", "när det kommer till", "ta del av", "i en värld där", "maximera/optimera", "i dagens samhälle"*.
+- Undvik svensk AI-vokabulär & marknads-fluff:
+  - Connective-filler: *"spelar en avgörande roll", "i takt med att", "när det kommer till", "ta del av", "i en värld där", "maximera/optimera", "i dagens samhälle"*.
+  - Marknadsadjektiv: *"avancerad", "framstående", "effektiv lösning", "optimal", "ledande", "speciellt utformad", "skräddarsydd", "revolutionerande", "toppmodern"*.
+  - Sammanfattnings-/avslutnings-tics: *"Sammanfattningsvis", "Slutligen", "I korthet", "Avslutningsvis", "En sak är säker"*.
+  - Antitesen *"inte bara X utan (också) Y"* — max 1 per sida.
+  - Individualiserings-fluff: *"anpassad efter just dina behov", "perfekt anpassad för dina unika hudvårdsbehov"*.
 - **Klinik-"vi"**, aldrig hudterapeutens namn. **"Du"-tilltal.**
 - **Siloing:** grannämne (t.ex. rosacea) → kort omnämnande + **intern länk** till den sidan, aldrig dubblerat innehåll.
 - **Huvud- vs bonussidor:** huvudtermen bor på huvudsidan (t.ex. "akne"→acne.php, "pigmentfläckar"→pigmentflackar.php). Bonussidor håller sig till sin long-tail och tävlar inte om huvudtermen.
