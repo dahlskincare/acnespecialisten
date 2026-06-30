@@ -1,3 +1,4 @@
+<?php exit; /* intern LYNX-arbetsfil – ej webb-serverad, läs i editor/git */ ?>
 # LYNX Copy Playbook — AcneSpecialisten
 
 ## ▶ START HÄR — för en ny Claude utan kontext
@@ -6,7 +7,7 @@ Säger användaren typ *"vi fortsätter med LYNX-uppgifterna"* eller klistrar in
 - **Uppdrag (pågår tills allt är klart):** skriv om sidor som LYNX flaggar för AI COPY (SIGNIFICANT → MODERATE) så de läser som människa, **utan att tappa sökord/ranking**. Kör tills alla flaggade sidor är gröna → sedan FAQPage-schema → sedan löpande. **Status & nästa sida:** §9 (TODO), §11 (logg/baseline), §12 (claims).
 - **När LYNX-info droppas för en sida = din trigger.** Följ §7: spara baseline (§11) → skriv om ALLA flaggade block enligt §2 (formel) + §4 (husröst) + §5 (ramar) → kör §3 (checklista) + §6 (SEO-skydd) + §13 (skyddsregler) → logga (§11) → committa + pusha **`staging`**.
 - **Rollfördelning:** du fixar sidor + pushar `staging`; användaren verifierar + pushar `main`. **Rör aldrig `main`.** LYNX ser bara live, så effekt mäts efter användarens main-push + LYNX-refresh.
-- **Rådata** (LYNX saknar export): `includes/lynx-data.md` — fyll på vid varje refresh.
+- **Rådata** (LYNX saknar export): `includes/lynx-data.php` — fyll på vid varje refresh.
 - **Aldrig:** medicin/cancer-påståenden · aktiva ingredienser · em-streck · hudterapeutnamn · korta ner sidor (täthet = substans, §13.N) · tappa målfraser (§6) · röra delade widgets/mallar.
 
 ---
@@ -21,7 +22,7 @@ Säger användaren typ *"vi fortsätter med LYNX-uppgifterna"* eller klistrar in
 1. LYNX-info kommer in för en sida (AI COPY-block + ev. gap-punkter).
 2. Skriv om de flaggade blocken enligt **Formeln** (§2) och **Husrösten** (§4).
 3. Kör varje block mot **Checklistan** (§3) och **SEO-skyddet** (§6).
-4. Logga vad som gjorts i **Arbetsloggen** (§9) med resonemang.
+4. Logga vad som gjorts i **Arbetsloggen** (§11) med resonemang.
 5. Efter LYNX-refresh: använd **Justeringsloopen** (§10).
 
 Prioritet: **SIGNIFICANT först**, men gör hela sidan klar medan vi ändå är där.
@@ -141,7 +142,7 @@ Sidorna rankar redan på sökord. Omskrivningen får höja kvaliteten **utan att
 - **Sökords-/fras-koll (mekanisk, obligatorisk).** Vissa meningar är skrivna *just* för att ranka en fras (t.ex. "akne på hakan", "akne på kinderna", per-zon-/per-orsak-rubriker). Innan du skriver om ett block: notera fraserna i det (särskilt de som matchar `$seo_keywords`). Efter ändringen: grep:a sidan och bekräfta att varje fras finns kvar — eller flyttats medvetet (siloing). Tappa aldrig en målfras av misstag.
 - **Bara innehåll i sidans `.php`** — inga mall-/widget-ändringar (se §8 om widgets).
 - **En sida i taget på `staging`**, granska `git diff` innan merge.
-- **Verifiera efteråt:** LYNX-refresh + håll koll på ranking; logga i §9.
+- **Verifiera efteråt:** LYNX-refresh + håll koll på ranking; logga i §11.
 
 ---
 
@@ -157,7 +158,7 @@ Sidorna rankar redan på sökord. Omskrivningen får höja kvaliteten **utan att
 
 ## 8. Sidkarta & backlog (LYNX AI COPY)
 **SIGNIFICANT (tung omskrivning, nu):**
-- `acne-ansikte.php` — pågår (3 block klara)
+- `acne-ansikte.php` — återställd till original, görs om rent (se §9/§11)
 - `ytliga-blodkarl.php` (KW172, störst)
 - `behandla-pigmentflackar.php` (bonus, KW16)
 - `hudproblem/hudforandringar/index.php` (hub)
@@ -194,7 +195,7 @@ Från LYNX "Quick wins / Recommended improvements". Beslut enligt §5 (kosmetisk
 Kryssa här. Start/stopp-vänligt: status = §9 + §11 (logg) + §12 (claims). Per-sida gap-detaljer i §8.1.
 
 **Setup**
-- [x] Färdigställ setup & playbook (formel, husröst, ramar, SEO-skydd, §13-skyddsregler, lynx-data.md).
+- [x] Färdigställ setup & playbook (formel, husröst, ramar, SEO-skydd, §13-skyddsregler, lynx-data.php).
 
 **Fas 1 — SIGNIFICANT-sidorna**
 - [ ] `acne-ansikte.php` — ÅTERSTÄLLD till original; görs om i ett rent svep enligt §2–§6 + §13.D (ALLA block). **Visa ett fylligt prov för täthets-kalibrering först** (§13.N). Bevara alla `$seo_keywords`-fraser (§6).
@@ -210,8 +211,8 @@ Kryssa här. Start/stopp-vänligt: status = §9 + §11 (logg) + §12 (claims). P
 - [ ] ~11 MODERATE-sidor (§8): pigmentflackar.php (KW244), ipl-rosacea, rhinophyma-rosacea, microdermabrasion, mogen-hy, solskadad-hy, om-oss, hudbehandlingar/ipl, bristningar, oonskat-har, seborroisk-keratos (smalna + curettage §8.1).
 
 **Löpande / avslut**
-- [ ] LYNX justeringsloop (§10) — läs varje refresh, uppdatera §11 + lynx-data.md.
-- [ ] Radera `lynx-copy-playbook.md` + `lynx-data.md` vid projektslut.
+- [ ] LYNX justeringsloop (§10) — läs varje refresh, uppdatera §11 + lynx-data.php.
+- [x] (Löst) Filerna är `.php` med `<?php exit;` → renderas tomma på webben; behöver inte raderas.
 
 **Parkerat**
 - [P] Dubbel `title`-attribut i widgets (§8 — beslut: skippa).
@@ -220,7 +221,7 @@ Kryssa här. Start/stopp-vänligt: status = §9 + §11 (logg) + §12 (claims). P
 
 ## 10. Justeringsloop (efter LYNX-refresh)
 - **Fortf. SIGNIFICANT/MODERATE?** → ta nästa lager block (extended "Läs mer"-text, MODERATE-block), öka mekanism-/gloss-tätheten.
-- **AI QUESTIONS fortf. OK (ej GOOD)?** → FAQ-innehåll + FAQPage-schema (#6).
+- **AI QUESTIONS fortf. OK (ej GOOD)?** → FAQ-innehåll + FAQPage-schema (§9 Fas 2).
 - **PAGE TYPE/P. PRICE "-"?** → kommer av generiskt fallback-Product-schema utan Offer; separat schemaspår (sätt `$rich_product` per sida).
 - **SLIGHT?** → klar, lättputs bara.
 - Uppdatera §9 + denna fil när vi lär oss vad som flyttar nålen.
@@ -228,7 +229,7 @@ Kryssa här. Start/stopp-vänligt: status = §9 + §11 (logg) + §12 (claims). P
 ---
 
 ## 11. Arbetslogg (vad vi gjort + varför)
-Korrelera mot LYNX-refresh. Senaste först. Spara alltid **LYNX-baseline** (FÖRE-värden) per sida så vi kan utvärdera vad ändringen gjorde. All rå LYNX-data (alla sidor, alla kolumner) sparas i **`includes/lynx-data.md`** — vår manuella "export" eftersom LYNX saknar exportfunktion. Uppdatera den vid varje refresh.
+Korrelera mot LYNX-refresh. Senaste först. Spara alltid **LYNX-baseline** (FÖRE-värden) per sida så vi kan utvärdera vad ändringen gjorde. All rå LYNX-data (alla sidor, alla kolumner) sparas i **`includes/lynx-data.php`** — vår manuella "export" eftersom LYNX saknar exportfunktion. Uppdatera den vid varje refresh.
 
 ### LYNX-baseline — de 4 SIGNIFICANT-sidorna (2026-06-30, före ändring)
 | Sida | VALUE | PAGE TYPE | SCORE | GAPS ⚡/💡 | AI COPY | AI QUESTIONS | P. PRICE | KW |
@@ -239,13 +240,12 @@ Korrelera mot LYNX-refresh. Senaste först. Spara alltid **LYNX-baseline** (FÖR
 | hudproblem/hudforandringar/ | 10 | – | 17 | 3/2 | SIGNIFICANT | OK | – | 8 |
 
 ### 2026-06-30 — `acne-ansikte.php` (SIGNIFICANT) — ÅTERSTÄLLD, görs om
-**Status:** Provomskrivningarna nedan **rullades tillbaka till original** eftersom vi finslipade formel/ramar under tiden (täthet = substans inte kortare §13.N · sökordsbevarande §6 · helt block-svep §13.D). Görs om i ETT rent svep med färdig playbook. LYNX-baseline ovan gäller fortfarande. Historik (vad som testades och rullades tillbaka):
-**Gjort:** Skrev om de 3 SIGNIFICANT intro-blocken (ProblemTrivia):
-- rad 82 "Orsaker till plötslig akne", rad 101 "När du ska söka hjälp", rad 117 "Var i ansiktet akne uppstår".
-- Block 3:s skylt varierad (tog bort upprepad "Här går vi igenom…").
-**Varför:** Tog bort tomma öppningar + empati-utfyllnad, ledde med mekanism, band kausalt, bantade komman till idiomatiska, varierade pulsen. Sökordet "akne i ansiktet" + områdesvarianter bevarade.
-**Gjort (omgång 2, 2026-06-30):** banner-description (rad 27), "Vad är akne"-öppning (rad 62), "Varför" (rad 70) + tog bort organismen *Cutibacterium acnes* (rad 72) + de-skamning (rad 74), MODERATE-blocket (rad 141), avslutande boilerplate → CTA (rad 149), pris → "Från 1595 kr" (rad 220), konkret image_alt (rad 21). Sökordet "akne i ansiktet" + lesion-/områdestermer bevarade. (`$seo_keywords` lämnas orört — sidans sökordslagring.)
-**Kvar:** konvertera fet-etikett-punktlistorna i "Läs mer"/extended_content till bunden prosa (rad 84–90, 103–109, 119–133, 143–147) — *beslut väntar: göra om till prosa eller behålla punktlistorna (UX)?*
+**Status:** Provomskrivningarna nedan **rullades tillbaka till original** eftersom vi finslipade formel/ramar under tiden (täthet = substans inte kortare §13.N · sökordsbevarande §6 · helt block-svep §13.D). Görs om i ETT rent svep med färdig playbook. LYNX-baseline ovan gäller fortfarande. Att ta med i omskrivningen (lärdomar + checklista):
+- Täthet = SUBSTANS, inte kortare text (§13.N). Bevara alla målfraser (§6).
+- Block att svepa: banner-description (rad 27), alla ProblemTrivia `content` (rad 62, 70, 82, 101, 117, 141) **och** deras `extended_content`, avslutande CTA (rad 149).
+- `extended_content` är bold-label-listor (rad 84–92, 103–109, 119–133, 143–147) → gör om till bunden prosa (§13.D).
+- Ta bort organismen *Cutibacterium acnes* (rad 72). Pris → "Från 1595 kr" (rad 220). Konkret image_alt (rad 21). CTA utan "…, så går vi igenom…".
+- `$seo_keywords` (rad 10) lämnas orört (sökordslagring).
 
 ---
 
@@ -261,7 +261,7 @@ Claima en sida här **innan** du rör den. Töm raden när den är klar (logga i
 ## 13. Skyddsregler & mätning (från plan-granskningen)
 **A. Produktion vs staging (VIKTIGAST).** LYNX skannar LIVE-sajten (`main` → produktionshost `acnespecialisten.se`). **Process:** arbeta på `staging` → push `staging` (→ temp-staging) → ägaren verifierar att sidan fungerar → push/merge `main` (→ live). **LYNX ser bara live**, så mät effekt från **main-deploy-datum**, inte staging-edit. (Att merga `staging`→`main` är ofarligt trots att staging ligger efter main — main får bara våra nya commits.) **Rollfördelning:** assistenten fixar sidor + commitar + pushar `staging`; ägaren verifierar och pushar `main` (assistenten rör aldrig main).
 
-**B. Playbook/data hamnar publikt (medvetet val).** Deploy-zippen tar med `.md`-filerna, så `lynx-copy-playbook.md` + `lynx-data.md` ligger på webben. Beslut: vi lämnar det så under projektet (inga hemligheter, olänkade, ej indexerade) och **raderar båda filerna när projektet är klart** (se §9 TODO). Vill vi stänga det tidigare: lägg `-x "*.md"` i båda `.github/workflows/deploy-*.yml`.
+**B. Filerna är INTE webb-läsbara (löst).** `lynx-copy-playbook.php` + `lynx-data.php` börjar med `<?php exit; ?>` → servern kör dem och returnerar **tomt** om någon öppnar URL:en. Vi läser dem i editor/git. Inget behov av deploy-exkludering eller radering. (Verifiera vid behov: öppna `/includes/lynx-copy-playbook.php` på temp-staging → ska vara tom.)
 
 **C. PHP-strängsäkerhet.** Copy ligger i enkel-citerade PHP-strängar (`content: '...'`). Ett rått apostrof (`'`) eller backslash kraschar sidan (500). Regel: inga råa apostrofer/backslash i copy — omformulera eller använd typografiskt `’`. (Dubbla citattecken och `$` är säkra.) `php -l` som CI-gate vore robust.
 
@@ -277,7 +277,7 @@ Claima en sida här **innan** du rör den. Töm raden när den är klar (logga i
 
 **I. PAGE TYPE / P. PRICE "–".** Kommer av generiskt fallback-Product utan Offer. Separat schemaspår: sätt `$rich_product` per sida (pris från "Från X kr"). Sekundärt mot AI COPY.
 
-**J. FAQ-schema (#6) realistiskt.** Kosmetisk klinik får troligen inga rich results; markera bara upp Q&A som syns på sidan och är kosmetisk; värdet är innehåll/LYNX, inte stjärnor. AI QUESTIONS drivs av synligt Q&A-innehåll först, schema sen.
+**J. FAQPage-schema (§9 Fas 2) realistiskt.** Kosmetisk klinik får troligen inga rich results; markera bara upp Q&A som syns på sidan och är kosmetisk; värdet är innehåll/LYNX, inte stjärnor. AI QUESTIONS drivs av synligt Q&A-innehåll först, schema sen.
 
 **K. Bild-alt/title** ska vara konkret + sökordsbärande (inte "Bild som illustrerar…"). Ligger i siddata → säkert att ändra.
 
