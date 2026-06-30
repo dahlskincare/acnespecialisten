@@ -349,7 +349,7 @@ LYNX skannar bara LIVE och refreshar med delay — **mätklockan startar när ä
 
 | Sida | Staging-push | Main-push (mätstart) | FÖRE-baseline | Prediktion (§10 steg 1) | Senaste LYNX-analys | Status |
 |---|---|---|---|---|---|---|
-| acne-ansikte.php | 2026-06-30 | – (väntar ägaren) | SCORE "–", AI COPY SIGNIFICANT, KW57 | AI STYLE ↑, Depth/Evidence/sökord = | – | omskriven → staging; väntar main-push → bevaka refresh |
+| acne-ansikte.php | 2026-06-30 | **2026-06-30 (LIVE)** | SCORE "–", AI COPY SIGNIFICANT, KW57 | AI STYLE ↑, Depth/Evidence/sökord = | – | live på main 30 jun, verifierad 200 + nytt innehåll → **bevaka LYNX-refresh** |
 
 När en rad refreshats: mät (§10 steg 2–3), logga EFTER i §11 + lynx-data.php, förfina modellen (steg 4), backporta (steg 5), töm raden.
 
