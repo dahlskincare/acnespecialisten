@@ -81,13 +81,13 @@ $trivias = array(
 
             content: '<p class="p200">Plötslig akne i ansiktet utan att du brukar ha hudproblem beror nästan alltid på en hormonell svängning. Puberteten, menstruationscykeln, graviditeten och byte av p-piller höjer halten manliga könshormoner och drar igång talgproduktionen. Stress spär på genom att höja kroppens kortisol, och även nya hudvårdsprodukter eller läkemedel kan utlösa ett utbrott.',
 
-            extended_content: '<ul><li class="mt-xl"><strong>Hormonella förändringar</strong> kan spela en stor roll vid plötslig akne. Under puberteten, menstruationscykeln, graviditet och klimakteriet kan nivåerna av manliga könshormon öka. Detta leder till ökad produktion av talg i talgkörtlarna, vilket kan gå över styr och orsaka utslag.</li>
+            extended_content: '<ul><li class="mt-xl"><strong>Hormonella förändringar:</strong> under puberteten, mens, graviditet och i klimakteriet stiger de manliga könshormonerna. Då producerar talgkörtlarna mer talg som täpper porerna.</li>
 
-            <li class="mt-xl"><strong>Stress</strong> kan också påverka huden. Påfrestande perioder i livet kan resultera i att kroppen producerar mer av stresshormonet kortisol, vilket i sin tur kan trigga igång överdriven talgproduktion och skapa en obalans i huden. Detta skapar en grogrund för akneutbrott, särskilt om du redan är benägen för finnar.</li>
+            <li class="mt-xl"><strong>Stress:</strong> påfrestande perioder höjer kortisolet, som drar igång talgproduktionen och lätt sätter fart på utbrott om du redan är finnig.</li>
 
-            <li class="mt-xl"><strong>Preventivmedel</strong> kan också spela en roll i plötsliga akneutbrott. Vissa hormonella preventivmedel kan påverka kroppens nivåer av androgener, vilket kan leda till ökad talgproduktion och därmed akne. Om du märker att din hud förändras efter att du börjat med ett nytt preventivmedel, kan det vara värt att ta upp med din läkare.</li>
+            <li class="mt-xl"><strong>Preventivmedel:</strong> vissa p-piller höjer androgennivåerna och ökar därmed talgproduktionen. Ändrar sig huden efter ett byte är det värt att ta upp med din läkare.</li>
 
-            <li class="mt-xl"><strong>Yttre faktorer</strong> som oljebaserade kosmetiska produkter, otillräcklig rengöring och föroreningar kan också bidra till plötsliga akneutbrott. Feta solkrämer under sommaren kan blockera porerna och orsaka akne.</li></ul>
+            <li class="mt-xl"><strong>Yttre faktorer:</strong> oljebaserad smink, dålig rengöring, föroreningar och feta solkrämer på sommaren kan täppa till porerna och utlösa utbrott.</li></ul>
 
             <p class="p200 mt-xl">Slutligen, om du nyligen har börjat använda nya hudvårdsprodukter eller mediciner, kan dessa också vara utlösande faktorer. Vissa läkemedel, inklusive steroider, är kända för att orsaka akne som en biverkning. Om du upplever plötslig akne kan det vara bra att tänka igenom om något nyligen har ändrats i din livsstil eller dina vanor.</p>',
 
