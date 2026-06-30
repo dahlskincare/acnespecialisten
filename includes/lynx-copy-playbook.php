@@ -359,7 +359,7 @@ Claima en sida här **innan** du rör den. Töm raden när den är klar (logga i
 
 | Sida | Ägare (terminal/namn) | Status | Tid |
 |------|------------------------|--------|-----|
-| acne-ansikte.php | huvudsession | KLAR → staging, väntar main-push + LYNX-refresh | 2026-06-30 |
+| *(ingen aktiv claim — acne-ansikte klar, se §11-loggen + bevakningslistan §11.1)* | | | |
 
 ---
 
