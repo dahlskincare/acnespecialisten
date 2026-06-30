@@ -13,6 +13,48 @@
 | /behandla-pigmentflackar.php | 14 | – | – | –/– | GOOD | – | 16 |
 | /hudproblem/hudforandringar/ | 10 | – | 17 | 3/2 | OK | – | 8 |
 
+### Score-komponenter (detaljnedbrytning) — baseline + sajt-tak
+SCORE (0–100) = CONTENT QUALITY (Base, Depth, Evidence, Language, Readability) + E-E-A-T (Experience, Expertise, Authority, Trust) + AI STYLE (Human-like). Skärmdumpar 2026-06-30, LYNX-analys 49–79 dgr sedan = FÖRE våra ändringar.
+
+**Våra 2 SIGNIFICANT-mål som har SCORE** (acne-ansikte + behandla-pigmentflackar visar SCORE "–" → ingen nedbrytning):
+| Komponent | hudforandringar (17) | ytliga-blodkarl (22) |
+|---|---|---|
+| CONTENT QUALITY | 52 | 52 |
+| – Base Quality | 46 | 54 |
+| – Depth | 69 | 67 |
+| – Evidence | 31 | 24 |
+| – Language | 52 | 58 |
+| – Readability | 40 | 50 |
+| E-E-A-T | 49 | 58 |
+| – Experience | 35 | 50 |
+| – Expertise | 55 | 60 |
+| – Authority | 45 | 60 |
+| – Trust | 60 | 60 |
+| AI STYLE (Human-like) | 25 | 25 |
+
+**Sajtens 3 toppsidor — SCORE 39 = HÖGSTA på hela sajten** (acne.php, behandla-stora-porer.php, ipl-rosacea.php; exakt bild→sida ej säker från beskärning, A/B/C = analys 55/49/60 dgr sedan):
+| Komponent | A (55d) | B (49d) | C (60d) |
+|---|---|---|---|
+| **Overall** | **39** | **39** | **39** |
+| CONTENT QUALITY | 56 | 58 | 68 |
+| – Base Quality | 65 | 65 | 70 |
+| – Depth | 77 | 75 | 81 |
+| – Evidence | 11 | 22 | 46 |
+| – Language | 65 | 80 | 75 |
+| – Readability | 60 | 55 | 65 |
+| E-E-A-T | 84 | 83 | 85 |
+| – Experience | 85 | 85 | 85 |
+| – Expertise | 85 | 80 | 85 |
+| – Authority | 80 | 80 | 85 |
+| – Trust | 85 | 85 | 85 |
+| AI STYLE (Human-like) | 30 | 30 | 25 |
+
+**Läsning (hypotes, validera efter refresh):**
+1. **Hela sajten taklar ~39**, och taket beror på att **AI STYLE/Human-like sitter 25–30 ÖVERALLT** — även på bästa sidorna (gammal AI-copy). Vår de-AI-omskrivning är enda spaken som kan bryta taket; **ingen sida har gjort det än → otestad uppsida.**
+2. **Evidence näst tyngst** (11–46 även på topp) → konkret bevis: siffror, tidsram, mekanism-steg, "Från X kr", 30 år.
+3. **Depth (75–81) + E-E-A-T (83–85) = toppsidornas styrka → skydda** (korta inte, §13.N; behåll specialist-/resultat-/recensions-widgets som bär E-E-A-T).
+4. Våra mål ligger lägre på E-E-A-T (49–58 mot 83–85) → väg in förstahands-klinik (Experience), recensioner/resultat (Trust), 30 år/maskiner (Authority).
+
 ### 🟠 MODERATE (10) — PRIO 2 (nästa våg)
 | URL | VAL | PT | SCORE | GAPS | AIQ | P.PRICE | KW |
 |---|---|---|---|---|---|---|---|
@@ -159,3 +201,24 @@ Detta är informationen som lagts in hittills. Är en sida eller ett fält blank
 - **Prio 2:** de 10 MODERATE (störst: pigmentflackar KW244).
 - **Prio 3 (SLIGHT men hög uppsida):** hög KW + låg/0 SCORE eller öppna GAPS, t.ex. rosacea (221, SCORE –), perioral-dermatit (194, –), blodprickar (175, 17), milier (173, 37), seborre (168, –), pormaskar (128, 32), acnearr (127, SCORE 0), seborroisk-keratos (110, 0), hudflikar (105, 28), finnar (101, –).
 - **PAGE TYPE/P.PRICE "–"** på nästan alla → bekräftar schema-spåret (§13.I i playbook): generiskt fallback-Product utan Offer.
+
+## Datainventering — vad vi HAR och vad vi VILL HA (beställningssedel)
+LYNX saknar export; ägaren matar in skärmdumpar på begäran. Den här listan = vad vi kan efterfråga efter behov. ✅ har · 🟡 delvis · ❌ saknas · ❓ okänt.
+
+**HAR:**
+- ✅ Full Pages-inventering (~100 sidor): VALUE, PAGE TYPE, SCORE, GAPS (⚡/💡 antal), AI COPY, AI QUESTIONS, P.PRICE, KW (tabellerna ovan).
+- ✅ SCORE-komponenter för 5 sidor: 2 mål (hudforandringar 17, ytliga-blodkarl 22) + 3 sajt-topp (39×3).
+- ✅ AI COPY per-block-facit för acne-ansikte (10 block) + enstaka andra (`lynx-examples.php`).
+- ✅ Gap-text (⚡/💡) för ytliga-blodkarl + hudforandringar (playbook §8.1).
+
+**VILL HA (prioriterat — be om skärmdump när sidan blir aktuell):**
+1. 🟡 **SCORE-komponenter för resten av prio-sidorna** — bekräfta först om acne-ansikte/behandla-pigmentflackar har en breakdown bakom "–" (eller om "–" = ej analyserad); sen de 10 MODERATE; + fler sajt-topp för att stärka tak-modellen.
+2. 🟡 **Fler komponent→Overall-datapunkter** → så vi kan **reverse-engineera viktningen** (hur CQ + E-E-A-T + AI STYLE blir Overall). Just nu fastnar 3 sidor på exakt 39 trots CQ 56–68 → tyder på att AI STYLE väger tungt / agerar tak. Analogt med hur §1.1 reverse-engineerades.
+3. ❌ **AI QUESTIONS-detalj** — de faktiska frågorna LYNX vill se besvarade (vi har bara OK/GOOD/POOR). Krävs för FAQPage (Fas 2).
+4. ❌ **AI COPY per-block-rating** för de 3 övriga SIGNIFICANT + MODERATE-vågen (vilka block är 🔴/🟠/🔵).
+5. ❌ **Gap-text för fler sidor** (⚡ innehåll / 💡 keyword) när vi tar dem.
+6. ❌ **Faktiska sökord-rankningar (positioner)** per sida, inte bara KW-antal → för att mäta §6 ranking-skydd efter deploy.
+7. ❌ **"Analyzed X days ago" + refresh-kadens** per sida → veta hur färsk varje datapunkt är och när EFTER-värden väntas.
+8. ❓ **EG SCORE-kolumnen** — alltid "–" i våra dumpar; vad mäter den? (lågprio)
+
+Modellen (§1.2) skärps mest av punkt 1–2. Be om data i den ordning sidorna blir aktuella.

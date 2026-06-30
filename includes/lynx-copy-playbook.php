@@ -14,7 +14,7 @@ Säger användaren typ *"vi fortsätter med LYNX-uppgifterna"* eller klistrar in
 
 > Kanonisk arbetsfil för att skriva om sidor som LYNX flaggar för **AI COPY** (SIGNIFICANT/MODERATE) så de läser som människa, utan att tappa sökord eller ranking. Utgå alltid från den här filen — den är **självbärande och enda källan till sanning** (vi använder inte task-tracker; TODO + status bor här). En ny Claude utan kontext ska kunna läsa den top-to-bottom och börja jobba (se §0.1 för parallellt arbete). Senast uppdaterad: 2026-06-30.
 
-**Innehåll:** §0 använda filen · §0.1 parallellt arbete · §1 hävstången · §1.1 bedömningsmodell · §2 formeln · §3 checklista · §4 husröst · §4.1 utökad husröst · §5 ramar · §6 SEO-skydd · §7 process · §8 backlog · §8.1 per-sida gaps · §9 TODO · §10 justeringsloop · §11 logg + baseline · §12 claims · §13 skyddsregler
+**Innehåll:** §0 använda filen · §0.1 parallellt arbete · §1 hävstången · §1.1 bedömningsmodell · §1.2 score-modellen · §2 formeln · §3 checklista · §4 husröst · §4.1 utökad husröst · §5 ramar · §6 SEO-skydd · §7 process · §8 backlog · §8.1 per-sida gaps · §9 TODO · §10 justeringsloop · §11 logg + baseline · §11.1 bevakningslista · §12 claims · §13 skyddsregler
 
 ---
 
@@ -64,6 +64,27 @@ Axeln = **fyllnad/mall ↔ rak konkret täthet**. Bekräftat mot facit på acne.
 **Mål:** rework allt som är 🔴 SIGNIFICANT eller 🟠 MODERATE → **minst 🔵 SLIGHT**. 🔵/🟢 lämnas orörda. 🟢 HUMAN nås bara på naturligt korta block (definition med siffra, namngiven maskin, kort erbjudande, omdöme) — **tvinga aldrig ner ett förklarande block i längd för att jaga HUMAN** (krockar med §13.N). För förklarande prosa är SLIGHT målet.
 
 **Modell-referens:** `acne.php` är samma ämne som acne-ansikte fast i SLIGHT/MODERATE-version — modellera omskrivningar direkt på dess SLIGHT-block. Alla per-block-facit (sida + datum) loggas i **`includes/lynx-examples.php`** — växande korpus; fyll på vid nya facit, och logga före→efter när resultat kommer.
+
+---
+
+## 1.2 SCORE-modellen — komponenter, sajt-tak & copy-spakar (prediktiv, validera mot refresh)
+SCORE (0–100) ≠ AI COPY-flaggan men lyfts av samma jobb. Komponenter: **CONTENT QUALITY** (Base, Depth, Evidence, Language, Readability) + **E-E-A-T** (Experience, Expertise, Authority, Trust) + **AI STYLE** (Human-like). Baselines + sajt-tak (rådata) i `lynx-data.php`.
+
+**Sajt-taket (stora insikten, hypotes):** hela sajten taklar ~**SCORE 39**; taket beror på att **AI STYLE/Human-like ligger 25–30 ÖVERALLT** — även de tre bästa sidorna (acne.php, behandla-stora-porer, ipl-rosacea), som har Depth 75–81 + E-E-A-T 83–85. Gammal AI-copy håller nere alla. **De-AI-omskrivningen är enda spaken som kan bryta 39 — ingen sida har gjort det än → otestad uppsida.** Därför är copy prio 1, inte schema.
+
+**Prediktiv spak-karta (copy-drag → komponent den flyttar).** Använd för att förutse score-effekt FÖRE refresh (analogt med §1.1 för AI COPY):
+| Komponent (baseline→topp) | ↑ av (skriv så här) | ↓ av (undvik) |
+|---|---|---|
+| **AI STYLE** 25→30 | §2-formel, §4-husröst, §1.1-täthet; konkret öppning, varierad puls, inline-gloss | AI-vokab/em-streck (§5), filler-öppning, staplade hedges, marknads-superlativ |
+| **Evidence** 11–46 | siffror, tidsram, namngiven mekanism/organism (factual §5), "Från X kr", 30 år, namngivna maskiner | vaga kvantifierare, superlativ utan tal |
+| **Depth** 67–81 | full kausal mekanism-vandring, flera delaspekter, bunden prosa | korta ner, fet-etikett-listor (§13.D/N) |
+| **Readability** 40–65 | puls (kort+lång), gloss av fackord, tydlig struktur | enbart långa meningar, staccato |
+| **E-E-A-T** 49→85 | förstahands-klinik ("vi tar bilder/rengör"), 30 år, namngivna maskiner/brands | mest strukturellt → **rör inte widgets** (specialister/resultat/recensioner bär detta) |
+| **Language** 52→80 | idiomatisk svenska, rätt register | translationese, AI-vokab |
+
+**No-regression (KRITISKT — "utan negativa konsekvenser på annat"):** spakarna är JOINT, inte fristående. Lyft AI STYLE + Evidence **utan att sänka** Depth, E-E-A-T eller sökord/ranking. Vanliga fällor: jaga Human-like genom att korta bort substans → sänker Depth (§13.N); stripa "fackord" → sänker Evidence; skriva om rubriker → tappar sökord (§6). **Regel: varje ändring ska vara ≥0 på alla komponenter och >0 på minst en.** Optimera aldrig en komponent på en annans bekostnad.
+
+*(acne-ansikte + behandla-pigmentflackar har SCORE "–" → kör på AI COPY + formel. Modellen är en hypotes — mät, förfina och backporta enligt §10 när refreshen kommer.)*
 
 ---
 
@@ -264,6 +285,7 @@ Kryssa här. Start/stopp-vänligt: status = §9 + §11 (logg) + §12 (claims). P
 
 **Löpande / avslut**
 - [ ] LYNX justeringsloop (§10) — läs varje refresh, uppdatera §11 + lynx-data.php.
+- [ ] Mät-loop & modell-förfining (§10): prediktera före, mät efter, förfina §1.1/§1.2, **backporta lärdomar till redan gjorda sidor**.
 - [x] (Löst) Filerna är `.php` med `<?php exit;` → renderas tomma på webben; behöver inte raderas.
 
 **Parkerat**
@@ -271,17 +293,25 @@ Kryssa här. Start/stopp-vänligt: status = §9 + §11 (logg) + §12 (claims). P
 
 ---
 
-## 10. Justeringsloop (efter LYNX-refresh)
-- **Fortf. SIGNIFICANT/MODERATE?** → ta nästa lager block (extended "Läs mer"-text, MODERATE-block), öka mekanism-/gloss-tätheten.
-- **AI QUESTIONS fortf. OK (ej GOOD)?** → FAQ-innehåll + FAQPage-schema (§9 Fas 2).
-- **PAGE TYPE/P. PRICE "-"?** → kommer av generiskt fallback-Product-schema utan Offer; separat schemaspår (sätt `$rich_product` per sida).
-- **SLIGHT?** → klar, lättputs bara.
-- Uppdatera §9 + denna fil när vi lär oss vad som flyttar nålen.
+## 10. Justeringsloop & prediktiv mät-loop (efter LYNX-refresh)
+**Mät-loopen (så modellen i §1.1/§1.2 förbättras, inte bara sidorna).** Data kommer på delay (LYNX skannar live, refreshar långsamt) — därför **prediktera före, mät efter**:
+1. **Före** (vid omskrivning): logga i §11 vilka komponenter vi tror rör sig och varför (t.ex. "AI STYLE ↑↑ de-AI; Evidence ↑ 30år+Från-pris+mekanismtal; Depth = hållen; sökord = hållna").
+2. **Efter refresh:** logga faktisk delta per komponent (FÖRE→EFTER ur lynx-data.php).
+3. **Jämför:** stämde prediktionen? Var missade modellen? Notera prediktionsfelet.
+4. **Förfina** §1.1/§1.2 utifrån felet (modellen är hypotes — vi rutar inte in oss, §0/§5).
+5. **Backporta:** när modellen blir bättre → lista vad som nu bör fixas på **redan gjorda/gröna sidor** (samma spak som visat sig funka). Lägg i §9 Löpande.
+
+**Per-signal-respons:**
+- **Fortf. SIGNIFICANT/MODERATE?** → nästa lager block (extended "Läs mer", MODERATE-block), mer mekanism/gloss/evidens.
+- **AI QUESTIONS ej GOOD?** → FAQ-innehåll + FAQPage-schema (§9 Fas 2).
+- **PAGE TYPE/P. PRICE "–"?** → generiskt fallback-Product utan Offer; sätt `$rich_product` per sida.
+- **SLIGHT + SCORE nära/över 39?** → vi bröt taket; dokumentera VAD som gjorde det och backporta (§10 steg 5).
+- Uppdatera §9 + denna fil + lynx-data.php när vi lär oss vad som flyttar nålen.
 
 ---
 
 ## 11. Arbetslogg (vad vi gjort + varför)
-Korrelera mot LYNX-refresh. Senaste först. Spara alltid **LYNX-baseline** (FÖRE-värden) per sida så vi kan utvärdera vad ändringen gjorde. All rå LYNX-data (alla sidor, alla kolumner) sparas i **`includes/lynx-data.php`** — vår manuella "export" eftersom LYNX saknar exportfunktion. Uppdatera den vid varje refresh.
+Korrelera mot LYNX-refresh. Senaste först. Spara alltid **LYNX-baseline** (FÖRE-värden) per sida så vi kan utvärdera vad ändringen gjorde. Logga även en **prediktion** per omskrivning (vilka SCORE-komponenter vi tror rör sig + varför, §10 steg 1) så vi kan mäta modellens träffsäkerhet när EFTER-värden kommer. All rå LYNX-data (alla sidor, alla kolumner) sparas i **`includes/lynx-data.php`** — vår manuella "export" eftersom LYNX saknar exportfunktion. Uppdatera den vid varje refresh.
 
 ### LYNX-baseline — de 4 SIGNIFICANT-sidorna (2026-06-30, före ändring)
 | Sida | VALUE | PAGE TYPE | SCORE | GAPS ⚡/💡 | AI COPY | AI QUESTIONS | P. PRICE | KW |
@@ -303,6 +333,17 @@ Korrelera mot LYNX-refresh. Senaste först. Spara alltid **LYNX-baseline** (FÖR
 - `extended_content` är bold-label-listor (rad 84–92, 103–109, 119–133, 143–147) → gör om till bunden prosa (§13.D).
 - **Behåll** *Cutibacterium acnes* (rad ~72) — godkänt befintligt. Pris → "Från 1595 kr" (rad 220). Konkret image_alt (rad 21). CTA utan "…, så går vi igenom…".
 - `$seo_keywords` (rad 10) lämnas orört (sökordslagring).
+
+---
+
+## 11.1 Bevakningslista — sidor som väntar på LYNX-refresh (mät-loopen, §10 steg 2)
+LYNX skannar bara LIVE och refreshar med delay — **mätklockan startar när ägaren pushar `main`**, inte vid staging. Vi kan inte polla LYNX (ingen export/API); ägaren droppar ny skärmdump när LYNX uppdaterat, då mäter vi delta mot FÖRE-baseline + prediktion. Listan = vad vi väntar på, så inget glöms.
+
+| Sida | Staging-push | Main-push (mätstart) | FÖRE-baseline | Prediktion (§10 steg 1) | Senaste LYNX-analys | Status |
+|---|---|---|---|---|---|---|
+| acne-ansikte.php | 7 block: 2026-06-30 | – (väntar ägaren) | SCORE "–", AI COPY SIGNIFICANT, KW57 | AI STYLE ↑↑, Evidence ↑, Depth =, sökord = | – | OPTION B kvar → sen main-push → bevaka |
+
+När en rad refreshats: mät (§10 steg 2–3), logga EFTER i §11 + lynx-data.php, förfina modellen (steg 4), backporta (steg 5), töm raden.
 
 ---
 
