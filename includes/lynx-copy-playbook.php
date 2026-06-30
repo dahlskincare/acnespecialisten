@@ -4,8 +4,8 @@
 ## ▶ START HÄR — för en ny Claude utan kontext
 Säger användaren typ *"vi fortsätter med LYNX-uppgifterna"* eller klistrar in LYNX-data? Då är **den här filen ditt enda underlag — läs hela top-to-bottom först.**
 
-- **Uppdrag (pågår tills allt är klart):** skriv om sidor som LYNX flaggar för AI COPY (SIGNIFICANT → MODERATE) så de läser som människa, **utan att tappa sökord/ranking**. Kör tills alla flaggade sidor är gröna → sedan FAQPage-schema → sedan löpande. **Status & nästa sida:** §9 (TODO), §11 (logg/baseline), §12 (claims).
-- **När LYNX-info droppas för en sida = din trigger.** Följ §7: spara baseline (§11) → skriv om ALLA flaggade block enligt §2 (formel) + §4 (husröst) + §5 (ramar) → kör §3 (checklista) + §6 (SEO-skydd) + §13 (skyddsregler) → logga (§11) → committa + pusha **`staging`**.
+- **Uppdrag (pågår tills allt är klart):** skriv om sidor som LYNX flaggar för AI COPY (SIGNIFICANT/MODERATE) så varje textblock når **minst SLIGHT** (HUMAN där blocket naturligt tillåter, §1.1) och läser som människa, **utan att tappa sökord/ranking**. **Slutmål: LYNX helt grönt/korrekt** på alla signaler — AI COPY först → FAQPage-schema (AI QUESTIONS) → `$rich_product` (PAGE TYPE/P. PRICE) → gap-punkter → sedan löpande. **Status & nästa sida:** §9 (TODO), §11 (logg/baseline), §12 (claims).
+- **När LYNX-info droppas för en sida = din trigger.** Följ §7: spara baseline (§11) → skriv om **alla textblock på sidan** (inte bara de LYNX-flaggade — §13.D) enligt §2 (formel) + §4 (husröst) + §5 (ramar) → kör §3 (checklista) + §6 (SEO-skydd) + §13 (skyddsregler) → logga (§11) → committa + pusha **`staging`**.
 - **Rollfördelning:** du fixar sidor + pushar `staging`; användaren verifierar + pushar `main`. **Rör aldrig `main`.** LYNX ser bara live, så effekt mäts efter användarens main-push + LYNX-refresh.
 - **Rådata** (LYNX saknar export): `includes/lynx-data.php` — fyll på vid varje refresh.
 - **Aldrig:** medicin/cancer-påståenden · aktiva ingredienser · em-streck · hudterapeutnamn · korta ner sidor (täthet = substans, §13.N) · tappa målfraser (§6) · röra delade widgets/mallar.
@@ -20,12 +20,14 @@ Säger användaren typ *"vi fortsätter med LYNX-uppgifterna"* eller klistrar in
 
 ## 0. Så här använder vi filen
 1. LYNX-info kommer in för en sida (AI COPY-block + ev. gap-punkter).
-2. Skriv om de flaggade blocken enligt **Formeln** (§2) och **Husrösten** (§4).
+2. Skriv om **alla textblock på sidan** (inte bara de LYNX-flaggade — §13.D) enligt **Formeln** (§2) och **Husrösten** (§4).
 3. Kör varje block mot **Checklistan** (§3) och **SEO-skyddet** (§6).
 4. Logga vad som gjorts i **Arbetsloggen** (§11) med resonemang.
 5. Efter LYNX-refresh: använd **Justeringsloopen** (§10).
 
 Prioritet: **SIGNIFICANT först**, men gör hela sidan klar medan vi ändå är där.
+
+**Vad som hör hemma i den här filen (så vi inte rutar in oss):** generella principer, inte engångsiakttagelser. Dyker det upp något på en enskild sida — t.ex. "behövs kommat här?" — är det ett omdöme i stunden, inte en ny regel. Innan en regel läggs till: hjälper den på fler sidor, eller låser den bara fast oss? Hellre få principer + omdöme än en växande lista mikroregler. *(Den gamla komma-efter-sökfras-regeln i §6 var just en sådan över-specificering — den föddes ur ett enskilt "kommat behövdes inte" och togs bort.)*
 
 ---
 
@@ -83,9 +85,7 @@ Axeln = **fyllnad/mall ↔ rak konkret täthet**. Bekräftat mot facit på acne.
 - [ ] Minst en inline-gloss eller taktil bild per begrepp?
 - [ ] Bunden prosa, **inte** `<ul><li><strong>Etikett:</strong>…`-inventering?
 - [ ] Puls: en kort + en lång mening; inga 3 i rad i samma längd; ingen staccato?
-- [ ] ≤1 korrelativ-komma per mening; inga 3+ hopkedjade bisatser; "och"-listor orörda?
-- [ ] Inte samma **"[sats], och [sats]"-fog upprepad** i blocket (1 naturlig OK, flera = AI-rytm)? Variera med "som"/egen mening.
-- [ ] Inga **inskjutna bisatser med dubbla komman** ("X, en aside, Y")? Skriv rakt.
+- [ ] Naturlig komma-rytm, inte AI-mönster (staplade korrelativ-komman, upprepad **"[sats], och [sats]"-fog**, inskjutna **dubbel-komma-bisatser** "X, en aside, Y")? **Enklaste fixen först: stryk det onödiga kommat** — reformulera bara om satsen blir hängig utan det, aldrig staccato. Äkta "och"-listor/uppräkningar orörda.
 - [ ] **Aktivt och direkt** ("undvik solning två veckor innan"), inte passivt/hedgat ("det rekommenderas att du undviker solning")?
 - [ ] **Varierad öppning mot systerblock** — inte varje block börjar "Akne i ansiktet…" (upprepad öppning = AI-parallellism)?
 - [ ] **Ingen poäng upprepad mellan block** (samma orsak, t.ex. hormonell, sägs en gång — inte i tre block)?
@@ -186,8 +186,7 @@ Plockat från acne/rosacea/microneedling/alma-hybrid (sidor ägaren gillar). OBS
 
 ## 6. ⚠️ SEO-skydd — bryt inte sökord/ranking
 Sidorna rankar redan på sökord. Omskrivningen får höja kvaliteten **utan att ta bort signalerna som funkar**:
-- **Bevara primärt sökord + viktiga varianter** i `$seo_title`, H1, H2:er och brödtext. Skriv aldrig bort sökordet ur sidan (t.ex. "akne i ansiktet" måste finnas kvar).
-- **Bryt inte sökordsfrasen i onödan med ett tecken** — ett *onödigt* komma direkt efter ("akne i ansiktet, …") matchar exakt-frasen sämre, så låt den flyta när det går. (Inget förbud — komma efter frasen är OK när det behövs grammatiskt.)
+- **Bevara primärt sökord + viktiga varianter** i `$seo_title`, H1, H2:er och brödtext. Skriv aldrig bort sökordet ur sidan (t.ex. "akne i ansiktet" måste finnas kvar). Hur frasen interpunkteras (komma efter eller ej) är en **rytmfråga (§3), inte SEO** — ett komma bryter inte Googles frasmatchning. Behåll bara frasen i texten.
 - **Rör `$seo_title` / `$seo_description` försiktigt** — om du ändrar, behåll sökordet och förbättra bara. **`$seo_keywords` är en lagring** av sidans sökord (Google ignorerar taggen) — ta aldrig bort termer där, även dubbletter får stå.
 - **Ändra ALDRIG filnamn/URL** (dödar ranking + kräver redirect).
 - **Radera inte hela sektioner** som bär rankande innehåll — komprimera prosan, behåll ämnestäckningen.
@@ -202,7 +201,7 @@ Sidorna rankar redan på sökord. Omskrivningen får höja kvaliteten **utan att
 ## 7. Arbetsprocess per sida
 1. **Spara LYNX-baseline** för sidan i §11 (AI COPY, SCORE, GAPS, AI QUESTIONS, PAGE TYPE, P. PRICE, KW, ev. RANK) — innan något ändras.
 2. LYNX-info klistras in; identifiera primärt sökord + intent (bonus → long-tail).
-3. Skriv om **alla** flaggade blocktyper (§13.D) enligt §2–§4; kör §3-checklistan + §6 SEO-skydd.
+3. Skriv om **alla textblocktyper på sidan** (§13.D) — inte bara de LYNX-flaggade — enligt §2–§4; kör §3-checklistan + §6 SEO-skydd.
 4. Lös gap-punkter inom ramarna (grannämne → länk; ingen medicin/cancer).
 5. Logga i §11 (baseline + vad/varför). Följ Definition of Done (§13.E).
 6. Promota till prod (§13.A) → vänta på LYNX-refresh → utvärdera (§10).
@@ -292,6 +291,9 @@ Korrelera mot LYNX-refresh. Senaste först. Spara alltid **LYNX-baseline** (FÖR
 | behandla-pigmentflackar.php | 14 | – | – | –/– | SIGNIFICANT | GOOD | – | 16 |
 | hudproblem/hudforandringar/ | 10 | – | 17 | 3/2 | SIGNIFICANT | OK | – | 8 |
 
+### 2026-06-30 — Playbook-städning (avlägsna över-specificering)
+**Gjort:** (1) Tog bort §6-regeln "komma efter sökfras matchar exakt-frasen sämre" — falsk SEO-grund + fastlåsande; ersatt med rytm-hänvisning (§3) + "behåll frasen i texten". (2) La in §0-vakt: bara generella principer hör hemma i filen, engångsiakttagelser är omdöme i stunden. (3) Slog ihop §3:s tre komma-punkter till en, med "enklaste fixen = stryk onödigt komma, omformulera bara vid behov". (4) Rättade motsägelsen "flaggade block" vs "alla block" på flera ställen (§0/§7/§13.D): **hela sidan är arbetslistan, inte LYNX:s flagg-lista** — det var den motsägelsen som lät en tidigare session fastna i "får bara röra flaggade block". (5) Skärpte uppdraget överst: mål = LYNX **helt grönt/korrekt**, varje textblock minst SLIGHT/HUMAN (rättade vilseledande "SIGNIFICANT → MODERATE"). **Varför:** ägaren var nöjd med acne-ansikte och fixen var bara att stryka extra komman utan omformulering — regeln var en överreaktion på ett engångsfall. Princip: vi rutar inte in oss (§5). Minnesfil [[comma-ai-tell]] uppdaterad i linje med detta.
+
 ### 2026-06-30 — `acne-ansikte.php` (SIGNIFICANT) — OMSKRIVEN, väntar LYNX-refresh
 **Gjort:** Skrev om de **7 flaggade blocken** (banner + Vad/Varför/Orsaker/När/Var = SIGNIFICANT, Hur = MODERATE) → SLIGHT-mål, varierade öppningar, ingen upprepad ", och"-fog, befintliga claims/sökord bevarade. Regler reviderade: organism-namn/ingredienser factual OK (§5), komma-efter-sökfras mjukad till riktlinje (§6), "heuristiker inte stela lagar" (§5). **Cutibacterium acnes STANNAR** (godkänt befintligt — bakteriens namn). LYNX-vyn (3 nya bilder 30 jun) = **samma 10 block**, inga gömda extra. Logga före/efter i lynx-examples.php när LYNX uppdaterats.
 **NÄSTA — beslut: OPTION B (svep alla block):** skriv om **alla återstående textblock** på acne-ansikte (extended_content "Läs mer"-listor, Metoden-stegen, 4 behandlingskort, $about_title, procedures) — inte bara de 7 — eftersom vi inte vet vilka LYNX rate:ar + texten ska vara bra för Google. Behåll allt godkänt (Cutibacterium, sökord, claims, "Från"-pris). Mål SLIGHT, formel §2, ramar §5. Sedan committa+pusha hela sidan till `staging` och logga LYNX-refresh.
@@ -320,7 +322,7 @@ Claima en sida här **innan** du rör den. Töm raden när den är klar (logga i
 
 **C. PHP-strängsäkerhet.** Copy ligger i enkel-citerade PHP-strängar (`content: '...'`). Ett rått apostrof (`'`) eller backslash kraschar sidan (500). Regel: inga råa apostrofer/backslash i copy — omformulera eller använd typografiskt `’`. (Dubbla citattecken och `$` är säkra.) `php -l` som CI-gate vore robust.
 
-**D. Svep ALLA textblock, inte bara intro.** LYNX betygsätter all renderad text. Obligatoriskt per sida: (1) grön banner-description, (2) ProblemTrivia content, (3) ProblemTrivia extended_content ("Läs mer" — ofta fet-etikett-listor → gör om till prosa), (4) service-/behandlingskort, (5) FAQ-svar. "Klar" = alla blocktyper klarar §3.
+**D. Svep ALLA textblock, inte bara intro — och inte bara de LYNX-flaggade.** LYNX betygsätter all renderad text och visar sällan en flagga per block, så **LYNX:s flagg-lista är inte arbetslistan — hela sidan är det** (texten ska dessutom vara bra för Google oavsett vad LYNX råkar visa). Block som redan är genuint tighta/SLIGHT kan lämnas (§1.1), men utgå från hela sidan, inte flagg-listan. Obligatoriskt per sida: (1) grön banner-description, (2) ProblemTrivia content, (3) ProblemTrivia extended_content ("Läs mer" — ofta fet-etikett-listor → gör om till prosa), (4) service-/behandlingskort, (5) FAQ-svar. "Klar" = alla blocktyper klarar §3.
 
 **E. Definition of Done.** `git diff` rör bara mål-`.php` (+ logg); deploy grön; sidan laddar 200/renderar; sökord finns kvar (grep); LYNX-baseline + ändring loggad i §11. Först då töms claim i §12.
 
