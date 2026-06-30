@@ -226,7 +226,7 @@ Sidorna rankar redan på sökord. Omskrivningen får höja kvaliteten **utan att
 3. Skriv om **alla textblocktyper på sidan** (§13.D) — inte bara de LYNX-flaggade — enligt §2–§4; kör §3-checklistan + §6 SEO-skydd.
 4. Lös gap-punkter inom ramarna (grannämne → länk; ingen medicin/cancer).
 5. Logga i §11 (baseline + vad/varför). Följ Definition of Done (§13.E).
-6. **Push `staging` → TESTA att sidan gick upp:** hämta staging-URL:en (`https://www.acnespecialisten-staging.minoch.com/<sida>`) och bekräfta **HTTP 200 + renderad HTML** (inte blankt/500) samt att sökord/claims syns i svaret. Fångar PHP-strängfel (§13.C). En sida är inte klar förrän den verifierat laddar.
+6. **Push `staging` → TESTA att sidan gick upp:** hämta staging-URL:en (`https://www.acnespecialisten-staging.minoch.com/<sida>`) och bekräfta **HTTP 200 + renderad HTML** (inte blankt/500) samt att sökord/claims syns i svaret. Fångar PHP-strängfel (§13.C). En sida är inte klar förrän den verifierat laddar. **OBS: staging-deploy har ~minuters lag** — poll:a tills *din* ändring faktiskt syns i svaret (grep efter en ny formulering), inte bara tills 200 kommer.
 7. Promota till prod (§13.A) → vänta på LYNX-refresh → utvärdera (§10).
 
 ---
