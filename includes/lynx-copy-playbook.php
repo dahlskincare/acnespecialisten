@@ -106,7 +106,7 @@ SCORE (0–100) ≠ AI COPY-flaggan men lyfts av samma jobb. Komponenter: **CONT
 - [ ] Minst en inline-gloss eller taktil bild per begrepp?
 - [ ] Bunden prosa, **inte** `<ul><li><strong>Etikett:</strong>…`-inventering?
 - [ ] Puls: en kort + en lång mening; inga 3 i rad i samma längd; ingen staccato?
-- [ ] Naturlig komma-rytm, inte AI-mönster (staplade korrelativ-komman, upprepad **"[sats], och [sats]"-fog**, inskjutna **dubbel-komma-bisatser** "X, en aside, Y")? **Enklaste fixen först: stryk det onödiga kommat** — reformulera bara om satsen blir hängig utan det, aldrig staccato. Äkta "och"-listor/uppräkningar orörda.
+- [ ] **Naturlig komma-rytm, inte AI-mönster.** Standard: **stryk onödiga komman rakt av — även enstaka.** Ett komma före "och"/"så att" som binder två satser kan nästan alltid bort utan att något tappas. **Reformulera** (inte bara stryk) när satsen kräver det: en löst tillagd **"X, vilket Y"**-resultatsats delas hellre i två meningar — en av de tydligaste AI-tells; men "vilket" *mitt i* en tät kausalkedja är OK (§2/§4). Undvik även staplade korrelativ-komman och inskjutna **dubbel-komma-bisatser** ("X, en aside, Y"). Aldrig staccato; äkta "och"-listor/uppräkningar orörda.
 - [ ] **Aktivt och direkt** ("undvik solning två veckor innan"), inte passivt/hedgat ("det rekommenderas att du undviker solning")?
 - [ ] **Varierad öppning mot systerblock** — inte varje block börjar "Akne i ansiktet…" (upprepad öppning = AI-parallellism)?
 - [ ] **Ingen poäng upprepad mellan block** (samma orsak, t.ex. hormonell, sägs en gång — inte i tre block)?
