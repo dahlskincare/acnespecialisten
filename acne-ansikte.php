@@ -71,7 +71,7 @@ $trivias = array(
 
             extended_content: '<p class="p200 mt-xl">Den ökade talgproduktionen kan blockera porerna, vilket skapar en idealisk miljö för bakterier att växa, särskilt bakterien Cutibacterium acnes. Denna bakterie kan leda till inflammation och utveckling av inflammerade finnar och cystor. Utöver detta spelar genetiken in: har dina föräldrar haft akne ökar chanserna att du också utvecklar det.</p>
 
-            <p class="p200 mt-xl">Det är normalt att känna sig frustrerad och nedstämd över pormaskar, utslag och finnar som påverkar ditt ansikte, särskilt när de dyker upp vid de mest olämpliga tillfällena. Och just plötsliga utbrott har ofta en tydlig utlösare.</p>',
+            <p class="p200 mt-xl">Det är normalt att känna sig frustrerad och nedstämd över pormaskar, utslag och finnar som påverkar ditt ansikte, särskilt när de dyker upp vid de mest olämpliga tillfällena.</p>',
             icons: array()
       ),
 
