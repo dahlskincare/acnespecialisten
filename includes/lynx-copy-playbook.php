@@ -163,7 +163,7 @@ Sidorna rankar redan på sökord. Omskrivningen får höja kvaliteten **utan att
 - `behandla-pigmentflackar.php` (bonus, KW16)
 - `hudproblem/hudforandringar/index.php` (hub)
 
-**MODERATE (nästa våg):** `pigmentflackar.php` (KW244), `ipl-rosacea.php`, `rhinophyma-rosacea.php`, `microdermabrasion.php`, `mogen-hy.php`, `solskadad-hy.php`, `om-oss.php`, `hudbehandlingar/ipl/`, `hudproblem/bristningar/`, `hudproblem/oonskat-har/`, `seborroisk-keratos.php` (smalna fokus + curettage vs Laser/CryoPen).
+**MODERATE (nästa våg, 10 st):** `pigmentflackar.php` (KW244), `ipl-rosacea.php`, `rhinophyma-rosacea.php`, `microdermabrasion.php`, `mogen-hy.php`, `solskadad-hy.php`, `om-oss.php`, `hudbehandlingar/ipl/`, `hudproblem/bristningar/`, `hudproblem/oonskat-har/`.
 
 **SLIGHT (mestadels klara):** majoriteten (`acne.php`, `acnearr.php`, `acne-rygg.php`, `acne-brost.php`, startsidan m.fl.) — lättputs vid behov; använd som röstreferens.
 
@@ -183,7 +183,7 @@ Från LYNX "Quick wins / Recommended improvements". Beslut enligt §5 (kosmetisk
 - HIGH För brett fokus på generella hudförändringar → **GÖR inom hub-scope** (tydligare fokus, men sidan är en kategori-hub).
 - HIGH Tydligare riktlinjer för när man ska söka vård → **SKIP** (medicinskt).
 
-**seborroisk-keratos.php** (MODERATE/bonus)
+**seborroisk-keratos.php** (SLIGHT — frivilliga förbättringar)
 - HIGH För brett fokus → **GÖR: smalna av** till seborroisk keratos (mjällvårtor).
 - MEDIUM Information om skrapning (curettage) → **GÖR: nämn + jämför** med våra metoder (Laser/CryoPen), kosmetiskt ramat.
 
