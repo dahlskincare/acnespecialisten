@@ -6,6 +6,7 @@ Säger användaren typ *"vi fortsätter med LYNX-uppgifterna"* eller klistrar in
 
 - **Uppdrag (pågår tills allt är klart):** skriv om sidor som LYNX flaggar för AI COPY (SIGNIFICANT/MODERATE) så varje textblock når **minst SLIGHT** (HUMAN där blocket naturligt tillåter, §1.1) och läser som människa, **utan att tappa sökord/ranking**. **Slutmål: LYNX helt grönt/korrekt** på alla signaler — AI COPY först → FAQPage-schema (AI QUESTIONS) → `$rich_product` (PAGE TYPE/P. PRICE) → gap-punkter → sedan löpande. **Status & nästa sida:** §9 (TODO), §11 (logg/baseline), §12 (claims).
 - **När LYNX-info droppas för en sida = din trigger.** Följ §7: spara baseline (§11) → skriv om **alla textblock på sidan** (inte bara de LYNX-flaggade — §13.D) enligt §2 (formel) + §4 (husröst) + §5 (ramar) → kör §3 (checklista) + §6 (SEO-skydd) + §13 (skyddsregler) → logga (§11) → committa + pusha **`staging`**.
+- **Arbetssätt (kalibrerat 2026-06-30 — läs §13.O):** gör **minimal diff** — ta bort bara de tydligaste AI-tells, **led öppningar med mekanism** (§2/§1.1), behåll listor/poänger/summeringar/sökord/claims. **Skriv INTE om hela block** (det blir "för stor skillnad" och felattribuerat). Lägg inte till påståenden sidan inte stöder. Testa på staging (§7.6). Iterera efter LYNX-mätning — säkrare att ta bort för lite än för mycket.
 - **Rollfördelning:** du fixar sidor + pushar `staging`; användaren verifierar + pushar `main`. **Rör aldrig `main`.** LYNX ser bara live, så effekt mäts efter användarens main-push + LYNX-refresh.
 - **Rådata** (LYNX saknar export): `includes/lynx-data.php` — fyll på vid varje refresh.
 - **Aldrig:** medicin/cancer-påståenden · aktiva ingredienser · em-streck · hudterapeutnamn · korta ner sidor (täthet = substans, §13.N) · tappa målfraser (§6) · röra delade widgets/mallar.
@@ -233,7 +234,7 @@ Sidorna rankar redan på sökord. Omskrivningen får höja kvaliteten **utan att
 
 ## 8. Sidkarta & backlog (LYNX AI COPY)
 **SIGNIFICANT (tung omskrivning, nu):**
-- `acne-ansikte.php` — återställd till original, görs om rent (se §9/§11)
+- `acne-ansikte.php` — ✅ KLAR (omskriven hela sidan → staging, väntar main-push; se §9/§11/§11.1)
 - `ytliga-blodkarl.php` (KW172, störst)
 - `behandla-pigmentflackar.php` (bonus, KW16)
 - `hudproblem/hudforandringar/index.php` (hub)
