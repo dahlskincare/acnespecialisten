@@ -1,5 +1,16 @@
 # LYNX Copy Playbook — AcneSpecialisten
 
+## ▶ START HÄR — för en ny Claude utan kontext
+Säger användaren typ *"vi fortsätter med LYNX-uppgifterna"* eller klistrar in LYNX-data? Då är **den här filen ditt enda underlag — läs hela top-to-bottom först.**
+
+- **Uppdrag (pågår tills allt är klart):** skriv om sidor som LYNX flaggar för AI COPY (SIGNIFICANT → MODERATE) så de läser som människa, **utan att tappa sökord/ranking**. Kör tills alla flaggade sidor är gröna → sedan FAQPage-schema → sedan löpande. **Status & nästa sida:** §9 (TODO), §11 (logg/baseline), §12 (claims).
+- **När LYNX-info droppas för en sida = din trigger.** Följ §7: spara baseline (§11) → skriv om ALLA flaggade block enligt §2 (formel) + §4 (husröst) + §5 (ramar) → kör §3 (checklista) + §6 (SEO-skydd) + §13 (skyddsregler) → logga (§11) → committa + pusha **`staging`**.
+- **Rollfördelning:** du fixar sidor + pushar `staging`; användaren verifierar + pushar `main`. **Rör aldrig `main`.** LYNX ser bara live, så effekt mäts efter användarens main-push + LYNX-refresh.
+- **Rådata** (LYNX saknar export): `includes/lynx-data.md` — fyll på vid varje refresh.
+- **Aldrig:** medicin/cancer-påståenden · aktiva ingredienser · em-streck · hudterapeutnamn · korta ner sidor (täthet = substans, §13.N) · tappa målfraser (§6) · röra delade widgets/mallar.
+
+---
+
 > Kanonisk arbetsfil för att skriva om sidor som LYNX flaggar för **AI COPY** (SIGNIFICANT/MODERATE) så de läser som människa, utan att tappa sökord eller ranking. Utgå alltid från den här filen — den är **självbärande och enda källan till sanning** (vi använder inte task-tracker; TODO + status bor här). En ny Claude utan kontext ska kunna läsa den top-to-bottom och börja jobba (se §0.1 för parallellt arbete). Senast uppdaterad: 2026-06-30.
 
 **Innehåll:** §0 använda filen · §0.1 parallellt arbete · §1 hävstången · §2 formeln · §3 checklista · §4 husröst · §5 ramar · §6 SEO-skydd · §7 process · §8 backlog · §8.1 per-sida gaps · §9 TODO · §10 justeringsloop · §11 logg + baseline · §12 claims · §13 skyddsregler
