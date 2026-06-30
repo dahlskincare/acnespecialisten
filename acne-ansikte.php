@@ -69,9 +69,9 @@ $trivias = array(
             title: ' får man akne?',
             content: '<p class="p200">Bakom akne i ansiktet ligger framför allt hormoner och ärftlighet. Under tonåren, menstruationscykeln och graviditeten ökar nivåerna av manliga könshormoner, som finns hos både kvinnor och män. De får talgkörtlarna att producera mer talg, och då täpps porerna lättare till. Har dina föräldrar haft akne är risken större att du också får det, eftersom hudens benägenhet att överproducera talg till stor del är ärftlig.',
 
-            extended_content: '<p class="p200 mt-xl">Den ökade talgproduktionen kan blockera porerna, vilket skapar en idealisk miljö för bakterier att växa, särskilt bakterien Cutibacterium acnes. Denna bakterie kan leda till inflammation och utveckling av inflammerade finnar och cystor. Utöver detta kan genetiska faktorer spela en betydande roll, om dina föräldrar har haft akne, ökar chanserna att du också utvecklar det.</p>
+            extended_content: '<p class="p200 mt-xl">Den ökade talgproduktionen kan blockera porerna, vilket skapar en idealisk miljö för bakterier att växa, särskilt bakterien Cutibacterium acnes. Denna bakterie kan leda till inflammation och utveckling av inflammerade finnar och cystor. Utöver detta spelar genetiken in: har dina föräldrar haft akne ökar chanserna att du också utvecklar det.</p>
 
-            <p class="p200 mt-xl">Det är normalt att känna sig frustrerad och nedstämd över pormaskar, utslag och finnar som påverkar ditt ansikte, särskilt när de dyker upp vid de mest olämpliga tillfällena. För att förstå hur man effektivt kan hantera och behandla akne är det viktigt att först förstå de många olika orsakerna till att den uppstår.</p>',
+            <p class="p200 mt-xl">Det är normalt att känna sig frustrerad och nedstämd över pormaskar, utslag och finnar som påverkar ditt ansikte, särskilt när de dyker upp vid de mest olämpliga tillfällena. Och just plötsliga utbrott har ofta en tydlig utlösare.</p>',
             icons: array()
       ),
 
@@ -81,15 +81,15 @@ $trivias = array(
 
             content: '<p class="p200">Plötslig akne i ansiktet utan att du brukar ha hudproblem beror nästan alltid på en hormonell svängning. Puberteten, menstruationscykeln, graviditeten och byte av p-piller höjer halten manliga könshormoner och drar igång talgproduktionen. Stress spär på genom att höja kroppens kortisol, och även nya hudvårdsprodukter eller läkemedel kan utlösa ett utbrott.',
 
-            extended_content: '<ul><li class="mt-xl"><strong>Hormonella förändringar</strong> kan även spela en stor roll i uppkomsten av plötslig akne. Under puberteten, menstruationscykler, graviditet och till och med klimakteriet, kan nivåerna av manliga könshormon öka. Detta leder till ökad produktion av talg i talgkörtlarna, vilket kan gå över styr och orsaka utslag.</li>
+            extended_content: '<ul><li class="mt-xl"><strong>Hormonella förändringar</strong> kan spela en stor roll vid plötslig akne. Under puberteten, menstruationscykeln, graviditet och klimakteriet kan nivåerna av manliga könshormon öka. Detta leder till ökad produktion av talg i talgkörtlarna, vilket kan gå över styr och orsaka utslag.</li>
 
-            <li class="mt-xl"><strong>Stress</strong> är en annan viktig faktor som kan påverka din hudhälsa markant. Påfrestande perioder i livet kan resultera i att kroppen producerar mer av stresshormonet kortisol, vilket i sin tur kan trigga igång överdriven talgproduktion och skapa en obalans i huden. Detta skapar en grogrund för akneutbrott, särskilt om du redan är benägen för finnar.</li>
+            <li class="mt-xl"><strong>Stress</strong> kan också påverka huden. Påfrestande perioder i livet kan resultera i att kroppen producerar mer av stresshormonet kortisol, vilket i sin tur kan trigga igång överdriven talgproduktion och skapa en obalans i huden. Detta skapar en grogrund för akneutbrott, särskilt om du redan är benägen för finnar.</li>
 
-            <li class="mt-xl"><strong>Preventivmedel</strong> kan också spela en roll i plötsliga akneutbrott. Vissa hormonella preventivmedel kan påverka kroppens nivåer av androgener, vilket kan leda till ökad talgproduktion och därmed akne. Om du märker att din hud förändras efter att du börjat med ett nytt preventivmedel, kan det vara värt att diskutera detta med din läkare. Det finns många olika typer av preventivmedel, och det är möjligt att hitta en lösning som är bättre lämpad för din hudtyp och hormonella balans.</li>
+            <li class="mt-xl"><strong>Preventivmedel</strong> kan också spela en roll i plötsliga akneutbrott. Vissa hormonella preventivmedel kan påverka kroppens nivåer av androgener, vilket kan leda till ökad talgproduktion och därmed akne. Om du märker att din hud förändras efter att du börjat med ett nytt preventivmedel, kan det vara värt att ta upp med din läkare.</li>
 
-            <li class="mt-xl"><strong>Yttre faktorer</strong> som användning av oljebaserade kosmetiska produkter, otillräcklig rengöring av huden, och exponering för föroreningar kan också bidra till plötsliga akneutbrott. Förändringar i väderförhållanden och användningen av feta solkrämer under sommarperioden kan blockera porerna och orsaka akne.</li></ul>
+            <li class="mt-xl"><strong>Yttre faktorer</strong> som oljebaserade kosmetiska produkter, otillräcklig rengöring och föroreningar kan också bidra till plötsliga akneutbrott. Feta solkrämer under sommaren kan blockera porerna och orsaka akne.</li></ul>
 
-            <p class="p200 mt-xl">Slutligen, om du nyligen har börjat använda nya hudvårdsprodukter eller mediciner, kan dessa också vara utlösande faktorer. Vissa läkemedel, inklusive steroider, är kända för att orsaka akne som en biverkning. Om du upplever plötslig akne, kan det vara bra att tänka igenom om något nyligen har ändrats i din livsstil eller dina vanor.</p>',
+            <p class="p200 mt-xl">Slutligen, om du nyligen har börjat använda nya hudvårdsprodukter eller mediciner, kan dessa också vara utlösande faktorer. Vissa läkemedel, inklusive steroider, är kända för att orsaka akne som en biverkning. Om du upplever plötslig akne kan det vara bra att tänka igenom om något nyligen har ändrats i din livsstil eller dina vanor.</p>',
 
             icons: array('genetik' => 'Genetik', 'hormoner' => 'Hormoner', 'stress' => 'Stress', 'klimat' => 'Klimat', 'graviditet' => 'Graviditet')
       ),
@@ -100,13 +100,13 @@ $trivias = array(
 
             content: '<p class="p200">Egenvård räcker inte alltid. Svår akne som inte svarar på produkter hemifrån behöver en hudterapeuts bedömning. Ju tidigare du söker hjälp, desto mindre är risken för bestående ärr. De här tecknen visar att det är dags att boka tid:',
 
-            extended_content: '<ul><li class="mt-xl"><strong> Utebliven förbättring:</strong> Om du har använt hudvårdsprodukter under en längre tid utan att uppleva någon märkbar förbättring, kan det vara ett tecken på att du behöver en mer intensiv behandling.</li>
+            extended_content: '<ul><li class="mt-xl"><strong>Utebliven förbättring:</strong> du har använt hudvårdsprodukter en längre tid utan att se någon märkbar förbättring.</li>
 
-            <li class="mt-xl"><strong>Ärrbildning:</strong> Om du börjar märka att din akne lämnar permanenta ärr efter sig, är det en indikation på att din nuvarande behandling inte är tillräckligt effektiv.</li>
+            <li class="mt-xl"><strong>Ärrbildning:</strong> din akne börjar lämna permanenta ärr efter sig.</li>
 
-            <li class="mt-xl"><strong>Påverkan på självkänslan:</strong> Akne kan ha en stor inverkan på din mentala hälsa och självkänsla. Om du känner dig deprimerad eller ångestfylld över din hud, är det dags att tala med en specialist.</li>
+            <li class="mt-xl"><strong>Påverkan på självkänslan:</strong> aknen tär på din mentala hälsa och du känner dig nedstämd eller orolig över din hud.</li>
 
-            <li class="mt-xl"><strong>Fysisk smärta:</strong> Akne som är smärtsam eller inflammerad till den punkt där det påverkar din dagliga funktion är också ett tecken på att du behöver professionell hjälp.</li></ul>',
+            <li class="mt-xl"><strong>Fysisk smärta:</strong> aknen är smärtsam eller inflammerad och påverkar din vardag.</li></ul>',
 
             icons: array()
       ),
@@ -118,7 +118,7 @@ $trivias = array(
 
             extended_content: '<ul><li class="mt-xl"><strong>Panna:</strong> Akne i pannan är ofta små finnar eller pormaskar. Dessa kan uppstå på grund av att hårsäckarna täpps igen av överflödig olja, svett eller hårprodukter.</li>
 
-            <li class="mt-xl"><strong>Kinder:</strong> Akne på kinderna kan även bero på hormonella förändringar, särskilt hos kvinnor. Dessa finnar kan vara rödaktiga och inflammerade, och de kan dyka upp som enstaka utbrott eller som en del av ett större område med flera finnar. Hormoner som östrogen och progesteron kan påverka talgproduktionen, vilket leder till att porerna täpps igen och orsakar akne.</li>
+            <li class="mt-xl"><strong>Kinder:</strong> Akne på kinderna kan även bero på hormonella förändringar, särskilt hos kvinnor. Dessa finnar kan vara rödaktiga och inflammerade. Hormoner som östrogen och progesteron kan påverka talgproduktionen, vilket leder till att porerna täpps igen och orsakar akne.</li>
 
             <li class="mt-xl"><strong>Haka:</strong> Akne och <a class="b200 underline color-deep-sea-400" href="/finnar-ansikte.php" title="Mer information om finnar på hakan">finnar på hakan</a> är vanligtvis hormonell och ökar ofta under menstruationscykeln. Denna typ av akne kan vara envis och dyka upp samma plats varje månad.</li>
 
@@ -128,7 +128,7 @@ $trivias = array(
 
            <li class="mt-xl"><strong>Hals:</strong> Akne på halsen kan ofta kopplas till hormonella förändringar eller irritation från kläder och smycken. Dessa finnar kan vara smärtsamma och uppstå som resultat av friktion eller svett.</li></ul>
 
-            <p class="p200 mt-xl">Vissa individer kan även uppleva akne över hela ansiktet. Detta kan bero på en kombination av hormonella förändringar, genetiska faktorer och livsstilsval. Det är viktigt att identifiera orsaken till din akne för att hitta den mest effektiva behandlingen.</p>
+            <p class="p200 mt-xl">Vissa individer kan även uppleva akne över hela ansiktet. Detta kan bero på en kombination av hormonella förändringar, genetiska faktorer och livsstilsval.</p>
 
             <p class="p200 mt-xl">Akne kan också uppstå på bröst och rygg, och det delar ofta samma orsaker som akne i ansiktet. Genom att förstå var och varför du upplever akne kan du bättre anpassa dina behandlingar.</p>',
 
@@ -140,13 +140,13 @@ $trivias = array(
             title: ' får man bort akne i ansiktet?',
             content: '<p class="p200">Det finns ingen universallösning för akne i ansiktet. Vi läser av hur djupt utbrotten sitter och anpassar behandlingen efter det, och oftast ger en kombination av metoder bäst resultat. Här är metoderna vi använder.</p>',
 
-            extended_content: '<ul><li class="mt-xl"><strong>Behandlingar hos hudterapeut:</strong> En licensierad hudterapeut kan erbjuda mer avancerade behandlingar som kemisk peeling och microneedling. Kemisk peeling innebär applicering av en kemisk syra som får huden att fjälla och därmed främja ny, frisk hud att växa fram. Microneedling använder små nålar för att skapa mikrokanaler i huden, vilket stimulerar kollagenproduktionen och förbättrar hudens textur och ton.</li>
+            extended_content: '<ul><li class="mt-xl"><strong>Behandlingar hos hudterapeut:</strong> En licensierad hudterapeut kan erbjuda behandlingar som kemisk peeling och microneedling. Kemisk peeling innebär applicering av en kemisk syra som får huden att fjälla och därmed främja ny, frisk hud att växa fram. Microneedling använder små nålar för att skapa mikrokanaler i huden, vilket stimulerar kollagenproduktionen och förbättrar hudens textur och ton.</li>
 
-            <li class="mt-xl"><strong>Laserbehandling:</strong> Laserbehandling har blivit en populär metod för att hantera både aktiv akne och akneärr. Laserljuset riktas mot talgkörtlarna, vilket minskar talgproduktionen och därmed hindrar nya utbrott. Dessutom kan laserbehandling hjälpa till att minska inflammerade lesioner och förbättra hudens övergripande utseende.</li>
+            <li class="mt-xl"><strong>Laserbehandling:</strong> Laserbehandling används mot både aktiv akne och akneärr. Laserljuset riktas mot talgkörtlarna, vilket minskar talgproduktionen och därmed hindrar nya utbrott. Dessutom kan laserbehandling minska inflammerade lesioner och förbättra hudens utseende.</li>
 
-            <li class="mt-xl"><strong>Egenvård och hudvårdsprodukter:</strong> Att etablera en konsekvent hudvårdsrutin är avgörande. Genom att balansera talgproduktionen kan du minska uppkomsten av akne, eftersom överdriven talgproduktion ofta är orsaken till akne.</li></ul>
+            <li class="mt-xl"><strong>Egenvård och hudvårdsprodukter:</strong> En konsekvent hudvårdsrutin hjälper huden i balans. Genom att balansera talgproduktionen kan du minska uppkomsten av akne, eftersom överdriven talgproduktion ofta är orsaken till akne.</li></ul>
 
-            <p class="p200 mt-xl">Oavsett vilken metod du väljer, handlar hudvård om att ta hand om sig själv. Att visa omsorg och engagemang för din hud kan i slutändan leda till förbättrad självkänsla och välmående. Kom ihåg, du är inte ensam och det finns hjälp att få.</p>',
+            <p class="p200 mt-xl">Oavsett vilken metod du väljer, handlar hudvård om att ta hand om sig själv. Att visa omsorg och engagemang för din hud kan i slutändan leda till förbättrad självkänsla och välmående.</p>',
 
             icons: array()
       ),
@@ -155,21 +155,21 @@ $trivias = array(
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'Få en personlig hudterapeut som analyserar din hud och skapar en skräddarsydd behandlingsplan för just dina behov.',
+            content: 'Få en personlig hudterapeut som analyserar din hud och skapar en behandlingsplan utifrån dina behov.',
             url_label: 'Boka gratis konsultation',
             url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Acne',
             url_title: 'Boka din kostnadsfria hudkonsultation idag'
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Våra grundliga ansiktsbehandlingar är anpassade för din aknetyp för att effektivt behandla och lindra dina hudproblem.',
+            content: 'Våra grundliga ansiktsbehandlingar är anpassade för din aknetyp för att behandla och lindra dina hudproblem.',
             url_label: 'Se behandlingar',
             url: 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_Acne',
             url_title: 'Utforska våra skräddarsydda aknebehandlingar'
       ),
       new TreatmentStep(
             title: 'Förebygga',
-            content: 'Genom en anpassad hudvårdsrutin och rätt produkter kan vi effektivt förebygga akneutbrott och balansera din hud.',
+            content: 'Genom en anpassad hudvårdsrutin och rätt produkter kan vi förebygga akneutbrott och balansera din hud.',
             url_label: 'Se produkter',
             url: 'https://www.dahlskincare.com/sv/produktkategorier/produktpaket/akne',
             url_title: 'Hitta de bästa produkterna för att förebygga akne'
@@ -191,7 +191,7 @@ $service = new Service(
       title: 'Konsultation',
       duration: '20 min',
       price: 'Kostnadsfri',
-      content: 'Under en personlig konsultation med en acnespecialist undersöks din akne noggrant. Vi tar bilder och rekommenderar en skräddarsydd behandlingsplan anpassad efter dina behov.',
+      content: 'Under en personlig konsultation med en acnespecialist undersöks din akne noggrant. Vi tar bilder och rekommenderar en behandlingsplan utifrån dina behov.',
 
       image_small: 'bilder/hudbehandlingar/200x200/konsultation.webp',
       image_large: 'bilder/hudbehandlingar/200x200/konsultation.webp',
@@ -218,7 +218,7 @@ $services = array(
             title: 'Ansiktsbehandling mot akne',
             duration: '60 min',
             price: '1595 kr',
-            content: 'En effektiv behandling som noggrant extraherar orenheter, förebygger ärrbildning och främjar snabb läkning.',
+            content: 'En behandling som noggrant extraherar orenheter, förebygger ärrbildning och främjar snabb läkning.',
 
             image_small: 'bilder/hudbehandlingar/200x200/ansiktsbehandling.webp',
             image_large: 'bilder/hudbehandlingar/200x200/ansiktsbehandling.webp',
@@ -241,7 +241,7 @@ $services = array(
             title: 'Laser mot akne',
             duration: '60 min',
             price: '4595 kr',
-            content: 'Avancerad laserbehandling som effektivt bekämpar aktiv akne genom att rikta sig mot akneorsakande bakterier och minska talgproduktionen.',
+            content: 'Laserbehandling som bekämpar aktiv akne genom att rikta sig mot akneorsakande bakterier och minska talgproduktionen.',
 
             image_small: 'bilder/hudbehandlingar/200x200/laser.webp',
             image_large: 'bilder/hudbehandlingar/200x200/laser.webp',
@@ -264,7 +264,7 @@ $services = array(
             title: 'Kemisk peeling mot akne',
             duration: '40 min',
             price: '1995 kr',
-            content: 'Kemisk peeling använder en speciell syra för att exfoliera huden, rensa porer och minska inflammation.',
+            content: 'Kemisk peeling använder en syra för att exfoliera huden, rensa porer och minska inflammation.',
 
             image_small: 'bilder/hudbehandlingar/200x200/kemisk-peeling.webp',
             image_large: 'bilder/hudbehandlingar/200x200/kemisk-peeling.webp',
@@ -316,7 +316,7 @@ $products = array(
             title: 'Produkter mot akne',
             duration: null,
             price: 'Från 1495 kr',
-            content: 'Daglig behandling med rätt produkter är avgörande för att bekämpa och förebygga akne. Våra produkter är speciellt utformade för att hålla huden i balans och förhindra nya utbrott.',
+            content: 'Daglig behandling med rätt produkter hjälper till att bekämpa och förebygga akne. Våra produkter håller huden i balans och förhindrar nya utbrott.',
 
             image_small: 'bilder/hudbehandlingar/200x200/produkter.webp',
             image_large: 'bilder/hudbehandlingar/200x200/produkter.webp',

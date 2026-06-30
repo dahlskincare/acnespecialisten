@@ -272,7 +272,7 @@ Kryssa här. Start/stopp-vänligt: status = §9 + §11 (logg) + §12 (claims). P
 - [x] Färdigställ setup & playbook (formel, husröst, ramar, SEO-skydd, §13-skyddsregler, lynx-data.php).
 
 **Fas 1 — SIGNIFICANT-sidorna**
-- [ ] `acne-ansikte.php` — ÅTERSTÄLLD till original; görs om i ett rent svep enligt §2–§6 + §13.D (ALLA block). **Visa ett fylligt prov för täthets-kalibrering först** (§13.N). Bevara alla `$seo_keywords`-fraser (§6).
+- [x] `acne-ansikte.php` — omskriven (hela sidan), minimal-diff (§13.O); sökord/claims bevarade → staging, väntar main-push.
 - [ ] `ytliga-blodkarl.php` (KW172) — formel + rosacea→länk + hemmavård-vinkeln (§8.1). OBS bortkommenterade $type_categories/$symptoms (bilder saknas).
 - [ ] `behandla-pigmentflackar.php` — formel, håll på long-tail (huvudterm bor på pigmentflackar.php).
 - [ ] `hudforandringar/index.php` — formel + hub-register (§13.L) + H1/titel-sökord i SEPARAT commit (§13.H).
@@ -322,12 +322,17 @@ Korrelera mot LYNX-refresh. Senaste först. Spara alltid **LYNX-baseline** (FÖR
 | behandla-pigmentflackar.php | 14 | – | – | –/– | SIGNIFICANT | GOOD | – | 16 |
 | hudproblem/hudforandringar/ | 10 | – | 17 | 3/2 | SIGNIFICANT | OK | – | 8 |
 
+### 2026-06-30 — `acne-ansikte.php` — omskriven (hela sidan klar), väntar main-push
+**Gjort:** Hela sidan omskriven med minimal diff (§13.O): bara tydligaste AI-tells bort (marknadsord avancerad/effektiv/skräddarsydd/speciell/avgörande, boilerplate "du är inte ensam", meta-scaffolding, fyllnadssvansar) + värsta komma-splitsarna. Struktur, summeringar, alla poänger, sökord, claims (**Cutibacterium kvar**), priser och länkar intakta — grep-verifierat. Inget unikt innehåll tappat.
+**Prediktion (§10 steg 1):** AI STYLE ↑ (mindre fyllnad/marknadsord), Evidence/Depth = (substans kvar), sökord/E-E-A-T =. Konservativt steg — kan kapa mer efter refresh om SIGNIFICANT kvarstår.
+**Process-lärdomar (inbakat i playbook):** §13.O minimal-diff (ta bort LITE, iterera, kan även lägga till/rätta); §13.D döm efter sektionens syfte (uppräkning → behåll lista, slå inte ihop poänger); §13.N info ≠ längd, bonussidor får vara kortare; §3 komma stryks rakt av.
+
 ### 2026-06-30 — Playbook-städning (avlägsna över-specificering)
 **Gjort:** (1) Tog bort §6-regeln "komma efter sökfras matchar exakt-frasen sämre" — falsk SEO-grund + fastlåsande; ersatt med rytm-hänvisning (§3) + "behåll frasen i texten". (2) La in §0-vakt: bara generella principer hör hemma i filen, engångsiakttagelser är omdöme i stunden. (3) Slog ihop §3:s tre komma-punkter till en, med "enklaste fixen = stryk onödigt komma, omformulera bara vid behov". (4) Rättade motsägelsen "flaggade block" vs "alla block" på flera ställen (§0/§7/§13.D): **hela sidan är arbetslistan, inte LYNX:s flagg-lista** — det var den motsägelsen som lät en tidigare session fastna i "får bara röra flaggade block". (5) Skärpte uppdraget överst: mål = LYNX **helt grönt/korrekt**, varje textblock minst SLIGHT/HUMAN (rättade vilseledande "SIGNIFICANT → MODERATE"). **Varför:** ägaren var nöjd med acne-ansikte och fixen var bara att stryka extra komman utan omformulering — regeln var en överreaktion på ett engångsfall. Princip: vi rutar inte in oss (§5). Minnesfil [[comma-ai-tell]] uppdaterad i linje med detta.
 
 ### 2026-06-30 — `acne-ansikte.php` (SIGNIFICANT) — OMSKRIVEN, väntar LYNX-refresh
 **Gjort:** Skrev om de **7 flaggade blocken** (banner + Vad/Varför/Orsaker/När/Var = SIGNIFICANT, Hur = MODERATE) → SLIGHT-mål, varierade öppningar, ingen upprepad ", och"-fog, befintliga claims/sökord bevarade. Regler reviderade: organism-namn/ingredienser factual OK (§5), komma-efter-sökfras mjukad till riktlinje (§6), "heuristiker inte stela lagar" (§5). **Cutibacterium acnes STANNAR** (godkänt befintligt — bakteriens namn). LYNX-vyn (3 nya bilder 30 jun) = **samma 10 block**, inga gömda extra. Logga före/efter i lynx-examples.php när LYNX uppdaterats.
-**NÄSTA — beslut: OPTION B (svep alla block):** skriv om **alla återstående textblock** på acne-ansikte (extended_content "Läs mer"-listor, Metoden-stegen, 4 behandlingskort, $about_title, procedures) — inte bara de 7 — eftersom vi inte vet vilka LYNX rate:ar + texten ska vara bra för Google. Behåll allt godkänt (Cutibacterium, sökord, claims, "Från"-pris). Mål SLIGHT, formel §2, ramar §5. Sedan committa+pusha hela sidan till `staging` och logga LYNX-refresh.
+**Status:** hela sidan omskriven och klar — se posten överst.
 **Tidigare:** Provomskrivningarna nedan **rullades tillbaka till original** eftersom vi finslipade formel/ramar under tiden (täthet = substans inte kortare §13.N · sökordsbevarande §6 · helt block-svep §13.D). Görs om i ETT rent svep med färdig playbook. LYNX-baseline ovan gäller fortfarande. Att ta med i omskrivningen (lärdomar + checklista):
 - Täthet = SUBSTANS, inte kortare text (§13.N). Bevara alla målfraser (§6).
 - Block att svepa: banner-description (rad 27), alla ProblemTrivia `content` (rad 62, 70, 82, 101, 117, 141) **och** deras `extended_content`, avslutande CTA (rad 149).
@@ -342,7 +347,7 @@ LYNX skannar bara LIVE och refreshar med delay — **mätklockan startar när ä
 
 | Sida | Staging-push | Main-push (mätstart) | FÖRE-baseline | Prediktion (§10 steg 1) | Senaste LYNX-analys | Status |
 |---|---|---|---|---|---|---|
-| acne-ansikte.php | 7 block: 2026-06-30 | – (väntar ägaren) | SCORE "–", AI COPY SIGNIFICANT, KW57 | AI STYLE ↑↑, Evidence ↑, Depth =, sökord = | – | OPTION B kvar → sen main-push → bevaka |
+| acne-ansikte.php | 2026-06-30 | – (väntar ägaren) | SCORE "–", AI COPY SIGNIFICANT, KW57 | AI STYLE ↑, Depth/Evidence/sökord = | – | omskriven → staging; väntar main-push → bevaka refresh |
 
 När en rad refreshats: mät (§10 steg 2–3), logga EFTER i §11 + lynx-data.php, förfina modellen (steg 4), backporta (steg 5), töm raden.
 
@@ -353,7 +358,7 @@ Claima en sida här **innan** du rör den. Töm raden när den är klar (logga i
 
 | Sida | Ägare (terminal/namn) | Status | Tid |
 |------|------------------------|--------|-----|
-| acne-ansikte.php | huvudsession | OMSKRIVEN (7 block) → staging, väntar LYNX-refresh | 2026-06-30 |
+| acne-ansikte.php | huvudsession | KLAR → staging, väntar main-push + LYNX-refresh | 2026-06-30 |
 
 ---
 
@@ -385,3 +390,5 @@ Claima en sida här **innan** du rör den. Töm raden när den är klar (logga i
 **M. Tunna bonussidor:** täthet från djupare mekanism på sidans egen long-tail — aldrig padding eller huvudterm. Går det inte: acceptera SLIGHT och logga det.
 
 **N. Täthet = SUBSTANS — och skilj INFO från LÄNGD.** De-fluff (bort med fyllnad + dubbletter) kortar texten utan att tappa information; det är rätt. **Bonus-/sökordssidor (acne-ansikte m.fl.) får vara kortare** än primärsidorna. På **primärsidor (acne.php)** håller vi full längd, men via **mer substans** (mekanism, gloss, exempel, Evidence), aldrig via bibehållen filler. **Tappa aldrig en unik poäng eller målfras (§6) — bara dubbletter och fyllnad får gå** (§13.D: räkna punkterna). Undvik CTA-konstruktionen "Boka konsultation, så går vi igenom…" (läses som AI) — skriv CTA:n rakt.
+
+**O. Minimal diff — ta bort LITE, iterera (default-läge för all omskrivning).** Gör minsta möjliga ändring som plockar bort de *tydligaste* AI-tells och fyllnaden (marknadssuperlativ, ren boilerplate, värsta komma-splitsarna). **Behåll struktur, listor, summerande/avslutande stycken, alla poänger och det mesta av ordalydelsen — skriv inte om hela block.** Säkrare att ta bort för lite än för mycket: vi kan alltid kapa mer när mät-loopen (§10) visar att det krävs, men bortskuren ton/poäng är svår att få tillbaka. Stora omskrivningar läses som "för stor skillnad" och går inte att attribuera. Rätt info på rätt ställe — utgå från helheten (§13.D). Justeringar kan lika gärna **lägga till saknad info eller rätta fel** som ta bort — poängen är *små, mätbara steg* mot mindre AI, inte att bara kapa.
