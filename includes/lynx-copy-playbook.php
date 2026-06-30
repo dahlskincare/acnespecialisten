@@ -14,7 +14,7 @@ Säger användaren typ *"vi fortsätter med LYNX-uppgifterna"* eller klistrar in
 
 > Kanonisk arbetsfil för att skriva om sidor som LYNX flaggar för **AI COPY** (SIGNIFICANT/MODERATE) så de läser som människa, utan att tappa sökord eller ranking. Utgå alltid från den här filen — den är **självbärande och enda källan till sanning** (vi använder inte task-tracker; TODO + status bor här). En ny Claude utan kontext ska kunna läsa den top-to-bottom och börja jobba (se §0.1 för parallellt arbete). Senast uppdaterad: 2026-06-30.
 
-**Innehåll:** §0 använda filen · §0.1 parallellt arbete · §1 hävstången · §1.1 bedömningsmodell · §2 formeln · §3 checklista · §4 husröst · §5 ramar · §6 SEO-skydd · §7 process · §8 backlog · §8.1 per-sida gaps · §9 TODO · §10 justeringsloop · §11 logg + baseline · §12 claims · §13 skyddsregler
+**Innehåll:** §0 använda filen · §0.1 parallellt arbete · §1 hävstången · §1.1 bedömningsmodell · §2 formeln · §3 checklista · §4 husröst · §4.1 utökad husröst · §5 ramar · §6 SEO-skydd · §7 process · §8 backlog · §8.1 per-sida gaps · §9 TODO · §10 justeringsloop · §11 logg + baseline · §12 claims · §13 skyddsregler
 
 ---
 
@@ -136,6 +136,31 @@ Aldrig bara "boka tid". Forma CTA:n som en resa med en namngiven vinst, och vari
 - Inte FAQ:ns ett-ords-verdikt ("Nej," / "Absolut,") i brödtext (blir staccato).
 - Inte myter-sidans tvärsäkra "Detta är helt fel." eller refräng-trick i mekanism-prosa.
 - Inte startsidans varumärkes-superlativ ("det självklara valet") på tillståndssidor — låna bara dess verifierbara siffror och vi-löften.
+
+### 4.1 Utökad husröst — från huvudsidorna (filtrerat mot §1.1-modellen)
+Plockat från acne/rosacea/microneedling/alma-hybrid (sidor ägaren gillar). OBS: sidorna är inte 100 % — nedan är bara det som *också* klarar modellen; skip-listan är 🔴-mönster som ändå förekommer där.
+
+**Nya keepers:**
+- **Empati förankrad i en KONKRET situation** (inte generisk "du är inte ensam"): *"Vi förstår att det kan vara frustrerande när akne plötsligt dyker upp, särskilt inför ett bröllop eller en skolavslutning."*
+- **Reassurance-beat** (kort hopp-mening som bryter rytmen): *"Det viktiga att komma ihåg är att huden kan behandlas."*
+- **Ärlighet före hype**: *"Det finns ingen quickfix när det gäller akne."*
+- **Ärlig brasklapp + pivot**: *"Den exakta orsaken är fortfarande något forskare försöker förstå, men det är tydligt att genetiken spelar en central roll."*
+- **Verifierbar siffra istället för "många"**: *"drabbar cirka 12–22 % av kvinnor och 3 % av män"* (endast om siffran stämmer).
+- **Nytta = liv/frihet, inte hud-mått**: *"så att du slipper anpassa ditt liv efter din hy."*
+- **"Om det här är du"-trigger**: *"Om din rosacea hindrar dig från att leva fullt ut, är det dags att…"*
+- **Biverkning som bevis på effekt**: *"En viss rodnad är normalt och visar att hudens läkningsprocess har börjat."*
+- **Eftervård med namngiven anledning (då/för att) + tidsfönster**: *"Undvik sol veckorna före, då det påverkar resultatet", "sminka inte de första 24 timmarna".*
+- **"För dig som" + vardagsmoment**: *"för dig som vill ha en snabb förbättring, klart under en lunchrast."*
+- **Kombo med inline-"som"-gloss**: *"kombinerar ablativ laser, som bränner hudytan, med icke-ablativ laser, som verkar under huden."*
+- **Gloss: vardagsord först, fackterm i parentes**: *"olja (sebum)"*; vardagsalias: *"rhinophyma (potatisnäsa)", "finnar som vi ofta säger i dagligt tal".*
+- **Levande verb**: *"får aknen att blomma upp", "fettsyran fortsätter fräta på huden".*
+
+**Skippa (🔴-mönster — även om det står på en gillad sida):**
+- "…är en **avancerad/effektiv/revolutionerande** behandlingsmetod" (marknadsadjektiv).
+- "…är **vanligast bland [grupp], oavsett kön och hudtyp**" (demografisk skal-öppning).
+- "**expertpartner i kampen mot…**", "uppnå en klarare och friskare hud" (generisk marknad).
+- "undvika **kraftfulla läkemedel med biverkningar**" (medicinskt → krockar med §5).
+- Platt "Nej"-myt-bust hör hemma i **FAQ**, inte brödtext (staccato).
 
 ---
 
