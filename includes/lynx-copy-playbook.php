@@ -159,13 +159,13 @@ Plockat från acne/rosacea/microneedling/alma-hybrid (sidor ägaren gillar). OBS
 - "…är en **avancerad/effektiv/revolutionerande** behandlingsmetod" (marknadsadjektiv).
 - "…är **vanligast bland [grupp], oavsett kön och hudtyp**" (demografisk skal-öppning).
 - "**expertpartner i kampen mot…**", "uppnå en klarare och friskare hud" (generisk marknad).
-- "undvika **kraftfulla läkemedel med biverkningar**" (medicinskt → krockar med §5).
 - Platt "Nej"-myt-bust hör hemma i **FAQ**, inte brödtext (staccato).
+- *(OBS: "undvika kraftfulla läkemedel" är INTE skip — det är godkänt befintligt innehåll, se §5.)*
 
 ---
 
 ## 5. Låsta ramar (gäller alla sidor)
-- **Kosmetiskt** — inga medicinska/diagnos-påståenden, ingen hudcancer, inget "sök läkare/medicinsk vård". (Att hänvisa till **vår klinik/hudterapeut** är OK — det är kosmetiskt/kommersiellt.)
+- **Kosmetiskt** — **lägg inte till** nya medicinska/diagnos-påståenden, hudcancer eller "sök läkare/medicinsk vård" (LYNX YMYL-gap). **MEN: befintligt sidinnehåll är godkänt** — strippa inte godkänd formulering (t.ex. "undvika kraftfulla läkemedel med biverkningar" = OK kosmetisk-spår-positionering). Befintliga sidor är referensen för *vad vi får säga* (innehåll + tillåtna påståenden). Hänvisa till **vår klinik/hudterapeut** är OK.
 - **Inga aktiva ingredienser eller namngivna organismer** (t.ex. inte "Cutibacterium acnes").
 - **Kost minimal**, akne ramas som ärftlig/hormonell.
 - **Inga em-streck** (uppfattas som ett AI-tell). Omformulera.
