@@ -84,6 +84,7 @@ Axeln = **fyllnad/mall ↔ rak konkret täthet**. Bekräftat mot facit på acne.
 - [ ] Bunden prosa, **inte** `<ul><li><strong>Etikett:</strong>…`-inventering?
 - [ ] Puls: en kort + en lång mening; inga 3 i rad i samma längd; ingen staccato?
 - [ ] ≤1 korrelativ-komma per mening; inga 3+ hopkedjade bisatser; "och"-listor orörda?
+- [ ] Inte samma **"[sats], och [sats]"-fog upprepad** i blocket (1 naturlig OK, flera = AI-rytm)? Variera med "som"/egen mening.
 - [ ] Inga staplade "kan"; ingen "[antal] olika [X]"-padding?
 - [ ] Minst en verifierbar siffra/tidsram istället för superlativ? (pris med "Från")
 - [ ] **Inga em-streck**; ingen svensk AI-vokabulär (se §5)?
