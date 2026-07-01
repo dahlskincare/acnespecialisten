@@ -345,6 +345,10 @@ Korrelera mot LYNX-refresh. Senaste först. Spara alltid **LYNX-baseline** (FÖR
 | behandla-pigmentflackar.php | 14 | – | – | –/– | SIGNIFICANT | GOOD | – | 16 |
 | hudproblem/hudforandringar/ | 10 | – | 17 | 3/2 | SIGNIFICANT | OK | – | 8 |
 
+### 2026-07-01 — `hudbehandlingar/ipl/index.php` (MODERATE, Fas 3, KW19) — OMSKRIVEN MED FACIT, klar → staging
+**Gjort (facit-guidad, v4 §1.3):** Första sidan omskriven MED per-block-facit (22 apr) i handen. Skrev om de 13 block som var 🔴/🟠 (banner, Vad-är-IPL ×2, Förberedelser ×2, Process ×3, typ-intro, rosacea/melasma-kort, eftervård ×2) — ledde med mekanism/konkret, kapade marknad (bästa/avancerad/garanterar/"effektiv metod"/mångsidig/maximera/"särskilt effektiv"), fixade grammatik ("eller ta bort blodkärlen"→"och kärlen"). **LÄMNADE de 3 🔵/🟢** (ytliga+pigment-kort SLIGHT, eftervård-slutinstruktion HUMAN) + omdömen — facit=OK, v4-disciplin (rör inte det som är bra; undvik v3:s onödiga omskrivning). En "mångsidig" kvar i obetygsatt FAQ-svar (lämnad). Bevarat: sökord (hudföryngring/pigmentfläckar/ytliga blodkärl/rosacea/melasma/melanin/hemoglobin/laser), priser, interna länkar, frysta meta. 0 råa apostrofer.
+**Prediktion:** 🔴/🟠 → SLIGHT/MODERATE; 🔵/🟢 oförändrade. Bevis på att facit-i-handen ger precis riktning utan över-omskrivning.
+
 ### 2026-07-01 — `hudproblem/hudforandringar/index.php` (hub, KW8) — OMSKRIVEN, klar → staging
 **Gjort (AI COPY):** Hub-register (§13.L). Öppningar ledda med konkret (Vad/Varför/Vem/Var + banner + $type-intro), fyra summeringssvansar bort (Vad/Varför/Vem/Var-extended — "Sammanfattningsvis"/"För att sammanfatta"), artikel 1+2 av-marknadsförda (namngav laser/CryoPen). Stavfel rättade: "födelsermäken"→"födelsemärken", "elaktartade"→"elakartade", "behandlingsplans"→"behandlingsplan". Hub-fokus skärpt till **godartade** hudförändringar (gap §8.1 #2). Bevarat: 14 typnamn i typ-listan, interna länkar (blodprickar/seborroisk-keratos), alla FAQ + **ärliga medicinska brasklappar** ("vi diagnostiserar inte" / "kontakta vårdcentral"), mekanism-kort (CryoPen/laser). Sökord grep-verifierade (hudförändringar 86, typnamn intakta). 0 råa apostrofer (§13.C).
 **H1-gap (§8.1 #1, §13.H):** banner-H1 "Hudförändringar" → "Ta bort hudförändringar" i SEPARAT commit (så effekten kan attribueras). **Söka-vård-gap (§8.1 #3):** SKIP (medicinskt).
@@ -392,6 +396,7 @@ LYNX skannar bara LIVE och refreshar med delay — **mätklockan startar när ä
 | ytliga-blodkarl.php | 2026-07-01 | *(väntar)* | SCORE 22, AI COPY SIGNIFICANT, KW172 | AI STYLE ↑ (öppningar+summeringar bort), Evidence ↑ (namngivna maskiner), Depth/E-E-A-T/sökord = | – | omskriven steg för steg → staging; **inväntar main-push + LYNX-refresh** |
 | behandla-pigmentflackar.php | 2026-07-01 | *(väntar)* | AI COPY SIGNIFICANT, SCORE –, AIQ GOOD, KW16 | block-gissningar 🔴/🟠→🔵 (öppningar+svansar), Evidence ↑ (metoder), sökord = | – | de-AI:ad → staging; **inväntar main-push + LYNX-refresh** |
 | hudforandringar/index.php | 2026-07-01 | *(väntar)* | AI COPY SIGNIFICANT, SCORE 17, GAPS 3/2, KW8 | block-gissningar 🔴/🟠→🔵 (öppningar+svansar), Evidence ↑, sökord = | – | de-AI:ad + H1-sökord (sep. commit) → staging; **inväntar main-push + LYNX-refresh** |
+| hudbehandlingar/ipl/ | 2026-07-01 | *(väntar)* | MODERATE, SCORE –, P.PRICE HIGH, KW19; per-block-facit 22 apr | 13× 🔴/🟠→SLIGHT/MOD; 3× 🔵/🟢 orörda | – | facit-guidad de-AI (Fas 3) → staging; **inväntar main-push + LYNX-refresh** |
 
 När en rad refreshats: mät (§10 steg 2–3), logga EFTER i §11 + lynx-data.php, förfina modellen (steg 4), backporta (steg 5), töm raden.
 
