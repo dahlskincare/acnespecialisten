@@ -2,6 +2,7 @@
 # LYNX-data (manuell export)
 
 > LYNX saknar exportfunktion, så detta är vår **manuella databas** över LYNX Pages-data. Mata in ny data vid varje refresh (ny daterad snapshot) så vi kan jämföra FÖRE/EFTER. Hör ihop med `includes/lynx-copy-playbook.php`. Kolumner: VAL (value), PT (page type), SCORE, GAPS (⚡innehåll/💡keyword), AICOPY, AIQ, P.PRICE, KW. *Transkriberat från skärmdumpar 2026-06-30 — verifiera mot LYNX vid hårda beslut.*
+> **Data-hantering (princip 2026-07-01):** spara ALLT ägaren skickar (sidnivå + block + SCORE-breakdown + AI QUESTIONS) här/​i `lynx-examples.php` som underlag. Vid **ny scanning: diffa mot sparad data** → vad ändrades, vad förbättrades/försämrades, vad bör åtgärdas. **Påminn ägaren om att skicka uppdateringar** om de dröjer (vi kan inte polla LYNX själva).
 
 ## Snapshot 2026-06-30 — komplett inventering (före omskrivningar)
 
@@ -33,6 +34,7 @@ SCORE (0–100) = CONTENT QUALITY (Base, Depth, Evidence, Language, Readability)
 | AI STYLE (Human-like) | 25 | 25 |
 
 **Sajtens 3 toppsidor — SCORE 39 = HÖGSTA på hela sajten** (acne.php, behandla-stora-porer.php, ipl-rosacea.php; exakt bild→sida ej säker från beskärning, A/B/C = analys 55/49/60 dgr sedan):
+> **BEKRÄFTAT 2026-07-01: kolumn A = acne.php** (exakt matchning: Overall 39 · CQ 56 [Base65/Depth77/Evidence11/Language65/Read60] · E-E-A-T 84 [Exp85/Expertis85/Auth80/Trust85] · AI STYLE 30; analyserad 68 dgr sedan). acne.php-omskrivningen (10 🔴-block, 1 jul) siktar på **AI STYLE (30) + Evidence (11)** utan att sänka Depth 77 / E-E-A-T 84 (§1.2 no-regression). FÖRE-baseline att mäta mot.
 | Komponent | A (55d) | B (49d) | C (60d) |
 |---|---|---|---|
 | **Overall** | **39** | **39** | **39** |
