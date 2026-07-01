@@ -192,6 +192,27 @@
 4. **Eftervård, samma sektion, motsatt betyg:** lång + "avgörande/bästa/effektiv"-öppning = 🔴 (blk 14); kort + direkt = 🟢 HUMAN (blk 16).
 5. **HUMAN** = korta, direkta, "mänskligt röstade" instruktioner + omdömen med namn/tidsdetalj.
 
+## /om-oss.php — 22 Apr 2026 (MODERATE-sida) — RÅDATA + v3-blindtestets facit
+> "Om oss"-marknadsprosa. Betyg = LYNX-fakta. Denna sidas block var v3-blindtestets FÄRSKA testset (aldrig kört genom modellen före testet).
+
+| Block (utdrag) | LYNX (rå) |
+|---|---|
+| "…under 30 år utvecklat en **unik och effektiv** fyrstegsmetod… **skräddarsydda** hudvårdsrutiner… ditt alternativ till hudläkare utan remiss" (5 mening) | 🟠 MODERATE |
+| "AcneSpecialisten använder en fyrstegsmetod… gratis konsultation… reparera skadad hud… komplett lösning från diagnos till reparation" (3 mening, process) | 🔵 SLIGHT |
+| "…omfattande lösning… personlig hudterapeut (PT)… **fotograferar vi din hud** för att jämföra framstegen" (×2 nära-dubbletter) | 🔵 SLIGHT |
+| "…dedikerade till att ge dig en helhetslösning… beprövade metod… **inte bara** identifierar… **utan även**… skräddarsydd behandlingsplan" | 🟠 MODERATE |
+| "**Sedan vår start 1994** har vi stolt hjälpt **flera hundra tusen** personer…" (siffra/historik) | 🔵 SLIGHT |
+| "Varje specialist… certifierad hudterapeut med **SHR-godkänd** utbildning… **garanterar högsta möjliga kvalitet**… **mest effektiva och säkra**" | 🔴 SIGNIFICANT |
+| "…förenar vi **årtiondens erfarenhet**… **de senaste innovationerna**… **inte bara**… **utan också**… **optimala resultat**" (4 mening, tung marknad) | 🔴 SIGNIFICANT |
+| "…förstår vi vikten av tillgänglighet… tre kliniker: **Strandvägen, Södermalm, Sundbyberg**… **bästa möjliga vård**… skräddarsydd" (6 mening) | 🔴 SIGNIFICANT |
+| "Boka en gratis hudkonsultation hos en av våra erfarna hudterapeuter." (1 mening, CTA) | 🔵 SLIGHT |
+| Omdöme "Hade testat allt innan…" | 🔵 SLIGHT |
+| Omdöme "Super fin personal… 2-3 år…" | 🟢 HUMAN |
+
+**Facit-signaler (tolkning):** (a) **siffra/historik** ("Sedan 1994… hundra tusen") håller ett annars marknads-block på 🔵. (b) **Konkret credential rescuear INTE** ("SHR-godkänd" → ändå 🔴 pga "garanterar högsta möjliga/mest effektiva"-svans). (c) **Namnger 3 kliniker men LÅNG + marknad → 🔴** (längd dominerar över namn-konkretionen — bekräftar v3). (d) process-block utan marknads-svans = 🔵.
+**AI QUESTIONS (FAQ, för Fas 2):** Hur länge har AcneSpecialisten funnits? · Vad erbjuder AcneSpecialisten? · Kan alla besöka AcneSpecialisten? · Är ni hudläkare? · Vad gör AcneSpecialisten unikt?
+*(v3-blindtestets träffsäkerhet på dessa block loggas i blindtest-sektionen nedan när workflowen landat.)*
+
 ## Blindtest av prediktionsrubriken — 2026-07-01 (ofuskat: 3 färska agenter, betyg dolda)
 24 block (balanserat över 5 tiers, 5 sidor), agenterna fick BARA texten + rubriken (§1.3), scoring i script mot dold facit.
 - **Resultat: 16/24 exakt (67%), 23/24 inom ±1 tier.** Agent 1/2/3 = 16/16/17 exakt — reproducerbart.
