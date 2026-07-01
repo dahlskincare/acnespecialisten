@@ -260,4 +260,5 @@ LYNX sidnivå-AI COPY (Pages-listan) vs vår per-block-facit. **Hypotes: sidniv�
 ## Rewrite-resultat (fyll på efter LYNX-refresh — validerar/finjusterar modellen)
 | Sida | Block | Före | Efter (ny LYNX) | Vad vi ändrade | Datum |
 |---|---|---|---|---|---|
-| *(tomt — fylls i när vi fått resultat på en omskriven sida)* | | | | | |
+| ipl-rosacea.php | 7 block (5🔴+2🟠 av 11); desc-p2, Inför-p1/p2, Process-p2/p3, Eftervård-p1/p2 | 🔴/🟠 | *(väntar main-push + refresh)* | de-AI: öppningar→mekanism/aktiv imperativ, antites "inte bara X utan Y"/marknadssvans/importans/passiv bort; 3 interna länkar + sökord behållna. Workflow-predikt (15 agenter): **alla 7 → SLIGHT**, sidnivå-median → SLIGHT (§1.4). A/B: bryter AI STYLE-taket 25? | 2026-07-01 |
+| *(fler fylls i när resultat kommer)* | | | | | |

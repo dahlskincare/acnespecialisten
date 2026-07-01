@@ -289,7 +289,7 @@ Sidorna rankar redan på sökord. Omskrivningen får höja kvaliteten **utan att
 - `behandla-pigmentflackar.php` — ✅ KLAR (bonus, KW16; de-AI:ad → staging, väntar main-push)
 - `hudproblem/hudforandringar/index.php` — ✅ KLAR (hub; de-AI:ad → staging, väntar main-push; H1 i sep. commit)
 
-**MODERATE-vågen:** ✅ KLARA: `om-oss.php`, `hudbehandlingar/ipl/`. **KVAR (8):** `pigmentflackar.php` (KW238), `ipl-rosacea.php` (P.PRICE HIGHEST), `rhinophyma-rosacea.php`, `microdermabrasion.php`, `mogen-hy.php`, `solskadad-hy.php`, `hudproblem/bristningar/`, `hudproblem/oonskat-har/`. (Prioordning: §9.1.)
+**MODERATE-vågen:** ✅ KLARA: `om-oss.php`, `hudbehandlingar/ipl/`, `ipl-rosacea.php` (KW20, P.PRICE HIGHEST, SCORE 39 — facit-driven + workflow-verifierad). **KVAR (7):** `pigmentflackar.php` (KW238), `rhinophyma-rosacea.php`, `microdermabrasion.php`, `mogen-hy.php`, `solskadad-hy.php`, `hudproblem/bristningar/`, `hudproblem/oonskat-har/`. (Prioordning: §9.1.)
 
 **SLIGHT (mestadels klara):** majoriteten (`acne.php`, `acnearr.php`, `acne-rygg.php`, `acne-brost.php`, startsidan m.fl.) — lättputs vid behov; använd som röstreferens.
 
@@ -334,7 +334,7 @@ Kryssa här. Start/stopp-vänligt: status = §9 + §11 (logg) + §12 (claims). P
 - [ ] PAGE TYPE/P. PRICE: sätt `$rich_product` per sida med Offer (§13.I) — separat schemaspår.
 
 **Fas 3 — MODERATE-vågen** (efter schema)
-- [~] MODERATE-vågen: ✅ om-oss + hudbehandlingar/ipl klara; **8 kvar** (§8). Körs facit-drivet parallellt när per-block-facit finns — **ej grindat efter schema** (Fas 2 är ett fristående spår). Prioordning: **§9.1**.
+- [~] MODERATE-vågen: ✅ om-oss + hudbehandlingar/ipl + ipl-rosacea klara; **7 kvar** (§8). Körs facit-drivet parallellt när per-block-facit finns — **ej grindat efter schema** (Fas 2 är ett fristående spår). Prioordning: **§9.1**.
 
 **Löpande / avslut**
 - [ ] LYNX justeringsloop (§10) — läs varje refresh, uppdatera §11 + lynx-data.php.
@@ -358,7 +358,7 @@ Från LYNX-inventeringen (`lynx-data.php` + Pages-listan). Prio = AI COPY-svåri
 **Tier 2 — hög-KW SLIGHT, låg/0 SCORE + gaps (enskilda block kan vara 🔴):**
 blodprickar (175, SCORE17) · milier (173, 37) · seborre (168, –) · pormaskar (128, 32) · acnearr (127, **SCORE0**+gaps) · **acne.php (116 — FACIT ✅ MOTTAGEN 1 jul: ~10 🔴-block, redo; husröst-REFERENS → LÄMNA dess 🔵/🟢-block)** · seborroisk-keratos (110, **0**) · hudflikar (105, 28) · finnar (101, silo).
 
-**Tier 3 — resterande MODERATE + mellan-KW SLIGHT (~KW40–71):** permanent-harborttagning · microneedling · finnar-rygg · **bristningar (🟠)** · fodelsemarken · stora-porer (0) · fet-hy · roaccutan · cryopen · alma-hybrid-co2 · dermapen · kemisk-peeling (gaps) · acne-rygg (0) · **rhinophyma-rosacea (🟠)** · finnar-gravid · behandla-stora-porer · acne-brost · inflammation-acne · **solskadad-hy (🟠)** · **ipl-rosacea (🟠, P.PRICE HIGHEST)** · **oonskat-har (🟠)** · **mogen-hy (🟠)** · **microdermabrasion (🟠)**.
+**Tier 3 — resterande MODERATE + mellan-KW SLIGHT (~KW40–71):** permanent-harborttagning · microneedling · finnar-rygg · **bristningar (🟠)** · fodelsemarken · stora-porer (0) · fet-hy · roaccutan · cryopen · alma-hybrid-co2 · dermapen · kemisk-peeling (gaps) · acne-rygg (0) · **rhinophyma-rosacea (🟠)** · finnar-gravid · behandla-stora-porer · acne-brost · inflammation-acne · **solskadad-hy (🟠)** · ~~ipl-rosacea (🟠, P.PRICE HIGHEST)~~ ✅ KLAR → staging · **oonskat-har (🟠)** · **mogen-hy (🟠)** · **microdermabrasion (🟠)**.
 
 **Tier 4–5 — lägre-KW SLIGHT + HUMAN utility/brand/resultat (lägst prio, batch):** ~60 sidor KW≤38 (full sorterad lista i `lynx-data.php`). HUMAN-sidor (myter, ordlista, priser, recensioner, hudguide…) = bara lätt städning, ej full omskrivning; skydda Trust-bärande widgets. Blanka (avbokningspolicy, karriar) = be om facit vid behov.
 
@@ -391,6 +391,12 @@ Korrelera mot LYNX-refresh. Senaste först. Spara alltid **LYNX-baseline** (FÖR
 | ytliga-blodkarl.php | 42 | – | 22 | 2/2 | SIGNIFICANT | OK | – | 172 |
 | behandla-pigmentflackar.php | 14 | – | – | –/– | SIGNIFICANT | GOOD | – | 16 |
 | hudproblem/hudforandringar/ | 10 | – | 17 | 3/2 | SIGNIFICANT | OK | – | 8 |
+
+### 2026-07-01 — `ipl-rosacea.php` (MODERATE, Fas 3, KW20, SCORE 39, P.PRICE HIGHEST) — FACIT-GUIDAD de-AI, klar → staging
+**Gjort (facit 29 apr, v4 §1.3 + adversariellt workflow-verifierad):** Skrev om de 7 block facit rated 🔴/🟠 (desc-p2 "inte bara X utan Y"+marknadssvans; Inför-p1 konsult-boilerplate; Inför-p2 "det är viktigt att"+lång; Process-p2 passiv/generisk procedur; Process-p3 hedge-stapel+boilerplate-svans; Eftervård-p1 importans-filler; Eftervård-p2 passiv "rekommenderas det att"+lång) → ledde med mekanism/konkret + aktiv imperativ, kapade antites/marknad/importans/passiv. **LÄMNADE de 4 🔵/🟢** (desc-p1, Process-p1, Eftervård-p3, Märken-raden) — facit=OK (§13.D-disciplin). Bevarat: 3 interna länkar (rosacea/rosaceabehandling/ipl-ytliga-blodkarl), alla priser, sökord (rosacea 127, IPL 67, "IPL-behandling mot rosacea" 6, rodnad, blodkärl, ytliga blodkärl, pigment), frysta meta. 0 em-streck/råa apostrofer (§13.C; php-lint saknas lokalt → verifieras på staging).
+**Ägar-kalibrering mitt i:** ägaren frågade "rätt mängd eller för mycket?" → visade diff → svar: "rätt mängd, fortsätt". (Denna = executor-terminalen; planner-terminalen körde plan-review parallellt, se nästa post.)
+**Workflow-verifiering (15 agenter, adversariell — predikt + diff-check + helhetskritiker):** alla 7 block predikterade **SLIGHT** (mål nått). Fixade 4 äkta fynd: process-p2 "bryts ner" (överdrog vs facit "minskar framträdande") mjukad + "efter din hud"-dubblett (delad med desc-p2) bort + "IPL-enheten" åter; Eftervård-p1 redundant rodnad (täcks av Process-p3) trimmad, svullnad behållen; Eftervård-p2 "regelbundet" åter; Process-p3 IPL-sökord åter. Skippade (motiverat): "tappad eftervårds-instruktion" på Inför/Process = boilerplate som Eftervård-sektionen äger (siloing); vaga svansar täcks av kvarlämnad desc-p1.
+**§1.4:** MODERATE-sida, median flyttad → förväntad **sidnivå SLIGHT (AI COPY-flagg-vinst)**. **Prediktion (§10 steg 1):** AI STYLE ↑↑ (öppningar+antites+marknad+passiv = största spaken), Evidence = (namngivna maskiner i orört Märken-block), Depth = (alla poäng kvar), E-E-A-T/sökord =. FÖRE-baseline: SCORE 39 / CQ 68 / Evidence 46 / E-E-A-T 85 / **AI STYLE 25** (topsite-kolumn C, `lynx-data.php`). **A/B-test:** bryter de-AI AI STYLE-taket 25?
 
 ### 2026-07-01 — Plan-review medan exekutor kör (planerare/exekutor-split)
 **Kontext:** ägaren kör en **parallell exekutor-terminal på `ipl-rosacea.php`** och bad planeraren se över plan + modeller. Vi trodde LYNX-setupen klar (igår lunch) men den utvecklas vidare → planen är iterativ (nu inskrivet i START HÄR).
@@ -460,6 +466,7 @@ LYNX skannar bara LIVE och refreshar med delay — **mätklockan startar när ä
 | hudbehandlingar/ipl/ | 2026-07-01 | *(väntar)* | MODERATE, SCORE –, P.PRICE HIGH, KW19; per-block-facit 22 apr | 13× 🔴/🟠→SLIGHT/MOD; 3× 🔵/🟢 orörda | – | facit-guidad de-AI (Fas 3) → staging; **inväntar main-push + LYNX-refresh** |
 | om-oss.php | 2026-07-01 | *(väntar)* | MODERATE, VAL 8, SCORE 17, KW3; per-block-facit 22 apr | O01/O04 🟠 + O06/O07/O08 🔴 → SLIGHT/MOD; 🔵/🟢 orörda | – | facit-guidad de-AI (autonomt) → staging; **inväntar main-push + LYNX-refresh** |
 | acne.php | 2026-07-01 | *(väntar)* | 🔵 SLIGHT sidnivå, SCORE 39 (Depth77/Ev11/**AISTYLE30**), KW116; block-facit 22 apr | AI STYLE ↑ + Evidence ↑ (sidnivå kvar SLIGHT §1.4); Depth/E-E-A-T = | – | 10 🔴-block omskrivna (husröst-ref lämnad) → staging; **inväntar main-push + LYNX-refresh** |
+| ipl-rosacea.php | 2026-07-01 | *(väntar)* | MODERATE, SCORE 39 (CQ68/Ev46/EEAT85/**AISTYLE25**), P.PRICE HIGHEST, KW20; per-block-facit 29 apr | 7× 🔴/🟠→SLIGHT (median→SLIGHT §1.4); AI STYLE ↑↑, Depth/Evidence/E-E-A-T/sökord = | – | facit-guidad de-AI (Fas 3) + adversariellt workflow-verifierad → staging; **inväntar main-push + LYNX-refresh** |
 
 När en rad refreshats: mät (§10 steg 2–3), logga EFTER i §11 + lynx-data.php, förfina modellen (steg 4), backporta (steg 5), töm raden.
 
@@ -468,7 +475,7 @@ När en rad refreshats: mät (§10 steg 2–3), logga EFTER i §11 + lynx-data.p
 ## 12. Pågående arbete / claims
 Claima en sida här **innan** du rör den. Töm raden när den är klar (logga istället i §11). Detta är den delade "låsningen" mellan parallella Claude-sessioner.
 
-**⚠️ 2026-07-01 — koordinerings-gap (live):** en parallell terminal arbetar **`ipl-rosacea.php`** men det syns aldrig som claim här (ägaren startade exekutorn out-of-band). Läxa: claim-tabellen är **inte självhävdande** när en exekutor dispatchas direkt utan att ha läst §0.1. **RÖR INTE `ipl-rosacea.php`** medan detta står. Strukturell fix föreslagen (standing dispatch-instruktion + flytta logg/claim ur den delade filen så parallella exekutorer inte krockar vid merge).
+**⚠️ 2026-07-01 — koordinerings-gap (löst):** en parallell **executor-terminal** (denna session) körde **`ipl-rosacea.php`** utan att claima här (ägaren startade exekutorn out-of-band). **✅ NU KLAR → staging** (se §11-loggen + §11.1-raden). Läxa kvar: claim-tabellen är **inte självhävdande** när en exekutor dispatchas direkt utan att ha läst §0.1. Strukturell fix föreslagen (standing dispatch-instruktion + flytta logg/claim ur den delade filen så parallella exekutorer inte krockar vid merge).
 
 | Sida | Ägare (terminal/namn) | Status | Tid |
 |------|------------------------|--------|-----|
