@@ -3,7 +3,7 @@
 
 > Växande samling av LYNX per-block-facit. Varje bedömt stycke bidrar till helhetsbilden av bedömningsmodellen (§1.1 i `includes/lynx-copy-playbook.php`). **Fyll på** med nya facit (sida + datum). När vi skrivit om ett block och fått ny LYNX-refresh: logga **före→efter** längst ned så vi validerar och finjusterar modellen. Snippets är förkortade — full text finns i sidans `.php` / git-historik.
 >
-> Betyg: 🔴 SIGNIFICANT · 🟠 MODERATE · 🔵 SLIGHT · 🟢 HUMAN. Why-tag = varför enligt modellen.
+> Betyg (5 tiers, LYNX rådata): 🟥 EXTREME · 🔴 SIGNIFICANT · 🟠 MODERATE · 🔵 SLIGHT · 🟢 HUMAN. Betyg = LYNX-FAKTA (bevaras för omtolkning). Why-tag = vår TOLKNING/hypotes (kan ändras när modellen lär sig nytt).
 
 ## /acne.php — 22 Apr 2026 (SLIGHT-referens, samma ämne som acne-ansikte)
 | Block (snippet) | Betyg | Varför |
@@ -95,6 +95,70 @@
 - Sidnivå ≠ block-facit: sidan står som 🔵 SLIGHT i lynx-data-inventeringen men har 3 🔴-block → verifiera sidans page-level AI COPY-flagga vid tillfälle.
 
 **AI QUESTIONS (synliga FAQ-titlar, för Fas 2 / FAQPage — inga AI COPY-betyg i vyn):** Hur många behandlingar behövs? · Finns det en risk att min akne återkommer? · Vilken är den bästa aknebehandling ni erbjuder? · Gör aknebehandlingen ont? · Vad ska jag tänka på innan behandlingen? · Vad ska jag tänka på efter behandling? · Hemmavård efter behandlingen?
+
+## FÖRE-facit per block — de 3 sidor vi skrev om 1 jul (RÅDATA, bevaras för omtolkning)
+> LYNX per-block-betyg på **ORIGINALtexten** (LYNX-analys 22–29 apr; har INTE sett våra 1 jul-omskrivningar än — EFTER-värden kommer efter main-push + refresh). Betyg = FAKTA. "Min FÖRE-gissning" = prediktionsliggaren (§10). Detta är facit att score:a mot. **NY tier: 🟥 EXTREME.**
+
+### /behandla-pigmentflackar.php — 25 Apr 2026 (SIGNIFICANT/EXTREME-tung)
+| Block (utdrag) | LYNX (rå) | Min gissning | Träff |
+|---|---|---|---|
+| Banner "Vi erbjuder **de mest effektiva metoderna** … boka en kostnadsfri hudkonsultation" | 🔵 SLIGHT | 🔴 ~80 | ❌ övergissning |
+| $about-1 "Att behandla … **kräver noggrannhet och expertis**. Vi använder **de mest effektiva och moderna** metoderna …" | 🔵 SLIGHT | 🔴 ~75 | ❌ övergissning |
+| $about-2 "Under konsultationen … bestämmer **den bästa åtgärden** …" | 🔴 SIGNIFICANT | 🔴 | ✓ |
+| $about-3 "Genom hela behandlingsprocessen … **dedikerade team** … **bästa möjliga vården** …" | 🔴 SIGNIFICANT | 🔴 | ✓ |
+| $define "För att kunna hjälpa dig … **är det viktigt att** vi förstår …" | 🔴 SIGNIFICANT | 🟠 ~60 | ~ undergissning |
+| $treat "… **en rad olika metoder som är skräddarsydda** … **Dessa effektiva metoder** …" | 🔴 SIGNIFICANT | 🔴 ~70 | ✓ |
+| IPL-kort "… **för att effektivt reducera** … **Vår noggranna behandling säkerställer** …" | 🔴 SIGNIFICANT | 🟠 ~55 | ❌ undergissning |
+| Kemisk peeling-kort "Kemisk peeling **behandlar effektivt** …" | 🔴 SIGNIFICANT | 🟠 ~55 | ❌ undergissning |
+| Laser-kort "Laserbehandling **är en mycket effektiv metod** … **avancerad laserteknologi** … **maximera resultatet** … **snabb och precis lösning**" | 🔴 SIGNIFICANT | 🔴 ~75 | ✓ |
+| **Microneedling-kort** "… effektiv metod … **vilket** … **vilket** … Dessutom … **djupare penetration av aktiva ingredienser, vilket ytterligare** … (pigmentfläckar ×4)" | 🟥 **EXTREME** | 🟠 ~55 | ❌❌ stor miss |
+| CryoPen-kort "… extrem kyla … **både effektiv och minimalt invasiv** … **snabb och precis lösning**" | 🔴 SIGNIFICANT | 🟠 ~55 | ❌ undergissning |
+| Omdöme "Hade testat allt innan…" | 🔵 SLIGHT | — | ✓ |
+| Omdöme "Super fin personal… 2-3 år…" | 🟢 HUMAN | — | ✓ |
+
+### /hudproblem/hudforandringar/ — 22 Apr 2026 (SIGNIFICANT-tung)
+| Block (utdrag) | LYNX (rå) | Min gissning | Träff |
+|---|---|---|---|
+| Banner "… brett spektrum av tillstånd, från födelsermäken …" | 🔵 SLIGHT | 🟠 ~55 | ~ lätt över |
+| Vad-content "… godartade och elaktartade, vi behandlar endast …" | 🔴 SIGNIFICANT | 🔴 ~70 | ✓ |
+| Varför-content "Hudförändringars uppkomst kan vara **en produkt av flera olika faktorer** …" | 🔴 SIGNIFICANT | 🔴 ~75 | ✓ |
+| Vem-content "Nästan alla människor kommer vid något skede …" | 🔴 SIGNIFICANT | 🔴 ~70 | ✓ |
+| Var-content "… uppstå överallt … **beroende på en kombination** …" | 🔴 SIGNIFICANT | 🔴 ~70 | ✓ |
+| $type-intro "… uppstå av **många olika anledningar** …" | 🔴 SIGNIFICANT | 🟠 ~60 | ~ under |
+| $service "Under en konsultation … **Vi tar före-bilder** …" | 🔵 SLIGHT | 🔵 (lämnad) | ✓ |
+| Artikel1 "Hudförändringar är **en oundviklig del av våra liv** …" | 🔴 SIGNIFICANT | 🔴 ~70 | ✓ |
+| Artikel2 "**Att navigera i världen av** hudförändringar …" | 🔴 SIGNIFICANT | 🔴 ~80 | ✓ |
+| FAQ "Är vissa personer mer benägna …" | 🔵 SLIGHT | — | ✓ |
+| Omdömen | 🔵 / 🟢 | — | ✓ |
+
+### /ytliga-blodkarl.php — 29 Apr 2026 (SIGNIFICANT-tung)
+| Block (utdrag) | LYNX (rå) | Min gissning | Träff |
+|---|---|---|---|
+| Banner "Ytliga blodkärl, som kan visa sig som spindelkärl … Vi förklarar hur och varför …" | 🔵 SLIGHT | 🔵 (lämnad medvetet) | ✓ bra kall |
+| **Vad-content** "Ytliga blodkärl är små, utvidgade blodkärl som ligger nära hudytan … **De kan variera i storlek och form** … **utesluta eventuella bakomliggande problem**" | 🔴 SIGNIFICANT | "leder med mekanism → lämna" | ❌ **MISS – under-behandlad (bara komma+länk)** |
+| Varför-content "**Förekomsten av** ytliga blodkärl … **en rad olika faktorer**" | 🔴 SIGNIFICANT | 🔴 | ✓ |
+| Vem-content "**Det är en missuppfattning** att endast äldre …" | 🔴 SIGNIFICANT | 🔴 | ✓ |
+| Var-content "… även kallade spindelkärl … **beroende på en rad faktorer**" | 🔴 SIGNIFICANT | 🔴 | ✓ |
+| $service "Vid ett personligt möte … **Vi tar före-bilder** …" | 🔵 SLIGHT | 🔵 | ✓ |
+| IPL-kort "IPL … **är en effektiv metod** för att behandla ytliga blodkärl …" | 🔴 SIGNIFICANT | 🔴 | ✓ |
+| Artikel1-content "Ytliga blodkärl är **en vanlig hudåkomma** som kan drabba personer i alla åldrar …" | 🔴 SIGNIFICANT | 🔴 | ✓ |
+| Artikel1-extended "Hos en hudterapeut … **skräddarsydd behandlingsplan**. Då utförs …" | 🔵 SLIGHT | (omskriven ändå) | ~ över |
+| Artikel2-content "**Om du letar efter en effektiv och långsiktig lösning** … **det självklara valet**" | 🔴 SIGNIFICANT | 🔴 | ✓ |
+| Artikel2-extended "Vi använder oss av **de senaste metoderna och teknologierna** …" | 🔴 SIGNIFICANT | 🔴 | ✓ |
+| Artikel2-para3 "… **de mest avancerade och effektiva behandlingarna** …" | 🟠 MODERATE | 🔴 | ~ över (var MODERATE) |
+| Omdömen | 🔵 / 🟢 | — | ✓ |
+
+### Lärdomar (HYPOTESER — validera, ruta inte in §0/§5)
+1. **🟥 EXTREME (ny, värst).** Enda facit: behandla-pigment microneedling. Mönster: mekanism **+ keyword-stuffing** ("pigmentfläckar" ×4) + staplade "vilket"-kedjor + längd. EXTREME ≈ mättad SIGNIFICANT (repetition/stuffing är extra-spaken).
+2. **Renaste signalen — samma behandling, motsatt betyg (kräver acnebehandling som motexempel):** LASER-kortet är 🔵 SLIGHT på acnebehandling (mekanism-öppning "fungerar genom att…", magert) men 🔴 SIGNIFICANT på behandla-pigment (marknads-öppning "är en mycket effektiv metod" + ackumulerad fluff). → **Betyget styrs av öppningens framing + ACKUMULERAD marknad/hedge/filler över blocket — inte behandlingstypen.** Det förklarar acnebehandlings "många SLIGHT" vs de nya sidornas "många SIGNIFICANT".
+3. **Marknadsord i öppningen är inte dödsstöt om blocket är kort + praktiskt.** behandla-pigment banner + $about-1 hade "de mest effektiva metoderna" men blev 🔵 SLIGHT — för att de är korta och svänger snabbt till konkret CTA ("boka konsultation / vi skapar en plan"), utan fluff-ackumulering. → korrigerar min senaste överbetoning "marknads-öppning = alltid 🔴".
+4. **Modellen: öppningens framing sätter golvet, fluff-ackumulering × längd höjer graden.** Mekanism-öppning + magert = SLIGHT-golv (acnebehandling-korten). Marknads-öppning + ackumulering = 🔴/🟥 (behandla-pigment-korten). Definitions-öppning + lång + hedge-svans = 🔴 (ytliga Vad-content, trots mini-mekanism).
+5. **Mina FÖRE-fel:** övergissade korta praktiska block (banner/about-1 = SLIGHT), undergissade behandlingskort (mekanism vilseledde mig → de var 🔴/🟥 pga fluff-ackumulering), och missbedömde ytliga Vad-content som "redan bra". Modellen bäst på tillstånds-prosa (hudforandringar ~9/9, ytliga ~11/12), sämst på behandlingskort + korta praktiska block (behandla-pigment ~5/11).
+6. **Omdömen stabila** (SLIGHT/HUMAN identiskt över alla sidor).
+
+### ÅTGÄRD (skarpt, från facit)
+- **ytliga Vad-content var 🔴 SIGNIFICANT men fick bara komma+länk** → behöver riktig de-AI (led med konkret, korta hedge-svansen "utesluta eventuella bakomliggande problem", stryk "variera i storlek och form"). Föreslås som följd-commit.
+- Övriga 🔴/🟥-block bedöms adekvat behandlade i 1 jul-omskrivningen (öppningar + fluff-ackumulering + microneedling-repetition kapade).
 
 ## Rewrite-resultat (fyll på efter LYNX-refresh — validerar/finjusterar modellen)
 | Sida | Block | Före | Efter (ny LYNX) | Vad vi ändrade | Datum |
