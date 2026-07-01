@@ -72,6 +72,30 @@
 | "För att underlätta läkningen bör du undvika intensiv träning, bastubad…" | 🔵 | konkreta instruktioner |
 | "Följ de instruktioner för eftervård… uppnå dina hudvårdsambitioner" | 🔴 | CTA-boilerplate + fluff-svans |
 
+## /acnebehandling.php — 29 Apr 2026 (står som 🔵 SLIGHT i inventeringen, men har 3 🔴-block)
+| Block (snippet) | Betyg | Varför |
+|---|---|---|
+| Banner "Här har vi samlat de **bästa** aknebehandlingarna för att **effektivt ta bort** akne… skräddarsy en behandlingsplan" | 🔴 | marknads-superlativ öppning (bästa/effektivt) + retorisk fråga + generisk |
+| "Att behandla och ta bort akne är **ingen quickfix**. På AcneSpecialisten använder vi vår expertis…" | 🔵 | ärlighet-före-hype-öppning (§4.1-keeper) + konkreta vi-handlingar |
+| "Vår första prioritet är att få bort inflammationen och finnarna, de huvudsakliga orsakerna till ärrbildning…" | 🔵 | konkret prioritet + mekanism (inflammation→ärr) + vi-lösningar |
+| "Första steget… kartlägga din aknetyp… Förebilder tas… personlig hudterapeut följer med…" | 🔵 | konkreta processteg trots mild fluff-svans ("konsekvent omsorg anpassad efter dina specifika behov") |
+| "När din aknetyp har identifierats, inleder vi fas två: behandling av den aktiva aknen…" | 🔵 | konkret process/fas trots milt "maximera resultaten" |
+| "Ansiktsbehandling mot acne är en djuprengöring… rengöring, ångning… klämma finnarna… mask och kräm" | 🔵 | konkret steg-för-steg-procedur (jfr ipl-rosacea SLIGHT-steg) |
+| "Laserbehandling mot akne **fungerar genom att** använda ljusenergi… tränger ner… reducerar talgproduktionen… dödar bakterier" | 🔵 | **mekanism-öppning** + gloss; kort |
+| "Kemisk peeling är en **effektiv behandling** mot akne… syran exfolierar… Genom att stimulera… textur, få bort finnar och jämnare hudton" | 🔴 | **marknad-superlativ öppning ("effektiv")** + rule-of-three fluff-svans — trots mekanism i mitten |
+| "Microneedling kan döda aknebakterien (Cutibacterium acnes)… vilket… vilket… Kombinationen av dessa… bidrar till att… få bort akne" | 🔴 | **full mekanism men ändå 🔴**: lång + staplade "vilket"-kedjor + cirkulär summeringssvans |
+| "Att förebygga hudproblemet är en viktig del av processen… daglig hudvårdsrutin med specifika produkter…" | 🔵 | konkret rutin trots mild importans-filler |
+| Omdöme "Hade testat allt innan…" | 🔵 | omdöme (generiskt) — identiskt med acne.php-facit |
+| Omdöme "Super fin personal… gått där i 2-3 år…" | 🟢 | omdöme + personlig detalj — identiskt med acne.php-facit |
+
+**Lärdomar (facit → §1.1):**
+- **Starkaste bekräftelsen på "öppningen avgör":** laser (mekanism-öppning "fungerar genom att…") = 🔵 vs kemisk peeling (marknad-öppning "är en effektiv behandling…") = 🔴 — samma blocktyp (behandlingskort), bara öppningen skiljer.
+- **Ny nyans att backporta till §1.1 efter fler facit:** microneedling har full mekanism + gloss men blev ändå 🔴 → mekanism räcker inte om blocket är långt med staplade "vilket"-kedjor + en cirkulär summeringssvans ("Kombinationen av dessa… få bort akne"). Längd + summeringssvans kan lyfta ett mekanism-block till 🔴.
+- Omdömena 🔵/🟢 är ordagrant samma som acne.php → modellen stabil på omdömen.
+- Sidnivå ≠ block-facit: sidan står som 🔵 SLIGHT i lynx-data-inventeringen men har 3 🔴-block → verifiera sidans page-level AI COPY-flagga vid tillfälle.
+
+**AI QUESTIONS (synliga FAQ-titlar, för Fas 2 / FAQPage — inga AI COPY-betyg i vyn):** Hur många behandlingar behövs? · Finns det en risk att min akne återkommer? · Vilken är den bästa aknebehandling ni erbjuder? · Gör aknebehandlingen ont? · Vad ska jag tänka på innan behandlingen? · Vad ska jag tänka på efter behandling? · Hemmavård efter behandlingen?
+
 ## Rewrite-resultat (fyll på efter LYNX-refresh — validerar/finjusterar modellen)
 | Sida | Block | Före | Efter (ny LYNX) | Vad vi ändrade | Datum |
 |---|---|---|---|---|---|
