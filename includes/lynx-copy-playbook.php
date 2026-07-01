@@ -13,7 +13,7 @@ Säger användaren typ *"vi fortsätter med LYNX-uppgifterna"* eller klistrar in
 
 ---
 
-> Kanonisk arbetsfil för att skriva om sidor som LYNX flaggar för **AI COPY** (SIGNIFICANT/MODERATE) så de läser som människa, utan att tappa sökord eller ranking. Utgå alltid från den här filen — den är **självbärande och enda källan till sanning** (vi använder inte task-tracker; TODO + status bor här). En ny Claude utan kontext ska kunna läsa den top-to-bottom och börja jobba (se §0.1 för parallellt arbete). Senast uppdaterad: 2026-06-30.
+> Kanonisk arbetsfil för att skriva om sidor som LYNX flaggar för **AI COPY** (SIGNIFICANT/MODERATE) så de läser som människa, utan att tappa sökord eller ranking. Utgå alltid från den här filen — den är **självbärande och enda källan till sanning** (vi använder inte task-tracker; TODO + status bor här). En ny Claude utan kontext ska kunna läsa den top-to-bottom och börja jobba (se §0.1 för parallellt arbete). Senast uppdaterad: 2026-07-01.
 
 **Innehåll:** §0 använda filen · §0.1 parallellt arbete · §1 hävstången · §1.1 bedömningsmodell · §1.2 score-modellen · §2 formeln · §3 checklista · §4 husröst · §4.1 utökad husröst · §5 ramar · §6 SEO-skydd · §7 process · §8 backlog · §8.1 per-sida gaps · §9 TODO · §10 justeringsloop · §11 logg + baseline · §11.1 bevakningslista · §12 claims · §13 skyddsregler
 
@@ -21,12 +21,12 @@ Säger användaren typ *"vi fortsätter med LYNX-uppgifterna"* eller klistrar in
 
 ## 0. Så här använder vi filen
 1. LYNX-info kommer in för en sida (AI COPY-block + ev. gap-punkter).
-2. Skriv om **alla textblock på sidan** (inte bara de LYNX-flaggade — §13.D) enligt **Formeln** (§2) och **Husrösten** (§4).
+2. Skriv om de **LYNX-flaggade blocken (🔴/🟠/🟥)**; se över 🔵/🟢 med lätt hand (typo/grammatik/tappat sökord/uppenbar tell) och bedöm sidan som HELHET (§13.D). Enligt **Formeln** (§2) och **Husrösten** (§4).
 3. Kör varje block mot **Checklistan** (§3) och **SEO-skyddet** (§6).
 4. Logga vad som gjorts i **Arbetsloggen** (§11) med resonemang.
 5. Efter LYNX-refresh: använd **Justeringsloopen** (§10).
 
-Prioritet: **SIGNIFICANT först**, men gör hela sidan klar medan vi ändå är där.
+Prioritet: **de mest flaggade blocken först** (🟥/🔴 före 🟠); lämna 🔵/🟢 (lätt hand, §13.D).
 
 **Vad som hör hemma i den här filen (så vi inte rutar in oss):** generella principer, inte engångsiakttagelser. Dyker det upp något på en enskild sida — t.ex. "behövs kommat här?" — är det ett omdöme i stunden, inte en ny regel. Innan en regel läggs till: hjälper den på fler sidor, eller låser den bara fast oss? Hellre få principer + omdöme än en växande lista mikroregler. *(Den gamla komma-efter-sökfras-regeln i §6 var just en sådan över-specificering — den föddes ur ett enskilt "kommat behövdes inte" och togs bort.)*
 
@@ -63,7 +63,7 @@ Axeln = **fyllnad/mall ↔ rak konkret täthet**. Bekräftat mot facit på acne.
 
 **Fyra nycklar:** (1) Öppningen sätter GOLVET (mekanism/konkret vs fyllnad/marknad), MEN **fluff-ackumulering × längd höjer graden** — ett kort praktiskt block klarar SLIGHT även med ett marknadsord (facit: behandla-pigment banner/about-1 = SLIGHT trots "de mest effektiva"), ett långt block med staplad marknad/hedge blir 🔴/🟥 trots mekanism (behandlingskorten). Byt fyllnadsöppning mot mekanism/konkret OCH kapa fluff-ackumuleringen. *(Samma behandling kan få olika betyg: laser-kortet = SLIGHT på acnebehandling, SIGNIFICANT på behandla-pigment — se `lynx-examples.php`.)* (2) SLIGHT-ribban är hög — hela blocket måste vara tätt, halvkonkret = MODERATE. (3) Kort + konkret siffra/namn → HUMAN ("Lägg till 1000 kr…", "större än 5 mm", "Dermapen 4"); längd är modifierare. (4) **Fluff-svansen** drar ner ett annars konkret block ("perfekt anpassad för dina unika behov", "uppnå dina hudvårdsambitioner", "säkerställa en trygg upplevelse") — och det gäller även en **cirkulär summeringssvans som bara upprepar vad blocket redan sagt, även utan ordet "Sammanfattningsvis"** (facit: microneedling på acnebehandling — full mekanism men 🔴 pga längd + "Kombinationen av dessa… få bort akne"-svans). Korta, konkreta instruktioner (eftervård: "håll rent, avstå smink första dygnet") klarar SLIGHT även med ett milt "det är viktigt att".
 
-**Mål:** rework allt som är 🔴 SIGNIFICANT eller 🟠 MODERATE → **minst 🔵 SLIGHT**. 🔵/🟢 lämnas orörda. 🟢 HUMAN nås bara på naturligt korta block (definition med siffra, namngiven maskin, kort erbjudande, omdöme) — **tvinga aldrig ner ett förklarande block i längd för att jaga HUMAN** (krockar med §13.N). För förklarande prosa är SLIGHT målet.
+**Mål:** rework allt som är 🔴 SIGNIFICANT eller 🟠 MODERATE → **minst 🔵 SLIGHT**. 🔵/🟢 skrivs inte om stilistiskt men ses över med lätt hand (tydliga fixar: typo/grammatik/tappat sökord/uppenbar tell — ej över-omskrivning, §13.D/§1.3). 🟢 HUMAN nås bara på naturligt korta block (definition med siffra, namngiven maskin, kort erbjudande, omdöme) — **tvinga aldrig ner ett förklarande block i längd för att jaga HUMAN** (krockar med §13.N). För förklarande prosa är SLIGHT målet.
 
 **Modell-referens:** `acne.php` är samma ämne som acne-ansikte fast i SLIGHT/MODERATE-version — modellera omskrivningar direkt på dess SLIGHT-block. Alla per-block-facit (sida + datum) loggas i **`includes/lynx-examples.php`** — växande korpus; fyll på vid nya facit, och logga före→efter när resultat kommer.
 
@@ -109,6 +109,16 @@ Gissa en blocks AI COPY-tier (🟥 EXTREME > 🔴 SIGNIFICANT > 🟠 MODERATE > 
 **För SYFTET (vad ska skrivas om):** ±1 räcker för att skilja "behöver jobb" (🔴/🟠) från "OK" (🔵/🟢). Men vid **SLIGHT↔MODERATE-gränsen: hämta facit hellre än att skriva om** (v3 hade skrivit om 3 SLIGHT-block i onödan = "rör inte det som är OK", §13.O).
 
 ---
+
+## 1.4 Sidnivå ≈ MEDIAN av block-tiers (hur LYNX aggregerar block → sida)
+LYNX ger både **sidnivå-AI COPY** (Pages-listan) och **per-block-facit** (AI Copy-vyn). Reverse-engineerat 2026-07-01: **sidnivån ≈ MEDIAN-tiern av alla renderade block** (mittblocket sorterat 🟢→🟥; räkna även responsiva dubbletter; gränsfall rundar mot värre tier). Validerat **6/6** (acne.php median 🔵 = SLIGHT; acnebehandling 🔵 = SLIGHT; om-oss 🟠 = MODERATE; ipl 🟠 = MODERATE; behandla-pigment 🔴 = SIGNIFICANT; hudforandringar 🔴 = SIGNIFICANT). Full härledning i `lynx-examples.php`.
+
+**Förklarar paradoxen** "SLIGHT-sida med många 🔴-block": sidnivån är MEDIANEN, inte värsta blocket (acne.php har ~10 🔴 men ännu fler korta 🔵-definitioner + 🟢-omdömen → median 🔵).
+
+**Strategisk implikation (styr prio + förväntan):**
+- **Sänk SIDNIVÅN = flytta MEDIANEN.** På 🟠-sida: fixa 🟠+🔴 → 🔵 så medianen blir 🔵 → sidan 🔵. På 🔴-sida krävs att MÅNGA block fixas.
+- **En 🔵-sida sänks INTE av att fixa enstaka 🔴-block** (medianen redan bra), MEN det höjer SCORE (AI STYLE-taket) + blockkvaliteten → gör det för SCORE, inte AI COPY-flaggan.
+- **Prio-konsekvens:** 🔴/🟠-sidor → AI COPY-flagg-vinst; 🔵-sidor → SCORE-vinst. Båda mot "LYNX grönt".
 
 ## 2. Formeln: **Krok → Mekanism → Skylt**
 1. **Krok** — öppna med en *konkret komponent*, inte abstrakt skala. Första substantivet ska vara något läsaren kan se (papler, gropar, fläckar, "bacne"). Aldrig "Det finns flera…/Det är viktigt att…/När det kommer till…/påverkar miljontals…". **Gäller även varje list-punkt:** led med mekanismen/det konkreta, inte "[rubrik] kan spela en roll vid…".
@@ -245,7 +255,7 @@ Sidorna rankar redan på sökord. Omskrivningen får höja kvaliteten **utan att
 ## 7. Arbetsprocess per sida
 1. **Spara LYNX-baseline** för sidan i §11 (AI COPY, SCORE, GAPS, AI QUESTIONS, PAGE TYPE, P. PRICE, KW, ev. RANK) — innan något ändras.
 2. LYNX-info klistras in; identifiera primärt sökord + intent (bonus → long-tail).
-3. Skriv om **alla textblocktyper på sidan** (§13.D) — inte bara de LYNX-flaggade — enligt §2–§4; kör §3-checklistan + §6 SEO-skydd.
+3. Skriv om de **LYNX-flaggade blocken (🔴/🟠/🟥)**, se över 🔵/🟢 med lätt hand + bedöm sidan som HELHET (§13.D) — enligt §2–§4; kör §3-checklistan + §6 SEO-skydd.
 4. Lös gap-punkter inom ramarna (grannämne → länk; ingen medicin/cancer).
 5. Logga i §11 (baseline + vad/varför). Följ Definition of Done (§13.E).
 6. **Push `staging` → TESTA att sidan gick upp:** hämta staging-URL:en (`https://www.acnespecialisten-staging.minoch.com/<sida>`) och bekräfta **HTTP 200 + renderad HTML** (inte blankt/500) samt att sökord/claims syns i svaret. Fångar PHP-strängfel (§13.C). En sida är inte klar förrän den verifierat laddar. **OBS: staging-deploy har ~minuters lag** — poll:a tills *din* ändring faktiskt syns i svaret (grep efter en ny formulering), inte bara tills 200 kommer.
@@ -254,13 +264,13 @@ Sidorna rankar redan på sökord. Omskrivningen får höja kvaliteten **utan att
 ---
 
 ## 8. Sidkarta & backlog (LYNX AI COPY)
-**SIGNIFICANT (tung omskrivning, nu):**
+**SIGNIFICANT — alla ✅ KLARA (staging/main):**
 - `acne-ansikte.php` — ✅ KLAR (omskriven hela sidan → staging, väntar main-push; se §9/§11/§11.1)
 - `ytliga-blodkarl.php` — ✅ KLAR (omskriven steg för steg → staging, väntar main-push; se §9/§11/§11.1)
 - `behandla-pigmentflackar.php` — ✅ KLAR (bonus, KW16; de-AI:ad → staging, väntar main-push)
 - `hudproblem/hudforandringar/index.php` — ✅ KLAR (hub; de-AI:ad → staging, väntar main-push; H1 i sep. commit)
 
-**MODERATE (nästa våg, 10 st):** `pigmentflackar.php` (KW244), `ipl-rosacea.php`, `rhinophyma-rosacea.php`, `microdermabrasion.php`, `mogen-hy.php`, `solskadad-hy.php`, `om-oss.php`, `hudbehandlingar/ipl/`, `hudproblem/bristningar/`, `hudproblem/oonskat-har/`.
+**MODERATE-vågen:** ✅ KLARA: `om-oss.php`, `hudbehandlingar/ipl/`. **KVAR (8):** `pigmentflackar.php` (KW238), `ipl-rosacea.php` (P.PRICE HIGHEST), `rhinophyma-rosacea.php`, `microdermabrasion.php`, `mogen-hy.php`, `solskadad-hy.php`, `hudproblem/bristningar/`, `hudproblem/oonskat-har/`. (Prioordning: §9.1.)
 
 **SLIGHT (mestadels klara):** majoriteten (`acne.php`, `acnearr.php`, `acne-rygg.php`, `acne-brost.php`, startsidan m.fl.) — lättputs vid behov; använd som röstreferens.
 
@@ -305,7 +315,7 @@ Kryssa här. Start/stopp-vänligt: status = §9 + §11 (logg) + §12 (claims). P
 - [ ] PAGE TYPE/P. PRICE: sätt `$rich_product` per sida med Offer (§13.I) — separat schemaspår.
 
 **Fas 3 — MODERATE-vågen** (efter schema)
-- [ ] 10 MODERATE-sidor (§8): pigmentflackar.php (KW244), ipl-rosacea, rhinophyma-rosacea, microdermabrasion, mogen-hy, solskadad-hy, om-oss, hudbehandlingar/ipl, bristningar, oonskat-har. *(seborroisk-keratos är SLIGHT, ej MODERATE — gap-förslagen i §8.1 är frivilliga.)*
+- [~] MODERATE-vågen: ✅ om-oss + hudbehandlingar/ipl klara; **8 kvar** (§8). Körs facit-drivet parallellt när per-block-facit finns — **ej grindat efter schema** (Fas 2 är ett fristående spår). Prioordning: **§9.1**.
 
 **Löpande / avslut**
 - [ ] LYNX justeringsloop (§10) — läs varje refresh, uppdatera §11 + lynx-data.php.
@@ -316,6 +326,24 @@ Kryssa här. Start/stopp-vänligt: status = §9 + §11 (logg) + §12 (claims). P
 - [P] Dubbel `title`-attribut i widgets (§8 — beslut: skippa).
 
 ---
+
+## 9.1 Prioriterad helsides-backlog (hela sajten, 2026-07-01)
+Från LYNX-inventeringen (`lynx-data.php` + Pages-listan). Prio = AI COPY-svårighet × KW × SCORE/GAPS-uppsida. **Process per sida:** hämta per-block-facit FÖRST → facit-driven rewrite (§13.D). Minns §1.4: 🔴/🟠-sidor ger AI COPY-flagg-vinst; 🔵-sidor ger SCORE-vinst.
+
+**Tier 1 — störst KW + uppsida (GÖR FÖRST):**
+1. `/` (Homepage) — KW296, AIQ POOR, SCORE28, GAPS3/2. Störst enskild uppsida. Skydda E-E-A-T-widgets.
+2. `pigmentflackar.php` — KW238, 🟠 MODERATE. Största MODERATE; pigment-huvudsida (silo mot behandla-pigmentflackar).
+3. `rosacea.php` — KW221, 🔵 SLIGHT, SCORE –. Rosacea-huvudsida.
+4. `perioral-dermatit.php` — KW194, 🔵, SCORE –.
+
+**Tier 2 — hög-KW SLIGHT, låg/0 SCORE + gaps (enskilda block kan vara 🔴):**
+blodprickar (175, SCORE17) · milier (173, 37) · seborre (168, –) · pormaskar (128, 32) · acnearr (127, **SCORE0**+gaps) · **acne.php (116 — FACIT ✅ MOTTAGEN 1 jul: ~10 🔴-block, redo; husröst-REFERENS → LÄMNA dess 🔵/🟢-block)** · seborroisk-keratos (110, **0**) · hudflikar (105, 28) · finnar (101, silo).
+
+**Tier 3 — resterande MODERATE + mellan-KW SLIGHT (~KW40–71):** permanent-harborttagning · microneedling · finnar-rygg · **bristningar (🟠)** · fodelsemarken · stora-porer (0) · fet-hy · roaccutan · cryopen · alma-hybrid-co2 · dermapen · kemisk-peeling (gaps) · acne-rygg (0) · **rhinophyma-rosacea (🟠)** · finnar-gravid · behandla-stora-porer · acne-brost · inflammation-acne · **solskadad-hy (🟠)** · **ipl-rosacea (🟠, P.PRICE HIGHEST)** · **oonskat-har (🟠)** · **mogen-hy (🟠)** · **microdermabrasion (🟠)**.
+
+**Tier 4–5 — lägre-KW SLIGHT + HUMAN utility/brand/resultat (lägst prio, batch):** ~60 sidor KW≤38 (full sorterad lista i `lynx-data.php`). HUMAN-sidor (myter, ordlista, priser, recensioner, hudguide…) = bara lätt städning, ej full omskrivning; skydda Trust-bärande widgets. Blanka (avbokningspolicy, karriar) = be om facit vid behov.
+
+*(Full 5-tier-lista med alla ~100 sidor + noter genererad 2026-07-01; härledbar ur `lynx-data.php`.)*
 
 ## 10. Justeringsloop & prediktiv mät-loop (efter LYNX-refresh)
 **Mät-loopen (så modellen i §1.1/§1.2 förbättras, inte bara sidorna).** Data kommer på delay (LYNX skannar live, refreshar långsamt) — därför **prediktera före, mät efter**:
@@ -453,4 +481,4 @@ Claima en sida här **innan** du rör den. Töm raden när den är klar (logga i
 
 **Största spaken med minst risk (§1.1):** led öppningen — och varje list-punkt — med den konkreta mekanismen i stället för en generisk uppvärmning ("X kan spela en stor roll vid…"). Oftast är det den enda ändring ett block behöver i första passet.
 
-Gör minsta möjliga ändring som plockar bort de *tydligaste* AI-tells och fyllnaden (marknadssuperlativ, ren boilerplate, värsta komma-splitsarna). **Behåll struktur, listor, summerande/avslutande stycken, alla poänger och det mesta av ordalydelsen — skriv inte om hela block.** Säkrare att ta bort för lite än för mycket: vi kan alltid kapa mer när mät-loopen (§10) visar att det krävs, men bortskuren ton/poäng är svår att få tillbaka. Stora omskrivningar läses som "för stor skillnad" och går inte att attribuera. Rätt info på rätt ställe — utgå från helheten (§13.D). Justeringar kan lika gärna **lägga till saknad info eller rätta fel** som ta bort — poängen är *små, mätbara steg* mot mindre AI, inte att bara kapa. **Inom minimal: prioritera öppningarna.** Den enda spak värd att gå utöver ren ordtrimning är att **led varje block och varje list-punkt med den konkreta mekanismen**, inte en generisk uppvärmning ("X kan spela en stor roll vid…"). §1.1: öppningen avgör mest → högsta ROI per ändrat ord, lägst risk. Listformat/punkter/summeringar behålls (mäts separat).
+Gör minsta möjliga ändring som plockar bort de *tydligaste* AI-tells och fyllnaden (marknadssuperlativ, ren boilerplate, värsta komma-splitsarna). **Behåll struktur, listor, summerande/avslutande stycken, alla poänger och det mesta av ordalydelsen — skriv inte om hela block.** Säkrare att ta bort för lite än för mycket: vi kan alltid kapa mer när mät-loopen (§10) visar att det krävs, men bortskuren ton/poäng är svår att få tillbaka. Stora omskrivningar läses som "för stor skillnad" och går inte att attribuera. Rätt info på rätt ställe — utgå från helheten (§13.D). Justeringar kan lika gärna **lägga till saknad info eller rätta fel** som ta bort — poängen är *små, mätbara steg* mot mindre AI, inte att bara kapa. **Inom minimal: prioritera öppningarna.** Den enda spak värd att gå utöver ren ordtrimning är att **led varje block och varje list-punkt med den konkreta mekanismen**, inte en generisk uppvärmning ("X kan spela en stor roll vid…"). §1.1 nyckel 1: öppningen sätter golvet (fluff-ackumulering × längd höjer graden) → högsta ROI/lägst risk per ändrat ord. Listformat/punkter/summeringar behålls (mäts separat).

@@ -27,6 +27,9 @@
 | Omdöme "Hade testat allt innan…" | 🔵 | omdöme (generiskt) |
 | Omdöme "Super fin personal… gått där i 2-3 år…" | 🟢 | omdöme + personlig detalj |
 
+**Fullständig acne.php-facit mottagen 2026-07-01 — BEKRÄFTAR ovanstående 22 apr-betyg** (stark modell-validering: alla citerade referensblock stämmer). Tillägg som saknades i tabellen ovan: "Akne kan uppträda på olika områden… hormonella/kläder/sol" 🔴 · "En effektiv ansiktsbehandling fokuserar på att extrahera orenheter…" 🔵 · "Bölder: Stora, varfyllda… ofta större än 5 mm" 🟢 · "För att effektivt bekämpa… daglig behandling med rätt produkter" 🔵 · "Acneärr uppstår i form av gropar…" 🔵 · "Välj Acnespecialisten innan du går till en läkare…" 🔴.
+**VIKTIGT:** acne.php är vår husröst-/modell-REFERENS men har **~10 🔴-block på sidnivå** (intro-scaffolding "Här förklarar vi", demografisk-skal "vanligast bland tonåringar… oavsett kön", importans "det är viktigt att", marknads-CTA "Du som vill ha det bäst… 30 år" / "Tveka inte att kontakta"). Dess **🔵/🟢-block är de validerade referensblocken att EMULERA/LÄMNA** (full mekanism-payoff, definitioner, Noduler/Bölder med "5 mm"-mått, konkreta vi-handlingar). Rubriken "SLIGHT-referens" avser alltså block-nivå, inte sidnivå. **Rewrite-mål:** de ~10 🔴 (KW116 huvudsida = hög prio); lämna 🔵/🟢.
+
 ## /acne-ansikte.php — 22 Apr 2026 (SIGNIFICANT — sidan vi skriver om)
 | Block (snippet) | Betyg | Varför |
 |---|---|---|
@@ -212,6 +215,21 @@
 **Facit-signaler (tolkning):** (a) **siffra/historik** ("Sedan 1994… hundra tusen") håller ett annars marknads-block på 🔵. (b) **Konkret credential rescuear INTE** ("SHR-godkänd" → ändå 🔴 pga "garanterar högsta möjliga/mest effektiva"-svans). (c) **Namnger 3 kliniker men LÅNG + marknad → 🔴** (längd dominerar över namn-konkretionen — bekräftar v3). (d) process-block utan marknads-svans = 🔵.
 **AI QUESTIONS (FAQ, för Fas 2):** Hur länge har AcneSpecialisten funnits? · Vad erbjuder AcneSpecialisten? · Kan alla besöka AcneSpecialisten? · Är ni hudläkare? · Vad gör AcneSpecialisten unikt?
 **v3-BLINDTEST-RESULTAT (om-oss, 3 agenter, ofuskat): 4/11 exakt, 11/11 inom ±1.** v3 ÖVERkorrigerade: O01–O05 gissades ETT steg för hårt (SLIGHT→MODERATE, MODERATE→SIGNIFICANT); O09 (CTA "Boka…") + O10 (generiskt omdöme) gissades HUMAN men var SLIGHT. Rätt: O06/O07/O08 (SIGNIFICANT), O11 (HUMAN). **Lärdom: exakt tier = brus, ±1 = signalen (97% över båda testen); v3:s längd-push för aggressiv + "kort→HUMAN" för generös → v4 (playbook §1.3). Vi slutar mikro-tuna per sida (v2↔v3 pendlade = overfit).**
+
+## Sidnivå ↔ block-nivå: MEDIAN-hypotesen (reverse-engineerat 2026-07-01)
+LYNX sidnivå-AI COPY (Pages-listan) vs vår per-block-facit. **Hypotes: sidnivå = MEDIAN-tiern av alla renderade block** (sorterat 🟢→🟥; responsiva dubbletter räknas; gränsfall rundar uppåt). Validerat **6/6**:
+
+| Sida | 🟥 | 🔴 | 🟠 | 🔵 | 🟢 | n≈ | median | LYNX sidnivå |
+|---|---|---|---|---|---|---|---|---|
+| acne.php | 0 | ~10 | 1 | ~11 | ~3 | 25 | 🔵 | SLIGHT ✓ |
+| acnebehandling | 0 | 3 | 0 | 7 | 2 | 12 | 🔵 | SLIGHT ✓ |
+| om-oss | 0 | 3 | 2 | 6 | 1 | 14* | 🟠 | MODERATE ✓ |
+| hudbehandlingar/ipl | 0 | ~7 | ~5 | 2 | ~5 | 19 | 🟠 | MODERATE ✓ |
+| behandla-pigment | 1 | 8 | 0 | 3 | 1 | 13 | 🔴 | SIGNIFICANT ✓ |
+| hudforandringar | 0 | ~7 | 0 | ~4 | 1 | 12 | 🔴 | SIGNIFICANT ✓ |
+
+*om-oss: responsiva dubbletter (O07/O08 ×2) räknas → median landar på 🟠-sidan av 🔵/🟠-gränsen.
+**Slutsats:** sidnivån = MEDIANEN, inte max eller snitt (snitt föll fel: acne.php snitt ~1,7 → skulle bli MODERATE, men facit = SLIGHT; median 🔵 stämmer). Konsekvens: sänk sidnivån genom att flytta medianen (playbook §1.4). Validera vidare när fler sidor får facit.
 
 ## Blindtest av prediktionsrubriken — 2026-07-01 (ofuskat: 3 färska agenter, betyg dolda)
 24 block (balanserat över 5 tiers, 5 sidor), agenterna fick BARA texten + rubriken (§1.3), scoring i script mot dold facit.
