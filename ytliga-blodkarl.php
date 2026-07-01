@@ -52,7 +52,7 @@ $trivias = array(
       new ProblemTrivia(
             prefix: 'Vad',
             title: ' är ytliga blodkärl?',
-            content: '<p class="p200">Ytliga blodkärl är små, utvidgade blodkärl som ligger nära hudytan och blir därför synliga genom huden. Dessa blodkärl tenderar att vara röda, lila eller blå och uppträder ofta i ansiktet, speciellt på näsan, kinderna och runt ögonen. De kan variera i både storlek och form. Medan ytliga blodkärl oftast är kosmetiskt störande och inte betraktas som farliga, kan de vara en indikator på underliggande hudsjukdomar som <a class="b200 underline color-deep-sea-400" href="/rosacea.php" title="Läs mer om rosacea">rosacea</a> eller andra inflammatoriska tillstånd. Därför kan det vara värt att konsultera en hudterapeut för att utesluta eventuella bakomliggande problem.</p>',
+            content: '<p class="p200">Ytliga blodkärl är små, utvidgade blodkärl nära hudytan som syns som röda, lila eller blå streck. De sitter oftast i ansiktet, särskilt på näsan, kinderna och runt ögonen. För det mesta är de bara kosmetiskt störande, men kan ibland höra ihop med <a class="b200 underline color-deep-sea-400" href="/rosacea.php" title="Läs mer om rosacea">rosacea</a> eller andra inflammatoriska tillstånd.</p>',
             extended_content: '<p class="p200 mt-xl">Ytliga blodkärl uppstår när kärlens väggar försvagas eller brister. Då uppenbarar sig kärlen på det övre hudlagret och det som kallas ytliga blodkärl har bildats. Medan ytliga blodkärl i ansiktet vanligtvis är ett kosmetiskt bekymmer, kan de vara symptom på andra hudåkommor och bör tas på allvar. En konsultation kan hjälpa dig att förstå de underliggande orsakerna och de behandlingsalternativ som passar dig.</p>',
             icons: array()
       ),
