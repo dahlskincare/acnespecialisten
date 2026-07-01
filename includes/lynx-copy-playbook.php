@@ -345,6 +345,10 @@ Korrelera mot LYNX-refresh. Senaste först. Spara alltid **LYNX-baseline** (FÖR
 | behandla-pigmentflackar.php | 14 | – | – | –/– | SIGNIFICANT | GOOD | – | 16 |
 | hudproblem/hudforandringar/ | 10 | – | 17 | 3/2 | SIGNIFICANT | OK | – | 8 |
 
+### 2026-07-01 — `om-oss.php` (MODERATE, KW3) — OMSKRIVEN AUTONOMT (facit-guidad), klar → staging
+**Gjort (facit-guidad v4, medan ägaren borta — utan pauser):** Skrev om de facit-flaggade blocken (O01 intro 🟠, O04 unik-helhet-bullet 🟠, O06 SHR-bullet 🔴, O07 "modern hudvård" 🔴, O08 tre-kliniker 🔴) — ledde konkret, kapade marknad (unik och effektiv/"det självklara valet"/"inte bara X utan Y"/optimala resultat/bästa möjliga). **Responsiva dubbletter (O07/O08 desktop+mobil-varianter) hållna i synk.** **Lämnade 🔵/🟢** (O02/O03 fyrstegs, O05 1994, O09 CTA, omdömen — facit=OK). **Såg över resten (lätt hand):** obetygsatt FAQ Q1 hade "det självklara valet" → lätt-fixad; resten av FAQ lämnad (obetygsad, ej över-rörd autonomt). Bevarat: klinik-namn (Strandvägen/Södermalm/Sundbyberg), inline-länkar (/, /metoden.php), 30 år/1994/SHR/fyrstegsmetod, frysta H1/meta. En-strecket i body bort. 0 råa apostrofer.
+**Helhetskoll:** dubblett-varianter synkade, sökordsspridning bevarad. **Prediktion:** 🔴/🟠 → SLIGHT/MODERATE; 🔵/🟢 oförändrade. Första sidan gjord helt autonomt enligt fastställd facit-driven process.
+
 ### 2026-07-01 — `hudbehandlingar/ipl/index.php` (MODERATE, Fas 3, KW19) — OMSKRIVEN MED FACIT, klar → staging
 **Gjort (facit-guidad, v4 §1.3):** Första sidan omskriven MED per-block-facit (22 apr) i handen. Skrev om de 13 block som var 🔴/🟠 (banner, Vad-är-IPL ×2, Förberedelser ×2, Process ×3, typ-intro, rosacea/melasma-kort, eftervård ×2) — ledde med mekanism/konkret, kapade marknad (bästa/avancerad/garanterar/"effektiv metod"/mångsidig/maximera/"särskilt effektiv"), fixade grammatik ("eller ta bort blodkärlen"→"och kärlen"). **LÄMNADE de 3 🔵/🟢** (ytliga+pigment-kort SLIGHT, eftervård-slutinstruktion HUMAN) + omdömen — facit=OK, v4-disciplin (rör inte det som är bra; undvik v3:s onödiga omskrivning). En "mångsidig" kvar i obetygsatt FAQ-svar (lämnad). Bevarat: sökord (hudföryngring/pigmentfläckar/ytliga blodkärl/rosacea/melasma/melanin/hemoglobin/laser), priser, interna länkar, frysta meta. 0 råa apostrofer.
 **Prediktion:** 🔴/🟠 → SLIGHT/MODERATE; 🔵/🟢 oförändrade. Bevis på att facit-i-handen ger precis riktning utan över-omskrivning.
@@ -397,6 +401,7 @@ LYNX skannar bara LIVE och refreshar med delay — **mätklockan startar när ä
 | behandla-pigmentflackar.php | 2026-07-01 | *(väntar)* | AI COPY SIGNIFICANT, SCORE –, AIQ GOOD, KW16 | block-gissningar 🔴/🟠→🔵 (öppningar+svansar), Evidence ↑ (metoder), sökord = | – | de-AI:ad → staging; **inväntar main-push + LYNX-refresh** |
 | hudforandringar/index.php | 2026-07-01 | *(väntar)* | AI COPY SIGNIFICANT, SCORE 17, GAPS 3/2, KW8 | block-gissningar 🔴/🟠→🔵 (öppningar+svansar), Evidence ↑, sökord = | – | de-AI:ad + H1-sökord (sep. commit) → staging; **inväntar main-push + LYNX-refresh** |
 | hudbehandlingar/ipl/ | 2026-07-01 | *(väntar)* | MODERATE, SCORE –, P.PRICE HIGH, KW19; per-block-facit 22 apr | 13× 🔴/🟠→SLIGHT/MOD; 3× 🔵/🟢 orörda | – | facit-guidad de-AI (Fas 3) → staging; **inväntar main-push + LYNX-refresh** |
+| om-oss.php | 2026-07-01 | *(väntar)* | MODERATE, VAL 8, SCORE 17, KW3; per-block-facit 22 apr | O01/O04 🟠 + O06/O07/O08 🔴 → SLIGHT/MOD; 🔵/🟢 orörda | – | facit-guidad de-AI (autonomt) → staging; **inväntar main-push + LYNX-refresh** |
 
 När en rad refreshats: mät (§10 steg 2–3), logga EFTER i §11 + lynx-data.php, förfina modellen (steg 4), backporta (steg 5), töm raden.
 
