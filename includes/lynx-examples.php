@@ -216,6 +216,25 @@
 **AI QUESTIONS (FAQ, för Fas 2):** Hur länge har AcneSpecialisten funnits? · Vad erbjuder AcneSpecialisten? · Kan alla besöka AcneSpecialisten? · Är ni hudläkare? · Vad gör AcneSpecialisten unikt?
 **v3-BLINDTEST-RESULTAT (om-oss, 3 agenter, ofuskat): 4/11 exakt, 11/11 inom ±1.** v3 ÖVERkorrigerade: O01–O05 gissades ETT steg för hårt (SLIGHT→MODERATE, MODERATE→SIGNIFICANT); O09 (CTA "Boka…") + O10 (generiskt omdöme) gissades HUMAN men var SLIGHT. Rätt: O06/O07/O08 (SIGNIFICANT), O11 (HUMAN). **Lärdom: exakt tier = brus, ±1 = signalen (97% över båda testen); v3:s längd-push för aggressiv + "kort→HUMAN" för generös → v4 (playbook §1.3). Vi slutar mikro-tuna per sida (v2↔v3 pendlade = overfit).**
 
+## SCORE-modellen — fakta + reverse-engineering (2026-07-01, workflow)
+**LYNX = internt/bespoke verktyg** (finns ej publikt; buntar tre dokumenterade koncept). Googles E-E-A-T är ett rater-ramverk, INTE en publik metrik → LYNX-siffran är en proxy.
+
+**Aggregering (validerat 5/5): Overall ≈ CONTENT QUALITY × E-E-A-T × AI STYLE / ~3640** (MULTIPLIKATIVT). Bevis: hudforandringar Overall 17 < lägsta block (25). CQ = medel av 5 subs, EEAT = medel av 4 subs. AI STYLE = multiplikativ faktor (0,25–0,30), ej cap (ipl-rosacea = 39 med AI 25). ⚠️ AI STYLE varierar bara 25↔30 → uppsidan otestad; acne.php = A/B-test.
+
+**Komponentfakta (hur höja):**
+- **Base Quality** — people-first, svara på sökintentionen tidigt, ingen dublett/thin.
+- **Depth** (acne 77, skydda) — täck ämnet end-to-end, H2/H3, intern silo-länkning; djup = fokus, ej padding.
+- **Evidence** (acne **11**, svagast) — evidens-densitet: siffror, tidsramar, namngivna källor/maskiner, datum, credentials. Störst headroom. **(Filtrera genom §5 — se playbook §1.2: klinik-fakta, ej medicinska citat.)**
+- **Language** — grammatik/naturlig röst (komma-tell).
+- **Readability** — Flesch 60+ (korta meningar, enkla ord). ⚠️ spänning mot AI STYLE: variera LÄNGD men håll ORDEN enkla.
+- **Experience** — förstahands: äkta före/efter, hur en behandling känns, omdömen.
+- **Expertise** — namngiven granskare/credentials (widget: specialister, SHR).
+- **Authority** — mest off-page (backlänkar); on-page: cert/affiliationer + topical cluster.
+- **Trust** (viktigast) — HTTPS, riktig företagsinfo, ärliga claims (ej garantera resultat = YMYL-flagga).
+- **AI STYLE / Human-like** (acne **30**) — = AI-detektorernas invers: PERPLEXITY (ordval-oförutsägbarhet) + BURSTINESS (meningslängds-variation). Höj: variera meningslängd, döda filler, konkreta detaljer/anekdoter, mindre komma-täthet. = vår de-AI-omskrivning.
+
+Evidence + AI STYLE förstärker varandra (cit. siffror + klinik-anekdoter lyfter båda + Experience/Trust). ~20 källor loggade i workflow-outputen. Full härledning + marginalmatte: playbook §1.2.
+
 ## Sidnivå ↔ block-nivå: MEDIAN-hypotesen (reverse-engineerat 2026-07-01)
 LYNX sidnivå-AI COPY (Pages-listan) vs vår per-block-facit. **Hypotes: sidnivå = MEDIAN-tiern av alla renderade block** (sorterat 🟢→🟥; responsiva dubbletter räknas; gränsfall rundar uppåt). Validerat **6/6**:
 
