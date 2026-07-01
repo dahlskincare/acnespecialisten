@@ -640,7 +640,7 @@ $faq_categories = array(
         ),
         new Question(
             title: 'Hur fungerar IPL?',
-            text: '<p class="p200">IPL, eller Intensivt Pulsat Ljus, kan liknas vid laser men använder ett brett spektrum av ljus för att målriktat behandla olika hudtillstånd. Till skillnad från laser som använder en specifik våglängd, skickar IPL ut ljus i flera våglängder som kan tränga igenom olika djup av huden. Detta gör IPL till en mångsidig behandling som kan anpassas för att adressera en rad olika hudproblem, inklusive pigmentfläckar, ytliga blodkärl, och hudföryngring genom att stimulera kollagenproduktionen.</p>'
+            text: '<p class="p200">IPL, eller Intensivt Pulserande Ljus, kan liknas vid laser men använder ett brett spektrum av ljus för att målriktat behandla olika hudtillstånd. Till skillnad från laser som använder en specifik våglängd, skickar IPL ut ljus i flera våglängder som kan tränga igenom olika djup av huden. Därför kan IPL anpassas för flera hudproblem, inklusive pigmentfläckar, ytliga blodkärl och hudföryngring, genom att stimulera kollagenproduktionen.</p>'
         ),
         new Question(
             title: 'Hur många IPL-behandlingar behövs?',
