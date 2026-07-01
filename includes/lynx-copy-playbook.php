@@ -4,7 +4,13 @@
 ## ▶ START HÄR — för en ny Claude utan kontext
 Säger användaren typ *"vi fortsätter med LYNX-uppgifterna"* eller klistrar in LYNX-data? Då är **den här filen ditt enda underlag — läs hela top-to-bottom först.**
 
-> **🟢 LÄGE 2026-07-01 (ny session startar här):** **7 sidor omskrivna** — acne-ansikte (LIVE på main), + ytliga-blodkarl, behandla-pigmentflackar, hudforandringar, hudbehandlingar/ipl, om-oss, **acne.php** (alla på `staging`, väntar ägarens main-push). Alla facit-guidade (§13.D). **Modeller byggda:** AI COPY-rubrik v4 (§1.3, ±1-band), sidnivå=MEDIAN av block (§1.4), SCORE=CQ×EEAT×AI/3640 multiplikativt (§1.2, validerat). **Väntar på:** ägarens main-push → LYNX-refresh → kör mät-loopen (§10): mät FÖRE→EFTER per §11.1-bevakningslistan, validera modellerna (acne.php = A/B-test av SCORE/AI STYLE-spaken). **Nästa sidor:** §9.1-backlog, Tier 1 = Homepage (KW296), pigmentflackar (238), rosacea (221), perioral-dermatit (194) — **hämta per-block-facit FÖRST** för var och en. **Data-princip:** spara allt ägaren skickar (lynx-data/examples), diffa vid ny scan, påminn om uppdateringar. Inga öppna trådar; git rent.
+**⚠️ Planen är ITERATIV och aldrig "klar".** Vi har trott den färdig minst två gånger (senast igår vid lunch) och ändå hittat luckor och byggt vidare. Behandla den som ett levande dokument: hittar du en lucka, en oklarhet eller en bättre modell — **uppdatera filen och logga i §11.** "Klar med en sida" ≠ "klar med planen"; setupen förfinas löpande så länge sidor körs.
+
+**🚦 Prime-direktiv (det ägaren annars måste säga till varje ny Claude): ÄVEN ARBETET är iterativt — små steg, inte stora omskrivningar.** Nya exekutorer skriver nästan alltid om för mycket. Därför, **innan du sparar en ändring: fråga dig själv OCH ägaren "ändrar jag för mycket?"** Ta hellre bort för lite — vi kan alltid kapa mer när mät-loopen (§10) visar att det krävs, men bortskuren substans är svår att få tillbaka. Behåll varje block, varje list-punkt och varje sakpoäng; **räkna punkterna före/efter** (§13.D). Längden får bli kortare *eller* längre — det som skadar är att ta bort för mycket på en gång (§13.O). Det här är den enskilt viktigaste vanan; den slår alla stilregler nedan.
+
+**📥 Facit-flöde (så mätdata kommer in — LYNX saknar export):** ägaren **klistrar in LYNX-facit** (per-block-betyg och/eller SCORE/kolumn-data). Ordningen är **SPARA FÖRST, agera sen:** (1) spara rådatan — per-block-facit → `lynx-examples.php`, sid-/kolumndata → `lynx-data.php`, diffa mot förra scan och notera FÖRE→EFTER — (2) agera sen (rewrite/prio/mätning §10). Agera aldrig på facit utan att först spara det; det är vår enda mätkälla och hela mät-loopen (§10) hänger på att rådatan finns kvar.
+
+> **🟢 LÄGE 2026-07-01 (ny session startar här):** **8 sidor omskrivna** — acne-ansikte (LIVE på main), + ytliga-blodkarl, behandla-pigmentflackar, hudforandringar, hudbehandlingar/ipl, om-oss, acne.php, **ipl-rosacea** (alla på `staging`, väntar ägarens main-push). Alla facit-guidade (§13.D). **Modeller byggda:** AI COPY-rubrik v4 (§1.3, ±1-band), sidnivå=MEDIAN av block (§1.4), SCORE=CQ×EEAT×AI/3640 multiplikativt (§1.2, validerat). **Väntar på:** ägarens main-push → LYNX-refresh → kör mät-loopen (§10): mät FÖRE→EFTER per §11.1-bevakningslistan, validera modellerna (acne.php = A/B-test av SCORE/AI STYLE-spaken). **Nästa sidor:** §9.1-backlog, Tier 1 = Homepage (KW296), pigmentflackar (238), rosacea (221), perioral-dermatit (194) — **hämta per-block-facit FÖRST** för var och en. **Data-princip:** spara allt ägaren skickar (lynx-data/examples), diffa vid ny scan, påminn om uppdateringar. Inga öppna trådar; git rent.
 
 - **Uppdrag (pågår tills allt är klart):** skriv om sidor som LYNX flaggar för AI COPY (SIGNIFICANT/MODERATE) så varje textblock når **minst SLIGHT** (HUMAN där blocket naturligt tillåter, §1.1) och läser som människa, **utan att tappa sökord/ranking**. **Slutmål: LYNX helt grönt/korrekt** på alla signaler — AI COPY först → FAQPage-schema (AI QUESTIONS) → `$rich_product` (PAGE TYPE/P. PRICE) → gap-punkter → sedan löpande. **Status & nästa sida:** §9 (TODO), §11 (logg/baseline), §12 (claims).
 - **Trigger per sida: hämta ALLTID sidans NUVARANDE LYNX per-block-status FÖRST, innan du redigerar** — inte "lär modellen en gång och kör resten på egen bedömning"; dra in LYNX för varje sida. Följ §7: spara baseline (§11) → **prioritera 🔴/🟠/🟥 (skriv om dem), men se ÄVEN över 🔵/🟢 med LÄTT HAND** (bara tydliga fixar: typo, grammatik, tappat sökord, uppenbar tell; INGEN stilistisk över-omskrivning av OK-block = v3-felet, §1.3) enligt §2 + §4 + §5 → kör §3 + §6 + §13 → logga (§11) → committa + pusha **`staging`**. *(Saknas facit: gissa med §1.3-modellen (±1-band, ej facit), lämna hellre vid SLIGHT↔MODERATE-tvivel.)*
@@ -40,10 +46,17 @@ Filen är självbärande — en ny Claude utan kontext läser den top-to-bottom 
 Koordinationsregler så två instanser inte krockar:
 1. **Läs hela filen + §11 (arbetslogg) + §12 (claims) först.** På annan dator: `git pull` innan du börjar.
 2. **Claima sidan i §12 innan du rör den** (sida · terminal/namn · status). En sida = en ägare. Rör aldrig en sida någon annan claimat.
-3. **Aldrig två instanser i samma fil samtidigt.** Fördela per sida — olika sidor är olika `.php`-filer.
+3. **Aldrig två instanser i samma fil — helst inte i samma arbetsträd.** Kör varje parallell exekutor i en **egen `git worktree`** (`git worktree add ../as-<sida> staging`) eller separat klon, så ni inte delar index/disk. **Delar ni ändå working directory** (bekräftat hänt 2026-07-01, ipl-rosacea): stage ALDRIG brett — bara explicita filer (`git add <fil>`), aldrig `git add -A`; kör aldrig `git checkout -- .` / `git stash` / `git reset` (raderar den andres osparade jobb). Olika sidor = olika `.php`, men logg/claim (§11/§12) delar fil → committa den filen scoped.
 4. **Rör inte delade widgets/mallar** (§6/§8) — påverkar alla sidor.
 5. **Jobba på `staging`, små commits per sida.** Uppdatera §11 (vad/varför) + §12 (status) när du är klar; `git push` om ni är på olika datorer.
 6. Följ §2–§6 exakt, så blir rösten enhetlig oavsett vem som skriver.
+
+---
+
+## 0.2 Standing dispatch-instruktion — klistra in när du startar en ny exekutor-Claude
+Så ägaren slipper upprepa samma sak varje gång. Kopiera detta i första meddelandet till en ny exekutor-Claude:
+
+> Läs `includes/lynx-copy-playbook.php` top-to-bottom innan du rör något — den är hela ditt underlag. Detta är en **iterativ process: små steg, inte stora omskrivningar.** Claima din sida i §12, be mig om sidans LYNX-facit (per-block), följ §7. **Innan du sparar ändringar, fråga dig själv och mig: "ändrar jag för mycket?"** Ta hellre bort för lite — vi kan alltid kapa mer senare. Behåll varje block, list-punkt och sakpoäng; räkna punkterna före/efter (§13.D). Rör aldrig delade widgets/mallar (§6/§8) eller en sida någon annan claimat.
 
 ---
 
@@ -260,7 +273,7 @@ Sidorna rankar redan på sökord. Omskrivningen får höja kvaliteten **utan att
 
 ## 7. Arbetsprocess per sida
 1. **Spara LYNX-baseline** för sidan i §11 (AI COPY, SCORE, GAPS, AI QUESTIONS, PAGE TYPE, P. PRICE, KW, ev. RANK) — innan något ändras.
-2. LYNX-info klistras in; identifiera primärt sökord + intent (bonus → long-tail).
+2. **Ägaren klistrar in LYNX-facit → SPARA rådatan FÖRST** (per-block → `lynx-examples.php`, sid/kolumn → `lynx-data.php`; diffa mot förra scan). Identifiera sen primärt sökord + intent (bonus → long-tail). Agera aldrig på facit utan att spara det först (§0 Facit-flöde).
 3. Skriv om de **LYNX-flaggade blocken (🔴/🟠/🟥)**, se över 🔵/🟢 med lätt hand + bedöm sidan som HELHET (§13.D) — enligt §2–§4; kör §3-checklistan + §6 SEO-skydd.
 4. Lös gap-punkter inom ramarna (grannämne → länk; ingen medicin/cancer).
 5. Logga i §11 (baseline + vad/varför). Följ Definition of Done (§13.E).
@@ -379,6 +392,12 @@ Korrelera mot LYNX-refresh. Senaste först. Spara alltid **LYNX-baseline** (FÖR
 | behandla-pigmentflackar.php | 14 | – | – | –/– | SIGNIFICANT | GOOD | – | 16 |
 | hudproblem/hudforandringar/ | 10 | – | 17 | 3/2 | SIGNIFICANT | OK | – | 8 |
 
+### 2026-07-01 — Plan-review medan exekutor kör (planerare/exekutor-split)
+**Kontext:** ägaren kör en **parallell exekutor-terminal på `ipl-rosacea.php`** och bad planeraren se över plan + modeller. Vi trodde LYNX-setupen klar (igår lunch) men den utvecklas vidare → planen är iterativ (nu inskrivet i START HÄR).
+**Gjort (låg risk, ägar-riktat):** (1) START HÄR: iterativ-plan-princip + **facit-flöde** (ägaren klistrar in facit → SPARA först i lynx-examples/lynx-data → agera sen) — en lucka ägaren påpekade. (2) §7 steg 2: save-first inskrivet. (3) §12: koordinerings-gap dokumenterat (ipl-rosacea claimades aldrig → claim-tabellen ej självhävdande).
+**Föreslaget (väntar grönt ljus, ej gjort):** (a) hårda självkörbara DoD-grindar för AUTONOMA exekutorer — §13.O:s "visa ägaren varje steg" håller inte utan mänsklig blick, ersätt med kvittens i §11 (punkt-count före/efter, grep-bevis på målfraser, `php -l`, staging-200+ny-fras-grep); (b) flytta logg/claim ur den delade filen (merge-konflikt-risk när flera exekutorer kör); (c) standing dispatch-instruktion ägaren klistrar in när en exekutor startas; (d) frys modellbygge tills första LYNX-refreshen mätts; (e) dela playbook i exekutor-kontrakt + planerar-bilaga.
+**Modell-status (viktigast):** **noll efter-mätningar än** — §1.1–§1.4 + §1.2 är alla baseline-reverse-engineerade hypoteser, §10-mät-loopen har aldrig körts. 7 sidor väntar på main-push + refresh. Skala inte exekvering på oäkta validering; acne.php = det avgörande A/B-testet.
+
 ### 2026-07-01 — `acne.php` (HUVUDSIDA / husröst-REFERENS, KW116, SCORE 39) — 🔴-block omskrivna, klar → staging
 **Gjort (facit-guidad, v4):** Skrev om de **10 🔴 SIGNIFICANT-blocken** (banner-scaffolding "Här förklarar vi"; Vem/Var/ålders-/svårighetsgrad-/område-block = demografisk-skal + importans; laser-marknad "avancerad… effektiv lösning"; artikel-CTA "Du som vill ha det bäst… 30 år" / "Tveka inte" / "Välj innan läkare") → ledde med mekanism/konkret, kapade scaffolding/importans/marknad. **LÄMNADE husröst-referensblocken orörda** (full-mekanism-payoff, "Noduler >5 mm" 🟢, definitionerna, "Akne består av papler…" 🟠, vi-handlingar, FAQ) — de ÄR modellen vi emulerar. Bevarat: sökord + 2 inline-länkar (acne-vulgaris, acne-ansikte) + frysta meta. 0 råa apostrofer. (1 "Tveka inte" kvar i obetygsatt FAQ — lämnad.)
 **§1.4:** sidnivå = 🔵 SLIGHT (median), så detta **sänker inte AI COPY-flaggan** men lyfter **SCORE** (mål: AI STYLE 30↑ + Evidence 11↑; Depth 77/E-E-A-T 84 hålls). **Prediktion:** AI STYLE ↑, Evidence ↑, Depth/E-E-A-T/sökord =. FÖRE-SCORE (68 dgr): 39/CQ56/Ev11/AISTYLE30 (= kolumn A, `lynx-data.php`).
@@ -449,6 +468,8 @@ När en rad refreshats: mät (§10 steg 2–3), logga EFTER i §11 + lynx-data.p
 ## 12. Pågående arbete / claims
 Claima en sida här **innan** du rör den. Töm raden när den är klar (logga istället i §11). Detta är den delade "låsningen" mellan parallella Claude-sessioner.
 
+**⚠️ 2026-07-01 — koordinerings-gap (live):** en parallell terminal arbetar **`ipl-rosacea.php`** men det syns aldrig som claim här (ägaren startade exekutorn out-of-band). Läxa: claim-tabellen är **inte självhävdande** när en exekutor dispatchas direkt utan att ha läst §0.1. **RÖR INTE `ipl-rosacea.php`** medan detta står. Strukturell fix föreslagen (standing dispatch-instruktion + flytta logg/claim ur den delade filen så parallella exekutorer inte krockar vid merge).
+
 | Sida | Ägare (terminal/namn) | Status | Tid |
 |------|------------------------|--------|-----|
 | *(ingen aktiv claim — ytliga-blodkarl klar, se §11-loggen + bevakningslistan §11.1)* | | | |
@@ -460,11 +481,17 @@ Claima en sida här **innan** du rör den. Töm raden när den är klar (logga i
 
 **B. Filerna är INTE webb-läsbara (löst).** `lynx-copy-playbook.php` + `lynx-data.php` börjar med `<?php exit; ?>` → servern kör dem och returnerar **tomt** om någon öppnar URL:en. Vi läser dem i editor/git. Inget behov av deploy-exkludering eller radering. (Verifiera vid behov: öppna `/includes/lynx-copy-playbook.php` på temp-staging → ska vara tom.)
 
-**C. PHP-strängsäkerhet.** Copy ligger i enkel-citerade PHP-strängar (`content: '...'`). Ett rått apostrof (`'`) eller backslash kraschar sidan (500). Regel: inga råa apostrofer/backslash i copy — omformulera eller använd typografiskt `’`. (Dubbla citattecken och `$` är säkra.) `php -l` som CI-gate vore robust.
+**C. PHP-strängsäkerhet.** Copy ligger i enkel-citerade PHP-strängar (`content: '...'`). Ett rått apostrof (`'`) eller backslash kraschar sidan (500). Regel: inga råa apostrofer/backslash i copy — omformulera eller använd typografiskt `’`. (Dubbla citattecken och `$` är säkra.) `php -l` som CI-gate vore robust **på servern** — men **`php` finns INTE i Claude-skalet på denna maskin (ej i PATH, ej i /opt/homebrew|/usr/local|/usr/bin per 2026-07-01), så du kan inte linta lokalt; verifiera i stället via staging-deploy (§7.6).**
 
 **D. Läs ALLA blocktyper — REWRITE är FACIT-DRIVEN, men lämna inte resten oöverskådad (uppdaterat 2026-07-01).** När vi har LYNX per-block-facit (AI Copy-vyn ger ett betyg per block): **skriv om 🔴/🟠/🟥 (prioritet), OCH se även över 🔵/🟢 med lätt hand** — bara tydliga fixar (typo, grammatik, tappat sökord, uppenbar tell), INTE stilistisk över-omskrivning av OK-block (v3-felet, §1.3, "rör inte det som är bra"). Utan per-block-facit: utgå från hela sidan + §1.3-modellen, lämna hellre vid SLIGHT↔MODERATE-tvivel. *(Gamla "svep alla oavsett flagga" gällde när vi bara hade sid-nivå-flagga; nu finns per-block-facit → prioritera efter den, men ignorera inte resten.)* **Bedöm ALLTID sidan som HELHET** — flöde mellan block, dubbletter/upprepning över block, sökordsspridning, att ett 🔵-block inte skaver i sitt sammanhang. Fastna inte i isolerad block-läsning: facit prioriterar, men helheten avgör. Obligatoriskt per sida: (1) grön banner-description, (2) ProblemTrivia content, (3) ProblemTrivia extended_content ("Läs mer" — ofta fet-etikett-listor → de-fluffa; prosa om det var utfylld prosa, stramad lista om sektionens syfte är uppräkning, se nedan), (4) service-/behandlingskort, (5) FAQ-svar. "Klar" = alla blocktyper klarar §3. **Bevara varje distinkt punkt — döm efter sektionens SYFTE (kräver helhetsblick, inte block-för-block).** Är sektionens hela poäng att räkna upp poster med beskrivning (varningstecken, ansiktszoner, behandlingsmetoder) → **behåll posterna distinkta; en stramad, de-fluffad lista är då helt rätt, inte en nödlösning.** Var "listan" i själva verket utfylld prosa → gör om till bunden prosa. Oavsett vilket: döda etikett-filler-formatet och fyllnaden men **slå aldrig ihop två poänger till en vagare mening eller tappa någon.** Räkna punkterna före/efter — antalet ska stämma (ex: "fysisk smärta" och "utebliven förbättring" är två tecken, inte ett). Det här är ett skäl till att vi läser HELA sidan: bara så vet vi en sektions syfte.
 
 **E. Definition of Done.** `git diff` rör bara mål-`.php` (+ logg); deploy grön; **sidan testad på staging-URL → HTTP 200 + renderad HTML (inte blankt/500, §13.C) §7.6**; sökord finns kvar (grep); LYNX-baseline + ändring loggad i §11. Först då töms claim i §12.
+
+**Autonom-kvittens (obligatorisk när ingen ägare följer varje steg — annars är sidan inte klar).** §13.O:s "visa ägaren varje steg" finns inte för en autonom exekutor, så klistra in detta i §11-loggen per sida; det gör "ändrade jag för mycket?" (START HÄR) mätbart i efterhand:
+- **Punkt-count:** block/`<li>`/sakpoänger FÖRE = EFTER per omskrivet block (§13.D). Blev det färre → motivera varje borttagen (ren dubblett/fyllnad) eller återställ.
+- **Sökord:** `grep` bekräftar att varje målfras (§6) finns kvar.
+- **PHP:** inga råa apostrofer/backslash i copy-strängar (§13.C). *(OBS: `php -l` går INTE lokalt — `php` saknas i Claude-skalet på denna maskin; verifiera syntax via staging-deploy istället: HTTP 200 + renderad HTML, inte 500.)*
+- **Live:** staging HTTP 200 + grep på en NY formulering syns i svaret (§7.6).
 
 **F. Baseline + rollback.** Spara sidans LYNX-stats FÖRE ändring (§11). Per-sidans commit = revert-enhet. Trigger: tappar sidan i LYNX RANK / sökord efter prod-deploy → `git revert` av den commiten, utvärdera sen.
 
