@@ -341,6 +341,7 @@ Kryssa här. Start/stopp-vänligt: status = §9 + §11 (logg) + §12 (claims). P
 **Löpande / avslut**
 - [ ] LYNX justeringsloop (§10) — läs varje refresh, uppdatera §11 + lynx-data.php.
 - [ ] Mät-loop & modell-förfining (§10): prediktera före, mät efter, förfina §1.1/§1.2, **backporta lärdomar till redan gjorda sidor**.
+- [ ] **Gå igenom `hudproblem/hudforandringar/index.php` (mall-review)** — en pre-existerande död debug-rad (`$types_url`, rad 777) läckte en synlig PHP-warning på live (nu borttagen). Kontrollera om mallen har mer cruft/latenta buggar: andra utkommenterade `<?php echo $var ?>`, odefinierade variabler, gamla debug-rester. *(Temporär TODO här tills sidan är genomgången.)*
 - [x] (Löst) Filerna är `.php` med `<?php exit;` → renderas tomma på webben; behöver inte raderas.
 
 **Parkerat**
@@ -393,6 +394,11 @@ Korrelera mot LYNX-refresh. Senaste först. Spara alltid **LYNX-baseline** (FÖR
 | ytliga-blodkarl.php | 42 | – | 22 | 2/2 | SIGNIFICANT | OK | – | 172 |
 | behandla-pigmentflackar.php | 14 | – | – | –/– | SIGNIFICANT | GOOD | – | 16 |
 | hudproblem/hudforandringar/ | 10 | – | 17 | 3/2 | SIGNIFICANT | OK | – | 8 |
+
+### 2026-07-01 — Ägaren pushade MAIN → produktion LIVE (mätstart) + produktions-verifiering
+**Milstolpe:** ägaren pushade `main` → alla omskrivna sidor är nu LIVE på produktion (`acnespecialisten.se`). **Mätklockan startar nu** (§10 / §11.1) — nästa steg är LYNX-refresh, sen mät FÖRE→EFTER.
+**Produktions-verifiering (8 sidor):** 7/8 rena — HTTP 200, renderat, PHP ok, nytt innehåll live (acne, acne-ansikte, ytliga-blodkarl, behandla-pigmentflackar, om-oss, ipl-rosacea, hudbehandlingar/ipl).
+**1 bugg fångad + fixad:** `hudproblem/hudforandringar/index.php` läckte en synlig `Warning: Undefined variable $types_url` (rad 777 = död `<!--<?php echo $types_url ?>-->`-debugrad → hela raden borttagen). **Pre-existerande** (git -S visar gammal commit `06d18987`, ej vår de-AI/H1-rewrite). Fix på staging → **väntar ägarens nästa main-push** för att rensa på produktion.
 
 ### 2026-07-01 — Beslut: kör 1 Claude i taget (parallellt övergivet)
 **Gjort:** efter dagens parallell-test (planerare + ipl-rosacea-exekutor i samma arbetsträd) beslutade ägaren att **köra en instans i taget**. Skrev om **§0.1** (parallellt → 1 i taget; motivering: delade processfiler §11/§12/lynx-data/lynx-examples/§8–§9 krockar oavsett sid-isolering) och **§12** (parallell-lås → in-progress-markör; check-and-ask kvar men vänt: "du ska vara ensam — upptäcker du annat → fråga ägaren"). Tog bort worktree-/parallell-maskineriet + "flytta logg ur filen"-förslaget (onödigt när 1 i taget). TOC + §-referenser (rad 24/26) + §0.2-snutten uppdaterade.
@@ -461,7 +467,7 @@ Korrelera mot LYNX-refresh. Senaste först. Spara alltid **LYNX-baseline** (FÖR
 ---
 
 ## 11.1 Bevakningslista — sidor som väntar på LYNX-refresh (mät-loopen, §10 steg 2)
-LYNX skannar bara LIVE och refreshar med delay — **mätklockan startar när ägaren pushar `main`**, inte vid staging. Vi kan inte polla LYNX (ingen export/API); ägaren droppar ny skärmdump när LYNX uppdaterat, då mäter vi delta mot FÖRE-baseline + prediktion. Listan = vad vi väntar på, så inget glöms.
+LYNX skannar bara LIVE och refreshar med delay — **mätklockan startar när ägaren pushar `main`**, inte vid staging. Vi kan inte polla LYNX (ingen export/API); ägaren droppar ny skärmdump när LYNX uppdaterat, då mäter vi delta mot FÖRE-baseline + prediktion. Listan = vad vi väntar på, så inget glöms. **▶ 2026-07-01: ägaren pushade main → mätstart igång för alla rader nedan; produktion verifierad (se §11-loggen överst; hudforandringar-warning fixad, väntar nästa main-push).**
 
 | Sida | Staging-push | Main-push (mätstart) | FÖRE-baseline | Prediktion (§10 steg 1) | Senaste LYNX-analys | Status |
 |---|---|---|---|---|---|---|
