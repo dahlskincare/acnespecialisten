@@ -11,7 +11,7 @@ $model = new Service(
     title: 'Behandlingar mot pigmentfläckar',
     duration: null,
     price: null,
-    content: '<p class="p200">Vi erbjuder de mest effektiva metoderna för att behandla och ta bort pigmentfläckar. Våra skräddarsydda behandlingar reducerar pigmenteringar oavsett typ eller orsak, vilket ger dig en klarare och jämnare hudton. Om du är osäker på vilken behandling som passar din hudtyp bäst, boka en kostnadsfri hudkonsultation. Våra experter kommer att vägleda dig mot en fläckfri hud.</p>',
+    content: '<p class="p200">Vi behandlar och tar bort pigmentfläckar med IPL, laser, kemisk peeling, microneedling och CryoPen. Vilken metod som passar beror på fläckarnas typ och din hudton. Är du osäker, boka en kostnadsfri hudkonsultation så vägleder vi dig.</p>',
     image_small: 'bilder/hudproblem/358x274/pigmentflackar.webp',
     image_large: 'bilder/hudproblem/424x456/pigmentflackar.webp',
     image_alt: 'Bild som illustrerar pigmentfläckar',
@@ -31,18 +31,16 @@ $path_segments = array(
 
 $about_title = 'Hur vi behandlar och tar bort pigmentfläckar';
 
-$about_content = '<p class="p200">Att behandla pigmentfläckar kräver noggrannhet och expertis. Vi använder de mest effektiva och moderna metoderna för att framgångsrikt reducera pigmentfläckar. Vid vår kostnadsfria hudkonsultation identifierar vi din hudtyp och skapar en skräddarsydd behandlingsplan just för dig.</p>
+$about_content = '<p class="p200">Att ta bort pigmentfläckar handlar om att bryta ner det pigment som samlats i huden. Det gör vi med metoder som laser, IPL och kemisk peeling, som riktar in sig på pigmentet. Vid en kostnadsfri hudkonsultation går vi igenom din hudtyp och lägger upp en behandlingsplan.</p>
 
-<p class="p200 mt-xl">Under konsultationen utvärderar vi dina specifika behov och bestämmer den bästa åtgärden för att behandla dina pigmentfläckar, oavsett om det handlar om enstaka fläckar eller större områden. Vårt mål är att återställa din hud till dess naturliga och jämna utseende.</p>
-
-    <p class="p200 mt-xl">Genom hela behandlingsprocessen, från första konsultation till slutgiltiga resultat, finns vårt dedikerade team här för att stödja och guida dig. Vi är här för att säkerställa att du får den bästa möjliga vården och att du känner dig trygg och väl omhändertagen.</p>';
+<p class="p200 mt-xl">Under konsultationen går vi igenom dina behov och väljer rätt behandling, oavsett om det handlar om enstaka fläckar eller större områden. Målet är en jämnare hudton.</p>';
 
 $headline01 = "01. Identifiera";
 
 $define_image_alt = 'Behandling av Pigmentfläckar';
 $define_image_title = 'Behandling av Pigmentfläckar';
 
-$define_content = '<p class="p200">För att kunna hjälpa dig med dina pigmentfläckar är det viktigt att vi förstår ditt specifika hudtillstånd och dina pigmentfläckars natur. Vi börjar med en kostnadsfri konsultation där vi noggrant analyserar din hud och diskuterar dina mål samt tidigare erfarenheter med pigmentfläckar. Vi tar före-bilder för att noggrant övervaka dina framsteg och skapa en skräddarsydd behandlingsplan som är utformad speciellt för dig. En personlig hudterapeut kommer att vara din följeslagare genom hela din resa mot en klarare hud, vilket garanterar att du får den bästa möjliga vården.</p>';
+$define_content = '<p class="p200">Först behöver vi förstå din hud och hur dina pigmentfläckar ser ut. Vi börjar med en kostnadsfri konsultation där vi analyserar huden och går igenom dina mål och tidigare erfarenheter. Vi tar före-bilder för att följa dina framsteg och lägger upp en behandlingsplan. En personlig hudterapeut följer dig genom hela din resa mot en klarare hud.</p>';
 
 $define_consultation_link = "https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Pigmentation";
 $define_consultation_link_label = "Boka gratis konsultation";
@@ -51,7 +49,7 @@ $define_consultation_link_title = "Klicka här för att boka din kostnadsfria hu
 
 $headline02 = "02. Behandla";
 
-$treat_content = '<p class="p200">När vi har identifierat dina pigmentfläckar inleder vi behandlingen för att reducera eller eliminera dem och återställa en jämnare hudton. Vi använder en rad olika metoder som är skräddarsydda efter dina specifika behov, inklusive <a class="b200 underline color-deep-sea-400" href="/kemisk-peeling.php" title="Mer information om kemisk peeling i stockholm">kemisk peeling stockholm</a>, laserbehandling och microneedling. Dessa effektiva metoder gör det möjligt att snabbt och effektivt behandla pigmentfläckar och förbättra hudens utseende. Vårt mål är att uppnå bästa möjliga resultat med minimal påverkan och obehag för dig.</p>';
+$treat_content = '<p class="p200">När vi har identifierat dina pigmentfläckar inleder vi behandlingen för att reducera eller ta bort dem och återställa en jämnare hudton. Vi väljer metod efter dina behov, bland annat <a class="b200 underline color-deep-sea-400" href="/kemisk-peeling.php" title="Mer information om kemisk peeling i stockholm">kemisk peeling stockholm</a>, laserbehandling och microneedling. Målet är ett tydligt resultat med så lite obehag som möjligt.</p>';
 
 $services = array(
 
@@ -64,7 +62,7 @@ $services = array(
         duration: '20-70 min',
         price: 'Från 1995 kr',
         icons: array(),
-        content: '<p class="p200">På Acnespecialisten använder vi IPL-behandling (Intensivt Pulserande Ljus) för att effektivt reducera pigmentfläckar. IPL-behandlingen använder ljusenergi som tränger djupt in i huden och riktar sig mot områden med ökad pigmentering. Denna metod hjälper till att bryta ner melanin, vilket minskar synligheten av pigmentfläckar och återställer en jämnare hudton. Vår noggranna behandling säkerställer att resultatet blir både effektivt och skonsamt för din hud.</p>',
+        content: '<p class="p200">På Acnespecialisten använder vi IPL-behandling (Intensivt Pulserande Ljus) mot pigmentfläckar. IPL-behandlingen använder ljusenergi som tränger djupt in i huden och riktar sig mot områden med ökad pigmentering. Metoden bryter ner melanin, vilket minskar synligheten av pigmentfläckar och ger en jämnare hudton.</p>',
         consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Service&Consultationwhat=Consultation_Method_IPL',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka en konsultation för IPL-behandling mot pigmentfläckar',
@@ -86,7 +84,7 @@ $services = array(
         duration: '40 min',
         price: 'Från 1995 kr',
         icons: array(),
-        content: '<p class="p200">Kemisk peeling behandlar effektivt pigmentfläckar genom att använda syror för att avlägsna det yttersta hudlagret. Denna process främjar cellförnyelse och bidrar till att reducera synligheten av pigmentfläckar samt förbättra hudens struktur och utseende. Genom att stimulera hudens naturliga förnyelseprocess får du en jämnare och mer strålande hudton.</p>',
+        content: '<p class="p200">Kemisk peeling behandlar pigmentfläckar genom att använda syror för att avlägsna det yttersta hudlagret. Denna process främjar cellförnyelse och bidrar till att reducera synligheten av pigmentfläckar samt förbättra hudens struktur och utseende. Genom att stimulera hudens naturliga förnyelseprocess får du en jämnare hudton.</p>',
         consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Service&Consultationwhat=Consultation_Method_ChemicalPeeling',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka en konsultation för kemisk peeling mot pigmentfläckar',
@@ -108,7 +106,7 @@ $services = array(
         duration: '20-70 min',
         price: 'Från 1995 kr',
         icons: array(),
-        content: '<p class="p200">Laserbehandling är en mycket effektiv metod för att reducera pigmentfläckar. På Acnespecialisten använder vi avancerad laserteknologi som riktar sig specifikt mot områden med ökad pigmentering. Lasern arbetar genom att sända ut ljuspulser som bryter ner pigmentet i fläckarna, vilket minskar deras synlighet och främjar en jämnare hudton. Denna metod är noggrant kontrollerad för att maximera resultatet samtidigt som den minimerar obehag och återhämtningstid. Laserbehandling erbjuder en snabb och precis lösning för att förbättra hudens utseende och jämnhet.</p>',
+        content: '<p class="p200">Laserbehandling reducerar pigmentfläckar genom att sända ut ljuspulser som bryter ner pigmentet i fläckarna, vilket minskar deras synlighet och ger en jämnare hudton. På Acnespecialisten riktar vi lasern specifikt mot områden med ökad pigmentering, noggrant kontrollerat för att hålla nere obehag och återhämtningstid.</p>',
         consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Service&Consultationwhat=Method_Laser',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka en konsultation för laser mot pigmentfläckar',
@@ -130,7 +128,7 @@ $services = array(
         duration: '20-70 min',
         price: 'Från 1995 kr',
         icons: array(),
-        content: '<p class="p200">Microneedling är en effektiv metod för att behandla och få bort pigmentfläckar. Genom att använda små mikronålar skapas mikroskopiska kanaler i huden, vilket stimulerar hudens naturliga läkningsprocess och ökar produktionen av kollagen och elastin. Detta bidrar till att reducera synligheten av pigmentfläckar och främjar en jämnare hudton. Dessutom möjliggör microneedling djupare penetration av aktiva ingredienser, vilket ytterligare hjälper till att reducera pigmentfläckar och förbättra hudens utseende.</p>',
+        content: '<p class="p200">Microneedling behandlar och tar bort pigmentfläckar med små mikronålar som skapar mikroskopiska kanaler i huden. Det stimulerar hudens naturliga läkningsprocess och ökar produktionen av kollagen och elastin, vilket reducerar synligheten av pigmentfläckar och ger en jämnare hudton. Nålarna gör det också möjligt för aktiva ingredienser att tränga djupare in i huden.</p>',
         consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Service&Consultationwhat=Consultation_Method_Microneedling',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka en konsultation för microneedling mot pigmentfläckar',
@@ -153,7 +151,7 @@ $services = array(
         duration: '20-90 min',
         price: 'Från 1995 kr',
         icons: array(),
-        content: '<p class="p200">På Acnespecialisten använder vi CryoPen-behandling för att noggrant och skonsamt behandla pigmentfläckar. CryoPen-enheten applicerar extrem kyla på pigmentfläckarna, vilket resulterar i deras nedbrytning och minskad synlighet. Denna metod är både effektiv och minimalt invasiv, vilket innebär minimalt obehag och ingen återhämtningstid. CryoPen-behandlingen erbjuder en snabb och precis lösning för att förbättra din hudton och reducera pigmentfläckar.</p>',
+        content: '<p class="p200">På Acnespecialisten använder vi CryoPen för att skonsamt behandla pigmentfläckar. CryoPen-enheten applicerar extrem kyla på pigmentfläckarna, vilket bryter ner dem och minskar synligheten. Metoden är minimalt invasiv, med lite obehag och ingen återhämtningstid.</p>',
 
         consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Brand&Consultationwhat=Consultation_Brand_CryoPen',
         consultation_url_label: 'Boka konsultation',

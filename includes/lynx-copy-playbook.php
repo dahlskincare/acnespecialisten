@@ -236,7 +236,7 @@ Sidorna rankar redan på sökord. Omskrivningen får höja kvaliteten **utan att
 **SIGNIFICANT (tung omskrivning, nu):**
 - `acne-ansikte.php` — ✅ KLAR (omskriven hela sidan → staging, väntar main-push; se §9/§11/§11.1)
 - `ytliga-blodkarl.php` — ✅ KLAR (omskriven steg för steg → staging, väntar main-push; se §9/§11/§11.1)
-- `behandla-pigmentflackar.php` (bonus, KW16)
+- `behandla-pigmentflackar.php` — ✅ KLAR (bonus, KW16; de-AI:ad → staging, väntar main-push)
 - `hudproblem/hudforandringar/index.php` (hub)
 
 **MODERATE (nästa våg, 10 st):** `pigmentflackar.php` (KW244), `ipl-rosacea.php`, `rhinophyma-rosacea.php`, `microdermabrasion.php`, `mogen-hy.php`, `solskadad-hy.php`, `om-oss.php`, `hudbehandlingar/ipl/`, `hudproblem/bristningar/`, `hudproblem/oonskat-har/`.
@@ -276,7 +276,7 @@ Kryssa här. Start/stopp-vänligt: status = §9 + §11 (logg) + §12 (claims). P
 **Fas 1 — SIGNIFICANT-sidorna**
 - [x] `acne-ansikte.php` — omskriven (hela sidan), minimal-diff (§13.O); sökord/claims bevarade → staging, väntar main-push.
 - [x] `ytliga-blodkarl.php` (KW172) — omskriven steg för steg (öppningar + summeringar bort + gap-punkter §8.1) → staging, väntar main-push. Bortkommenterade $type_categories/$symptoms orörda (bilder saknas).
-- [ ] `behandla-pigmentflackar.php` — formel, håll på long-tail (huvudterm bor på pigmentflackar.php).
+- [x] `behandla-pigmentflackar.php` — de-AI:ad (öppningar + marknadssvansar bort), long-tail hållen → staging, väntar main-push.
 - [ ] `hudforandringar/index.php` — formel + hub-register (§13.L) + H1/titel-sökord i SEPARAT commit (§13.H).
 
 **Fas 2 — Schema**
@@ -324,6 +324,10 @@ Korrelera mot LYNX-refresh. Senaste först. Spara alltid **LYNX-baseline** (FÖR
 | behandla-pigmentflackar.php | 14 | – | – | –/– | SIGNIFICANT | GOOD | – | 16 |
 | hudproblem/hudforandringar/ | 10 | – | 17 | 3/2 | SIGNIFICANT | OK | – | 8 |
 
+### 2026-07-01 — `behandla-pigmentflackar.php` (bonus, KW16) — OMSKRIVEN, klar → staging
+**Gjort:** Hela sidan de-AI:ad steg för steg (banner + $about + $define + $treat + 5 behandlingskort). Öppningar ledda med mekanism/konkret (banner → namngivna metoder; $about → "bryta ner pigment"; laser-kortet → ljuspulser-mekanism i stället för "mycket effektiv metod"); marknadssvansar bort ($about para 3 "dedikerade team… bästa möjliga vården", fluff-svansar i IPL/laser/CryoPen-korten); marknadsord bort (de mest effektiva, skräddarsydda, avancerad laserteknologi, snabbt och effektivt). Bevarat: metodnamn (IPL/kemisk peeling/laser/microneedling/CryoPen), intern länk ("kemisk peeling stockholm" → /kemisk-peeling.php), priser (5× "Från 1995 kr"), melanin, FAQ (redan konkret/GOOD), frysta meta ($seo_title/$seo_keywords §13.H). Bonussida-disciplin (§13.M): höll long-tail "behandla/ta bort pigmentfläckar", jagade inte huvudtermen. 0 råa apostrofer (§13.C).
+**Prediktionsliggare (§10 / modellmål — block-gissning FÖRE refresh, scoras mot LYNX sen):** banner 🔴→🔵 ~80% · $about 🔴→🔵 ~75% · $define 🟠→🔵 ~60% · $treat 🔴→🔵 ~70% · laser-kort 🔴→🔵 ~75% · IPL/kemisk/micro/cryo 🟠→🔵 ~55% · FAQ 🔵 (orört). Sida SIGNIFICANT→SLIGHT förväntat; AI STYLE ↑ + Evidence ↑ (namngivna metoder), sökord =.
+
 ### 2026-07-01 — `ytliga-blodkarl.php` — OMSKRIVEN (steg för steg), klar → staging
 **Gjort:** Hela sidan svept med den kalibrerade minimal-metoden, block för block med ägar-godkännande: (1) öppningarna ledda med mekanism/konkret (Varför, Vem, Var, Vad-extended, Varför-extended, Vem-extended); (2) tre rena summeringsstycken bort (Varför-/Vem-/Var-extended — microneedling-mönstret); (3) marknadsord bort (effektiv/skräddarsyr/"det självklara valet"/"de mest avancerade"); (4) grammatik (dem→de, "en kosmetisk"→"ett kosmetiskt"); (5) gap-punkter §8.1: rosacea inline-länk, FAQ "förebygga" rättad från åderbråcks-råd → ansiktsrelevant, hemmavård-vinkel + namngivna maskiner (Alma Rejuve Dye-VL/Harmony XL Pro) i artiklarna. Varje mening/poäng bevarad utom rena dubbletter; sökord grep-verifierade (näsan 10, kinderna 7, näsvingarna/näsryggen, rosacea, IPL, brustna/spindelkärl); 0 råa apostrofer (§13.C).
 **Prediktion (§10 steg 1):** AI STYLE ↑ (öppningar + borttagna summeringssvansar = §1.1 största spakar), Evidence ↑ (namngivna maskiner), Depth = (poäng kvar), E-E-A-T/sökord =. Förväntad SIGNIFICANT → SLIGHT på de omskrivna blocken. Testar öppnings-spaken från acnebehandling-facit i skarpt läge.
@@ -359,6 +363,7 @@ LYNX skannar bara LIVE och refreshar med delay — **mätklockan startar när ä
 |---|---|---|---|---|---|---|
 | acne-ansikte.php | 2026-06-30 | **2026-06-30 (LIVE)** | SCORE "–", AI COPY SIGNIFICANT, KW57 | AI STYLE ↑, Depth/Evidence/sökord = | – | live på main 30 jun, verifierad 200 + nytt innehåll → **bevaka LYNX-refresh** |
 | ytliga-blodkarl.php | 2026-07-01 | *(väntar)* | SCORE 22, AI COPY SIGNIFICANT, KW172 | AI STYLE ↑ (öppningar+summeringar bort), Evidence ↑ (namngivna maskiner), Depth/E-E-A-T/sökord = | – | omskriven steg för steg → staging; **inväntar main-push + LYNX-refresh** |
+| behandla-pigmentflackar.php | 2026-07-01 | *(väntar)* | AI COPY SIGNIFICANT, SCORE –, AIQ GOOD, KW16 | block-gissningar 🔴/🟠→🔵 (öppningar+svansar), Evidence ↑ (metoder), sökord = | – | de-AI:ad → staging; **inväntar main-push + LYNX-refresh** |
 
 När en rad refreshats: mät (§10 steg 2–3), logga EFTER i §11 + lynx-data.php, förfina modellen (steg 4), backporta (steg 5), töm raden.
 
