@@ -27,6 +27,9 @@
 | Omdöme "Hade testat allt innan…" | 🔵 | omdöme (generiskt) |
 | Omdöme "Super fin personal… gått där i 2-3 år…" | 🟢 | omdöme + personlig detalj |
 
+**Fullständig acne.php-facit mottagen 2026-07-01 — BEKRÄFTAR ovanstående 22 apr-betyg** (stark modell-validering: alla citerade referensblock stämmer). Tillägg som saknades i tabellen ovan: "Akne kan uppträda på olika områden… hormonella/kläder/sol" 🔴 · "En effektiv ansiktsbehandling fokuserar på att extrahera orenheter…" 🔵 · "Bölder: Stora, varfyllda… ofta större än 5 mm" 🟢 · "För att effektivt bekämpa… daglig behandling med rätt produkter" 🔵 · "Acneärr uppstår i form av gropar…" 🔵 · "Välj Acnespecialisten innan du går till en läkare…" 🔴.
+**VIKTIGT:** acne.php är vår husröst-/modell-REFERENS men har **~10 🔴-block på sidnivå** (intro-scaffolding "Här förklarar vi", demografisk-skal "vanligast bland tonåringar… oavsett kön", importans "det är viktigt att", marknads-CTA "Du som vill ha det bäst… 30 år" / "Tveka inte att kontakta"). Dess **🔵/🟢-block är de validerade referensblocken att EMULERA/LÄMNA** (full mekanism-payoff, definitioner, Noduler/Bölder med "5 mm"-mått, konkreta vi-handlingar). Rubriken "SLIGHT-referens" avser alltså block-nivå, inte sidnivå. **Rewrite-mål:** de ~10 🔴 (KW116 huvudsida = hög prio); lämna 🔵/🟢.
+
 ## /acne-ansikte.php — 22 Apr 2026 (SIGNIFICANT — sidan vi skriver om)
 | Block (snippet) | Betyg | Varför |
 |---|---|---|
@@ -192,7 +195,70 @@
 4. **Eftervård, samma sektion, motsatt betyg:** lång + "avgörande/bästa/effektiv"-öppning = 🔴 (blk 14); kort + direkt = 🟢 HUMAN (blk 16).
 5. **HUMAN** = korta, direkta, "mänskligt röstade" instruktioner + omdömen med namn/tidsdetalj.
 
+## /om-oss.php — 22 Apr 2026 (MODERATE-sida) — RÅDATA + v3-blindtestets facit
+> "Om oss"-marknadsprosa. Betyg = LYNX-fakta. Denna sidas block var v3-blindtestets FÄRSKA testset (aldrig kört genom modellen före testet).
+
+| Block (utdrag) | LYNX (rå) |
+|---|---|
+| "…under 30 år utvecklat en **unik och effektiv** fyrstegsmetod… **skräddarsydda** hudvårdsrutiner… ditt alternativ till hudläkare utan remiss" (5 mening) | 🟠 MODERATE |
+| "AcneSpecialisten använder en fyrstegsmetod… gratis konsultation… reparera skadad hud… komplett lösning från diagnos till reparation" (3 mening, process) | 🔵 SLIGHT |
+| "…omfattande lösning… personlig hudterapeut (PT)… **fotograferar vi din hud** för att jämföra framstegen" (×2 nära-dubbletter) | 🔵 SLIGHT |
+| "…dedikerade till att ge dig en helhetslösning… beprövade metod… **inte bara** identifierar… **utan även**… skräddarsydd behandlingsplan" | 🟠 MODERATE |
+| "**Sedan vår start 1994** har vi stolt hjälpt **flera hundra tusen** personer…" (siffra/historik) | 🔵 SLIGHT |
+| "Varje specialist… certifierad hudterapeut med **SHR-godkänd** utbildning… **garanterar högsta möjliga kvalitet**… **mest effektiva och säkra**" | 🔴 SIGNIFICANT |
+| "…förenar vi **årtiondens erfarenhet**… **de senaste innovationerna**… **inte bara**… **utan också**… **optimala resultat**" (4 mening, tung marknad) | 🔴 SIGNIFICANT |
+| "…förstår vi vikten av tillgänglighet… tre kliniker: **Strandvägen, Södermalm, Sundbyberg**… **bästa möjliga vård**… skräddarsydd" (6 mening) | 🔴 SIGNIFICANT |
+| "Boka en gratis hudkonsultation hos en av våra erfarna hudterapeuter." (1 mening, CTA) | 🔵 SLIGHT |
+| Omdöme "Hade testat allt innan…" | 🔵 SLIGHT |
+| Omdöme "Super fin personal… 2-3 år…" | 🟢 HUMAN |
+
+**Facit-signaler (tolkning):** (a) **siffra/historik** ("Sedan 1994… hundra tusen") håller ett annars marknads-block på 🔵. (b) **Konkret credential rescuear INTE** ("SHR-godkänd" → ändå 🔴 pga "garanterar högsta möjliga/mest effektiva"-svans). (c) **Namnger 3 kliniker men LÅNG + marknad → 🔴** (längd dominerar över namn-konkretionen — bekräftar v3). (d) process-block utan marknads-svans = 🔵.
+**AI QUESTIONS (FAQ, för Fas 2):** Hur länge har AcneSpecialisten funnits? · Vad erbjuder AcneSpecialisten? · Kan alla besöka AcneSpecialisten? · Är ni hudläkare? · Vad gör AcneSpecialisten unikt?
+**v3-BLINDTEST-RESULTAT (om-oss, 3 agenter, ofuskat): 4/11 exakt, 11/11 inom ±1.** v3 ÖVERkorrigerade: O01–O05 gissades ETT steg för hårt (SLIGHT→MODERATE, MODERATE→SIGNIFICANT); O09 (CTA "Boka…") + O10 (generiskt omdöme) gissades HUMAN men var SLIGHT. Rätt: O06/O07/O08 (SIGNIFICANT), O11 (HUMAN). **Lärdom: exakt tier = brus, ±1 = signalen (97% över båda testen); v3:s längd-push för aggressiv + "kort→HUMAN" för generös → v4 (playbook §1.3). Vi slutar mikro-tuna per sida (v2↔v3 pendlade = overfit).**
+
+## SCORE-modellen — fakta + reverse-engineering (2026-07-01, workflow)
+**LYNX = internt/bespoke verktyg** (finns ej publikt; buntar tre dokumenterade koncept). Googles E-E-A-T är ett rater-ramverk, INTE en publik metrik → LYNX-siffran är en proxy.
+
+**Aggregering (validerat 5/5): Overall ≈ CONTENT QUALITY × E-E-A-T × AI STYLE / ~3640** (MULTIPLIKATIVT). Bevis: hudforandringar Overall 17 < lägsta block (25). CQ = medel av 5 subs, EEAT = medel av 4 subs. AI STYLE = multiplikativ faktor (0,25–0,30), ej cap (ipl-rosacea = 39 med AI 25). ⚠️ AI STYLE varierar bara 25↔30 → uppsidan otestad; acne.php = A/B-test.
+
+**Komponentfakta (hur höja):**
+- **Base Quality** — people-first, svara på sökintentionen tidigt, ingen dublett/thin.
+- **Depth** (acne 77, skydda) — täck ämnet end-to-end, H2/H3, intern silo-länkning; djup = fokus, ej padding.
+- **Evidence** (acne **11**, svagast) — evidens-densitet: siffror, tidsramar, namngivna källor/maskiner, datum, credentials. Störst headroom. **(Filtrera genom §5 — se playbook §1.2: klinik-fakta, ej medicinska citat.)**
+- **Language** — grammatik/naturlig röst (komma-tell).
+- **Readability** — Flesch 60+ (korta meningar, enkla ord). ⚠️ spänning mot AI STYLE: variera LÄNGD men håll ORDEN enkla.
+- **Experience** — förstahands: äkta före/efter, hur en behandling känns, omdömen.
+- **Expertise** — namngiven granskare/credentials (widget: specialister, SHR).
+- **Authority** — mest off-page (backlänkar); on-page: cert/affiliationer + topical cluster.
+- **Trust** (viktigast) — HTTPS, riktig företagsinfo, ärliga claims (ej garantera resultat = YMYL-flagga).
+- **AI STYLE / Human-like** (acne **30**) — = AI-detektorernas invers: PERPLEXITY (ordval-oförutsägbarhet) + BURSTINESS (meningslängds-variation). Höj: variera meningslängd, döda filler, konkreta detaljer/anekdoter, mindre komma-täthet. = vår de-AI-omskrivning.
+
+Evidence + AI STYLE förstärker varandra (cit. siffror + klinik-anekdoter lyfter båda + Experience/Trust). ~20 källor loggade i workflow-outputen. Full härledning + marginalmatte: playbook §1.2.
+
+## Sidnivå ↔ block-nivå: MEDIAN-hypotesen (reverse-engineerat 2026-07-01)
+LYNX sidnivå-AI COPY (Pages-listan) vs vår per-block-facit. **Hypotes: sidnivå = MEDIAN-tiern av alla renderade block** (sorterat 🟢→🟥; responsiva dubbletter räknas; gränsfall rundar uppåt). Validerat **6/6**:
+
+| Sida | 🟥 | 🔴 | 🟠 | 🔵 | 🟢 | n≈ | median | LYNX sidnivå |
+|---|---|---|---|---|---|---|---|---|
+| acne.php | 0 | ~10 | 1 | ~11 | ~3 | 25 | 🔵 | SLIGHT ✓ |
+| acnebehandling | 0 | 3 | 0 | 7 | 2 | 12 | 🔵 | SLIGHT ✓ |
+| om-oss | 0 | 3 | 2 | 6 | 1 | 14* | 🟠 | MODERATE ✓ |
+| hudbehandlingar/ipl | 0 | ~7 | ~5 | 2 | ~5 | 19 | 🟠 | MODERATE ✓ |
+| behandla-pigment | 1 | 8 | 0 | 3 | 1 | 13 | 🔴 | SIGNIFICANT ✓ |
+| hudforandringar | 0 | ~7 | 0 | ~4 | 1 | 12 | 🔴 | SIGNIFICANT ✓ |
+
+*om-oss: responsiva dubbletter (O07/O08 ×2) räknas → median landar på 🟠-sidan av 🔵/🟠-gränsen.
+**Slutsats:** sidnivån = MEDIANEN, inte max eller snitt (snitt föll fel: acne.php snitt ~1,7 → skulle bli MODERATE, men facit = SLIGHT; median 🔵 stämmer). Konsekvens: sänk sidnivån genom att flytta medianen (playbook §1.4). Validera vidare när fler sidor får facit.
+
+## Blindtest av prediktionsrubriken — 2026-07-01 (ofuskat: 3 färska agenter, betyg dolda)
+24 block (balanserat över 5 tiers, 5 sidor), agenterna fick BARA texten + rubriken (§1.3), scoring i script mot dold facit.
+- **Resultat: 16/24 exakt (67%), 23/24 inom ±1 tier.** Agent 1/2/3 = 16/16/17 exakt — reproducerbart.
+- **Konfidens kalibrerad:** träffar conf ~75–96, missar ~52–68 → lita ≥75, flagga <65.
+- **Missar (mönster = längd underviktad):** B02 (lång IPL-gloss + "särskilt effektiv"-svans → agenter SLIGHT, facit SIGNIFICANT; enda 2-stegs-missen); B10/B15/B20 (eftervård underskattad); B19 (lång marknads-banner → SIGNIFICANT); B11 (kort direkt instruktion → HUMAN, ej SLIGHT); B06 EXTREME → SIGNIFICANT (granne).
+- **Åtgärd:** rubriken skärpt till v3 (§1.3) — längd + ackumulering väger tyngre; validera på NÄSTA färska sida (ej re-run på samma 24 = overfit).
+
 ## Rewrite-resultat (fyll på efter LYNX-refresh — validerar/finjusterar modellen)
 | Sida | Block | Före | Efter (ny LYNX) | Vad vi ändrade | Datum |
 |---|---|---|---|---|---|
-| *(tomt — fylls i när vi fått resultat på en omskriven sida)* | | | | | |
+| ipl-rosacea.php | 7 block (5🔴+2🟠 av 11); desc-p2, Inför-p1/p2, Process-p2/p3, Eftervård-p1/p2 | 🔴/🟠 | *(väntar main-push + refresh)* | de-AI: öppningar→mekanism/aktiv imperativ, antites "inte bara X utan Y"/marknadssvans/importans/passiv bort; 3 interna länkar + sökord behållna. Workflow-predikt (15 agenter): **alla 7 → SLIGHT**, sidnivå-median → SLIGHT (§1.4). A/B: bryter AI STYLE-taket 25? | 2026-07-01 |
+| *(fler fylls i när resultat kommer)* | | | | | |

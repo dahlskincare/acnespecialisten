@@ -37,7 +37,7 @@ $path_segments = [
             <div id="content">
                 <section id="title">
                     <h1 class="h600 l10n">Privat hudmottagning i Stockholm - Boka tid utan remiss</h1>
-                    <p class="p200 l10n">På AcneSpecialisten har vi under 30 år utvecklat en unik och effektiv fyrstegsmetod för att behandla hudproblem. Vårt engagerade team av <a class="b200 underline color-deep-sea-400" href="/" title="Mer information om hudterapeuter i Stockholm">hudterapeuter i Stockholm</a> följer dig genom hela behandlingsprocessen, från noggrann hudkonsultation till personligt anpassade behandlingar. Vi erbjuder skräddarsydda hudvårdsrutiner som främjar din huds naturliga balans och hälsa, utan att kompromissa med kroppens välbefinnande. Med vår långa erfarenhet och metodik står vi redo att hjälpa dig uppnå och bibehålla en frisk och balanserad hud. Vi är ditt alternativ till <a class="b200 underline color-deep-sea-400" href="/metoden.php" title="Mer information om hudläkare i Stockholm utan remiss">hudläkare i Stockholm utan remiss</a>.</p>
+                    <p class="p200 l10n">På AcneSpecialisten har vi behandlat hudproblem i 30 år med en egen fyrstegsmetod. Vårt team av <a class="b200 underline color-deep-sea-400" href="/" title="Mer information om hudterapeuter i Stockholm">hudterapeuter i Stockholm</a> följer dig hela vägen, från hudkonsultation till anpassade behandlingar och uppföljning. Du behöver ingen remiss, vi är ditt alternativ till <a class="b200 underline color-deep-sea-400" href="/metoden.php" title="Mer information om hudläkare i Stockholm utan remiss">hudläkare i Stockholm utan remiss</a>.</p>
                 </section>
                 <section id="video">
                     <iframe width="872" height="560" src="https://www.youtube.com/embed/3XmCJ8dROCw?si=ITCRjBGvBZBeP2ML" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -90,7 +90,7 @@ $path_segments = [
                                 <h3 class="h200 ml-s l10n">Unik helhetslösning</h3>
                             </div>
                             <p class="bullet-desc l10n">
-                                På AcneSpecialisten är vi dedikerade till att ge dig en helhetslösning för din hy. Vår beprövade metod innebär att vi inte bara identifierar och behandlar dina hudproblem, utan även hjälper dig att förebygga och reparera huden. Genom hela processen står vi vid din sida, och vi tillhandahåller en skräddarsydd behandlingsplan som är anpassad specifikt för din unika hudtyp.
+                                Vår metod tar hela vägen: vi identifierar och behandlar hudproblemet, hjälper dig att förebygga det och reparerar huden efteråt. Behandlingsplanen anpassas efter din hudtyp.
                             </p>
                         </div>
                         <div class="column">
@@ -108,7 +108,7 @@ $path_segments = [
                                 <h3 class="h200 ml-s l10n">Diplomerade hudspecialister</h3>
                             </div>
                             <p class="bullet-desc l10n">
-                                Varje specialist i vårt team är en certifierad hudterapeut med en Svenskt SHR-godkänd (Svenska hudterapeuters riksorganisation) utbildning. Detta garanterar att alla behandlingar utförs med högsta möjliga kvalitet och precision, enligt branschstandarder och bästa praxis. Vårt engagemang för kvalitet och kunskap säkerställer att du får den mest effektiva och säkra hudvården.
+                                Varje hudterapeut i teamet är certifierad med en SHR-godkänd utbildning (Svenska hudterapeuters riksorganisation). Det betyder att behandlingarna följer branschens standarder och utförs av utbildad personal.
                             </p>
                         </div>
                     </div>
@@ -126,12 +126,12 @@ $path_segments = [
                         <div class="is-hidden-touch">
                             <h2 class="h500 l10n">Modern hudvård möter beprövad expertis</h2>
                             <p class="p200 l10n">
-                                På AcneSpecialisten förenar vi årtiondens erfarenhet inom hudvård med de senaste innovationerna inom hudvårdsteknologi och metodik. Vårt team av erfarna hudterapeuter och specialister är inte bara djupt rotade i traditionell kunskap, utan är också ständigt uppdaterade med de nyaste teknikerna och maskinerna inom estetisk hudvård. Denna unika kombination säkerställer att varje behandling vi erbjuder inte bara är tidsenlig och effektiv, utan också bygger på en solid grund av beprövad kunskap och erfarenhet. På AcneSpecialisten är du i händerna på experter som förstår vikten av att kombinera det bästa från både det förflutna och framtiden för att ge dig optimala resultat för din hud.
+                                Vi kombinerar lång erfarenhet med moderna tekniker och maskiner inom estetisk hudvård. Våra hudterapeuter är både rutinerade och uppdaterade på det senaste, så att din behandling vilar på beprövad kunskap men använder dagens metoder.
                             </p>
                         </div>
                     </div>
                     <p class="p200 l10n is-hidden-desktop">
-                        På AcneSpecialisten förenar vi årtiondens erfarenhet inom hudvård med de senaste innovationerna inom hudvårdsteknologi och metodik. Vårt team av erfarna hudterapeuter och specialister är inte bara djupt rotade i traditionell kunskap, utan är också ständigt uppdaterade med de nyaste teknikerna och maskinerna inom estetisk hudvård. Denna unika kombination säkerställer att varje behandling vi erbjuder inte bara är tidsenlig och effektiv, utan också bygger på en solid grund av beprövad kunskap och erfarenhet. På AcneSpecialisten är du i händerna på experter som förstår vikten av att kombinera det bästa från både det förflutna och framtiden för att ge dig optimala resultat för din hud.
+                        Vi kombinerar lång erfarenhet med moderna tekniker och maskiner inom estetisk hudvård. Våra hudterapeuter är både rutinerade och uppdaterade på det senaste, så att din behandling vilar på beprövad kunskap men använder dagens metoder.
                     </p>
                 </section>
                 <section class="poster large-margin" id="poster-right">
@@ -140,7 +140,7 @@ $path_segments = [
                         <div class="is-hidden-touch">
                             <h2 class="h500 l10n">Nära dig i Stockholm – Tre kliniker</h2>
                             <p class="p200 l10n">
-                                På AcneSpecialisten förstår vi vikten av tillgänglighet och bekvämlighet när det kommer till hudvård. Därför har vi placerat våra tre kliniker strategiskt i Stockholmsområdet – på Strandvägen, Södermalm och i Sundbyberg. Oavsett var du befinner dig i staden, är professionell hudvård aldrig långt borta. Varje klinik erbjuder en unik och personlig upplevelse, med målet att ge dig den bästa möjliga vård för din hud. Våra team av erfarna hudterapeuter är redo att välkomna dig och skapa en behandlingsplan som är skräddarsydd efter dina specifika behov och önskemål. Besök den klinik som ligger närmast dig för att påbörja din resa mot en friskare och mer strålande hud med AcneSpecialisten.
+                                Vi har tre kliniker i Stockholm: på Strandvägen, Södermalm och i Sundbyberg. Var du än befinner dig i staden finns vi nära. Varje klinik tar emot dig personligt och lägger upp en behandlingsplan efter dina behov. Boka på den klinik som ligger närmast dig.
                             </p>
                         </div>
                         <div>
@@ -152,7 +152,7 @@ $path_segments = [
                         </div>
                     </div>
                     <p class="p200 l10n is-hidden-desktop">
-                        På AcneSpecialisten förstår vi vikten av tillgänglighet och bekvämlighet när det kommer till hudvård. Därför har vi placerat våra tre kliniker strategiskt i Stockholmsområdet – på Strandvägen, Södermalm och i Sundbyberg. Oavsett var du befinner dig i staden, är professionell hudvård aldrig långt borta. Varje klinik erbjuder en unik och personlig upplevelse, med målet att ge dig den bästa möjliga vård för din hud. Våra team av erfarna hudterapeuter är redo att välkomna dig och skapa en behandlingsplan som är skräddarsydd efter dina specifika behov och önskemål. Besök den klinik som ligger närmast dig för att påbörja din resa mot en problemfri hud med AcneSpecialisten.
+                        Vi har tre kliniker i Stockholm: på Strandvägen, Södermalm och i Sundbyberg. Var du än befinner dig i staden finns vi nära. Varje klinik tar emot dig personligt och lägger upp en behandlingsplan efter dina behov. Boka på den klinik som ligger närmast dig.
                     </p>
                 </section>
             </div>
@@ -185,7 +185,7 @@ $path_segments = [
                     'Generellt' => array(
                         new Question(
                             title: 'Hur länge har AcneSpecialisten funnits?',
-                            text: '<p class="p200">AcneSpecialisten har varit en ledande aktör inom hudvård sedan 1994, och under våra 30 år har vi hjälpt hundratusentals personer att övervinna deras hudproblem. Vårt engagemang och långvariga erfarenhet gör oss till det självklara valet för alla som söker en lösning på problemhy. Boka en kostnadsfri hudkonsultation för att inleda din resa mot ett liv utan hudproblem.</p>'
+                            text: '<p class="p200">AcneSpecialisten har funnits inom hudvård sedan 1994, och under våra 30 år har vi hjälpt hundratusentals personer med sina hudproblem. Vår långa erfarenhet gör oss till ett tryggt val för dig som söker en lösning på problemhy. Boka en kostnadsfri hudkonsultation för att komma igång.</p>'
                         ),
                         new Question(
                             title: 'Vad erbjuder AcneSpecialisten?',

@@ -22,7 +22,7 @@ $image_alt = 'Närbild på ett ansikte som har akne';
 
 $green_banner_content = new GreenBannerContent(
       title: 'Akne',
-      description: 'Här förklarar vi vad som kännetecknar akne, varför problemet uppstår och hur vi kan hjälpa dig med behandling. Vi går även igenom hur vi identifierar olika typer av akne, orsakerna bakom dem och hur vi kan stödja dig i din behandlingsprocess.',
+      description: 'Akne är en ärftlig och hormonell hudsjukdom som uppstår när talgkörtlarna producerar för mycket talg och porerna täpps till. Här går vi igenom vad akne är, varför det uppstår, de olika typerna och hur vi behandlar det.',
       links_touch: [
             new Link('Boka konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Acne', 'Boka gratis konsultation för akne'),
             new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_Acne', 'Boka denna behandling'),
@@ -78,7 +78,7 @@ $trivias = array(
       new ProblemTrivia(
             prefix: 'Vem',
             title: ' får akne?',
-            content: '<p class="p200">Akne är vanligast bland tonåringar och unga vuxna, men det kan drabba människor i alla åldrar, oavsett kön och hudtyp. I puberteten ökar produktionen av könshormoner, vilket kan leda till <a class="b200 underline color-deep-sea-400" href="acne-vulgaris.php">acne vulgaris</a>, även kallad tonårsakne. Denna form av akne kan variera från enstaka finnar till större besvär, med små gula eller röda utslag, stora och smärtsamma bölder. Eftersom akne oftast uppträder i ansiktet under en känslig period som tonåren, kan det påverka det mentala måendet och det är viktigt att behandla akne effektivt för att undvika ärrbildning och andra skador på huden.</p>',
+            content: '<p class="p200">I puberteten ökar de manliga könshormonerna, som får talgkörtlarna att jobba mer. Därför är akne vanligast bland tonåringar, men den kan komma i alla åldrar. Formen som drabbar unga kallas <a class="b200 underline color-deep-sea-400" href="acne-vulgaris.php">acne vulgaris</a> eller tonårsakne, och kan gå från enstaka finnar till stora, ömma bölder. Sitter aknen i ansiktet under tonåren kan den tära på självkänslan, och obehandlad ökar risken för ärr.</p>',
             extended_content: '<p class="p200 mt-xl">Akne drabbar inte bara tonåringar. Spädbarn och småbarn kan drabbas av lindriga former av akne, såsom akne neonatorum och akne infantum. Vuxenakne, kallad akne tarda, kan också uppstå om huden överproducerar talg. Kvinnor drabbas oftare av vuxenakne än män, eftersom de påverkas mer av hormonsvängningar under graviditet, mens och klimakteriet. Preventivmedel kan också påverka huden, men hur de påverkar varierar från individ till individ.</p>
               <p class="p200 mt-xl">Yttre faktorer som stress och alkohol kan också påverka akne, både hos tonåringar och vuxna. För att behandla akne rekommenderas att boka en kostnadsfri hudkonsultation hos AcneSpecialisten. Där görs en bedömning av din hud och du får förslag på behandlingar samt en personlig hudvårdsrutin anpassad efter din hudtyp. Detta hjälper dig att motverka ytterligare problem med akne.</p>',
             icons: array('man-kvinna' => 'Män & Kvinnor', 'barn' => 'Barn', 'tonaringar' => 'Tonåringar', 'vuxna' => 'Vuxna')
@@ -86,7 +86,7 @@ $trivias = array(
       new ProblemTrivia(
             prefix: 'Var',
             title: ' får man akne?',
-            content: '<p class="p200">Akne kan uppstå på flera delar av kroppen och påverka personer i olika åldrar och med olika hudtyper. Vanligast är att drabbas av <a class="b200 underline color-deep-sea-400" href="/acne-ansikte.php" title="Mer information om akne i ansiktet">akne i ansiktet</a>, men det kan även förekomma på andra områden som bröstet, axlarna och ryggen. Placeringen av akne beror på var talgkörtlarna är aktiva och därmed kan överproducera talg, vilket leder till tilltäppta porer och inflammationer i huden.</p>',
+            content: '<p class="p200">Akne sitter där talgkörtlarna är som aktivast. Vanligast är <a class="b200 underline color-deep-sea-400" href="/acne-ansikte.php" title="Mer information om akne i ansiktet">akne i ansiktet</a>, men den förekommer också på bröstet, axlarna och ryggen. Där körtlarna överproducerar talg täpps porerna till och inflammationer bildas.</p>',
             extended_content: '<p class="p200 mt-xl">Akne i ansiktet är särskilt påtagligt, eftersom det är svårt att dölja och ofta påverkar en persons självkänsla och mentala välbefinnande. Det är vanligt att tonåringar drabbas av ansiktsakne under puberteten, då hormonella förändringar kan leda till ökad talgproduktion. Även vuxna kan drabbas av ansiktsakne, särskilt kvinnor som genomgår hormonella förändringar under graviditet, mens och klimakteriet.</p>
               <p class="p200 mt-xl">Akne på bröstet, axlarna och ryggen är också vanligt och kan vara lika besvärande som ansiktsakne, även om det är lättare att dölja under kläder. Denna typ av akne kan orsakas av samma faktorer som ansiktsakne, men även av yttre faktorer som friktion från kläder eller väskor som gnider mot huden och skapar irritation. För att behandla och förebygga akne oavsett var på kroppen det uppstår, är det viktigt att följa en anpassad hudvårdsrutin, inklusive rengöring, återfuktning och aknebehandlingar som passar din hudtyp. Konsultera hos en av våra hudspecialister för att få råd om vilka produkter och behandlingar som är bäst lämpade för din specifika situation och för att minimera akneproblem på olika delar av kroppen.</p>',
             icons: array('ansikte' => 'Ansiktet', 'brost' => 'Bröst', 'rygg' => 'Rygg')
@@ -130,7 +130,7 @@ $types_title = 'Olika typer av akne';
 $type_categories = array(
       "acne_age" => new BasedTypeCategory(
             title: 'Baserat på ålder',
-            content: '<p class="p200">Akne är en hudåkomma som kan drabba både ungdomar och vuxna, även om det är vanligast under tonåren. Tonårsakne uppstår ofta på grund av hormonella förändringar under puberteten. Hos vuxna kan akne orsakas av faktorer som stress, hormonobalans och genetik. Oavsett ålder är det viktigt att förstå att akne kan påverka människor i alla livsstadier.</p>',
+            content: '<p class="p200">Tonårsakne beror oftast på de hormonella förändringarna under puberteten. Hos vuxna kan akne i stället utlösas av stress, hormonobalans eller genetik. Den kan alltså komma i vilken ålder som helst.</p>',
             types: array(
                   new BasedType(
                         title: 'Tonårsakne',
@@ -162,7 +162,7 @@ $type_categories = array(
       ),
       "acne_severity" => new BasedTypeCategory(
             title: 'Baserat på svårighetsgrad',
-            content: '<p class="p200">Akne kan variera i svårighetsgrad från milda till extremt allvarliga fall. I milda fall av akne är symtomen ofta mindre uttalade och består främst av pormaskar, medan mer allvarliga fall innefattar djupare inflammationer i form av cystor och noduler. Svårighetsgraden påverkar också hur akne påverkar en persons livskvalitet och hur den ska behandlas. Det är viktigt att diagnostisera och behandla akne utifrån dess svårighetsgrad för att säkerställa bästa möjliga behandlingsresultat och förhindra potentiella ärr och bestående skador på huden.</p>',
+            content: '<p class="p200">Akne varierar från milda till svåra fall. Milda består mest av pormaskar, medan svårare ger djupare inflammationer som cystor och noduler. Ju djupare inflammation, desto större risk för ärr, och desto viktigare att behandlingen matchar svårighetsgraden.</p>',
             types: array(
                   new BasedType(
                         title: 'Mild akne',
@@ -276,7 +276,7 @@ $type_categories = array(
       ),
       "acne_area" => new BasedTypeCategory(
             title: 'Baserat på område',
-            content: '<p class="p200">Akne kan uppträda på olika områden på kroppen. Ansiktet är det vanligaste området, men akne kan också förekomma på bröst, rygg, axlar och andra delar av kroppen. Placeringen av akne kan ge en indikation på dess orsak, som hormonella förändringar, irritation från kläder eller yttre faktorer som sol och friktion.</p>',
+            content: '<p class="p200">Var aknen sitter säger något om orsaken. Ansiktet är vanligast, men bröst, rygg och axlar drabbas också. Hormoner ligger ofta bakom, men friktion från kläder och sol kan spela in.</p>',
             types: array(
                   new BasedType(
                         title: 'Akne i ansiktet',
@@ -448,7 +448,7 @@ $services = array(
             title: 'Laser mot akne',
             duration: '60 min',
             price: 'Från 4595 kr',
-            content: 'En avancerad laserbehandling erbjuder en effektiv lösning för att bekämpa aktiv akne. Lasertekniken riktar sig mot de bakterier som orsakar inflammation och hjälper till att minska produktionen av talg, vilket minskar risken för framtida akne utbrott.',
+            content: 'Laser mot akne riktar ljuset mot de bakterier som driver inflammationen och dämpar talgproduktionen, vilket minskar risken för nya utbrott.',
 
             image_small: 'bilder/hudbehandlingar/200x200/laser.webp',
             image_large: 'bilder/hudbehandlingar/200x200/laser.webp',
@@ -564,7 +564,7 @@ $procedures = array(
 $articles = array(
       new Article(
             title: 'Varför AcneSpecialisten?!',
-            content: '<p class="p200">Du som vill ha det som är bäst mot akne bör välja AcneSpecialisten eftersom vi är experter på att behandla akne och har över 30 års erfarenhet av att ha arbetat med olika typer av akne. Vi lever upp till vårt namn genom att erbjuda personlig och professionell hjälp för att hjälpa dig att uppnå en klar och frisk hud. Vi skräddarsyr behandlingar baserade på dina individuella problem och behov, vi rekommenderar de bästa akneprodukterna för att förebygga och behandla din hud och akne. </p>
+            content: '<p class="p200">Vi har behandlat akne i över 30 år, och det är vår specialitet. Du får en egen hudterapeut som lägger upp en behandlingsplan efter din hud och följer dig hela vägen. </p>
               <p class="p200 mt-m">Genom att välja Acnespecialisten får du rätt akne vård för din hy genom att vi erbjuder effektiva behandlingen för ditt specifika fall och en hudvårdspartner som stöttar dig genom hela processen.</p>',
             image_small: null,
             image_large: null,
@@ -573,8 +573,8 @@ $articles = array(
       ),
       new Article(
             title: 'När ska jag besöka AcneSpecialisten?',
-            content: '<p class="p200">Du bör besöka Acnespecialisten när du känner att din akne påverkar din livskvalitet eller om du har provat olika behandlingar och produkter utan att se några varaktiga förbättringar och resultat. Ju tidigare du söker hjälp, desto större är chansen att undvika ärrbildning och långvariga hudproblem. Acnespecialisten är här för att erbjuda dig expertis och skräddarsydda behandlingar oavsett om du har lindrig, måttlig eller svår akne. Tveka inte att kontakta oss för att boka en kostnadsfri konsultation och ta det första steget mot en klarare och friskare hud.</p>
-              <p class="p200 mt-m">Välj Acnespecialisten innan du går till en läkare, eftersom vi erbjuder en kostnadsfri konsultation där vi analyserar din akne och föreslår en individuell behandlingsplan. Våra specialister har stor erfarenhet av att behandla akne och kan ge dig tips och råd om vilka produkter och behandlingar som är bäst för just din hudtyp. Att prova AcneSpecialisten först kan hjälpa dig att undvika att använda tunga mediciner som kan ha biverkningar och påverka hela kroppen. Genom att boka en gratis konsultation hos oss får du en chans att se hur vi kan hjälpa dig att förbättra din hudhälsa innan du tar steget att besöka en läkare.</p>',
+            content: '<p class="p200">Boka tid när aknen påverkar din vardag, eller när produkter och behandlingar hemifrån inte gett resultat. Ju tidigare du söker hjälp, desto mindre är risken för bestående ärr. Vi tar emot allt från lindrig till svår akne.</p>
+              <p class="p200 mt-m">Innan du går till läkare kan det vara värt att prova oss först. Vi analyserar din akne kostnadsfritt och föreslår en behandlingsplan, och för många räcker det, utan tunga läkemedel som kan ge biverkningar i hela kroppen.</p>',
             image_small: null,
             image_large: null,
             image_alt: 'När ska jag besöka AcneSpecialisten?',
