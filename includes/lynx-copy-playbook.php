@@ -90,21 +90,23 @@ SCORE (0–100) ≠ AI COPY-flaggan men lyfts av samma jobb. Komponenter: **CONT
 
 ---
 
-## 1.3 Prediktions-rubrik (operationell) — v3, blindtestad 67% exakt / 96% inom ±1 tier
-Explicit procedur för att gissa en blocks AI COPY-tier (🟥 EXTREME > 🔴 SIGNIFICANT > 🟠 MODERATE > 🔵 SLIGHT > 🟢 HUMAN). Blindtestad 2026-07-01 (3 färska agenter × 24 block, betyg dolda): **16/24 exakt, 23/24 inom ±1**. Reproducerbar mellan agenter. Hypotes — förfina på färsk facit, ruta inte in (§0/§5).
+## 1.3 Prediktions-rubrik (operationell) — v4: en **±1-TIER-BAND-modell**
+Gissa en blocks AI COPY-tier (🟥 EXTREME > 🔴 SIGNIFICANT > 🟠 MODERATE > 🔵 SLIGHT > 🟢 HUMAN). **Två ofuskade blindtest (35 block, betyg dolda):** ipl 16/24 exakt (v2-rubrik), om-oss 4/11 exakt (v3 — ÖVERkorrigerade). **Slutsats: exakt tier är BRUS** (LYNX:s mid-tier-gränser är luddiga + sid-kontext-beroende — "om oss"-prosa mildare än behandlings-prosa). **Det pålitliga är ±1 tier = 34/35 (97%).** Använd modellen som ett **band** ("troligen SLIGHT–MODERATE"), inte en exakt etikett. **Vi slutar mikro-tuna per sida** (v2↔v3 pendlade = overfit); ändra bara om ett mönster upprepas över ≥2 sidor.
 
-**Längd × öppning styr — LÄNGD är en stark spak (reservera SLIGHT/HUMAN för genuint KORTA block):**
-1. **Omdöme** → HUMAN om personlig detalj (namn/tid/emoji), annars SLIGHT.
-2. **Kort (1–2 meningar) + direkt/konkret:** direkt andrapersons-instruktion ("Se till att…", "tveka inte att kontakta…") eller namngiven siffra/maskin/pris → **HUMAN**; definition/nytta + "Läs mer"-länk eller en konkret poäng → **SLIGHT** (MODERATE om nyttan är vag).
-3. **≥3 meningar — öppningen sätter golvet, längd + ackumulering höjer:**
-   - konkret/mekanism/action-öppning → golv SLIGHT, MEN **→ SIGNIFICANT om ≥3–4 meningar och avslutas med marknadsclaim ("särskilt effektiv") eller generisk nytto-lista** (annars SLIGHT/MODERATE). *(B02-läxan.)*
-   - marknads-superlativ-öppning → golv MODERATE; **→ SIGNIFICANT om ≥4 meningar / staplad marknad / retorisk fråga.**
-   - importans/hedge/scensättning-öppning → **SIGNIFICANT.**
-4. **Eftervård/förberedelse:** kort konkret instruktion → SLIGHT/HUMAN; lång (≥3 meningar) med "det är viktigt att / avgörande / bästa" → **SIGNIFICANT** (MODERATE endast om mest konkreta steg utan marknads-öppning). *(B10/B20-läxan.)*
+**Procedur:**
+1. **Omdöme** → HUMAN ENDAST med konkret personlig detalj (namn/tid/känsla, "gått där 2-3 år"); **generiskt omdöme utan detalj → SLIGHT.**
+2. **Kort (1–2 meningar), icke-omdöme** (CTA "Boka…", kort instruktion, definition, en konkret nytta + "Läs mer") → **SLIGHT.** *(EJ HUMAN — v4-fix efter O09/O10.)*
+3. **≥3 meningar — öppningen sätter tyngdpunkten:**
+   - konkret/mekanism/action/process/historik-öppning → **SLIGHT–MODERATE**; → SIGNIFICANT ENDAST om den avslutas med en TÄT hög marknadssuperlativ ("mest effektiva/garanterar/optimala resultat").
+   - marknads-superlativ-öppning → **MODERATE**; → SIGNIFICANT om tät marknad staplas igenom (flera superlativ + upprepat "inte bara X utan Y").
+   - importans/hedge/scensättning ("det är viktigt att", "en rad olika faktorer", "Att navigera i…", "förstår vi vikten av") → **SIGNIFICANT.**
+4. **LÄNGD = SVAG modifierare, inte stark spak.** "Om oss"/process/historik-prosa graderas milt (stannar SLIGHT/MODERATE även vid 3–5 meningar). *(v3 översköt detta → hade fått oss att skriva om SLIGHT-block i onödan.)*
 5. **EXTREME** om blocket keyword-stuffar (samma term ~×4) + staplar "vilket"-kedjor + är långt.
-6. **Tak:** kort banner som namnger konkreta tillstånd → MODERATE; lång marknads-banner → SIGNIFICANT. *(B01 vs B19.)*
+6. **Kontext:** behandlings-/tillståndsprosa hårdare; "om oss"/historik/process mildare.
 
-**Konfidens-regel (validerad):** agent-confidence korrelerar med rätt (träffar ~75–96, missar ~52–68). **Lita på prediktion ≥75; flagga <65 → hämta facit.** Det är vår mätbara "% säkerhet".
+**Konfidens:** löst korrelerad med rätt (test 1) men EJ pålitlig (test 2 hade högkonfidenta HUMAN-missar) → svag signal, inte facit.
+
+**För SYFTET (vad ska skrivas om):** ±1 räcker för att skilja "behöver jobb" (🔴/🟠) från "OK" (🔵/🟢). Men vid **SLIGHT↔MODERATE-gränsen: hämta facit hellre än att skriva om** (v3 hade skrivit om 3 SLIGHT-block i onödan = "rör inte det som är OK", §13.O).
 
 ---
 
