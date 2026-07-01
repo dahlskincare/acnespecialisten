@@ -52,32 +52,30 @@ $trivias = array(
       new ProblemTrivia(
             prefix: 'Vad',
             title: ' är ytliga blodkärl?',
-            content: '<p class="p200">Ytliga blodkärl är små, utvidgade blodkärl som ligger nära hudytan och blir därför synliga genom huden. Dessa blodkärl tenderar att vara röda, lila eller blå och uppträder ofta i ansiktet, speciellt på näsan, kinderna och runt ögonen. De kan variera i både storlek och form. Medan ytliga blodkärl oftast är kosmetiskt störande, och inte betraktas som farliga, kan de vara en indikator på underliggande hudsjukdomar som rosacea eller andra inflammatoriska tillstånd. Därför kan det vara värt att konsultera en hudterapeut för att utesluta eventuella bakomliggande problem.</p>',
-            extended_content: '<p class="p200 mt-xl">Ytliga blodkärl uppstår när kärlens väggar försvagas eller brister. Då uppenbarar sig kärlen på det övre hudlagret och det som kallas ytliga blodkärl har bildats. I korthet, medan ytliga blodkärl i ansiktet vanligtvis är en kosmetisk bekymmer, kan de vara symptom på andra hudåkommor och bör tas på allvar. En konsultation kan hjälpa dig att förstå de underliggande orsakerna och de mest effektiva behandlingsalternativen för din situation.</p>',
+            content: '<p class="p200">Ytliga blodkärl är små, utvidgade blodkärl som ligger nära hudytan och blir därför synliga genom huden. Dessa blodkärl tenderar att vara röda, lila eller blå och uppträder ofta i ansiktet, speciellt på näsan, kinderna och runt ögonen. De kan variera i både storlek och form. Medan ytliga blodkärl oftast är kosmetiskt störande och inte betraktas som farliga, kan de vara en indikator på underliggande hudsjukdomar som <a class="b200 underline color-deep-sea-400" href="/rosacea.php" title="Läs mer om rosacea">rosacea</a> eller andra inflammatoriska tillstånd. Därför kan det vara värt att konsultera en hudterapeut för att utesluta eventuella bakomliggande problem.</p>',
+            extended_content: '<p class="p200 mt-xl">Ytliga blodkärl uppstår när kärlens väggar försvagas eller brister. Då uppenbarar sig kärlen på det övre hudlagret och det som kallas ytliga blodkärl har bildats. Medan ytliga blodkärl i ansiktet vanligtvis är ett kosmetiskt bekymmer, kan de vara symptom på andra hudåkommor och bör tas på allvar. En konsultation kan hjälpa dig att förstå de underliggande orsakerna och de behandlingsalternativ som passar dig.</p>',
             icons: array()
       ),
       new ProblemTrivia(
             prefix: 'Varför',
             title: ' får man ytliga blodkärl?',
-            content: '<p class="p200">Förekomsten av ytliga blodkärl i ansiktet kan bero på en rad olika faktorer, både inre och yttre. En av de vanligaste orsakerna är genetik. En annan viktig faktor är ålder. Med tiden förlorar huden sin elasticitet och blir tunnare, vilket gör att blodkärlen under hudytan blir mer framträdande. Hormonella förändringar, särskilt de som inträffar under graviditet, klimakteriet eller som en bieffekt av hormonell medicinering, kan också vara en bidragande faktor.</p>',
-            extended_content: '<p class="p200 mt-xl">Exponering för solens strålar är en annan viktig variabel. UV-strålning kan försvaga kollagenet i huden, vilket gör blodkärlen mer synliga. Därför rekommenderas alltid användning av solskydd, särskilt på områden som är mest exponerade för solen som ansiktet. Livsstilsfaktorer som alkoholkonsumtion och rökning kan också spela en roll. Båda dessa faktorer kan påverka blodcirkulationen och därmed bidra till utvecklingen av synliga blodkärl. Andra möjliga orsaker inkluderar högt blodtryck, som kan sätta extra påfrestning på blodkärlen och gör att dem brister eller spricker, och vissa hudåkommor som rosacea, som ofta associeras med förekomst av ytliga blodkärl.</p>
-            <p class="p200 mt-xl">Sammanfattningsvis, orsakerna till ytliga blodkärl i ansiktet är många och varierande. De kan vara genetiska eller förvärvade, och kan påverkas av allt från din livsstil till din exponering för olika miljöfaktorer. Om du är bekymrad över ytliga blodkärl, är det bäst att konsultera en hudterapeut för att diskutera dina specifika symptom och möjliga behandlingsalternativ.</p>',
+            content: '<p class="p200">Ytliga blodkärl i ansiktet har flera orsaker, både inre och yttre. En av de vanligaste är genetik. En annan viktig faktor är ålder. Med tiden förlorar huden sin elasticitet och blir tunnare, vilket gör att blodkärlen under hudytan blir mer framträdande. Hormonella förändringar, särskilt de som inträffar under graviditet, klimakteriet eller som en bieffekt av hormonell medicinering, kan också vara en bidragande faktor.</p>',
+            extended_content: '<p class="p200 mt-xl">Solen är en annan vanlig orsak. UV-strålning kan försvaga kollagenet i huden, vilket gör blodkärlen mer synliga. Därför rekommenderas alltid användning av solskydd, särskilt på områden som är mest exponerade för solen som ansiktet. Livsstilsfaktorer som alkoholkonsumtion och rökning kan också bidra. Båda dessa faktorer kan påverka blodcirkulationen och därmed bidra till utvecklingen av synliga blodkärl. Andra möjliga orsaker inkluderar högt blodtryck, som kan sätta extra påfrestning på blodkärlen och gör att de brister eller spricker, och vissa hudåkommor som rosacea, som ofta associeras med förekomst av ytliga blodkärl.</p>',
             icons: array('genetik' => 'Genetik', 'klimat' => 'Klimat')
       ),
       new ProblemTrivia(
             prefix: 'Vem',
             title: ' får ytliga blodkärl?',
-            content: '<p class="p200">Det är en missuppfattning att endast äldre personer eller de med vissa hudåkommor får ytliga blodkärl; i verkligheten kan nästan vem som helst drabbas. Dock finns det vissa grupper som löper en högre risk än andra. Genetik spelar en viktig roll i denna fråga. Om det finns en familjehistoria av ytliga blodkärl eller relaterade hudproblem som rosacea, är det större sannolikhet att du också kommer att drabbas. Etnicitet kan också vara en faktor; personer med ljusare hudtyper är oftare drabbade än de med mörkare hudtoner. Ålder är en annan faktor som kan öka sannolikheten för att utveckla dessa synliga blodkärl. Med åldern blir huden tunnare och förlorar sin elasticitet, vilket gör blodkärlen mer framträdande. Hormonella förändringar, som de som sker under graviditet, klimakteriet eller som en bieffekt av hormonbehandlingar, kan också leda till ytliga blodkärl.</p>',
-            extended_content: '<p class="p200 mt-xl">Det är också viktigt att notera att vissa medicinska tillstånd och behandlingar kan göra dig mer benägen att utveckla ytliga blodkärl. Personer med rosacea, en kronisk inflammatorisk hudsjukdom, har högre förekomst av ytliga blodkärl. Sammanfattningsvis är ytliga blodkärl i ansiktet inte diskriminerande när det kommer till vem de drabbar, men vissa grupper har en högre riskfaktor på grund av genetik, ålder, livsstilsval och medicinska tillstånd.</p>',
+            content: '<p class="p200">Nästan vem som helst kan få ytliga blodkärl, oavsett ålder eller hudtyp. Dock finns det vissa grupper som löper en högre risk än andra. Genetik spelar en viktig roll. Om det finns en familjehistoria av ytliga blodkärl eller relaterade hudproblem som rosacea, är det större sannolikhet att du också kommer att drabbas. Etnicitet kan också vara en faktor; personer med ljusare hudtyper är oftare drabbade än de med mörkare hudtoner. Ålder är en annan faktor som kan öka sannolikheten för att utveckla dessa synliga blodkärl. Med åldern blir huden tunnare och förlorar sin elasticitet, vilket gör blodkärlen mer framträdande. Hormonella förändringar, som de som sker under graviditet, klimakteriet eller som en bieffekt av hormonbehandlingar, kan också leda till ytliga blodkärl.</p>',
+            extended_content: '<p class="p200 mt-xl">Vissa medicinska tillstånd och behandlingar ökar också risken för ytliga blodkärl. Personer med rosacea, en kronisk inflammatorisk hudsjukdom, har högre förekomst av ytliga blodkärl.</p>',
 
             icons: array('man-kvinna' => 'Män & Kvinnor', 'vuxna' => 'Vuxna', '65+' => 'Äldre')
       ),
       new ProblemTrivia(
             prefix: 'Var',
             title: ' får man ytliga blodkärl?',
-            content: '<p class="p200">Ytliga blodkärl i ansiktet, även kallade "spindelkärl" eller "brustet blodkärl," är oftast lokaliserade i särskilda områden beroende på en rad faktorer. De är vanligtvis mer synliga på platser där huden är tunn eller där det är ökad blodflöde. Näsan är en vanlig plats för ytliga blodkärl, särskilt runt näsvingarna och på näsryggen. Detta beror ofta på den tunna huden i detta område, samt det faktum att näsan är utsatt för många miljöfaktorer som sol, vind och kyla. Kinderna är ett annat vanligt område där ytliga blodkärl kan uppstå på grund av att huden innehåller större blodkärl samtidigt som huden är tunnare. Kinderna är också utsatta för miljöfaktorer och temperaturförändringar, vilket kan förvärra tillståndet.</p>',
-            extended_content: '<p class="p200 mt-xl">Pannan och området runt ögonen är också platser där man kan se ytliga blodkärl. Huden kring ögonen är extremt tunn, och detta område är särskilt känsligt för både interna och externa påfrestningar. Detsamma gäller för pannan, som ofta utsätts för solljus och andra miljöfaktorer. Haka och området runt munnen är mindre vanliga platser för ytliga blodkärl, men de kan fortfarande förekomma där.</p>
-            <p class="p200 mt-xl">Oavsett var i ansiktet de förekommer, kan ytliga blodkärl vara både estetiskt störande och en indikation på underliggande hudproblem eller medicinska tillstånd. Därför är det viktigt att konsultera en hudspecialist för diagnos och behandlingsalternativ om du märker att de börjar utvecklas.</p>',
+            content: '<p class="p200">Ytliga blodkärl i ansiktet, även kallade "spindelkärl" eller "brustet blodkärl," är oftast lokaliserade i särskilda områden. De är vanligtvis mer synliga på platser där huden är tunn eller där blodflödet är ökat. Näsan är en vanlig plats för ytliga blodkärl, särskilt runt näsvingarna och på näsryggen. Detta beror ofta på den tunna huden i detta område, samt det faktum att näsan är utsatt för många miljöfaktorer som sol, vind och kyla. Kinderna är ett annat vanligt område där ytliga blodkärl kan uppstå på grund av att huden innehåller större blodkärl samtidigt som huden är tunnare. Kinderna är också utsatta för miljöfaktorer och temperaturförändringar, vilket kan förvärra tillståndet.</p>',
+            extended_content: '<p class="p200 mt-xl">Pannan och området runt ögonen är också platser där man kan se ytliga blodkärl. Huden kring ögonen är extremt tunn, och detta område är särskilt känsligt för både interna och externa påfrestningar. Detsamma gäller för pannan, som ofta utsätts för solljus och andra miljöfaktorer. Haka och området runt munnen är mindre vanliga platser för ytliga blodkärl, men de kan fortfarande förekomma där.</p>',
             icons: array('ansikte' => 'Ansiktet', 'kinder' => 'Kinder', 'nasa' => 'Näsa')
       ),
 );
@@ -92,7 +90,7 @@ $treatment_steps = array(
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Vi utför skonsamma och effektiva behandlingar för ytliga blodkärl, anpassade till din specifika kärltyp och problemområden, så att du snabbt och säkert kan förbättra hudens utseende.',
+            content: 'Vi utför skonsamma behandlingar för ytliga blodkärl, anpassade till din kärltyp och dina problemområden, så att du tryggt kan förbättra hudens utseende.',
 
             url_label: 'Se behandlingar',
             url: 'ipl-ytliga-blodkarl.php',
@@ -328,7 +326,7 @@ $service = new Service(
       title: 'Konsultation för Ytliga Blodkärl',
       duration: '20 min',
       price: 'Kostnadsfri',
-      content: 'Vid ett personligt möte med en specialist på ytliga blodkärl utförs en undersökning av ditt tillstånd. Vi tar före-bilder på din hud och rekommenderar en lämplig behandling, samt skräddarsyr en behandlingsplan anpassad efter dina kärl.',
+      content: 'Vid ett personligt möte med en specialist på ytliga blodkärl utförs en undersökning av ditt tillstånd. Vi tar före-bilder på din hud och rekommenderar en lämplig behandling, samt anpassar en behandlingsplan efter dina kärl.',
 
       image_small: 'bilder/hudbehandlingar/200x200/konsultation.webp',
       image_large: 'bilder/hudbehandlingar/200x200/konsultation.webp',
@@ -355,7 +353,7 @@ $services = array(
             title: 'IPL mot ytliga blodkärl',
             duration: '20-70 min',
             price: 'Från 1995 kr',
-            content: 'IPL (Intensivt Pulserande Ljus) är en effektiv metod för att behandla ytliga blodkärl. Tekniken använder ljusvågor av olika längder för att värma upp och skada blodkärlen, vilket får dem att gå sönder och transporteras bort av kroppen.',
+            content: 'IPL (Intensivt Pulserande Ljus) behandlar ytliga blodkärl. Tekniken använder ljusvågor av olika längder för att värma upp och skada blodkärlen, vilket får dem att gå sönder och transporteras bort av kroppen.',
 
             image_small: 'bilder/hudbehandlingar/200x200/ipl.webp',
             image_large: 'bilder/hudbehandlingar/200x200/ipl.webp',
@@ -383,8 +381,8 @@ $articles = array(
             image_large: null,
             image_alt: 'När ska jag söka hjälp för mina ytliga blodkärl?',
             image_title: 'När ska jag söka hjälp för mina ytliga blodkärl?',
-            content: '<p class="p200">Ytliga blodkärl är en vanlig hudåkomma som kan drabba personer i alla åldrar. För många är det ett kosmetiskt problem som kan påverka självkänslan och det sociala välbefinnandet. Om du känner att dina ytliga blodkärl börjar påverka ditt liv negativt, eller om du har försökt olika behandlingar utan framgång, kan det vara dags att söka professionell hjälp.</p>
-            <p class="p200 mt-m">Hos en hudterapeut kan du få en personlig konsultation och en skräddarsydd behandlingsplan. Då utförs en noggrann analys av din kärl, diskutera potentiella orsaker till dina ytliga blodkärl och rekommendera den mest effektiva behandlingen för dig. Detta kan inkludera allt från IPL-behandlingar till laserbehandlingar. Så, om du känner att dina ytliga blodkärl har blivit en belastning, eller om du helt enkelt vill ha en förbättring av din hud, tveka inte att söka professionell hjälp. Det är aldrig för tidigt eller för sent att ta steget och behandla dina ytliga blodkärl.</p>',
+            content: '<p class="p200">Ytliga blodkärl går inte över av sig själva och försvinner inte med krämer eller hemmakurer. För att tonas bort behöver de en klinisk behandling som IPL eller laser. För många är kärlen ett kosmetiskt problem som kan påverka självkänslan och det sociala välbefinnandet. Om du känner att dina ytliga blodkärl börjar påverka ditt liv negativt, eller om du har försökt olika behandlingar utan framgång, kan det vara dags att söka professionell hjälp.</p>
+            <p class="p200 mt-m">Hos en hudterapeut får du en personlig konsultation och en behandlingsplan. Då gör vi en noggrann analys av dina kärl, går igenom möjliga orsaker och rekommenderar rätt behandling för dig. Det kan vara allt från IPL-behandlingar till laserbehandlingar. Har dina ytliga blodkärl blivit en belastning, eller vill du helt enkelt förbättra din hud, är du välkommen att höra av dig.</p>',
       ),
       new Article(
             title: 'Varför ska jag besöka AcneSpecialisten?',
@@ -392,9 +390,9 @@ $articles = array(
             image_large: null,
             image_alt: 'Varför ska jag besöka AcneSpecialisten för mina ytliga blodkärl?',
             image_title: 'Varför ska jag besöka AcneSpecialisten för mina ytliga blodkärl?',
-            content: '<p class="p200">Om du letar efter en effektiv och långsiktig lösning på problemet med ytliga blodkärl, är AcneSpecialisten det självklara valet. Trots namnet har vi en bred erfarenhet inom hudvård, inklusive behandling av ytliga blodkärl. Vi erbjuder skräddarsydda lösningar baserade på ditt individuella behov och hudtyp.</p>
-            <p class="p200 mt-m">Vi använder oss av de senaste metoderna och teknologierna inom hudvård för att ge dig det bästa möjliga resultatet. Vårt team av kvalificerade hudterapeuter kommer att skapa en individuell behandlingsplan för dig och stödja dig genom hela processen, från konsultation till slutresultat.</p>
-            <p class="p200 mt-m">Att välja AcneSpecialisten för dina ytliga blodkärl innebär att du får tillgång till de mest avancerade och effektiva behandlingarna som finns. Vi stödjer dig under hela din hudvårdsresa och engagerar oss i att hjälpa dig uppnå och bibehålla en hy du trivs med. Vår kunskap och erfarenhet gör oss till ditt bästa val för behandling av ytliga blodkärl.</p>',
+            content: '<p class="p200">Trots namnet har vi bred erfarenhet inom hudvård, inklusive behandling av ytliga blodkärl. Vi anpassar behandlingen efter ditt behov och din hudtyp.</p>
+            <p class="p200 mt-m">Vi arbetar med beprövad IPL- och laserteknik, bland annat Alma Rejuve Dye-VL och Harmony XL Pro, som riktar ljuset mot själva kärlet. Du får en egen hudterapeut som lägger upp din behandlingsplan och följer dig från konsultation till slutresultat.</p>
+            <p class="p200 mt-m">Att välja oss för dina ytliga blodkärl innebär erfarna hudterapeuter och behandlingar som riktar sig mot kärlet under huden. Vi finns med dig genom hela hudvårdsresan tills du har en hy du trivs med.</p>',
       ),
 );
 
@@ -615,7 +613,7 @@ $faq_categories = array(
             ),
             new Question(
                   title: 'Hur kan man förebygga ytliga blodkärl?',
-                  text: '<p class="p200">Även om det inte alltid går att helt förhindra ytliga blodkärl, kan du minska risken genom att undvika långvarigt stående eller sittande, bära stödstrumpor, upprätthålla en hälsosam vikt, motionera regelbundet för att förbättra cirkulationen, och skydda huden mot solskador.</p>'
+                  text: '<p class="p200">Det går inte alltid att helt förhindra ytliga blodkärl, men du kan minska risken genom att skydda huden mot sol, undvika snabba temperaturväxlingar mellan värme och kyla och vara måttlig med alkohol.</p>'
             ),
             new Question(
                   title: 'Hur vanligt är det med ytliga blodkärl?',

@@ -60,7 +60,7 @@ Axeln = **fyllnad/mall ↔ rak konkret täthet**. Bekräftat mot facit på acne.
 - **🔵 SLIGHT** — **full, tät mekanism-vandring med kausal payoff** ("…porerna täpps till, bakterier samlas, kroppen svarar med en inflammation, och det är just detta som syns"), ELLER kort + genomgående konkret (definition + plats; konkreta yttre faktorer; konkreta vi-handlingar "vi tar bilder, rengör huden, skyddar ögonen").
 - **🟢 HUMAN** — kort + specifik + självsäker: en konkret **siffra/mått** ("större än 5 mm"), namngiven maskin ("Alma Rejuve DyeVL"), eller äkta omdöme med personlig detalj ("gått där i 2-3 år").
 
-**Fyra nycklar:** (1) Öppningen avgör mest — byt fyllnadsöppning mot mekanism/konkret. (2) SLIGHT-ribban är hög — hela blocket måste vara tätt, halvkonkret = MODERATE. (3) Kort + konkret siffra/namn → HUMAN ("Lägg till 1000 kr…", "större än 5 mm", "Dermapen 4"); längd är modifierare. (4) **Fluff-svansen** drar ner ett annars konkret block ("perfekt anpassad för dina unika behov", "uppnå dina hudvårdsambitioner", "säkerställa en trygg upplevelse"). Korta, konkreta instruktioner (eftervård: "håll rent, avstå smink första dygnet") klarar SLIGHT även med ett milt "det är viktigt att".
+**Fyra nycklar:** (1) Öppningen avgör mest — byt fyllnadsöppning mot mekanism/konkret. (2) SLIGHT-ribban är hög — hela blocket måste vara tätt, halvkonkret = MODERATE. (3) Kort + konkret siffra/namn → HUMAN ("Lägg till 1000 kr…", "större än 5 mm", "Dermapen 4"); längd är modifierare. (4) **Fluff-svansen** drar ner ett annars konkret block ("perfekt anpassad för dina unika behov", "uppnå dina hudvårdsambitioner", "säkerställa en trygg upplevelse") — och det gäller även en **cirkulär summeringssvans som bara upprepar vad blocket redan sagt, även utan ordet "Sammanfattningsvis"** (facit: microneedling på acnebehandling — full mekanism men 🔴 pga längd + "Kombinationen av dessa… få bort akne"-svans). Korta, konkreta instruktioner (eftervård: "håll rent, avstå smink första dygnet") klarar SLIGHT även med ett milt "det är viktigt att".
 
 **Mål:** rework allt som är 🔴 SIGNIFICANT eller 🟠 MODERATE → **minst 🔵 SLIGHT**. 🔵/🟢 lämnas orörda. 🟢 HUMAN nås bara på naturligt korta block (definition med siffra, namngiven maskin, kort erbjudande, omdöme) — **tvinga aldrig ner ett förklarande block i längd för att jaga HUMAN** (krockar med §13.N). För förklarande prosa är SLIGHT målet.
 
@@ -235,7 +235,7 @@ Sidorna rankar redan på sökord. Omskrivningen får höja kvaliteten **utan att
 ## 8. Sidkarta & backlog (LYNX AI COPY)
 **SIGNIFICANT (tung omskrivning, nu):**
 - `acne-ansikte.php` — ✅ KLAR (omskriven hela sidan → staging, väntar main-push; se §9/§11/§11.1)
-- `ytliga-blodkarl.php` (KW172, störst)
+- `ytliga-blodkarl.php` — ✅ KLAR (omskriven steg för steg → staging, väntar main-push; se §9/§11/§11.1)
 - `behandla-pigmentflackar.php` (bonus, KW16)
 - `hudproblem/hudforandringar/index.php` (hub)
 
@@ -275,7 +275,7 @@ Kryssa här. Start/stopp-vänligt: status = §9 + §11 (logg) + §12 (claims). P
 
 **Fas 1 — SIGNIFICANT-sidorna**
 - [x] `acne-ansikte.php` — omskriven (hela sidan), minimal-diff (§13.O); sökord/claims bevarade → staging, väntar main-push.
-- [ ] `ytliga-blodkarl.php` (KW172) — formel + rosacea→länk + hemmavård-vinkeln (§8.1). OBS bortkommenterade $type_categories/$symptoms (bilder saknas).
+- [x] `ytliga-blodkarl.php` (KW172) — omskriven steg för steg (öppningar + summeringar bort + gap-punkter §8.1) → staging, väntar main-push. Bortkommenterade $type_categories/$symptoms orörda (bilder saknas).
 - [ ] `behandla-pigmentflackar.php` — formel, håll på long-tail (huvudterm bor på pigmentflackar.php).
 - [ ] `hudforandringar/index.php` — formel + hub-register (§13.L) + H1/titel-sökord i SEPARAT commit (§13.H).
 
@@ -324,6 +324,11 @@ Korrelera mot LYNX-refresh. Senaste först. Spara alltid **LYNX-baseline** (FÖR
 | behandla-pigmentflackar.php | 14 | – | – | –/– | SIGNIFICANT | GOOD | – | 16 |
 | hudproblem/hudforandringar/ | 10 | – | 17 | 3/2 | SIGNIFICANT | OK | – | 8 |
 
+### 2026-07-01 — `ytliga-blodkarl.php` — OMSKRIVEN (steg för steg), klar → staging
+**Gjort:** Hela sidan svept med den kalibrerade minimal-metoden, block för block med ägar-godkännande: (1) öppningarna ledda med mekanism/konkret (Varför, Vem, Var, Vad-extended, Varför-extended, Vem-extended); (2) tre rena summeringsstycken bort (Varför-/Vem-/Var-extended — microneedling-mönstret); (3) marknadsord bort (effektiv/skräddarsyr/"det självklara valet"/"de mest avancerade"); (4) grammatik (dem→de, "en kosmetisk"→"ett kosmetiskt"); (5) gap-punkter §8.1: rosacea inline-länk, FAQ "förebygga" rättad från åderbråcks-råd → ansiktsrelevant, hemmavård-vinkel + namngivna maskiner (Alma Rejuve Dye-VL/Harmony XL Pro) i artiklarna. Varje mening/poäng bevarad utom rena dubbletter; sökord grep-verifierade (näsan 10, kinderna 7, näsvingarna/näsryggen, rosacea, IPL, brustna/spindelkärl); 0 råa apostrofer (§13.C).
+**Prediktion (§10 steg 1):** AI STYLE ↑ (öppningar + borttagna summeringssvansar = §1.1 största spakar), Evidence ↑ (namngivna maskiner), Depth = (poäng kvar), E-E-A-T/sökord =. Förväntad SIGNIFICANT → SLIGHT på de omskrivna blocken. Testar öppnings-spaken från acnebehandling-facit i skarpt läge.
+**Process:** kalibrerat efter att försök #1 stoppades — den här gången steg för steg, ett block i taget med godkännande; ägaren nöjd ("detta är bra").
+
 ### 2026-07-01 — `ytliga-blodkarl.php` — försök #1 RULLAT TILLBAKA (tog bort för mycket)
 **Vad hände:** Påbörjade ett block-svep och skrev om hela stycken (tog bort flera stycken, slog ihop meningar) i Vad/Varför/Vem — ägaren stoppade direkt: "för stora förändringar". `git checkout -- ytliga-blodkarl.php` återställde sidan till original; inget kvar i arbetsträdet på sidan (bara playbook). **Rotorsak:** tolkade "svep alla block" (§13.D) som licens att skriva om varje block i ett svep, i stället för små, målinriktade steg. **Kollade acne-ansikte (som ägaren bad om):** listorna där är faktiskt intakta live — 20 `<li>`, alla besvär-etiketter kvar (Panna/Kinder/Haka/Näsa/Käklinje/Hals, Hormoner/Stress/Preventivmedel/Yttre m.fl.); förra listförlusten fångades före commit. **Åtgärd:** §13.O + START HÄR-bullet omskrivna till den enkla principen (ta inte bort substans, längden fri, steg för steg). En först tillagd "RÖR-INTE-TEST"-mikroregel togs bort igen som för instängande + otydlig (§0/§5 — vi rutar inte in oss). Baseline (§11-tabellen) oförändrad — sidan aldrig deployad. **Nästa gång:** små målinriktade steg mot just de LYNX-AI-tells vi kartlagt (§1.1); visa ägaren varje steg; skydda sökord (§6).
 
@@ -353,6 +358,7 @@ LYNX skannar bara LIVE och refreshar med delay — **mätklockan startar när ä
 | Sida | Staging-push | Main-push (mätstart) | FÖRE-baseline | Prediktion (§10 steg 1) | Senaste LYNX-analys | Status |
 |---|---|---|---|---|---|---|
 | acne-ansikte.php | 2026-06-30 | **2026-06-30 (LIVE)** | SCORE "–", AI COPY SIGNIFICANT, KW57 | AI STYLE ↑, Depth/Evidence/sökord = | – | live på main 30 jun, verifierad 200 + nytt innehåll → **bevaka LYNX-refresh** |
+| ytliga-blodkarl.php | 2026-07-01 | *(väntar)* | SCORE 22, AI COPY SIGNIFICANT, KW172 | AI STYLE ↑ (öppningar+summeringar bort), Evidence ↑ (namngivna maskiner), Depth/E-E-A-T/sökord = | – | omskriven steg för steg → staging; **inväntar main-push + LYNX-refresh** |
 
 När en rad refreshats: mät (§10 steg 2–3), logga EFTER i §11 + lynx-data.php, förfina modellen (steg 4), backporta (steg 5), töm raden.
 
@@ -363,7 +369,7 @@ Claima en sida här **innan** du rör den. Töm raden när den är klar (logga i
 
 | Sida | Ägare (terminal/namn) | Status | Tid |
 |------|------------------------|--------|-----|
-| ytliga-blodkarl.php | Claude (staging-session) | PAUSAD — försök #1 för stort, rullat tillbaka; inväntar diff-nivå från ägaren (§11-logg 2026-07-01) | 2026-07-01 |
+| *(ingen aktiv claim — ytliga-blodkarl klar, se §11-loggen + bevakningslistan §11.1)* | | | |
 
 ---
 
