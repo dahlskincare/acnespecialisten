@@ -21,7 +21,7 @@ $image_title = 'Olika typer av hudförändringar';
 $image_alt = 'Bild som illustrerar olika typer av hudförändringar';
 
 $green_banner_content = new GreenBannerContent(
-      title: 'Hudförändringar',
+      title: 'Ta bort hudförändringar',
       description: 'Hudförändringar spänner över allt från födelsemärken och leverfläckar till hudflikar. Här ger vi en överblick över de vanligaste godartade typerna och vad de beror på.',
       links_touch: [
             new Link('Boka konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Moles', 'Boka gratis konsultation för hudförändringar'),
