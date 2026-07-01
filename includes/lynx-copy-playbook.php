@@ -90,6 +90,24 @@ SCORE (0–100) ≠ AI COPY-flaggan men lyfts av samma jobb. Komponenter: **CONT
 
 ---
 
+## 1.3 Prediktions-rubrik (operationell) — v3, blindtestad 67% exakt / 96% inom ±1 tier
+Explicit procedur för att gissa en blocks AI COPY-tier (🟥 EXTREME > 🔴 SIGNIFICANT > 🟠 MODERATE > 🔵 SLIGHT > 🟢 HUMAN). Blindtestad 2026-07-01 (3 färska agenter × 24 block, betyg dolda): **16/24 exakt, 23/24 inom ±1**. Reproducerbar mellan agenter. Hypotes — förfina på färsk facit, ruta inte in (§0/§5).
+
+**Längd × öppning styr — LÄNGD är en stark spak (reservera SLIGHT/HUMAN för genuint KORTA block):**
+1. **Omdöme** → HUMAN om personlig detalj (namn/tid/emoji), annars SLIGHT.
+2. **Kort (1–2 meningar) + direkt/konkret:** direkt andrapersons-instruktion ("Se till att…", "tveka inte att kontakta…") eller namngiven siffra/maskin/pris → **HUMAN**; definition/nytta + "Läs mer"-länk eller en konkret poäng → **SLIGHT** (MODERATE om nyttan är vag).
+3. **≥3 meningar — öppningen sätter golvet, längd + ackumulering höjer:**
+   - konkret/mekanism/action-öppning → golv SLIGHT, MEN **→ SIGNIFICANT om ≥3–4 meningar och avslutas med marknadsclaim ("särskilt effektiv") eller generisk nytto-lista** (annars SLIGHT/MODERATE). *(B02-läxan.)*
+   - marknads-superlativ-öppning → golv MODERATE; **→ SIGNIFICANT om ≥4 meningar / staplad marknad / retorisk fråga.**
+   - importans/hedge/scensättning-öppning → **SIGNIFICANT.**
+4. **Eftervård/förberedelse:** kort konkret instruktion → SLIGHT/HUMAN; lång (≥3 meningar) med "det är viktigt att / avgörande / bästa" → **SIGNIFICANT** (MODERATE endast om mest konkreta steg utan marknads-öppning). *(B10/B20-läxan.)*
+5. **EXTREME** om blocket keyword-stuffar (samma term ~×4) + staplar "vilket"-kedjor + är långt.
+6. **Tak:** kort banner som namnger konkreta tillstånd → MODERATE; lång marknads-banner → SIGNIFICANT. *(B01 vs B19.)*
+
+**Konfidens-regel (validerad):** agent-confidence korrelerar med rätt (träffar ~75–96, missar ~52–68). **Lita på prediktion ≥75; flagga <65 → hämta facit.** Det är vår mätbara "% säkerhet".
+
+---
+
 ## 2. Formeln: **Krok → Mekanism → Skylt**
 1. **Krok** — öppna med en *konkret komponent*, inte abstrakt skala. Första substantivet ska vara något läsaren kan se (papler, gropar, fläckar, "bacne"). Aldrig "Det finns flera…/Det är viktigt att…/När det kommer till…/påverkar miljontals…". **Gäller även varje list-punkt:** led med mekanismen/det konkreta, inte "[rubrik] kan spela en roll vid…".
    - Ofta **fusera Krok + Mekanism** i mening ett (orsaken bunden på komponenten).

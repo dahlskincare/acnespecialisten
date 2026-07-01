@@ -192,6 +192,13 @@
 4. **Eftervård, samma sektion, motsatt betyg:** lång + "avgörande/bästa/effektiv"-öppning = 🔴 (blk 14); kort + direkt = 🟢 HUMAN (blk 16).
 5. **HUMAN** = korta, direkta, "mänskligt röstade" instruktioner + omdömen med namn/tidsdetalj.
 
+## Blindtest av prediktionsrubriken — 2026-07-01 (ofuskat: 3 färska agenter, betyg dolda)
+24 block (balanserat över 5 tiers, 5 sidor), agenterna fick BARA texten + rubriken (§1.3), scoring i script mot dold facit.
+- **Resultat: 16/24 exakt (67%), 23/24 inom ±1 tier.** Agent 1/2/3 = 16/16/17 exakt — reproducerbart.
+- **Konfidens kalibrerad:** träffar conf ~75–96, missar ~52–68 → lita ≥75, flagga <65.
+- **Missar (mönster = längd underviktad):** B02 (lång IPL-gloss + "särskilt effektiv"-svans → agenter SLIGHT, facit SIGNIFICANT; enda 2-stegs-missen); B10/B15/B20 (eftervård underskattad); B19 (lång marknads-banner → SIGNIFICANT); B11 (kort direkt instruktion → HUMAN, ej SLIGHT); B06 EXTREME → SIGNIFICANT (granne).
+- **Åtgärd:** rubriken skärpt till v3 (§1.3) — längd + ackumulering väger tyngre; validera på NÄSTA färska sida (ej re-run på samma 24 = overfit).
+
 ## Rewrite-resultat (fyll på efter LYNX-refresh — validerar/finjusterar modellen)
 | Sida | Block | Före | Efter (ny LYNX) | Vad vi ändrade | Datum |
 |---|---|---|---|---|---|
