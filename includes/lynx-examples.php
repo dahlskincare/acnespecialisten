@@ -160,6 +160,38 @@
 - **ytliga Vad-content var 🔴 SIGNIFICANT men fick bara komma+länk** → behöver riktig de-AI (led med konkret, korta hedge-svansen "utesluta eventuella bakomliggande problem", stryk "variera i storlek och form"). Föreslås som följd-commit.
 - Övriga 🔴/🟥-block bedöms adekvat behandlade i 1 jul-omskrivningen (öppningar + fluff-ackumulering + microneedling-repetition kapade).
 
+## /hudbehandlingar/ipl/ — 22 Apr 2026 (MODERATE-sida, Fas 3) — METOD-CHECK (modell vs facit, FÖRE omskrivning)
+> Blind-ish test: modell-regel → prediktion → LYNX-facit. Rik mix = bra kalibreringstest. Betyg = LYNX-fakta.
+
+| # | Block (utdrag) | Modell-prediktion | LYNX (rå) | Träff |
+|---|---|---|---|---|
+| 1 | Banner "Vi erbjuder **den bästa** IPL… **garanterar** resultat… pigmentfläckar, ytliga kärl eller ojämn hudton" | 🔴 (marknad-öppning) | 🟠 MODERATE | −1 (namnger 3 tillstånd → mildare) |
+| 2 | "IPL, som står för… rikta in sig på **melanin**… **hemoglobin**… särskilt **effektiv**…" | 🔵/🟠 (gloss+mekanism) | 🔴 SIGNIFICANT | +1 (längd + "effektiv"-svans + rule-of-three) |
+| 3 | "IPL-teknologin är **mångsidig**… **en rad** hudproblem… **populär**…" | 🔴 | 🔴 | ✓ |
+| 4 | "Inför en IPL… **det är viktigt att** följa några grundläggande steg… optimala resultat" | 🔴 | 🔴 | ✓ |
+| 5 | "För att förbereda huden bör du undvika solning… retinol…" (lång+boilerplate-svans) | 🔴 | 🔴 | ✓ |
+| 6 | "IPL behandling är en **effektiv metod**… rengöras grundligt… skydd på ögon" | 🔵/🟠 | 🟠 MODERATE | ✓ |
+| 7 | "Vår IPL-enhet justeras… korta, intensiva pulser… omvandlar ljusenergin till värme…" | 🔴 | 🔴 | ✓ |
+| 8 | "Efter behandlingen… mild solbränna… utvecklas över tid…" | 🔴 | 🔴 | ✓ |
+| 9 | "En **mångsidig och effektiv** behandlingsmetod… utforska…" (kort) | 🟠 | 🟠 | ✓ |
+| 10 | "**Effektiv** behandling av rosacea med vår **avancerade** IPL-teknik… målinriktade ljuspulser…" (kort) | 🟠 | 🟠 | ✓ |
+| 11 | "**Effektiv** IPL… minska ytliga blodkärl… selektivt… klarare hudton. Läs mer" (kort+konkret) | 🔵 | 🔵 SLIGHT | ✓ |
+| 12 | "Minska och ta bort pigmentfläckar… idealisk för att effektivt… jämnare hudton. Läs mer" (kort+konkret) | 🔵 | 🔵 SLIGHT | ✓ |
+| 13 | "Behandla melasma effektivt med laser… selektivt… märkbar förbättring. Läs mer" (kort) | 🔵 | 🟠 MODERATE | −1 (vagare + "med laser" på IPL-sida) |
+| 14 | "Eftervården… är **avgörande** för **bästa** resultat… **viktigt att** du undviker röra…" (lång) | 🟠 | 🔴 SIGNIFICANT | +1 (bästa/avgörande/effektiv-öppning + längd) |
+| 15 | "Under de första dagarna… undvika intensiv fysisk aktivitet, bastu… hög SPF…" (konkret, lång) | 🟠 | 🟠 MODERATE | ✓ |
+| 16 | "Se till att följa… eftervårdsinstruktioner… **tveka inte att kontakta kliniken**" (kort, direkt) | 🔵 | 🟢 HUMAN | −1 (kort+direkt+mänsklig ton → HUMAN) |
+| 17–19 | Omdömen ("Josefin som behandlare… 2 månader… :)") | 🟢 | 🟢 HUMAN | ✓ |
+
+**Resultat:** ~11/16 exakt tier, resten ±1 (ingen vild miss). Bäst på procedur/eftervård-mittsidan (7/8), fuzzy på 🔵↔🟠-gränsen.
+
+**Nya signaler (förbättrar uppskattningen):**
+1. **"Läs mer om X"-mini-kort** (kort action-öppning + EN konkret nytta + länk) = 🔵 SLIGHT; blir 🟠 om nyttan är vag ("märkbar förbättring"). Ny blocktyp.
+2. **Banner som namnger konkreta tillstånd** = 🟠, inte 🔴, trots "bästa/garanterar".
+3. **Gloss+mekanism → 🔴 om blocket är långt + marknads-svans** ("särskilt effektiv" + rule-of-three); jfr ipl-rosaceas KORTA gloss = 🔵. Bekräftar ackumulering × längd.
+4. **Eftervård, samma sektion, motsatt betyg:** lång + "avgörande/bästa/effektiv"-öppning = 🔴 (blk 14); kort + direkt = 🟢 HUMAN (blk 16).
+5. **HUMAN** = korta, direkta, "mänskligt röstade" instruktioner + omdömen med namn/tidsdetalj.
+
 ## Rewrite-resultat (fyll på efter LYNX-refresh — validerar/finjusterar modellen)
 | Sida | Block | Före | Efter (ny LYNX) | Vad vi ändrade | Datum |
 |---|---|---|---|---|---|
