@@ -774,7 +774,6 @@ $brands_url_title = "Varumärken för behandling av hudförändringar";
                                                 </div>
                                           <?php } ?>
                                     </div>
-                                    <!--<?php echo $types_url ?>-->
                               </section>
                         <?php } ?>
                         <section id="define">

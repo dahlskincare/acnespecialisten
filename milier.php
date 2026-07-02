@@ -402,7 +402,7 @@ $faq_categories = array(
             ),
             new Question(
                   title: 'Vad kostar det att ta bort milier?',
-                  text: '<p class="p200">Vi tar bort enstaka milier för 295 kr per styck. Har du flera milier kan en hel milierbehandling för 1295 kr vara ett bättre alternativ, där vi tar bort alla dina milier under samma behandling.</p>'
+                  text: '<p class="p200">Vi tar bort enstaka milier för 495 kr per styck. Har du flera milier kan en hel milierbehandling för 1295 kr vara ett bättre alternativ, där vi tar bort alla dina milier under samma behandling.</p>'
             ),
 
             new Question(
