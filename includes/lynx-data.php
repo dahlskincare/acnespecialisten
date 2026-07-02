@@ -1,7 +1,16 @@
 <?php exit; /* intern LYNX-arbetsfil – ej webb-serverad, läs i editor/git */ ?>
-# LYNX-data (manuell export)
+# LYNX-data (manuell export) — NAV-FIL: Pages-inventeringar + sidregister + filkarta
 
-> LYNX saknar exportfunktion, så detta är vår **manuella databas** över LYNX Pages-data. Mata in ny data vid varje refresh (ny daterad snapshot) så vi kan jämföra FÖRE/EFTER. Hör ihop med `includes/lynx-copy-playbook.php`. Kolumner: VAL (value), PT (page type), SCORE, GAPS (⚡innehåll/💡keyword), AICOPY, AIQ, P.PRICE, KW. *Transkriberat från skärmdumpar 2026-06-30 — verifiera mot LYNX vid hårda beslut.*
+> **📁 FILKARTA (per kolumn, beslutad av ägaren 2 jul — läs BARA de filer sessionen behöver):**
+> - **`lynx-data.php` (denna fil)** — Pages-LISTAN: inventerings-snapshots (VALUE/PT/SCORE/GAPS/AICOPY/AIQ/P.PRICE/KW/WORDS/CLICKS/STATUS per sida), officiella kolumn-definitioner, sidregister (i LYNX/saknas/ej i repo), beställningssedel.
+> - **`lynx-examples.php`** — AI COPY-kolumnen: per-block-facit per sida + blindtest + modellvalideringar (§1.1/§1.3/§1.4-underlag).
+> - **`lynx-questions.php`** — AI QUESTIONS-kolumnen: AI Overview Ranking-frågelistor per sida (§1.5-underlag; Fas 2-spec).
+> - **`lynx-score.php`** — SCORE-kolumnen: alla SCORE-nedbrytningar, färska vs gamla skalan (§1.2-underlag).
+> - **`lynx-gaps.php`** — GAPS-kolumnen: gap-texter per sida (besluten bor i playbook §8.1).
+> - **`lynx-copy-playbook.php`** — processen/modellerna/TODO/logg (läses alltid top-to-bottom av ny session).
+> - **`lynx-log-arkiv.php`** — arkiverade §11-poster.
+>
+> LYNX saknar exportfunktion, så detta är vår **manuella databas** över LYNX Pages-data. Mata in ny data vid varje refresh (ny daterad snapshot) så vi kan jämföra FÖRE/EFTER. *Transkriberat från skärmdumpar — verifiera mot LYNX vid hårda beslut.*
 > **Data-hantering (princip 2026-07-01):** spara ALLT ägaren skickar (sidnivå + block + SCORE-breakdown + AI QUESTIONS) här/​i `lynx-examples.php` som underlag. Vid **ny scanning: diffa mot sparad data** → vad ändrades, vad förbättrades/försämrades, vad bör åtgärdas. **Påminn ägaren om att skicka uppdateringar** om de dröjer (vi kan inte polla LYNX själva).
 
 ## OFFICIELLA KOLUMN-DEFINITIONER (LYNX-tooltips, mottagna 2 jul 15:00 — ersätter våra gissningar)
@@ -27,9 +36,7 @@
 
 **Viktigaste diffen mot sparad data:** AICOPY-flagg-listan **OFÖRÄNDRAD** (4 SIGNIFICANT + 10 MODERATE = samma som 30 jun) → **fortfarande INGEN LYNX-refresh på de 8 omskrivna sidorna** (§11.1-bevakningen öppen). Synliga SCORE i flagg-gruppen (mest gamla analyser): hudforandringar 17 · ytliga-blodkarl 22 · bristningar **18** · ipl-rosacea 39 · om-oss 17 · pigmentflackar 35 · rhinophyma 10 · solskadad-hy 30 · mogen-hy ~12(osäker).
 
-**bristningar SCORE-nedbrytning (popup; "Analyzed 78 days ago" = GAMMAL analys):** Overall **18** · CQ ~52 (Base ~64, Depth ~43, Evidence ~44, Language ~50, Readability ~45) · E-E-A-T ~50 (subs ~44–50) · AI STYLE **25** (Human-like 25). ⚠️ Osäker transkription (liten dump) — men mönstret stämmer med 30 jun-skalan (multiplikativt låg Overall, AI STYLE 25).
-
-**Gap-popup (2 Quick wins + 2 Suggestions — ⚠️ anchor: om-oss-raden var markerad, GAPS 2/2 matchar):** HIGH "Förtydliga fördelen med att slippa remiss och vårdkö" · HIGH "Tydliggör skillnaden mot en hudläkare tidigt" · MEDIUM "Prisinformation och kostnadsjämförelse" · (4:e punkten ej synlig i dumpen — be om den vid om-oss-arbete).
+**bristningar SCORE-nedbrytning** → `lynx-score.php` (gammal skala, passar multiplikativa formeln 6/6). **om-oss gap-popup** → `lynx-gaps.php`.
 
 ### SIDREGISTER (ägar-beställt 2 jul em): sidor I LYNX vs sidor SOM SAKNAS
 Metod: URL-kolumnen ur de 5 inventerings-dumparna korsad mot repots publika sidor (`find`-lista 2 jul; repo = källa för vad som existerar — suddiga läsningar upplösta mot repot, t.ex. "atersfiska-arr"→atrofiska-arr.php, "millerbehandling"→milierbehandling.php, "prasentkort"→presentkort.php, "/ipl.php"→ipl-acne.php, "/priser.php"→/priser/).
@@ -67,53 +74,7 @@ Metod: URL-kolumnen ur de 5 inventerings-dumparna korsad mot repots publika sido
 | /resultat-rosacea.php | 54→53 | 0→0 | – | ~oförändrat |
 | /mallorca-acne.php | 51→53 | 25→25 | – | ~oförändrat |
 
-**microneedling.php SCORE-nedbrytning (färsk 2 jul) — ⚠️ ANOMALI, troligen PARTIELL/pågående analys:**
-Overall **50** · CQ 41 (Base **0**, Depth **89**, Evidence **76**, Language **0**, Readability **0**) · E-E-A-T 60 (Exp 85, Expertis 80, Auth 85, Trust **90**) · AI STYLE **0** (Human-like **0**).
-⚠️ Tre skäl att misstänka partiell data: (1) Overall 50 med AI STYLE 0 motsäger §1.2-formeln (produkten ger 0); (2) CQ 41 ≠ medel av sina subs (33); (3) nollorna sitter på komponenter som har värden på alla andra sidor. **→ be ägaren om ny skärmdump när analysen satt sig; justera INTE §1.2 på denna datapunkt.** (Depth 89 + Evidence 76 = högsta uppmätta hittills om de står sig.)
-
-**Gap-texter microneedling.php (2 jul):**
-- ⚡ LOW (quick win): integrera sökordet **"microneedling kur"** i herosektionen — paketpriser för 3/5 behandlingar visas där men frasen används inte för att förklara vikten av upprepade behandlingar. *(OBS: frasen finns redan i eftervårdsblocket — gapet gäller hero-/prissektionen.)*
-- 💡 HIGH (rec. improvement): **"Kombinationsbehandlingar med Exosomer och Polynukleotider"** — toppkonkurrenter (Akademikliniken, Nordiska Kliniken) lyfter fram dessa. **Beslut: VÄNTAR — kliniken erbjuder inte exosomer än; ägaren planerar introducera → §9-TODO gated på lansering (§5: inga behandlingar vi inte har).**
-
-**Fler färska SCORE-nedbrytningar (2 jul; micro/porto/sebo "Analyzed 2 minutes ago", acne-rygg "31 days ago"):**
-| Komponent | portomning (60) | seborroisk-keratos (74) | acne-rygg (0) |
-|---|---|---|---|
-| CONTENT QUALITY | 60 | 85 | 0 |
-| – Base Quality | 95 | 85 | 0 |
-| – Depth | 93 | 84 | 0 |
-| – Evidence | 81 | 74 | 0 |
-| – Language | 96 | 95 | 0 |
-| – Readability | 98 | 90 | 0 |
-| E-E-A-T | 60 | 60 | 0 |
-| – Experience | 85 | 85 | 0 |
-| – Expertise | 80 | 80 | 0 |
-| – Authority | 85 | 75 | 0 |
-| – Trust | 90 | 85 | 0 |
-| AI STYLE (Human-like) | 0 | **50** | 0 |
-
-**Modellimplikationer 2 jul (→ §1.2 OMPRÖVAS, se playbook §11-loggen):**
-1. **SCORE 0 = trasig/tom analys, inte dålig sida.** acne-rygg = 0 på ALLA komponenter (gammal analys); seborroisk gick 0→74 vid omkörning. → Re-analysera alla 0-sidor innan bedömning (acnearr, stora-porer, cystisk-acne, djuprengoring, resultat-*, microneedling-acnearr m.fl.).
-2. **"39-taket" brutet UTAN våra ändringar:** seborroisk 74, portomning 60, microneedling 50. LYNX verkar ha ny version/skala (alt. var gamla värden stale). **30 jun-baselines är EJ jämförbara med färska analyser — mätregel: FÖRE→EFTER kräver färsk-mot-färsk.**
-3. **AI STYLE 0 på 3 av 4 färska** trots äldre AI Copy-datum → troligen "ej beräknad än", inte äkta nolla. Seborroisk fick **50** = första uppmätta värdet över 30.
-4. **Aggregeringen ändrad/oklar på färska analyser:** E-E-A-T-badge = 60 på alla tre trots sub-medel 81–85 (30 jun-datan hade badge = sub-medel); portomning CQ-badge 60 trots sub-medel 92,6. Overall ≈ medel(CQ-badge, EEAT-badge) passar micro 50 + porto 60 och nästan sebo (72,5 vs 74). **För få datapunkter — samla fler färska breakdowns innan ny formel (§10); tvinga inte fram en modell ur brus.**
-
-**Gap-texter acne-rygg.php (2 jul — 2 quick wins, 0 suggestions):**
-- ⚡ LOW: lägg till specifika tips om hårvårdsprodukter och sängkläder.
-- ⚡ LOW: integrera synonymerna "ryggakne" och "rygg akne".
-
-**AI Overview Ranking (AI QUESTIONS-detalj) — 4 sidor, LAST UPDATE 2 jul (beställningssedel punkt 3 → 🟡). Format: score · fråga · status. Tolkning: playbook §1.5.**
-
-*microneedling.php:* 25 Vad är microneedling bra för? OK · 13 Är microneedling värt pengarna? OK · 9 Kan man göra microneedling när man har akne? **GOOD** · 8 Vad kostar en microneedling behandling? OK · 7 Can microneedling bring out acne? OK · 7 Vilken behandling är bäst mot pigmentfläckar? OK · 5 Är microneedling bra för porer? OK · 4 Är det värt att göra microneedling? OK · 4 Vad kostar en microneedling? OK · 4 Finns det risker med microneedling? OK · 3 Vad är MicroDermabrasion? OK · 3 Är kemisk peeling bra? OK · 3 Hur lång tid tar det innan man ser resultat av microneedling? OK · 2 Vilken behandling är bäst mot stora porer? OK
-
-*portomning.php:* 23 Hur går en portömning till? OK · 20 Är det bra att göra portömning? OK · 13 Hur gör man en portömning hemma? OK · 12 Hur länge håller en portömning? OK · 11 Vad kostar portömning? OK · 6 Är det bra med portömning? **–** · 6 Vilken ansiktsbehandling är bäst mot porer? **GOOD** · 5 Hur gör man portömning hemma? OK · 4 Hur mycket kostar en portömning? OK · 3 Hur tömmer man porer? OK · 3 Hur rengör man ansiktet på djupet? **GOOD** · 3 Vad är bäst för att få bort pormaskar? OK · 3 Hur gör man en portömning? OK · 3 Är det bra att tömma pormaskar? OK
-
-*acne-rygg.php:* 26 Hur får man bort akne på ryggen? **GOOD** · 22 Hur blir man av med akne på ryggen? **GOOD** · 12 Hur får jag bort akne på ryggen? **GOOD** · 10 Varför får jag så många finnar på ryggen? OK · 7 Varför får man ryggakne? OK · 7 Vad beror ryggakne på? OK · 6 Vad betyder finnar på ryggen? OK · 6 Varför finnar på ryggen? OK · 5 Hur blir man av med akneärr på ryggen? **GOOD** · 5 Hur får man bort acneärr på ryggen? OK · 4 Vart sitter hormonell akne? OK · 4 Varför får jag akne på ryggen? OK · 4 Kan man få finnar på ryggen av stress? OK · 4 Betyder ryggakne PCOS? OK
-
-*HOMEPAGE `/` (mottagen 2 jul 15:05; LAST UPDATE 02 JUL; sid-badge POOR — enda POOR-sidan; FÖRSTA sidan med VERY POOR-frågor; listan fortsätter förbi 27, slutet ej synligt):* 3 Vilken ansiktsbehandling är bäst mot akne? OK · 3 Är Acnespecialisten bra? **GOOD** · 3 Är det bra att göra portömning? POOR · 2 Vilken behandling är bäst mot akne? OK · 2 Kan man gå till hudläkare utan remiss? OK · 2 Hur gör man en portömning hemma? POOR · 2 Vad kostar portömning? **VERY POOR** · 2 Hur mycket kostar det att ta bort milier? **VERY POOR** · 2 Hur mycket kostar laserbehandling för acneärr? POOR · 1 Kan man ta bort fibrom själv? OK · 1 Kan man ta bort akne med laser? OK · 1 Vad gör en hudterapeut? OK · 1 Hur länge håller en portömning? **VERY POOR** · 1 Vilken ansiktsbehandling ger bäst resultat? OK · 1 Vad är MicroDermabrasion? POOR · 1 Kan IPL förvärra rosacea? OK · 1 Hur länge håller HydraFacial? **VERY POOR** · 1 Hur får man bort djupa acneärr? OK · 1 Vad kostar det att gå till en privat hudläkare? OK · 1 Vart söker man vård för acne? OK · 1 Vad kostar en hydrafacialbehandling? POOR · 1 Hur länge håller infuzion? **VERY POOR** · 1 Kan man söka hudläkare utan remiss? OK · 1 Vilken ansiktsbehandling är bäst mot porer? OK · 1 Hur rengör man ansiktet på djupet? OK · 1 Vilken behandling är bäst för ansiktet? – · 1 Vilken laser är bäst för acneärr? (avklippt) *(→ §1.5 H7: listan speglar startsidans landing-keywords, inte startsidans innehåll; alla VERY POOR = pris-/hållbarhetsfrågor vars ägarsidor är silosidor)*
-
-*mogen-hy.php (mottagen 13:03-leveransen 2 jul; 27 frågor = längsta listan hittills; FÖRSTA sidan med POOR-frågor och första UTAN någon GOOD — sid-badge ändå OK):* 24 Vad betyder hy? OK · 14 Vad menas med mogen hy? OK · 14 Hur får man bättre hy i ansiktet? OK · 11 Vilken ålder är mogen hud? OK · 10 Kan 10-åringar få finnar? OK · 9 Vad betyder egentligen hy? OK · 7 Vilken ålder har man mogen hud? OK · 5 Kan magnesium ge finnar? **POOR** · 5 Vad är det bästa för mogen hud? OK · 5 Vid vilken ålder får man mogen hud? OK · 3 När anses man ha mogen hy? OK · 3 När anses man ha mogen hud? OK · 3 Vad är en hy? OK · 3 Varför har koreaner så fin hy? **POOR** · 3 Hur gammal är man när man har mogen hud? OK · 3 Vilken ålder räknas som mogen hud? OK · 2 Hur får man glansig hy? OK · 2 Hur får man bort dålig hy? OK · 2 Räknas 40 år gammal hud som mogen? OK · 2 Vad räknas som mogen hud? OK · 2 Vad orsakar dålig hud i ansiktet? OK · 2 Vilken ansiktskräm är bäst för äldre? OK · 2 Hur får jag fin hy? OK · 2 Kan en 14-åring använda retinol? OK · 1 När räknas huden som mogen? OK · 1 Vilken ålder blir huden slapp? OK · 1 Vad står HI för? **POOR** *(→ §1.5 H6: POOR-frågorna är off-topic för sidan — magnesium, koreansk hudvård, förkortningen "HI")*
-
-*seborroisk-keratos.php:* 18 Kan man ta bort seborroisk keratos själv? **GOOD** · 15 Hur får man bort seborroisk keratos? **GOOD** · 9 Vem tar bort seborroisk keratos? OK · 8 Hur snabbt växer seborroisk keratos? OK · 7 Kan seborroisk keratos försvinna av sig själv? OK · 7 Kan man behandla seborroisk keratos? **GOOD** · 7 Kan seborroisk keratos bli cancer? **GOOD** · 6 Hur tar man bort seborroisk keratos? **GOOD** · 5 Hur blir man av med keratoser? OK · 5 Är det okej att skrapa bort seborroisk keratos? **GOOD** · 4 Kan man ta bort keratos hemma? OK · 4 Varför får man seborroisk keratos? OK · 4 Bör seb-keratos tas bort? OK · 3 Hur får man bort seborré? OK
+**microneedling.php SCORE-nedbrytning (färsk, ⚠️ anomali) + färska breakdowns (porto/sebo/acne-rygg) + modellimplikationer** → `lynx-score.php`. **Gap-texter (microneedling, acne-rygg)** → `lynx-gaps.php`. **AI Overview Ranking-listor (micro/porto/acne-rygg/sebo/mogen-hy/homepage/acne-ansikte)** → `lynx-questions.php`.
 
 **Pages-tabell, AICOPY-filter (2 jul — TREDJE leveransen samma dag; medföljde mogen-hy-facitet → `lynx-examples.php`).** Diff mot 30 jun-inventeringen. **Huvudfynd: INGEN refresh på de omskrivna sidorna** — hudforandringar/ytliga-blodkarl/om-oss/ipl-rosacea/ipl står kvar på gamla tiers+SCORE (bevakningen §11.1 fortsatt öppen). Små VAL/KW-drifter = brus. Riktiga ändringar: **GAPS rensade** på ytliga-blodkarl (2/2→0/0) + ipl-rosacea (2/1→0/0) + **homepage (3/2→0/0, kompletterad i 12:59-dumpen)**, och **microdermabrasion AIQ GOOD→OK** (försämrad).
 
@@ -144,48 +105,8 @@ Overall **50** · CQ 41 (Base **0**, Depth **89**, Evidence **76**, Language **0
 | /behandla-pigmentflackar.php | 14 | – | – | –/– | GOOD | – | 16 |
 | /hudproblem/hudforandringar/ | 10 | – | 17 | 3/2 | OK | – | 8 |
 
-### Score-komponenter (detaljnedbrytning) — baseline + sajt-tak
-SCORE (0–100) = CONTENT QUALITY (Base, Depth, Evidence, Language, Readability) + E-E-A-T (Experience, Expertise, Authority, Trust) + AI STYLE (Human-like). Skärmdumpar 2026-06-30, LYNX-analys 49–79 dgr sedan = FÖRE våra ändringar.
-
-**Våra 2 SIGNIFICANT-mål som har SCORE** (acne-ansikte + behandla-pigmentflackar visar SCORE "–" → ingen nedbrytning):
-| Komponent | hudforandringar (17) | ytliga-blodkarl (22) |
-|---|---|---|
-| CONTENT QUALITY | 52 | 52 |
-| – Base Quality | 46 | 54 |
-| – Depth | 69 | 67 |
-| – Evidence | 31 | 24 |
-| – Language | 52 | 58 |
-| – Readability | 40 | 50 |
-| E-E-A-T | 49 | 58 |
-| – Experience | 35 | 50 |
-| – Expertise | 55 | 60 |
-| – Authority | 45 | 60 |
-| – Trust | 60 | 60 |
-| AI STYLE (Human-like) | 25 | 25 |
-
-**Sajtens 3 toppsidor — SCORE 39 = HÖGSTA på hela sajten** (acne.php, behandla-stora-porer.php, ipl-rosacea.php; exakt bild→sida ej säker från beskärning, A/B/C = analys 55/49/60 dgr sedan):
-> **BEKRÄFTAT 2026-07-01: kolumn A = acne.php** (exakt matchning: Overall 39 · CQ 56 [Base65/Depth77/Evidence11/Language65/Read60] · E-E-A-T 84 [Exp85/Expertis85/Auth80/Trust85] · AI STYLE 30; analyserad 68 dgr sedan). acne.php-omskrivningen (10 🔴-block, 1 jul) siktar på **AI STYLE (30) + Evidence (11)** utan att sänka Depth 77 / E-E-A-T 84 (§1.2 no-regression). FÖRE-baseline att mäta mot.
-| Komponent | A (55d) | B (49d) | C (60d) |
-|---|---|---|---|
-| **Overall** | **39** | **39** | **39** |
-| CONTENT QUALITY | 56 | 58 | 68 |
-| – Base Quality | 65 | 65 | 70 |
-| – Depth | 77 | 75 | 81 |
-| – Evidence | 11 | 22 | 46 |
-| – Language | 65 | 80 | 75 |
-| – Readability | 60 | 55 | 65 |
-| E-E-A-T | 84 | 83 | 85 |
-| – Experience | 85 | 85 | 85 |
-| – Expertise | 85 | 80 | 85 |
-| – Authority | 80 | 80 | 85 |
-| – Trust | 85 | 85 | 85 |
-| AI STYLE (Human-like) | 30 | 30 | 25 |
-
-**Läsning (hypotes, validera efter refresh):**
-1. **Hela sajten taklar ~39**, och taket beror på att **AI STYLE/Human-like sitter 25–30 ÖVERALLT** — även på bästa sidorna (gammal AI-copy). Vår de-AI-omskrivning är enda spaken som kan bryta taket; **ingen sida har gjort det än → otestad uppsida.**
-2. **Evidence näst tyngst** (11–46 även på topp) → konkret bevis: siffror, tidsram, mekanism-steg, "Från X kr", 30 år.
-3. **Depth (75–81) + E-E-A-T (83–85) = toppsidornas styrka → skydda** (korta inte, §13.N; behåll specialist-/resultat-/recensions-widgets som bär E-E-A-T).
-4. Våra mål ligger lägre på E-E-A-T (49–58 mot 83–85) → väg in förstahands-klinik (Experience), recensioner/resultat (Trust), 30 år/maskiner (Authority).
+### Score-komponenter (detaljnedbrytning) → FLYTTAD till `lynx-score.php`
+30 jun-nedbrytningarna (hudforandringar 17, ytliga-blodkarl 22, toppsidorna A/B/C à 39 med acne.php = kolumn A bekräftad) + läsningen/hypoteserna ligger nu i `lynx-score.php` (gamla-skalan-sektionen).
 
 ### 🟠 MODERATE (10) — PRIO 2 (nästa våg)
 | URL | VAL | PT | SCORE | GAPS | AIQ | P.PRICE | KW |
@@ -346,7 +267,7 @@ LYNX saknar export; ägaren matar in skärmdumpar på begäran. Den här listan 
 **VILL HA (prioriterat — be om skärmdump när sidan blir aktuell):**
 1. 🟡 **SCORE-komponenter för resten av prio-sidorna** — bekräfta först om acne-ansikte/behandla-pigmentflackar har en breakdown bakom "–" (eller om "–" = ej analyserad); sen de 10 MODERATE; + fler sajt-topp för att stärka tak-modellen.
 2. 🟡 **Fler komponent→Overall-datapunkter** → så vi kan **reverse-engineera viktningen** (hur CQ + E-E-A-T + AI STYLE blir Overall). Just nu fastnar 3 sidor på exakt 39 trots CQ 56–68 → tyder på att AI STYLE väger tungt / agerar tak. Analogt med hur §1.1 reverse-engineerades.
-3. 🟡 **AI QUESTIONS-detalj** — de faktiska frågorna LYNX vill se besvarade. **HAR för 4 sidor (2 jul: micro/porto/acne-rygg/sebo — se AI Overview Ranking ovan)**; be om fler när respektive sida blir aktuell. Krävs för FAQPage (Fas 2).
+3. 🟡 **AI QUESTIONS-detalj** — de faktiska frågorna LYNX vill se besvarade. **HAR för 7 sidor (micro/porto/acne-rygg/sebo/mogen-hy/homepage/acne-ansikte → `lynx-questions.php`)**; be om fler när respektive sida blir aktuell. Krävs för FAQPage (Fas 2).
 4. ❌ **AI COPY per-block-rating** för de 3 övriga SIGNIFICANT + MODERATE-vågen (vilka block är 🔴/🟠/🔵).
 5. ❌ **Gap-text för fler sidor** (⚡ innehåll / 💡 keyword) när vi tar dem.
 6. ❌ **Faktiska sökord-rankningar (positioner)** per sida, inte bara KW-antal → för att mäta §6 ranking-skydd efter deploy.

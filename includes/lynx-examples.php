@@ -1,5 +1,5 @@
 <?php exit; /* intern LYNX-arbetsfil – ej webb-serverad, läs i editor/git */ ?>
-# LYNX AI COPY — exempel-korpus (per block, sida + datum)
+# LYNX AI COPY — exempel-korpus (per block, sida + datum) — AI COPY-KOLUMNENS FIL (filkarta i `lynx-data.php`)
 
 > Växande samling av LYNX per-block-facit. Varje bedömt stycke bidrar till helhetsbilden av bedömningsmodellen (§1.1 i `includes/lynx-copy-playbook.php`). **Fyll på** med nya facit (sida + datum). När vi skrivit om ett block och fått ny LYNX-refresh: logga **före→efter** längst ned så vi validerar och finjusterar modellen. Snippets är förkortade — full text finns i sidans `.php` / git-historik.
 >
