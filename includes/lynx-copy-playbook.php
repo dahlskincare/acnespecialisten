@@ -23,7 +23,7 @@ Säger användaren typ *"vi fortsätter med LYNX-uppgifterna"* eller klistrar in
 
 > Kanonisk arbetsfil för att skriva om sidor som LYNX flaggar för **AI COPY** (SIGNIFICANT/MODERATE) så de läser som människa, utan att tappa sökord eller ranking. Utgå alltid från den här filen — den är **självbärande och enda källan till sanning** (vi använder inte task-tracker; TODO + status bor här). En ny Claude utan kontext ska kunna läsa den top-to-bottom och börja jobba (se §0.1 — kör 1 i taget). Senast uppdaterad: 2026-07-02.
 
-**Innehåll:** §0 använda filen · §0.1 kör 1 i taget · §1 hävstången · §1.1 bedömningsmodell · §1.2 score-modellen · §2 formeln · §3 checklista · §4 husröst · §4.1 utökad husröst · §5 ramar · §6 SEO-skydd · §7 process · §8 backlog · §8.1 per-sida gaps · §9 TODO · §10 justeringsloop · §11 logg + baseline · §11.1 bevakningslista · §12 claims · §13 skyddsregler
+**Innehåll:** §0 använda filen · §0.1 kör 1 i taget · §1 hävstången · §1.1 bedömningsmodell · §1.2 score-modellen · §1.3 prediktions-rubrik · §1.4 median-modellen · §1.5 AI questions-modellen · §2 formeln · §3 checklista · §4 husröst · §4.1 utökad husröst · §5 ramar · §6 SEO-skydd · §7 process · §8 backlog · §8.1 per-sida gaps · §9 TODO · §10 justeringsloop · §11 logg + baseline · §11.1 bevakningslista · §12 claims · §13 skyddsregler
 
 ---
 
@@ -88,6 +88,7 @@ Axeln = **fyllnad/mall ↔ rak konkret täthet**. Bekräftat mot facit på acne.
 
 ## 1.2 SCORE-modellen — komponenter, sajt-tak & copy-spakar (prediktiv, validera mot refresh)
 **⚠️ OMPRÖVAS (2026-07-02, fyra färska analyser — rådata i lynx-data-snapshot 2 jul, resonemang i §11):** (1) **SCORE 0 = trasig/tom analys**, inte dålig sida (acne-rygg = 0 på ALLA komponenter; seborroisk 0→74 vid omkörning) → re-analysera 0-sidor innan slutsats. (2) **"39-taket" brutet UTAN våra ändringar** (seborroisk 74, portomning 60, microneedling 50) → LYNX verkar ha ny version/skala; **30 jun-baselines EJ jämförbara med färska analyser — mät färsk-mot-färsk.** (3) **AI STYLE 0 på färska analyser = troligen "ej beräknad än"** (AI Copy-vyn äldre datum; seborroisk fick 50 = första uppmätta >30). (4) **Aggregeringen ser ändrad ut:** EEAT-badge 60 ≠ sub-medel 81–85 på färska; Overall ≈ medel(CQ-badge, EEAT-badge) passar micro+porto, nästan sebo. (5) **Positivt riktmärke:** sebo 74 (CQ 85, AI 50) + portos CQ-subs 95–98 visar att konkret procedur-copy skårar högt på nya skalan — samma copy-egenskaper som ger 🔵-block ger högt CQ. (6) **Möjligt att AI STYLE inte längre ingår i Overall** — medel(CQ, EEAT) passar micro (50) + porto (60) exakt, sebo 72,5 vs 74; stämmer det krymper de-AI:s SCORE-payoff och de-AI-värdet ligger i AI COPY-flaggan + CQ. Avgörs med fler färska breakdowns. **Bygg INGEN ny formel förrän fler färska breakdowns finns (§10); multiplikations-modellen nedan beskriver 30 jun-datan och står kvar som historik/hypotes.**
+**Falsifierbart testprotokoll (registrerat 2 jul, FÖRE nästa data — §10 steg 1):** för nästa färska breakdowns ägaren skickar predikterar vi: (a) sida med AI STYLE 0 → **Overall = avrundat medel(CQ-badge, EEAT-badge) ±2** (facit hittills: micro 50 vs 50,5 ✓, porto 60 vs 60 ✓); (b) sida med AI STYLE >0 avgör AI-frågan: Overall ≈ medel(CQ,EEAT) → AI ingår EJ i Overall; Overall ≈ medel(CQ,EEAT,AI) → AI ingår (sebo: 74 vs 72,5 vs 65 → lutar EJ); (c) 0-sidor som omanalyseras → kommer tillbaka >0 med fulla komponenter. **Beställning till ägaren: färsk analys på 2–3 sidor, varav minst en där AI STYLE hunnit beräknas.**
 
 SCORE (0–100) ≠ AI COPY-flaggan men lyfts av samma jobb. Komponenter: **CONTENT QUALITY** (Base, Depth, Evidence, Language, Readability) + **E-E-A-T** (Experience, Expertise, Authority, Trust) + **AI STYLE** (Human-like). Baselines + sajt-tak (rådata) i `lynx-data.php`.
 
@@ -123,7 +124,7 @@ Gissa en blocks AI COPY-tier (🟥 EXTREME > 🔴 SIGNIFICANT > 🟠 MODERATE > 
    - konkret/mekanism/action/process/historik-öppning → **SLIGHT–MODERATE**; → SIGNIFICANT ENDAST om den avslutas med en TÄT hög marknadssuperlativ ("mest effektiva/garanterar/optimala resultat").
    - marknads-superlativ-öppning → **MODERATE**; → SIGNIFICANT om tät marknad staplas igenom (flera superlativ + upprepat "inte bara X utan Y"). *(Blindtest 3: marknadstunga behandlingsblock undergissades genomgående ett steg — facit är HÅRDARE mot marknad än man tror; luta åt SIGNIFICANT vid tvekan på behandlingsprosa.)*
    - importans/hedge/scensättning/**meta-scaffolding** ("det är viktigt att", "en rad olika faktorer", "Att navigera i…", "förstår vi vikten av", **"Här förklarar vi…"/"På denna sida går vi igenom…"**) → **SIGNIFICANT.** **MEN — gradient (2 jul, positiv-data):** räkna fyllnad vs konkretion, inte frasen i sig. Importans-/fyllnadsfras + **konkretion direkt** (mening 1–2) → **SLIGHT** (acne-rygg ×2, dermapen eftervård-p1); + konkretion men även svans/fyllnad → **MODERATE** (microneedling-prep, portomning-lermask); + generiskt hela vägen → **SIGNIFICANT** (ipl-eftervård, acne.php-demografi).
-4. **LÄNGD = SVAG modifierare, inte stark spak.** "Om oss"/process/historik-prosa graderas milt (stannar SLIGHT/MODERATE även vid 3–5 meningar). *(v3 översköt detta → hade fått oss att skriva om SLIGHT-block i onödan.)*
+4. **LÄNGD = SVAG modifierare, inte stark spak.** "Om oss"/process/historik-prosa graderas milt (stannar SLIGHT/MODERATE även vid 3–5 meningar). *(v3 översköt detta → hade fått oss att skriva om SLIGHT-block i onödan.)* **MEN: lång definition UTAN mekanism → SIGNIFICANT trots konkretion** (belagt 2 sidor: ytliga Vad-content, sebo-definitionen) — konkretion räcker inte på långa block, de behöver kausal mekanism.
 5. **EXTREME** om blocket keyword-stuffar (samma term ~×4) + staplar "vilket"-kedjor + är långt — **räkna förekomsterna faktiskt** (behandla-pigment microneedling missades så). Stuffing UTAN vilket-kedjor/längd stannar 🔴 (ipl-rosacea desc-p2: IPL ×6 men facit 🔴).
 6. **Kontext:** behandlings-/tillståndsprosa hårdare; "om oss"/historik/process mildare.
 
@@ -143,6 +144,18 @@ LYNX ger både **sidnivå-AI COPY** (Pages-listan) och **per-block-facit** (AI C
 - **En 🔵-sida sänks INTE av att fixa enstaka 🔴-block** (medianen redan bra), MEN det höjer SCORE (AI STYLE-taket) + blockkvaliteten → gör det för SCORE, inte AI COPY-flaggan.
 - **Prio-konsekvens:** 🔴/🟠-sidor → AI COPY-flagg-vinst; 🔵-sidor → SCORE-vinst. Båda mot "LYNX grönt".
 - **Median flyttas även genom ADDITION (2 jul, positiv-data):** korta konkreta block (FAQ-svar i husröst, "Från X kr"-rader, maskin-rader, definitioner) är naturliga 🔵/🟢 — att LÄGGA TILL äkta sådana block drar medianen nedåt utan att röra befintlig prosa. Belagt: porto/acne-rygg/sebo är 🔵-sidor trots 2–4 🔴-block, för att många korta konkreta block skyddar medianen strukturellt. → **Fas 2 (FAQ-svar) är därmed också en AI COPY-flagg-spak, inte bara AI QUESTIONS.** §13.N-vakt: bara äkta innehåll, aldrig padding.
+
+## 1.5 AI QUESTIONS / AI Overview-modellen (NY 2026-07-02 — hypotes byggd på 4 sidors data)
+LYNX-vyn **"AI Overview Ranking"** per sida listar frågorna sidan borde äga i AI-overviews: **SCORE** = frågans vikt (högst först), **OPTIMIZED** = hur väl sidan besvarar frågan idag (**GOOD** > OK > **–**). Sidnivå-kolumnen AIQ (GOOD/OK/POOR) aggregerar troligen denna vy. Rådata per sida i `lynx-data.php` (2 jul: micro/porto/acne-rygg/sebo).
+
+**Hypoteser (H1–H5 — validera mot fler sidor + refresh, §10):**
+- **H1 — FAQ-titel räcker inte för GOOD:** micro har frågan "Vad är microneedling bra för?" som egen FAQ-titel (score 25) men får bara OK → GOOD kräver ett RAKT konkret svar, inte att frågan finns som rubrik.
+- **H2 — svaret måste matcha frågans FORM:** acne-ryggs alla "hur får man bort"-varianter = GOOD (sidan är en hur-guide med konkreta steg) medan orsaksfrågorna = OK trots orsakssektioner. Hur→steg, varför→mekanism/orsak, kostar→pris med siffra.
+- **H3 — grannfrågor besvaras på ÄGARSIDAN:** frågor som "Vilken behandling är bäst mot pigmentfläckar?" (dyker upp på micro) och "Vad är MicroDermabrasion?" tillhör andra sidors silo → kort svar + intern länk, aldrig duplicering (§5).
+- **H4 — hemma-frågorna är återkommande topp** (porto "hemma" 13+5, sebo "själv/hemma" 18+4, micro "hemma") → ärligt "ingen hemmakur"-svar + klinikpivot = ytliga-blodkarl-principen (§8.1) som standard-FAQ-vinkel.
+- **H5 — YMYL-angränsande frågor kan nå GOOD inom kosmetisk ram:** sebo "Kan seborroisk keratos bli cancer?" = GOOD utan medicinsk rådgivning (godartade-ramen + hänvisning) → §5-ramen hindrar inte GOOD.
+
+**Operativt (koppla in i §7 + Fas 2):** vid rewrite/FAQ-arbete: (1) hämta sidans AI Overview Ranking; (2) topp-SCORE-frågor utan GOOD → ge ett rakt svar i frågans form (FAQ-svar i husröst — kan nå 🟢 per §1.1 nyckel 5 → **trippelvinst: AI QUESTIONS + median §1.4 + AI STYLE**); (3) grannfrågor → länk till ägarsidan; (4) logga FÖRE-status (GOOD/OK/–) per fråga för mätloopen.
 
 ## 2. Formeln: **Krok → Mekanism → Skylt**
 1. **Krok** — öppna med en *konkret komponent*, inte abstrakt skala. Första substantivet ska vara något läsaren kan se (papler, gropar, fläckar, "bacne"). Aldrig "Det finns flera…/Det är viktigt att…/När det kommer till…/påverkar miljontals…". **Gäller även varje list-punkt:** led med mekanismen/det konkreta, inte "[rubrik] kan spela en roll vid…".
@@ -416,6 +429,9 @@ Korrelera mot LYNX-refresh. Senaste först. Spara alltid **LYNX-baseline** (FÖR
 | ytliga-blodkarl.php | 42 | – | 22 | 2/2 | SIGNIFICANT | OK | – | 172 |
 | behandla-pigmentflackar.php | 14 | – | – | –/– | SIGNIFICANT | GOOD | – | 16 |
 | hudproblem/hudforandringar/ | 10 | – | 17 | 3/2 | SIGNIFICANT | OK | – | 8 |
+
+### 2026-07-02 — AI QUESTIONS-detalj mottagen (4 sidor) → NY §1.5-modell (hypotes)
+**Inkommet (4 skärmdumpar, sparade i lynx-data FÖRST):** "AI Overview Ranking" för micro/porto/acne-rygg/sebo — 14 frågor per sida med SCORE-viktning + OPTIMIZED-status (beställningssedel punkt 3 → 🟡). **Ny §1.5** med H1–H5: FAQ-titel räcker inte för GOOD (micro score-25-frågan är sidans FAQ-titel men bara OK); svaret måste matcha frågans form (acne-ryggs hur-varianter GOOD, orsaksfrågor OK); grannfrågor → ägarsida + länk (§5); hemma-frågor = återkommande topp → ärlig "ingen hemmakur" + klinikpivot; YMYL-angränsande kan nå GOOD i kosmetisk ram (sebo cancer-frågan). **Operativ följd: FAQ-svar = trippelspak (AI QUESTIONS + median §1.4 + AI STYLE) → Fas 2:s värde höjs ytterligare; Fas 3b-sidorna har nu sina frågelistor som svars-spec.** TOC kompletterad (§1.3–§1.5 saknades).
 
 ### 2026-07-02 — Modellöversyn på POSITIV-datan (ägar-beställd): §1.1 nyckel 5, §1.3-gradient, §1.4 additions-spak
 **Kontext:** korpusen var negativ-tung (facit mest från SIGNIFICANT-sidor vi skrev om); de 4 nya faciten är SLIGHT-tunga (23🔵/9🟢 av 53 block) = första systematiska bilden av vad som HÅLLER block gröna.

@@ -54,6 +54,16 @@ Overall **50** · CQ 41 (Base **0**, Depth **89**, Evidence **76**, Language **0
 - ⚡ LOW: lägg till specifika tips om hårvårdsprodukter och sängkläder.
 - ⚡ LOW: integrera synonymerna "ryggakne" och "rygg akne".
 
+**AI Overview Ranking (AI QUESTIONS-detalj) — 4 sidor, LAST UPDATE 2 jul (beställningssedel punkt 3 → 🟡). Format: score · fråga · status. Tolkning: playbook §1.5.**
+
+*microneedling.php:* 25 Vad är microneedling bra för? OK · 13 Är microneedling värt pengarna? OK · 9 Kan man göra microneedling när man har akne? **GOOD** · 8 Vad kostar en microneedling behandling? OK · 7 Can microneedling bring out acne? OK · 7 Vilken behandling är bäst mot pigmentfläckar? OK · 5 Är microneedling bra för porer? OK · 4 Är det värt att göra microneedling? OK · 4 Vad kostar en microneedling? OK · 4 Finns det risker med microneedling? OK · 3 Vad är MicroDermabrasion? OK · 3 Är kemisk peeling bra? OK · 3 Hur lång tid tar det innan man ser resultat av microneedling? OK · 2 Vilken behandling är bäst mot stora porer? OK
+
+*portomning.php:* 23 Hur går en portömning till? OK · 20 Är det bra att göra portömning? OK · 13 Hur gör man en portömning hemma? OK · 12 Hur länge håller en portömning? OK · 11 Vad kostar portömning? OK · 6 Är det bra med portömning? **–** · 6 Vilken ansiktsbehandling är bäst mot porer? **GOOD** · 5 Hur gör man portömning hemma? OK · 4 Hur mycket kostar en portömning? OK · 3 Hur tömmer man porer? OK · 3 Hur rengör man ansiktet på djupet? **GOOD** · 3 Vad är bäst för att få bort pormaskar? OK · 3 Hur gör man en portömning? OK · 3 Är det bra att tömma pormaskar? OK
+
+*acne-rygg.php:* 26 Hur får man bort akne på ryggen? **GOOD** · 22 Hur blir man av med akne på ryggen? **GOOD** · 12 Hur får jag bort akne på ryggen? **GOOD** · 10 Varför får jag så många finnar på ryggen? OK · 7 Varför får man ryggakne? OK · 7 Vad beror ryggakne på? OK · 6 Vad betyder finnar på ryggen? OK · 6 Varför finnar på ryggen? OK · 5 Hur blir man av med akneärr på ryggen? **GOOD** · 5 Hur får man bort acneärr på ryggen? OK · 4 Vart sitter hormonell akne? OK · 4 Varför får jag akne på ryggen? OK · 4 Kan man få finnar på ryggen av stress? OK · 4 Betyder ryggakne PCOS? OK
+
+*seborroisk-keratos.php:* 18 Kan man ta bort seborroisk keratos själv? **GOOD** · 15 Hur får man bort seborroisk keratos? **GOOD** · 9 Vem tar bort seborroisk keratos? OK · 8 Hur snabbt växer seborroisk keratos? OK · 7 Kan seborroisk keratos försvinna av sig själv? OK · 7 Kan man behandla seborroisk keratos? **GOOD** · 7 Kan seborroisk keratos bli cancer? **GOOD** · 6 Hur tar man bort seborroisk keratos? **GOOD** · 5 Hur blir man av med keratoser? OK · 5 Är det okej att skrapa bort seborroisk keratos? **GOOD** · 4 Kan man ta bort keratos hemma? OK · 4 Varför får man seborroisk keratos? OK · 4 Bör seb-keratos tas bort? OK · 3 Hur får man bort seborré? OK
+
 ## Snapshot 2026-06-30 — komplett inventering (före omskrivningar)
 
 ### 🔴 SIGNIFICANT (4) — PRIO 1 (skrivs om nu)
@@ -266,7 +276,7 @@ LYNX saknar export; ägaren matar in skärmdumpar på begäran. Den här listan 
 **VILL HA (prioriterat — be om skärmdump när sidan blir aktuell):**
 1. 🟡 **SCORE-komponenter för resten av prio-sidorna** — bekräfta först om acne-ansikte/behandla-pigmentflackar har en breakdown bakom "–" (eller om "–" = ej analyserad); sen de 10 MODERATE; + fler sajt-topp för att stärka tak-modellen.
 2. 🟡 **Fler komponent→Overall-datapunkter** → så vi kan **reverse-engineera viktningen** (hur CQ + E-E-A-T + AI STYLE blir Overall). Just nu fastnar 3 sidor på exakt 39 trots CQ 56–68 → tyder på att AI STYLE väger tungt / agerar tak. Analogt med hur §1.1 reverse-engineerades.
-3. ❌ **AI QUESTIONS-detalj** — de faktiska frågorna LYNX vill se besvarade (vi har bara OK/GOOD/POOR). Krävs för FAQPage (Fas 2).
+3. 🟡 **AI QUESTIONS-detalj** — de faktiska frågorna LYNX vill se besvarade. **HAR för 4 sidor (2 jul: micro/porto/acne-rygg/sebo — se AI Overview Ranking ovan)**; be om fler när respektive sida blir aktuell. Krävs för FAQPage (Fas 2).
 4. ❌ **AI COPY per-block-rating** för de 3 övriga SIGNIFICANT + MODERATE-vågen (vilka block är 🔴/🟠/🔵).
 5. ❌ **Gap-text för fler sidor** (⚡ innehåll / 💡 keyword) när vi tar dem.
 6. ❌ **Faktiska sökord-rankningar (positioner)** per sida, inte bara KW-antal → för att mäta §6 ranking-skydd efter deploy.
