@@ -10,7 +10,7 @@ Säger användaren typ *"vi fortsätter med LYNX-uppgifterna"* eller klistrar in
 
 **📥 Facit-flöde (så mätdata kommer in — LYNX saknar export):** ägaren **klistrar in LYNX-facit** (skärmbild/text) — men **avgör alltid FÖRST vad syftet är**, ägaren säger inte alltid rakt ut. Två lägen: **(a) Per sida (riktat)** = facit för en sida vi jobbar på → spara baseline + kör §7 på just den sidan. **(b) Bunt statistik (inventering)** = många sidors kolumn-data på en gång → **diffa mot `lynx-data.php`** och klassa varje rad: **NYTT/ÄNDRAT** (efter en main-push = mätdata → kör mät-loopen §10, FÖRE→EFTER + validera modell; nya sidor → uppdatera baseline + prio §9.1) vs **OFÖRÄNDRAT** (notera bara, ingen åtgärd — LYNX kanske inte refreshat än). **Oavsett läge: SPARA FÖRST, agera sen** — spara rådatan (per-block → `lynx-examples.php`, sid-/kolumndata → `lynx-data.php`, notera FÖRE→EFTER), agera sen (rewrite/prio/mätning §10) och **gör en TODO (§9) för det som ska åtgärdas**. Agera aldrig på facit utan att först spara; det är vår enda mätkälla.
 
-> **🟢 LÄGE 2026-07-01 (ny session startar här):** **8 sidor omskrivna** — acne-ansikte (LIVE på main), + ytliga-blodkarl, behandla-pigmentflackar, hudforandringar, hudbehandlingar/ipl, om-oss, acne.php, **ipl-rosacea** (alla på `staging`, väntar ägarens main-push). Alla facit-guidade (§13.D); ipl-rosacea staging-verifierad (200 + nytt innehåll live). **Kör 1 Claude i taget (§0.1) — parallellt övergivet.** **Modeller byggda:** AI COPY-rubrik v4 (§1.3, ±1-band), sidnivå=MEDIAN av block (§1.4), SCORE=CQ×EEAT×AI/3640 multiplikativt (§1.2, validerat). **Väntar på:** ägarens main-push → LYNX-refresh → kör mät-loopen (§10): mät FÖRE→EFTER per §11.1-bevakningslistan, validera modellerna (acne.php = A/B-test av SCORE/AI STYLE-spaken). **Nästa sidor:** §9.1-backlog, Tier 1 = Homepage (KW296), pigmentflackar (238), rosacea (221), perioral-dermatit (194) — **hämta per-block-facit FÖRST** för var och en. **Data-princip:** spara allt ägaren skickar (lynx-data/examples), diffa vid ny scan, påminn om uppdateringar. Inga öppna trådar; git rent.
+> **🟢 LÄGE 2026-07-02 (ny session startar här):** **8 sidor omskrivna och LIVE på main** (PR #236 mergad, git-verifierat 2 jul): acne-ansikte, ytliga-blodkarl, behandla-pigmentflackar, hudforandringar, hudbehandlingar/ipl, om-oss, acne.php, ipl-rosacea. Alla facit-guidade (§13.D). **Enda commit kvar på staging:** d3ce9162 (hudforandringar död debug-rad) — väntar ägarens nästa main-push. **Kör 1 Claude i taget (§0.1) — parallellt övergivet.** **Modeller byggda:** AI COPY-rubrik v4 (§1.3, ±1-band), sidnivå=MEDIAN av block (§1.4), SCORE=CQ×EEAT×AI/3640 multiplikativt (§1.2, validerat). **Väntar på:** LYNX-refresh → kör mät-loopen (§10): mät FÖRE→EFTER per §11.1-bevakningslistan, validera modellerna (acne.php = A/B-test av SCORE/AI STYLE-spaken). **Nästa sidor:** §9.1-backlog, Tier 1 = Homepage (KW296), pigmentflackar (238), rosacea (221), perioral-dermatit (194) — **hämta per-block-facit FÖRST** för var och en. **Data-princip:** spara allt ägaren skickar (lynx-data/examples), diffa vid ny scan, påminn om uppdateringar.
 
 - **Uppdrag (pågår tills allt är klart):** skriv om sidor som LYNX flaggar för AI COPY (SIGNIFICANT/MODERATE) så varje textblock når **minst SLIGHT** (HUMAN där blocket naturligt tillåter, §1.1) och läser som människa, **utan att tappa sökord/ranking**. **Slutmål: LYNX helt grönt/korrekt** på alla signaler — AI COPY först → FAQPage-schema (AI QUESTIONS) → `$rich_product` (PAGE TYPE/P. PRICE) → gap-punkter → sedan löpande. **Status & nästa sida:** §9 (TODO), §11 (logg/baseline), §12 (claims).
 - **Trigger per sida: hämta ALLTID sidans NUVARANDE LYNX per-block-status FÖRST, innan du redigerar** — inte "lär modellen en gång och kör resten på egen bedömning"; dra in LYNX för varje sida. Följ §7: spara baseline (§11) → **prioritera 🔴/🟠/🟥 (skriv om dem), men se ÄVEN över 🔵/🟢 med LÄTT HAND** (bara tydliga fixar: typo, grammatik, tappat sökord, uppenbar tell; INGEN stilistisk över-omskrivning av OK-block = v3-felet, §1.3) enligt §2 + §4 + §5 → kör §3 + §6 + §13 → logga (§11) → committa + pusha **`staging`**. *(Saknas facit: gissa med §1.3-modellen (±1-band, ej facit), lämna hellre vid SLIGHT↔MODERATE-tvivel.)*
@@ -21,7 +21,7 @@ Säger användaren typ *"vi fortsätter med LYNX-uppgifterna"* eller klistrar in
 
 ---
 
-> Kanonisk arbetsfil för att skriva om sidor som LYNX flaggar för **AI COPY** (SIGNIFICANT/MODERATE) så de läser som människa, utan att tappa sökord eller ranking. Utgå alltid från den här filen — den är **självbärande och enda källan till sanning** (vi använder inte task-tracker; TODO + status bor här). En ny Claude utan kontext ska kunna läsa den top-to-bottom och börja jobba (se §0.1 — kör 1 i taget). Senast uppdaterad: 2026-07-01.
+> Kanonisk arbetsfil för att skriva om sidor som LYNX flaggar för **AI COPY** (SIGNIFICANT/MODERATE) så de läser som människa, utan att tappa sökord eller ranking. Utgå alltid från den här filen — den är **självbärande och enda källan till sanning** (vi använder inte task-tracker; TODO + status bor här). En ny Claude utan kontext ska kunna läsa den top-to-bottom och börja jobba (se §0.1 — kör 1 i taget). Senast uppdaterad: 2026-07-02.
 
 **Innehåll:** §0 använda filen · §0.1 kör 1 i taget · §1 hävstången · §1.1 bedömningsmodell · §1.2 score-modellen · §2 formeln · §3 checklista · §4 husröst · §4.1 utökad husröst · §5 ramar · §6 SEO-skydd · §7 process · §8 backlog · §8.1 per-sida gaps · §9 TODO · §10 justeringsloop · §11 logg + baseline · §11.1 bevakningslista · §12 claims · §13 skyddsregler
 
@@ -286,10 +286,10 @@ Sidorna rankar redan på sökord. Omskrivningen får höja kvaliteten **utan att
 
 ## 8. Sidkarta & backlog (LYNX AI COPY)
 **SIGNIFICANT — alla ✅ KLARA (staging/main):**
-- `acne-ansikte.php` — ✅ KLAR (omskriven hela sidan → staging, väntar main-push; se §9/§11/§11.1)
-- `ytliga-blodkarl.php` — ✅ KLAR (omskriven steg för steg → staging, väntar main-push; se §9/§11/§11.1)
-- `behandla-pigmentflackar.php` — ✅ KLAR (bonus, KW16; de-AI:ad → staging, väntar main-push)
-- `hudproblem/hudforandringar/index.php` — ✅ KLAR (hub; de-AI:ad → staging, väntar main-push; H1 i sep. commit)
+- `acne-ansikte.php` — ✅ KLAR (omskriven hela sidan → main, LIVE; se §9/§11/§11.1)
+- `ytliga-blodkarl.php` — ✅ KLAR (omskriven steg för steg → main, LIVE 1 jul; se §9/§11/§11.1)
+- `behandla-pigmentflackar.php` — ✅ KLAR (bonus, KW16; de-AI:ad → main, LIVE 1 jul)
+- `hudproblem/hudforandringar/index.php` — ✅ KLAR (hub; de-AI:ad → main, LIVE 1 jul; H1 i sep. commit; debug-rad-fix d3ce9162 väntar main-push)
 
 **MODERATE-vågen:** ✅ KLARA: `om-oss.php`, `hudbehandlingar/ipl/`, `ipl-rosacea.php` (KW20, P.PRICE HIGHEST, SCORE 39 — facit-driven + workflow-verifierad). **KVAR (7):** `pigmentflackar.php` (KW238), `rhinophyma-rosacea.php`, `microdermabrasion.php`, `mogen-hy.php`, `solskadad-hy.php`, `hudproblem/bristningar/`, `hudproblem/oonskat-har/`. (Prioordning: §9.1.)
 
@@ -326,9 +326,9 @@ Kryssa här. Start/stopp-vänligt: status = §9 + §11 (logg) + §12 (claims). P
 - [x] Färdigställ setup & playbook (formel, husröst, ramar, SEO-skydd, §13-skyddsregler, lynx-data.php).
 
 **Fas 1 — SIGNIFICANT-sidorna**
-- [x] `acne-ansikte.php` — omskriven (hela sidan), minimal-diff (§13.O); sökord/claims bevarade → staging, väntar main-push.
-- [x] `ytliga-blodkarl.php` (KW172) — omskriven steg för steg (öppningar + summeringar bort + gap-punkter §8.1) → staging, väntar main-push. Bortkommenterade $type_categories/$symptoms orörda (bilder saknas).
-- [x] `behandla-pigmentflackar.php` — de-AI:ad (öppningar + marknadssvansar bort), long-tail hållen → staging, väntar main-push.
+- [x] `acne-ansikte.php` — omskriven (hela sidan), minimal-diff (§13.O); sökord/claims bevarade → main, LIVE.
+- [x] `ytliga-blodkarl.php` (KW172) — omskriven steg för steg (öppningar + summeringar bort + gap-punkter §8.1) → main, LIVE 1 jul. Bortkommenterade $type_categories/$symptoms orörda (bilder saknas).
+- [x] `behandla-pigmentflackar.php` — de-AI:ad (öppningar + marknadssvansar bort), long-tail hållen → main, LIVE 1 jul.
 - [x] `hudforandringar/index.php` — de-AI:ad (hub-register, öppningar + svansar + stavfel) → staging; H1-sökord i separat commit (§13.H).
 
 **Fas 2 — Schema**
@@ -394,6 +394,12 @@ Korrelera mot LYNX-refresh. Senaste först. Spara alltid **LYNX-baseline** (FÖR
 | ytliga-blodkarl.php | 42 | – | 22 | 2/2 | SIGNIFICANT | OK | – | 172 |
 | behandla-pigmentflackar.php | 14 | – | – | –/– | SIGNIFICANT | GOOD | – | 16 |
 | hudproblem/hudforandringar/ | 10 | – | 17 | 3/2 | SIGNIFICANT | OK | – | 8 |
+
+### 2026-07-02 — Process-review (modellbyte till Fable 5) + state-synk: main-pushen var redan gjord
+**Kontext:** ägaren bad om en översyn av LYNX-processen efter byte till Fable 5.
+**Fynd + fix (gjort):** playbookens state-markörer var osynkade — §11-loggen sa "main pushad + produktion verifierad (1 jul)" medan LÄGE-bannern, §8, §9 och §11.1-tabellraderna fortfarande sa "väntar main-push". Git-verifierat 2 jul: origin/main = PR #236 → **alla 8 sidor LIVE**; enda commit kvar på staging = d3ce9162 (hudforandringar död debug-rad). Synkade LÄGE + §8 + §9 + §11.1-raderna. Rotorsak: sessionen som loggade main-pushen uppdaterade §11 + §11.1-rubriken men inte raderna/bannern. **Princip framåt: när ett tillstånd ändras, greppa filen efter den gamla frasen (t.ex. "väntar main-push") och synka ALLA förekomster** — bannern/tabellen är det en ny session litar på.
+**Process-bedömning (Fable 5): inga regeländringar.** Skyddsreglerna (§13) och facit-först behålls — de kodar verkliga incidenter, inte modellsvaghet; flaskhalsen just nu är LYNX-refresh-data, inte modellkapacitet. Rör inte §1.1–§1.4/§1.2 före första mätningen (omätta hypoteser, §10).
+**Föreslaget (väntar grönt ljus, ej gjort):** (a) standardisera adversariell workflow-verifiering (ipl-rosacea-upplägget, fångade 4 äkta fynd) som frivilligt §7-steg för autonomt gjorda sidor; (b) arkiv-policy: när en §11.1-rad är MÄTT och stängd flyttas dess §11-poster till en `lynx-log-arkiv.php` (playbooken är ~82 kB och läses top-to-bottom varje session; arkivera först EFTER mätning — FÖRE-data + prediktioner behövs i mät-loopen); (c) facit-kö: ägaren klistrar in per-block-facit för 2–3 Tier 1-sidor i förväg så sessioner inte blockeras på väntan; (d) frivilligt blindtest-rebaseline av §1.3-prediktorn med Fable 5 mot lynx-examples-korpusen (kan skärpa ±1-bandet; facit-först gäller oavsett); (e) attribuerings-disciplin: håll Fas 2-schema borta från de 8 mätsidorna tills refreshen är mätt (§13.G/H).
 
 ### 2026-07-01 — Ägaren pushade MAIN → produktion LIVE (mätstart) + produktions-verifiering
 **Milstolpe:** ägaren pushade `main` → alla omskrivna sidor är nu LIVE på produktion (`acnespecialisten.se`). **Mätklockan startar nu** (§10 / §11.1) — nästa steg är LYNX-refresh, sen mät FÖRE→EFTER.
@@ -472,13 +478,13 @@ LYNX skannar bara LIVE och refreshar med delay — **mätklockan startar när ä
 | Sida | Staging-push | Main-push (mätstart) | FÖRE-baseline | Prediktion (§10 steg 1) | Senaste LYNX-analys | Status |
 |---|---|---|---|---|---|---|
 | acne-ansikte.php | 2026-06-30 | **2026-06-30 (LIVE)** | SCORE "–", AI COPY SIGNIFICANT, KW57 | AI STYLE ↑, Depth/Evidence/sökord = | – | live på main 30 jun, verifierad 200 + nytt innehåll → **bevaka LYNX-refresh** |
-| ytliga-blodkarl.php | 2026-07-01 | *(väntar)* | SCORE 22, AI COPY SIGNIFICANT, KW172 | AI STYLE ↑ (öppningar+summeringar bort), Evidence ↑ (namngivna maskiner), Depth/E-E-A-T/sökord = | – | omskriven steg för steg → staging; **inväntar main-push + LYNX-refresh** |
-| behandla-pigmentflackar.php | 2026-07-01 | *(väntar)* | AI COPY SIGNIFICANT, SCORE –, AIQ GOOD, KW16 | block-gissningar 🔴/🟠→🔵 (öppningar+svansar), Evidence ↑ (metoder), sökord = | – | de-AI:ad → staging; **inväntar main-push + LYNX-refresh** |
-| hudforandringar/index.php | 2026-07-01 | *(väntar)* | AI COPY SIGNIFICANT, SCORE 17, GAPS 3/2, KW8 | block-gissningar 🔴/🟠→🔵 (öppningar+svansar), Evidence ↑, sökord = | – | de-AI:ad + H1-sökord (sep. commit) → staging; **inväntar main-push + LYNX-refresh** |
-| hudbehandlingar/ipl/ | 2026-07-01 | *(väntar)* | MODERATE, SCORE –, P.PRICE HIGH, KW19; per-block-facit 22 apr | 13× 🔴/🟠→SLIGHT/MOD; 3× 🔵/🟢 orörda | – | facit-guidad de-AI (Fas 3) → staging; **inväntar main-push + LYNX-refresh** |
-| om-oss.php | 2026-07-01 | *(väntar)* | MODERATE, VAL 8, SCORE 17, KW3; per-block-facit 22 apr | O01/O04 🟠 + O06/O07/O08 🔴 → SLIGHT/MOD; 🔵/🟢 orörda | – | facit-guidad de-AI (autonomt) → staging; **inväntar main-push + LYNX-refresh** |
-| acne.php | 2026-07-01 | *(väntar)* | 🔵 SLIGHT sidnivå, SCORE 39 (Depth77/Ev11/**AISTYLE30**), KW116; block-facit 22 apr | AI STYLE ↑ + Evidence ↑ (sidnivå kvar SLIGHT §1.4); Depth/E-E-A-T = | – | 10 🔴-block omskrivna (husröst-ref lämnad) → staging; **inväntar main-push + LYNX-refresh** |
-| ipl-rosacea.php | 2026-07-01 | *(väntar)* | MODERATE, SCORE 39 (CQ68/Ev46/EEAT85/**AISTYLE25**), P.PRICE HIGHEST, KW20; per-block-facit 29 apr | 7× 🔴/🟠→SLIGHT (median→SLIGHT §1.4); AI STYLE ↑↑, Depth/Evidence/E-E-A-T/sökord = | – | facit-guidad de-AI (Fas 3) + adversariellt workflow-verifierad → staging (verifierad 200 + nytt innehåll live); **inväntar main-push + LYNX-refresh** (kosmetisk title-attr-typo rad 64 `rosaceabehandlingr`→`rosaceabehandling` fixad) |
+| ytliga-blodkarl.php | 2026-07-01 | **2026-07-01 (LIVE)** | SCORE 22, AI COPY SIGNIFICANT, KW172 | AI STYLE ↑ (öppningar+summeringar bort), Evidence ↑ (namngivna maskiner), Depth/E-E-A-T/sökord = | – | omskriven steg för steg → staging; live på main (PR #236); **väntar LYNX-refresh** |
+| behandla-pigmentflackar.php | 2026-07-01 | **2026-07-01 (LIVE)** | AI COPY SIGNIFICANT, SCORE –, AIQ GOOD, KW16 | block-gissningar 🔴/🟠→🔵 (öppningar+svansar), Evidence ↑ (metoder), sökord = | – | de-AI:ad → staging; live på main (PR #236); **väntar LYNX-refresh** |
+| hudforandringar/index.php | 2026-07-01 | **2026-07-01 (LIVE)** | AI COPY SIGNIFICANT, SCORE 17, GAPS 3/2, KW8 | block-gissningar 🔴/🟠→🔵 (öppningar+svansar), Evidence ↑, sökord = | – | de-AI:ad + H1-sökord (sep. commit) → staging; live på main (PR #236); **väntar LYNX-refresh** |
+| hudbehandlingar/ipl/ | 2026-07-01 | **2026-07-01 (LIVE)** | MODERATE, SCORE –, P.PRICE HIGH, KW19; per-block-facit 22 apr | 13× 🔴/🟠→SLIGHT/MOD; 3× 🔵/🟢 orörda | – | facit-guidad de-AI (Fas 3) → staging; live på main (PR #236); **väntar LYNX-refresh** |
+| om-oss.php | 2026-07-01 | **2026-07-01 (LIVE)** | MODERATE, VAL 8, SCORE 17, KW3; per-block-facit 22 apr | O01/O04 🟠 + O06/O07/O08 🔴 → SLIGHT/MOD; 🔵/🟢 orörda | – | facit-guidad de-AI (autonomt) → staging; live på main (PR #236); **väntar LYNX-refresh** |
+| acne.php | 2026-07-01 | **2026-07-01 (LIVE)** | 🔵 SLIGHT sidnivå, SCORE 39 (Depth77/Ev11/**AISTYLE30**), KW116; block-facit 22 apr | AI STYLE ↑ + Evidence ↑ (sidnivå kvar SLIGHT §1.4); Depth/E-E-A-T = | – | 10 🔴-block omskrivna (husröst-ref lämnad) → staging; live på main (PR #236); **väntar LYNX-refresh** |
+| ipl-rosacea.php | 2026-07-01 | **2026-07-01 (LIVE)** | MODERATE, SCORE 39 (CQ68/Ev46/EEAT85/**AISTYLE25**), P.PRICE HIGHEST, KW20; per-block-facit 29 apr | 7× 🔴/🟠→SLIGHT (median→SLIGHT §1.4); AI STYLE ↑↑, Depth/Evidence/E-E-A-T/sökord = | – | facit-guidad de-AI (Fas 3) + adversariellt workflow-verifierad → staging (verifierad 200 + nytt innehåll live); live på main (PR #236); **väntar LYNX-refresh** (kosmetisk title-attr-typo rad 64 `rosaceabehandlingr`→`rosaceabehandling` fixad) |
 
 När en rad refreshats: mät (§10 steg 2–3), logga EFTER i §11 + lynx-data.php, förfina modellen (steg 4), backporta (steg 5), töm raden.
 
