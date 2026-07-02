@@ -64,6 +64,24 @@ Overall **50** · CQ 41 (Base **0**, Depth **89**, Evidence **76**, Language **0
 
 *seborroisk-keratos.php:* 18 Kan man ta bort seborroisk keratos själv? **GOOD** · 15 Hur får man bort seborroisk keratos? **GOOD** · 9 Vem tar bort seborroisk keratos? OK · 8 Hur snabbt växer seborroisk keratos? OK · 7 Kan seborroisk keratos försvinna av sig själv? OK · 7 Kan man behandla seborroisk keratos? **GOOD** · 7 Kan seborroisk keratos bli cancer? **GOOD** · 6 Hur tar man bort seborroisk keratos? **GOOD** · 5 Hur blir man av med keratoser? OK · 5 Är det okej att skrapa bort seborroisk keratos? **GOOD** · 4 Kan man ta bort keratos hemma? OK · 4 Varför får man seborroisk keratos? OK · 4 Bör seb-keratos tas bort? OK · 3 Hur får man bort seborré? OK
 
+**Pages-tabell, AICOPY-filter (2 jul — TREDJE leveransen samma dag; medföljde mogen-hy-facitet → `lynx-examples.php`).** Diff mot 30 jun-inventeringen. **Huvudfynd: INGEN refresh på de omskrivna sidorna** — hudforandringar/ytliga-blodkarl/om-oss/ipl-rosacea/ipl står kvar på gamla tiers+SCORE (bevakningen §11.1 fortsatt öppen). Små VAL/KW-drifter = brus. Två riktiga ändringar: **GAPS rensade** på ytliga-blodkarl (2/2→0/0) + ipl-rosacea (2/1→0/0), och **microdermabrasion AIQ GOOD→OK** (försämrad).
+
+| URL | VAL 30 jun→2 jul | SCORE | GAPS | AICOPY | AIQ | P.PRICE | KW | Klass |
+|---|---|---|---|---|---|---|---|---|
+| /hudproblem/hudforandringar/ | 10→10 | 17→17 | 3/2→3/2 | 🔴 SIGNIFICANT | OK | – | 8→7 | OFÖRÄNDRAT (omskriven live, ej refreshad) |
+| /ytliga-blodkarl.php | 42→**36** | 22→22 | 2/2→**0/0** | 🔴 SIGNIFICANT | OK | – | 172→168 | GAPS RENSADE; tier/SCORE ej refreshade (omskriven) |
+| /hudbehandlingar/ipl/ | 35→34 | –→– | –/– | 🟠 MODERATE | OK | HIGH | 19→18 | ~oförändrat (omskriven, ej refreshad) |
+| /hudproblem/bristningar/ | 18→18 | 18→18 | 0/0→0/0 | 🟠 MODERATE | OK | – | 66→67 | oförändrat |
+| /hudproblem/oonskat-har/ | 11→11 | –→– | –/– | 🟠 MODERATE | OK | – | 16→16 | oförändrat |
+| /ipl-rosacea.php | 54→55 | 39→39 | 2/1→**0/0** | 🟠 MODERATE | OK | HIGHEST | 20→20 | GAPS RENSADE; tier ej refreshad (omskriven) |
+| /microdermabrasion.php | 31→30 | –→– | –/– | 🟠 MODERATE | **GOOD→OK** | MID | 6→6 | AIQ FÖRSÄMRAD |
+| /mogen-hy.php | 11→12 | –→– | –/– | 🟠 MODERATE | OK | – | 10→9 | oförändrat; **per-block-facit sparat 2 jul → `lynx-examples.php`** |
+| /om-oss.php | 8→7 | 17→17 | 2/2→2/2 | 🟠 MODERATE | OK | – | 3→2 | OFÖRÄNDRAT (omskriven, ej refreshad) |
+| /pigmentflackar.php | 35→34 | 35→35 | 0/0→0/0 | 🟠 MODERATE | OK | – | 244→237 | oförändrat |
+| /rhinophyma-rosacea.php | 34→34 | 10→10 | 0/0→0/0 | 🟠 MODERATE | OK | – | 46→47 | oförändrat |
+| /solskadad-hy.php | 31→30 | –→– | –/– | 🟠 MODERATE | OK | – | 30→31 | oförändrat |
+| /behandlingar.php | 13→14 | –→– | –/– | 🔵 SLIGHT | OK | – | 0→0 | oförändrat |
+
 ## Snapshot 2026-06-30 — komplett inventering (före omskrivningar)
 
 ### 🔴 SIGNIFICANT (4) — PRIO 1 (skrivs om nu)
