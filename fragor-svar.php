@@ -82,7 +82,7 @@ $faq_categories = array(
         ),
         new Question(
             title: 'Hur fungerar länken till mitt online-möte?',
-            text: '<p class="p200">För bokningar gjorda från och med juni 2026 skickar vi en Google Meet-länk i ditt bekräftelsemejl – klicka på länken på din bokade tid så är du direkt inne i mötet. Konsultationer som bokades innan dess sker via FaceTime, där vi ringer upp dig på din bokade tid.</p>'
+            text: '<p class="p200">Ditt online-möte sker via Google Meet. Vi skickar en Google Meet-länk i ditt bekräftelsemejl, och du klickar på länken på din bokade tid så är du direkt inne i mötet.</p>'
         ),
     ),
     'Produkter' => array(
