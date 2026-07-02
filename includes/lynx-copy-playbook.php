@@ -10,7 +10,7 @@ Säger användaren typ *"vi fortsätter med LYNX-uppgifterna"* eller klistrar in
 
 **📥 Facit-flöde (så mätdata kommer in — LYNX saknar export):** ägaren **klistrar in LYNX-facit** (skärmbild/text) — men **avgör alltid FÖRST vad syftet är**, ägaren säger inte alltid rakt ut. Två lägen: **(a) Per sida (riktat)** = facit för en sida vi jobbar på → spara baseline + kör §7 på just den sidan. **(b) Bunt statistik (inventering)** = många sidors kolumn-data på en gång → **diffa mot `lynx-data.php`** och klassa varje rad: **NYTT/ÄNDRAT** (efter en main-push = mätdata → kör mät-loopen §10, FÖRE→EFTER + validera modell; nya sidor → uppdatera baseline + prio §9.1) vs **OFÖRÄNDRAT** (notera bara, ingen åtgärd — LYNX kanske inte refreshat än). **Oavsett läge: SPARA FÖRST, agera sen** — spara rådatan (per-block → `lynx-examples.php`, sid-/kolumndata → `lynx-data.php`, notera FÖRE→EFTER), agera sen (rewrite/prio/mätning §10) och **gör en TODO (§9) för det som ska åtgärdas**. Agera aldrig på facit utan att först spara; det är vår enda mätkälla.
 
-> **🟢 LÄGE 2026-07-02 (ny session startar här):** **8 sidor omskrivna och LIVE på main** (PR #236 mergad, git-verifierat 2 jul): acne-ansikte, ytliga-blodkarl, behandla-pigmentflackar, hudforandringar, hudbehandlingar/ipl, om-oss, acne.php, ipl-rosacea. Alla facit-guidade (§13.D). **Enda commit kvar på staging:** d3ce9162 (hudforandringar död debug-rad) — väntar ägarens nästa main-push. **Kör 1 Claude i taget (§0.1) — parallellt övergivet.** **Modeller byggda:** AI COPY-rubrik v5 (§1.3, ±1-band; 3:e blindtestet kört 2 jul, Fable 5), sidnivå=MEDIAN av block (§1.4), SCORE=CQ×EEAT×AI/3640 multiplikativt (§1.2, validerat). **Process-optimeringar 2 jul:** §7.4b adversariell verifiering standard, arkiv-policy §11 (`lynx-log-arkiv.php`), facit-kö §9.1, Fas 2-attribueringsvakt §9. **Väntar på:** LYNX-refresh → kör mät-loopen (§10): mät FÖRE→EFTER per §11.1-bevakningslistan, validera modellerna (acne.php = A/B-test av SCORE/AI STYLE-spaken). **Nästa sidor:** §9.1-backlog, Tier 1 = Homepage (KW296), pigmentflackar (238), rosacea (221), perioral-dermatit (194) — **hämta per-block-facit FÖRST** för var och en. **Data-princip:** spara allt ägaren skickar (lynx-data/examples), diffa vid ny scan, påminn om uppdateringar.
+> **🟢 LÄGE 2026-07-02 (ny session startar här):** **8 sidor omskrivna och LIVE på main** (PR #236 mergad, git-verifierat 2 jul): acne-ansikte, ytliga-blodkarl, behandla-pigmentflackar, hudforandringar, hudbehandlingar/ipl, om-oss, acne.php, ipl-rosacea. Alla facit-guidade (§13.D). **Enda commit kvar på staging:** d3ce9162 (hudforandringar död debug-rad) — väntar ägarens nästa main-push. **Kör 1 Claude i taget (§0.1) — parallellt övergivet.** **Modeller byggda:** AI COPY-rubrik v5 (§1.3, ±1-band; 3:e blindtestet kört 2 jul, Fable 5), sidnivå=MEDIAN av block (§1.4), SCORE=CQ×EEAT×AI/3640 multiplikativt (§1.2, validerat). **Process-optimeringar 2 jul:** §7.4b adversariell verifiering standard, arkiv-policy §11 (`lynx-log-arkiv.php`), facit-kö §9.1, Fas 2-attribueringsvakt §9. **Väntar på:** LYNX-refresh → kör mät-loopen (§10): mät FÖRE→EFTER per §11.1-bevakningslistan, validera modellerna (acne.php = A/B-test av SCORE/AI STYLE-spaken). **Nästa arbete:** **Fas 3b-kön (§9) = 4 facit-klara sidor** (microneedling, portomning, acne-rygg, seborroisk-keratos — rewrite i EGEN session, ägarbesked 2 jul; fler sidor aviserade); därefter Tier 1 (§9.1: Homepage KW296, pigmentflackar 238, rosacea 221, perioral-dermatit 194 — facit först). **⚠️ Mätvarning 2 jul:** LYNX verkar ha ny version/skala — §1.2 OMPRÖVAS (SCORE 0 = trasig analys; 39-taket brutet utan våra ändringar); jämför färsk-mot-färsk, inte mot 30 jun-baselines (§11.1). §1.4 median-modellen nu 10/10. **Data-princip:** spara allt ägaren skickar (lynx-data/examples), diffa vid ny scan, påminn om uppdateringar.
 
 - **Uppdrag (pågår tills allt är klart):** skriv om sidor som LYNX flaggar för AI COPY (SIGNIFICANT/MODERATE) så varje textblock når **minst SLIGHT** (HUMAN där blocket naturligt tillåter, §1.1) och läser som människa, **utan att tappa sökord/ranking**. **Slutmål: LYNX helt grönt/korrekt** på alla signaler — AI COPY först → FAQPage-schema (AI QUESTIONS) → `$rich_product` (PAGE TYPE/P. PRICE) → gap-punkter → sedan löpande. **Status & nästa sida:** §9 (TODO), §11 (logg/baseline), §12 (claims).
 - **Trigger per sida: hämta ALLTID sidans NUVARANDE LYNX per-block-status FÖRST, innan du redigerar** — inte "lär modellen en gång och kör resten på egen bedömning"; dra in LYNX för varje sida. Följ §7: spara baseline (§11) → **prioritera 🔴/🟠/🟥 (skriv om dem), men se ÄVEN över 🔵/🟢 med LÄTT HAND** (bara tydliga fixar: typo, grammatik, tappat sökord, uppenbar tell; INGEN stilistisk över-omskrivning av OK-block = v3-felet, §1.3) enligt §2 + §4 + §5 → kör §3 + §6 + §13 → logga (§11) → committa + pusha **`staging`**. *(Saknas facit: gissa med §1.3-modellen (±1-band, ej facit), lämna hellre vid SLIGHT↔MODERATE-tvivel.)*
@@ -87,6 +87,8 @@ Axeln = **fyllnad/mall ↔ rak konkret täthet**. Bekräftat mot facit på acne.
 ---
 
 ## 1.2 SCORE-modellen — komponenter, sajt-tak & copy-spakar (prediktiv, validera mot refresh)
+**⚠️ OMPRÖVAS (2026-07-02, fyra färska analyser — rådata i lynx-data-snapshot 2 jul, resonemang i §11):** (1) **SCORE 0 = trasig/tom analys**, inte dålig sida (acne-rygg = 0 på ALLA komponenter; seborroisk 0→74 vid omkörning) → re-analysera 0-sidor innan slutsats. (2) **"39-taket" brutet UTAN våra ändringar** (seborroisk 74, portomning 60, microneedling 50) → LYNX verkar ha ny version/skala; **30 jun-baselines EJ jämförbara med färska analyser — mät färsk-mot-färsk.** (3) **AI STYLE 0 på färska analyser = troligen "ej beräknad än"** (AI Copy-vyn äldre datum; seborroisk fick 50 = första uppmätta >30). (4) **Aggregeringen ser ändrad ut:** EEAT-badge 60 ≠ sub-medel 81–85 på färska; Overall ≈ medel(CQ-badge, EEAT-badge) passar micro+porto, nästan sebo. **Bygg INGEN ny formel förrän fler färska breakdowns finns (§10); multiplikations-modellen nedan beskriver 30 jun-datan och står kvar som historik/hypotes.**
+
 SCORE (0–100) ≠ AI COPY-flaggan men lyfts av samma jobb. Komponenter: **CONTENT QUALITY** (Base, Depth, Evidence, Language, Readability) + **E-E-A-T** (Experience, Expertise, Authority, Trust) + **AI STYLE** (Human-like). Baselines + sajt-tak (rådata) i `lynx-data.php`.
 
 **VALIDERAD aggregeringsmodell (reverse-engineerat 2026-07-01, passar 5/5 datapunkter inom ±1–2 p):** **Overall ≈ CONTENT QUALITY × E-E-A-T × AI STYLE / ~3640** — MULTIPLIKATIVT, inte viktat medel. Bevis: hudforandringars Overall 17 ligger UNDER dess lägsta block (AI 25); ett medel kan aldrig hamna under sitt minsta värde → linjärt uteslutet. CQ = medel av sina 5 subs, E-E-A-T = medel av sina 4. K≈3640 (±5% brus). Fakta om varje komponent + full härledning i `lynx-examples.php`.
@@ -132,7 +134,7 @@ Gissa en blocks AI COPY-tier (🟥 EXTREME > 🔴 SIGNIFICANT > 🟠 MODERATE > 
 ---
 
 ## 1.4 Sidnivå ≈ MEDIAN av block-tiers (hur LYNX aggregerar block → sida)
-LYNX ger både **sidnivå-AI COPY** (Pages-listan) och **per-block-facit** (AI Copy-vyn). Reverse-engineerat 2026-07-01: **sidnivån ≈ MEDIAN-tiern av alla renderade block** (mittblocket sorterat 🟢→🟥; räkna även responsiva dubbletter; gränsfall rundar mot värre tier). Validerat **6/6** (acne.php median 🔵 = SLIGHT; acnebehandling 🔵 = SLIGHT; om-oss 🟠 = MODERATE; ipl 🟠 = MODERATE; behandla-pigment 🔴 = SIGNIFICANT; hudforandringar 🔴 = SIGNIFICANT). Full härledning i `lynx-examples.php`.
+LYNX ger både **sidnivå-AI COPY** (Pages-listan) och **per-block-facit** (AI Copy-vyn). Reverse-engineerat 2026-07-01: **sidnivån ≈ MEDIAN-tiern av alla renderade block** (mittblocket sorterat 🟢→🟥; räkna även responsiva dubbletter; gränsfall rundar mot värre tier). Validerat **10/10** (acne.php 🔵 SLIGHT; acnebehandling 🔵; om-oss 🟠 MODERATE; ipl 🟠; behandla-pigment 🔴 SIGNIFICANT; hudforandringar 🔴; + 2 jul: microneedling 🔵, portomning 🔵, acne-rygg 🔵, seborroisk-keratos 🔵 — alla ✓). Full härledning i `lynx-examples.php`. **Starkaste modellen vi har.**
 
 **Förklarar paradoxen** "SLIGHT-sida med många 🔴-block": sidnivån är MEDIANEN, inte värsta blocket (acne.php har ~10 🔴 men ännu fler korta 🔵-definitioner + 🟢-omdömen → median 🔵).
 
@@ -316,6 +318,14 @@ Från LYNX "Quick wins / Recommended improvements". Beslut enligt §5 (kosmetisk
 - HIGH För brett fokus → **GÖR: smalna av** till seborroisk keratos (mjällvårtor).
 - MEDIUM Information om skrapning (curettage) → **GÖR: nämn + jämför** med våra metoder (Laser/CryoPen), kosmetiskt ramat.
 
+**microneedling.php** (facit ✅ 2 jul; gap-texter 2 jul)
+- LOW ⚡ "microneedling kur" i herosektionen → **GÖR vid rewrite** (frasen finns redan i eftervårdsblocket; integrera naturligt vid paketpriserna, §6-koll).
+- HIGH 💡 Kombinationsbehandlingar Exosomer + Polynukleotider → **VÄNTAR på kliniken** (§9-TODO gated på lansering; §5: inga behandlingar vi inte erbjuder).
+
+**acne-rygg.php** (facit ✅ 2 jul; gap-texter 2 jul)
+- LOW ⚡ Tips om hårvårdsprodukter och sängkläder → **GÖR med lätt hand** (generiska livsstilsråd i stil med befintlig friktions-text: tvätta sängkläder, skölj bort hårprodukter — INGA ingredienser/produktnamn §5; håll kort).
+- LOW ⚡ Synonymer "ryggakne" + "rygg akne" → **GÖR** (integrera naturligt i brödtext; grep-koll §6 att befintliga fraser hålls).
+
 **acne-ansikte.php / behandla-pigmentflackar.php:** inga LYNX gap-punkter (GAPS = ⚡-/💡-); bara AI COPY-omskrivning.
 
 ---
@@ -340,14 +350,21 @@ Kryssa här. Start/stopp-vänligt: status = §9 + §11 (logg) + §12 (claims). P
 **Fas 3 — MODERATE-vågen** (efter schema)
 - [~] MODERATE-vågen: ✅ om-oss + hudbehandlingar/ipl + ipl-rosacea klara; **7 kvar** (§8). Körs facit-drivet parallellt när per-block-facit finns — **ej grindat efter schema** (Fas 2 är ett fristående spår). Prioordning: **§9.1**.
 
+**Fas 3b — facit-klara sidor (rewrite i SEPARAT session, ägarbesked 2 jul; alla sidnivå 🔵 → §1.4: SCORE/AI STYLE-vinst, ej flagg-vinst)**
+- [ ] `microneedling.php` (KW70, SCORE 50 färsk; facit 22 apr: 4🔴/2🟠) — de-AI + "microneedling kur"-gapet (§8.1) + typo "markanden".
+- [ ] `portomning.php` (KW28, SCORE 60 färsk; facit 24 jun: 2🟠) — lätt pass: importans-öppningar/svansar + typos ("ansiktet,ryggen", "brötstet").
+- [ ] `acne-rygg.php` (KW51, SCORE 0 = trasig analys, be om omkörning; facit 25 apr: 3🔴/1🟠) — de-AI + 2 grammatikfel live + gap-punkter (§8.1).
+- [ ] `seborroisk-keratos.php` (KW110, SCORE 74 färsk; facit 25 apr: 2🔴/2🟠) — de-AI + grammatikfel (CryoPen-blocket) + §8.1-gaps (smalna av, curettage).
+
 **Löpande / avslut**
 - [ ] LYNX justeringsloop (§10) — läs varje refresh, uppdatera §11 + lynx-data.php.
 - [ ] Mät-loop & modell-förfining (§10): prediktera före, mät efter, förfina §1.1/§1.2, **backporta lärdomar till redan gjorda sidor**.
 - [ ] **Gå igenom `hudproblem/hudforandringar/index.php` (mall-review)** — en pre-existerande död debug-rad (`$types_url`, rad 777) läckte en synlig PHP-warning på live (nu borttagen). Kontrollera om mallen har mer cruft/latenta buggar: andra utkommenterade `<?php echo $var ?>`, odefinierade variabler, gamla debug-rester. *(Temporär TODO här tills sidan är genomgången.)*
 - [x] (Löst) Filerna är `.php` med `<?php exit;` → renderas tomma på webben; behöver inte raderas.
 
-**Parkerat**
+**Parkerat / väntar externt**
 - [P] Dubbel `title`-attribut i widgets (§8 — beslut: skippa).
+- [V] **Exosomer + polynukleotider (kombinationsbehandlingar) på microneedling.php** — LYNX HIGH-gap 2 jul (konkurrenter: Akademikliniken, Nordiska Kliniken lyfter det); **väntar på att kliniken lanserar behandlingen** (ägaren 2 jul: "vi ska introducera exosomer"). När den finns: eget kort/block på microneedling.php i husröst (§4) inom §5-ramarna + silo-beslut om ev. egen sida. Skriv INGET innan ägaren bekräftar att tjänsten är live.
 
 ---
 
@@ -361,9 +378,9 @@ Från LYNX-inventeringen (`lynx-data.php` + Pages-listan). Prio = AI COPY-svåri
 4. `perioral-dermatit.php` — KW194, 🔵, SCORE –.
 
 **Tier 2 — hög-KW SLIGHT, låg/0 SCORE + gaps (enskilda block kan vara 🔴):**
-blodprickar (175, SCORE17) · milier (173, 37) · seborre (168, –) · pormaskar (128, 32) · acnearr (127, **SCORE0**+gaps) · **acne.php (116 — FACIT ✅ MOTTAGEN 1 jul: ~10 🔴-block, redo; husröst-REFERENS → LÄMNA dess 🔵/🟢-block)** · seborroisk-keratos (110, **0**) · hudflikar (105, 28) · finnar (101, silo).
+blodprickar (175, SCORE17) · milier (173, 37) · seborre (168, –) · pormaskar (128, 32) · acnearr (127, **SCORE0** = trolig trasig analys §1.2, +gaps) · **acne.php (116 — FACIT ✅ MOTTAGEN 1 jul: ~10 🔴-block, redo; husröst-REFERENS → LÄMNA dess 🔵/🟢-block)** · **seborroisk-keratos (110, 74 färsk — FACIT ✅ 2 jul, i Fas 3b-kön)** · hudflikar (105, 28) · finnar (101, silo).
 
-**Tier 3 — resterande MODERATE + mellan-KW SLIGHT (~KW40–71):** permanent-harborttagning · microneedling · finnar-rygg · **bristningar (🟠)** · fodelsemarken · stora-porer (0) · fet-hy · roaccutan · cryopen · alma-hybrid-co2 · dermapen · kemisk-peeling (gaps) · acne-rygg (0) · **rhinophyma-rosacea (🟠)** · finnar-gravid · behandla-stora-porer · acne-brost · inflammation-acne · **solskadad-hy (🟠)** · ~~ipl-rosacea (🟠, P.PRICE HIGHEST)~~ ✅ KLAR → staging · **oonskat-har (🟠)** · **mogen-hy (🟠)** · **microdermabrasion (🟠)**.
+**Tier 3 — resterande MODERATE + mellan-KW SLIGHT (~KW40–71):** permanent-harborttagning · **microneedling (FACIT ✅ 2 jul — Fas 3b-kön)** · finnar-rygg · **bristningar (🟠)** · fodelsemarken · stora-porer (0) · fet-hy · roaccutan · cryopen · alma-hybrid-co2 · dermapen · kemisk-peeling (gaps) · **acne-rygg (FACIT ✅ 2 jul — Fas 3b-kön; SCORE 0 = trasig analys)** · **rhinophyma-rosacea (🟠)** · finnar-gravid · behandla-stora-porer · acne-brost · inflammation-acne · **solskadad-hy (🟠)** · ~~ipl-rosacea (🟠, P.PRICE HIGHEST)~~ ✅ KLAR → staging · **oonskat-har (🟠)** · **mogen-hy (🟠)** · **microdermabrasion (🟠)**.
 
 **Tier 4–5 — lägre-KW SLIGHT + HUMAN utility/brand/resultat (lägst prio, batch):** ~60 sidor KW≤38 (full sorterad lista i `lynx-data.php`). HUMAN-sidor (myter, ordlista, priser, recensioner, hudguide…) = bara lätt städning, ej full omskrivning; skydda Trust-bärande widgets. Blanka (avbokningspolicy, karriar) = be om facit vid behov.
 
@@ -398,6 +415,11 @@ Korrelera mot LYNX-refresh. Senaste först. Spara alltid **LYNX-baseline** (FÖR
 | ytliga-blodkarl.php | 42 | – | 22 | 2/2 | SIGNIFICANT | OK | – | 172 |
 | behandla-pigmentflackar.php | 14 | – | – | –/– | SIGNIFICANT | GOOD | – | 16 |
 | hudproblem/hudforandringar/ | 10 | – | 17 | 3/2 | SIGNIFICANT | OK | – | 8 |
+
+### 2026-07-02 — STOR facit-leverans (4 sidor) + färska SCORE-analyser → §1.2 OMPRÖVAS, §1.4 nu 10/10
+**Inkommet (15 skärmdumpar; allt sparat i lynx-data + lynx-examples FÖRST per §0):** per-block-facit för **microneedling** (22 apr: 4🔴/2🟠/7🔵/3🟢), **portomning** (24 jun: 2🟠/5🔵/2🟢), **acne-rygg** (25 apr: 3🔴/1🟠/11🔵/1🟢), **seborroisk-keratos** (25 apr: 2🔴/2🟠/5🔵/3🟢) + färska SCORE-nedbrytningar (micro 50, porto 60, sebo **74 med AI STYLE 50**) + acne-rygg SCORE 0 = ALLA komponenter 0 + gap-texter (micro ×2, acne-rygg ×2, exosomer-gapet).
+**Modellfynd:** (1) **SCORE 0 = trasig/tom analys** → omkörning krävs innan bedömning. (2) **"39-taket" brutet utan våra ändringar** → ny LYNX-version/skala trolig; 30 jun-baselines EJ jämförbara — mät färsk-mot-färsk (§11.1-varning tillagd). (3) AI STYLE 0 på färska = troligen obereäknad; sebo 50 = första uppmätta >30. (4) Aggregering ändrad/oklar (EEAT-badge 60 ≠ sub-medel; Overall ≈ medel(CQ,EEAT) passar 2,5/3) → **§1.2 markerad OMPRÖVAS; ingen ny formel förrän fler färska breakdowns.** (5) **§1.4 median: 4 nya träffar → 10/10** — vår starkaste modell. (6) §1.1/§1.3-stöd i nya facit: sebo lång-definition-utan-mekanism = 🔴 (ytliga-mönstret ✓); acne-rygg kort+marknad utan pivot = 🔴 (v5 regel 2 ✓); **ny nyans: "flera olika faktorer"-öppning fäller INTE när konkretiseringen kommer direkt i mening 2** (acne-rygg 🔵 — noterad, ej regeländring än, §1.3:s ≥2-sidor-regel).
+**Beslut (ägarens, 2 jul):** micro + porto togs först (högst VALUE i default-sortering), acne-rygg + sebo också klara; **denna session = data + modellöversyn, sidfixarna görs i SEPARAT session** → **Fas 3b-kö skapad i §9** (4 sidor med rewrite-ammo: 5 live-typos/grammatikfel + §8.1-gapbeslut). **Exosomer-TODO** tillagd i §9 (gated på klinikens lansering). Fler sidor aviserade från ägaren.
 
 ### 2026-07-02 — Optimeringarna genomförda (a–e) + blindtest 3 → §1.3 v5
 **Gjort (ägarens grönt ljus på alla fem förslagen):** (a) **§7.4b** adversariell verifiering standardiserad (bantad: 1 bedömare räcker, se nedan); (b) **arkiv-policy** i §11 + `lynx-log-arkiv.php` skapad; 5 ratificerade/ersatta §11-poster arkiverade (~8,5 kB — playbooken krymper vidare mot ~55–60 kB när mätrundan stänger sid-posterna); (c) **facit-kö** inskriven i §9.1; (d) **blindtest 3** kört (nedan); (e) **Fas 2-attribueringsvakt** i §9.
@@ -463,6 +485,7 @@ Korrelera mot LYNX-refresh. Senaste först. Spara alltid **LYNX-baseline** (FÖR
 
 ## 11.1 Bevakningslista — sidor som väntar på LYNX-refresh (mät-loopen, §10 steg 2)
 LYNX skannar bara LIVE och refreshar med delay — **mätklockan startar när ägaren pushar `main`**, inte vid staging. Vi kan inte polla LYNX (ingen export/API); ägaren droppar ny skärmdump när LYNX uppdaterat, då mäter vi delta mot FÖRE-baseline + prediktion. Listan = vad vi väntar på, så inget glöms. **▶ 2026-07-01: ägaren pushade main → mätstart igång för alla rader nedan; produktion verifierad (se §11-loggen överst; hudforandringar-warning fixad, väntar nästa main-push).**
+**⚠️ 2026-07-02 — mätregeln skärpt:** LYNX verkar ha ny version/skala (§1.2 OMPRÖVAS: SCORE 0 = trasig analys, 39-taket brutet utan våra ändringar, aggregering ändrad). **Jämför INTE färska analyser rakt av mot FÖRE-baselines från 30 jun** — vid refresh: läs FÖRE-värdet som osäkert, väg per-block-AI COPY (stabil vy) tyngre än SCORE-deltan, och be ägaren köra FÄRSK analys som ny baseline där det går.
 
 | Sida | Staging-push | Main-push (mätstart) | FÖRE-baseline | Prediktion (§10 steg 1) | Senaste LYNX-analys | Status |
 |---|---|---|---|---|---|---|

@@ -4,6 +4,56 @@
 > LYNX saknar exportfunktion, så detta är vår **manuella databas** över LYNX Pages-data. Mata in ny data vid varje refresh (ny daterad snapshot) så vi kan jämföra FÖRE/EFTER. Hör ihop med `includes/lynx-copy-playbook.php`. Kolumner: VAL (value), PT (page type), SCORE, GAPS (⚡innehåll/💡keyword), AICOPY, AIQ, P.PRICE, KW. *Transkriberat från skärmdumpar 2026-06-30 — verifiera mot LYNX vid hårda beslut.*
 > **Data-hantering (princip 2026-07-01):** spara ALLT ägaren skickar (sidnivå + block + SCORE-breakdown + AI QUESTIONS) här/​i `lynx-examples.php` som underlag. Vid **ny scanning: diffa mot sparad data** → vad ändrades, vad förbättrades/försämrades, vad bör åtgärdas. **Påminn ägaren om att skicka uppdateringar** om de dröjer (vi kan inte polla LYNX själva).
 
+## Snapshot 2026-07-02 — PARTIELL (riktad färsk analys av microneedling.php + synliga grannrader)
+> Ägaren körde färsk analys på microneedling.php ("Analyzed 2 minutes ago") och skickade Pages-rader + SCORE-nedbrytning + AI Copy-facit (facit-datum 22 apr = originaltext, sparat i `lynx-examples.php`) + gap-texter. **INGEN bekräftad sajtbred refresh** — §11.1-bevakningssidorna syns inte i dumpen (utom ipl-rosacea, oförändrad 39).
+
+| URL | VAL 30 jun→2 jul | SCORE 30 jun→2 jul | GAPS 30 jun→2 jul | Klass |
+|---|---|---|---|---|
+| /microneedling.php | 66→**67** | 28→**50** | 2/0→**1/1** | ÄNDRAT (färsk analys, nedbrytning nedan) |
+| /portomning.php | 65→66 | 37→**60** | 0/0→0/0 | ÄNDRAT |
+| /seborroisk-keratos.php | 60→63 | 0→**74** | 1/2→0/0 | ÄNDRAT |
+| /acne-rygg.php | 63→64 | 0→0 | 1/2→2/0 | GAPS ändrade |
+| /blodprickar.php | 59→59 | 17→17 | 1/1→0/0 | GAPS ändrade |
+| /djuprengoring.php | 56→57 | 0→0 | 0/1→0/0 | ~oförändrat |
+| /cystisk-acne.php | 58→56 | 0→0 | – | ~oförändrat |
+| /ipl-rosacea.php | 54→55 | **39→39** | – | OFÖRÄNDRAT (§11.1-bevakad — EFTER-värde ej här än) |
+| /resultat-rosacea.php | 54→53 | 0→0 | – | ~oförändrat |
+| /mallorca-acne.php | 51→53 | 25→25 | – | ~oförändrat |
+
+**microneedling.php SCORE-nedbrytning (färsk 2 jul) — ⚠️ ANOMALI, troligen PARTIELL/pågående analys:**
+Overall **50** · CQ 41 (Base **0**, Depth **89**, Evidence **76**, Language **0**, Readability **0**) · E-E-A-T 60 (Exp 85, Expertis 80, Auth 85, Trust **90**) · AI STYLE **0** (Human-like **0**).
+⚠️ Tre skäl att misstänka partiell data: (1) Overall 50 med AI STYLE 0 motsäger §1.2-formeln (produkten ger 0); (2) CQ 41 ≠ medel av sina subs (33); (3) nollorna sitter på komponenter som har värden på alla andra sidor. **→ be ägaren om ny skärmdump när analysen satt sig; justera INTE §1.2 på denna datapunkt.** (Depth 89 + Evidence 76 = högsta uppmätta hittills om de står sig.)
+
+**Gap-texter microneedling.php (2 jul):**
+- ⚡ LOW (quick win): integrera sökordet **"microneedling kur"** i herosektionen — paketpriser för 3/5 behandlingar visas där men frasen används inte för att förklara vikten av upprepade behandlingar. *(OBS: frasen finns redan i eftervårdsblocket — gapet gäller hero-/prissektionen.)*
+- 💡 HIGH (rec. improvement): **"Kombinationsbehandlingar med Exosomer och Polynukleotider"** — toppkonkurrenter (Akademikliniken, Nordiska Kliniken) lyfter fram dessa. **Beslut: VÄNTAR — kliniken erbjuder inte exosomer än; ägaren planerar introducera → §9-TODO gated på lansering (§5: inga behandlingar vi inte har).**
+
+**Fler färska SCORE-nedbrytningar (2 jul; micro/porto/sebo "Analyzed 2 minutes ago", acne-rygg "31 days ago"):**
+| Komponent | portomning (60) | seborroisk-keratos (74) | acne-rygg (0) |
+|---|---|---|---|
+| CONTENT QUALITY | 60 | 85 | 0 |
+| – Base Quality | 95 | 85 | 0 |
+| – Depth | 93 | 84 | 0 |
+| – Evidence | 81 | 74 | 0 |
+| – Language | 96 | 95 | 0 |
+| – Readability | 98 | 90 | 0 |
+| E-E-A-T | 60 | 60 | 0 |
+| – Experience | 85 | 85 | 0 |
+| – Expertise | 80 | 80 | 0 |
+| – Authority | 85 | 75 | 0 |
+| – Trust | 90 | 85 | 0 |
+| AI STYLE (Human-like) | 0 | **50** | 0 |
+
+**Modellimplikationer 2 jul (→ §1.2 OMPRÖVAS, se playbook §11-loggen):**
+1. **SCORE 0 = trasig/tom analys, inte dålig sida.** acne-rygg = 0 på ALLA komponenter (gammal analys); seborroisk gick 0→74 vid omkörning. → Re-analysera alla 0-sidor innan bedömning (acnearr, stora-porer, cystisk-acne, djuprengoring, resultat-*, microneedling-acnearr m.fl.).
+2. **"39-taket" brutet UTAN våra ändringar:** seborroisk 74, portomning 60, microneedling 50. LYNX verkar ha ny version/skala (alt. var gamla värden stale). **30 jun-baselines är EJ jämförbara med färska analyser — mätregel: FÖRE→EFTER kräver färsk-mot-färsk.**
+3. **AI STYLE 0 på 3 av 4 färska** trots äldre AI Copy-datum → troligen "ej beräknad än", inte äkta nolla. Seborroisk fick **50** = första uppmätta värdet över 30.
+4. **Aggregeringen ändrad/oklar på färska analyser:** E-E-A-T-badge = 60 på alla tre trots sub-medel 81–85 (30 jun-datan hade badge = sub-medel); portomning CQ-badge 60 trots sub-medel 92,6. Overall ≈ medel(CQ-badge, EEAT-badge) passar micro 50 + porto 60 och nästan sebo (72,5 vs 74). **För få datapunkter — samla fler färska breakdowns innan ny formel (§10); tvinga inte fram en modell ur brus.**
+
+**Gap-texter acne-rygg.php (2 jul — 2 quick wins, 0 suggestions):**
+- ⚡ LOW: lägg till specifika tips om hårvårdsprodukter och sängkläder.
+- ⚡ LOW: integrera synonymerna "ryggakne" och "rygg akne".
+
 ## Snapshot 2026-06-30 — komplett inventering (före omskrivningar)
 
 ### 🔴 SIGNIFICANT (4) — PRIO 1 (skrivs om nu)
