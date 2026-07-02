@@ -4,6 +4,23 @@
 > LYNX saknar exportfunktion, så detta är vår **manuella databas** över LYNX Pages-data. Mata in ny data vid varje refresh (ny daterad snapshot) så vi kan jämföra FÖRE/EFTER. Hör ihop med `includes/lynx-copy-playbook.php`. Kolumner: VAL (value), PT (page type), SCORE, GAPS (⚡innehåll/💡keyword), AICOPY, AIQ, P.PRICE, KW. *Transkriberat från skärmdumpar 2026-06-30 — verifiera mot LYNX vid hårda beslut.*
 > **Data-hantering (princip 2026-07-01):** spara ALLT ägaren skickar (sidnivå + block + SCORE-breakdown + AI QUESTIONS) här/​i `lynx-examples.php` som underlag. Vid **ny scanning: diffa mot sparad data** → vad ändrades, vad förbättrades/försämrades, vad bör åtgärdas. **Påminn ägaren om att skicka uppdateringar** om de dröjer (vi kan inte polla LYNX själva).
 
+## OFFICIELLA KOLUMN-DEFINITIONER (LYNX-tooltips, mottagna 2 jul 15:00 — ersätter våra gissningar)
+| Kolumn | Officiell definition (ordagrant ur tooltip) | Modell-implikation |
+|---|---|---|
+| **VALUE** | "How this page's value compares to your other pages (higher is better)." | Internt RELATIVT värde — ok för prio, ej absolut. |
+| **PAGE TYPE** | "The structural or content category of the page (e.g., homepage, article, product)." | Bekräftar §13.I-tolkningen. |
+| **GAPS** | "Actionable optimization opportunities and content gaps compared to top-ranking competitors." | ⚠️ KONKURRENT-relativa → gaps kan dyka upp/rensas när KONKURRENTBILDEN ändras, inte bara när vi agerar (attribueringsvakt för GAPS-rensnings-tråden). |
+| **AI COPY** | "Estimated level of AI-generated content on this page. Levels: Human, Slight, Moderate, Significant, Extreme." | Sidnivå = SKATTAD NIVÅ av AI-genererat innehåll på sidan — en helsides-skattning, INTE definierad som aggregat av block-betygen → §1.4:s medel/median är PROXYS för en underliggande kontinuerlig nivå (förklarar strukturellt varför 2,08 kan bli 🔴 och 2,09 🟠). |
+| **AI QUESTIONS** | "How well this page answers common user questions for the topic based on Google SERP. Levels: Very Poor, Poor, OK, Good, Very Good." | Bekräftar §1.5 (frågorna kommer från Google SERP); full skala har även Very Poor/Very Good (aldrig sedda hos oss — homepage POOR = näst sämst). |
+| **P. PRICE** | "Perceived price level for this page vs market in Google search results. Lower = cheaper. Levels: Very High, High, Average, Low, Very Low." | OMTOLKNING: uppfattat prisläge MOT MARKNADEN i Googles sökresultat — inte bara "schema saknas". ipl-rosacea HIGHEST = uppfattas dyrast vs marknaden. "–" = inget pris uppfattat → §13.I-spåret (Offer-schema) ger Google ett pris att läsa. |
+| **EG SCORE** | "Engagement Score: Composite engagement score from page-level user behavior (visits, time, interactions). Higher is better." | NY omodellerad kolumn — hittills "–" i alla dumpar; bevaka när den fylls. |
+| **KW** | "Keywords: Number of keywords with this page set as the landing page." | Bekräftar tolkningen. |
+| **WORDS** | "Estimated word count of the page's main content." | Main content-orräkning (kan förklara viktning i sidnivå-AI COPY). |
+| **CLICKS** | "Number of times users clicked your site from Google Search." | Äkta GSC-klick (homepage 382, acne.php 4). |
+| **STATUS** | "Page's HTTP code and indexability (e.g., 200, 301, 404)." | 200 = ok; behandlingar.php-redirecten borde visa 301 vid omscan. |
+
+*(SCORE-kolumnens tooltip ingick inte i leveransen — be om den vid tillfälle.)*
+
 ## Snapshot 2026-07-02 EM (13:41–14:22) — 6 MODERATE-facit + HELSAJTS-inventering (31 dumpar totalt)
 > **Tillägg 14:20–14:22:** zoom-dump som löste homepage-/redirect-frågorna (inarbetat i sidregistret nedan) + per-block-facit för **pigmentflackar (22 apr)** och **oonskat-har (29 apr)** → `lynx-examples.php`. **MODERATE-vågen därmed facit-komplett (7/7).**
 > Ägaren skickade (a) per-block-facit för **solskadad-hy (23 apr), rhinophyma-rosacea (22 apr), microdermabrasion (25 jun), hudproblem/bristningar (22 apr)** — fulltext i `lynx-examples.php`; (b) AICOPY-sorterad Pages-vy med SCORE-popup; (c) **helsajts-inventering i 5 dumpar** (AICOPY-sorterad, alfabetisk inom grupp). **Ägarbesked:** "räkna ner till studentrabatt — från botox och ner är bara drafts och annat som inte används" → allt under gränsen EXKLUDERAS ur backlog. **Ägarbesked 2:** ALLA sidor som finns i LYNX ska gås igenom (vissa redan gjorda, resten framöver).
