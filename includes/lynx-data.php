@@ -64,7 +64,7 @@ Overall **50** · CQ 41 (Base **0**, Depth **89**, Evidence **76**, Language **0
 
 *seborroisk-keratos.php:* 18 Kan man ta bort seborroisk keratos själv? **GOOD** · 15 Hur får man bort seborroisk keratos? **GOOD** · 9 Vem tar bort seborroisk keratos? OK · 8 Hur snabbt växer seborroisk keratos? OK · 7 Kan seborroisk keratos försvinna av sig själv? OK · 7 Kan man behandla seborroisk keratos? **GOOD** · 7 Kan seborroisk keratos bli cancer? **GOOD** · 6 Hur tar man bort seborroisk keratos? **GOOD** · 5 Hur blir man av med keratoser? OK · 5 Är det okej att skrapa bort seborroisk keratos? **GOOD** · 4 Kan man ta bort keratos hemma? OK · 4 Varför får man seborroisk keratos? OK · 4 Bör seb-keratos tas bort? OK · 3 Hur får man bort seborré? OK
 
-**Pages-tabell, AICOPY-filter (2 jul — TREDJE leveransen samma dag; medföljde mogen-hy-facitet → `lynx-examples.php`).** Diff mot 30 jun-inventeringen. **Huvudfynd: INGEN refresh på de omskrivna sidorna** — hudforandringar/ytliga-blodkarl/om-oss/ipl-rosacea/ipl står kvar på gamla tiers+SCORE (bevakningen §11.1 fortsatt öppen). Små VAL/KW-drifter = brus. Två riktiga ändringar: **GAPS rensade** på ytliga-blodkarl (2/2→0/0) + ipl-rosacea (2/1→0/0), och **microdermabrasion AIQ GOOD→OK** (försämrad).
+**Pages-tabell, AICOPY-filter (2 jul — TREDJE leveransen samma dag; medföljde mogen-hy-facitet → `lynx-examples.php`).** Diff mot 30 jun-inventeringen. **Huvudfynd: INGEN refresh på de omskrivna sidorna** — hudforandringar/ytliga-blodkarl/om-oss/ipl-rosacea/ipl står kvar på gamla tiers+SCORE (bevakningen §11.1 fortsatt öppen). Små VAL/KW-drifter = brus. Riktiga ändringar: **GAPS rensade** på ytliga-blodkarl (2/2→0/0) + ipl-rosacea (2/1→0/0) + **homepage (3/2→0/0, kompletterad i 12:59-dumpen)**, och **microdermabrasion AIQ GOOD→OK** (försämrad).
 
 | URL | VAL 30 jun→2 jul | SCORE | GAPS | AICOPY | AIQ | P.PRICE | KW | Klass |
 |---|---|---|---|---|---|---|---|---|
@@ -81,6 +81,7 @@ Overall **50** · CQ 41 (Base **0**, Depth **89**, Evidence **76**, Language **0
 | /rhinophyma-rosacea.php | 34→34 | 10→10 | 0/0→0/0 | 🟠 MODERATE | OK | – | 46→47 | oförändrat |
 | /solskadad-hy.php | 31→30 | –→– | –/– | 🟠 MODERATE | OK | – | 30→31 | oförändrat |
 | /behandlingar.php | 13→14 | –→– | –/– | 🔵 SLIGHT | OK | – | 0→0 | oförändrat |
+| / (Homepage) | 41→41 | 28→28 | 3/2→**0/0** | 🔵 SLIGHT | **POOR** | – | 296→298 | GAPS RENSADE; enda AIQ POOR på sajten — Tier 1-etta §9.1 |
 
 ## Snapshot 2026-06-30 — komplett inventering (före omskrivningar)
 
