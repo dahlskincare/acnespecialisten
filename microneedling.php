@@ -80,7 +80,7 @@ $top_articles = array(
         image_alt: 'Hur fungerar microneedling?',
         image_title: 'Hur fungerar microneedling?',
         content: '<p class="p200">Microneedling är en avancerad hudförnyande behandlingsmetod som kickstartar hudens naturliga läkningsprocess och stimulerar kollagenproduktionen. När du anländer till en av våra kliniker för behandling, kommer din hud först att rengöras grundligt för att avlägsna makeup och orenheter.</p>
-        <p class="p200 mt-m">Vår speciellt utformade microneedling maskin använder en serie fina, sterila nålar för att skapa mikroskopiska kanaler i huden. Detta initierar hudens egen reparationsmekanism och leder till ökad elastin- och kollagenproduktion. Under behandlingen använder vi också näringsrika serum som slussas in kanalerna i huden för att maximera hudens upptagningsförmåga och stimulera förnyelseprocessen. Efter behandlingen kan du förvänta dig en viss rodnad, men detta är normalt och indikerar att hudens läkningsprocess har börjat. Med tiden kommer du att märka en förbättrad hudtextur, minskning av fina linjer och en övergripande mer strålande hy.</p>',
+        <p class="p200 mt-m">Vår speciellt utformade microneedling maskin använder en serie fina, sterila nålar för att skapa mikroskopiska kanaler i huden. Detta initierar hudens egen reparationsmekanism och leder till ökad elastin- och kollagenproduktion. Under behandlingen använder vi också näringsrika serum som slussas in i kanalerna i huden för att maximera hudens upptagningsförmåga och stimulera förnyelseprocessen. Efter behandlingen kan du förvänta dig en viss rodnad, men detta är normalt och indikerar att hudens läkningsprocess har börjat. Med tiden kommer du att märka en förbättrad hudtextur, minskning av fina linjer och en övergripande mer strålande hy.</p>',
     ),
 );
 
@@ -131,7 +131,7 @@ $types = array(
         title: 'Microneedling mot Stora Porer',
         duration: '50 min',
         price: '2995 kr',
-        content: 'Reducera och minska stora porer med våra resultatinriktade microneedlingbehandling som främjar en slätare hud.',
+        content: 'Reducera och minska stora porer med vår resultatinriktade microneedlingbehandling som främjar en slätare hud.',
         image_small: 'bilder/hudproblem/102x102/stora-porer.webp',
         image_large: 'bilder/hudproblem/200x200/stora-porer.webp',
         image_alt: 'Microneedling för Stora Porer',
@@ -171,7 +171,7 @@ $types = array(
         title: 'Microneedling mot Bristningar',
         duration: '50 min',
         price: '2995 kr',
-        content: 'Förbättra bristningarnas utseendet genom att stimulera återuppbyggnaden av kollagen och elastin i huden.',
+        content: 'Förbättra bristningarnas utseende genom att stimulera återuppbyggnaden av kollagen och elastin i huden.',
         image_small: 'bilder/hudproblem/102x102/bristningar.webp',
         image_large: 'bilder/hudproblem/200x200/bristningar.webp',
         image_alt: 'Microneedling för Bristningar',
@@ -400,7 +400,7 @@ $bottom_articles = array('aftercare' => new Article(
 ));
 
 $service_brands_title = 'Varumärken för microneedling i Stockholm';
-$service_brands_text = '<p class="p200">Vi använder Dermapen och Exceed vilket är de modernaste och mest effektiva metoderna på markanden.</p>';
+$service_brands_text = '<p class="p200">Vi använder Dermapen och Exceed vilket är de modernaste och mest effektiva metoderna på marknaden.</p>';
 $service_brands = array(
 
     new Brand(
@@ -663,7 +663,7 @@ $faq_categories = array(
         ),
         new Question(
             title: 'Hur snabbt kan man se resultat efter microneedling?',
-            text: '<p class="p200">De första förbättringarna kan ofta märkas inom några veckor efter behandlingen, men de mest märkbara  micronnedling resultaten uppnås vanligtvis efter flera behandlingar och över tid, eftersom huden fortsätter att producera nytt kollagen. Fullständiga resultat kan ses efter 3-6 månader, beroende på behandlingsintensitet och hudens respons.</p>'
+            text: '<p class="p200">De första förbättringarna kan ofta märkas inom några veckor efter behandlingen, men de mest märkbara microneedling resultaten uppnås vanligtvis efter flera behandlingar och över tid, eftersom huden fortsätter att producera nytt kollagen. Fullständiga resultat kan ses efter 3-6 månader, beroende på behandlingsintensitet och hudens respons.</p>'
         ),
         new Question(
             title: 'Kan man göra microneedling hemma?',
