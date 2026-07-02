@@ -211,7 +211,7 @@ $faq_categories = array(
         ),
         new Question(
             title: 'Kan jag boka tid för att ta bort endast en milier?',
-            text: '<p class="p200">Ja, för att ta bort en enskild milier ska du boka en konsultation hos oss. Under konsultationen bedömer vår hudterapeut din hud och om milier går att ta bort tar vi 295 kr per styck. Detta ger dig möjlighet att få professionell hjälp även för enstaka milier på ett säkert och effektivt sätt.</p>'
+            text: '<p class="p200">Ja, för att ta bort en enskild milier ska du boka en konsultation hos oss. Under konsultationen bedömer vår hudterapeut din hud och om milier går att ta bort tar vi 495 kr per styck. Detta ger dig möjlighet att få professionell hjälp även för enstaka milier på ett säkert och effektivt sätt.</p>'
         ),
         new Question(
             title: 'Kan man ta bort milier själv hemma?',
