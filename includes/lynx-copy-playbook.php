@@ -368,8 +368,20 @@ Kryssa här. Start/stopp-vänligt: status = §9 + §11 (logg) + §12 (claims). P
 - [ ] **Fas 2-kandidat #1: acne-ansikte.php** (ägarbesked 2 jul: "rimliga frågor, kika på när vi når den fasen") — ON-TOPIC frågelista i `lynx-questions.php` med topp-gap: käklinje-klustret ~56 samlade poäng på POOR/– ("Varför får man finnar på käklinjen?" score 21) trots att sidan HAR käklinje-zonsektion → svara i frågans varför-/vad-betyder-FORM (§1.5 H2). ⚠️ Sidan är FRYST mätsida (§13.G) — vänta tills FÖRE→EFTER är mätt.
 - [ ] PAGE TYPE/P. PRICE: sätt `$rich_product` per sida med Offer (§13.I) — separat schemaspår.
 
-**Fas 3 — MODERATE-vågen** (efter schema)
-- [~] MODERATE-vågen: ✅ om-oss + hudbehandlingar/ipl + ipl-rosacea klara; **7 kvar** (§8). Körs facit-drivet löpande när per-block-facit finns — **ej grindat efter Fas 2-schemat** (fristående spår; Fas 3b-kön går först). Prioordning: **§9.1**.
+**Fas 3 — MODERATE-vågen = AI COPY-flagg-uppdraget (🔴 SIGNIFICANT klart i Fas 1; här fixas alla 🟠 MODERATE; facit-komplett 7/7 sedan 2 jul em)**
+*Fix-antal = §1.4-estimat för badge-flytt till 🔵 (gråzons-förbehåll); §7 kräver ändå alla 🔴/🟠-block åtgärdade. Ordning nedan = billigast först; pigmentflackar (KW244) kan lyftas först om payoff prioriteras.*
+- [x] `om-oss.php` — ✅ KLAR (LIVE på main, väntar refresh)
+- [x] `hudbehandlingar/ipl/` — ✅ KLAR (LIVE, väntar refresh)
+- [x] `ipl-rosacea.php` — ✅ KLAR (LIVE, väntar refresh)
+- [ ] `mogen-hy.php` (medel 1,57 → ≈1 🔴-fix till 🔵 = BILLIGAST; facit + 27-frågors lista klara; 2 grammatikfel + 2 typos live; "Vad betyder hy?"-gapet §1.5)
+- [ ] `hudproblem/oonskat-har/` (1,77 → ≈2 fixar; 4 trasiga meningar live = mest trasig svenska)
+- [ ] `microdermabrasion.php` (1,82 → ≈2 fixar; AIQ GOOD→OK-bevakning — be om frågedetalj vid start)
+- [ ] `hudproblem/bristningar/` (1,92 → ≈3 fixar; OBS två nära-identiska definitionsblock — slå EJ ihop utan ägarbeslut §13.D)
+- [ ] `solskadad-hy.php` (2,09 → ≈3–4 fixar; live-grammatikfel "kan också avgörande")
+- [ ] `rhinophyma-rosacea.php` (2,06 → ≈5 fixar; 2 live-grammatikhaverier inkl. trasig mening i Näsa-blocket)
+- [ ] `pigmentflackar.php` (2,06, n=18 → ≈5–6 fixar; **KW244 = störst payoff**; typo "AcneSpecialistem"; orsaks-definition ×3–4 block)
+
+Körs facit-drivet löpande — **ej grindat efter Fas 2-schemat** (fristående spår). Prioordning även i **§9.1**.
 
 **Bevaka — trådar öppnade från omkringliggande skärmbildsdata (§0-principen, 2 jul)**
 - [ ] **GAPS-rensningen 2 jul:** ytliga-blodkarl 2/2→0/0, ipl-rosacea 2/1→0/0, homepage 3/2→0/0 — utan att sidorna refreshats (tiers/SCORE står stilla). Verifiera vid nästa scan: äkta rensning (gap-texterna lösta/borttagna av LYNX) eller scan-artefakt? Påverkar §8.1-gapbesluten för de sidorna. **Tooltip-insikt 2 jul 15:00: GAPS är KONKURRENT-relativa** ("compared to top-ranking competitors") → rensning/nya gaps kan bero på ändrad konkurrentbild, inte våra åtgärder — attribuera aldrig GAPS-förändringar till oss utan att läsa gap-texterna.
