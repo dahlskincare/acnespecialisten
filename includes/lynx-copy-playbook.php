@@ -290,12 +290,14 @@ Sidorna rankar redan på sökord. Omskrivningen får höja kvaliteten **utan att
 ---
 
 ## 7. Arbetsprocess per sida
-1. **Spara LYNX-baseline** för sidan i §11 (AI COPY, SCORE, GAPS, AI QUESTIONS, PAGE TYPE, P. PRICE, KW, ev. RANK) — innan något ändras.
-2. **Ägaren klistrar in LYNX-facit → SPARA rådatan FÖRST** (per-block → `lynx-examples.php`, sid/kolumn → `lynx-data.php`; diffa mot förra scan). Identifiera sen primärt sökord + intent (bonus → long-tail). Agera aldrig på facit utan att spara det först (§0 Facit-flöde).
+0. **Claima sidan i §12** (§0.1 — kontrollera först att du är ensam: `git status` + §12 + senaste §11/commits).
+1. **Spara LYNX-baseline** för sidan i §11 (AI COPY, SCORE, GAPS, AI QUESTIONS, PAGE TYPE, P. PRICE, KW, ev. RANK) — innan något ändras. *(Obs §1.2-omprövningen: SCORE 0 = trolig trasig analys → be ägaren köra om hellre än att logga 0 som baseline.)*
+2. **Ägaren klistrar in LYNX-facit → SPARA rådatan FÖRST** (per-block → `lynx-examples.php`, sid/kolumn → `lynx-data.php`; diffa mot förra scan). Identifiera sen primärt sökord + intent (bonus → long-tail). Agera aldrig på facit utan att spara det först (§0 Facit-flöde). **Finns facit REDAN sparat (t.ex. Fas 3b-sidorna: facit + frågelistor + gap-texter ligger i lynx-examples/lynx-data sedan 2 jul) — verifiera att det är komplett och gå direkt vidare; be inte om det igen.**
 3. Skriv om de **LYNX-flaggade blocken (🔴/🟠/🟥)**, se över 🔵/🟢 med lätt hand + bedöm sidan som HELHET (§13.D) — enligt §2–§4; kör §3-checklistan + §6 SEO-skydd.
-4. Lös gap-punkter inom ramarna (grannämne → länk; ingen medicin/cancer).
+4. Lös gap-punkter inom ramarna (grannämne → länk; ingen medicin/cancer) — **fattade beslut per sida står i §8.1; följ dem.**
+4a. **§1.5-koll (AI Overview-frågorna):** notera sidans frågelista + FÖRE-status (GOOD/OK/–) i §11; förbättra BEFINTLIGA FAQ-/textsvar i husröst så topp-SCORE-frågor besvaras rakt i frågans form (hur→steg, varför→mekanism, kostar→siffra); grannfrågor → länk till ägarsidan. NYA frågor/svar hör till Fas 2, inte rewriten.
 4b. **Adversariell verifiering (standard vid autonomt arbete; frivillig när ägaren granskar varje steg):** innan commit, kör färska agenter utan kontext mot omskrivningen — (i) §1.3-predikt per omskrivet block (mål: 🔵-band; **1 bedömare räcker** — blindtest 3 visade att 3 oberoende bedömare svarar nästan identiskt), (ii) diff-granskning av substans (punkt-count före/efter, tappade poänger/målfraser, §13.D/§6), (iii) en helhetskritiker (flöde, dubbletter över block, sid-kontext). Åtgärda äkta fynd; motivera skippade i §11. *(Etablerat på ipl-rosacea 1 jul: 15 agenter → 4 äkta fynd fixade; standardiserat + bantat 2 jul.)*
-5. Logga i §11 (baseline + vad/varför). Följ Definition of Done (§13.E).
+5. Logga i §11 (baseline + vad/varför + **prediktion per omskrivning, §10 steg 1**). Följ Definition of Done (§13.E) — inkl. att tömma §12-claimen när allt är klart.
 6. **Push `staging` → TESTA att sidan gick upp:** hämta staging-URL:en (`https://www.acnespecialisten-staging.minoch.com/<sida>`) och bekräfta **HTTP 200 + renderad HTML** (inte blankt/500) samt att sökord/claims syns i svaret. Fångar PHP-strängfel (§13.C). En sida är inte klar förrän den verifierat laddar. **OBS: staging-deploy har ~minuters lag** — poll:a tills *din* ändring faktiskt syns i svaret (grep efter en ny formulering), inte bara tills 200 kommer.
 7. Promota till prod (§13.A) → vänta på LYNX-refresh → utvärdera (§10).
 
