@@ -30,6 +30,35 @@
 
 *(SCORE-kolumnens tooltip ingick inte i leveransen — be om den vid tillfälle.)*
 
+## Snapshot 2026-07-06 (07:51, 5 dumpar) — 🎉 FÖRSTA EFTER-MÄTNINGEN: acne-ansikte refreshad → SLIGHT
+> Ägaren skickade AICOPY-filtrerad Pages-vy (tabellen skuren nedtill vid homepage-raden) + AI Copy per-block-vy för acne-ansikte (**"Last update: 05 Jul, 2026"** = färsk analys) + separat acne-ansikte-rad. **Huvudfynd: acne-ansikte 🔴 SIGNIFICANT → 🔵 SLIGHT** — första omskrivna sidan LYNX mätt om (EFTER-facit i `lynx-examples.php`). Refreshen är RULLANDE/partiell: ytliga-blodkarl + ipl-rosacea har FÄRSK SCORE men gamla AI COPY-badges; hudforandringar/behandla-pigment helt orefreshade.
+
+**Diff mot 2 jul:**
+- **acne-ansikte: 🔴 → 🔵 SLIGHT** · VAL 32→28 · KW 57→52 · AIQ OK · SCORE fortfarande "–". Per-block EFTER (9 synliga): **0🔴/1🟠/6🔵/2🟢**, medel 0,89 → 🔵 ✓ (§1.4:s första EFTER-validering).
+- **Färska nya-skalan-SCORE utan badge-refresh:** ytliga-blodkarl 22→**74** (omskriven live — rewrite + ny skala oskiljbara) · ipl-rosacea 39→**60** (dito) · bristningar 18→**63** · rhinophyma 10→**74** (två senare EJ omskrivna = ren omskalning → **färska FÖRE-baselines för Fas 3-kön**). Endast Overall, inga breakdowns (§1.2-testprotokollet fortfarande obesvarat).
+- **om-oss + pigmentflackar SAKNAS i MODERATE-gruppen** (alfabetisk sortering: hålet sitter mellan mogen-hy och rhinophyma) → möjlig tier-flytt (om-oss = omskriven live!) ELLER skuren dump — **raderna beställda av ägaren; avgör inte än.**
+- Oförändrat: hudforandringar (🔴, SCORE 17, GAPS 3/2) · behandla-pigment (🔴, AIQ GOOD) · microdermabrasion AIQ OK (fortsatt nedgraderad) · homepage 🔵/POOR/SCORE 28/GAPS 0/0.
+- **KW-drift sajtbred, även på orörda sidor** (homepage 298→287, solskadad 31→33 UPP) → ej attribuerbar till våra ändringar; bevaka (§13.F), ingen åtgärd.
+
+| URL | VAL →6 jul | SCORE →6 jul | GAPS | AICOPY | AIQ | P.PRICE | KW →6 jul | Klass |
+|---|---|---|---|---|---|---|---|---|
+| **/acne-ansikte.php** | 32(30 jun)→**28** | –→– | –/– | **🔵 SLIGHT (var 🔴)** | OK | – | 57→**52** | ✅ **REFRESHAD 5 jul — badge-flytt 2 steg** |
+| /behandla-pigmentflackar.php | 14(30 jun)→10 | –→– | –/– | 🔴 SIGNIFICANT | GOOD | – | 16→13 | OFÖRÄNDRAD badge (omskriven live, ej refreshad) |
+| /hudproblem/hudforandringar/ | 10→10 | 17→17 | 3/2 | 🔴 SIGNIFICANT | OK | – | 7→7 | OFÖRÄNDRAT (omskriven live, ej refreshad) |
+| /ytliga-blodkarl.php | 36→39 | 22→**74** | 0/0 | 🔴 SIGNIFICANT | OK | – | 168→159 | **FÄRSK SCORE, badge EJ refreshad** (omskriven live) |
+| /hudbehandlingar/ipl/ | 34→35 | –→– | –/– | 🟠 MODERATE | OK | HIGH | 18→18 | oförändrat (omskriven live, ej refreshad) |
+| /hudproblem/bristningar/ | 18→18 | 18→**63** | 0/0 | 🟠 MODERATE | OK | – | 67→67 | **FÄRSK SCORE (ej omskriven = ny FÖRE-baseline)** |
+| /hudproblem/oonskat-har/ | 11→11 | –→– | –/– | 🟠 MODERATE | OK | – | 16→15 | oförändrat (rewrite väntar main-push) |
+| /ipl-rosacea.php | 55→55 | 39→**60** | 0/0 | 🟠 MODERATE | OK | HIGHEST | 20→18 | **FÄRSK SCORE, badge EJ refreshad** (omskriven live) |
+| /microdermabrasion.php | 30→30 | –→– | –/– | 🟠 MODERATE | OK | MID | 6→6 | oförändrat (rewrite väntar main-push) |
+| /mogen-hy.php | 12→11 | –→– | –/– | 🟠 MODERATE | OK | – | 9→9 | oförändrat (rewrite väntar main-push) |
+| /rhinophyma-rosacea.php | 34→34 | 10→**74** | 0/0 | 🟠 MODERATE | OK | – | 47→47 | **FÄRSK SCORE (ej omskriven = ny FÖRE-baseline)** |
+| /solskadad-hy.php | 30→32 | –→– | –/– | 🟠 MODERATE | OK | – | 31→**33** | oförändrat (KW UPP) |
+| /behandlingar.php | 14→14 | –→– | –/– | 🔵 SLIGHT | OK | – | 0→0 | redirect-rad, oförändrad |
+| / (Homepage) | 41→42 | 28→28 | 0/0 | 🔵 SLIGHT | POOR | – | 298→287 | oförändrat |
+
+*(om-oss + pigmentflackar ej synliga i dumpen — beställda. Tabellen skuren under homepage-raden; fler SLIGHT-rader kan finnas.)*
+
 ## Snapshot 2026-07-02 EM (13:41–14:22) — 6 MODERATE-facit + HELSAJTS-inventering (31 dumpar totalt)
 > **Tillägg 14:20–14:22:** zoom-dump som löste homepage-/redirect-frågorna (inarbetat i sidregistret nedan) + per-block-facit för **pigmentflackar (22 apr)** och **oonskat-har (29 apr)** → `lynx-examples.php`. **MODERATE-vågen därmed facit-komplett (7/7).**
 > Ägaren skickade (a) per-block-facit för **solskadad-hy (23 apr), rhinophyma-rosacea (22 apr), microdermabrasion (25 jun), hudproblem/bristningar (22 apr)** — fulltext i `lynx-examples.php`; (b) AICOPY-sorterad Pages-vy med SCORE-popup; (c) **helsajts-inventering i 5 dumpar** (AICOPY-sorterad, alfabetisk inom grupp). **Ägarbesked:** "räkna ner till studentrabatt — från botox och ner är bara drafts och annat som inte används" → allt under gränsen EXKLUDERAS ur backlog. **Ägarbesked 2:** ALLA sidor som finns i LYNX ska gås igenom (vissa redan gjorda, resten framöver).

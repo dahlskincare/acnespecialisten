@@ -44,6 +44,21 @@
 | Omdöme "Hade testat allt innan…" | 🔵 | omdöme |
 | Omdöme "Super fin personal…" | 🟢 | omdöme + detalj |
 
+## /acne-ansikte.php — 05 Jul 2026 — ✅ EFTER REWRITE (FÖRSTA EFTER-FACITET; sidnivå 🔴→🔵 SLIGHT; dump möjligen partiell — FAQ-block ej synliga)
+| Block (snippet, EFTER-text) | Betyg | FÖRE-motsvarighet (22 apr) → tolkning |
+|---|---|---|
+| Intro "Akne i ansiktet sätter sig där talgkörtlarna är som tätast: i pannan, på näsan… För många påverkar den både huden och självkänslan. Det viktiga att komma ihåg är att den går att behandla. Här går vi igenom…" | 🟠 | banner 🔴 (empati+meta) → 🟠. ENDA kvarvarande flaggan: konkret krok men empati-/importans-mitt + "Här går vi igenom"-skylt ackumulerar (§1.3-gradienten ✓) |
+| "Akne i ansiktet syns som pormaskar, finnar, papler och pustler… Bakterier samlas i den igentäppta poren och utlöser en inflammation. Det är inflammationen som syns som en röd, öm finne, och därför sitter akne oftast där talgkörtlarna är som flest…" | 🔵 | "påverkar miljontals" 🔴 → 🔵: full mekanism-vandring + kausal payoff |
+| "Bakom akne i ansiktet ligger framför allt hormoner och ärftlighet… De får talgkörtlarna att producera mer talg… hudens benägenhet att överproducera talg till stor del är ärftlig." | 🔵 | "orsakas av flera faktorer som samverkar" 🔴 → 🔵: konkret orsaks-öppning + mekanism |
+| "Plötslig akne i ansiktet utan att du brukar ha hudproblem beror nästan alltid på en hormonell svängning. Puberteten, menstruationscykeln… Stress spär på genom att höja kroppens kortisol…" | 🔵 | "Plötslig akne… frustrerande… flera faktorer" 🔴 → 🔵: rakt kausalt svar |
+| "Var akne sitter i ansiktet hänger ihop med var talgkörtlarna är som flest: pannan, näsan, kinderna, hakan och käklinjen. Utbrotten ser olika ut beroende på område… Nedan tittar vi närmare på varje område." | 🟢 | "kan uppträda på flera olika sätt" 🔴 → 🟢 HUMAN: konkret + varierad skylt — skylten i sig fäller inte! |
+| "Det finns ingen universallösning för akne i ansiktet. Vi läser av hur djupt utbrotten sitter och anpassar behandlingen efter det, och oftast ger en kombination av metoder bäst resultat." | 🔵 | "När det kommer till att behandla… ingen universallösning" 🟠 → 🔵: vi-handling istället för fyllnad |
+| "Daglig behandling med rätt produkter hjälper till att bekämpa och förebygga akne. Våra produkter håller huden i balans…" | 🔵 | 🔵 → 🔵 (lätt hand, stabil) |
+| Omdöme "Hade testat allt innan…" | 🔵 | 🔵 = orörd, stabil över refresh |
+| Omdöme "Super fin personal… ca 2-3 år…" | 🟢 | 🟢 = orörd, stabil över refresh |
+
+**FÖRE→EFTER-summering:** 22 apr **6🔴/1🟠/2🔵/1🟢** (n=10, medel 2,2) → 5 jul **0🔴/1🟠/6🔵/2🟢** (n=9 synliga, medel 0,89) → **badge 🔴 SIGNIFICANT → 🔵 SLIGHT.** §1.4-medel träffar (0,89 < 1,5 → 🔵 ✓ — modellens FÖRSTA EFTER-validering, preliminär tills ev. FAQ-block levererats). "Att leva med svår akne…"-blocket (🔴 22 apr) syns inte i EFTER-dumpen — omskrivet/struket eller utanför bild; be om resten. **Modellfynd:** (1) mekanism-öppning + payoff = 🔴→🔵 över hela linjen — §1.1 nyckel 1 nu KAUSALT belagd (vi ändrade öppningen, betyget flyttade), inte bara korrelation; (2) intro-blocket följer §2-formeln (konkret krok + skylt) men landar 🟠 — det som fäller är empati-/importans-meningarna FÖRE skylten ("För många påverkar den…", "Det viktiga att komma ihåg…"), jfr 🟢-blocket vars skylt "Nedan tittar vi närmare…" inte fällde; (3) omdömen + produktblock stabila över refresh = brusfria referenspunkter.
+
 ## /ipl-rosacea.php — 29 Apr 2026 (MODERATE-sida)
 | Block (snippet) | Betyg | Varför |
 |---|---|---|
