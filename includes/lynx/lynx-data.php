@@ -59,6 +59,15 @@
 
 *(om-oss + pigmentflackar ej synliga i dumpen — beställda. Tabellen skuren under homepage-raden; fler SLIGHT-rader kan finnas.)*
 
+### Leverans 2 (08:11, 5 dumpar) — om-oss LÖST (andra EFTER-facitet); pigmentflackar-mysteriet SKÄRPT
+> Alfabetisk Pages-vy (m→p-spannet, AICOPY-filter aktivt) + om-oss SCORE-popup + GAPS-popup + AI Copy-vyn för om-oss (**"Last update: 05 Jul, 2026"** = färsk).
+
+- **om-oss.php: ANDRA EFTER-MÄTNINGEN** — per-block 5 jul: **0🔴/0🟠/10🔵/1🟢 synliga** (FÖRE 22 apr: 3🔴/2🟠/6🔵/1🟢) → EFTER-facit i `lynx-examples.php`. Badge-kolumnen ej synlig i dumpen (popup skymde) men sidan är borta ur MODERATE-gruppen + 0 flaggade block → **SLIGHT implicerat; be om badge-raden för bekräftelse.** Rad-data: VAL 7 · SCORE 17 · GAPS 2/2.
+- **om-oss SCORE-nedbrytning (FÖRSTA — men GAMMAL: "Analyzed 79 days ago" ≈ 18 apr):** Overall 17 · CQ 57 · EEAT 59 · **AI STYLE 20 = lägsta uppmätta** → `lynx-score.php`; multiplikativa formeln nu 7/7. **Viktigt metodfynd: AI Copy-vyn (5 jul) och SCORE-analysen (apr) refreshar OBEROENDE** → Pages-SCORE kan vara stale bredvid färsk AI Copy (förklarar också ytliga-blodkarls omvända läge: färsk SCORE 74, stale badge).
+- **om-oss GAPS-popup:** samma 3 punkter som sparats 2 jul (remiss/vårdkö HIGH · hudläkare-skillnad HIGH · prisinfo MEDIUM) — oförändrade, redan i `lynx-gaps.php` (4:e punkten fortfarande osedd).
+- **⚠️ pigmentflackar.php SAKNAS ÄVEN i alfabetisk vy** — hålet syns tydligt mellan /permanent-harborttagning.php och /pormaskar.php → sidan verkar ha åkt UR AICOPY-filtret helt (badge tömd/omanalys?), inte bara flyttat grupp. **Beställt: URL-sök "pigmentflackar" i Pages + dess AI Copy-vy** (KW 244-sidan — viktig för Fas 3-prio).
+- Nya rader (m→p-spannet): milierbehandling VAL 49 · mjalleksem 24 · perioral-dermatit 32 · permanent-harborttagning 16 · **pormaskar 40, SCORE 76, GAPS 1/0** (ny färsk topp-SCORE?) · pormaskar-rygg 38 · porrengoring 48 · portomning 65, SCORE 60 (som 2 jul) · postinflammatorisk-hyperpigmentering 38.
+
 ## Snapshot 2026-07-02 EM (13:41–14:22) — 6 MODERATE-facit + HELSAJTS-inventering (31 dumpar totalt)
 > **Tillägg 14:20–14:22:** zoom-dump som löste homepage-/redirect-frågorna (inarbetat i sidregistret nedan) + per-block-facit för **pigmentflackar (22 apr)** och **oonskat-har (29 apr)** → `lynx-examples.php`. **MODERATE-vågen därmed facit-komplett (7/7).**
 > Ägaren skickade (a) per-block-facit för **solskadad-hy (23 apr), rhinophyma-rosacea (22 apr), microdermabrasion (25 jun), hudproblem/bristningar (22 apr)** — fulltext i `lynx-examples.php`; (b) AICOPY-sorterad Pages-vy med SCORE-popup; (c) **helsajts-inventering i 5 dumpar** (AICOPY-sorterad, alfabetisk inom grupp). **Ägarbesked:** "räkna ner till studentrabatt — från botox och ner är bara drafts och annat som inte används" → allt under gränsen EXKLUDERAS ur backlog. **Ägarbesked 2:** ALLA sidor som finns i LYNX ska gås igenom (vissa redan gjorda, resten framöver).

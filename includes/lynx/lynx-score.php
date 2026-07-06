@@ -31,7 +31,10 @@ Overall **50** · CQ 41 (Base **0**, Depth **89**, Evidence **76**, Language **0
 3. **AI STYLE 0 på färska = troligen "ej beräknad än"**; sebo 50 = första uppmätta >30.
 4. **Aggregering ändrad/oklar på färska:** EEAT-badge 60 ≠ sub-medel 81–85; Overall ≈ medel(CQ-badge, EEAT-badge) passar micro+porto, nästan sebo (72,5 vs 74). Samla fler färska breakdowns innan ny formel (§10) — testprotokoll i §1.2.
 
-## Gamla analyser (multiplikativa formeln Overall ≈ CQ×EEAT×AI/3640 — 6/6)
+## Gamla analyser (multiplikativa formeln Overall ≈ CQ×EEAT×AI/3640 — 7/7)
+
+**om-oss.php — 6 jul-dump, "Analyzed 79 days ago" (≈ 18 apr, gamla skalan — FÖRSTA om-oss-nedbrytningen):**
+Overall **17** · CQ **57** (Base 58, Depth 63, Evidence 46, Language 68, Readability 50) · E-E-A-T **59** (Experience 60, Expertise 55, Authority 60, Trust 60) · AI STYLE **20** (Human-like 20). **Formel-check: 57×59×20/3640 = 18,5 vs 17 — inom tidigare tolerans (±1–2 p) → 7:e valideringen.** ⚠️ **AI STYLE 20 = LÄGSTA uppmätta** (spannet var 25–30) — om-oss gamla marknadsprosa (3🔴-block) hade sajtens sämsta human-like; konsistent med multiplikativa modellen (medioker CQ/EEAT × 0,20 → 17). OBS: SCORE-analysen är från APRIL medan sidans AI Copy-vy är refreshad 5 JUL — vyerna refreshar OBEROENDE (belägg för rullande refresh, playbook §11 6 jul #2).
 
 **hudproblem/bristningar/ — 2 jul-dump, "Analyzed 78 days ago" (⚠️ transkription ± några enheter, liten skärmdump):**
 Overall **18** · CQ ~52 (Base ~64, Depth ~43, Evidence ~44, Language ~50, Readability ~45) · E-E-A-T ~50 (subs ~44–50) · AI STYLE **25** (Human-like 25). **Formel-check (modellanalysen 2 jul em): 52×50×25/3640 = 17,9 ≈ 18 ✓** — 6:e valideringen av gamla formeln.
