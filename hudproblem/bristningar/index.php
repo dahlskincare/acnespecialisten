@@ -52,37 +52,37 @@ $trivias = array(
       new ProblemTrivia(
             prefix: 'Vad',
             title: ' är bristningar?',
-            content: '<p class="p200">Bristningar, vetenskapligt benämnda som striae, är märkbara, ojämna linjer eller band på huden som uppstår när bindväv under huden tänjs ut över sin flexibilitetsgräns. Det engelska begreppet stretchmarks används också väldigt ofta. Denna tänjning leder till en skada i huden där den har blivit tunnare och förlorat en del av sin elastiska förmåga. Denna förändring beror på skador i hudens kollagen och elastinfibrer, de proteiner som är ansvariga för hudens fasthet och elasticitet. När bristningar först uppträder kan de ofta ha en röd, blåaktig eller lila nyans på grund av de brustna blodkärlen under huden. Med tiden läker dessa blodkärl, vilket gör att bristningarna gradvis övergår till en ljusare nyans av hudtonen. Men förutom den rena färgförändringen kan ytan av bristningarna vara något räfflad eller gropig, vilket skiljer dem från den omgivande huden.</p>',
-            extended_content: '<p class="p200 mt-xl">Mikroskopiskt sett kan man se att bristningar inte bara är ytliga skador. De är faktiskt små ärrbildningar i dermis, det mellersta skiktet av huden. Denna störning av kollagenproduktionen orsakar också en förtunning av epidermis, det yttersta hudlagret. Bristningars utseende och utveckling kan variera beroende på enskilda genetiska faktorer, hudtyp och även beroende på var på kroppen de uppträder. Med moderna behandlingsmetoder kan bristningar reduceras för att minska deras synlighet.</p>',
+            content: '<p class="p200">Bristningar, vetenskapligt benämnda striae, är ojämna linjer eller band som uppstår när bindväven under huden tänjs ut över sin flexibilitetsgräns. På engelska kallas de stretchmarks. Tänjningen skadar kollagen- och elastinfibrerna, de proteiner som håller huden fast och elastisk, och huden blir tunnare där skadan sitter. Nya bristningar har ofta en röd, blåaktig eller lila nyans, eftersom små blodkärl brister under huden. Med tiden läker kärlen och bristningarna bleknar gradvis till en nyans ljusare än hudtonen. Ytan kan också kännas något räfflad eller gropig, vilket skiljer bristningarna från den omgivande huden.</p>',
+            extended_content: '<p class="p200 mt-xl">Under ytan är bristningar små ärrbildningar i dermis, det mellersta skiktet av huden. Skadan stör kollagenproduktionen, vilket också gör epidermis, det yttersta hudlagret, tunnare. Hur bristningarna ser ut och utvecklas varierar med genetiska faktorer, hudtyp och var på kroppen de sitter. Moderna behandlingsmetoder kan minska deras synlighet.</p>',
             icons: array()
       ),
       new ProblemTrivia(
             prefix: 'Varför',
             title: ' får man bristningar?',
-            content: '<p class="p200">Bristningar, även kända som striae, uppstår när huden sträcks ut snabbare än vad den kan anpassa sig till. Detta leder till att kollagen- och elastinfibrerna i huden brister, vilket resulterar i synliga linjer eller band på huden. Det finns flera anledningar till varför man kan få bristningar, inklusive:</p>',
+            content: '<p class="p200">Huden klarar att tänjas, men bara i en viss takt. Sträcks den ut snabbare än den hinner anpassa sig brister kollagen- och elastinfibrerna, och det är då bristningarna bildas. Det händer framför allt när kroppen förändras snabbt.</p>',
             extended_content: '<p class="p200 mt-xl">Snabb tillväxt under puberteten<br />Under tonåren kan snabb tillväxt leda till att bristningar uppstår, ofta på platser som höfter, bröst, lår och rumpa.</p>
             <p class="p200 mt-xl">Snabb viktuppgång eller viktnedgång<br />Stora förändringar i kroppsvikt på kort tid kan orsaka bristningar. Detta gäller både för snabb viktuppgång och för snabb viktminskning.</p>
             <p class="p200 mt-xl">Graviditet<br />Många kvinnor upplever bristningar under graviditeten, särskilt under de sista månaderna, när huden sträcks ut för att rymma den växande bebisen.</p>
             <p class="p200 mt-xl">Kroppsbyggnad och styrketräning<br />Snabb muskeltillväxt kan också leda till bristningar, särskilt på armar, axlar och bröst.</p>
-            <p class="p200 mt-xl">Hormonella förändringar<br />Hormonella förändringar i kroppen kan påverka hudens elasticitet och öka risken för bristningar. Detta kan inkludera pubertet, graviditet och hormonbehandling.</p>
+            <p class="p200 mt-xl">Hormonella förändringar<br />Hormonella förändringar i kroppen kan påverka hudens elasticitet och öka risken för bristningar. Det gäller till exempel vid pubertet, graviditet och hormonbehandling.</p>
             <p class="p200 mt-xl">Genetik<br />Benägenheten att utveckla bristningar kan också vara genetisk. Om dina föräldrar eller syskon har bristningar, är chansen större att du också får det.</p>
-            <p class="p200 mt-xl">Även om bristningar är helt naturliga och inte skadliga för hälsan, kan de påverka hur man känner för sitt utseende. Det finns behandlingar som kan minska synligheten av bristningar.</p>',
+            <p class="p200 mt-xl">Även om bristningar är helt naturliga och inte skadliga för hälsan, kan de påverka hur man känner inför sitt utseende. Det finns behandlingar som kan minska synligheten av bristningar.</p>',
             icons: array('vaxt' => 'Tillväxt', 'traning' => 'Träning', 'livsstil' => 'Livsstil', 'graviditet' => 'Graviditet')
       ),
       new ProblemTrivia(
             prefix: 'Vem',
             title: ' får bristningar?',
-            content: '<p class="p200">Bristningar skiljer inte mellan kön, ålder eller hudtyp; de kan påverka nästan vem som helst. Dock är vissa grupper mer benägna att utveckla dem än andra. Till exempel upplever många kvinnor bristningar under graviditet när buken snabbt expanderar för att rymma ett växande foster. Ungdomar genomgår en period av snabb tillväxt och kroppslig förändring under puberteten. Denna snabba tillväxt kan leda till att huden tänjs ut snabbt, vilket resulterar i bristningar.</p>',
-            extended_content: '<p class="p200 mt-xl">Personer som snabbt ökar eller minskar i vikt kan också få bristningar. På liknande sätt kan snabb viktnedgång, särskilt om den är dramatisk, orsaka att huden förlorar sin elasticitet, vilket kan resultera i bristningar. Idrottare, särskilt de som utövar styrketräning eller bodybuilding, kan också uppleva bristningar. När muskler växer snabbt kan huden tänjas ut snabbare än den kan anpassa sig, vilket leder till dessa märken. Människor som använder steroider, antingen medicinskt eller för kroppsbyggande, kan också se en ökning av bristningar eftersom dessa ämnen kan minska hudens elasticitet.</p>
-            <p class="p200 mt-xl">Genetik spelar också en viktig roll i utvecklingen av bristningar. Om det finns en familjehistoria av bristningar, särskilt hos nära släktingar som en mor eller syster, kan risken för att utveckla dem vara högre. Dessutom kan personer med vissa genetiska sjukdomar orsaka en högre risk på grund av förändringar i huden eller bindväven. Det är också värt att notera att även om alla kan utveckla bristningar, är de mer framträdande hos personer med mörkare hudtoner. Medan de kan blekna över tid, kan bristningar fortfarande vara en källa till självmedvetenhet för många, oavsett var eller varför de uppträder.</p>',
-            icons: array('man-kvinna' => 'Män & Kvinnor', 'tonaringar' => 'Tonåringar', 'vuxna' => 'Vuxna', '65+' => 'Aldre')
+            content: '<p class="p200">Vanligast är bristningar hos gravida och tonåringar, eftersom det är då huden tänjs som snabbast. Under graviditeten tänjs huden över magen hårt på kort tid, och under puberteten växer kroppen ibland fortare än huden hinner med. Men i grunden skiljer bristningar inte på kön, ålder eller hudtyp: nästan vem som helst kan få dem.</p>',
+            extended_content: '<p class="p200 mt-xl">Personer som snabbt ökar eller minskar i vikt kan också få bristningar. Vid en dramatisk viktnedgång förlorar huden en del av sin elasticitet, och då uppstår de lättare. Idrottare som styrketränar eller ägnar sig åt bodybuilding är en annan grupp: när musklerna växer snabbt tänjs huden ut fortare än den hinner anpassa sig. Även steroider, medicinska eller för kroppsbyggning, kan ge fler bristningar eftersom de kan minska hudens elasticitet.</p>
+            <p class="p200 mt-xl">Genetiken väger tungt även här: finns bristningar i familjen är risken högre, och vissa genetiska sjukdomar kan öka den ytterligare genom förändringar i huden eller bindväven. Även om alla kan utveckla bristningar är de ofta mer framträdande hos personer med mörkare hudtoner. De bleknar visserligen med tiden, men många besväras ändå av sina bristningar, oavsett var eller varför de uppträder.</p>',
+            icons: array('man-kvinna' => 'Män & Kvinnor', 'tonaringar' => 'Tonåringar', 'vuxna' => 'Vuxna', '65+' => 'Äldre')
       ),
       new ProblemTrivia(
             prefix: 'Var',
             title: ' får man bristningar?',
-            content: '<p class="p200">Bristningar kan dyka upp på nästan vilken del av kroppen som helst, men det finns vissa områden som är särskilt mottagliga för dessa hudförändringar. Ett av de vanligaste områdena där bristningar uppträder är på buken. Detta är särskilt vanligt hos kvinnor under graviditet, när buken expanderar snabbt för att rymma ett växande foster. Men även personer som upplever snabb viktökning kan finna att deras bukområde utvecklar dessa linjer. Brösten är ett annat område där bristningar ofta framträder. Detta kan ske under pubertet när brösten växer snabbt, under graviditet när de förändras i storlek på grund av mjölkproduktion.</p>',
-            extended_content: '<p class="p200 mt-xl">Höfter och lår är även de platser där bristningar ofta uppträder, särskilt hos kvinnor. Dessa områden kan bli påverkade under perioder av snabb tillväxt under puberteten, under graviditet, eller på grund av snabba förändringar i kroppsvikt. Bristningarna kan sträcka sig från höft till knä, vilket visar var huden har dragits ut mest. Skinkorna, överarmarna och axlarna är också vanliga områden för bristningar att dyka upp. Intensiv styrketräning kan leda till bristningar på överarmarna, särskilt om muskelväxten är snabb. Skinkorna kan drabbas av samma skäl som höfterna och låren – snabb tillväxt, viktökning. Vad gäller axlarna, är det särskilt vanligt bland manliga kroppsbyggare och tonårspojkar under pubertet.</p>
-            <p class="p200 mt-xl">Det bör noteras att även om bristningar oftast associeras med kvinnor, på grund av graviditet och andra hormonella förändringar, är det väldigt vanligt förekommnade hos män. Till sist, oavsett var på kroppen de uppträder, är det viktigt att förstå att bristningar är en naturlig del av hudens respons på snabb utsträckning. De kan blekna över tid, men de representerar ingen hälsorisk och är ofta bara en estetisk bekymmer för den drabbade.</p>',
+            content: '<p class="p200">Buken hör till de vanligaste områdena för bristningar, framför allt hos gravida när magen växer snabbt, men även vid snabb viktökning. Brösten är ett annat utsatt område: de kan växa snabbt under puberteten, och under graviditeten ändrar de storlek på grund av mjölkproduktionen. I princip kan bristningar dock dyka upp var som helst på kroppen där huden tänjs snabbt.</p>',
+            extended_content: '<p class="p200 mt-xl">Höfter och lår är också platser där bristningar ofta uppträder, särskilt hos kvinnor. Områdena påverkas vid snabb tillväxt under puberteten, under graviditet eller vid snabba förändringar i kroppsvikt. Bristningarna kan sträcka sig från höft till knä, vilket visar var huden har dragits ut mest. Även skinkorna, överarmarna och axlarna är vanliga områden för bristningar. Intensiv styrketräning kan ge bristningar på överarmarna, särskilt om muskelväxten är snabb. Skinkorna drabbas av samma skäl som höfterna och låren: snabb tillväxt och viktökning. På axlarna är det särskilt vanligt bland manliga kroppsbyggare och tonårspojkar i puberteten.</p>
+            <p class="p200 mt-xl">Bristningar associeras oftast med kvinnor på grund av graviditet och hormonella förändringar, men de är väldigt vanliga även hos män. Var de än sitter är de en del av hudens naturliga svar på snabb utsträckning.</p>',
             icons: array('kropp' => 'Kroppen')
       ),
 );
@@ -98,7 +98,7 @@ $treatment_steps = array(
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Vi utför effektiva behandlingar anpassade för din specifika hud så att du snabbt och säkert kan minska synligheten av dina bristningar.',
+            content: 'Vi utför behandlingar anpassade efter din hud för att minska synligheten av dina bristningar.',
 
             url_label: 'Se behandlingar',
             url: 'https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=Problem_StrechMarks',
@@ -152,7 +152,7 @@ $type_categories = array(
 
       new BasedTypeCategory(
           title: 'Bristningar baserat på svårighetsgrad',
-          content: '<p class="p200">Bristningar kan variera i svårighetsgrad baserat på deras djup, längd och färgintensitet. I milda fall av bristningar är de ofta tunna och ljusa, mindre synliga. Medelsvåra bristningar kan vara mörkare och mer framstående, medan svåra bristningar är mycket djupa, långa och har en distinkt färg. Svårighetsgraden kan påverka ens självkänsla och önskan om behandling. Det är viktigt att identifiera svårighetsgraden av bristningarna för att bestämma den mest effektiva behandlingen och förstå hur de kan utvecklas över tiden.</p>',
+          content: '<p class="p200">Bristningar kan variera i svårighetsgrad baserat på deras djup, längd och färgintensitet. I milda fall av bristningar är de ofta tunna och ljusa, mindre synliga. Medelsvåra bristningar kan vara mörkare och mer framstående, medan svåra bristningar är mycket djupa, långa och har en distinkt färg. Svårighetsgraden kan påverka ens självkänsla och önskan om behandling. Den påverkar också vilken behandling som fungerar bäst och hur bristningarna kan utvecklas över tid.</p>',
           types: array(
               new BasedType(
                   title: 'Milda bristningar',
@@ -436,7 +436,7 @@ $service = new Service(
       title: 'Konsultation',
       duration: '20 min',
       price: 'Kostnadsfri',
-      content: 'Vid ett personligt möte med en specialist på bristningar utförs en undersökning av din hy. Vi tar före-bilder på de drabbade områdena och rekommenderar en lämplig behandling, samt skräddarsyr en behandlingsplan anpassad efter dina behov.',
+      content: 'Vid ett personligt möte med en specialist på bristningar utförs en undersökning av din hud. Vi tar före-bilder på de drabbade områdena och rekommenderar en lämplig behandling, samt skräddarsyr en behandlingsplan anpassad efter dina behov.',
 
       image_small: 'bilder/hudbehandlingar/200x200/konsultation.webp',
       image_large: 'bilder/hudbehandlingar/200x200/konsultation.webp',
@@ -464,7 +464,7 @@ $services = array(
             title: 'Laser mot bristningar',
             duration: '90 min',
             price: '6995 kr',
-            content: 'En avancerad laserbehandling erbjuder en effektiv lösning för att behandla och minska utseendet av bristningar. Lasertekniken stimulerar kollagenproduktionen i huden, vilket hjälper till att förbättra hudens struktur och minska synligheten av bristningar.',
+            content: 'Laserbehandlingen stimulerar kollagenproduktionen i huden, vilket hjälper till att förbättra hudens struktur och minska synligheten av bristningar.',
 
             image_small: 'bilder/hudbehandlingar/200x200/laser.webp',
             image_large: 'bilder/hudbehandlingar/200x200/laser.webp',
@@ -539,8 +539,8 @@ $articles = array(
             image_large: null,
             image_alt: 'När ska jag söka hjälp med mina bristningar?',
             image_title: 'När ska jag söka hjälp med mina bristningar?',
-            content: '<p class="p200">Bristningar är en av de vanligaste hudförändringarna som kan påverka både kvinnor och män, oavsett ålder. Även om de är helt ofarliga, kan bristningar orsaka självmedvetenhet och påverka ens självkänsla. Om du känner att dina bristningar stör dig estetiskt eller om du har försökt olika produkter och behandlingar utan framgång, kan det vara lämpligt att överväga professionell behandling.</p>
-            <p class="p200 mt-m">En hudterapeut kan bedöma svårighetsgraden av dina bristningar, diskutera potentiella behandlingsalternativ och rekommendera den bästa metoden för just din situation. Oavsett om bristningarna är nya och röda eller gamla och ljusa, finns det behandlingsmetoder som kan förbättra hudens utseende. Om du känner att bristningarna påverkar hur du känner för din kropp, tveka inte att söka professionell hjälp. Det är aldrig för tidigt eller för sent att ta steget mot en hud du trivs med.</p>',
+            content: '<p class="p200">Bristningar hör till de vanligaste hudförändringarna och är helt ofarliga. Ändå kan de skava på självkänslan, särskilt om du har provat krämer och oljor på egen hand utan att se resultat. Stör bristningarna dig estetiskt är professionell behandling ett rimligt nästa steg.</p>
+            <p class="p200 mt-m">En hudterapeut bedömer svårighetsgraden av dina bristningar, går igenom behandlingsalternativen och rekommenderar den metod som passar din situation. Oavsett om bristningarna är nya och röda eller gamla och ljusa finns det behandlingar som förbättrar hudens utseende. Det är varken för tidigt eller för sent att ta steget mot en hud du trivs med.</p>',
       ),
 
       new Article(
@@ -549,8 +549,8 @@ $articles = array(
             image_large: null,
             image_alt: 'Varför ska jag besöka AcneSpecialisten för mina bristningar?',
             image_title: 'Varför ska jag besöka AcneSpecialisten för mina bristningar?',
-            content: '<p class="p200">Letar du efter en effektiv lösning för dina bristningar? AcneSpecialisten står som det självklara valet. Med mer än 30 års expertis inom hudvård och en specialiserad förmåga att behandla bristningar, är vi perfekt utrustade för att möta dina behov. Oavsett om dina bristningar är få eller omfattande, utformar vi behandlingar som är anpassade just för dig.</p>
-            <p class="p200 mt-m">Vi använder oss av de senaste behandlingsteknikerna för att effektivt reducera och eliminera dina bristningar. Vårt team av erfarna hudterapeuter skapar en personlig behandlingsplan och erbjuder stöd genom hela din behandlingsresa. Vi dedikerar oss till att assistera dig i din strävan efter en slät och jämn hud. Vår passion, expertis och långa erfarenhet gör oss till det självklara valet för dig som söker behandling av bristningar.</p>',
+            content: '<p class="p200">Letar du efter en effektiv lösning för dina bristningar? AcneSpecialisten står som det självklara valet. Med mer än 30 års expertis inom hudvård och en specialiserad förmåga att behandla bristningar är vi perfekt utrustade för att möta dina behov. Oavsett om dina bristningar är få eller omfattande, utformar vi behandlingar som är anpassade just för dig.</p>
+            <p class="p200 mt-m">Vi behandlar bristningar med CO2-laser, microneedling med Dermapen och kemisk peeling, beroende på hur djupa och gamla bristningarna är. Din hudterapeut sätter ihop en personlig behandlingsplan och följer dig genom hela behandlingen, med målet att huden ska bli slätare och jämnare.</p>',
       ),
 
 );
@@ -657,11 +657,11 @@ $faq_categories = array(
       'Generellt om bristningar' => array(
             new Question(
                   title: 'Vilka är de vanligaste områdena på kroppen som är mer benägna att utveckla bristningar?',
-                  text: '<p class="p200">Bristningar kan uppträda på olika delar av kroppen, men de vanligaste områdena där de uppträder är buken, brösten, höfterna, rumpan och låren. Dessa områden är mer mottagliga för bristningar på grund av deras större potentiella tillväxt och utsträckning, särskilt under perioder som graviditet, snabb viktökning eller intensiv muskeltillväxt.</p>'
+                  text: '<p class="p200">Bristningar kan uppträda på olika delar av kroppen, men de vanligaste områdena där de uppträder är buken, brösten, höfterna, rumpan och låren. Dessa områden är mer utsatta eftersom huden där tänjs mest, särskilt vid graviditet, snabb viktökning eller intensiv muskeltillväxt.</p>'
             ),
             new Question(
                   title: 'Är det vanligt att man får bristningar under graviditet?',
-                  text: '<p class="p200">Ja, det är mycket vanligt att kvinnor utvecklar bristningar under graviditet. Detta beror på den snabba utsträckning av huden, särskilt på buken, samt hormonella förändringar som kan påverka hudens elasticitet. Många kvinnor upplever att bristningarna uppträder under tredje trimestern när den snabbaste tillväxten av magen sker.</p>'
+                  text: '<p class="p200">Ja, det är mycket vanligt att kvinnor utvecklar bristningar under graviditet. Detta beror på den snabba utsträckningen av huden, särskilt på buken, samt hormonella förändringar som kan påverka hudens elasticitet. Många kvinnor upplever att bristningarna uppträder under tredje trimestern när den snabbaste tillväxten av magen sker.</p>'
             ),
             new Question(
                   title: 'Kan både män och kvinnor få bristningar?',
@@ -669,15 +669,15 @@ $faq_categories = array(
             ),
             new Question(
                   title: 'Förändras bristningarnas utseende över tid?',
-                  text: '<p class="p200">Ja, bristningarnas utseende kan förändras över tiden. När de först uppträder kan de vara röda, lila eller rosa, men med tiden bleknar de ofta till en ljusare, pärlemorfärg eller till en vit eller silveraktig nyans. Även om de inte helt försvinner kan de bli mindre framträdande med åren.</p>'
+                  text: '<p class="p200">Ja, bristningarnas utseende kan förändras över tiden. När de först uppträder kan de vara röda, lila eller rosa, men med tiden bleknar de ofta till en ljusare pärlemorfärg eller en vit eller silveraktig nyans. Även om de inte helt försvinner kan de bli mindre framträdande med åren.</p>'
             ),
             new Question(
                   title: 'Vilka faktorer kan öka risken för att utveckla bristningar?',
-                  text: '<p class="p200">Flera faktorer kan öka risken att utveckla bristningar. Dessa inkluderar genetik, snabb viktökning, graviditet, användning av vissa mediciner.</p>'
+                  text: '<p class="p200">Genetik, snabb viktökning, graviditet och användning av vissa mediciner ökar risken att utveckla bristningar.</p>'
             ),
             new Question(
                   title: 'Är bristningar farliga eller skadliga för hälsan?',
-                  text: '<p class="p200">Nej, bristningar är inte farliga eller skadliga för hälsan. De är mestadels en estetisk bekymmer för många människor. Även om de kan vara irriterande eller orsaka obehag, särskilt när de först uppträder, representerar de inget hot mot personens hälsa.</p>'
+                  text: '<p class="p200">Nej, bristningar är inte farliga eller skadliga för hälsan. De är främst ett estetiskt bekymmer. Även om de kan vara irriterande eller orsaka obehag, särskilt när de först uppträder, utgör de inget hot mot hälsan.</p>'
             ),
 
       ),
@@ -873,7 +873,7 @@ $brands_url_title = "Varumärken för behandling av bristningar";
                         </section>
                         <section id="specialists">
                               <div class="flex-row justify-space-between">
-                                    <h2 class="big l10n">Våra hudterapeut</h2>
+                                    <h2 class="big l10n">Våra hudterapeuter</h2>
                                     <div class="is-hidden-touch">
                                           <button class="round-large grey" aria-label="scroll" onclick="scrollSpecialists(-1)">
                                                 <?php icon('arrow-left') ?>
