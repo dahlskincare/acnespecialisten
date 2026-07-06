@@ -92,7 +92,7 @@ Så ägaren slipper upprepa samma sak varje gång. Kopiera detta i första medde
 - `behandla-pigmentflackar.php` — ✅ KLAR (bonus, KW16; de-AI:ad → main, LIVE 1 jul)
 - `hudproblem/hudforandringar/index.php` — ✅ KLAR (hub; de-AI:ad → main, LIVE 1 jul; H1 i sep. commit; debug-rad-fix d3ce9162 väntar main-push)
 
-**MODERATE-vågen:** ✅ KLARA (9/10): `om-oss.php` (**MÄTT 6 jul: 0 flaggade block**), `hudbehandlingar/ipl/`, `ipl-rosacea.php` (LIVE, väntar refresh), `mogen-hy.php` (staging), `hudproblem/oonskat-har/` (staging), `microdermabrasion.php` (staging), `hudproblem/bristningar/` (omskriven 6 jul → staging), **`solskadad-hy.php` (omskriven 6 jul → staging; workflow-verifierad 7/7 grönt)**, **`rhinophyma-rosacea.php` (omskriven 6 jul → staging; workflow+juridik-verifierad)**. **KVAR (1):** `pigmentflackar.php` **(FACIT ✅ 2 jul: 8🔴/4🟠/5🔵/1🟢, KW244 — störst payoff; PAUSAD: blank/omanalys, kör när den kommer tillbaka i filtret m. färskt facit)**. Alla facit i `lynx-examples.php`.
+**MODERATE-vågen: ✅ KLAR 10/10 (6 jul em):** om-oss (**MÄTT: 0 flaggade block**), hudbehandlingar/ipl, ipl-rosacea (LIVE, väntar refresh), mogen-hy, oonskat-har, microdermabrasion, bristningar, solskadad-hy, rhinophyma-rosacea, **`pigmentflackar.php` (SISTA — omskriven 6 jul → staging; KW244; omgjord V1→V2 efter ägar-feedback om att inte kapa; workflow-verifierad, 0 resonemang tappat)**. **HELA DEN URSPRUNGLIGA FLAGG-LISTAN (4 SIGNIFICANT + 10 MODERATE) ÄR NU OMSKRIVEN.** Alla facit i `lynx-examples.php`. **Kvar för framtida städpass:** pigmentflackar FAQ-sektion (AI-holdout, ej facit-flaggad) + typtitel-versalisering; ärr-boilerplate-sweep (§9-spår).
 
 **SLIGHT (mestadels klara):** majoriteten (`acne.php`, `acnearr.php`, `acne-rygg.php`, `acne-brost.php`, startsidan m.fl.) — lättputs vid behov; använd som röstreferens.
 
@@ -157,7 +157,7 @@ Kryssa här. Start/stopp-vänligt: status = §9 + §11 (logg) + §12 (claims). P
 - [x] `hudproblem/bristningar/` — ✅ OMSKRIVEN 6 jul (6🔴+1🟠 + lätt hand extended/FAQ/kort; definitionsdubbletten DIFFERENTIERAD, ej ihopslagen — §13.D respekterad; §7.4b-verifierad 3 agenter, 0 allvarliga; prediktion 🟠→🔵) → staging, väntar ⛔ GSC-gate + main-push (§11 6 jul #7)
 - [x] `solskadad-hy.php` — ✅ OMSKRIVEN 6 jul (6🔴+1🟠 + lätt hand; workflow-verifierad 8 granskare, tier 7/7 grönt inkl. 2 HUMAN; prediktion 🟠→🔵) → staging, väntar main-push
 - [x] `rhinophyma-rosacea.php` — ✅ OMSKRIVEN 6 jul (8🔴+2🟠 + hela FAQ:n de-AI:ad; workflow + juridik-agent, 0 allvarliga, gränsfall hedgade; prediktion 🟠→🔵) → staging, väntar main-push
-- [ ] `pigmentflackar.php` (2,06, n=18 → ≈5–6 fixar; **KW244 = störst payoff**; **3 typos FIXADE 2 jul**; orsaks-definition ×3–4 block) — **✅ MYSTERIET LÖST 6 jul em (ägarbesked): sidan var BLANK för att den OMANALYSERADES i steg (inte tier-flytt) — kommer tillbaka med nytt resultat. INGEN paus-orsak kvar; kör när den dyker upp igen i filtret med färskt facit. Be om dess nya rad + AI Copy-vy när den landat.**
+- [x] `pigmentflackar.php` — ✅ OMSKRIVEN 6 jul em (8🔴+4🟠, KW244, SISTA MODERATE; orsaks-dubbletten differentierad; omgjord V1→V2 efter ägar-feedback "kapa inte info" → längd-disciplin, 0 resonemang tappat, sökfraser bevarade; §7.4b workflow-verifierad; melanom-säkerhetsrad + buggfixar) → staging, väntar main-push. **När LYNX refreshar den (var i omanalys): mät FÖRE→EFTER + be om ny AI Copy-vy.**
 
 Körs facit-drivet löpande — **ej grindat efter Fas 2-schemat** (fristående spår). Prioordning även i **§9.1**.
 
@@ -219,7 +219,7 @@ Vi kör **1 Claude i taget** (§0.1), så det här är ingen parallell-lås län
 
 | Sida | Status | Tid |
 |------|--------|-----|
-| `solskadad-hy.php` + `rhinophyma-rosacea.php` (Fas 3 #8+#9, körs i samma pass) | pågår | 6 jul em |
+| *(ingen pågående — 6 jul em: pigmentflackar KLAR → staging; HELA flagg-listan 4 SIG + 10 MOD omskriven. Nästa: main-push (ägare) + LYNX-refresh-mätning; Tier 1-SLIGHT rosacea/perioral-dermatit när facit finns; ärr-boilerplate-sweep)* | | |
 
 ---
 
