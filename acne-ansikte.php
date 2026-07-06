@@ -24,7 +24,7 @@ $floating_box = '';
 
 $green_banner_content = new GreenBannerContent(
       title: 'Akne i ansiktet',
-      description: 'Akne i ansiktet sätter sig där talgkörtlarna är som tätast: i pannan, på näsan, kinderna och hakan. För många påverkar den både huden och självkänslan. Det viktiga att komma ihåg är att den går att behandla. Här går vi igenom varför akne uppstår i ansiktet och vilka behandlingar som fungerar bäst.',
+      description: 'Akne i ansiktet sätter sig där talgkörtlarna är som tätast: i pannan, på näsan, kinderna och hakan. För många påverkar den både huden och självkänslan, men den går att behandla. Nedan går vi igenom varför akne uppstår i ansiktet och vilka behandlingar som fungerar bäst.',
       links_touch: [
             new Link('Boka konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Acne', 'Boka gratis konsultation för akne i ansiktet'),
             new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_Acne', 'Boka denna behandling'),
@@ -89,7 +89,7 @@ $trivias = array(
 
             <li class="mt-xl"><strong>Yttre faktorer:</strong> oljebaserad smink, dålig rengöring, föroreningar och feta solkrämer på sommaren kan täppa till porerna och utlösa utbrott.</li></ul>
 
-            <p class="p200 mt-xl">Slutligen, om du nyligen har börjat använda nya hudvårdsprodukter eller mediciner, kan dessa också vara utlösande faktorer. Vissa läkemedel, inklusive steroider, är kända för att orsaka akne som en biverkning. Om du upplever plötslig akne kan det vara bra att tänka igenom om något nyligen har ändrats i din livsstil eller dina vanor.</p>',
+            <p class="p200 mt-xl">Nya hudvårdsprodukter eller mediciner som du nyligen har börjat med kan också vara utlösande faktorer. Vissa läkemedel, inklusive steroider, är kända för att orsaka akne som en biverkning. Om du upplever plötslig akne kan det vara bra att tänka igenom om något nyligen har ändrats i din livsstil eller dina vanor.</p>',
 
             icons: array('genetik' => 'Genetik', 'hormoner' => 'Hormoner', 'stress' => 'Stress', 'klimat' => 'Klimat', 'graviditet' => 'Graviditet')
       ),
