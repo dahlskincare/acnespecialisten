@@ -23,7 +23,7 @@ Säger användaren typ *"vi fortsätter med LYNX-uppgifterna"* eller klistrar in
 
 > Kanonisk arbetsfil för att skriva om sidor som LYNX flaggar för **AI COPY** (SIGNIFICANT/MODERATE) så de läser som människa, utan att tappa sökord eller ranking. Utgå alltid från den här filen — den är **självbärande och enda källan till sanning** (vi använder inte task-tracker; TODO + status bor här). En ny Claude utan kontext ska kunna läsa den top-to-bottom och börja jobba (se §0.1 — kör 1 i taget). Senast uppdaterad: 2026-07-02.
 
-**Innehåll:** §0 använda filen · §0.1 kör 1 i taget · §1 hävstången · §1.1 bedömningsmodell · §1.2 score-modellen · §1.3 prediktions-rubrik · §1.4 medel-modellen · §1.5 AI questions-modellen · §2 formeln · §3 checklista · §4 husröst · §4.1 utökad husröst · §5 ramar · §6 SEO-skydd · §7 process · §8 backlog · §8.1 per-sida gaps · §9 TODO · §10 justeringsloop · §11 logg + baseline · §11.1 bevakningslista · §12 claims · §13 skyddsregler
+**Innehåll:** §0 använda filen · §0.1 kör 1 i taget · §1 hävstången · §1.1 bedömningsmodell · §1.2 score-modellen · §1.3 prediktions-rubrik · §1.4 medel-modellen · §1.5 AI questions-modellen · §2 formeln · §3 checklista · §4 husröst · §4.1 utökad husröst · §4.2 kund-tilltal & extern best practice · §5 ramar (inkl. juridik) · §6 SEO-skydd · §7 process · §8 backlog · §8.1 per-sida gaps · §9 TODO · §10 justeringsloop · §11 logg + baseline · §11.1 bevakningslista · §12 claims · §13 skyddsregler
 
 ---
 
@@ -191,7 +191,7 @@ LYNX ger både **sidnivå-AI COPY** (Pages-listan) och **per-block-facit** (AI C
 - [ ] Inga staplade "kan"; ingen "[antal] olika [X]"-padding?
 - [ ] Minst en verifierbar siffra/tidsram istället för superlativ? (pris med "Från")
 - [ ] **Inga em-streck**; ingen svensk AI-vokabulär (se §5)?
-- [ ] Kosmetiskt: inga medicinska/diagnos-påståenden, ingen hudcancer, inga aktiva ingredienser/organismer?
+- [ ] Kosmetiskt: inga medicinska/diagnos-påståenden, ingen hudcancer, inga aktiva ingredienser/organismer? Inga riskfritt-/garanti-löften eller skam-/rädsle-språk (§5 juridik + §4.2)?
 - [ ] Klinik-"vi", inga hudterapeutnamn?
 - [ ] Stannar på sidans eget ämne; grannämnen löses med **länk**?
 - [ ] **Sökorden bevarade** (se §6)?
@@ -262,6 +262,13 @@ Plockat från acne/rosacea/microneedling/alma-hybrid (sidor ägaren gillar). OBS
 - Platt "Nej"-myt-bust hör hemma i **FAQ**, inte brödtext (staccato).
 - *(OBS: "undvika kraftfulla läkemedel" är INTE skip — det är godkänt befintligt innehåll, se §5.)*
 
+### 4.2 Kund-tilltal & extern best practice (importerad 2026-07-06 — Google people-first, Konsumentverket, klarspråk; källor i §11 6 jul #5)
+*Status: lagkraven (→ §5 juridik) är ABSOLUTA; resten är extern praxis som inte får krocka med §1.1/§4 — vid konflikt vinner facit-datan.*
+- **Skamfritt säljande (av-skamningen upphöjd till princip):** sälj aldrig på skam, rädsla eller brådska — sälj på frihet och kunskap (§4.1 "slipper anpassa ditt liv efter din hy"). Aldrig "pinsam", "kämpa mot din dåliga hy", "äntligen slippa skämmas", "innan det är för sent". Problematisera inte normal hud — pormaskar/porer finns på all hud; säg ärligt vad som är normalt vs behandlingsbart (jfr ärlighets-keepern "ingen quickfix"). Empati = acknowledge (§2), aldrig alarmism.
+- **Svars-först i FAQ (klarspråk + §1.5 H2 + featured snippet-praxis):** FAQ-svarets FÖRSTA mening ÄR svaret (siffran, steget, ja/nej med nyans) — förklaringen kommer efter. Rubriker informativa med aktivt verb, aldrig sensationella (Google: "descriptive, non-sensational").
+- **Författarskap (medvetet vägval, nu dokumenterat):** Google premierar synliga bylines/credentials; vi kör klinik-"vi" utan terapeutnamn (§5) → vår E-E-A-T bärs på KLINIKNIVÅ: SHR-certifiering, 30 år, namngivna maskiner, "senast uppdaterad"-datum, specialist-/recensionswidgets. Trade-offen är vald — kompensera aldrig med påhittade personer/titlar.
+- **Riskinfo är copy-vänlig, inte ett säljhinder:** ärlig eftervård + normala reaktioner i konkret imperativ ("En viss rodnad är normalt och visar att hudens läkningsprocess har börjat", "undvik sol två veckor") uppfyller BÅDE lagkravet (§5 juridik) och LYNX-🔵-mönstret (eftervårds-facit). Skriv riskinfo konkret — aldrig som hedge-stapel.
+
 ---
 
 ## 5. Låsta ramar (gäller alla sidor)
@@ -279,6 +286,12 @@ Plockat från acne/rosacea/microneedling/alma-hybrid (sidor ägaren gillar). OBS
 - **Siloing:** grannämne (t.ex. rosacea) → kort omnämnande + **intern länk** till den sidan, aldrig dubblerat innehåll.
 - **Huvud- vs bonussidor:** huvudtermen bor på huvudsidan (t.ex. "akne"→acne.php, "pigmentfläckar"→pigmentflackar.php). Bonussidor håller sig till sin long-tail och tävlar inte om huvudtermen.
 - **Siffror** bara om verifierbara på sidan eller internt bekräftade; pris med "Från".
+- **⚖️ Juridik (MFL/PIL/estetiklagen — ABSOLUTA krav, trumfar all stil; tillagt 6 jul efter Konsumentverkets 2025–26-granskningar, skärpt lagstiftning på väg):**
+  - **Aldrig riskfritt-intryck.** Utelämnad riskinformation = vilseledande marknadsföring (KO-praxis). Inga "helt riskfritt", "smärtfritt", "garanterat resultat". Normala reaktioner + eftervård nämns ärligt och KONKRET (§4.2 — det är dessutom LYNX-🔵-mönstret).
+  - **Före/efter-bilder (resultat-sidorna + widgets):** får inte ge vilseledande helhetsintryck — representativa exempel med konkret kontext ("efter 3 behandlingar"), aldrig löfte om samma resultat. Gäller även TEXTEN runt bilderna vid rewrite.
+  - **18-årsgräns för estetiska injektionsbehandlingar:** injektions-copy (fillers m.m.) får aldrig rikta sig mot minderåriga — håll injektionssidorna silo-separerade från tonårs-/elevsidorna (tonarsacne, elevbehandlingar); ingen injektions-CTA där.
+  - **Priser:** "Från X kr" = bokningssystemets faktiska pris (princip sedan prisrättningen 3 jul). Paket-"Spara X kr" = jämförelse paket vs styckpris — OK, men framställ aldrig som tidsbegränsad rea; överstruket pris/"kampanj" kräver 30-dagars lägsta pris (7a § prisinformationslagen) — undvik helt i statisk copy.
+  - **Receptläkemedel (roaccutan.php):** konsumentreklam för receptbelagda läkemedel är förbjuden — sidan hålls redaktionell/informativ med pivot till våra behandlingar; sälj/rekommendera aldrig läkemedlet. Guard vid rewrite.
 - **Reglerna är heuristiker, inte stela lagar.** Använd omdöme — befintligt godkänt innehåll och en genuint bättre formulering trumfar en regel som inte tillför i sammanhanget. Vi rutar inte in oss.
 
 ---
@@ -466,6 +479,13 @@ Korrelera mot LYNX-refresh. Senaste först. Spara alltid **LYNX-baseline** (FÖR
 | ytliga-blodkarl.php | 42 | – | 22 | 2/2 | SIGNIFICANT | OK | – | 172 |
 | behandla-pigmentflackar.php | 14 | – | – | –/– | SIGNIFICANT | GOOD | – | 16 |
 | hudproblem/hudforandringar/ | 10 | – | 17 | 3/2 | SIGNIFICANT | OK | – | 8 |
+
+### 2026-07-06 #5 — EXTERN BEST-PRACTICE-IMPORT (ägar-beställd: "ton, hur vi pratar om oss, kolla online, SEO i åtanke")
+**Research:** Google Search Central (people-first/E-E-A-T-självskattning), Konsumentverket (skönhetsingrepp-regler + prisinformationslagen 7a §), KO:s före/efter-granskningar (19 kliniker fällda för vilseledande bilder; regeringsuppdrag juni 2026 = SKÄRPNING PÅ VÄG), klarspråkspraxis (du-tilltal, aktiva verb, svars-först). Avstämt mot §2–§6: det mesta var redan täckt (du-tilltal, aktiva verb, gloss, av-skamning, ärlighet, verifierbara siffror, silo/intent) — importen fyller LUCKORNA:
+**NYTT §5 ⚖️ Juridik-block (absoluta krav — största gapet):** (1) aldrig riskfritt-intryck (utelämnad riskinfo = vilseledande; KO-praxis); (2) före/efter-bilder får inte vilseleda — gäller även texten runt resultat-widgets; (3) 18-årsgräns injektioner → injektionscopy silo-separerad från tonårs-/elevsidor; (4) priser = bokningssystemets, paket-"Spara" aldrig framställt som rea, överstruket/kampanj kräver 30-dagars lägsta pris (7a § PIL); (5) roaccutan.php-guard (konsumentreklam för receptläkemedel förbjuden — redaktionell + pivot).
+**NYTT §4.2 (praxis, ej facit):** skamfritt säljande som princip (sälj på frihet, aldrig skam/rädsla/brådska; problematisera inte normal hud) · svars-först i FAQ (första meningen = svaret — förstärker §1.5 H2 + snippet-praxis) · författarskaps-trade-offen dokumenterad (klinik-E-E-A-T i stället för bylines: SHR/30 år/maskiner/widgets — aldrig påhittade personer) · riskinfo-är-copy-vänlig-principen (konkret imperativ = både lagkrav och LYNX-🔵). §3-checklistan fick riskfritt-/skam-frågan.
+**Medvetet EJ importerat:** amerikansk brand-etik-vokabulär rakt av (våra validerade formuleringar som "reparera skadad hud" är facit-🔵 och behålls); "resultat varierar"-disclaimers som hedge-fraser (lagkravet uppfylls med konkret kontext i stället — §1.1-kompatibelt); byline-krav (medvetet vägval emot, se §4.2).
+**Käll-URL:er:** developers.google.com/search/docs/fundamentals/creating-helpful-content · konsumentverket.se/marknadsratt-foretag/skonhetsingrepp-och-kosmetiska-produkter-regler-for-foretag · konsumentverket.se/for-foretag/prissattning-och-ta-betalt/prisinformationslagen · konsumentverket.se/pressmeddelande/fore-och-efterbilder-vilseleder-om-plastikkirurgi · regeringen.se/pressmeddelanden/2026/06/konsumentverket-foreslar-atgarder-mot-marknadsforing-av-skonhetsingrepp.
 
 ### 2026-07-06 #4 — HELPLANS-GRANSKNING (ägar-beställd: "best practice, mer naturlig mänsklig formulering, annat?")
 **Äkta motsägelser mot facit — FIXADE:** (1) **§4.1 Reassurance-beat-keepern rekommenderade ordagrant den fras som fällde acne-ansiktes intro** ("Det viktiga att komma ihåg är att huden kan behandlas" = §1.1-importans-filler). Omskriven: säg trösten RAKT ("Akne i ansiktet går att behandla") — innehållet är keepern, inslagningen är tellen. (2) **CTA-guidningen drog åt två håll:** §3/§4 krävde "resa"-form medan §13.N sa "skriv rakt" — och facit visar rak kort CTA = 🔵 (om-oss). Harmoniserat i §3 + §4: namngiven vinst krävs, "resa"-metaforen är valfri variation. (3) **§2 skylt-observation tillagd:** kort rumslig skylt ("Nedan tittar vi närmare…") satt i 🟢-block, "Här går vi igenom [X] och [Y]"-katalogform i 🟠-introt — föredra den korta rumsliga i intron.
