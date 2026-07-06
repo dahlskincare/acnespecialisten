@@ -1,14 +1,15 @@
 <?php exit; /* intern LYNX-arbetsfil – ej webb-serverad, läs i editor/git */ ?>
 # LYNX-data (manuell export) — NAV-FIL: Pages-inventeringar + sidregister + filkarta
 
-> **📁 FILKARTA (per kolumn, beslutad av ägaren 2 jul — läs BARA de filer sessionen behöver):**
+> **📁 FILKARTA (uppdaterad 6 jul — playbooken SPLITTRAD per arbetsläge; läs BARA det uppgiften kräver):**
+> **▶ NY SESSION: läs `lynx-START.php` FÖRST — den har LÄGE + router + regler + backlog.**
+> - **INSTRUKTIONER:** `lynx-START.php` (nav/läge/router/backlog §8-9/claims §12) · `lynx-rewrite.php` (omskrivnings-hantverk: §1.1/1.3/1.4 bedömning, §2 formel, §3 checklista, §4 husröst, §5 ramar+juridik, §6 SEO-skydd, §7 process, §13 skyddsregler) · `lynx-models.php` (§1.2 SCORE-modell, §1.5 AIQ, §10 mät-loop, §11.1 bevakning) · `lynx-logg.php` (arbetslogg §11) · `lynx-log-arkiv.php` (äldre poster) · `lynx-copy-playbook.php` (bara en vägvisar-stub numera).
+> - **RÅDATA (denna filgrupp):**
 > - **`lynx-data.php` (denna fil)** — Pages-LISTAN: inventerings-snapshots (VALUE/PT/SCORE/GAPS/AICOPY/AIQ/P.PRICE/KW/WORDS/CLICKS/STATUS per sida), officiella kolumn-definitioner, sidregister (i LYNX/saknas/ej i repo), beställningssedel.
 > - **`lynx-examples.php`** — AI COPY-kolumnen: per-block-facit per sida + blindtest + modellvalideringar (§1.1/§1.3/§1.4-underlag).
 > - **`lynx-questions.php`** — AI QUESTIONS-kolumnen: AI Overview Ranking-frågelistor per sida (§1.5-underlag; Fas 2-spec).
-> - **`lynx-score.php`** — SCORE-kolumnen: alla SCORE-nedbrytningar, färska vs gamla skalan (§1.2-underlag).
-> - **`lynx-gaps.php`** — GAPS-kolumnen: gap-texter per sida (besluten bor i playbook §8.1).
-> - **`lynx-copy-playbook.php`** — processen/modellerna/TODO/logg (läses alltid top-to-bottom av ny session).
-> - **`lynx-log-arkiv.php`** — arkiverade §11-poster.
+> - **`lynx-score.php`** — SCORE-kolumnen: alla SCORE-nedbrytningar + SCORE-modellens härledning + online-verifiering (§1.2-underlag).
+> - **`lynx-gaps.php`** — GAPS-kolumnen: gap-texter per sida (besluten bor i `lynx-START.php` §8.1).
 >
 > LYNX saknar exportfunktion, så detta är vår **manuella databas** över LYNX Pages-data. Mata in ny data vid varje refresh (ny daterad snapshot) så vi kan jämföra FÖRE/EFTER. *Transkriberat från skärmdumpar — verifiera mot LYNX vid hårda beslut.*
 > **Data-hantering (princip 2026-07-01):** spara ALLT ägaren skickar (sidnivå + block + SCORE-breakdown + AI QUESTIONS) här/​i `lynx-examples.php` som underlag. Vid **ny scanning: diffa mot sparad data** → vad ändrades, vad förbättrades/försämrades, vad bör åtgärdas. **Påminn ägaren om att skicka uppdateringar** om de dröjer (vi kan inte polla LYNX själva).
