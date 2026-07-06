@@ -550,7 +550,7 @@ $articles = array(
             image_alt: 'Varför ska jag besöka AcneSpecialisten för mina bristningar?',
             image_title: 'Varför ska jag besöka AcneSpecialisten för mina bristningar?',
             content: '<p class="p200">Letar du efter en effektiv lösning för dina bristningar? AcneSpecialisten står som det självklara valet. Med mer än 30 års expertis inom hudvård och en specialiserad förmåga att behandla bristningar är vi perfekt utrustade för att möta dina behov. Oavsett om dina bristningar är få eller omfattande, utformar vi behandlingar som är anpassade just för dig.</p>
-            <p class="p200 mt-m">Vi behandlar bristningar med CO2-laser (Alma Hybrid eller Fraction CO2), microneedling med Dermapen och kemisk peeling, beroende på hur djupa och gamla bristningarna är. Din hudterapeut sätter ihop en personlig behandlingsplan och följer dig genom hela behandlingen, med målet att huden ska bli slätare och jämnare.</p>',
+            <p class="p200 mt-m">Vi behandlar bristningar med CO2-laser, microneedling och kemisk peeling, beroende på hur djupa och gamla bristningarna är. Din hudterapeut sätter ihop en personlig behandlingsplan och följer dig genom hela behandlingen, med målet att huden ska bli slätare och jämnare.</p>',
       ),
 
 );
