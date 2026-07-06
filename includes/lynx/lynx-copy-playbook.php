@@ -167,7 +167,7 @@ LYNX ger både **sidnivå-AI COPY** (Pages-listan) och **per-block-facit** (AI C
 1. **Krok** — öppna med en *konkret komponent*, inte abstrakt skala. Första substantivet ska vara något läsaren kan se (papler, gropar, fläckar, "bacne"). Aldrig "Det finns flera…/Det är viktigt att…/När det kommer till…/påverkar miljontals…". **Gäller även varje list-punkt:** led med mekanismen/det konkreta, inte "[rubrik] kan spela en roll vid…".
    - Ofta **fusera Krok + Mekanism** i mening ett (orsaken bunden på komponenten).
 2. **Mekanism** — gå igenom orsaken steg för steg med kausala bindeord (*vilket leder till, på grund av, eftersom, vilket i sin tur, detta resulterar i*). Lägg minst **en taktil verb/bild eller inline-parentes-förklaring per begrepp** (t.ex. *kollagen (ett protein som håller huden elastisk)*, *"äter upp"*, *som en månkrater*). Täthet = bunden prosa, **aldrig** fet-etikett-punktlistor.
-3. **Skylt** — avsluta intro med en konkret hänvisning till innehållet under, **varierad** mellan systerblock (aldrig samma "Här går vi igenom…" två gånger). Fråge-scaffolden (Vad/Varför/Vem/Var) kan själv vara skylten.
+3. **Skylt** — avsluta intro med en konkret hänvisning till innehållet under, **varierad** mellan systerblock (aldrig samma "Här går vi igenom…" två gånger). Fråge-scaffolden (Vad/Varför/Vem/Var) kan själv vara skylten. **Facit-observation (6 jul):** den korta rumsliga formen *"Nedan tittar vi närmare på varje område"* satt i ett 🟢-block, medan katalogformen *"Här går vi igenom [X] och [Y]"* ingick i 🟠-introt — föredra den korta rumsliga skylten, särskilt i intron.
 
 **Empati-lager (för tillståndssidor):** acknowledge-then-reassure + av-skamning ("oavsett ålder/kön") + mjuk genetik-hedge ("om… finns det en risk"). Mekanism + empati = tillståndssidans register.
 
@@ -195,7 +195,7 @@ LYNX ger både **sidnivå-AI COPY** (Pages-listan) och **per-block-facit** (AI C
 - [ ] Klinik-"vi", inga hudterapeutnamn?
 - [ ] Stannar på sidans eget ämne; grannämnen löses med **länk**?
 - [ ] **Sökorden bevarade** (se §6)?
-- [ ] Skylt varierad mot systerblock; CTA är en "resa", inte "boka tid"?
+- [ ] Skylt varierad mot systerblock; CTA rak + konkret med namngiven vinst (kostnadsfri konsultation), inte bara "boka tid" — och ingen tvingad "resa"-metafor (facit: rak kort CTA = 🔵, §4/§13.N)?
 
 ---
 
@@ -226,7 +226,7 @@ LYNX ger både **sidnivå-AI COPY** (Pages-listan) och **per-block-facit** (AI C
 - Acknowledge-then-reassure: *"Oavsett ålder kan det vara en källa till obehag. Men med rätt kunskap och behandling går det att hantera och minska [tillståndet]."*
 
 ### CTA-stil
-Aldrig bara "boka tid". Forma CTA:n som en resa med en namngiven vinst, och variera varje gång. Återkommande form = inbjudan + kostnadsfri konsultation + namngiven destination:
+Aldrig bara "boka tid" — ge CTA:n en namngiven vinst, och variera varje gång. **Facit-not (6 jul): rak kort CTA med namngiven vinst är 🔵-belagd** (*"Boka en gratis hudkonsultation hos en av våra erfarna hudterapeuter."*, om-oss) — **"resa"-metaforen är valfri variation, aldrig ett krav** (jfr §13.N: skriv CTA:n rakt). Återkommande form = inbjudan + kostnadsfri konsultation + namngiven destination:
 - *"Kontakta oss för en kostnadsfri konsultation och börja din resa mot en ärrfri och slät hud idag!"* (acnearr.php:86)
 - *"Din resa med oss börjar med en kostnadsfri konsultation. Vi tar oss tiden att analysera ditt unika fall…"* (acnearr.php:286)
 - Mitt-på-sidan-skyltar = konkreta vi-handlingar: *"Vi tar bilder och rekommenderar en skräddarsydd behandlingsplan…"* (acne-brost.php:137)
@@ -242,7 +242,7 @@ Plockat från acne/rosacea/microneedling/alma-hybrid (sidor ägaren gillar). OBS
 
 **Nya keepers:**
 - **Empati förankrad i en KONKRET situation** (inte generisk "du är inte ensam"): *"Vi förstår att det kan vara frustrerande när akne plötsligt dyker upp, särskilt inför ett bröllop eller en skolavslutning."*
-- **Reassurance-beat** (kort hopp-mening som bryter rytmen): *"Det viktiga att komma ihåg är att huden kan behandlas."*
+- **Reassurance-beat** (kort hopp-mening som bryter rytmen) — **säg trösten RAKT:** *"Akne i ansiktet går att behandla."* **⚠️ Slå INTE in den i en importans-fras** (*"Det viktiga att komma ihåg är att…"*) — inslagningen är §1.1-importans-filler och pekades ut i acne-ansiktes enda kvarvarande 🟠 (EFTER-facit 6 jul). Innehållet (hopp/behandlbarhet) är keepern; wrappern är tellen.
 - **Ärlighet före hype**: *"Det finns ingen quickfix när det gäller akne."*
 - **Ärlig brasklapp + pivot**: *"Den exakta orsaken är fortfarande något forskare försöker förstå, men det är tydligt att genetiken spelar en central roll."*
 - **Verifierbar siffra istället för "många"**: *"drabbar cirka 12–22 % av kvinnor och 3 % av män"* (endast om siffran stämmer).
@@ -299,7 +299,7 @@ Sidorna rankar redan på sökord. Omskrivningen får höja kvaliteten **utan att
 
 ## 7. Arbetsprocess per sida
 0. **Claima sidan i §12** (§0.1 — kontrollera först att du är ensam: `git status` + §12 + senaste §11/commits).
-1. **Spara LYNX-baseline** för sidan i §11 (AI COPY, SCORE, GAPS, AI QUESTIONS, PAGE TYPE, P. PRICE, KW, ev. RANK) — innan något ändras. *(Obs §1.2-omprövningen: SCORE 0 = trolig trasig analys → be ägaren köra om hellre än att logga 0 som baseline.)*
+1. **Spara LYNX-baseline** för sidan i §11 (AI COPY, SCORE, GAPS, AI QUESTIONS, PAGE TYPE, P. PRICE, KW, ev. RANK) — innan något ändras. **Notera ANALYSDATUM PER VY** (AI Copy-vyns "Last update" + SCORE-popupens "Analyzed X ago") — vyerna refreshar oberoende (§11.1-tillägget 6 jul), så radens kolumner kan ha olika ålder. *(Obs §1.2-omprövningen: SCORE 0 = trolig trasig analys → be ägaren köra om hellre än att logga 0 som baseline.)*
 2. **Ägaren klistrar in LYNX-facit → SPARA rådatan FÖRST** i rätt kolumnfil (filkarta i `lynx-data.php`: per-block → lynx-examples · frågor → lynx-questions · SCORE → lynx-score · gaps → lynx-gaps · Pages-rader → lynx-data; diffa mot förra scan). Identifiera sen primärt sökord + intent (bonus → long-tail). Agera aldrig på facit utan att spara det först (§0 Facit-flöde). **Finns facit REDAN sparat (t.ex. Fas 3b-sidorna: facit + frågelistor + gap-texter ligger i lynx-examples/lynx-data sedan 2 jul) — verifiera att det är komplett och gå direkt vidare; be inte om det igen.**
 3. Skriv om de **LYNX-flaggade blocken (🔴/🟠/🟥)**, se över 🔵/🟢 med lätt hand + bedöm sidan som HELHET (§13.D) — enligt §2–§4; kör §3-checklistan + §6 SEO-skydd.
 4. Lös gap-punkter inom ramarna (grannämne → länk; ingen medicin/cancer) — **fattade beslut per sida står i §8.1; följ dem.**
@@ -313,12 +313,12 @@ Sidorna rankar redan på sökord. Omskrivningen får höja kvaliteten **utan att
 
 ## 8. Sidkarta & backlog (LYNX AI COPY)
 **SIGNIFICANT — alla ✅ KLARA (staging/main):**
-- `acne-ansikte.php` — ✅ KLAR (omskriven hela sidan → main, LIVE; se §9/§11/§11.1)
+- `acne-ansikte.php` — ✅ KLAR + **MÄTT 6 jul: 🔴→🔵 SLIGHT** (kvar: intro-blockets 🟠 = micro-fix-kandidat; se §11 6 jul)
 - `ytliga-blodkarl.php` — ✅ KLAR (omskriven steg för steg → main, LIVE 1 jul; se §9/§11/§11.1)
 - `behandla-pigmentflackar.php` — ✅ KLAR (bonus, KW16; de-AI:ad → main, LIVE 1 jul)
 - `hudproblem/hudforandringar/index.php` — ✅ KLAR (hub; de-AI:ad → main, LIVE 1 jul; H1 i sep. commit; debug-rad-fix d3ce9162 väntar main-push)
 
-**MODERATE-vågen:** ✅ KLARA: `om-oss.php`, `hudbehandlingar/ipl/`, `ipl-rosacea.php` (alla LIVE, väntar refresh), `mogen-hy.php` (omskriven 2 jul → staging), `hudproblem/oonskat-har/` (omskriven 3 jul → staging), `microdermabrasion.php` (omskriven 3 jul → staging). **KVAR (4) — facit komplett för alla:** `hudproblem/bristningar/` **(FACIT ✅ 2 jul em: 6🔴/1🟠/5🔵/1🟢; OBS två nära-identiska definitionsblock — slå EJ ihop utan ägarbeslut §13.D)**, `solskadad-hy.php` **(FACIT ✅ 2 jul em: 6🔴/1🟠/3🔵/1🟢)**, `rhinophyma-rosacea.php` **(FACIT ✅ 2 jul em: 8🔴/2🟠/5🔵/1🟢 — 2 språkfel fixade 2 jul)**, `pigmentflackar.php` **(FACIT ✅ 2 jul 14:22: 8🔴/4🟠/5🔵/1🟢, KW244 — 3 typos fixade 2 jul)**. Alla facit i `lynx-examples.php`. (Prioordning: §9.1.)
+**MODERATE-vågen:** ✅ KLARA: `om-oss.php` (**MÄTT 6 jul: 0 flaggade block — badge-bekräftelse beställd**), `hudbehandlingar/ipl/`, `ipl-rosacea.php` (LIVE, väntar refresh), `mogen-hy.php` (omskriven 2 jul → staging), `hudproblem/oonskat-har/` (omskriven 3 jul → staging), `microdermabrasion.php` (omskriven 3 jul → staging). **KVAR (4) — facit komplett för alla:** `hudproblem/bristningar/` **(FACIT ✅ 2 jul em: 6🔴/1🟠/5🔵/1🟢; OBS två nära-identiska definitionsblock — slå EJ ihop utan ägarbeslut §13.D)**, `solskadad-hy.php` **(FACIT ✅ 2 jul em: 6🔴/1🟠/3🔵/1🟢)**, `rhinophyma-rosacea.php` **(FACIT ✅ 2 jul em: 8🔴/2🟠/5🔵/1🟢 — 2 språkfel fixade 2 jul)**, `pigmentflackar.php` **(FACIT ✅ 2 jul 14:22: 8🔴/4🟠/5🔵/1🟢, KW244 — 3 typos fixade 2 jul)**. Alla facit i `lynx-examples.php`. (Prioordning: §9.1.)
 
 **SLIGHT (mestadels klara):** majoriteten (`acne.php`, `acnearr.php`, `acne-rygg.php`, `acne-brost.php`, startsidan m.fl.) — lättputs vid behov; använd som röstreferens.
 
@@ -383,7 +383,7 @@ Kryssa här. Start/stopp-vänligt: status = §9 + §11 (logg) + §12 (claims). P
 - [ ] `hudproblem/bristningar/` (1,92 → ≈3 fixar; OBS två nära-identiska definitionsblock — slå EJ ihop utan ägarbeslut §13.D; inga språkfel)
 - [ ] `solskadad-hy.php` (2,09 → ≈3–4 fixar; inga språkfel — tidigare noterat fel var transkriptionsfel)
 - [ ] `rhinophyma-rosacea.php` (2,06 → ≈5 fixar; **2 språkfel FIXADE 2 jul** — kvar: de-AI imorgon)
-- [ ] `pigmentflackar.php` (2,06, n=18 → ≈5–6 fixar; **KW244 = störst payoff**; **3 typos FIXADE 2 jul**; orsaks-definition ×3–4 block)
+- [ ] `pigmentflackar.php` (2,06, n=18 → ≈5–6 fixar; **KW244 = störst payoff**; **3 typos FIXADE 2 jul**; orsaks-definition ×3–4 block) — **⚠️ PAUSAD 6 jul: sidan borta ur AICOPY-filtret (mysterium, §11 6 jul #2) — starta INTE förrän ägarens rad + AI Copy-vy kommit**
 
 Körs facit-drivet löpande — **ej grindat efter Fas 2-schemat** (fristående spår). Prioordning även i **§9.1**.
 
@@ -395,14 +395,15 @@ Körs facit-drivet löpande — **ej grindat efter Fas 2-schemat** (fristående 
 - [x] **Homepage-raden i AICOPY-vyn — LÖST 2 jul 14:20 (zoom-dump + ägarbesked):** homepage `/` FINNS i LYNX (VAL 41 · SCORE 28 · GAPS 0/0 · **AI COPY SLIGHT** · AIQ POOR · KW 298); `/behandlingar.php` = **redirect till /hudbehandlingar/** (KW 0 — ingen egen copy att åtgärda). Rad-data i lynx-data. Följd: homepage är INTE AI COPY-flaggad → dess uppsida är SCORE + AIQ (enda POOR-sidan), inte flagg-vinst.
 - [ ] **`/varumarken/powerlite-photonova/`:** finns i LYNX/live men INTE i repot — utred (borttagen sida som lever kvar på live? redirect behövs?).
 - [ ] **`/varumarken/hifu/`:** nyligen tillagd sida som ännu inte syns i LYNX — bevaka att den indexeras.
-- [ ] **om-oss gap-popupens 4:e punkt** ej synlig i dumpen (2 QW + 2 sugg; 3 lästa: remiss/vårdkö, skillnad mot hudläkare, prisinformation) — be om den när om-oss-gapsen ska åtgärdas.
+- [ ] **om-oss gap-popupens 4:e punkt** ej synlig i dumpen (2 QW + 2 sugg; 3 lästa: remiss/vårdkö, skillnad mot hudläkare, prisinformation — bekräftade oförändrade 6 jul) — be om den när om-oss-gapsen ska åtgärdas; §8.1-beslut för om-oss tas då (remiss-/hudläkare-vinkeln är redan sidans positionering → trolig GÖR inom §5, men beslut väntar 4:e punkten + badge-bekräftelsen).
+- [ ] **pigmentflackar.php borta ur AICOPY-filtret (6 jul)** — saknas även i alfabetisk vy (ej omskriven av oss → ej vår förtjänst). URL-sök i Pages + AI Copy-vy beställd av ägaren; Fas 3-/Tier 1-prion för sidan PAUSAD tills löst.
 
 **Fas 3b — facit-klara sidor (rewrite i SEPARAT session, ägarbesked 2 jul; alla sidnivå 🔵 → §1.4: SCORE/AI STYLE-vinst, ej flagg-vinst)**
 - [ ] `microneedling.php` (KW70, SCORE 50 färsk; facit 22 apr: 4🔴/2🟠) — de-AI + "microneedling kur"-gapet (§8.1). **Rewrite ÅTERRULLAD 2 jul (ägarbesked) — färdig block-plan i §11-posten em #2. 5 språkfel/typos FIXADE separat 2 jul em** (markanden, micronnedling-FAQ:n, slussas-in-kanalerna, våra→vår, utseendet) — kvar: enbart de-AI-omskrivningen.
 - [ ] `portomning.php` (KW28, SCORE 60 färsk; facit 24 jun: 2🟠) — lätt pass: importans-öppningar/svansar + typos ("ansiktet,ryggen", "brötstet").
 - [ ] `acne-rygg.php` (KW51, SCORE 0 = trasig analys, be om omkörning; facit 25 apr: 3🔴/1🟠) — de-AI + 2 grammatikfel live + gap-punkter (§8.1).
 - [ ] `seborroisk-keratos.php` (KW110, SCORE 74 färsk; facit 25 apr: 2🔴/2🟠) — de-AI + grammatikfel (CryoPen-blocket) + §8.1-gaps (smalna av, curettage).
-- [ ] `mogen-hy.php` (KW9, MODERATE-vågen §8; facit 22 apr KOMPLETT mottaget 2 jul: 5🔴/1🟠/5🔵/3🟢 + AI Overview-lista 27 frågor i lynx-data) — de-AI + 2 grammatikfel + 2 typos live; "Vad betyder hy?"-gapet (§1.5 H2/H6); sidan = §1.4:s första median-miss (se lynx-examples).
+- [x] ~~`mogen-hy.php`~~ — **STALE DUBBLETTRAD (upptäckt 6 jul):** sidan omskrevs 2 jul inkl. språkfelen (se Fas 3-raden [x] ovan + §11 2 jul em #7); låg kvar öppen här av misstag. "Vad betyder hy?"-gapet medvetet lämnat (ägarbeslut 2 jul).
 
 **Löpande / avslut**
 - [ ] LYNX justeringsloop (§10) — läs varje refresh, uppdatera §11 + lynx-data.php.
@@ -421,14 +422,14 @@ Från LYNX-inventeringen (`lynx-data.php` + Pages-listan). Prio = AI COPY-svåri
 
 **Tier 1 — störst KW + uppsida (GÖR FÖRST):**
 1. `/` (Homepage) — KW298, **AI COPY SLIGHT (ej flaggad — bekräftat 2 jul 14:20)**, AIQ POOR (enda POOR-sidan), SCORE28, GAPS 0/0 (rensade). Störst enskild uppsida — men vinsten är SCORE + AI QUESTIONS, inte flagg. Skydda E-E-A-T-widgets.
-2. `pigmentflackar.php` — KW244, 🟠 MODERATE **(FACIT ✅ 2 jul 14:22 — medel 2,06, 5–6 🔴→🔵-fixar till 🔵-badge)**. Största MODERATE; pigment-huvudsida (silo mot behandla-pigmentflackar).
+2. `pigmentflackar.php` — KW244, 🟠 MODERATE **(FACIT ✅ 2 jul 14:22 — medel 2,06, 5–6 🔴→🔵-fixar till 🔵-badge)**. Största MODERATE; pigment-huvudsida (silo mot behandla-pigmentflackar). **⚠️ PAUSAD 6 jul — borta ur AICOPY-filtret (§11 6 jul #2); vänta på ägarens rad + AI Copy-vy.**
 3. `rosacea.php` — KW221, 🔵 SLIGHT, SCORE –. Rosacea-huvudsida.
 4. `perioral-dermatit.php` — KW194, 🔵, SCORE –.
 
 **Tier 2 — hög-KW SLIGHT, låg/0 SCORE + gaps (enskilda block kan vara 🔴):**
 blodprickar (175, SCORE17) · milier (173, 37) · seborre (168, –) · pormaskar (128, 32) · acnearr (127, **SCORE0** = trolig trasig analys §1.2, +gaps) · **acne.php (116 — FACIT ✅ MOTTAGEN 1 jul: ~10 🔴-block, redo; husröst-REFERENS → LÄMNA dess 🔵/🟢-block)** · **seborroisk-keratos (110, 74 färsk — FACIT ✅ 2 jul, i Fas 3b-kön)** · hudflikar (105, 28) · finnar (101, silo).
 
-**Tier 3 — resterande MODERATE + mellan-KW SLIGHT (~KW40–71):** permanent-harborttagning · **microneedling (FACIT ✅ 2 jul — Fas 3b-kön)** · finnar-rygg · **bristningar (🟠)** · fodelsemarken · stora-porer (0) · fet-hy · roaccutan · cryopen · alma-hybrid-co2 · dermapen · kemisk-peeling (gaps) · **acne-rygg (FACIT ✅ 2 jul — Fas 3b-kön; SCORE 0 = trasig analys)** · **rhinophyma-rosacea (🟠)** · finnar-gravid · behandla-stora-porer · acne-brost · inflammation-acne · **solskadad-hy (🟠)** · ~~ipl-rosacea (🟠, P.PRICE HIGHEST)~~ ✅ KLAR → staging · **oonskat-har (🟠)** · **mogen-hy (🟠, FACIT ✅ 2 jul — Fas 3b-kön)** · **microdermabrasion (🟠)**.
+**Tier 3 — resterande MODERATE + mellan-KW SLIGHT (~KW40–71):** permanent-harborttagning · **microneedling (FACIT ✅ 2 jul — Fas 3b-kön)** · finnar-rygg · **bristningar (🟠)** · fodelsemarken · stora-porer (0) · fet-hy · roaccutan · cryopen · alma-hybrid-co2 · dermapen · kemisk-peeling (gaps) · **acne-rygg (FACIT ✅ 2 jul — Fas 3b-kön; SCORE 0 = trasig analys)** · **rhinophyma-rosacea (🟠)** · finnar-gravid · behandla-stora-porer · acne-brost · inflammation-acne · **solskadad-hy (🟠)** · ~~ipl-rosacea (🟠)~~ ✅ LIVE, väntar refresh · ~~oonskat-har (🟠)~~ ✅ omskriven → staging · ~~mogen-hy (🟠)~~ ✅ omskriven → staging · ~~microdermabrasion (🟠)~~ ✅ omskriven → staging.
 
 **Tier 4–5 — lägre-KW SLIGHT + HUMAN utility/brand/resultat (lägst prio, batch):** ~60 sidor KW≤38 (full sorterad lista i `lynx-data.php`). HUMAN-sidor (myter, ordlista, priser, recensioner, hudguide…) = bara lätt städning, ej full omskrivning; skydda Trust-bärande widgets. Blanka (avbokningspolicy, karriar) = be om facit vid behov.
 
@@ -448,7 +449,7 @@ blodprickar (175, SCORE17) · milier (173, 37) · seborre (168, –) · pormaska
 - **Fortf. SIGNIFICANT/MODERATE?** → nästa lager block (extended "Läs mer", MODERATE-block), mer mekanism/gloss/evidens.
 - **AI QUESTIONS ej GOOD?** → FAQ-innehåll + FAQPage-schema (§9 Fas 2).
 - **PAGE TYPE/P. PRICE "–"?** → generiskt fallback-Product utan Offer; sätt `$rich_product` per sida.
-- **SLIGHT + SCORE nära/över 39?** → vi bröt taket; dokumentera VAD som gjorde det och backporta (§10 steg 5).
+- **SLIGHT + SCORE nära/över 39?** → vi bröt taket; dokumentera VAD som gjorde det och backporta (§10 steg 5). *(OBS: 39-taket avser GAMLA skalan — färska analyser ligger 50–76 utan våra ändringar, §1.2; jämför färsk-mot-färsk.)*
 - Uppdatera §9 + denna fil + lynx-data.php när vi lär oss vad som flyttar nålen.
 
 ---
@@ -465,6 +466,12 @@ Korrelera mot LYNX-refresh. Senaste först. Spara alltid **LYNX-baseline** (FÖR
 | ytliga-blodkarl.php | 42 | – | 22 | 2/2 | SIGNIFICANT | OK | – | 172 |
 | behandla-pigmentflackar.php | 14 | – | – | –/– | SIGNIFICANT | GOOD | – | 16 |
 | hudproblem/hudforandringar/ | 10 | – | 17 | 3/2 | SIGNIFICANT | OK | – | 8 |
+
+### 2026-07-06 #4 — HELPLANS-GRANSKNING (ägar-beställd: "best practice, mer naturlig mänsklig formulering, annat?")
+**Äkta motsägelser mot facit — FIXADE:** (1) **§4.1 Reassurance-beat-keepern rekommenderade ordagrant den fras som fällde acne-ansiktes intro** ("Det viktiga att komma ihåg är att huden kan behandlas" = §1.1-importans-filler). Omskriven: säg trösten RAKT ("Akne i ansiktet går att behandla") — innehållet är keepern, inslagningen är tellen. (2) **CTA-guidningen drog åt två håll:** §3/§4 krävde "resa"-form medan §13.N sa "skriv rakt" — och facit visar rak kort CTA = 🔵 (om-oss). Harmoniserat i §3 + §4: namngiven vinst krävs, "resa"-metaforen är valfri variation. (3) **§2 skylt-observation tillagd:** kort rumslig skylt ("Nedan tittar vi närmare…") satt i 🟢-block, "Här går vi igenom [X] och [Y]"-katalogform i 🟠-introt — föredra den korta rumsliga i intron.
+**Stale state — SYNKAT (samma felklass som 2 jul-fyndet):** mogen-hy låg kvar som ÖPPEN rad i Fas 3b trots omskriven 2 jul (dubblettrad, struken med förklaring) · §9.1 Tier 3 sa "ipl-rosacea → staging" (är LIVE) och listade oonskat-har/mogen-hy/microdermabrasion som ogjorda (alla → staging) · §8-raderna fick MÄTT-status (acne-ansikte, om-oss) · §10:s "bröt 39-taket"-rad fick gamla-skalan-brasklapp · §7 steg 1 fick "notera analysdatum per vy".
+**Vakter tillagda:** pigmentflackar PAUSAD-markering på alla tre ställen (§9 Fas 3-raden, §9.1 Tier 1 #2, ny §9-bevakningsrad) så ingen session startar KW244-sidan innan mysteriet är löst; §8.1-beslutslucka för om-oss noterad i §9 (beslut väntar 4:e gap-punkten + badge).
+**Granskat utan åtgärd:** §5/§6 (inga motsägelser; ramarna håller mot all ny facit-data) · §1.3-rubriken (EFTER-datan stödjer) · §13 (konsekvent) · §4-öppningsbanken (alla mallar konsistenta med §1.1 nyckel 5 — empati-mallarna används i BLOCK, inte intron; §2-varningen täcker) · widget-/Fas 2-besluten (oförändrade).
 
 ### 2026-07-06 #3 — MODELLSYNK efter EFTER-mätningarna (ägar-beställd: "kan vi uppdatera våra modeller?")
 **Uppgraderat till belagt (≥2 sidor, §1.3-regeln):** (1) **§1.1 nyckel 1 = kausal + replikerad** — 10 omskrivna flaggade block → 9 st 🔵/🟢, 1 st 🟠; EFTER-bevis-noten i §1.1 utbyggd. (2) **Stabilitet: orörda block behåller exakt tier över refresh** (~10 block, 2 sidor) → gamla facit gäller för orörda block (kösidorna behöver INTE nya facit), betygsflytt attribuerbar till textändring — inskrivet i §1.1 + §11.1-mätregeln. (3) **Vyerna refreshar oberoende** (om-oss: färsk AI Copy + april-SCORE; ytliga: tvärtom) → "kolla datum PER VY" tillagt i §11.1-mätregeln + §1.2 punkt 8. (4) **§1.2:** gamla formeln 7/7; AI STYLE-spannet 25↔30 → **20↔30** (om-oss 20 = ny lägsta; ⚠️-raden + spak-kartan synkade).
