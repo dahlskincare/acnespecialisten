@@ -540,7 +540,7 @@ $related_problems = array(
             image: '/bilder/hudproblem/102x102/aldersflackar.webp',
             image_title: 'Åldersfläckar på huden',
             image_alt: 'ljusbruna åldersfläckar på huden',
-            url: '/solskadad-hy.php',
+            url: '/aldersflackar.php',
             url_title: 'Åldersfläckar'
       ),
 );
