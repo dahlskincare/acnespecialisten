@@ -22,7 +22,7 @@ $image_alt = 'Bild som illustrerar hur rhinophyma rosacea ser ut på huden';
 
 $green_banner_content = new GreenBannerContent(
       title: 'Rhinophyma Rosacea',
-      description: 'Utforska vad som kännetecknar rhinophyma rosacea, ett tillstånd som involverar kronisk inflammation och förtjockning av huden på näsan vilket ofta brukar kallas potatisnäsa eller portvinsnäsa. Vi diskuterar varför tillståndet uppstår och hur AcneSpecialisten kan stödja dig genom behandlingsprocessen.',
+      description: 'Utforska vad som kännetecknar rhinophyma rosacea, ett tillstånd som involverar kronisk inflammation och förtjockning av huden på näsan, vilket ofta kallas potatisnäsa eller portvinsnäsa. Vi diskuterar varför tillståndet uppstår och hur AcneSpecialisten kan stödja dig genom behandlingsprocessen.',
       links_touch: [
             new Link('Boka konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Rosacea', 'Boka gratis konsultation'),
             new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_Rosacea', 'Boka denna behandling'),
@@ -34,11 +34,11 @@ $green_banner_content = new GreenBannerContent(
       show_consultation_card: false,
 );
 
-$floating_box = 'En översikt om rhinophyma rosacea och dess behandling';
+$floating_box = 'En översikt över rhinophyma rosacea och dess behandling';
 
 $description_title = 'Vad är rhinophyma rosacea?';
-$description_text = '<p class="p200">Rhinophyma rosacea är en särskilt svår form av rosacea som huvudsakligen påverkar näsan. Det kännetecknas av en signifikant förtjockning och rödhet av huden, ofta med en ojämn, knölig yta. Tillståndet utvecklas vanligtvis över tid och är mer frekvent hos män, särskilt de som är mitt i livet eller äldre.</p>
-<p class="p200 mt-m">Orsaken till rhinophyma rosacea är genetisk och även om tillståndet främst är estetiskt störande kan det i allvarligare fall leda till andningssvårigheter. Hos AcneSpecialisten fokuserar vi på att förstå varje individs unika situation och erbjuda skräddarsydda behandlingsplaner. Här hittar du våra resultat i form av <a class="b200 underline color-deep-sea-400" href="/resultat-rosacea.php" title="Mer information om rosacea bilder på näsan">rosacea bilder på näsan</a>.</p>';
+$description_text = '<p class="p200">Rhinophyma rosacea är en särskilt svår form av rosacea som sätter sig på näsan. Den långvariga inflammationen får talgkörtlar och bindväv att växa till, så att huden gradvis blir tjockare, rödare och ofta får en ojämn, knölig yta. Förändringen kommer långsamt över tid och drabbar oftare män, särskilt i medelåldern och uppåt.</p>
+<p class="p200 mt-m">Rhinophyma rosacea har en ärftlig komponent, och även om tillståndet främst är estetiskt störande kan det i allvarligare fall leda till andningssvårigheter. Hos AcneSpecialisten börjar vi med att bedöma hur långt förtjockningen gått och lägger upp behandlingen efter det. Här hittar du våra resultat i form av <a class="b200 underline color-deep-sea-400" href="/resultat-rosacea.php" title="Mer information om rosacea bilder på näsan">rosacea bilder på näsan</a>.</p>';
 
 $treatment_steps = array(
       new TreatmentStep(
@@ -50,28 +50,28 @@ $treatment_steps = array(
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Vi utför skonsamma och effektiva aknebehandlingar anpassade för din specifika rhinophyma rosacea, så att du snabbt och säkert blir av med problemet.',
+            content: 'Vi utför skonsamma behandlingar anpassade efter din rhinophyma rosacea, för att lindra symtomen och jämna ut huden.',
             url_label: 'Se behandlingar',
             url: 'rosaceabehandling.php',
             url_title: 'Utforska våra skräddarsydda rosaceabehandlingar'
       ),
       new TreatmentStep(
             title: 'Förebygga',
-            content: 'Vi hjälper dig att hitta en hudvårdsrutin och produkter som passar din hudtyp för att förebygga ny rhinophyma rosacea och hålla din hud i balans.',
+            content: 'Vi hjälper dig att hitta en hudvårdsrutin och produkter som passar din hudtyp, för att förebygga ny rhinophyma rosacea och hålla huden lugn.',
             url_label: 'Se produkter',
             url: 'https://www.dahlskincare.com/sv/produktkategorier/produktpaket/rosacea',
-            url_title: 'Hitta de bästa produkterna för att förebygga rosacea'
+            url_title: 'Se produkter som förebygger rosacea'
       ),
       new TreatmentStep(
             title: 'Reparera',
-            content: 'När rosacean är borta fokuserar vi på att reducera eventuella ytliga blodkärl med behandlingsmetoder som IPL för en jämn och problemfri hud.',
+            content: 'När rosacean är under kontroll reducerar vi eventuella ytliga blodkärl med behandlingsmetoder som IPL, för en jämnare hud.',
             url_label: 'Se IPL behandlingar',
             url: 'ipl-rosacea.php',
             url_title: 'Upptäck effektiva behandlingar för ytliga blodkärl'
       ),
 
 );
-$treatment_link = '<a href="rosaceabehandling.php" title="Utforska effektiva aknebehandlingar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra rosaceabehandlingar</a>';
+$treatment_link = '<a href="rosaceabehandling.php" title="Utforska våra rosaceabehandlingar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra rosaceabehandlingar</a>';
 
 $top_articles = array(
       'areas' => new Article(
@@ -80,8 +80,8 @@ $top_articles = array(
             image_large: null,
             image_alt: null,
             image_title: null,
-            content: '<p class="p200"><a class="b200 underline color-deep-sea-400" href="/rosacea.php" title="Mer information om rosacea på näsan">Rosacea på näsan</a> är en särskild och avancerad form som kännetecknas av en betydande förtjockning och rödhet av näshuden, och kan resultera i en knölig, ojämn yta. Detta tillstånd uppträder uteslutande på näsan och är känt för att gradvis förändra dess form och storlek. Rhinophyma utvecklas över tid och är oftare sett hos män än hos kvinnor. Även om det är en sällsyntare manifestation av rosacea, är det viktigt att korrekt identifiera och behandla rhinophyma för att förhindra ytterligare progression och förbättra patientens livskvalitet.</p>
-      <p class="p200 mt-m">För att förstå ditt specifika tillstånd och utforska behandlingsalternativ, är en konsultation med en hudterapeut nödvändig. En hudterapeut kan ge en personlig bedömning och rekommendera en behandlingsplan anpassad för dina behov.</p>',
+            content: '<p class="p200"><a class="b200 underline color-deep-sea-400" href="/rosacea.php" title="Mer information om rosacea på näsan">Rosacea på näsan</a> kan i sällsynta fall utvecklas till rhinophyma, som uppträder uteslutande på näsan och med tiden förändrar både dess form och storlek. Upptäcks förändringen tidigt är den lättare att behandla, innan förtjockningen hunnit bli omfattande.</p>
+      <p class="p200 mt-m">Vill du veta var du står börjar det med en konsultation: hudterapeuten undersöker näsans hud, bedömer hur långt förändringen gått och lägger upp en behandlingsplan utifrån det.</p>',
             tags: array(new ArticleTag(
                   icon: 'man',
                   label: 'Män'
@@ -100,8 +100,8 @@ $articles = array(
             image_large: null,
             image_alt: 'När ska jag söka hjälp med min rhinophyma rosacea?',
             image_title: 'När ska jag söka hjälp med min rhinophyma rosacea?',
-            content: '<p class="p200">Om du upplever några tecken på rhinophyma rosacea, såsom en gradvis förtjockning eller förändring i formen på näsan, är det viktigt att omedelbart söka professionell hjälp. Tidiga stadier kan vara svåra att skilja från vanlig rosacea, men att ignorera symtomen kan leda till att tillståndet förvärras och blir svårare att behandla.</p>
-            <p class="p200 mt-m">En tidig konsultation hos en hudterapeut är avgörande för att bedöma tillståndet och diskutera de bästa behandlingsalternativen. Ju tidigare du identifierar problemet och påbörjar lämplig behandling, desto större är chansen att effektivt hantera tillståndet och förhindra ytterligare progression. Att söka behandling snabbt kan också bidra till att minska eventuella psykologiska påfrestningar och förbättra din livskvalitet. Oavsett om rhinophyma är i ett tidigt eller mer avancerat skede, är professionell rådgivning och behandling nyckeln till att hantera detta tillstånd effektivt.</p>',
+            content: '<p class="p200">Märker du att huden på näsan gradvis blir tjockare eller att formen börjar förändras är det läge att boka en bedömning. Tidiga stadier kan vara svåra att skilja från vanlig rosacea, och ju tidigare behandlingen börjar, desto lättare är tillståndet att bromsa.</p>
+            <p class="p200 mt-m">Vid konsultationen bedömer hudterapeuten vilket stadium förtjockningen är i och går igenom behandlingsalternativen med dig. Många upplever också att det lättar att ha en plan: näsan sitter mitt i ansiktet, och tillståndet kan tynga mer än man visar. Behandling går att inleda oavsett om rhinophyman är i ett tidigt eller mer framskridet skede.</p>',
       ),
 
       new Article(
@@ -110,9 +110,9 @@ $articles = array(
             image_large: null,
             image_alt: 'Varför ska jag besöka AcneSpecialisten för min rhinophyma rosacea?',
             image_title: 'Varför ska jag besöka AcneSpecialisten för min rhinophyma rosacea?',
-            content: '<p class="p200">Om du söker en expert på behandling av rhinophyma rosacea, är AcneSpecialisten det självklara valet. Med vårt engagemang för kvalitet och vår omfattande erfarenhet inom avancerad hudvård, står vi redo att erbjuda dig den expertis som krävs för att hantera detta komplexa tillstånd effektivt.</p>
-            <p class="p200 mt-m">På AcneSpecialisten använder vi oss av de senaste och mest avancerade behandlingsmetoderna och teknologierna specifikt anpassade för rhinophyma. Vårt team av kvalificerade hudterapeuter är utbildade att noggrant utvärdera och behandla rhinophyma rosacea, med ett fokus på att minimera symptomen och förbättra både utseendet och funktionen av din hud.</p>
-            <p class="p200 mt-m">När du väljer att besöka AcneSpecialisten för din rhinophyma får du inte bara tillgång till skräddarsydda behandlingsplaner, utan också en partner i din hudvårdsresa. Vi tror på en holistisk behandlingsansats, vilket innebär att vi erbjuder support och vägledning genom hela processen, från första konsultationen till uppföljning och underhåll. Vårt mål är att du ska känna dig informerad, omhändertagen och säker på att du får den bästa möjliga vård för din hud.</p>',
+            content: '<p class="p200">Söker du en expert på behandling av rhinophyma rosacea? Med mer än 30 års erfarenhet inom hudvård och rosacea i alla dess former har AcneSpecialisten den expertis som krävs för det här komplexa tillståndet.</p>
+            <p class="p200 mt-m">Behandlingen läggs upp efter hur långt rhinophyman gått: ansiktsbehandlingar som lindrar inflammationen, produkter som håller huden i balans och IPL mot rodnad och ytliga kärl. Våra hudterapeuter utvärderar huden vid varje steg, med sikte på att dämpa symtomen och förbättra både näsans utseende och hudens funktion.</p>
+            <p class="p200 mt-m">Din personliga hudterapeut följer dig hela vägen, från första konsultationen till uppföljning och underhåll. Du ska alltid veta vad nästa steg är och varför.</p>',
       ),
 
 );
@@ -146,7 +146,7 @@ $services = array(
             title: 'Ansiktsbehandling mot rosacea',
             duration: '60 min',
             price: '1595 kr',
-            content: 'En effektiv ansiktsbehandling mot rosacea fokuserar på att lindra rodnad och inflammation. Genom att använda specialanpassade produkter och tekniker kan denna behandling bidra till att förbättra hudens textur och utseende.',
+            content: 'Ansiktsbehandlingen mot rosacea kan lindra rodnad och inflammation och med tiden förbättra hudens textur och utseende. Produkterna och teknikerna är anpassade för rosaceahud.',
             image_small: 'bilder/behandlingar/200x200/ansiktsbehandlingar-mot-problemhy.webp',
             image_large: 'bilder/behandlingar/200x200/ansiktsbehandlingar-mot-problemhy.webp',
             image_alt: 'Bild av en ansiktsbehandling mot rosacea',
@@ -170,7 +170,7 @@ $products = array(
             title: 'Produkter mot rosacea',
             duration: null,
             price: 'Från 1495 kr',
-            content: 'För att effektivt behandla och förebygga rosacea är daglig behandling med rätt produkter avgörande. Våra rosacea-produkter är speciellt utformade för att hålla din hud i balans och förhindra att nya rosacea-flare-ups uppstår.',
+            content: 'Daglig behandling med rätt produkter hjälper till att hålla rosacean i schack mellan behandlingarna. Produkterna är framtagna för rosaceahud och kan minska risken för nya utbrott.',
             image_small: 'bilder/behandlingar/200x200/produkter.webp',
             image_large: 'bilder/behandlingar/200x200/produkter.webp',
             image_alt: 'Bild av produkter designade för behandling av rosacea',
@@ -190,10 +190,10 @@ $headline04 = "04. Reparera";
 
 $procedures = array(
       new Service(
-            title: 'Reparerar ytliga blodkärl',
+            title: 'IPL mot ytliga blodkärl',
             duration: '20-70 min',
             price: 'Från 1995 kr',
-            content: 'Rosacea är en kronisk hudåkomma som kan leda till rodnad, utslag, och i vissa fall svullnad i ansiktet. Intense Pulsed Light (IPL) kan användas för att effektivt behandla rosacea genom att minska rodnad och synliga blodkärl. Klicka här för att läsa mer om hur du kan behandla din rosacea med IPL.',
+            content: 'När rosacean är under kontroll kan kvarvarande rodnad och ytliga blodkärl behandlas med IPL, intensivt pulserande ljus. Ljuset riktar in sig på de små blodkärlen som ger rodnaden och kan minska både rodnaden och de synliga kärlen.',
             image_small: 'bilder/behandlingar/200x200/ipl.webp',
             image_large: 'bilder/behandlingar/200x200/ipl.webp',
             image_alt: 'Behandla rosacea med IPL',
@@ -451,7 +451,7 @@ $results_images = array(
 
 $results_url = '/resultat-rosacea.php';
 $show_all_results_label = "Se alla resultat";
-$show_all_results_title = "se flera behandlingsresultat";
+$show_all_results_title = "Se fler behandlingsresultat";
 
 
 
@@ -459,50 +459,50 @@ $faq_categories = array(
       'Generellt om rhinophyma rosacea' => array(
             new Question(
                   title: 'Vilka är de vanligaste symtomen på rhinophyma?',
-                  text: '<p class="p200">De vanligaste symtomen på rhinophyma inkluderar en markant förtjockning av huden på näsan, en röd, svullen och knölig yta, samt förstorade porer och talgkörtlar. Detta kan leda till en synlig deformation av näsan och i vissa fall orsaka andningsproblem. Symtomen utvecklas gradvis och kan förvärras utan behandling.</p>'
+                  text: '<p class="p200">De vanligaste symtomen är att huden på näsan förtjockas och blir röd, svullen och knölig, och att porer och talgkörtlar förstoras. Med tiden kan näsans form påverkas synligt, och vid kraftig förtjockning även andningen. Förändringen kommer gradvis och kan förvärras utan behandling.</p>'
             ),
 
             new Question(
                   title: 'Är rhinophyma ärftligt?',
-                  text: '<p class="p200">Även om den exakta orsaken till rhinophyma inte är fullständigt känd, finns det bevis som tyder på att genetiska faktorer kan spela en roll. Personer med en familjehistoria av rosacea eller rhinophyma kan vara mer benägna att utveckla tillståndet.</p>'
+                  text: '<p class="p200">Ärftligheten spelar en central roll: har du rosacea eller rhinophyma i släkten är risken högre att du utvecklar tillståndet. Exakt hur mekanismen ser ut är däremot inte helt klarlagd.</p>'
             ),
 
             new Question(
                   title: 'Hur kan jag skydda min hud från solen om jag har rhinophyma?',
-                  text: '<p class="p200">Skydd mot solen är avgörande om du har rhinophyma. Använd en bredspektrum solskyddskräm dagligen, bär skyddande kläder och hatt, och undvik att vara ute i starkt solljus, särskilt mitt på dagen. Detta hjälper inte bara till att skydda huden utan också till att förebygga förvärring av symtomen.</p>'
+                  text: '<p class="p200">Solen är en av de starkaste triggerna, så skydda huden varje dag: använd solskyddskräm med brett spektrum, bär skyddande kläder och hatt och undvik starkt solljus mitt på dagen. Det skyddar huden och förhindrar att symtomen förvärras.</p>'
             ),
 
             new Question(
                   title: 'På vilka sätt skiljer sig rhinophyma från andra hudtillstånd som påverkar näsan?',
-                  text: '<p class="p200">Rhinophyma är unikt genom sin uttalade förtjockning och grovhet av huden på näsan, vilket inte ses i andra hudtillstånd. Till skillnad från akne, som också kan påverka näsan, karaktäriseras rhinophyma av en permanent förändring av hudens struktur snarare än temporära utbrott.</p>'
+                  text: '<p class="p200">Det som skiljer rhinophyma från andra hudtillstånd är den uttalade förtjockningen och grovheten i näsans hud. Akne kan också sätta sig på näsan, men går i skov, medan rhinophyma gradvis förändrar hudens struktur och inte går tillbaka av sig själv.</p>'
             ),
 
             new Question(
                   title: 'Finns det några kända triggers som kan förvärra rhinophyma?',
-                  text: '<p class="p200">Ja, vissa faktorer kan förvärra rhinophyma, inklusive stark sol, extrema temperaturer, stark mat och alkohol, stress och vissa hudvårdsprodukter. Att undvika dessa triggers kan hjälpa till att hantera tillståndet och förhindra att det förvärras.</p>'
+                  text: '<p class="p200">Ja. Stark sol, extrema temperaturer, kryddstark mat, alkohol, stress och vissa hudvårdsprodukter är kända triggers som kan förvärra rhinophyma. Att undvika sina triggers hjälper till att hålla tillståndet stabilt.</p>'
             ),
       ),
       'Behandling mot rosacea' => array(
             new Question(
                   title: 'Vilka är de mest effektiva behandlingarna för rhinophyma?',
-                  text: '<p class="p200">De mest effektiva behandlingarna för rhinophyma innefattar en kombination av rätt hudvårdsprodukter och behandlingar som behandlar och balanserar huden. Dessa behandlingar syftar till att jämna ut hudens yta och förbättra näsans utseende.</p>'
+                  text: '<p class="p200">En kombination av rätt hudvårdsprodukter hemma och behandlingar på kliniken. Vad som passar avgörs på konsultationen, utifrån hur utvecklat tillståndet är. Målet är att jämna ut hudens yta och förbättra näsans utseende.</p>'
             ),
 
             new Question(
-                  title: 'Vad är de potentiella riskerna och biverkningarna av rhinophyma?',
-                  text: '<p class="p200">De potentiella riskerna och biverkningarna av rhinophyma-behandlingar kan inkludera infektion, ärrbildning, pigmentförändringar och ojämnheter i hudens textur. En noggrann konsultation och uppföljning med erfaren hudspecialist är avgörande för att minimera dessa risker.</p>'
+                  title: 'Vilka risker och biverkningar har behandling av rhinophyma?',
+                  text: '<p class="p200">Behandlingar av rhinophyma kan medföra risker som infektion, ärrbildning, pigmentförändringar och ojämnheter i hudens textur. Vi minskar riskerna genom noggrann konsultation och uppföljning hos en erfaren hudterapeut.</p>'
             ),
 
             new Question(
                   title: 'Finns det något jag kan göra för att förhindra att mitt rhinophyma blir värre?',
-                  text: '<p class="p200">Först och främst är det viktigt att identifiera och behandla problemet tidigt innan de hinner utvecklas och bli värre. När det väl brutit ut är det viktigt att förhindra att rhinophyma blir värre är det viktigt att skydda huden mot solen, undvika kända triggers som stark mat och alkohol, och följa en skonsam hudvårdsrutin. Regelbundna hudkonsultationer och tidig behandling av rosaceasymtom kan också bidra till att förebygga utvecklingen av rhinophyma.</p>'
+                  text: '<p class="p200">Fånga upp och behandla problemet tidigt, innan det hinner utvecklas. Har rhinophyman väl börjat utvecklas gäller det att skydda huden mot solen, undvika sina kända triggers och följa en skonsam hudvårdsrutin. Regelbundna hudkonsultationer och tidig behandling av rosaceasymtom kan också bromsa utvecklingen.</p>'
             ),
 
       ),
 );
 
 $faq_url_label = "Läs fler frågor & svar";
-$faq_url_title = "läs flera frågor relaterat till rhinophyma rosacea";
+$faq_url_title = "Läs fler frågor om rhinophyma rosacea";
 
 $specialists = array(
       new Specialist(
@@ -543,8 +543,8 @@ $related_problems = array(
             name: 'Rosacea',
             aka: 'ansiktsrodnad',
             image: 'bilder/hudproblem/200x200/rosacea.webp',
-            image_alt: 'Bild som illustrerar rosacea, ett hudtillstånd som kan förväxlas med rosacea',
-            image_title: 'Rosacea - en hudsjukdom som ofta förväxlas med rosacea',
+            image_alt: 'Bild som illustrerar rosacea, hudsjukdomen som rhinophyma utvecklas ur',
+            image_title: 'Rosacea, hudsjukdomen bakom rhinophyma',
             url: 'rosacea.php',
             url_title: 'Rosacea'
       ),

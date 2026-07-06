@@ -1,14 +1,15 @@
 <?php exit; /* intern LYNX-arbetsfil – ej webb-serverad, läs i editor/git */ ?>
 # LYNX-data (manuell export) — NAV-FIL: Pages-inventeringar + sidregister + filkarta
 
-> **📁 FILKARTA (per kolumn, beslutad av ägaren 2 jul — läs BARA de filer sessionen behöver):**
+> **📁 FILKARTA (uppdaterad 6 jul — playbooken SPLITTRAD per arbetsläge; läs BARA det uppgiften kräver):**
+> **▶ NY SESSION: läs `lynx-START.php` FÖRST — den har LÄGE + router + regler + backlog.**
+> - **INSTRUKTIONER:** `lynx-START.php` (nav/läge/router/backlog §8-9/claims §12) · `lynx-rewrite.php` (omskrivnings-hantverk: §1.1/1.3/1.4 bedömning, §2 formel, §3 checklista, §4 husröst, §5 ramar+juridik, §6 SEO-skydd, §7 process, §13 skyddsregler) · `lynx-models.php` (§1.2 SCORE-modell, §1.5 AIQ, §10 mät-loop, §11.1 bevakning) · `lynx-logg.php` (arbetslogg §11) · `lynx-log-arkiv.php` (äldre poster) · `lynx-copy-playbook.php` (bara en vägvisar-stub numera).
+> - **RÅDATA (denna filgrupp):**
 > - **`lynx-data.php` (denna fil)** — Pages-LISTAN: inventerings-snapshots (VALUE/PT/SCORE/GAPS/AICOPY/AIQ/P.PRICE/KW/WORDS/CLICKS/STATUS per sida), officiella kolumn-definitioner, sidregister (i LYNX/saknas/ej i repo), beställningssedel.
 > - **`lynx-examples.php`** — AI COPY-kolumnen: per-block-facit per sida + blindtest + modellvalideringar (§1.1/§1.3/§1.4-underlag).
 > - **`lynx-questions.php`** — AI QUESTIONS-kolumnen: AI Overview Ranking-frågelistor per sida (§1.5-underlag; Fas 2-spec).
-> - **`lynx-score.php`** — SCORE-kolumnen: alla SCORE-nedbrytningar, färska vs gamla skalan (§1.2-underlag).
-> - **`lynx-gaps.php`** — GAPS-kolumnen: gap-texter per sida (besluten bor i playbook §8.1).
-> - **`lynx-copy-playbook.php`** — processen/modellerna/TODO/logg (läses alltid top-to-bottom av ny session).
-> - **`lynx-log-arkiv.php`** — arkiverade §11-poster.
+> - **`lynx-score.php`** — SCORE-kolumnen: alla SCORE-nedbrytningar + SCORE-modellens härledning + online-verifiering (§1.2-underlag).
+> - **`lynx-gaps.php`** — GAPS-kolumnen: gap-texter per sida (besluten bor i `lynx-START.php` §8.1).
 >
 > LYNX saknar exportfunktion, så detta är vår **manuella databas** över LYNX Pages-data. Mata in ny data vid varje refresh (ny daterad snapshot) så vi kan jämföra FÖRE/EFTER. *Transkriberat från skärmdumpar — verifiera mot LYNX vid hårda beslut.*
 > **Data-hantering (princip 2026-07-01):** spara ALLT ägaren skickar (sidnivå + block + SCORE-breakdown + AI QUESTIONS) här/​i `lynx-examples.php` som underlag. Vid **ny scanning: diffa mot sparad data** → vad ändrades, vad förbättrades/försämrades, vad bör åtgärdas. **Påminn ägaren om att skicka uppdateringar** om de dröjer (vi kan inte polla LYNX själva).
@@ -29,6 +30,65 @@
 | **STATUS** | "Page's HTTP code and indexability (e.g., 200, 301, 404)." | 200 = ok; behandlingar.php-redirecten borde visa 301 vid omscan. |
 
 *(SCORE-kolumnens tooltip ingick inte i leveransen — be om den vid tillfälle.)*
+
+## Snapshot 2026-07-06 EM (13:04–13:20, 7 dumpar) — SCORE-nedbrytningar (→ lynx-score) + AICOPY-avstämning: ALLA 11 flaggade sidor omskrivna
+> Ägaren skickade 4 SCORE-popups (rhinophyma 74, ytliga 74, ipl-rosacea 60, microneedling 60 + hudforandringar 17 gammal) → nedbrytningar + modellslutsatser i `lynx-score.php` (CQ/EEAT-badge frikopplad från subs; AI STYLE ute ur Overall; EEAT ej copy-spak). microneedling AIQ-lista (6 jul) → `lynx-questions.php`. **Metodprincip (ägaren): LYNX uppdaterar i STEG — blank sida = pågående omanalys (pigmentflackar löst), attribution kräver observerad delta (§11.1).**
+
+**AICOPY-flagg-listan 13:20 (AI COPY-kolumnen synlig) — 11 sidor kvar (var 14): acne-ansikte + om-oss LÄMNAT (→ SLIGHT, mätta 5 jul); pigmentflackar BLANK (omanalyseras). ALLA 11 kvarvarande ÄR OMSKRIVNA av oss:**
+
+| URL | VALUE | SCORE (färsk?) | GAPS | AICOPY | Vår status |
+|---|---|---|---|---|---|
+| behandla-pigmentflackar | 10 | – | –/– | SIGNIFICANT | ✅ LIVE main 1 jul → väntar badge-refresh |
+| hudforandringar | 10 | 17 (gammal 79d) | 3/2 | SIGNIFICANT | ✅ LIVE main 1 jul → väntar refresh |
+| ytliga-blodkarl | 39 | **74 färsk** | 0/0 | SIGNIFICANT | ✅ LIVE main 1 jul; SCORE färsk/badge stale → väntar badge-refresh |
+| hudbehandlingar/ipl | 35 | – | –/– | MODERATE | ✅ LIVE main 1 jul → väntar refresh |
+| bristningar | 18 | **63 färsk** (FÖRE) | 0/0 | MODERATE | ✅ omskriven 6 jul → STAGING (⛔ GSC-gate) |
+| oonskat-har | 11 | – | –/– | MODERATE | ✅ omskriven 3 jul → STAGING |
+| ipl-rosacea | 55 | **60 färsk** | 0/0 | MODERATE | ✅ LIVE main 1 jul; SCORE färsk/badge stale → väntar badge-refresh |
+| microdermabrasion | 30 | – | –/– | MODERATE | ✅ omskriven 3 jul → STAGING |
+| mogen-hy | 11 | – | –/– | MODERATE | ✅ omskriven 2 jul → STAGING |
+| rhinophyma-rosacea | 34 | **74 färsk** (FÖRE) | 0/0 | MODERATE | ✅ omskriven 6 jul → STAGING (⛔ GSC-gate) |
+| solskadad-hy | 32 | – | –/– | MODERATE | ✅ omskriven 6 jul → STAGING (⛔ GSC-gate) |
+
+**Avstämning: 0 oförda flagg-sidor.** 5 LIVE på main (väntar LYNX badge-refresh — badge-vyn släpar efter SCORE, "vyer oberoende" §11.1), 6 på STAGING (väntar GSC-gate → main-push). Nästa mät-milstolpe = badge-refresh på de 5 live (blir EFTER-mätningar #3–7 efter acne-ansikte + om-oss). Inget nytt skrivarbete behövs på flagg-listan; kvarvarande Fas 3 = pigmentflackar (när den kommer tillbaka ur omanalys).
+
+## Snapshot 2026-07-06 (07:51, 5 dumpar) — 🎉 FÖRSTA EFTER-MÄTNINGEN: acne-ansikte refreshad → SLIGHT
+> Ägaren skickade AICOPY-filtrerad Pages-vy (tabellen skuren nedtill vid homepage-raden) + AI Copy per-block-vy för acne-ansikte (**"Last update: 05 Jul, 2026"** = färsk analys) + separat acne-ansikte-rad. **Huvudfynd: acne-ansikte 🔴 SIGNIFICANT → 🔵 SLIGHT** — första omskrivna sidan LYNX mätt om (EFTER-facit i `lynx-examples.php`). Refreshen är RULLANDE/partiell: ytliga-blodkarl + ipl-rosacea har FÄRSK SCORE men gamla AI COPY-badges; hudforandringar/behandla-pigment helt orefreshade.
+
+**Diff mot 2 jul:**
+- **acne-ansikte: 🔴 → 🔵 SLIGHT** · VAL 32→28 · KW 57→52 · AIQ OK · SCORE fortfarande "–". Per-block EFTER (9 synliga): **0🔴/1🟠/6🔵/2🟢**, medel 0,89 → 🔵 ✓ (§1.4:s första EFTER-validering).
+- **Färska nya-skalan-SCORE utan badge-refresh:** ytliga-blodkarl 22→**74** (omskriven live — rewrite + ny skala oskiljbara) · ipl-rosacea 39→**60** (dito) · bristningar 18→**63** · rhinophyma 10→**74** (två senare EJ omskrivna = ren omskalning → **färska FÖRE-baselines för Fas 3-kön**). Endast Overall, inga breakdowns (§1.2-testprotokollet fortfarande obesvarat).
+- **om-oss + pigmentflackar SAKNAS i MODERATE-gruppen** (alfabetisk sortering: hålet sitter mellan mogen-hy och rhinophyma) → möjlig tier-flytt (om-oss = omskriven live!) ELLER skuren dump — **raderna beställda av ägaren; avgör inte än.**
+- Oförändrat: hudforandringar (🔴, SCORE 17, GAPS 3/2) · behandla-pigment (🔴, AIQ GOOD) · microdermabrasion AIQ OK (fortsatt nedgraderad) · homepage 🔵/POOR/SCORE 28/GAPS 0/0.
+- **KW-drift sajtbred, även på orörda sidor** (homepage 298→287, solskadad 31→33 UPP) → ej attribuerbar till våra ändringar; bevaka (§13.F), ingen åtgärd.
+
+| URL | VAL →6 jul | SCORE →6 jul | GAPS | AICOPY | AIQ | P.PRICE | KW →6 jul | Klass |
+|---|---|---|---|---|---|---|---|---|
+| **/acne-ansikte.php** | 32(30 jun)→**28** | –→– | –/– | **🔵 SLIGHT (var 🔴)** | OK | – | 57→**52** | ✅ **REFRESHAD 5 jul — badge-flytt 2 steg** |
+| /behandla-pigmentflackar.php | 14(30 jun)→10 | –→– | –/– | 🔴 SIGNIFICANT | GOOD | – | 16→13 | OFÖRÄNDRAD badge (omskriven live, ej refreshad) |
+| /hudproblem/hudforandringar/ | 10→10 | 17→17 | 3/2 | 🔴 SIGNIFICANT | OK | – | 7→7 | OFÖRÄNDRAT (omskriven live, ej refreshad) |
+| /ytliga-blodkarl.php | 36→39 | 22→**74** | 0/0 | 🔴 SIGNIFICANT | OK | – | 168→159 | **FÄRSK SCORE, badge EJ refreshad** (omskriven live) |
+| /hudbehandlingar/ipl/ | 34→35 | –→– | –/– | 🟠 MODERATE | OK | HIGH | 18→18 | oförändrat (omskriven live, ej refreshad) |
+| /hudproblem/bristningar/ | 18→18 | 18→**63** | 0/0 | 🟠 MODERATE | OK | – | 67→67 | **FÄRSK SCORE (ej omskriven = ny FÖRE-baseline)** |
+| /hudproblem/oonskat-har/ | 11→11 | –→– | –/– | 🟠 MODERATE | OK | – | 16→15 | oförändrat (rewrite väntar main-push) |
+| /ipl-rosacea.php | 55→55 | 39→**60** | 0/0 | 🟠 MODERATE | OK | HIGHEST | 20→18 | **FÄRSK SCORE, badge EJ refreshad** (omskriven live) |
+| /microdermabrasion.php | 30→30 | –→– | –/– | 🟠 MODERATE | OK | MID | 6→6 | oförändrat (rewrite väntar main-push) |
+| /mogen-hy.php | 12→11 | –→– | –/– | 🟠 MODERATE | OK | – | 9→9 | oförändrat (rewrite väntar main-push) |
+| /rhinophyma-rosacea.php | 34→34 | 10→**74** | 0/0 | 🟠 MODERATE | OK | – | 47→47 | **FÄRSK SCORE (ej omskriven = ny FÖRE-baseline)** |
+| /solskadad-hy.php | 30→32 | –→– | –/– | 🟠 MODERATE | OK | – | 31→**33** | oförändrat (KW UPP) |
+| /behandlingar.php | 14→14 | –→– | –/– | 🔵 SLIGHT | OK | – | 0→0 | redirect-rad, oförändrad |
+| / (Homepage) | 41→42 | 28→28 | 0/0 | 🔵 SLIGHT | POOR | – | 298→287 | oförändrat |
+
+*(om-oss + pigmentflackar ej synliga i dumpen — beställda. Tabellen skuren under homepage-raden; fler SLIGHT-rader kan finnas.)*
+
+### Leverans 2 (08:11, 5 dumpar) — om-oss LÖST (andra EFTER-facitet); pigmentflackar-mysteriet SKÄRPT
+> Alfabetisk Pages-vy (m→p-spannet, AICOPY-filter aktivt) + om-oss SCORE-popup + GAPS-popup + AI Copy-vyn för om-oss (**"Last update: 05 Jul, 2026"** = färsk).
+
+- **om-oss.php: ANDRA EFTER-MÄTNINGEN** — per-block 5 jul: **0🔴/0🟠/10🔵/1🟢 synliga** (FÖRE 22 apr: 3🔴/2🟠/6🔵/1🟢) → EFTER-facit i `lynx-examples.php`. Badge-kolumnen ej synlig i dumpen (popup skymde) men sidan är borta ur MODERATE-gruppen + 0 flaggade block → **SLIGHT implicerat; be om badge-raden för bekräftelse.** Rad-data: VAL 7 · SCORE 17 · GAPS 2/2.
+- **om-oss SCORE-nedbrytning (FÖRSTA — men GAMMAL: "Analyzed 79 days ago" ≈ 18 apr):** Overall 17 · CQ 57 · EEAT 59 · **AI STYLE 20 = lägsta uppmätta** → `lynx-score.php`; multiplikativa formeln nu 7/7. **Viktigt metodfynd: AI Copy-vyn (5 jul) och SCORE-analysen (apr) refreshar OBEROENDE** → Pages-SCORE kan vara stale bredvid färsk AI Copy (förklarar också ytliga-blodkarls omvända läge: färsk SCORE 74, stale badge).
+- **om-oss GAPS-popup:** samma 3 punkter som sparats 2 jul (remiss/vårdkö HIGH · hudläkare-skillnad HIGH · prisinfo MEDIUM) — oförändrade, redan i `lynx-gaps.php` (4:e punkten fortfarande osedd).
+- **⚠️ pigmentflackar.php SAKNAS ÄVEN i alfabetisk vy** — hålet syns tydligt mellan /permanent-harborttagning.php och /pormaskar.php → sidan verkar ha åkt UR AICOPY-filtret helt (badge tömd/omanalys?), inte bara flyttat grupp. **Beställt: URL-sök "pigmentflackar" i Pages + dess AI Copy-vy** (KW 244-sidan — viktig för Fas 3-prio).
+- Nya rader (m→p-spannet): milierbehandling VAL 49 · mjalleksem 24 · perioral-dermatit 32 · permanent-harborttagning 16 · **pormaskar 40, SCORE 76, GAPS 1/0** (ny färsk topp-SCORE?) · pormaskar-rygg 38 · porrengoring 48 · portomning 65, SCORE 60 (som 2 jul) · postinflammatorisk-hyperpigmentering 38.
 
 ## Snapshot 2026-07-02 EM (13:41–14:22) — 6 MODERATE-facit + HELSAJTS-inventering (31 dumpar totalt)
 > **Tillägg 14:20–14:22:** zoom-dump som löste homepage-/redirect-frågorna (inarbetat i sidregistret nedan) + per-block-facit för **pigmentflackar (22 apr)** och **oonskat-har (29 apr)** → `lynx-examples.php`. **MODERATE-vågen därmed facit-komplett (7/7).**

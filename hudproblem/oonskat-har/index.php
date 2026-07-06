@@ -40,31 +40,31 @@ $trivias = array(
       new ProblemTrivia(
             prefix: 'Vad',
             title: ' är oönskat hår?',
-            content: '<p class="p200">Oönskat hår, kliniskt känt som hirsutism, avser normal eller överdriven hårväxt på kroppen som individen upplever som onödig eller icke önskvärd. Alla människor har kroppshår, men om mängden, tjockleken, längden eller placeringen av håret avviker från vad som personligen uppfattas som normalt, betraktas det som "oönskat". Det kan variera i textur från mjukt och fjunigt till grovt och tjockt, och i färg från ljust och nästan osynligt till mörkt och framträdande. Även om det kan dyka upp på områden där hår normalt växer, som på ben, armar och underarmar, kan det också uppstå på ställen där hår inte alltid förväntas, såsom på ansiktet, ryggen eller bröstet.</p>',
-            extended_content: '<p class="p200 mt-xl">Beroende på individens situation kan uppfattningen om vad som betraktas som oönskat hår variera kraftigt. Denna subjektiva uppfattning av hårväxt har lett till en mångfald av metoder och behandlingar, från rakning och vaxning till mer permanenta lösningar som laser, för att hantera problemet med oönskat hår.</p>',
+            content: '<p class="p200">Oönskat hår är hårväxt som du själv upplever som onödig eller icke önskvärd. Mängden kan vara helt normal eller överdriven. Den överdrivna formen kallas kliniskt för hirsutism. Alla människor har kroppshår, men när mängden, tjockleken, längden eller placeringen avviker från det du uppfattar som normalt blir håret "oönskat". Det kan vara allt från mjukt, fjunigt och nästan osynligt till grovt, mörkt och framträdande, och växa där hår är väntat, som på ben, armar och underarmar, eller där det sällan förväntas: i ansiktet, på ryggen eller på bröstet.</p>',
+            extended_content: '<p class="p200 mt-xl">Uppfattningen om vad som är oönskat hår varierar kraftigt från person till person. Därför finns det också många metoder att ta bort håret med, från rakning och vaxning till permanenta lösningar som laser.</p>',
             icons: array()
       ),
       new ProblemTrivia(
             prefix: 'Varför',
             title: ' får man oönskat hår?',
-            content: '<p class="p200">Oönskat hår uppstår av en mängd olika skäl, både genetiska och hormonella (PCOS). Hårväxt regleras till stor del av hormoner. När en ökning av hormoner inträffar, kan detta resultera i överdriven hårväxt, särskilt på kroppens delar där män vanligtvis har hår, som ansiktet och bröstet. En annan bidragande faktor kan vara genetik vilket orsakar att vissa får tjockare och mörkare kroppshår. Detta betyder inte nödvändigtvis att dessa individer har en hormonell obalans, utan snarare en genetisk benägenhet för sådan hårväxt.</p>',
-            extended_content: '<p class="p200 mt-xl">Förändringar i hormonnivåerna, som kan inträffa under graviditet, klimakteriet, PCOS, eller till följd av vissa mediciner, kan också leda till tillfällig överdriven hårväxt. I andra fall kan sjukdomar i binjurarna eller hypofysen, som producerar hormoner, vara orsaken. Utöver detta kan vissa mediciner, inklusive vissa steroider, antikonvulsiva medel och vissa mediciner för högt blodtryck, förorsaka överdriven hårväxt som en biverkning. Även vissa kosmetiska produkter, särskilt de som innehåller hormoner, kan påverka hårväxten. Det är viktigt att förstå att medan alla människor har kroppshår, varierar mängden, textur och färg beroende på en kombination av genetik, hormonella nivåer och andra faktorer.</p>',
+            content: '<p class="p200">Oönskat hår uppstår framför allt av två skäl: hormoner och gener. Hårväxten styrs till stor del av hormoner. Stiger nivåerna, till exempel vid PCOS, kan håret börja växa på de delar av kroppen där män vanligtvis har hår, som ansiktet och bröstet. Generna verkar på ett annat sätt: vissa ärver helt enkelt tjockare och mörkare kroppshår. Det betyder inte nödvändigtvis att de har en hormonell obalans, utan snarare en genetisk benägenhet för sådan hårväxt.</p>',
+            extended_content: '<p class="p200 mt-xl">Förändringar i hormonnivåerna, som kan inträffa under graviditet, klimakteriet, PCOS eller till följd av vissa mediciner, kan också leda till tillfällig överdriven hårväxt. I andra fall ligger sjukdomar i binjurarna eller hypofysen, som producerar hormoner, bakom. Utöver detta kan vissa steroider, antikonvulsiva medel och vissa mediciner mot högt blodtryck förorsaka överdriven hårväxt som en biverkning. Även vissa kosmetiska produkter, särskilt de som innehåller hormoner, kan påverka hårväxten.</p>',
             icons: array('genetik' => 'Genetik', 'hormoner' => 'Hormoner')
       ),
       new ProblemTrivia(
             prefix: 'Vem',
             title: ' får oönskat hår?',
-            content: '<p class="p200">Oönskat hår kan drabba människor av alla kön och åldrar, men förekomsten och intensiteten av denna hårväxt kan variera beroende på flera faktorer. Till att börja med är genetik en av de främsta orsakerna. Människor med familjemedlemmar som har kraftigare hårväxt kan vara mer benägna att uppleva detta själva. Hormonella förändringar spelar också en avgörande roll i utvecklingen av oönskat hår. Kvinnor kan uppleva överdriven hårväxt på platser där män vanligtvis har hår, som ansiktet, bröstet och ryggen. Hormonella förändringar under graviditet, klimakteriet eller på grund av medicinsk behandling kan även påverka hårväxt. När östrogennivåerna sjunker kan påverkan av manliga hormoner bli mer framträdande.</p>',
-            extended_content: '<p class="p200 mt-xl">Män kan också påverkas. Till exempel kan män som tar vissa mediciner eller har vissa medicinska tillstånd uppleva ökad hårväxt på oväntade ställen. Det är också viktigt att notera att begreppet "oönskat hår" är kulturellt och individuellt bestämt. Vad som anses vara "oönskat" i en kultur eller för en individ kan anses vara attraktivt eller önskvärt i en annan. Med det sagt, oavsett normer, är det viktigt för individer att förstå att de inte är ensamma om att hantera denna fråga, och det finns många behandlingsalternativ tillgängliga för dem som vill minska eller ta bort oönskat hår.</p>',
+            content: '<p class="p200">Har dina föräldrar eller nära släktingar kraftig hårväxt är risken större att du också får det, eftersom genetiken är en av de främsta orsakerna. Hormonerna är den andra. Kvinnor kan få hår där det annars mest växer på män: i ansiktet, på bröstet och på ryggen. Det händer till exempel i samband med graviditet, klimakteriet eller medicinsk behandling. När östrogennivåerna sjunker kan påverkan av manliga hormoner bli mer framträdande. Och det spelar ingen roll vem du är: oönskat hår kan drabba alla, oavsett kön och ålder.</p>',
+            extended_content: '<p class="p200 mt-xl">Män kan också påverkas. Till exempel kan män som tar vissa mediciner eller har vissa medicinska tillstånd uppleva ökad hårväxt på oväntade ställen. Begreppet "oönskat hår" är dessutom kulturellt och individuellt bestämt. Vad som anses vara "oönskat" i en kultur eller för en individ kan anses vara attraktivt eller önskvärt i en annan. Oavsett normer är du inte ensam, och det finns många behandlingsalternativ för den som vill minska eller ta bort oönskat hår.</p>',
 
             icons: array('man-kvinna' => 'Män & Kvinnor', 'vuxna' => 'Vuxna')
       ),
       new ProblemTrivia(
             prefix: 'Var',
             title: ' får man oönskat hår?',
-            content: '<p class="p200">Oönskat hår kan växa på nästan vilken del av kroppen som helst. Ett av de vanligaste områdena där kvinnor upplever oönskat hår är ansiktet. Detta omfattar överläppen, kinderna, hakan och området runt näsan. Kvinnor som genomgår hormonella förändringar kan märka en markant ökning av hårväxt i dessa områden.</p>',
+            content: '<p class="p200">Ansiktet är ett av de vanligaste områdena där kvinnor upplever oönskat hår: överläppen, kinderna, hakan och området runt näsan. Vid hormonella förändringar kan hårväxten i de här områdena öka markant. Oönskat hår kan annars dyka upp på nästan vilken del av kroppen som helst.</p>',
             extended_content: '<p class="p200 mt-xl">På kroppen upplever både män och kvinnor oönskat hår i områden som underarmarna, benen, armarna och ryggen. Bröst och mage är också vanliga områden där oönskat hår kan uppstå. Bikiniområdet är en annan plats där många kvinnor upplever ökad hårväxt, särskilt runt bikinilinjen. Denna ökade hårväxt kan vara särskilt problematisk under sommarmånaderna eller när man bär badkläder.</p>
-            <p class="p200 mt-xl">Likaså kan hårväxt på intima områden som runt vagina och anus upplevas som oönskad av många. Denna typ av hårväxt är helt naturlig och varierar i omfattning, tjocklek och färg från person till person. Hårväxt i dessa områden tjänar biologiska syften, bland annat att skydda de känsliga områdena mot friktion och infektioner. Trots dess naturliga funktion, väljer många att ta bort håret i dessa områden för estetiska skäl eller för en känsla av renhet och komfort.</p>
+            <p class="p200 mt-xl">Likaså kan hårväxt på intima områden som runt vagina och anus upplevas som oönskad av många. Sådan hårväxt är helt naturlig och varierar i omfattning, tjocklek och färg från person till person. Hårväxten i dessa områden fyller en biologisk funktion, bland annat att skydda de känsliga områdena mot friktion och infektioner. Trots dess naturliga funktion väljer många att ta bort håret i dessa områden av estetiska skäl eller för en känsla av renhet och komfort.</p>
             <p class="p200 mt-xl">Även om det kan verka mindre vanligt, finns det människor som upplever hårväxt på ovansidan av sina händer och fötter. Dessutom kan hormonella obalanser, genetik och vissa medicinska tillstånd orsaka att hår växer på oväntade platser, såsom inuti öronen, inuti näsan eller till och med på pannan. Oavsett var på kroppen det oönskade håret växer, varierar dess tjocklek och färg. Medan några kan ha tunt, ljust hår som är knappt märkbart, kan andra ha tjockt, mörkt hår som är mycket synligt.</p>',
             icons: array('ansikte' => 'Ansiktet', 'kropp' => 'Kroppen')
       ),
@@ -89,7 +89,7 @@ $treatment_steps = array(
       ),
 );
 
-$treatment_link = '<a href="permanent-harborttagning.php" title="Utforska effektiva laser mot oönskat hår" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar</a>';
+$treatment_link = '<a href="permanent-harborttagning.php" title="Utforska effektiv laser mot oönskat hår" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar</a>';
 
 $headline01 = "01. Identifiera";
 
@@ -153,8 +153,8 @@ $articles = array(
             image_large: null,
             image_alt: 'När bör du söka hjälp för oönskat hår?',
             image_title: 'När bör du söka hjälp för oönskat hår?',
-            content: '<p class="p200">Att bli av med oönskad hårväxt kan vara en utmaning som påverkar självkänslan negativt. Många förlitar sig på tillfälliga lösningar som rakning eller vaxning, vilka ofta leder till återkommande besvär och hudirritation. För de som söker en mer permanent lösning på problemet med oönskad hårväxt, erbjuds professionella behandlingar som laser som effektivt tar bort håret. Denna teknik inaktiverar hårfolliklarna med ljusenergi, vilket stoppar hårets återväxt och ger ett bestående resultat.</p>
-            <p class="p200 mt-m">Att välja professionell hjälp för att ta itu med oönskat hår är ett viktigt steg mot förbättrad självbild och välbefinnande. Laserhårborttagning är inte bara en investering i ditt utseende utan även i din livskvalitet, genom att erbjuda en hållbar lösning på ett vanligt estetiskt bekymmer. Det är avgörande att välja en erfaren specialist som kan erbjuda skräddarsydda behandlingar för din unika situation, vilket säkerställer optimala och tillfredsställande resultat.</p>',
+            content: '<p class="p200">Rakning och vaxning tar bort oönskad hårväxt för stunden, men håret växer tillbaka och ger ofta återkommande besvär och hudirritation. Påverkar den oönskade hårväxten dessutom din självkänsla är det ett tecken på att tillfälliga lösningar inte räcker. Då finns laser, som tar bort håret permanent: ljusenergin inaktiverar hårfolliklarna och stoppar hårets återväxt.</p>
+            <p class="p200 mt-m">Att ta professionell hjälp med oönskat hår handlar för många lika mycket om självbilden som om huden. Hos en erfaren specialist på laserhårborttagning håller resultatet, och skillnaden märks i både utseende och livskvalitet. Börja med en kostnadsfri konsultation.</p>',
       ),
       new Article(
             title: 'Varför välja AcneSpecialisten?',
@@ -162,7 +162,7 @@ $articles = array(
             image_large: null,
             image_alt: 'Varför välja AcneSpecialisten för behandling av oönskat hår?',
             image_title: 'Varför välja AcneSpecialisten för behandling av oönskat hår?',
-            content: '<p class="p200">AcneSpecialisten är en pålitlig partner när det kommer till behandling av oönskat hår. Vi använder vår erfarenhet och de senaste teknologierna inom hårborttagning för att du ska få både effektiva och säkra behandlingar. Vårt team av experter skräddarsyr behandlingen efter din individuella hår- och hudtyp, för att säkerställa bästa möjliga resultat. Hos oss får du tillgång till toppmodern behandling med personlig service och uppföljning. Vi är engagerade i att hjälpa dig uppnå en slät och hårfri hud på det sätt som passar dig bäst.</p>',
+            content: '<p class="p200">Hos AcneSpecialisten görs behandlingen av oönskat hår med lasrar som Splendor X och Soprano Ice. Våra hudterapeuter har lång erfarenhet av hårborttagning och väljer laser och behandlingsupplägg efter din hår- och hudtyp, så att behandlingen blir både effektiv och säker. Du får personlig service och uppföljning, och vi hjälper dig hela vägen till en slät och hårfri hud.</p>',
       ),
 );
 
@@ -217,7 +217,7 @@ $faq_categories = array(
       'Generellt om oönskat hår' => array(
             new Question(
                   title: 'Vad är oönskat hår och varför uppstår det?',
-                  text: '<p class="p200">Oönskat hår är allt hår på kroppen som inte är önsksvärt, som kan uppstå av olika anledningar som genetik, hormonella obalanser eller vissa medicinska tillstånd. Det kan visa sig på olika delar av kroppen där man normalt inte önskar hårväxt, som ansiktet, bröstet, eller ryggen.</p>'
+                  text: '<p class="p200">Oönskat hår är allt hår på kroppen som inte är önskvärt och kan uppstå av olika anledningar som genetik, hormonella obalanser eller vissa medicinska tillstånd. Det kan visa sig på olika delar av kroppen där man normalt inte önskar hårväxt, som ansiktet, bröstet eller ryggen.</p>'
             ),
             new Question(
                   title: 'Vilka är de mest effektiva professionella behandlingarna för att permanent minska oönskat hår?',
@@ -225,15 +225,15 @@ $faq_categories = array(
             ),
             new Question(
                   title: 'Är laserhårborttagning säker för alla hudtyper?',
-                  text: '<p class="p200">Laserhårborttagning är säker för de flesta hudtyper, men det är viktigt att konsultera med en specialist för att bestämma den bästa typen av laser för din hudton och hårfärg. Vissa lasrar är mer lämpade för ljusare hud med mörkt hår, medan andra är säkrare för mörkare hudtyper. På AcneSpecialisten har vi de senaste maskinerna som passar alla hudtoner och hårfärger som går att behandla.</p>'
+                  text: '<p class="p200">Laserhårborttagning är säker för de flesta hudtyper, men rådgör med en specialist om vilken typ av laser som passar din hudton och hårfärg bäst. Vissa lasrar är mer lämpade för ljusare hud med mörkt hår, medan andra är säkrare för mörkare hudtyper. På AcneSpecialisten har vi de senaste maskinerna som passar alla hudtoner och hårfärger som går att behandla.</p>'
             ),
             new Question(
                   title: 'Kan oönskat hår orsaka hudproblem?',
-                  text: '<p class="p200">Oönskat hår i sig orsakar sällan hudproblem, men de metoder som används för att ta bort det kan ibland leda till hudirritation, inåtväxande hår, och andra hudåkommor. Genom att behandla hårväxten med laser kan vi få bort den utan att orsaka dessa bieffekter.</p>'
+                  text: '<p class="p200">Oönskat hår i sig orsakar sällan hudproblem, men de metoder som används för att ta bort det kan ibland leda till hudirritation, inåtväxande hår och andra hudåkommor. Genom att behandla hårväxten med laser kan vi få bort den utan att orsaka dessa bieffekter.</p>'
             ),
             new Question(
                   title: 'Hur viktig är eftervård efter hårborttagningsbehandling?',
-                  text: '<p class="p200">Eftervård är mycket viktig för att minimera risken för biverkningar och maximera behandlingens effektivitet. Det kan innebära att undvika solen, applicera lugnande krämer eller geler, och undvika vissa hudvårdsprodukter eller aktiviteter som kan irritera behandlade områden.</p>'
+                  text: '<p class="p200">Eftervård är mycket viktig för att minimera risken för biverkningar och maximera behandlingens effektivitet. Det kan innebära att undvika solen, applicera lugnande krämer eller geler och undvika vissa hudvårdsprodukter eller aktiviteter som kan irritera behandlade områden.</p>'
             ),
       ),
 );
@@ -262,15 +262,15 @@ $specialists = array(
             name: 'Julia Eklund',
             title: 'Hudterapeut sedan 2021',
             image: 'bilder/hudterapeut/312x312/hudterapeut-julia.webp',
-            image_alt: 'Julia Eklund, hudterapeut med kunskap inom oönskat hårhantering',
+            image_alt: 'Julia Eklund, hudterapeut med kunskap inom behandling av oönskat hår',
             image_title: 'Julia Eklund - Hudterapeut specialiserad på oönskat hår'
       ),
       new Specialist(
             name: 'Vilma Libom',
             title: 'Hudterapeut sedan 2019',
             image: 'bilder/hudterapeut/312x312/hudterapeut-vilma.webp',
-            image_alt: 'Vilma Libom, hudterapeut med inriktning mot oönskat hårbehandling',
-            image_title: 'Vilma Libom - Expert inom oönskat hårbehandling'
+            image_alt: 'Vilma Libom, hudterapeut med inriktning mot behandling av oönskat hår',
+            image_title: 'Vilma Libom - Expert inom behandling av oönskat hår'
       )
 );
 

@@ -22,7 +22,7 @@ $image_alt = 'Bild som illustrerar hur pigmentfläckar kan se ut på huden';
 
 $green_banner_content = new GreenBannerContent(
       title: 'Pigmentfläckar',
-      description: 'Pigmentfläckar, inklusive åldersfläckar eller hyperpigmentering, beror på ökad produktion av melanin. På denna sida dyker vi djupare in i de bakomliggande faktorerna och presenterar en översikt över behandlingsmetoder för att skapa en mer enhetlig hudton.',
+      description: 'Pigmentfläckar, som åldersfläckar och hyperpigmentering, uppstår när huden bildar för mycket melanin på ett ställe. Nedan går vi igenom varför de uppstår, de olika typerna och vilka behandlingar som jämnar ut hudtonen.',
       links_touch: [
             new Link('Boka konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Pigmentation', 'Boka gratis konsultation'),
             new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_PigmentationSpots', 'Boka denna behandling'),
@@ -52,49 +52,49 @@ $trivias = array(
       new ProblemTrivia(
             prefix: 'Vad',
             title: ' är pigmentfläckar?',
-            content: '<p class="p200">Pigmentfläckar, kända som mörka hudfläckar, är områden på huden som har blivit mörkare än den omgivande huden. Detta beror på en överproduktion av melanin, hudens naturliga pigment. Fläckarna kan variera i färg, storlek och form och kan finnas var som helst på kroppen. De är oftast ofarliga men kan påverka huden estetiskt och känslomässigt, speciellt om de är synliga på utsatta områden som ansikte och händer.</p>',
-            extended_content: '<p class="p200 mt-xl">Pigmentfläckar varierar i utseende, från lätta färgförändringar till djupare och mer distinkta mörkningar. De omfattar olika former, såsom lentigo (solfläckar), nevi (födelsemärken), och hyperpigmentering, vilken inkluderar tillstånd som åldersfläckar och melasma. Behandlingsstrategier anpassas ofta utifrån fläckarnas specifika karaktär och orsak.</p>
-            <p class="p200 mt-xl">Hos oss, med över 30 års erfarenhet av effektiv <a class="b200 underline color-deep-sea-400" href="/ipl-pigmentflackar.php" title="Mer information om borttagning av pigmentfläckar">borttagning av pigmentfläckar</a>, erbjuder vi de mest effektiva metoderna. Behandlingen måste skräddarsys efter din hudtyp och dina specifika hudfläckar. Våra specialister står redo att erbjuda dig en kostnadsfri hudkonsultation för att analysera din situation och utforma en personlig behandlingsplan. Du blir också tilldelad en personlig hudterapeut som stöttar dig genom hela behandlingsprocessen, från start till mål.</p>',
+            content: '<p class="p200">Pigmentfläckar är områden på huden som blivit mörkare än huden runt omkring. De uppstår när hudens pigmentceller bildar för mycket melanin, det naturliga färgämnet, på ett avgränsat ställe. Fläckarna varierar i färg, storlek och form och kan sitta var som helst på kroppen. De är oftast ofarliga, men kan påverka både utseendet och självkänslan, särskilt när de syns på utsatta ställen som ansiktet och händerna.</p>',
+            extended_content: '<p class="p200 mt-xl">Pigmentfläckar varierar i utseende, från lätta färgförändringar till tydligt mörka fläckar. Hit hör lentigo (solfläckar), nevi (födelsemärken) och hyperpigmentering, som i sin tur rymmer åldersfläckar och melasma.</p>
+            <p class="p200 mt-xl">Vi tar bort pigmentfläckar med bland annat <a class="b200 underline color-deep-sea-400" href="/ipl-pigmentflackar.php" title="Mer information om borttagning av pigmentfläckar">IPL</a>, laser och kemisk peeling. Vilken metod som passar avgörs av fläckens typ, färg och djup, och därför börjar vi alltid med en kostnadsfri konsultation där vi går igenom din hud.</p>',
             icons: array()
       ),
 
       new ProblemTrivia(
             prefix: 'Varför',
             title: ' får man pigmentfläckar?',
-            content: '<p class="p200">Pigmentfläckar eller pigmentförändringar uppstår när melanin produceras ojämnt i huden, vilket skapar mörkare fläckar. Detta kan orsakas av solskador, åldrande, hormonella obalanser eller vissa mediciner och hälsoförhållanden. Vissa typer av pigmentfläckar kan bli permanenta om de inte behandlas korrekt.</p>',
-            extended_content: '<p class="p200 mt-xl">Förståelse för typen av pigmentfläck och dess orsak är nyckeln till effektiv behandling. Felaktig behandling kan förvärra tillståndet, medan tidig diagnos och rätt behandling kan förhindra att fläckarna blir permanenta. Kunskap om hudvård och förebyggande åtgärder är också avgörande.</p>
-            <p class="p200 mt-xl">Med över 30 års erfarenhet i branschen, specialiserar vi oss på att förstå och behandla pigmentfläckar. Vi erbjuder en kostnadsfri konsultation för att analysera din hud och utforma en individuell behandlingsplan. Genom att arbeta tillsammans med dig, strävar vi efter att förbättra och bevara din huds hälsa och utseende. Boka en tid idag och ta steget mot en klarare och friskare hud.</p>',
+            content: '<p class="p200">Pigmentfläckar uppstår när melaninet produceras ojämnt, så att pigmentet samlas i mörkare fläckar i stället för att fördelas jämnt över huden. Den vanligaste utlösaren är solens UV-strålar, men även åldrande, hormonella obalanser (som vid graviditet) och vissa mediciner och hälsotillstånd kan sätta igång samma reaktion. Fläckar som byggts upp under lång tid kan bli svåra att få bort helt om de inte behandlas.</p>',
+            extended_content: '<p class="p200 mt-xl">Solen är den vanligaste orsaken bakom pigmentfläckar. UV-strålarna får pigmentcellerna att producera extra melanin som ett försvar, och upprepas det år efter år samlas pigmentet i bestående fläckar. Även enstaka kraftiga solbrännor kan lämna märken som syns långt senare.</p>
+            <p class="p200 mt-xl">Fel metod kan i värsta fall göra en fläck mörkare, medan rätt behandling i tid kan hindra att den blir permanent. Djupare pigment, som vid melasma, kräver ofta fler behandlingar än ytliga solfläckar.</p>',
             icons: array('genetik' => 'Genetik', 'hormoner' => 'Hormoner', 'sol' => 'Sol', 'graviditet' => 'Graviditet')
       ),
       new ProblemTrivia(
             prefix: 'Vem',
             title: ' får pigmentfläckar?',
-            content: '<p class="p200">Pigmentfläckar, även kända som pigmentförändringar, är ett fenomen som inte begränsas till en viss ålder, kön eller hudton. Individer med mörkare hud och de som har en familjehistoria av pigmentfläckar kan dock vara mer benägna att utveckla dessa märken. Hormonella förändringar, som de som kan inträffa under graviditet, kan också bidra till deras uppkomst.</p>',
-            extended_content: '<p class="p200 mt-xl">Solskadad hy är en av de vanligaste orsakerna till att pigmentfläckar uppkommer. Långvarig exponering för solens strålar kan leda till en ökad produktion av melanin, vilket i sin tur kan resultera i ojämna mörka fläckar på huden. Åldrande kan också leda till ojämn melaninproduktion, där hudens förmåga att jämnt fördela melanin förändras med tiden. Detta resulterar i olika typer och nyanser av pigmentfläckar.</p>
-            <p class="p200 mt-xl">Även om pigmentfläckar i ansiktet och på kroppen oftast är ofarliga, kan de vara störande ur ett estetiskt perspektiv. Dessa fläckar kan variera i storlek, form och färg, och kan vara både mörkt bruna, ljust bruna och helt vita. Eftersom de ofta uppenbarar sig i ansiktet, på kinderna och pannan, kan de påverka självkänslan hos många. Att söka professionell hjälp för att behandla och minimera deras utseende kan vara ett effektivt sätt att återställa huden till ett mer enhetligt och klart utseende.</p>',
+            content: '<p class="p200">Hormonförändringar ökar risken för pigmentfläckar, särskilt under graviditet då melasma är vanligt. Ärftlighet spelar också in: har du nära släktingar med pigmentfläckar är risken högre. Även hudtypen påverkar, eftersom mörkare hud ofta reagerar starkare med pigment. I grunden kan dock vem som helst få pigmentfläckar, oavsett ålder, kön eller hudton.</p>',
+            extended_content: '<p class="p200 mt-xl">Graviditet är en av de vanligaste situationerna bakom pigmentfläckar. Hormonförändringarna kan ge melasma, ibland kallat graviditetsmask, som lägger sig ganska symmetriskt över kinder, panna och överläpp. Hos vissa bleknar det efter förlossningen, hos andra blir det kvar. Även yrken och fritidsintressen med mycket sol ökar risken, eftersom huden då exponeras mer.</p>
+            <p class="p200 mt-xl">Pigmentfläckar är i sig ofarliga, men eftersom de ofta syns i ansiktet kan de påverka självkänslan. Det går att behandla dem för att jämna ut hudtonen, och en konsultation ger dig en bild av vad som är möjligt för just din hud.</p>',
             icons: array('man-kvinna' => 'Män & Kvinnor', 'vuxna' => 'Vuxna', '65+' => 'Äldre')
       ),
 
       new ProblemTrivia(
             prefix: 'Var',
             title: ' får man pigmentfläckar?',
-            content: '<p class="p200">Pigmentfläckar, eller hudfläckar, uppstår ofta i ansiktet, där de vanligtvis påverkar områden som mörk fläck på överläpp, kinder och panna. Exponering för solen utan ordentligt skydd kan snabbt leda till dessa missfärgningar, särskilt i områden som är mest utsatta för solljuset.</p>',
-            extended_content: '<p class="p200 mt-xl">Förutom ansiktet kan pigmentfläckar även dyka upp på andra delar av med bruna fläckar på kroppen, inklusive halsen, dekolletaget och händerna. Platser som ofta exponeras för solen är mer benägna att drabbas. Den ojämna produktionen av melanin som resulterar i fläckarna kan uppstå var som helst på huden.</p>
-            <p class="p200 mt-xl">Om du vill ta bort dina pigmentfläckar och vill förstå mer om din specifika situation är det viktigt med professionell hjälp. Hos oss får du möjlighet att boka en kostnadsfri konsultation med en dedikerad hudterapeut som kan identifiera typen av pigmentfläckar du har och lägga upp en individuell behandlingsplan. Denna personliga analys hjälper oss att skräddarsy den mest effektiva metoden för att behandla dina pigmentfläckar och hjälpa dig att återfå en jämn och klar hudton.</p>',
+            content: '<p class="p200">Pigmentfläckar sitter oftast i ansiktet, framför allt på överläppen, kinderna och pannan. De områdena är mest utsatta för sol, och exponering utan ordentligt skydd leder snabbt till missfärgningar just där.</p>',
+            extended_content: '<p class="p200 mt-xl">Förutom ansiktet är bruna fläckar på kroppen vanliga, särskilt på halsen, dekolletaget och händerna. Gemensamt för dessa områden är att de exponeras mycket för sol, och de är därför mer utsatta. I princip kan fläckarna dock dyka upp var som helst på huden.</p>
+            <p class="p200 mt-xl">Var fläcken sitter påverkar också behandlingen. Huden på händer och dekolletage är tunnare och känsligare än i ansiktet, vilket vi tar hänsyn till när vi väljer metod.</p>',
             icons: array('ansikte' => 'Ansiktet', 'kropp' => 'Kropp', 'hander' => 'Händer')
       ),
 );
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'På AcneSpecialisten börjar din behandling med en gratis konsultation. En erfaren hudterapeut undersöker dina hudproblem, identifierar dina specifika pigmentfläckar och skapar en skräddarsydd behandlingsplan anpassad till dina unika behov.',
+            content: 'På AcneSpecialisten börjar din behandling med en gratis konsultation. En erfaren hudterapeut undersöker din hud, identifierar vilken typ av pigmentfläckar du har och lägger upp en behandlingsplan anpassad efter dem.',
             url_label: 'Boka en gratis konsultation',
             url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Pigmentation',
             url_title: 'Boka din kostnadsfria konsultation om pigmentfläckar idag'
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Med din personliga behandlingsplan i hand använder AcneSpecialisten specialiserade metoder för att effektivt behandla dina pigmentfläckar. Vår expertis säkerställer att du snabbt ser resultat och känner dig nöjd med din hud.',
+            content: 'Med din behandlingsplan använder vi metoder som är anpassade efter dina pigmentfläckar, med målet att jämna ut hudtonen steg för steg och hålla nya fläckar borta.',
             url_label: 'Utforska våra behandlingar',
             url: 'behandla-pigmentflackar.php',
             url_title: 'Upptäck våra unika och effektiva behandlingar för pigmentfläckar'
@@ -108,7 +108,7 @@ $types_title = 'Olika typer av pigmentfläckar';
 $type_categories = array(
       new BasedTypeCategory(
             title: 'Baserat på orsak',
-            content: '<p class="p200">Pigmentfläckar kan orsakas av en mängd yttre faktorer som solens UV-strålning, hormonella förändringar, åldrande, miljöfaktorer och yttre skador på huden. Långvarig exponering för solen utan skydd, till exempel, kan öka melaninproduktionen och leda till fläckar, medan hormonella förändringar som graviditet kan ge temporär pigmentering. Förståelsen för dessa faktorer är avgörande för effektiv förebyggande och behandling av pigmentfläckar.</p>',
+            content: '<p class="p200">Beroende på vad som utlöst dem delas pigmentfläckar in i olika typer, och typen avgör vilken behandling som fungerar bäst. Hormonella pigmentförändringar som melasma hänger ihop med graviditet och hormoner, solfläckar och åldersfläckar byggs upp av årens solexponering, och fräknar är till stor del ärftliga. Nedan går vi igenom de vanligaste typerna.</p>',
             types: array(
                   new BasedType(
                         title: 'Hormonella pigmentförändringar',
@@ -149,8 +149,8 @@ $type_categories = array(
             )
       ),
       new BasedTypeCategory(
-            title: 'Baserat på Färg',
-            content: '<p class="p200">Färgen på en pigmentfläck kan avslöja mycket om dess orsak och typ. Bruna fläckar är ofta kopplade till åldersrelaterade förändringar och solskador, medan röda eller rosa kan indikera inflammation. Svarta eller mörkbruna fläckar kan vara mer allvarliga och kräver professionell bedömning. Blå eller grå fläckar är oftast medfödda och specifika för vissa hudtyper. Varje färg ger ledtrådar som kan hjälpa i diagnostisering och behandling.</p>',
+            title: 'Baserat på färg',
+            content: '<p class="p200">Färgen på en pigmentfläck säger en del om vad som ligger bakom. Bruna fläckar hänger oftast ihop med sol och ålder, röda eller rosa med inflammation efter till exempel finnar, och blå eller grå toner är oftast medfödda och specifika för vissa hudtyper. Färgen är en av de saker vi läser av på konsultationen för att välja rätt behandling. En fläck som ändrar färg, form eller storlek bör dock alltid visas för läkare innan estetisk behandling.</p>',
             types: array(
                   new BasedType(
                         title: 'Mörka / Bruna Pigmentfläckar',
@@ -193,7 +193,7 @@ $type_categories = array(
 
       new BasedTypeCategory(
             title: 'Baserat på område',
-            content: '<p class="p200">Pigmentfläckar kan uppstå på olika delar av kroppen, inklusive ansiktet, händerna och resten av kroppen. Platsen kan ibland ge insikt i orsaken; till exempel, fläckar på händer och ansikte är ofta kopplade till solskador eftersom dessa områden är mest utsatta för solen. Pigmentfläckar på kroppen kan vara mer relaterade till åldrande eller hormonella förändringar. Bedömning av pigmentfläckar baserat på område hjälper till att förstå underliggande faktorer och ger riktning för skräddarsydd behandling.</p>',
+            content: '<p class="p200">Var fläckarna sitter hänger ofta ihop med vad som orsakat dem, och därför delar vi också in dem efter område. Fläckar i ansiktet och på händerna kommer oftast av sol, eftersom de ytorna exponeras mest, medan fläckar på kroppen oftare beror på åldrande eller hormoner. Nedan ser du de vanligaste platserna.</p>',
             types: array(
                   new BasedType(
                         title: 'Pigmentfläckar i ansiktet',
@@ -266,7 +266,7 @@ $services = array(
             title: 'IPL-behandling mot pigmentfläckar',
             duration: '20-70 min',
             price: 'Från 1995 kr',
-            content: 'IPL behandling använder ljuspulser för att bryta ner melanin i huden, vilket gör att de bleknar eller försvinner.',
+            content: 'IPL-behandling använder ljuspulser som bryter ner melaninet i huden, så att fläckarna bleknar eller försvinner.',
             image_small: 'bilder/hudbehandlingar/200x200/ipl.webp',
             image_large: 'bilder/hudbehandlingar/200x200/ipl.webp',
             image_alt: 'Bild av en IPL-behandling för pigmentfläckar',
@@ -285,7 +285,7 @@ $services = array(
             title: 'Kemisk peeling mot pigmentfläckar',
             duration: '40 min',
             price: '1995 kr',
-            content: 'Kemisk peeling är en beprövad metod som förnyar och förbättrar hudens yta. Behandlingen används för att exfoliera och ta bort det yttersta hudlagret, vilket hjälper till att reducera synliga pigmentfläckar och förbättra hudens allmänna utseende.',
+            content: 'Kemisk peeling exfolierar och löser upp det yttersta hudlagret, där en stor del av det ytliga pigmentet sitter. När lagret ersätts av ny hud kan pigmentfläckarna blekna och hudtonen bli jämnare och klarare.',
             image_small: 'bilder/hudbehandlingar/200x200/kemisk-peeling.webp',
             image_large: 'bilder/hudbehandlingar/200x200/kemisk-peeling.webp',
             image_alt: 'Bild av en kemisk peeling för pigmentfläckar',
@@ -304,7 +304,7 @@ $services = array(
             title: 'Laserbehandling mot pigmentfläckar',
             duration: '20-90 min',
             price: 'Från 2595 kr',
-            content: 'Laserbehandling mot ojämn pigmentering använder precisa ljusstrålar för att bryta ned överdriven pigmentering i huden. Denna behandling hjälper till att minska synligheten av pigmentfläckar och förbättra hudens jämnhet.',
+            content: 'Laser riktar precisa ljusstrålar mot det överflödiga pigmentet och bryter ned det. När pigmentet försvinner bleknar fläckarna och hudtonen blir jämnare.',
             image_small: 'bilder/hudbehandlingar/200x200/laser.webp',
             image_large: 'bilder/hudbehandlingar/200x200/laser.webp',
             image_alt: 'Bild av en laserbehandling mot pigmentfläckar',
@@ -324,7 +324,7 @@ $services = array(
             title: 'Microneedling mot pigmentfläckar',
             duration: '50 min',
             price: '2995 kr',
-            content: 'Microneedling är en avancerad teknik som används för att behandla och förbättra hudens utseende, särskilt när det gäller pigmentfläckar och ojämn hudton.',
+            content: 'Microneedling skapar mikroskopiska kanaler i huden med tunna nålar, vilket sätter igång hudens egen förnyelse. Den nya hud som bildas har jämnare pigmentfördelning, vilket dämpar pigmentfläckar och ojämn hudton.',
             image_small: 'bilder/hudbehandlingar/200x200/microneedling.webp',
             image_large: 'bilder/hudbehandlingar/200x200/microneedling.webp',
             image_alt: 'Bild av en microneedling-behandling för pigmentfläckar',
@@ -348,8 +348,8 @@ $articles = array(
             image_large: null,
             image_alt: 'Kvinna som funderar över sina pigmentfläckar',
             image_title: 'Övervägande av behandling för pigmentfläckar hos Acnespecialisten',
-            content: '<p class="p200">Pigmentfläckar, även kända som hyperpigmentering, kan visa sig på huden av olika skäl, såsom solskador, hormonella förändringar eller naturligt åldrande. Även om de flesta av dessa fläckar är godartade och inte utgör någon fara, kan de fortfarande vara en estetisk olägenhet för många. För dem som känner att deras pigmentfläckar påverkar deras självförtroende eller deras dagliga liv är det dags att överväga behandlingsalternativ.</p>
-            <p class="p200 mt-m">Om du har fläckar som du redan vet är godartade men som du finner störande, kan en konsultation hos AcneSpecialisten hjälpa dig att utforska de bästa behandlingsmetoderna för just din hudtyp och dina behov. Det bör noteras att på vår klinik behandlar vi endast estetiska aspekter av pigmentfläckar.</p>',
+            content: '<p class="p200">De flesta pigmentfläckar är godartade och helt ofarliga. Ändå kan de vara en estetisk olägenhet, särskilt när de sitter synligt i ansiktet eller på händerna. Känner du att dina fläckar påverkar självförtroendet eller vardagen är en konsultation ett bra första steg för att gå igenom vilka behandlingar som passar.</p>
+            <p class="p200 mt-m">Om du har fläckar som du redan vet är godartade men som du finner störande, kan en konsultation hos AcneSpecialisten hjälpa dig att gå igenom vilka behandlingar som passar din hud. Observera att vi på vår klinik bara behandlar de estetiska aspekterna av pigmentfläckar.</p>',
       ),
       new Article(
             title: 'Varför ska jag behandla mig hos Acnespecialisten?',
@@ -357,8 +357,8 @@ $articles = array(
             image_large: null,
             image_alt: 'Acnespecialisten klinik, expert på behandling av pigmentfläckar',
             image_title: 'Expertbehandling av pigmentfläckar hos Acnespecialisten',
-            content: '<p class="p200">Att välja rätt klinik för behandling av pigmentfläckar är avgörande för önskat resultat, och Acnespecialisten är verkligen en framstående aktör inom detta fält. Med sin djupgående expertis och långa erfarenhet av att hantera en mängd hudproblem, inklusive pigmentfläckar, har teamet på Acnespecialisten utbildats för att noggrant identifiera och anpassa behandlingar efter olika typer av pigmentförändringar. För oss är ingen hud den andra lik, och därför tar vi fram skräddarsydda behandlingsplaner som speglar just dina specifika behov och önskade resultat.</p>
-            <p class="p200 mt-m">Kombinationen av vår omfattande erfarenhet och den senaste teknologin inom hudvård garanterar att du får den mest effektiva och säkra behandlingen som finns tillgänglig. Men vår omsorg sträcker sig bortom själva behandlingen; på Acnespecialisten ser vi till din övergripande hudhälsa, erbjuder råd och vägledning för att du ska kunna upprätthålla och förbättra hudens skick och därmed förhindra framtida pigmentering. Om du eftersträvar genuina resultat och önskar expertvård för dina pigmentfläckar, finns det ingen bättre plats än Acnespecialisten.</p>',
+            content: '<p class="p200">Med mer än 30 års erfarenhet av hudvård har AcneSpecialisten behandlat pigmentfläckar i alla former, från enstaka solfläckar till utbredd melasma. Eftersom olika typer kräver olika behandling börjar vi alltid med att fastställa vilken sorts pigmentering du har, och väljer metod utifrån fläckarnas färg, djup och orsak.</p>
+            <p class="p200 mt-m">Din hudterapeut följer dig genom hela behandlingen och ger dig råd om hur du skyddar huden mot solen efteråt, så att nya fläckar inte hinner byggas upp igen. Målet är en jämnare hudton som håller över tid, inte bara ett snabbt resultat.</p>',
       ),
 );
 
@@ -438,7 +438,7 @@ $results = array(
 
 
 $faq_categories = array(
-      'Allt du behöver veta om ärr av finnar' => array(
+      'Allt du behöver veta om pigmentfläckar' => array(
             new Question(
                   title: 'Vad är pigmentfläckar och hur skiljer de sig från vanliga hudfläckar?',
                   text: '<p class="p200">Pigmentfläckar, även kända som hyperpigmentering, uppstår när vissa områden av huden blir mörkare än den omgivande huden. De kan uppkomma som ett resultat av en överproduktion av melanin, pigmentet som ger huden dess färg. Dessa fläckar skiljer sig från vanliga hudfläckar genom deras färgintensitet och tendens att uppstå som en reaktion på faktorer som solskador, hormonella förändringar eller åldrande.</p>'
@@ -457,7 +457,7 @@ $faq_categories = array(
             ),
             new Question(
                   title: 'Hur kan jag identifiera en pigmentfläck jämfört med andra hudförändringar?',
-                  text: '<p class="p200">Pigmentfläckar är vanligtvis platta, mörkare områden som varierar i storlek och form och är tydligare än den omgivande huden. De kan förekomma var som helst på kroppen men är vanligast i ansiktet, på händerna och andra områden som utsätts för solen. Om du är osäker på dina pigmentfläckar, är det alltid bäst att boka en konsultation hos en av våra hudterapeuter för en korrekt diagnos och råd.</p>'
+                  text: '<p class="p200">Pigmentfläckar är vanligtvis platta, mörkare områden som varierar i storlek och form och är tydligare än den omgivande huden. De kan förekomma var som helst på kroppen men är vanligast i ansiktet, på händerna och andra områden som utsätts för solen. Om du är osäker på dina pigmentfläckar är det alltid bäst att boka en konsultation hos en av våra hudterapeuter för en bedömning och råd om vilken typ av pigmentering det rör sig om.</p>'
             ),
             new Question(
                   title: 'Hur behandlar man fräknar?',
@@ -503,7 +503,7 @@ $specialists = array(
 );
 
 $specialist_url_label = "Se alla specialister";
-$specialist_url_title = "Specialiserade Hudterapeuter med inriktning mot ärr bildade av finnar";
+$specialist_url_title = "Hudterapeuter specialiserade på pigmentfläckar";
 
 
 $related_problems = array(
@@ -530,18 +530,18 @@ $related_problems = array(
             aka: 'leverfläckar & födelsemärken',
             image: '/bilder/hudproblem/102x102/hudforandringar.webp',
             image_title: 'födelsemärke i ansiktet',
-            image_alt: 'svart utåtstående leverläck i ansiktet',
+            image_alt: 'svart utstående leverfläck i ansiktet',
             url: '/hudproblem/hudforandringar/',
-            url_title: 'Solskadad hy'
+            url_title: 'Hudförändringar'
       ),
       new RelatedProblem(
             name: 'Åldersfläckar',
             aka: 'åldersvårtor',
             image: '/bilder/hudproblem/102x102/aldersflackar.webp',
-            image_title: 'Leverfläck i huvudet',
-            image_alt: 'svart upphöjdleverfläck på huvudet',
-            url: '/solskadad-hy.php',
-            url_title: 'Solskadad hy'
+            image_title: 'Åldersfläckar på huden',
+            image_alt: 'ljusbruna åldersfläckar på huden',
+            url: '/aldersflackar.php',
+            url_title: 'Åldersfläckar'
       ),
 );
 

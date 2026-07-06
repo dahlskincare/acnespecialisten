@@ -44,6 +44,21 @@
 | Omdöme "Hade testat allt innan…" | 🔵 | omdöme |
 | Omdöme "Super fin personal…" | 🟢 | omdöme + detalj |
 
+## /acne-ansikte.php — 05 Jul 2026 — ✅ EFTER REWRITE (FÖRSTA EFTER-FACITET; sidnivå 🔴→🔵 SLIGHT; dump möjligen partiell — FAQ-block ej synliga)
+| Block (snippet, EFTER-text) | Betyg | FÖRE-motsvarighet (22 apr) → tolkning |
+|---|---|---|
+| Intro "Akne i ansiktet sätter sig där talgkörtlarna är som tätast: i pannan, på näsan… För många påverkar den både huden och självkänslan. Det viktiga att komma ihåg är att den går att behandla. Här går vi igenom…" | 🟠 | banner 🔴 (empati+meta) → 🟠. ENDA kvarvarande flaggan: konkret krok men empati-/importans-mitt + "Här går vi igenom"-skylt ackumulerar (§1.3-gradienten ✓) |
+| "Akne i ansiktet syns som pormaskar, finnar, papler och pustler… Bakterier samlas i den igentäppta poren och utlöser en inflammation. Det är inflammationen som syns som en röd, öm finne, och därför sitter akne oftast där talgkörtlarna är som flest…" | 🔵 | "påverkar miljontals" 🔴 → 🔵: full mekanism-vandring + kausal payoff |
+| "Bakom akne i ansiktet ligger framför allt hormoner och ärftlighet… De får talgkörtlarna att producera mer talg… hudens benägenhet att överproducera talg till stor del är ärftlig." | 🔵 | "orsakas av flera faktorer som samverkar" 🔴 → 🔵: konkret orsaks-öppning + mekanism |
+| "Plötslig akne i ansiktet utan att du brukar ha hudproblem beror nästan alltid på en hormonell svängning. Puberteten, menstruationscykeln… Stress spär på genom att höja kroppens kortisol…" | 🔵 | "Plötslig akne… frustrerande… flera faktorer" 🔴 → 🔵: rakt kausalt svar |
+| "Var akne sitter i ansiktet hänger ihop med var talgkörtlarna är som flest: pannan, näsan, kinderna, hakan och käklinjen. Utbrotten ser olika ut beroende på område… Nedan tittar vi närmare på varje område." | 🟢 | "kan uppträda på flera olika sätt" 🔴 → 🟢 HUMAN: konkret + varierad skylt — skylten i sig fäller inte! |
+| "Det finns ingen universallösning för akne i ansiktet. Vi läser av hur djupt utbrotten sitter och anpassar behandlingen efter det, och oftast ger en kombination av metoder bäst resultat." | 🔵 | "När det kommer till att behandla… ingen universallösning" 🟠 → 🔵: vi-handling istället för fyllnad |
+| "Daglig behandling med rätt produkter hjälper till att bekämpa och förebygga akne. Våra produkter håller huden i balans…" | 🔵 | 🔵 → 🔵 (lätt hand, stabil) |
+| Omdöme "Hade testat allt innan…" | 🔵 | 🔵 = orörd, stabil över refresh |
+| Omdöme "Super fin personal… ca 2-3 år…" | 🟢 | 🟢 = orörd, stabil över refresh |
+
+**FÖRE→EFTER-summering:** 22 apr **6🔴/1🟠/2🔵/1🟢** (n=10, medel 2,2) → 5 jul **0🔴/1🟠/6🔵/2🟢** (n=9 synliga, medel 0,89) → **badge 🔴 SIGNIFICANT → 🔵 SLIGHT.** §1.4-medel träffar (0,89 < 1,5 → 🔵 ✓ — modellens FÖRSTA EFTER-validering, preliminär tills ev. FAQ-block levererats). "Att leva med svår akne…"-blocket (🔴 22 apr) syns inte i EFTER-dumpen — omskrivet/struket eller utanför bild; be om resten. **Modellfynd:** (1) mekanism-öppning + payoff = 🔴→🔵 över hela linjen — §1.1 nyckel 1 nu KAUSALT belagd (vi ändrade öppningen, betyget flyttade), inte bara korrelation; (2) intro-blocket följer §2-formeln (konkret krok + skylt) men landar 🟠 — det som fäller är empati-/importans-meningarna FÖRE skylten ("För många påverkar den…", "Det viktiga att komma ihåg…"), jfr 🟢-blocket vars skylt "Nedan tittar vi närmare…" inte fällde; (3) omdömen + produktblock stabila över refresh = brusfria referenspunkter.
+
 ## /ipl-rosacea.php — 29 Apr 2026 (MODERATE-sida)
 | Block (snippet) | Betyg | Varför |
 |---|---|---|
@@ -215,6 +230,22 @@
 **Facit-signaler (tolkning):** (a) **siffra/historik** ("Sedan 1994… hundra tusen") håller ett annars marknads-block på 🔵. (b) **Konkret credential rescuear INTE** ("SHR-godkänd" → ändå 🔴 pga "garanterar högsta möjliga/mest effektiva"-svans). (c) **Namnger 3 kliniker men LÅNG + marknad → 🔴** (längd dominerar över namn-konkretionen — bekräftar v3). (d) process-block utan marknads-svans = 🔵.
 **AI QUESTIONS (FAQ, för Fas 2):** Hur länge har AcneSpecialisten funnits? · Vad erbjuder AcneSpecialisten? · Kan alla besöka AcneSpecialisten? · Är ni hudläkare? · Vad gör AcneSpecialisten unikt?
 **v3-BLINDTEST-RESULTAT (om-oss, 3 agenter, ofuskat): 4/11 exakt, 11/11 inom ±1.** v3 ÖVERkorrigerade: O01–O05 gissades ETT steg för hårt (SLIGHT→MODERATE, MODERATE→SIGNIFICANT); O09 (CTA "Boka…") + O10 (generiskt omdöme) gissades HUMAN men var SLIGHT. Rätt: O06/O07/O08 (SIGNIFICANT), O11 (HUMAN). **Lärdom: exakt tier = brus, ±1 = signalen (97% över båda testen); v3:s längd-push för aggressiv + "kort→HUMAN" för generös → v4 (playbook §1.3). Vi slutar mikro-tuna per sida (v2↔v3 pendlade = overfit).**
+
+## /om-oss.php — 05 Jul 2026 — ✅ EFTER REWRITE (ANDRA EFTER-FACITET; 0 flaggade block synliga; badge ej synlig i dumpen men sidan borta ur MODERATE-gruppen → SLIGHT implicerat)
+| Block (snippet, EFTER-text) | Betyg | FÖRE-motsvarighet (22 apr) → tolkning |
+|---|---|---|
+| "AcneSpecialisten använder en fyrstegsmetod för hudvård, som börjar med en gratis konsultation… avslutar med att reparera skadad hud, inklusive ärr…" | 🔵 | O02 🔵 → 🔵 (orörd, stabil) |
+| "På AcneSpecialisten erbjuder vi en omfattande lösning… personlig hudterapeut (PT)… fotograferar vi din hud för att tydligt kunna jämföra framstegen…" (×2 nära-dubbletter, BÅDA betygsatta) | 🔵🔵 | O03 🔵×2 → 🔵×2 (orörda; dubbletten alltjämt synlig i LYNX) |
+| "Vår metod tar hela vägen: vi identifierar och behandlar hudproblemet, hjälper dig att förebygga det och reparerar huden efteråt. Behandlingsplanen anpassas efter din hudtyp." | 🔵 | O04 🟠 ("inte bara X utan även Y" + skräddarsydd) → 🔵: rak vi-process |
+| "Sedan vår start 1994 har vi stolt hjälpt flera hundra tusen personer… kontinuerlig lärande och förfining…" | 🔵 | O05 🔵 → 🔵 (stabil; historik-prosa mild, §1.3 regel 6 ✓) |
+| "Varje hudterapeut i teamet är certifierad med en SHR-godkänd utbildning (Svenska hudterapeuters riksorganisation). Det betyder att behandlingarna följer branschens standarder och utförs av utbildad personal." | 🔵 | **O06 🔴 → 🔵**: "garanterar högsta möjliga/mest effektiva"-svansen borta — credentialen bär nu själv |
+| "Vi kombinerar lång erfarenhet med moderna tekniker och maskiner… rutinerade och uppdaterade på det senaste… beprövad kunskap men använder dagens metoder." | 🔵 | **O07 🔴 → 🔵**: "årtiondens erfarenhet/senaste innovationerna/optimala resultat"-marknaden ersatt |
+| "Vi har tre kliniker i Stockholm: på Strandvägen, Södermalm och i Sundbyberg. Var du än befinner dig i staden finns vi nära… Boka på den klinik som ligger närmast dig." | 🔵 | **O08 🔴 → 🔵**: klinik-konkretionen LEDER nu (förr begravd i "förstår vi vikten av"-marknad) |
+| "Boka en gratis hudkonsultation hos en av våra erfarna hudterapeuter." | 🔵 | O09 🔵 → 🔵 (stabil) |
+| Omdöme "Hade testat allt innan…" | 🔵 | O10 🔵 → 🔵 (stabil) |
+| Omdöme "Super fin personal… ca 2-3 år…" | 🟢 | O11 🟢 → 🟢 (stabil) |
+
+**FÖRE→EFTER-summering:** 22 apr **3🔴/2🟠/6🔵/1🟢** (n=14 m. dubbletter, medel 1,64–1,85) → 5 jul **0🔴/0🟠/10🔵/1🟢** (synliga, medel 0,91). Banner-blocket (O01 🟠, "unik och effektiv fyrstegsmetod… utan remiss") syns INTE i EFTER-dumpen — utanför bild eller borttaget ur analysen; FAQ-svaren (5 titlar synliga) obetygsatta i dumpen → be om resten. **Alla tre 🔴 gick till 🔵 + O04 🟠→🔵 = prediktionen träffade.** **Modellfynd:** (1) samma mönster som acne-ansikte — konkretion-leder-öppningen gör jobbet (§1.1 nyckel 1, andra kausala belägget); (2) O08-läxan bekräftad baklänges: 22 apr fälldes blocket TROTS 3 namngivna kliniker (längd+marknad dominerade) — nu räddar samma konkretion blocket när marknaden är borta; (3) omdömen + orörda 🔵 stabila över refresh (andra sidan i rad = replikerat). **OBS vyernas oberoende:** AI Copy-vyn färsk (5 jul) men SCORE-analysen 79 dagar gammal (Overall 17, AI STYLE 20 — se `lynx-score.php`) → sidnivå-SCORE i Pages-tabellen kan vara STALE bredvid färsk AI Copy.
 
 ## SCORE-modellen — fakta + reverse-engineering (2026-07-01, workflow)
 **LYNX = internt/bespoke verktyg** (finns ej publikt; buntar tre dokumenterade koncept). Googles E-E-A-T är ett rater-ramverk, INTE en publik metrik → LYNX-siffran är en proxy.
