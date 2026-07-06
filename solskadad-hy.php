@@ -17,12 +17,12 @@ $path_segments = array(
 
 $image_small = 'bilder/hudproblem/358x274/solskadad-hy.webp';
 $image_large = 'bilder/hudproblem/424x456/solskadad-hy.webp';
-$image_title = 'Visar en hud med solskadad hy';
-$image_alt = 'Bild som illustrerar effekterna av solskadad hy';
+$image_title = 'Solskadad hy i närbild';
+$image_alt = 'Solskadad hy med pigmentfläckar och ojämn hudton i ansiktet';
 
 $green_banner_content = new GreenBannerContent(
       title: 'Solskadad hud',
-      description: 'Om du har märkt av tecken på solskadad hy, såsom solfläckar eller förändrad hudtextur, är du inte ensam. Vi på Acnespecialisten har djupgående kunskap om dessa utmaningar och erbjuder effektiva behandlingar. Upptäck hur vi kan skräddarsy en behandlingsplan som passar just dina behov, och boka en kostnadsfri konsultation idag för att påbörja din väg mot en återhämtad och friskare hud.',
+      description: 'Om du har märkt av tecken på solskadad hy, såsom solfläckar eller förändrad hudtextur, är du inte ensam. Vi på Acnespecialisten har djupgående kunskap om dessa utmaningar och erbjuder effektiva behandlingar. Upptäck hur vi kan skräddarsy en behandlingsplan som passar just dina behov, och boka en kostnadsfri konsultation idag för att påbörja din väg mot en återställd och friskare hud.',
       links_touch: [
             new Link('Boka konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Pigmentation', 'Boka gratis konsultation'),
             new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=ipl&skipable_problem=Problem_PigmentationSpots', 'Boka denna behandling'),
@@ -49,23 +49,23 @@ $green_banner_content = new GreenBannerContent(
 $floating_box = 'Vi behandlar solskadad hy effektivt';
 
 $description_title = 'Vad är solskadad hud?';
-$description_text = '<p class="p200">Solskadad hud kännetecknas ofta av mörka fläckar, ojämn hudton, <a class="b200 underline color-deep-sea-400" href="/melasma.php" title="Mer information om melasma">melasma</a> och ibland förtjockad eller läderartad textur. Detta är resultatet av långvarig och upprepad exponering för solens skadliga UV-strålar. Solskador på huden kan drabba människor i alla åldrar, men är vanligare hos äldre individer eller de som ofta vistas i starkt solsken.</p>
-<p class="p200 mt-m">På AcneSpecialisten erbjuder vi flera behandlingsalternativ för solskadad hy, inklusive ljusbaserade behandlingar, kemiska peelingar och mikrodermabrasion. Dessa metoder hjälper till att minska synliga tecken på solskador och förbättra hudens övergripande utseende och hälsa. Vi ger också råd om hur du kan skydda din hud från framtida solskador och upprätthålla en hälsosam och strålande hud.</p>';
+$description_text = '<p class="p200">Solskadad hud kännetecknas ofta av mörka fläckar, ojämn hudton, <a class="b200 underline color-deep-sea-400" href="/melasma.php" title="Mer information om melasma">melasma</a> och ibland förtjockad eller läderartad textur. Skadorna byggs upp av långvarig och upprepad exponering för solens UV-strålar. Eftersom de ackumuleras år för år är de vanligast hos äldre, men även yngre som vistas mycket i stark sol kan drabbas.</p>
+<p class="p200 mt-m">Solskadorna går att behandla. Ljusbaserade behandlingar som IPL bryter ned det överflödiga pigmentet, kemisk peeling lyfter bort det skadade yttre hudlagret och mikrodermabrasion slipar ned ojämn textur. Vi visar dig också hur du skyddar huden mot nya solskador.</p>';
 
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'Din resa mot en klarare hud börjar på AcneSpecialisten med en grundlig konsultation. Våra erfarna hudterapeuter undersöker noggrant din hud för att identifiera solskadad hy och skapar en behandlingsplan som är specialanpassad för dina behov och hudtyp.',
+            content: 'Det börjar med en grundlig konsultation: våra erfarna hudterapeuter undersöker din hud, identifierar solskadorna och skapar en behandlingsplan anpassad efter din hudtyp.',
             url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Pigmentation',
             url_label: 'Boka en gratis konsultation',
             url_title: 'Boka din kostnadsfria konsultation om solskadad hy idag'
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Med en skräddarsydd behandlingsplan från AcneSpecialisten, får du tillgång till avancerade och effektiva metoder för att minska dina solskadad hy. Våra specialiserade behandlingar är utformade för att ge dig synliga resultat och återställa hudens naturliga utstrålning.',
+            content: 'Med en behandlingsplan från AcneSpecialisten får du metoder som kan minska dina solskador och hjälpa huden att återfå sin naturliga lyster.',
             url: 'behandla-pigmentflackar.php',
             url_label: 'Utforska våra behandlingar',
-            url_title: 'Upptäck våra unika och effektiva behandlingar för solskadad hy'
+            url_title: 'Se våra behandlingar mot solskadad hy'
       ),
 );
 
@@ -79,8 +79,8 @@ $top_articles = array(
             image_large: null,
             image_alt: '',
             image_title: '',
-            content: '<p class="p200">Solskadad hud är vanligast på områden som ofta utsätts för sol, exempelvis ansikte, händer och armar. Skadorna manifesterar sig i form av pigmentförändringar som beror på överproduktion av melanin, hudens naturliga färgämne. Denna överproduktion är ofta ett resultat av långvarig UV-exponering från solen. Ytterligare faktorer såsom hudens åldrande bidrar också, då den över tid blir mindre effektiv på att reparera skador orsakade av solen.</p>
-      <p class="p200 mt-m">För att förebygga solskadad hud är det kritiskt att använda solskydd med hög SPF, klä sig i solskyddande kläder och undvika solen när den är som starkast. Kontinuerlig hudvård och specifika behandlingar är också avgörande för att minska risken för solskador, samtidigt som de förbättrar hudens totala utseende och hälsa.</p>',
+            content: '<p class="p200">Solskadad hud är vanligast där solen når mest: i ansiktet, på händerna och på armarna. UV-strålningen får huden att överproducera melanin, hudens naturliga färgämne, och det är den överproduktionen som syns som mörka fläckar. Med åren blir huden dessutom sämre på att reparera solskador, så fläckarna blir fler och tydligare med tiden.</p>
+      <p class="p200 mt-m">Förebygg nya skador med solskydd med hög SPF, solskyddande kläder och skugga när solen är som starkast. Regelbunden hudvård minskar också risken, och skador som redan uppstått går att behandla.</p>',
       ),
 );
 
@@ -91,7 +91,7 @@ $articles = array(
             image_large: null,
             image_alt: 'När är det dags att söka hjälp för solskadad hy?',
             image_title: 'När är det dags att söka hjälp för solskadad hy?',
-            content: '<p class="p200">Solskadad hud är ett vanligt ålderstecken och kan orsaka estetiska bekymmer. Om du upplever att din solskadade hud påverkar ditt självförtroende eller om du är bekymrad över dess tillstånd, kan det vara lämpligt att söka professionell hjälp. Även om solskador i sig inte alltid är farliga, är det viktigt att få en korrekt bedömning för att utesluta andra hudproblem. En hudterapeut kan även erbjuda rådgivning kring effektiva behandlingar och förebyggande åtgärder.</p>',
+            content: '<p class="p200">Solskadad hud är ett vanligt ålderstecken, men den kan skava på självförtroendet. Stör fläckarna dig, eller undrar du vad de beror på, är en bedömning hos en hudterapeut ett bra första steg. Du får samtidigt råd om behandlingar och om hur du förebygger nya skador.</p>',
       ),
 
       new Article(
@@ -100,8 +100,8 @@ $articles = array(
             image_large: null,
             image_alt: 'Varför välja AcneSpecialisten för behandling av solskadad hy?',
             image_title: 'Varför välja AcneSpecialisten för behandling av solskadad hy?',
-            content: '<p class="p200">AcneSpecialisten utmärker sig som en föregångare inom hudvårdsbranschen, särskilt inom området för behandling av solskadad hud. Med vår omfattande erfarenhet och till gång till toppmoderna behandlingsmetoder, erbjuder vi individuellt anpassade behandlingsprogram för varje kund. Vår ambition är att inte bara adressera de synliga tecknen på solskador, utan också att förebygga framtida problem med huden.</p>
-            <p class="p200 mt-m">Behandlingar hos AcneSpecialisten för solskadad hud baseras på en djupgående förståelse för hudens särskilda behov och användning av den senaste teknologin. Vi använder avancerade metoder och högkvalitativa produkter för att säkerställa optimala resultat. Med personligt anpassade behandlingsplaner och ett dedikerat tillvägagångssätt strävar vi efter att varje kund ska uppnå sina hudvårdsönskemål.</p>',
+            content: '<p class="p200">Letar du efter rätt ställe att behandla din solskadade hud? AcneSpecialisten har mer än 30 års erfarenhet inom hudvård, och varje kund får ett individuellt anpassat behandlingsprogram. Målet är att både minska de synliga tecknen på solskador och förebygga framtida problem med huden.</p>
+            <p class="p200 mt-m">Vilken metod som passar beror på hur djupa skadorna är, och ofta ger en kombination bäst resultat. Din hudterapeut väljer upplägget, och med foton före och efter följer vi utvecklingen mellan besöken.</p>',
       ),
 );
 
@@ -115,12 +115,12 @@ $results_images = array(
       new LabelImage(
             image_url: '/bilder/resultat/832x476/pigmentflackar/pigmentflackar-resultat-fore-efter-kind-tinning.webp',
             image_alt: 'Behandlingsresultat för solskador med jämnare hudton',
-            image_title: 'Resultat: Ljusare hy med minskad synlighet av solfläckar',
+            image_title: 'Resultat: Jämnare hudton med mindre synliga solfläckar',
             content: '',
       ),
       new LabelImage(
             image_url: '/bilder/resultat/832x476/pigmentflackar/pigmentflackar-resultat-fore-efter-fraknar.webp',
-            image_alt: 'Solskadad hy före och efter behandling visar minskade mörka fläckar',
+            image_alt: 'Före- och efterbild: färre mörka fläckar efter behandling av solskadad hy',
             image_title: 'Resultat: Förbättrad hudton efter behandling av solskador',
             content: '',
       ),
@@ -140,19 +140,19 @@ $faq_categories = array(
             ),
             new Question(
                   title: 'Hur bokar jag en konsultation för solskadad hud?',
-                  text: '<p class="p200">Du bokar enkelt en kostnadsfri konsultation via vår bokningssida. Under konsultationen gör en av våra erfarna hudterapeuter en noggrann analys av din hud och dina solskador. Vi fotograferar de berörda områdena, diskuterar dina mål och skapar en skräddarsydd behandlingsplan som passar just din hudtyp och dina behov.</p>'
+                  text: '<p class="p200">Du bokar enkelt en kostnadsfri konsultation via vår bokningssida. Under konsultationen gör en av våra erfarna hudterapeuter en noggrann analys av din hud och dina solskador. Vi fotograferar de berörda områdena, diskuterar dina mål och föreslår den metod som passar din hudtyp.</p>'
             ),
             new Question(
                   title: 'Vilka behandlingar är mest effektiva mot solskadad hud?',
-                  text: '<p class="p200">De mest effektiva behandlingarna är ljusbaserade metoder som IPL och laser, vilka bryter ned överskjutande melanin i huden. IPL är särskilt effektiv för solfläckar och pigmentförändringar, medan laser är mer precis för djupare solskador. Kemisk peeling exfolierar hudens yttre lager och jämnar ut hudtonen, medan microneedling förbättrar hudens textur. Vilken behandling som passar dig bäst avgörs under en kostnadsfri konsultation.</p>'
+                  text: '<p class="p200">De mest effektiva behandlingarna är ljusbaserade metoder som IPL och laser, som bryter ned överskottet av melanin i huden. IPL fungerar särskilt bra mot solfläckar och pigmentförändringar, medan laser är mer precis för djupare solskador. Kemisk peeling exfolierar hudens yttre lager och jämnar ut hudtonen. Microneedling förbättrar hudens textur. Vilken behandling som passar dig bäst avgörs under en kostnadsfri konsultation.</p>'
             ),
             new Question(
                   title: 'Hur lång tid tar det att behandla solskadad hud?',
-                  text: '<p class="p200">Ytliga solfläckar kan visa förbättring efter 2-3 behandlingar, medan djupare solskador kan kräva 6-8 behandlingar eller mer. Behandlingarna utförs vanligtvis med 3-4 veckors mellanrum för att ge huden tid att läka mellan sessionerna. Solskador som byggts upp under många år tar tid att behandla, men med rätt metod kan mycket goda resultat uppnås.</p>'
+                  text: '<p class="p200">Ytliga solfläckar brukar förbättras efter 2-3 behandlingar, medan djupare solskador ofta kräver 6-8 behandlingar eller fler. Behandlingarna utförs vanligtvis med 3-4 veckors mellanrum för att ge huden tid att läka mellan sessionerna. Solskador som byggts upp under många år tar tid att behandla.</p>'
             ),
             new Question(
                   title: 'Kan alla hudtyper behandlas för solskador?',
-                  text: '<p class="p200">Ja, alla hudtyper kan behandlas, men metoden anpassas efter din specifika hudtyp. Ljusare hudtyper svarar ofta bra på IPL och laser, medan mörkare hudtyper kräver andra inställningar för att undvika ytterligare pigmentförändringar. Känslig hud kan behöva en mjukare approach. Vi börjar alltid med en kostnadsfri konsultation där vi analyserar din hudtyp och skapar en behandlingsplan som är säker och effektiv för dig.</p>'
+                  text: '<p class="p200">Ja, i regel kan alla hudtyper behandlas, men metoden anpassas efter din hudtyp. Ljusare hudtyper svarar ofta bra på IPL och laser, medan mörkare hudtyper kräver andra inställningar för att undvika ytterligare pigmentförändringar. Känslig hud kan behöva en mjukare metod. Vi börjar alltid med en kostnadsfri konsultation där vi analyserar din hudtyp och väljer metod och inställningar därefter.</p>'
             ),
       ),
 );
@@ -192,7 +192,7 @@ $specialists = array(
 );
 
 $specialist_url_label = "Se alla specialister";
-$specialist_url_title = "Akne Specialiserade Hudterapeuter";
+$specialist_url_title = "Hudterapeuter specialiserade på pigmentbehandlingar";
 
 $related_problems = array(
       new RelatedProblem(
