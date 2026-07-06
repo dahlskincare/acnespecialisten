@@ -30,6 +30,27 @@
 
 *(SCORE-kolumnens tooltip ingick inte i leveransen — be om den vid tillfälle.)*
 
+## Snapshot 2026-07-06 EM (13:04–13:20, 7 dumpar) — SCORE-nedbrytningar (→ lynx-score) + AICOPY-avstämning: ALLA 11 flaggade sidor omskrivna
+> Ägaren skickade 4 SCORE-popups (rhinophyma 74, ytliga 74, ipl-rosacea 60, microneedling 60 + hudforandringar 17 gammal) → nedbrytningar + modellslutsatser i `lynx-score.php` (CQ/EEAT-badge frikopplad från subs; AI STYLE ute ur Overall; EEAT ej copy-spak). microneedling AIQ-lista (6 jul) → `lynx-questions.php`. **Metodprincip (ägaren): LYNX uppdaterar i STEG — blank sida = pågående omanalys (pigmentflackar löst), attribution kräver observerad delta (§11.1).**
+
+**AICOPY-flagg-listan 13:20 (AI COPY-kolumnen synlig) — 11 sidor kvar (var 14): acne-ansikte + om-oss LÄMNAT (→ SLIGHT, mätta 5 jul); pigmentflackar BLANK (omanalyseras). ALLA 11 kvarvarande ÄR OMSKRIVNA av oss:**
+
+| URL | VALUE | SCORE (färsk?) | GAPS | AICOPY | Vår status |
+|---|---|---|---|---|---|
+| behandla-pigmentflackar | 10 | – | –/– | SIGNIFICANT | ✅ LIVE main 1 jul → väntar badge-refresh |
+| hudforandringar | 10 | 17 (gammal 79d) | 3/2 | SIGNIFICANT | ✅ LIVE main 1 jul → väntar refresh |
+| ytliga-blodkarl | 39 | **74 färsk** | 0/0 | SIGNIFICANT | ✅ LIVE main 1 jul; SCORE färsk/badge stale → väntar badge-refresh |
+| hudbehandlingar/ipl | 35 | – | –/– | MODERATE | ✅ LIVE main 1 jul → väntar refresh |
+| bristningar | 18 | **63 färsk** (FÖRE) | 0/0 | MODERATE | ✅ omskriven 6 jul → STAGING (⛔ GSC-gate) |
+| oonskat-har | 11 | – | –/– | MODERATE | ✅ omskriven 3 jul → STAGING |
+| ipl-rosacea | 55 | **60 färsk** | 0/0 | MODERATE | ✅ LIVE main 1 jul; SCORE färsk/badge stale → väntar badge-refresh |
+| microdermabrasion | 30 | – | –/– | MODERATE | ✅ omskriven 3 jul → STAGING |
+| mogen-hy | 11 | – | –/– | MODERATE | ✅ omskriven 2 jul → STAGING |
+| rhinophyma-rosacea | 34 | **74 färsk** (FÖRE) | 0/0 | MODERATE | ✅ omskriven 6 jul → STAGING (⛔ GSC-gate) |
+| solskadad-hy | 32 | – | –/– | MODERATE | ✅ omskriven 6 jul → STAGING (⛔ GSC-gate) |
+
+**Avstämning: 0 oförda flagg-sidor.** 5 LIVE på main (väntar LYNX badge-refresh — badge-vyn släpar efter SCORE, "vyer oberoende" §11.1), 6 på STAGING (väntar GSC-gate → main-push). Nästa mät-milstolpe = badge-refresh på de 5 live (blir EFTER-mätningar #3–7 efter acne-ansikte + om-oss). Inget nytt skrivarbete behövs på flagg-listan; kvarvarande Fas 3 = pigmentflackar (när den kommer tillbaka ur omanalys).
+
 ## Snapshot 2026-07-06 (07:51, 5 dumpar) — 🎉 FÖRSTA EFTER-MÄTNINGEN: acne-ansikte refreshad → SLIGHT
 > Ägaren skickade AICOPY-filtrerad Pages-vy (tabellen skuren nedtill vid homepage-raden) + AI Copy per-block-vy för acne-ansikte (**"Last update: 05 Jul, 2026"** = färsk analys) + separat acne-ansikte-rad. **Huvudfynd: acne-ansikte 🔴 SIGNIFICANT → 🔵 SLIGHT** — första omskrivna sidan LYNX mätt om (EFTER-facit i `lynx-examples.php`). Refreshen är RULLANDE/partiell: ytliga-blodkarl + ipl-rosacea har FÄRSK SCORE men gamla AI COPY-badges; hudforandringar/behandla-pigment helt orefreshade.
 

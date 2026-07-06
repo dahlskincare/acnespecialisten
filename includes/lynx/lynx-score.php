@@ -3,6 +3,43 @@
 
 > **SCORE-kolumnens datafil** (filkarta i `lynx-data.php`). Innehåller alla SCORE-nedbrytningar (Overall · CONTENT QUALITY [Base/Depth/Evidence/Language/Readability] · E-E-A-T [Experience/Expertise/Authority/Trust] · AI STYLE [Human-like]). Tolkningsmodell: playbook **§1.2 (OMPRÖVAS)** — ⚠️ LYNX verkar ha bytt version/skala: **GAMLA analyser** ("Analyzed >30 days ago") passar multiplikativa formeln Overall ≈ CQ×EEAT×AI/3640 (6/6); **FÄRSKA analyser** passar ≈ medel(CQ-badge, EEAT-badge). Jämför ALDRIG färsk mot gammal (mätregel §11.1). SCORE 0 = trasig/tom analys → be om omkörning. (SCORE-kolumnens officiella tooltip saknas ännu — beställd.)
 
+## Färska analyser (6 jul 2026, "Analyzed just now") — 🎯 FÖRSTA RIKTIGA AI STYLE-DATAN (>30) + EEAT-anomalin bekräftad
+> Ägaren skickade 2 SCORE-popups, båda Overall **74**, båda "Analyzed just now". De två sidorna med SCORE 74 i listan = **rhinophyma-rosacea** (skärmbild 1, raden highlightad) + **ytliga-blodkarl** (skärmbild 2, andra 74:an). ⚠️ Skärmbild 2:s rad-highlight ej 100 % läsbar → tilldelning bekräftas med ägaren, men sub-profilen stödjer den (se nedan).
+
+| Komponent | rhinophyma (74) EJ omskr.¹ | ytliga-blodkarl (74) OMSKR.² | ipl-rosacea (60) OMSKR.³ | hudforandringar (17) GAMMAL⁴ |
+|---|---|---|---|---|
+| **Overall** | **74** | **74** | **60** | **17** |
+| CONTENT QUALITY (badge) | 85 | 86 | **60** | 52 |
+| – Base Quality | 85 | 85 | 88 | 46 |
+| – Depth | 84 | 91 | 88 | 69 |
+| – Evidence | 76 | 74 | 82 | 31 |
+| – Language | 95 | 92 | 95 | 52 |
+| – Readability | 90 | 88 | 92 | 40 |
+| CQ sub-medel | ≈86 | ≈86 | **≈89** | ≈48 |
+| E-E-A-T (badge) | **60** | **60** | **60** | 49 |
+| – Experience | 85 | 85 | 85 | 35 |
+| – Expertise | 80 | 80 | 80 | 55 |
+| – Authority | 80 | 75 | 85 | 45 |
+| – Trust | 85 | 85 | 90 | 60 |
+| EEAT sub-medel | ≈82,5 | ≈81 | ≈85 | ≈49 |
+| **AI STYLE** | **70** | **75** | **75** | **25** |
+
+¹ rhinophyma: min de-AI på STAGING (ej live) → LYNX läste GAMLA texten = **FÖRE-baseline nya skalan**. Main-push + omanalys → ren FÖRE→EFTER.
+² ytliga-blodkarl: omskriven PR #236 (live 1 jul) = **EFTER**. Gammal-skala-FÖRE (30 jun) 22/CQ52/EEAT58/AI25 — ej jämförbar (skalbyte).
+³ ipl-rosacea: omskriven PR #236 (live 1 jul) = **EFTER**. Gammal-skala-FÖRE 39. ⚠️ **CQ-badge 60 trots CQ-subs-medel 89** = den avgörande anomalin (se slutsats 3).
+⁴ hudforandringar: "Analyzed 79 days ago" = GAMMAL (ej refreshad sedan omskrivningen) → FÖRE-text/gammal skala; multiplikativ 52×49×25/3640 = 17,5 ≈ 17 ✓.
+
+**+ microneedling.php (60, "just now" 6 jul — KOMPLETT nu, 2 jul-anomalin satt sig):** Overall 60 · CQ-badge **60** (Base 92, Depth 94, Evidence 70, Language 95, Readability 90 = sub-medel **88,2**) · EEAT-badge **60** (Exp 85, Expertis 80, Auth 85, Trust 90 = 85) · AI STYLE **75**. **2:a exakta bekräftelsen av CQ-frikopplingen** (CQ-badge 60 vs subs 88 — precis som ipl-rosacea) OCH **60 = medel(60,60) EXAKT** OCH **AI 75 ute ur Overall**. Dessutom: 2 jul hade micro Base 0/Language 0/AI 0/Overall 50 (partiell) → 6 jul komplett → **bekräftar "SCORE 0/nollor = ofullständig analys som sätter sig", inte dålig sida.** (Sidoräkning m-spannet: milierbehandling **0** = trasig, be om omkörning · milier 75 · mallorca-acne 68 · melasma 23 · om-oss 17 gammal.)
+
+**🎯 MODELLSLUTSATSER 6 jul (§1.2-testprotokollet BESVARAT):**
+0. **⚠️ MÄTPRINCIP (ägaren 6 jul — GÄLLER ALL FÖRE→EFTER):** LYNX uppdaterar i STEG, oberoende av våra deploys — en sida/vy/kolumn kan vara BLANK medan den omanalyseras (pigmentfläckar-mysteriet = detta, INTE tier-flytt) och komma tillbaka med nytt värde. **En "Analyzed just now" är INTE bevis på före ELLER efter vår ändring** — den kan lika gärna vara gammal text omanalyserad. **Attribuera FÖRE→EFTER ENDAST när vi har två analyser med FAKTISKT OLIKA värden (en gammal + en ny som skiljer sig).** Anta aldrig "nästa analys efter min push = EFTER" — vänta på observerad delta. Därför är nedan-tabellens "EFTER"-etiketter PROVISORISKA: sidorna är analyser av nuvarande live-text, men utan matchande färsk-skala-FÖRE kan deltat inte attribueras till oss.
+1. **Overall = medel(CQ-badge, EEAT-badge) — nu 6/6 färska, ipl-rosacea + micro EXAKT:** rhino medel(85,60)=72,5≈74 · ytliga medel(86,60)=73≈74 · **ipl-rosacea medel(60,60)=60 EXAKT** · **micro medel(60,60)=60 EXAKT** · (porto 60 · sebo 72,5). **Färsk-formeln bekräftad — badge-medlet styr Overall, inte sub-medlet.**
+2. **AI STYLE ingår EJ i Overall (avgjort av ipl-rosacea + micro):** båda har AI STYLE 75 men Overall 60 = medel(60,60) UTAN AI. Vore AI med: medel(60,60,75)=65≠60. **AI STYLE utesluts ur Overall.** ⇒ de-AI:ns Overall-payoff går INTE via AI STYLE — AI STYLE-vinsten realiseras i AI COPY-flaggan (§1.1) + som egen kolumn.
+3. **🔴🔴 DEN STORA UPPTÄCKTEN — CQ-badge OCH EEAT-badge är FRIKOPPLADE från subvärdena på färska analyser (nu 2 CQ-belägg):** ipl-rosacea CQ-badge **60** vs subs-medel **89**; micro CQ-badge **60** vs subs-medel **88** — badgen ~29 punkter UNDER subsen på BÅDA. EEAT-badge = **60 på alla 6 färska** trots subs-medel 81–85. **De CQ/EEAT-badgevärden som styr Overall är INTE medel av subvärdena — subsen är en separat granulär vy.** Förklarar varför Overall kan vara 60 på en sida med subvärden 82–95. **KRITISK följd: att höja subvärden via copy (Language/Evidence/Readability) höjer INTE garanterat CQ-badgen → SCORE-Overall-payoffen av de-AI är OSÄKER, troligen liten.** Vår bevisade vinst ligger i AI COPY-flaggan (§1.1, kausal 6 jul) + AIQ (§1.5), inte i SCORE-Overall. *(Varför CQ-badge 60 på ipl/micro men 85–86 på rhino/ytliga vid liknande subs = OKÄNT. Notera: ipl/micro Overall = 60, rhino/ytliga = 74 → CQ-badge ser ut att FÖLJA Overall snarare än subsen. Kan betyda att popupens CQ/EEAT-badge egentligen visar en Overall-härledd siffra, inte en oberoende komponent. BEVAKA.)*
+4. **EEAT är INTE en copy-spak (bekräftat):** EEAT-badge sitter på 60 på var enda färsk sida oavsett innehåll → §1.2:s gamla "E-E-A-T näst lägst = andra spaken efter AI STYLE" STRYKS. Bärs troligen av delade widgets (specialister/recensioner/trust) = sajtkonstant. Rör aldrig copy för att jaga EEAT.
+5. **AI STYLE nya skalan = 50–75 (när beräknad):** sebo 50 · rhino 70 (ej omskr.) · ytliga/ipl 75 (omskr.). Gamla skalans 20–30 var ANNAN skala (hudforandringar 25 = gammal). Svag riktning: omskrivna sidor 75 vs ej-omskriven 70 (+5), men rhino ligger redan högt före vår de-AI → **rhinos main-push blir det rena FÖRE→EFTER-testet av de-AI→AI STYLE.**
+6. **Evidence = CQ:s lägsta sub (74–82) — enda tydliga CQ-sub-spaken kvar** (Language 92–95, Readability 88–92, Base 85–88, Depth 84–91 nära tak). Men se slutsats 3: sub-höjning ≠ badge-höjning, så även Evidence-payoffen är osäker. Höj Evidence för substansens skull (§5-filtrerat: 30-år, namngivna maskiner, Från-pris), inte för garanterad SCORE.
+
 ## Färska analyser (2 jul 2026, "Analyzed 2 minutes ago")
 
 **microneedling.php — ⚠️ ANOMALI, troligen PARTIELL/pågående analys:**
