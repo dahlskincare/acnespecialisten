@@ -134,6 +134,84 @@
 - **Ambient drift (ej attribuerbar):** KW: oonskat-har 15→13 · pigment 237→230 · rhino 47→46 · bristningar 67→66 · aldersflackar 7→10 (UPP) · homepage CLICKS 382→381, acne.php CLICKS 4→5. VAL-brus ±1–4 på flera rader.
 - **OFÖRÄNDRAT:** SCORE-blank-mönstret kvarstår (ipl/oonskat-har/microdermabrasion/solskadad-hy "–" = omanalys-kön) · homepage 65/POOR · badge-vyerna på övriga live-sidor fortfarande stale (ytliga/hudforandringar 🔴, ipl/ipl-rosacea m.fl. 🟠) · microdermabrasion AIQ OK.
 
+### Tillägg 14:16 (2 dumpar) — OFILTRERAD Pages-vy VALUE-band 40→19 (kompletterar 12:36-bandet 65–49): 15 nya färska SCORE · splendor-x 79 = NY SAJT-TOPP över taket · "missing localized"-DRAFT-rad KW 616 · fragor-svar AIQ OK→POOR
+> Fortsättning på inventeringen — ofiltrerad vy sorterad på VALUE fallande, alla kolumner. Banden 65–49 (12:36) + 40–19 (14:16) täcker nu huvuddelen av sajten med färsk data. EG SCORE "–" överallt · STATUS 200 överallt (utom DRAFT-raden, blank) · AI FEATURES-toggeln PÅ på alla riktiga sidor men **AV på DRAFT-raden** → togglen verkar markera aktiva/indexerade sidor (datapunkt till tooltip-beställningen #9). ±1–2 KW-avvikelser mot 13:58-vyn på samma sidor (ytliga 159→157, pigment 230→232, ansiktsbehandlingar 14→15) = vy-/transkriptionsbrus minuter isär, ingen åtgärd.
+
+**Band VALUE 40→29 (14:16:29):**
+| URL | VAL | SCORE | GAPS ⚡/💡 | AICOPY | AIQ | P.PRICE | KW | WORDS | CLICKS |
+|---|---|---|---|---|---|---|---|---|---|
+| /vita-pormaskar.php | 40 | **70 färsk** | 0/0 | SLIGHT | OK | – | 9 | 347 | 3 |
+| /ytliga-blodkarl.php | 40 | 74 | 0/0 | 🔴 SIGNIFICANT (stale) | OK | – | 157 | 919 | 51 |
+| /vuxenacne.php | 39 | – | –/– | SLIGHT | OK | – | 21 | 382 | 4 |
+| /finnar-gravid.php | 39 | **69 färsk** | 3/0 | SLIGHT | OK | – | 42 | 811 | 20 |
+| /milier.php | 39 | **75 färsk** | 0/0 | SLIGHT | OK | – | 164 | 841 | 35 |
+| /postinflammatorisk-hyperpigmentering | 38 | – | –/– | SLIGHT | GOOD | – | 21 | 560 | 5 |
+| /pormaskar-rygg.php | 38 | – | –/– | SLIGHT | OK | – | 12 | 357 | 12 |
+| /komedoner.php | 37 | – | –/– | SLIGHT | OK | – | 5 | 708 | 0 |
+| /microneedling-acne.php | 37 | – | –/– | SLIGHT | GOOD | HIGHEST | 6 | 299 | 7 |
+| /stress-acne.php | 37 | – | –/– | SLIGHT | OK | – | 12 | 582 | 5 |
+| /seborre.php | 37 | – | –/– | SLIGHT | OK | – | 161 | 939 | 10 |
+| /hormonell-acne.php | 36 | **70 färsk** | 2/2 | SLIGHT | OK | – | 37 | 335 | 0 |
+| /resultat-acne.php | 35 | **55 färsk** | 0/0 | SLIGHT | OK | – | 0 | 224 | 0 |
+| /rhinophyma-rosacea.php | 34 | 74 | 0/0 | 🟠 MODERATE (stale) | OK | – | 46 | 788 | 15 |
+| /hudbehandlingar/ipl/ | 34 | – | –/– | 🟠 MODERATE (stale) | OK | HIGH | 18 | 1 006 | 13 |
+| /tonarsacne.php | 34 | **70 färsk (första)** | 0/0 | SLIGHT | OK | – | 14 | 312 | 3 |
+| /ipl-pigmentflackar.php | 33 | – | –/– | SLIGHT | OK | HIGHEST | 14 | 856 | 2 |
+| /pigmentflackar.php | 32 | 73 | 0/0 | 🟠 MODERATE (stale) | OK | – | 232 | 946 | 19 |
+| /melasma.php | 31 | 23 (färsk låg, känd 6 juli) | **0/2** | SLIGHT | OK | – | 27 | 583 | 10 |
+| /perioral-dermatit.php | 31 | – | –/– | SLIGHT | OK | – | **179** | 881 | 16 |
+| /fodelsemarken.php | 31 | – | –/– | SLIGHT | OK | – | 58 | 513 | 24 |
+| /vakuumsug-pormaskar.php | 31 | **60 färsk (första)** | 0/0 | SLIGHT | OK | HIGHEST | 6 | 270 | 0 |
+| /inflammation-acne.php | 31 | – | –/– | SLIGHT | OK | – | 42 | 342 | 6 |
+| /solskadad-hy.php | 31 | – | –/– | 🟠 MODERATE (stale) | OK | – | 33 | 560 | 5 |
+| /torr-hy.php | 30 | **74 färsk (första)** | 0/0 | SLIGHT | OK | – | **152** | 1 107 | 16 |
+| **/varumarken/splendor-x/** | 30 | **79 färsk = NY SAJT-TOPP** | 0/0 | SLIGHT | OK | HIGH | 16 | 707 | 9 |
+| /microdermabrasion.php | 30 | – | –/– | 🟠 MODERATE (stale) | OK | LOWEST | 6 | 536 | 3 |
+| /kemisk-peeling.php | 29 | **60 färsk** | 2/1 | SLIGHT | OK | HIGHEST | 51 | 1 327 | 10 |
+| /acne.php | 29 | 47 | 2/1 | SLIGHT | OK | – | 105 | 1 354 | 5 |
+
+**Band VALUE 29→19 (14:16:41; acne.php-raden överlappar):**
+| URL | VAL | SCORE | GAPS ⚡/💡 | AICOPY | AIQ | P.PRICE | KW | WORDS | CLICKS |
+|---|---|---|---|---|---|---|---|---|---|
+| /microneedling-stora-porer.php | 28 | – | –/– | SLIGHT | OK | HIGHEST | 3 | 267 | 2 |
+| /laser-acne.php | 28 | – | –/– | SLIGHT | OK | LOWEST | 9 | 253 | 3 |
+| /ipl-ytliga-blodkarl.php | 28 | – | –/– | SLIGHT | OK | – | 23 | 888 | 2 |
+| /acne-scars.php | 27 | – | –/– | SLIGHT | OK | – | 15 | 350 | 3 |
+| /acne-ansikte.php | 27 | – | –/– | SLIGHT | OK | – | 52 | 461 | 6 |
+| /alma-hybrid-co2-laser.php | 27 | 60 | 2/1 | SLIGHT | OK | MID | 55 | 1 424 | 7 |
+| **"missing localized" [DRAFT]** | 27 | – | –/– | – | – | – | **616** | (tom) | 0 |
+| /rosacea.php | 27 | – | –/– | SLIGHT | OK | – | **201** | 941 | 5 |
+| /resultat-finnar-arr.php | 26 | – | –/– | SLIGHT | OK | – | 2 | 235 | 0 |
+| /hudterapeut/ | 26 | – | –/– | SLIGHT | OK | – | 12 | 194 | 11 |
+| /hudproblem/ | 26 | **60 färsk** | 0/0 | SLIGHT | OK | – | 5 | 731 | 0 |
+| /stress-finnar.php | 25 | 67 | 0/0 | SLIGHT | OK | – | 19 | 476 | 2 |
+| /hudbehandlingar/dermabrasion/ | 25 | – | –/– | SLIGHT | OK | LOWEST | 4 | 711 | 5 |
+| /kontakt.php | 25 | 60 | 0/0 | SLIGHT | POOR | – | 2 | 152 | 12 |
+| /acne-myter.php | 25 | – | –/– | 🟢 HUMAN | OK | – | 8 | 130 | 1 |
+| /resultat-pormaskar.php | 24 | – | –/– | SLIGHT | POOR | – | 2 | 236 | 3 |
+| /finnar-behandling.php | 24 | – | –/– | SLIGHT | OK | – | 5 | 621 | 0 |
+| /mjalleksem.php | 24 | – | –/– | SLIGHT | OK | – | 28 | 751 | 2 |
+| /hudbehandlingar/skinbooster/ | 24 | – | –/– | SLIGHT | OK | HIGHEST | 27 | 862 | 3 |
+| /infuzion.php | 22 | – | –/– | SLIGHT | OK | HIGHEST | 14 | 477 | 2 |
+| /aldersflackar.php | 22 | – | –/– | SLIGHT | OK | – | 10 | 472 | 5 |
+| /fragor-svar.php | 22 | **56 färsk** | 0/0 | 🟢 HUMAN | **POOR (var OK)** | – | 8 | 114 | 1 |
+| /alma-harmony-xl-pro.php | 21 | – | –/– | SLIGHT | OK | HIGHEST | 5 | 984 | 2 |
+| /prx-t33.php | 21 | – | –/– | SLIGHT | OK | LOWEST | 20 | 765 | 3 |
+| /ansiktsbehandlingar.php | 21 | – | –/– | SLIGHT | OK | HIGHEST | 15 | 966 | 1 |
+| /problemhy.php | 21 | – | –/– | SLIGHT | OK | – | 5 | 972 | 2 |
+| /finnar-brost.php | 20 | **72 färsk** | 0/2 | SLIGHT | OK | – | 10 | 375 | 1 |
+| /presentkort.php | 19 | – | –/– | SLIGHT | OK | – | 3 | 283 | 0 |
+
+**Diff mot sparad data (NYTT/ÄNDRAT):**
+- **🎯 splendor-x SCORE –→79 färsk = FÖRSTA Overall ÖVER 75–77-taket, på en /varumarken/-sida** — bekräftar lynx-score slutsats E (Brand-sidor når högre tack vare o-klampad EEAT; taket gäller våra service-/problemsidtyper). Dessutom: 6 juli-nedbrytningen gav splendor CQ-badge 75 + EEAT-badge 85 → medel = 80 ≈ 79 ✓ = **prediktor-formeln (slutsats A) nu 15/15 (±1)**. Noterat i `lynx-score.php`.
+- **11 nya färska SCORE på orörda sidor (= nya FÖRE-baselines, färsk skala):** vita-pormaskar 16→70 · finnar-gravid 22→69 · hormonell-acne 35→70 · resultat-acne 12→55 · tonarsacne →70 (första) · vakuumsug-pormaskar →60 (första) · torr-hy →74 (första) · splendor-x →79 (första) · kemisk-peeling 10→60 · fragor-svar 36→56 · finnar-brost 11→72. Klustret ~55–75 på service-/problemsidor stödjer takmodellen; låg-änden (resultat-acne 55, kemisk-peeling 60) = tunnare/utility-innehåll. **Redan kända färska (6 juli-listan i lynx-score) — BEKRÄFTADE i Pages-vyn:** milier 75 · hudproblem/ 60 · stress-finnar 67 · kontakt 60 · melasma 23 (färsk-låg).
+- **fragor-svar AIQ OK→POOR (FÖRSÄMRAD) + SCORE 36→56 färsk:** sidan ÄR wave 2-ändrad (FaceTime→Google Meet, live 6 juli) men ändringen är minimal och AIQ är SERP-baserad → trolig extern/omskalnings-effekt, EJ attribuerad utan frågelist-detalj. Ny §9-bevakningstråd (be om §1.5-listan: vilken fråga föll?).
+- **NY RAD: "missing localized" (DRAFT-tag):** VALUE 27 · KW **616**(!) · CLICKS 0 · ingen URL · enda raden med AI FEATURES-toggeln AV · WORDS/STATUS tomma. Troligen LYNX-systemrad för sökord utan mappad/lokaliserad sida — men 616 KW är för stort för att ignorera om det är riktiga icke-mappade sökord. Ny §9-bevakningstråd (fråga ägaren/LYNX).
+- **GAPS-rörelser på orörda sidor (konkurrent-relativa, ingen åtgärd):** vita-pormaskar 2/2→0/0 · milier 2/2→0/0 · finnar-gravid 3/1→3/0 · hormonell-acne 3/2→2/2 · resultat-acne 2/2→0/0 · melasma 3/1→**0/2** · kemisk-peeling 3/2→2/1 · finnar-brost 2/2→0/2.
+- **KW-drift Tier 1-/högKW-sidor (orörda, ambient — bevaka i GSC-passet):** rosacea 221→**201** (−9 %) · perioral-dermatit 194→**179** (−8 %) · seborre 168→161 · milier 173→164 · pormaskar-KW ej i bandet. Under KW-vaktströskeln per sida men bred riktning nedåt — samma mönster som 12:36-bandet; fortfarande ej attribuerbart (sidorna orörda).
+- **P.PRICE fylls på brett (till §13.I-spåret):** HIGHEST: microneedling-acne · ipl-pigmentflackar · vakuumsug-pormaskar · kemisk-peeling · microneedling-stora-porer · skinbooster · infuzion (+ sedan tidigare alma-harmony/ansiktsbehandlingar) · HIGH: splendor-x · LOWEST: laser-acne · prx-t33 · dermabrasion (+ microdermabrasion).
+- **OFÖRÄNDRAT:** alla AI COPY-badges konsistenta med 13:58 (flagg-sidornas badges fortfarande stale/pre-V2) · acne-myter + fragor-svar HUMAN ✓ · kontakt/resultat-pormaskar AIQ POOR ✓ · microneedling-acne + postinflammatorisk AIQ GOOD ✓ · melasma SCORE 23 = gammal kvar.
+
 ## Snapshot 2026-07-06 EM (13:04–13:20, 7 dumpar) — SCORE-nedbrytningar (→ lynx-score) + AICOPY-avstämning: ALLA 11 flaggade sidor omskrivna
 > Ägaren skickade 4 SCORE-popups (rhinophyma 74, ytliga 74, ipl-rosacea 60, microneedling 60 + hudforandringar 17 gammal) → nedbrytningar + modellslutsatser i `lynx-score.php` (CQ/EEAT-badge frikopplad från subs; AI STYLE ute ur Overall; EEAT ej copy-spak). microneedling AIQ-lista (6 jul) → `lynx-questions.php`. **Metodprincip (ägaren): LYNX uppdaterar i STEG — blank sida = pågående omanalys (pigmentflackar löst), attribution kräver observerad delta (§11.1).**
 
