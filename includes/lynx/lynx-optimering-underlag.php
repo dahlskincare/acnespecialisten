@@ -17,6 +17,33 @@
 
 **Planens logik (riskstyrd ordning):** felrättning (2) → rädda unikt (3) → arkivera per policy (4) → en-sanning-per-sak i models/score (5–6) → navet START = störst läsvinst (7) → rewrite FÖRSIKTIGAST, endast format aldrig regler (8) → examples/småfiler (9) → no-loss-verifiering mot MÅSTE-BEHÅLLAS-listorna + radera denna fil (10). **Princip: INGET raderas** — öppna trådar/omätta baselines/ägarbeslut flyttas eller komprimeras, historik → arkivfiler, git har verbatim. Effekt ≈ 2 300 → ~1 400 aktiva rader; egentliga vinsten = gällande sanning står EN gång på EN plats.
 
+## ▶ MÅL-ARKITEKTUR (förslag 7 juli kväll — ATT GÅ IGENOM med ägaren innan steg 5+; ännu EJ ratificerad)
+Ägar-idé: tydligare, mer AI-kompatibel struktur — en logg / en aktiv fil / en historik, återanvänt PER domän & uppgift; START kortare; ladda bara det uppgiftstypen kräver.
+
+**Bärande princip:** *Ett fakta = en cell. Uppgifter laddar celler. En cell upprepar aldrig en annan — den pekar.* (Sync-driften 7 juli em fanns för att steg-status stod på TVÅ ställen; hade underlags-headern sagt "läge: se START §9.0" kunde den aldrig drivit isär → hela drift-klassen strukturellt borta, inte bara upptäckt-och-lagad.)
+
+**Atompartikel — triaden × KIND** (varje fil taggas så AI vet hur den ska litas på):
+- REGEL (stabil, ändras sällan, re-läses ej): models, score, rewrite, copy-playbook, copy-formula
+- AKTIV (levande, ändras varje session, re-läses alltid): data, gaps, questions, LÄGE
+- HISTORIK (append-only, aldrig retroaktiv): data-arkiv, log-arkiv, examples-arkiv
+
+**Domäner ("olika modeller"):**
+- Mätning/SCORE: REGEL models+score · AKTIV data+gaps · HIST data-arkiv
+- Rewrite/Copy: REGEL rewrite+copy-playbook+copy-formula · AKTIV examples-aktiv · HIST examples-arkiv ← examples (632 rader) = dold jätte, splitta precis som data gjordes
+- Loggen (tvärs alla domäner): AKTIV logg · HIST log-arkiv
+
+**START = tunn dispatcher ("olika uppgifter"):** router (uppgiftstyp → celler) + LÄGE + invarianter, ingen operativ text. Laddnings-recept:
+- Orientera / "var är vi" → START
+- Städa sync → START (LÄGE = facit + state-synk-regeln, båda kanoniska här)
+- LYNX-push in → data + data-arkiv + score-regeln + spara-recept + logg
+- Score-fråga → models + score
+- Skriva om sida → rewrite + copy-playbook + examples-aktiv + sidans data-rad
+- Logga utfall → logg + logg-konventionen
+
+**AI-kompatibilitets-lager (nya idéer att väga):** (1) front-matter-manifest överst i varje fil — LADDA-NÄR / KANONISK-FÖR / PEKAR-PÅ / KIND / ~rader → AI drar exakt rätt celler, aldrig hela sajten. (2) referera-aldrig-återge för state = strukturell lag mot drift (viktigast). (3) stabila §-ankare så pekare träffar exakt (facit-flödet saknar §-nr idag → routern kan inte peka på det). (4) REGEL/AKTIV/HISTORIK-taggen låter AI hoppa över stabila regelfiler och lägga uppmärksamheten på det ändrade.
+
+**Koppling till passet:** detta ger steg 5–10 en DESTINATION i stället för fil-för-fil-städning i blindo. Om ratificerad: skriv struktur-kartan permanent i START §0 vid steg 10 (annars dör specen med denna temporära fil).
+
 ---
 
 > Underlag för §9.0-optimeringspasset i lynx-START (ägar-beställt 7 juli: "för långa sektioner ger skumläsning; långa loggar kanske egen fil"). 11 granskningsrapporter (en per fil + färska-ögon-simulering + 2 designförslag). OBS: radnummer avser filversionerna per 7 juli em — verifiera mot aktuell fil innan ändring. **RADERAS när §9.0-passet är klart.**
