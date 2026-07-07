@@ -27,7 +27,7 @@
 | **KW** | "Keywords: Number of keywords with this page set as the landing page." | Bekräftar tolkningen. |
 | **WORDS** | "Estimated word count of the page's main content." | Main content-orräkning (kan förklara viktning i sidnivå-AI COPY). |
 | **CLICKS** | "Number of times users clicked your site from Google Search." | Äkta GSC-klick (homepage 382, acne.php 4). |
-| **STATUS** | "Page's HTTP code and indexability (e.g., 200, 301, 404)." | 200 = ok; behandlingar.php-redirecten borde visa 301 vid omscan. |
+| **STATUS** | "Page's HTTP code and indexability (e.g., 200, 301, 404)." | 200 = ok; behandlingar.php-redirecten borde visa 301 vid omscan → **BEKRÄFTAT 7 juli 13:58: raden visar nu 301** ✓. |
 
 *(SCORE-kolumnens tooltip ingick inte i leveransen — be om den vid tillfälle.)*
 
@@ -87,6 +87,52 @@
 - **behandla-pigmentflackar AI Copy-vy "Last update: 07 Jul"** = färsk crawl av VÅR text → **komplett per-block-EFTER: 2🔴/2🟠/8🔵/1🟢 (n=13), medel 2,38→1,38, §1.4-pred 🔵 = badge ✓.** Full FÖRE→EFTER-tabell + backport-lärdomar i `lynx-examples.php`. Visar också att LYNX crawlar sida-för-sida i steg: denna sida har 7 jul-crawl medan pigmentflackar/rhinophyma fortfarande har ≤6 jul-crawl → wave 2-sidorna plockas upp löpande.
 - **ipl-rosacea gap-popup (3⚡/1💡):** HIGH "Hantering av oro för tillfällig försämring" · LOW "Information om triggerfaktorer för rosacea" · LOW "Förtydligande av kostnadsfaktorer och behandlingsbehov" · 💡-texten ej synlig → sparade + preliminärbedömda i `lynx-gaps.php`.
 - **ipl-rosacea SCORE-popup "Analyzed 23 hours ago"** (= 6 jul-analysen): 60 · CQ-badge 60 (Base 88, Depth 88, Evidence 82, Language 95, Readability 92) · EEAT 60 (85/80/85/90) · AI 75/75 — **identisk med sparad 6 jul-data ✓** (bekräftar transkriptionen + CQ-60-anomalin kvarstår).
+
+### Tillägg 13:58 (1 dump) — FULL AICOPY-vy med ALLA kolumner (inkl. WORDS/CLICKS/STATUS): pigmentflackar-badgen SYNLIG = MODERATE KVAR · behandlingar.php 301 · acnearr SCORE 0→74
+> Samma AICOPY-filter som 12:15 men nu med hela kolumnraden synlig (VALUE→AI FEATURES), sorterad SIGNIFICANT→MODERATE→SLIGHT; skuren nedtill vid /behandla-pigmentflackar (fler SLIGHT-rader finns under). **Ny kolumn längst till höger: "AI FEATURES" (toggle, PÅ på alla synliga rader)** — odokumenterad, tooltip tillagd i beställningssedeln. PAGE TYPE läses "–"/tomt på samtliga synliga rader (30 juni-inventeringen visade "Service" på t.ex. acnearr/acne-rygg — osäker avläsning i dumpen, bevaka men ingen åtgärd). EG SCORE "–" överallt, AIQ OK överallt utom homepage POOR + behandla-pigmentflackar GOOD.
+
+| URL | VAL | SCORE | GAPS ⚡/💡 | AICOPY | AIQ | P.PRICE | KW | WORDS | CLICKS | STATUS |
+|---|---|---|---|---|---|---|---|---|---|---|
+| /hudproblem/hudforandringar/ | 10 | 17 | 3/2 | 🔴 SIGNIFICANT | OK | – | 7 | 968 | 0 | 200 |
+| /ytliga-blodkarl.php | 40 | 74 | 0/0 | 🔴 SIGNIFICANT | OK | – | 159 | 919 | 51 | 200 |
+| /hudbehandlingar/ipl/ | 34 | – | –/– | 🟠 MODERATE | OK | HIGH | 18 | 1 006 | 13 | 200 |
+| /hudproblem/bristningar/ | 18 | 63 | 0/0 | 🟠 MODERATE | OK | – | 66 | 791 | 2 | 200 |
+| /hudproblem/oonskat-har/ | 11 | – | –/– | 🟠 MODERATE | OK | – | 13 | 759 | 0 | 200 |
+| /ipl-rosacea.php | 55 | 60 | 3/1 | 🟠 MODERATE | OK | HIGHEST | 18 | 823 | 10 | 200 |
+| /microdermabrasion.php | 30 | – | –/– | 🟠 MODERATE | OK | **LOWEST** | 6 | 536 | 3 | 200 |
+| **/pigmentflackar.php** | 32 | 73 | 0/0 | **🟠 MODERATE (badgen nu synlig — KVAR)** | OK | – | 230 | 946 | 19 | 200 |
+| /rhinophyma-rosacea.php | 34 | 74 | 0/0 | 🟠 MODERATE | OK | – | 46 | 788 | 15 | 200 |
+| /solskadad-hy.php | 31 | – | –/– | 🟠 MODERATE | OK | – | 33 | 560 | 5 | 200 |
+| /behandlingar.php | 14 | – | – | 🔵 SLIGHT | OK | – | 0 | 275 | 1 | **301** |
+| / (homepage) | 41 | 65 | 0/0 | 🔵 SLIGHT | POOR | – | 287 | 223 | 381 | 200 |
+| /acne.php | 29 | 47 | 2/1 | 🔵 SLIGHT | OK | – | 105 | 1 354 | 5 | 200 |
+| /acne-ansikte.php | 27 | – | – | 🔵 SLIGHT | OK | – | 52 | 461 | 6 | 200 |
+| **/acnearr.php** | 41 | **74 färsk** | **1/0** | 🔵 SLIGHT | OK | – | 121 | 964 | **78** | 200 |
+| /acnebehandling.php | 12 | – | – | 🔵 SLIGHT | OK | – | 6 | 765 | 0 | 200 |
+| /acne-brost.php | 50 | 73 | 2/1 | 🔵 SLIGHT | OK | – | 45 | 326 | 21 | 200 |
+| /acne-rygg.php | 64 | 69 | 2/1 | 🔵 SLIGHT | OK | – | 46 | 638 | 51 | 200 |
+| /acne-scars.php | 27 | – | – | 🔵 SLIGHT | OK | – | 15 | 350 | 3 | 200 |
+| /acne-vulgaris.php | 9 | – | – | 🔵 SLIGHT | OK | – | 0 | 246 | 0 | 200 |
+| /aldersflackar.php | 22 | – | – | 🔵 SLIGHT | OK | – | 10 | 472 | 5 | 200 |
+| /alma-harmony-xl-pro.php | 21 | – | – | 🔵 SLIGHT | OK | HIGHEST | 5 | 984 | 2 | 200 |
+| /alma-hybrid-co2-laser.php | 27 | **60 färsk** | 2/1 | 🔵 SLIGHT | OK | MID | 55 | 1 424 | 7 | 200 |
+| /ansiktsbehandlingar.php | 21 | – | – | 🔵 SLIGHT | OK | HIGHEST | 14 | 966 | 1 | 200 |
+| /atrofiska-arr.php | 42 | – | – | 🔵 SLIGHT | OK | – | 18 | 448 | 14 | 200 |
+| /behandla-acnearr.php | 42 | – | – | 🔵 SLIGHT | OK | – | 15 | 630 | 7 | 200 |
+| /behandla-finnar-arr.php | 8 | – | – | 🔵 SLIGHT | OK | – | 2 | 687 | 0 | 200 |
+| /behandla-pigmentflackar.php | 10 | – | –/– | 🔵 SLIGHT | GOOD | – | 13 | 532 | 0 | 200 |
+
+**Diff mot sparad data (NYTT/ÄNDRAT):**
+- **🎯 pigmentflackar AI COPY-badge = 🟠 MODERATE KVAR** — 12:15-frågetecknet ("badgen skymd av popupen — okänd") STÄNGT. Helt konsistent med logg #14 huvudfynd 1: crawlen ≤6 juli läste gamla texten → badgen speglar PRE-V2; EFTER väntar nästa färska crawl. Ingen åtgärd.
+- **SIGNIFICANT-gruppen = 2 rader (hudforandringar + ytliga-blodkarl)** — första fulla AICOPY-vyn där behandla-pigmentflackar syns i SLIGHT-gruppen (visuell bekräftelse av EFTER-mätning #3, 🔴→🔵).
+- **behandlingar.php STATUS 200→301** — kolumndefinitionens prediktion ("redirecten borde visa 301 vid omscan") BEKRÄFTAD; LYNX har omläst redirecten. Stänger den mindre bevakningen från 12:26.
+- **acnearr.php SCORE 0→74 färsk + GAPS 3/1→1/0 + KW 127→121 · CLICKS 78** (näst mest klickade efter homepage) — **tredje SCORE-0-läkningen** (acne-rygg 0→69, sebo 0→74 tidigare); §9.1 Tier 2-noten uppdaterad. GAPS-ändringen på orörd sida = ytterligare belägg för rörliga/konkurrent-relativa GAPS (§9-tråden).
+- **alma-hybrid-co2-laser SCORE 14(gammal)→60 färsk + GAPS 2/2→2/1** — ny färsk-skala-baseline på orörd sida (samma klass som laser-mot-hudproblem 60/behandla-stora-porer 63 i 12:37).
+- **acne.php-raden BEKRÄFTAD** (12:15 var "delvis skuren, osäker"): VAL 29 · SCORE **47 färsk** (var 39 gammal) · GAPS 3/2→2/1 · KW 114→105. Ny FÖRE-baseline (sidan orörd sedan språkfixarna).
+- **microdermabrasion P.PRICE MID→LOWEST** — perceptet är marknadsrelativt (tooltip) → ej attribuerbart till oss; noterat för §13.I-spåret.
+- **WORDS + CLICKS nu fångade för HELA flagg-gruppen** (§10.0 punkt 3-baseline): hudforandringar 968/0 · ytliga 919/51 · ipl 1 006/13 · bristningar 791/2 · oonskat-har 759/0 · ipl-rosacea 823/10 · micro 536/3 · pigment 946/19 · rhino 788/15 · solskadad 560/5.
+- **Ambient drift (ej attribuerbar):** KW: oonskat-har 15→13 · pigment 237→230 · rhino 47→46 · bristningar 67→66 · aldersflackar 7→10 (UPP) · homepage CLICKS 382→381, acne.php CLICKS 4→5. VAL-brus ±1–4 på flera rader.
+- **OFÖRÄNDRAT:** SCORE-blank-mönstret kvarstår (ipl/oonskat-har/microdermabrasion/solskadad-hy "–" = omanalys-kön) · homepage 65/POOR · badge-vyerna på övriga live-sidor fortfarande stale (ytliga/hudforandringar 🔴, ipl/ipl-rosacea m.fl. 🟠) · microdermabrasion AIQ OK.
 
 ## Snapshot 2026-07-06 EM (13:04–13:20, 7 dumpar) — SCORE-nedbrytningar (→ lynx-score) + AICOPY-avstämning: ALLA 11 flaggade sidor omskrivna
 > Ägaren skickade 4 SCORE-popups (rhinophyma 74, ytliga 74, ipl-rosacea 60, microneedling 60 + hudforandringar 17 gammal) → nedbrytningar + modellslutsatser i `lynx-score.php` (CQ/EEAT-badge frikopplad från subs; AI STYLE ute ur Overall; EEAT ej copy-spak). microneedling AIQ-lista (6 jul) → `lynx-questions.php`. **Metodprincip (ägaren): LYNX uppdaterar i STEG — blank sida = pågående omanalys (pigmentflackar löst), attribution kräver observerad delta (§11.1).**
@@ -389,6 +435,7 @@ LYNX saknar export; ägaren matar in skärmdumpar på begäran. Den här listan 
 5. ❌ **Gap-text för fler sidor** (⚡ innehåll / 💡 keyword) när vi tar dem.
 6. ❌ **Faktiska sökord-rankningar (positioner)** per sida, inte bara KW-antal → för att mäta §6 ranking-skydd efter deploy.
 7. ❌ **"Analyzed X days ago" + refresh-kadens** per sida → veta hur färsk varje datapunkt är och när EFTER-värden väntas.
-8. ❓ **EG SCORE-kolumnen** — alltid "–" i våra dumpar; vad mäter den? (lågprio)
+8. ~~❓ EG SCORE-kolumnen~~ — **tooltip mottagen 2 juli** (Engagement Score, se kolumndefinitionerna); fortfarande "–" överallt — bevaka när den fylls.
+9. ❓ **AI FEATURES-kolumnen (NY, sedd 7 juli 13:58)** — toggle längst till höger i Pages-vyn, PÅ på alla synliga rader; odokumenterad → be om tooltip/förklaring vid tillfälle (vad slår den på/av — påverkar den analysen?). (lågprio)
 
 Modellen (§1.2) skärps mest av punkt 1–2. Be om data i den ordning sidorna blir aktuella.
