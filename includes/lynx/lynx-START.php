@@ -30,7 +30,8 @@ Säger användaren typ *"vi fortsätter med LYNX-uppgifterna"* eller klistrar in
 > - **✅ ALLA flagg-sidor LIVE PÅ MAIN.** Wave 2 (6 Fas 3 + pigmentflackar + småfixar: milier-pris, Google Meet, d3ce9162) **pushad till main 6 jul (ägarbeslut) → VERIFIERAD LIVE PÅ PRODUKTION**: alla 20 ändrade sidor HTTP 200, 0 PHP-fel, nytt innehåll bekräftat (logg #12 staging-kontroll + #13 produktions-verifiering). §10.0 GSC-gaten passerad på ägarbeslut. **Kvar på dessa = passiv mät-uppföljning (LYNX-refresh + GSC), ej blockerande.**
 > - **SEO-vakt §10.0 = SENARE process (ägarbeslut 6 jul):** GSC + Ahrefs görs som eget pass senare (LYNX-prioritet nu pga refresh-fördröjning). Gaten blockerar inte längre; main-push är ägarens beslut. KW-vakt löpande via LYNX-data kvarstår.
 > - **pigmentflackar + rhinophyma re-scannade 7 jul (logg #14):** båda "Last update 06 Jul"-vyerna läste PRE-WAVE-2-texten (crawl daterad 2 jul 16:09–6 jul 16:08 via git) — 18/18 + 16/16 block identiska med gamla faciten (determinism #3+#4; typo-fixar flyttar inte betyg) → **V2-rewriterna fortfarande OMÄTTA; EFTER-facit väntar nästa refresh (crawl efter 6 jul 16:08).** SCORE: pigment 73 = medel(84,60) ✓; AI STYLE-FÖRE-baselines satta (pigment 55, rhino 70).
-> - **Nästa arbete:** microneedling (block-plan lynx-logg 2 jul em #2; typos redan fixade — kvar = de-AI) → övriga Fas 3b (portomning/acne-rygg/seborroisk-keratos, facit finns) → Tier 1-SLIGHT (rosacea/perioral-dermatit, facit saknas).
+> - **🔧 PÅGÅENDE FÖRST: fil-optimeringspasset §9.0** — steg 1–3 klara 7 juli (AKTUELLT LÄGE-tabellen i lynx-data GODKÄND av ägaren · stale state rättad · unika loggfynd räddade). **NÄSTA SESSION: steg 4** (loggmall + arkivering). Arbetssätt: ETT steg i taget med ägar-avstämning, INGA agent-utskick; underlag med radnummer i `lynx-optimering-underlag.php`.
+> - **Nästa SIDARBETE (efter passet):** microneedling (block-plan lynx-logg 2 jul em #2; typos redan fixade — kvar = de-AI) → övriga Fas 3b (portomning/acne-rygg/seborroisk-keratos, facit finns) → Tier 1-SLIGHT (rosacea/perioral-dermatit, facit saknas).
 > - **Öppna ägar-beställningar:** om-oss badge-rad · acne-ansikte FAQ-facitrest · AI Copy-datum för de 3 kvarvarande SIGNIFICANT · (GSC/Ahrefs = eget senare pass) · boilerplate-sweep "Akne Specialiserade Hudterapeuter" (27 filer — timing-beslut).
 > - **Varningar/regler:** 1 Claude i taget (§0.1) · save-first i rätt kolumnfil (filkarta i `lynx-data`) · ny LYNX-skala → färsk-mot-färsk · **attribution kräver observerad delta, ej deploy-timing** · **LYNX uppdaterar per (sida × vy), aldrig i sajt-svep — datera varje cell, EFTER-data droppar in löpande** (lynx-models §11.1) · Fas 3-facit REDAN sparat — be inte igen.
 >
@@ -241,7 +242,7 @@ Vi kör **1 Claude i taget** (§0.1), så det här är ingen parallell-lås län
 
 | Sida | Status | Tid |
 |------|--------|-----|
-| *(ingen pågående — 6 jul em: pigmentflackar KLAR → staging; HELA flagg-listan 4 SIG + 10 MOD omskriven. Nästa: main-push (ägare) + LYNX-refresh-mätning; Tier 1-SLIGHT rosacea/perioral-dermatit när facit finns; ärr-boilerplate-sweep)* | | |
+| *FIL-OPTIMERINGSPASSET §9.0 — steg 1–3 klara, NÄSTA: steg 4 (loggmall + arkivering; underlag i `lynx-optimering-underlag.php`). Sidarbete pausat under passet; därefter microneedling (Fas 3b).* | pågående | 7 juli kväll |
 
 ---
 
