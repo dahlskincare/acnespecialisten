@@ -1,6 +1,24 @@
 <?php exit; /* intern LYNX-arbetsfil – ej webb-serverad, läs i editor/git */ ?>
 # LYNX FIL-OPTIMERING — analysunderlag (TEMPORÄR arbetsfil, 7 juli 2026)
 
+## ▶ ÅTERUPPTAGNING (för nästa session — läs detta först, sen §9.0 i lynx-START)
+**Startinstruktion (ägaren klistrar in):** *"Fortsätt fil-optimeringspasset: läs lynx-START §9.0 + lynx-optimering-underlag.php (sammanfattning + rapporter), ETT steg i taget med ägar-avstämning, inga agent-utskick."*
+
+**Läge när 7 juli-sessionen slutade:** steg 1 (godkänn/backa lynx-data-omstruktureringen, commit c5c34e0e — AKTUELLT LÄGE-tabell + nya lynx-data-arkiv.php) **VÄNTAR ÄGARBESLUT**; steg 2–10 opåbörjade. Allt pushat till staging t.o.m. 1c05b405. Dagens tre dumpar färdigbehandlade (logg #15–#16).
+
+**Upptäckterna i sammandrag (fulltext i rapporterna nedan):**
+1. **Grundproblem: filerna växer append-only** — gällande sanning blandad med superseded historik (models §1.2 = 3 lager, §11.1 = 5 staplade mätregler, lynx-data var 5 snapshots). DET ger skumläsningen, inte längden i sig. Botemedlet = lynx-datas nya mönster: aktuellt läge i daterad tabell + historik i arkivfil.
+2. **Allvarligaste felet — stale state:** lynx-START §9 Fas 3 säger "väntar main-push/⛔GSC-gate" på 6 sidor fast LÄGE-bannern + logg #13 säger ALLT LIVE på main 6 juli. Två motstridiga sanningar i samma fil (steg 2 rättar). Er state-synk-princip (bevisad 2 ggr) ligger begravd i en loggpost — ska till §0 (steg 3).
+3. **Trasiga pekare efter 6 juli-splitten:** START:s Innehålls-rad listar §§ som bor i andra filer; routerns "(save-first, §0)" pekar fel; 3 filer säger fortfarande "playbooken" (steg 2).
+4. **Loggen 87 kB — arkivpolicyn finns men har aldrig körts:** ~20 av 44 poster redan arkiverbara (ratificerade/ersatta). 3 saker finns BARA i loggen och räddas FÖRST (steg 3): milier/CryoPen-prisflaggan (öppen ägarfråga!), juridik-käll-URL:erna, state-synk-principen — sen arkivering (steg 4).
+5. **Dubbellagring 3–5×** (filkartan, prime-direktivet, SCORE-modellen i två filer, gap-beslut åt båda håll) — kopiorna driftar; välj EN kanonisk plats + pekare (steg 5–9).
+6. **Färska-ögon-testet:** en ny session börjar skumma redan vid rad 24 (facit-flödesväggen); §12-incheckningen ligger sist i filen fast ritualen kräver den först (steg 7).
+7. **Friskt:** rådatafilerna i gott skick, kolumndefinitions-tabellen föredömlig, arkivmönstret (log-arkiv) skalar — det är mallen som återanvänds.
+
+**Planens logik (riskstyrd ordning):** felrättning (2) → rädda unikt (3) → arkivera per policy (4) → en-sanning-per-sak i models/score (5–6) → navet START = störst läsvinst (7) → rewrite FÖRSIKTIGAST, endast format aldrig regler (8) → examples/småfiler (9) → no-loss-verifiering mot MÅSTE-BEHÅLLAS-listorna + radera denna fil (10). **Princip: INGET raderas** — öppna trådar/omätta baselines/ägarbeslut flyttas eller komprimeras, historik → arkivfiler, git har verbatim. Effekt ≈ 2 300 → ~1 400 aktiva rader; egentliga vinsten = gällande sanning står EN gång på EN plats.
+
+---
+
 > Underlag för §9.0-optimeringspasset i lynx-START (ägar-beställt 7 juli: "för långa sektioner ger skumläsning; långa loggar kanske egen fil"). 11 granskningsrapporter (en per fil + färska-ögon-simulering + 2 designförslag). OBS: radnummer avser filversionerna per 7 juli em — verifiera mot aktuell fil innan ändring. **RADERAS när §9.0-passet är klart.**
 
 ════════════════════════════════════════
