@@ -4,7 +4,7 @@
 ## ▶ ÅTERUPPTAGNING (för nästa session — läs detta först, sen §9.0 i lynx-START)
 **Startinstruktion (ägaren klistrar in):** *"Fortsätt fil-optimeringspasset: läs lynx-START §9.0 + lynx-optimering-underlag.php (sammanfattning + rapporter), ETT steg i taget med ägar-avstämning, inga agent-utskick."*
 
-**Läge när 7 juli-sessionen slutade:** steg 1 (godkänn/backa lynx-data-omstruktureringen, commit c5c34e0e — AKTUELLT LÄGE-tabell + nya lynx-data-arkiv.php) **VÄNTAR ÄGARBESLUT**; steg 2–10 opåbörjade. Allt pushat till staging t.o.m. 1c05b405. Dagens tre dumpar färdigbehandlade (logg #15–#16).
+**Läge när 7 juli-sessionen slutade:** steg 1–3 **KLARA** — steg 1 lynx-data-omstruktureringen (AKTUELLT LÄGE-tabell + nya lynx-data-arkiv.php) godkänd av ägaren (commit b03ac3c1) · steg 2 stale state + trasiga pekare rättade (95f21819) · steg 3 tre unika loggfynd räddade till regelfiler (ffe7781b). **NÄSTA: steg 4** (loggmall + arkivering). Steg 5–10 opåbörjade. Allt pushat till staging t.o.m. 658ada8a (logg #17). Dagens tre dumpar färdigbehandlade (logg #15–#16).
 
 **Upptäckterna i sammandrag (fulltext i rapporterna nedan):**
 1. **Grundproblem: filerna växer append-only** — gällande sanning blandad med superseded historik (models §1.2 = 3 lager, §11.1 = 5 staplade mätregler, lynx-data var 5 snapshots). DET ger skumläsningen, inte längden i sig. Botemedlet = lynx-datas nya mönster: aktuellt läge i daterad tabell + historik i arkivfil.
