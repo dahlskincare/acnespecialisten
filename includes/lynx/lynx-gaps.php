@@ -13,6 +13,12 @@
 - ⚡ LOW: lägg till specifika tips om hårvårdsprodukter och sängkläder. → Beslut §8.1: GÖR med lätt hand (inga produktnamn/ingredienser §5).
 - ⚡ LOW: integrera synonymerna "ryggakne" och "rygg akne". → Beslut §8.1: GÖR (grep-koll §6).
 
+**ipl-rosacea.php (7 jul, popup "3 Quick wins - 1 Suggestions" — NYA gaps efter 2 jul-rensningen 2/1→0/0→nu 3/1; konkurrent-relativa, attribuera ej):**
+- ⚡ HIGH: "Hantering av oro för tillfällig försämring" — riskinfo-/eftervårdsvinkel; ligger nära §4.2 (riskinfo är copy-vänlig) och §5-juridiken (ärliga reaktioner) → trolig GÖR, beslut ej fattat.
+- ⚡ LOW: "Information om triggerfaktorer för rosacea" — triggers ägs av rosacea.php (siloing §5) → trolig länk/kort omnämnande, beslut ej fattat.
+- ⚡ LOW: "Förtydligande av kostnadsfaktorer och behandlingsbehov" — pris/antal behandlingar; "Från"-pris-ramen (§5) → trolig GÖR, beslut ej fattat.
+- 💡 (1 suggestion — texten ej synlig i popupen, be om "View gap details" när gap-arbetet blir aktuellt.)
+
 **om-oss.php (2 jul em, popup "2 Quick wins - 2 Suggestions" — ⚠️ anchor: om-oss-raden markerad, GAPS 2/2 matchar; 4:e punkten ej synlig i dumpen, be om den vid om-oss-gap-arbete):**
 - HIGH: "Förtydliga fördelen med att slippa remiss och vårdkö".
 - HIGH: "Tydliggör skillnaden mot en hudläkare tidigt".

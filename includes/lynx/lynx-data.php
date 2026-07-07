@@ -31,6 +31,63 @@
 
 *(SCORE-kolumnens tooltip ingick inte i leveransen — be om den vid tillfälle.)*
 
+## Snapshot 2026-07-07 (12:15–12:28, 11 dumpar) — pigmentflackar TILLBAKA ur omanalysen + rhinophyma re-scan: BÅDA läste PRE-WAVE-2-texten (V2 omätt)
+> Ägaren: "vi har fått uppdatering på pigmentfläckar" + rhinophyma-batch + fråga "skiljer de sig från förra? hur står sig våra bedömningar?". **Fynd:** (1) pigmentflackar-raden TILLBAKA i AICOPY-vyn (VALUE 32 · SCORE 73 färsk popup; AI COPY-badgen skymd av popupen — okänd); (2) **BÅDA AI Copy-vyerna "Last update: 06 Jul" läste GAMLA texten — crawlen daterad till 2 jul 16:09–6 jul 16:08 (produktion FÖRE wave 2-mergen; blocken har 2 jul-språkfixarna men inte V2)** → pigmentflackar 18/18 + rhinophyma 16/16 identiska tiers med gamla faciten (determinism-replikation #3+#4; typo-fixar flyttar inte betyg) → **V2-omskrivningarna fortfarande OMÄTTA** (detalj i `lynx-examples.php`); (3) SCORE-popups: pigmentflackar 73 = medel(84,60) ✓ AI STYLE 55 (= FÖRE-baseline) · rhinophyma 74 identisk replika av 6 jul (AI 70) · hudforandringar 17 "79 days ago" oförändrad (subs = redan sparade) → `lynx-score.php`.
+
+**Pages-rader synliga i dumpen (AICOPY-filtret; AI COPY-kolumnen skymd av SCORE-popupen):**
+| URL | VALUE | SCORE | Not |
+|---|---|---|---|
+| /hudproblem/hudforandringar/ | 10 | 17 | oförändrat gammal (79d-analysen) |
+| /ytliga-blodkarl.php | 40 | 74 | SCORE som 6 jul; VALUE 42→40 |
+| /hudbehandlingar/ipl/ | 34 | – | SCORE blank (omanalys?) |
+| /hudproblem/bristningar/ | 18 | **63** | **NY färsk-skala-SCORE** (var 18 gammal; omskriven+live 6 jul — men gammal→färsk ej attribuerbar, se lynx-score) |
+| /hudproblem/oonskat-har/ | 11 | – | blank |
+| /ipl-rosacea.php | 55 | 60 | som 6 jul |
+| /microdermabrasion.php | 30 | – | blank |
+| **/pigmentflackar.php** | **32** | **73** | **TILLBAKA** (var blank/omanalys); VALUE 35→34→32 |
+| /rhinophyma-rosacea.php | 34 | 74 | som 6 jul (= FÖRE-baseline nya skalan) |
+| /solskadad-hy.php | 31 | – | blank |
+| /behandlingar.php | 14 | – | tydligt läsbar i 12:26-dumpen — redirect-sidan (KW 0) står alltså i AICOPY-vyn med VALUE 14 (behandla-pigmentflackar är en annan rad, VALUE 10 per 6 jul); mindre bevakning |
+| / (homepage) | 41 | **65** | **var 28 (gammal)** — ORÖRD av oss → gammal→färsk-hopp är globala, kontrollpunkt mot över-attribution |
+| /acne.php | 29 | 47 | nedersta raden, delvis skuren — VALUE/SCORE osäkra |
+
+**Blank-mönstret:** ipl, oonskat-har, microdermabrasion, solskadad-hy = 4 av wave 2-sidorna har SCORE "–" → troligen i omanalys-kön (samma steg-mekanik som pigmentflackar; ägarens metodprincip 6 jul). Bevaka — de bör komma tillbaka med färska värden.
+
+### Tillägg 12:36 — ofiltrerad Pages-vy, VALUE-band 65–49, ALLA kolumner synliga ("här kom du ville se mer")
+| URL | VALUE | SCORE | GAPS ⚡/💡 | AI COPY | AIQ | P.PRICE | EG | KW |
+|---|---|---|---|---|---|---|---|---|
+| /portomning.php | 65 | 60 | 0/0 | SLIGHT | OK | HIGHEST | – | 27 |
+| /seborroisk-keratos.php | 64 | 74 | 0/0 | SLIGHT | GOOD | – | – | 109 |
+| /acne-rygg.php | 64 | **69** | 2/1 | SLIGHT | OK | – | – | 46 |
+| /blodprickar.php | 59 | 75 | 2/1 | SLIGHT | OK | – | – | 171 |
+| /hydrafacial.php | 59 | 63 | 0/0 | SLIGHT | OK | HIGHEST | – | 15 |
+| /cystisk-acne.php | 58 | 70 | 0/0 | SLIGHT | OK | – | – | 21 |
+| /djuprengoring.php | 56 | 75 | 1/1 | SLIGHT | OK | HIGH | – | 8 |
+| /ipl-rosacea.php | 55 | 60 | **3/1** | **MODERATE** | OK | HIGHEST | – | 18 |
+| /mallorca-acne.php | 53 | 68 | 0/0 | SLIGHT | OK | – | – | 11 |
+| /resultat-rosacea.php | 51 | 44 | 0/0 | SLIGHT | OK | – | – | 6 |
+| /acne-brost.php | 50 | 73 | 2/1 | SLIGHT | OK | – | – | 45 |
+| /roaccutan.php | 50 | 23 | 0/0 | SLIGHT | OK | – | – | 57 |
+| /pormaskar.php | 49 | 76 | 1/0 | SLIGHT | OK | – | – | 124 |
+
+**Diff mot sparad data (NYTT/ÄNDRAT):**
+- **acne-rygg SCORE 0 → 69 (LÄKT):** "SCORE 0 = ofullständig analys som sätter sig" nu bekräftad även här (jfr microneedling 2→6 jul) → Fas 3b-radens "be om omkörning" STRUKEN, ingen åtgärd behövs.
+- **ipl-rosacea GAPS 0/0 → 3⚡/1💡 (GAPS TILLBAKA):** 2 jul-"rensningen" var alltså inte permanent — stödjer konkurrent-relativa tolkningen (tooltip) eller scan-artefakt. §9-tråden uppdaterad; läs gap-texterna innan någon åtgärd (be om dem vid tillfälle).
+- **ipl-rosacea AI COPY = fortfarande MODERATE** (omskriven + live 1 jul) → badge-vyn har ännu inte refreshat mot nya texten (samma läge som pigment/rhino: crawlen ≤6 jul).
+- **KW-drift nedåt över hela bandet** (blodprickar 175→171, sebo 110→109, acne-rygg 51→46, portomning 28→27): ambient SERP-rörelse — INTE attribuerbar (sidorna orörda). KW-vakt: inga målfras-tapp att agera på här.
+- **OFÖRÄNDRAT:** sebo 74/GOOD, blodprickar 75, roaccutan 23 (låg färsk — tunt/dublett-innehåll-hypotesen kvarstår), pormaskar 76, EG SCORE "–" överallt.
+- **P.PRICE-mönster:** behandlingssidor uppfattas dyra (portomning/hydrafacial/ipl-rosacea HIGHEST, djuprengoring HIGH) — §13.I-spåret (Offer-schema) obehandlat.
+
+### Tillägg 12:37 — URL-sök "behandlingar" + "behandla" (alla kolumner) → 🎯 behandla-pigmentflackar 🔴→🔵!
+**Sök "behandlingar" (15 rader):** /hudbehandlingar/ipl/ 34 · SCORE– · –/– · **MODERATE (kvar)** · OK · HIGH · KW18 | dermabrasion 25 · – · SLIGHT · LOWEST · KW4 | skinbooster 24 · – · SLIGHT · HIGHEST · KW28 | /ansiktsbehandlingar.php 21 · – · SLIGHT · HIGHEST · KW14 | laser-mot-hudproblem 15 · **SCORE 60** · 2/1 · SLIGHT · HIGH · KW27 | **/behandlingar.php 14 · – · SLIGHT · KW 0** (redirecten HAR alltså egen badge — därför syns den i AICOPY-vyn; löser 12:15-frågetecknet) | ansiktsbehandling/ros… 11 · – · SLIGHT · HIGHEST · KW6 | **/elevbehandlingar.php 10 · SCORE 18 · 0/0 · HUMAN · HIGHEST · KW4** | /hudbehandlingar/ 10 · – · SLIGHT · KW13 | vaxning 9 · SLIGHT · HIGH · KW7 | estetiska-injektionsbe… 8 · SLIGHT · LOWEST · KW7 | ansiktsbehandling/ak… 8 · SLIGHT · HIGHEST · KW2 | hudbehandlingar/pormaskar 8 · SLIGHT · KW4 | estetiska-injektionsbe…(2) 8 · SLIGHT · HIGHEST · KW16 | ansiktsbehandling/hu… 4 · SLIGHT · HIGHEST · KW0. *(AIQ = OK på samtliga.)*
+**Sök "behandla" (4 rader):** /behandla-stora-porer.php 46 · **SCORE 63 färsk** · 1/1 · SLIGHT · OK · KW39 | /behandla-acnearr.php 42 · – · SLIGHT · OK · KW15 | **/behandla-pigmentflackar.php 10 · – · –/– · 🔵 SLIGHT · GOOD · KW13** | /behandla-finnar-arr.php 8 · – · SLIGHT · OK · KW2.
+**🎯 STÖRSTA FYNDET: /behandla-pigmentflackar.php badge SIGNIFICANT → SLIGHT** — badgen var kvar 🔴 i 6 jul-dumpen 13:20 ("OFÖRÄNDRAD badge") och är nu 🔵 ⇒ badge-refresh skedde 6 jul em–7 jul förmiddag, på VÅR text (live sedan 1 jul) = **observerad delta → EFTER-MÄTNING #3** (acne-ansikte 🔴→🔵 · om-oss 0 flagg · behandla-pigment 🔴→🔵). §11.1-raden uppdaterad (lynx-models). Notera tvåstegs-hoppet 🔴→🔵 (förbi 🟠) — starkaste badge-flytten hittills. **Övrig diff:** hudbehandlingar/ipl badge kvar 🟠 (crawl-lag, samma som ipl-rosacea) · laser-mot-hudproblem + behandla-stora-porer = nya färska SCORE (60/63) · elevbehandlingar HUMAN-badge + SCORE 18 (gammal skala?).
+
+### Tillägg 12:41–12:42 (7 dumpar till) — behandla-pigmentflackar per-block-EFTER + ipl-rosacea gap-texter + SCORE-popup
+- **behandla-pigmentflackar AI Copy-vy "Last update: 07 Jul"** = färsk crawl av VÅR text → **komplett per-block-EFTER: 2🔴/2🟠/8🔵/1🟢 (n=13), medel 2,38→1,38, §1.4-pred 🔵 = badge ✓.** Full FÖRE→EFTER-tabell + backport-lärdomar i `lynx-examples.php`. Visar också att LYNX crawlar sida-för-sida i steg: denna sida har 7 jul-crawl medan pigmentflackar/rhinophyma fortfarande har ≤6 jul-crawl → wave 2-sidorna plockas upp löpande.
+- **ipl-rosacea gap-popup (3⚡/1💡):** HIGH "Hantering av oro för tillfällig försämring" · LOW "Information om triggerfaktorer för rosacea" · LOW "Förtydligande av kostnadsfaktorer och behandlingsbehov" · 💡-texten ej synlig → sparade + preliminärbedömda i `lynx-gaps.php`.
+- **ipl-rosacea SCORE-popup "Analyzed 23 hours ago"** (= 6 jul-analysen): 60 · CQ-badge 60 (Base 88, Depth 88, Evidence 82, Language 95, Readability 92) · EEAT 60 (85/80/85/90) · AI 75/75 — **identisk med sparad 6 jul-data ✓** (bekräftar transkriptionen + CQ-60-anomalin kvarstår).
+
 ## Snapshot 2026-07-06 EM (13:04–13:20, 7 dumpar) — SCORE-nedbrytningar (→ lynx-score) + AICOPY-avstämning: ALLA 11 flaggade sidor omskrivna
 > Ägaren skickade 4 SCORE-popups (rhinophyma 74, ytliga 74, ipl-rosacea 60, microneedling 60 + hudforandringar 17 gammal) → nedbrytningar + modellslutsatser i `lynx-score.php` (CQ/EEAT-badge frikopplad från subs; AI STYLE ute ur Overall; EEAT ej copy-spak). microneedling AIQ-lista (6 jul) → `lynx-questions.php`. **Metodprincip (ägaren): LYNX uppdaterar i STEG — blank sida = pågående omanalys (pigmentflackar löst), attribution kräver observerad delta (§11.1).**
 

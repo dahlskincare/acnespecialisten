@@ -12,6 +12,32 @@ Verifierade våra LYNX/SCORE/E-E-A-T-slutsatser mot publik SEO-kunskap. Resultat
 - **YMYL-nyans (KORRIGERAT):** "utan läkare = lägre auktoritet" är för trubbigt. Googles QRG kräver "ämnesmatchad expertis" — en hudterapeut ÄR relevant expert för de estetiska behandlingar kliniken utför, och Experience (förstahandserfarenhet) är en egen E-E-A-T-signal. Medicinsk auktoritet krävs först när innehållet glider mot diagnos/receptmedicin/sjukdomsutfall.
 - **AI COPY-regeljusteringar:** "demografiska skal-öppningar" → mjuk regel (saknar egen källa, ryms i "generiska svepande intros"); em-streck flaggas ALDRIG ensamt → kräv en BUNT av signaler (så gör vi redan).
 
+## Färska analyser (7 jul 2026, "Analyzed just now") — pigmentflackar 73 = medel(84,60) ✓ + rhinophyma-popupen REPLIKERAD exakt; AI STYLE-FÖRE-baselines satta
+> Ägarens popups 7 jul ~12:15–12:28, samma leverans som AI Copy-re-scannerna "Last update 06 Jul". **Crawlen DATERAD (git-arkeologi, lynx-examples): pre-wave-2-produktionen (2 jul 16:09 – 6 jul 16:08)** — gammal text + 2 jul-språkfixar, INTE V2. ⇒ värdena nedan är **FÖRE-baselines på färska skalan** för V2-rewriterna (med reservationen att SCORE-popupens crawl inte är direkt observerbar — men rhinophymas exakta replikation av 6 jul-värdena talar för samma gamla snapshot). **rhinophyma-popupen 7 jul = IDENTISK med 6 jul** (74 · CQ 85: Base 85/Depth 84/Evidence 76/Language 95/Readability 90 · EEAT 60: 85/80/80/85 · AI STYLE 70/70) → SCORE-determinism på oförändrad crawl ✓.
+
+| Komponent | pigmentflackar (73) |
+|---|---|
+| **Overall** | **73** |
+| CONTENT QUALITY (badge) | 84 |
+| – Base Quality | 88 |
+| – Evidence | 68 |
+| – Language | 95 |
+| – Readability | 90 |
+| – Depth | (ej synlig i dumpen) |
+| CQ sub-medel (utan Depth) | ≈85 |
+| E-E-A-T (badge) | **60** |
+| – Experience | 85 |
+| – Expertise | 80 |
+| – Authority | 80 |
+| – Trust | 85 |
+| EEAT sub-medel | 82,5 |
+| **AI STYLE / Human-like** | **55 / 55** |
+
+- **Overall = medel(CQ-badge, EEAT-badge): medel(84,60) = 72 ≈ 73 ✓** — prediktor-formeln (#A/#1) håller på 14:e färska datapunkten.
+- **EEAT-badge exakt 60 igen** (.php-hälsosida, subs 82,5) — klamp-mönstret (#B) håller. **CQ-badge 84 ≈ subs ~85** — normalfallet (#C) ✓. **Evidence 68 = lägsta CQ-suben igen** (#6).
+- **AI STYLE 55 = näst lägst av ALLA färska** (bara sebo 50 lägre; ej-omskrivna sidor ligger annars 65–85). **Tolkning (a) BEKRÄFTAD av crawl-dateringen: 55 = GAMLA flagg-tunga textens FÖRE-värde på nya skalan.** Sidan med flest 🔴-block (8🔴/4🟠) har sajtens näst lägsta färska AI STYLE — första gången AI STYLE-kolumnen korrelerar synligt med flagg-tyngd. **AI STYLE-FÖRE-baselines för V2-testerna: pigmentflackar 55 · rhinophyma 70** — jämför vid nästa refresh (post-6 jul-crawl).
+- **Gamla SCOREn 35 är INTE jämförbar** (gammal skala; färsk-mot-färsk-regeln). **Kontrollpunkt mot över-attribution (Pages-listan i samma dump): homepage 28(gammal)→65 UTAN att vi rört den** + bristningar 18(gammal)→63 (omskriven) — gammal→färsk-hopp är GLOBALA (skal-/analysbyte), aldrig bevis på copy-effekt.
+
 ## Färska analyser (6 jul 2026, "Analyzed just now") — 🎯 FÖRSTA RIKTIGA AI STYLE-DATAN (>30) + EEAT-anomalin bekräftad
 > Ägaren skickade 2 SCORE-popups, båda Overall **74**, båda "Analyzed just now". De två sidorna med SCORE 74 i listan = **rhinophyma-rosacea** (skärmbild 1, raden highlightad) + **ytliga-blodkarl** (skärmbild 2, andra 74:an). ⚠️ Skärmbild 2:s rad-highlight ej 100 % läsbar → tilldelning bekräftas med ägaren, men sub-profilen stödjer den (se nedan).
 
