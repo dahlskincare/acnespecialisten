@@ -5,7 +5,7 @@
 ## 11. Arbetslogg (vad vi gjort + varför)
 Korrelera mot LYNX-refresh. Senaste först. Spara alltid **LYNX-baseline** (FÖRE-värden) per sida så vi kan utvärdera vad ändringen gjorde. Logga även en **prediktion** per omskrivning (vilka SCORE-komponenter vi tror rör sig + varför, §10 steg 1) så vi kan mäta modellens träffsäkerhet när EFTER-värden kommer. All rå LYNX-data sparas i KOLUMNFILERNA (filkarta överst i **`includes/lynx/lynx-data.php`**) — vår manuella "export" eftersom LYNX saknar exportfunktion. Uppdatera vid varje refresh.
 
-**Arkiv-policy (beslutad 2026-07-02):** när en §11.1-rad är MÄTT och stängd (EFTER loggat, modellen förfinad, backport listad) flyttas radens §11-poster till **`includes/lynx/lynx-log-arkiv.php`** — kvar här blir en enrads-referens. Arkivera ALDRIG före mätning (FÖRE-baseline + prediktioner behövs i mät-loopen). Syfte: playbooken läses top-to-bottom varje session och ska hållas läsbar.
+**Arkiv-policy (beslutad 2026-07-02):** när en §11.1-rad är MÄTT och stängd (EFTER loggat, modellen förfinad, backport listad) flyttas radens §11-poster till **`includes/lynx/lynx-log-arkiv.php`** — kvar här blir en enrads-referens. Arkivera ALDRIG före mätning (FÖRE-baseline + prediktioner behövs i mät-loopen). Syfte: loggen ska hållas läsbar — en session behöver bara de senaste posterna.
 
 ### LYNX-baseline — de 4 SIGNIFICANT-sidorna (2026-06-30, före ändring)
 | Sida | VALUE | PAGE TYPE | SCORE | GAPS ⚡/💡 | AI COPY | AI QUESTIONS | P. PRICE | KW |

@@ -1,7 +1,7 @@
 <?php exit; /* intern LYNX-arbetsfil – ej webb-serverad, läs i editor/git */ ?>
 # LYNX Arbetslogg — ARKIV (avslutade & mätta §11-poster)
 
-> Hit flyttas §11-poster från `lynx-copy-playbook.php` när de är stängda: antingen ratificerade i regler/ersatta av nyare poster, eller (för sid-poster) när deras §11.1-rad är MÄTT (arkiv-policy, playbook §11, beslutad 2026-07-02). Kvar i playbooken blir en enrads-referens per arkiverad post. Ordning: senaste överst.
+> Hit flyttas §11-poster från `lynx-logg.php` när de är stängda: antingen ratificerade i regler/ersatta av nyare poster, eller (för sid-poster) när deras §11.1-rad är MÄTT (arkiv-policy, lynx-logg §11, beslutad 2026-07-02). Kvar i lynx-logg blir en enrads-referens per arkiverad post. Ordning: senaste överst. *(Filnamnen rättade 7 juli — §11 flyttade från playbooken till lynx-logg vid splitten 6 juli.)*
 
 ### 2026-07-01 — Beslut: kör 1 Claude i taget (parallellt övergivet)
 **Gjort:** efter dagens parallell-test (planerare + ipl-rosacea-exekutor i samma arbetsträd) beslutade ägaren att **köra en instans i taget**. Skrev om **§0.1** (parallellt → 1 i taget; motivering: delade processfiler §11/§12/lynx-data/lynx-examples/§8–§9 krockar oavsett sid-isolering) och **§12** (parallell-lås → in-progress-markör; check-and-ask kvar men vänt: "du ska vara ensam — upptäcker du annat → fråga ägaren"). Tog bort worktree-/parallell-maskineriet + "flytta logg ur filen"-förslaget (onödigt när 1 i taget). TOC + §-referenser (rad 24/26) + §0.2-snutten uppdaterade.
