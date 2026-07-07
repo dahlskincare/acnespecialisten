@@ -110,7 +110,7 @@ $specialists = array(
     ),
     new Specialist(
         name: 'Emelie Grahm',
-        title: 'Hudterapeut sedan 2025',
+        title: 'Hudterapeut sedan 2023',
         image: '/bilder/hudterapeut/312x312/emelie-grahm.webp',
         image_alt: 'Porträttbild på hudterapeuten Emelie Grahm',
         image_title: 'Hudterapeut Emelie Grahm',
@@ -118,7 +118,7 @@ $specialists = array(
         description: '',
         rating: 4.8,
         num_treatments: 759,
-        since_year: 2025,
+        since_year: 2023,
         booking_url: 'https://www.bokadirekt.se/places/sveriges-skonhetscenter-acnespecialisten-sundbyberg-135394?sr=FC3F3BF5_BB32_4D1E_9973_A529A4EAC033',
     ),
     // Cecilia: hud- och laserterapeut.
