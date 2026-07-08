@@ -119,7 +119,7 @@ PEKAR-PÅ      lynx-data-arkiv = snapshots verbatim · lynx-examples/score/quest
 | /laser-acne.php | 28 | – | 🔵 | OK | | 9 | 253 | 3 | LOWEST | 7/7 | ORÖRD |
 | /mallorca-acne.php | 53 | 68 | 🔵 | OK | 0/0 | 11 | | | – | 7/7 | ORÖRD |
 | /melasma.php | 31 | 23 (färsk-låg) | 🔵 | OK | 0/2 | 27 | 583 | 10 | – | 7/7 | ORÖRD; låg-änden — nedbrytning beställd (lynx-score) |
-| /microneedling.php | 67 (2/7) | **50 färsk** (2/7) | 🔵 | OK | 1/1 (2/7) | 70 (2/7) | | | – | 2/7 | **NÄSTA ARBETE: Fas 3b de-AI** (block-plan logg 2 juli em #2) |
+| /microneedling.php | 67 (2/7) | **50 färsk** (2/7) | 🔵 | OK | 1/1 (2/7) | 70 (2/7) | | | – | 2/7 | **NÄSTA ARBETE: Fas 3b de-AI** (REWRITE-SPEC i `lynx-examples`) |
 | /microneedling-acne.php | 37 | – | 🔵 | GOOD | | 6 | 299 | 7 | HIGHEST | 7/7 | ORÖRD |
 | /microneedling-stora-porer.php | 28 | – | 🔵 | OK | | 3 | 267 | 2 | HIGHEST | 7/7 | ORÖRD |
 | /milier.php | 39 | 75 | 🔵 | OK | 0/0 | 164 | 841 | 35 | – | 7/7 | ORÖRD — Tier 2 |
@@ -153,7 +153,8 @@ PEKAR-PÅ      lynx-data-arkiv = snapshots verbatim · lynx-examples/score/quest
 | /vita-pormaskar.php | 40 | **70 färsk** | 🔵 | OK | 0/0 | 9 | 347 | 3 | – | 7/7 | ORÖRD |
 | /vuxenacne.php | 39 | – | 🔵 | OK | | 21 | 382 | 4 | – | 7/7 | ORÖRD |
 
-*Senast inmatad dump: 7 juli kl. 14:16 (fynd i logg #16; rådumpar i `lynx-data-arkiv.php`).*
+*Senast inmatad dump: **8 juli kl. 10:45** — AICOPY-vy, 13 rader, skuren (rådata + fynd i `lynx-data-arkiv.php`). **Fyra sidor har lämnat MODERATE; SLIGHT-raderna ej sedda → ingen attribution ännu** (§9-tråd).*
+*Föregående: 7 juli kl. 14:16 (fynd i logg #16).*
 
 ## BASELINE-REGISTER (öppna mätningar — en rad per FÖRE som väntar på EFTER; arkiveras först när mätningen är STÄNGD)
 > Kanonisk mättabell med prediktioner = **lynx-models §11.1**. Detta register skyddar FÖRE-värdena som inte får egen tabellcell. Gamla skalans FÖRE för EJ omskrivna sidor = 30 juni-inventeringen i arkivet (jämför ALDRIG gammal↔färsk, §11.1).

@@ -15,6 +15,31 @@ PEKAR-PÅ      lynx-data = AKTUELLT LÄGE (gällande värden) · jämför ALDRIG
 > **⚠️ §-referenser i denna fil avser filstrukturen vid postens datum.** Sedan 8 juli bor **§8, §8.1, §9, §9.0, §9.1 och §12 i `lynx-backlog.php`** (ej lynx-START). §-KARTAN i `lynx-START.php` är resolvern. Historik uppdateras aldrig retroaktivt.
 
 
+
+## Snapshot 2026-07-08 kl. 10:45 — AICOPY-filtrerad Pages-vy (13 rader synliga, SKUREN efter /acnebehandling.php)
+> Ägar-dump. Sorterad på AI COPY (SIGNIFICANT → MODERATE → SLIGHT). Kolumnen **EG SCORE** nu synlig, "–" överallt. PAGE TYPE "–" på ipl/oonskat-har/microdermabrasion/behandlingar/acne-ansikte/acnebehandling, blank på övriga.
+
+| URL | VALUE | SCORE | GAPS ⚡/💡 | AI COPY | AIQ | P.PRICE | EG | KW |
+|---|---|---|---|---|---|---|---|---|
+| /hudproblem/hudforandringar/ | 10 | 17 | 3/2 | **SIGNIFICANT** | OK | – | – | 7 |
+| /ytliga-blodkarl.php | 41 | **74** | 0/0 | **SIGNIFICANT** | OK | – | – | 157 |
+| /hudbehandlingar/ipl/ | 34 | – | –/– | 🟠 MODERATE | OK | HIGH | – | 18 |
+| /hudproblem/bristningar/ | 18 | 63 | 0/0 | 🟠 MODERATE | OK | – | – | 67 |
+| /hudproblem/oonskat-har/ | 11 | – | –/– | 🟠 MODERATE | OK | – | – | 13 |
+| /ipl-rosacea.php | 54 | 60 | 3/1 | 🟠 MODERATE | OK | HIGHEST | – | 18 |
+| /microdermabrasion.php | 29 | – | –/– | 🟠 MODERATE | OK | LOWEST | – | 6 |
+| /behandlingar.php | 14 | – | –/– | 🔵 SLIGHT | OK | – | – | 0 |
+| / (homepage) | 41 | 65 | 0/0 | 🔵 SLIGHT | **POOR** | – | – | 288 |
+| /acne.php | 40 | 47 | 2/1 | 🔵 SLIGHT | OK | – | – | 105 |
+| /acne-ansikte.php | 31 | – | –/– | 🔵 SLIGHT | OK | – | – | 52 |
+| /acnearr.php | 45 | 74 | 1/0 | 🔵 SLIGHT | OK | – | – | 123 |
+| /acnebehandling.php | 12 | – | –/– | 🔵 SLIGHT | OK | – | – | 6 |
+
+**🎯 HUVUDFYND — FYRA SIDOR HAR LÄMNAT MODERATE-GRUPPEN.** MODERATE består nu av exakt 5 rader (ipl · bristningar · oonskat-har · ipl-rosacea · microdermabrasion). Frånvarande, alla 🟠 i sparad data: **mogen-hy · solskadad-hy · rhinophyma-rosacea · pigmentflackar.** Eftersom vyn är sorterad på AI COPY och SLIGHT-raderna följer direkt är MODERATE-gruppen komplett — de fyra har alltså flyttat. **MEN vyn är SKUREN efter /acnebehandling.php: vi ser dem inte i SLIGHT-gruppen.** Frånvaro ≠ SLIGHT (pigmentflackar försvann ur samma vy 6 juli under pågående omanalys, logg #14). **Attribuera inget förrän SLIGHT-raderna är sedda** (mätregel 4, `lynx-models` §11.1).
+
+**Övriga diffar mot sparad data:** ytliga-blodkarl SCORE 74 men badge **fortfarande SIGNIFICANT** (badge-refreshen dröjer, öppen tråd) · hudforandringar oförändrad (17 · 3/2 · SIGNIFICANT) · homepage SCORE 28→**65**, AIQ fortfarande POOR (enda POOR-sidan) · acne.php SCORE **47** (färsk) · acnearr 74, GAPS 1/0 · ipl-rosacea GAPS 3/1 kvar · KW-drift nedåt på flera orörda sidor (homepage 298→288, ytliga 159→157, ipl-rosacea 20→18, hudforandringar 8→7) medan acnearr steg 121→123.
+
+
 ## Snapshot 2026-07-07 (12:15–12:28, 11 dumpar) — pigmentflackar TILLBAKA ur omanalysen + rhinophyma re-scan: BÅDA läste PRE-WAVE-2-texten (V2 omätt)
 > Ägaren: "vi har fått uppdatering på pigmentfläckar" + rhinophyma-batch + fråga "skiljer de sig från förra? hur står sig våra bedömningar?". **Fynd:** (1) pigmentflackar-raden TILLBAKA i AICOPY-vyn (VALUE 32 · SCORE 73 färsk popup; AI COPY-badgen skymd av popupen — okänd); (2) **BÅDA AI Copy-vyerna "Last update: 06 Jul" läste GAMLA texten — crawlen daterad till 2 jul 16:09–6 jul 16:08 (produktion FÖRE wave 2-mergen; blocken har 2 jul-språkfixarna men inte V2)** → pigmentflackar 18/18 + rhinophyma 16/16 identiska tiers med gamla faciten (determinism-replikation #3+#4; typo-fixar flyttar inte betyg) → **V2-omskrivningarna fortfarande OMÄTTA** (detalj i `lynx-examples.php`); (3) SCORE-popups: pigmentflackar 73 = medel(84,60) ✓ AI STYLE 55 (= FÖRE-baseline) · rhinophyma 74 identisk replika av 6 jul (AI 70) · hudforandringar 17 "79 days ago" oförändrad (subs = redan sparade) → `lynx-score.php`.
 
