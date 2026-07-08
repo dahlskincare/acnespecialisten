@@ -193,8 +193,11 @@ for path in files:
     src = os.path.basename(path)[:-4]
     if KIND.get(src) in ('HISTORIK','TEMP','DÖR'): continue   # historik: header-raden täcker; temp/dör: raderas
     txt = open(path, encoding='utf-8').read()
+    # En positionell pekare ("§9 nedan") är KORREKT i den fil där §9 faktiskt bor.
+    at_home = (src == HOME_NOW)
+    rules = ((QUAL,'NAMNGER FIL'),) if at_home else ((QUAL,'NAMNGER FIL'), (POS,'POSITIONELL'))
     for lineno, line in enumerate(txt.split('\n'), 1):
-        for rx, kind in ((QUAL,'NAMNGER FIL'), (POS,'POSITIONELL')):
+        for rx, kind in rules:
             if rx.search(line):
                 print(f'  ❌ {src}:{lineno}  [{kind}]  {line.strip()[:95]}')
                 broken += 1
@@ -375,7 +378,8 @@ STEP = {
   ('§8.1 sebo: curettage-beslutet',          'UNION', 'curettage'),
   ('§8.1 microneedling: kur-gapet',          'UNION', 'microneedling kur'),
   ('§8.1 acne-rygg: synonymerna',            'UNION', 'ryggakne'),
-  ('"ingen hemmakur"-principen',             'UNION', 'ingen hemmakur'),
+  ('"ingen hemmakur"-principen → rewrite §5','lynx-rewrite', 'Ingen hemmakur'),
+  ('  …och backlog pekar dit',              'UNION', 'ingen hemmakur'),
   # §9.1 tier-listan + scope-beslutet
   ('§9.1 Tier 1-listan',                     'UNION', 'Tier 1 — störst KW + uppsida'),
   ('§9.1 scope: studentrabatt exkluderas',   'UNION', 'studentrabatt'),
@@ -426,7 +430,11 @@ def structural(step):
         t = load('UNION')
         for tier in ('Tier 1','Tier 2','Tier 3','Tier 4'):
             out.append((f'§9.1 {tier} kvar', tier in t))
-        out.append(('§9 Fas 3: alla 10 MODERATE-rader kvar', t.count('✅ OMSKRIVEN') >= 6))
+        flagg = ['acne-ansikte','ytliga-blodkarl','behandla-pigmentflackar','hudforandringar',
+                 'om-oss','hudbehandlingar/ipl','ipl-rosacea','mogen-hy','oonskat-har','microdermabrasion',
+                 'bristningar','solskadad-hy','rhinophyma-rosacea','pigmentflackar.php']
+        miss = [p for p in flagg if p not in t]
+        out.append((f'alla 14 flagg-sidor namngivna' + (f' — SAKNAS: {miss}' if miss else ''), not miss))
         out.append(('§12 exakt EN claim-tabell', t.count('| Sida | Status | Tid |') == 1))
     if step == 9:
         t = load('lynx-examples')

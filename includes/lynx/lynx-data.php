@@ -6,10 +6,13 @@
 > - **`lynx-examples.php`** — AI COPY per-block-facit per sida. · **`lynx-questions.php`** — AIQ-frågelistor. · **`lynx-score.php`** — SCORE-nedbrytningar + modellhärledning. · **`lynx-gaps.php`** — gap-texter (beslut i `lynx-backlog.php` §8.1).
 > - **`lynx-data-arkiv.php`** — historiska Pages-snapshots verbatim (30 juni-fullinventeringen = gamla skalans FÖRE-baseline för hela sajten).
 >
-> **📥 SPARA-RECEPT vid inkommen dump (save-first, ägarbeslut 2 juli — agera ALDRIG på facit utan att först spara):**
+## §14 SPARA-RECEPT — inkommen LYNX-dump (KANONISK CELL; routern i lynx-START pekar hit)
+> **save-first, ägarbeslut 2 juli — agera ALDRIG på facit utan att först spara. Det är vår enda mätkälla; LYNX saknar export.**
+>
+> **Avgör alltid FÖRST vad syftet är — ägaren säger inte alltid rakt ut.**
 > 1. Avgör syftet: **(a) per sida** (riktat facit → spara + kör §7 på sidan) eller **(b) bunt-inventering** (→ diffa mot AKTUELLT LÄGE).
 > 2. **SPARA VERBATIM i rätt kolumnfil:** Pages-rader → ny daterad sektion överst i `lynx-data-arkiv.php` · per-block-facit → examples · frågelistor → questions · SCORE-nedbrytningar → score · gap-texter → gaps.
-> 3. Uppdatera berörda celler i AKTUELLT LÄGE (regler under tabellen) + klassa NYTT/ÄNDRAT vs OFÖRÄNDRAT → **EN loggpost** i `lynx-logg.php` (mall där).
+> 3. Uppdatera berörda celler i AKTUELLT LÄGE (regler under tabellen) + klassa varje rad: **NYTT/ÄNDRAT** (efter en main-push = mätdata → kör mät-loopen `lynx-models` §10, FÖRE→EFTER + validera modellen; ny sida → baseline + prio §9.1) vs **OFÖRÄNDRAT** (notera bara — LYNX kanske inte refreshat än). → **EN loggpost** i `lynx-logg.php` (mall där).
 > 4. Öppna §9-TODO i `lynx-backlog.php` för det som ska åtgärdas.
 > **Skärmbilds-principen (ägarbesked 2 juli):** dumpar är av naturen PARTIELLA — jobba med det som syns, fråga riktat efter resten; läs HELA bilden (grannrader/kolumner/badges); förändring i kanten mot sparad data → egen §9-tråd. Vi kan inte polla LYNX — **påminn ägaren om uppdateringar** om de dröjer.
 

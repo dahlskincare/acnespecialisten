@@ -196,6 +196,8 @@ Plockat från acne/rosacea/microneedling/alma-hybrid (sidor ägaren gillar). OBS
 
 ---
 
+- **"Ingen hemmakur"-principen (generell, född ur ytliga-blodkärls gap-beslut):** när det ärliga svaret på en sökintention är att problemet **inte** går att lösa hemma — säg det rakt, förklara varför, och led till vår behandling. Svara på frågan i stället för att hoppa över den. Gäller alla "hur blir jag av med X hemma"-gap (§1.5 H4: hemma-frågorna är återkommande topp i AI Overview).
+
 ## 6. ⚠️ SEO-skydd — bryt inte sökord/ranking
 Sidorna rankar redan på sökord. Omskrivningen får höja kvaliteten **utan att ta bort signalerna som funkar**:
 - **Bevara primärt sökord + viktiga varianter** i `$seo_title`, H1, H2:er och brödtext. Skriv aldrig bort sökordet ur sidan (t.ex. "akne i ansiktet" måste finnas kvar). Hur frasen interpunkteras (komma efter eller ej) är en **rytmfråga (§3), inte SEO** — ett komma bryter inte Googles frasmatchning. Behåll bara frasen i texten.

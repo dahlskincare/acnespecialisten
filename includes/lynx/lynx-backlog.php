@@ -23,13 +23,10 @@ Vi kör **1 Claude i taget** (§0.1), så det här är ingen parallell-lås län
 ---
 
 ## 8. Sidkarta & backlog (LYNX AI COPY)
-**SIGNIFICANT — alla ✅ KLARA (staging/main):**
-- `acne-ansikte.php` — ✅ KLAR + **MÄTT 6 jul: 🔴→🔵 SLIGHT** (kvar: intro-blockets 🟠 = micro-fix-kandidat; se §11 6 jul)
-- `ytliga-blodkarl.php` — ✅ KLAR (omskriven steg för steg → main, LIVE 1 jul; se §9/§11/§11.1)
-- `behandla-pigmentflackar.php` — ✅ KLAR + **MÄTT 7 jul: 🔴→🔵 SLIGHT** (tvåstegs-hopp; bonus, KW16→13; logg #14)
-- `hudproblem/hudforandringar/index.php` — ✅ KLAR (hub; de-AI:ad → main, LIVE 1 jul; H1 i sep. commit; debug-rad-fixen d3ce9162 LIVE på produktion (logg #13))
+**HELA FLAGG-LISTAN KLAR: 4 SIGNIFICANT + 10 MODERATE omskrivna, alla LIVE på main och produktions-verifierade 6 juli** (logg #11–#13; per-sida-historiken bor i `lynx-logg`). Alla facit i `lynx-examples`. Per-sida-status + öppna rester: §9 Fas 1/Fas 3 nedan.
 
-**MODERATE-vågen: ✅ KLAR 10/10 (6 jul em):** om-oss (**MÄTT: 0 flaggade block**), hudbehandlingar/ipl, ipl-rosacea (LIVE, väntar refresh), mogen-hy, oonskat-har, microdermabrasion, bristningar, solskadad-hy, rhinophyma-rosacea, **`pigmentflackar.php` (SISTA — omskriven 6 jul → staging; KW244; omgjord V1→V2 efter ägar-feedback om att inte kapa; workflow-verifierad, 0 resonemang tappat)**. **HELA DEN URSPRUNGLIGA FLAGG-LISTAN (4 SIGNIFICANT + 10 MODERATE) ÄR NU OMSKRIVEN OCH LIVE PÅ MAIN (verifierad på produktion 6 jul, logg #13).** Alla facit i `lynx-examples.php`. **Kvar för framtida städpass:** pigmentflackar FAQ-sektion (AI-holdout, ej facit-flaggad) + typtitel-versalisering; ärr-boilerplate-sweep (§9-spår).
+**Öppna rester på de MÄTTA sidorna:** acne-ansikte intro-blockets 🟠 (micro-fix-kandidat) · behandla-pigmentflackar 4 block (micro-fix-kandidat, frysning hävd) · om-oss badge-bekräftelse.
+**Kvar för framtida städpass:** pigmentflackar FAQ-sektion (AI-holdout, ej facit-flaggad) + typtitel-versalisering · ärr-boilerplate-sweep (§9).
 
 **SLIGHT (mestadels klara):** majoriteten (`acne.php`, `acnearr.php`, `acne-rygg.php`, `acne-brost.php`, startsidan m.fl.) — lättputs vid behov; använd som röstreferens.
 
@@ -38,16 +35,7 @@ Vi kör **1 Claude i taget** (§0.1), så det här är ingen parallell-lås län
 ### 8.1 Per-sida gap-punkter (LYNX-förslag) + beslut
 Från LYNX "Quick wins / Recommended improvements". Beslut enligt §5 (kosmetiskt, siloing).
 
-**ytliga-blodkarl.php**
-- HIGH Fördjupning om Rosacea → **GÖR: länk** till rosacea-sidan (kort omnämnande, ingen rosacea-text här).
-- HIGH Tydliggör när man ska söka medicinsk vård (1177) → **SKIP** (medicinskt — vi håller kosmetiskt).
-- MEDIUM Utesluta hudcancer (basalcellscancer) → **SKIP** (medicinskt).
-- MEDIUM Egenvård/lindring i hemmet → **GÖR (vänd till konvertering):** förklara ärligt att ytliga blodkärl *inte* går att behandla hemma — de kräver IPL på klinik. Svarar på sökintentionen och leder till vår behandling. *Generell princip: när det ärliga svaret är "ingen hemmakur", säg det och förklara vår lösning istället för att skippa frågan.*
-
-**hudproblem/hudforandringar/index.php**
-- HIGH H1 och titel saknar primärt sökord → **GÖR** (sökord i H1/titel; behåll övriga sökord).
-- HIGH För brett fokus på generella hudförändringar → **GÖR inom hub-scope** (tydligare fokus, men sidan är en kategori-hub).
-- HIGH Tydligare riktlinjer för när man ska söka vård → **SKIP** (medicinskt).
+**GENOMFÖRDA (LIVE 1 juli):** `ytliga-blodkarl.php` (rosacea-länk + hemmavård-vinkeln; 1177-/hudcancer-punkterna SKIP = medicinskt) · `hudproblem/hudforandringar/index.php` (H1-sökord + hub-fokus; söka-vård SKIP). Gap-texterna i `lynx-gaps`. **Den återanvändbara skrivprincipen som föddes här — "när det ärliga svaret är ingen hemmakur, säg det och led till vår lösning" — bor nu i `lynx-rewrite` §5.**
 
 **seborroisk-keratos.php** (facit ✅ 2 jul — i Fas 3b-kön; OBS: 2 jul-scanen visar GAPS 0/0, LYNX flaggar inte längre punkterna nedan → besluten kvarstår som frivilliga förbättringar; skrapnings-frågan är GOOD i §1.5-listan)
 - HIGH För brett fokus → **GÖR: smalna av** till seborroisk keratos (mjällvårtor).
@@ -87,7 +75,6 @@ Kryssa här. Start/stopp-vänligt: status = §9 + §11 (logg) + §12 (claims). P
 - [ ] **10. Slutverifiering + permanentning:** **skriv struktur-kartan (triad × domän + laddnings-recept + "ett fakta = en cell"-lagen) i START §0** — annars dör den med underlagsfilen. Front-matter-manifest på ALLA filer. No-loss-koll mot underlags-filens MÅSTE-BEHÅLLAS-listor; **kör pekar-censusen med `--efter` och diffa mot FÖRE-baselinen** (måste bli 0 kvarvarande i AKTIV+REGEL, 0 §-refs utan ägare, 0 refs till raderade filer); header-rad på plats i varje HISTORIK-fil; loggpost enligt nya mallen; radera `lynx-optimering-underlag.php`; push.
 
 **Setup**
-- [x] Färdigställ setup & playbook (formel, husröst, ramar, SEO-skydd, §13-skyddsregler, lynx-data.php).
 
 **Fas 1 — SIGNIFICANT-sidorna**
 - [x] `acne-ansikte.php` — omskriven (hela sidan), minimal-diff (§13.O); sökord/claims bevarade → main, LIVE.
@@ -103,16 +90,16 @@ Kryssa här. Start/stopp-vänligt: status = §9 + §11 (logg) + §12 (claims). P
 
 **Fas 3 — MODERATE-vågen = AI COPY-flagg-uppdraget (🔴 SIGNIFICANT klart i Fas 1; här fixas alla 🟠 MODERATE; facit-komplett 7/7 sedan 2 jul em)**
 *Fix-antal = §1.4-estimat för badge-flytt till 🔵 (gråzons-förbehåll); §7 kräver ändå alla 🔴/🟠-block åtgärdade. Ordning nedan = billigast först; pigmentflackar (KW244) kan lyftas först om payoff prioriteras.*
-- [x] `om-oss.php` — ✅ KLAR (LIVE på main, väntar refresh)
-- [x] `hudbehandlingar/ipl/` — ✅ KLAR (LIVE, väntar refresh)
-- [x] `ipl-rosacea.php` — ✅ KLAR (LIVE, väntar refresh)
-- [x] `mogen-hy.php` — ✅ OMSKRIVEN 2 jul em (alla 5🔴+1🟠 + typos/buggar; §7.4b-verifierad, 5 fynd åtgärdade; prediktion 🟠→🔵) → main, LIVE 6 juli (logg #13); väntar LYNX-refresh
-- [x] `hudproblem/oonskat-har/` — ✅ OMSKRIVEN 3 jul (5🔴+2🟠 + lätt hand FAQ/alt-titles; §7.4b-verifierad 3 agenter; prediktion 🟠→🔵; ägar-frågan "underarmar" STÄNGD 3 juli: korrekt svenska, ingen ändring) → main, LIVE 6 juli (logg #13); väntar LYNX-refresh
-- [x] `microdermabrasion.php` — ✅ OMSKRIVEN 3 jul (5🔴+1🟠 + lätt hand $model/FAQ/alt; §7.4b-verifierad; prediktion 🟠→🔵; kortpriser rättade till 2595/6995/9995 kr + diamantspets samma dag; AIQ GOOD→OK-frågedetaljen fortfarande obesvarad) → main, LIVE 6 juli (logg #13); väntar LYNX-refresh
-- [x] `hudproblem/bristningar/` — ✅ OMSKRIVEN 6 jul (6🔴+1🟠 + lätt hand extended/FAQ/kort; definitionsdubbletten DIFFERENTIERAD, ej ihopslagen — §13.D respekterad; §7.4b-verifierad 3 agenter, 0 allvarliga; prediktion 🟠→🔵) → main, LIVE 6 juli (gaten passerad på ägarbeslut, logg #13); väntar LYNX-refresh (§11 6 jul #7)
-- [x] `solskadad-hy.php` — ✅ OMSKRIVEN 6 jul (6🔴+1🟠 + lätt hand; workflow-verifierad 8 granskare, tier 7/7 grönt inkl. 2 HUMAN; prediktion 🟠→🔵) → main, LIVE 6 juli (logg #13); väntar LYNX-refresh
-- [x] `rhinophyma-rosacea.php` — ✅ OMSKRIVEN 6 jul (8🔴+2🟠 + hela FAQ:n de-AI:ad; workflow + juridik-agent, 0 allvarliga, gränsfall hedgade; prediktion 🟠→🔵) → main, LIVE 6 juli (logg #13); väntar LYNX-refresh
-- [x] `pigmentflackar.php` — ✅ OMSKRIVEN 6 jul em (8🔴+4🟠, KW244, SISTA MODERATE; orsaks-dubbletten differentierad; omgjord V1→V2 efter ägar-feedback "kapa inte info" → längd-disciplin, 0 resonemang tappat, sökfraser bevarade; §7.4b workflow-verifierad; melanom-säkerhetsrad + buggfixar) → main, LIVE 6 jul (logg #13). **Re-scanen 7 jul läste GAMLA texten (logg #14) → V2 OMÄTT; vid NÄSTA AI Copy-refresh: mät FÖRE→EFTER (prediktion 🟠→🔵) + jämför AI STYLE mot 55-baselinen.**
+- [x] `om-oss.php` — LIVE på main. **Öppet:** badge-bekräftelse + O01-bannern + FAQ-betygen.
+- [x] `hudbehandlingar/ipl/` — LIVE. Väntar LYNX-refresh.
+- [x] `ipl-rosacea.php` — LIVE. **Öppet:** SCORE 39→60 färsk men badge kvar 🟠; AI STYLE-A/B-testet (FÖRE 25).
+- [x] `mogen-hy.php` — LIVE 6 juli. Prediktion 🟠→🔵 (FÖRE-medel 1,57); väntar refresh. "Vad betyder hy?"-gapet medvetet lämnat (ägarbeslut 2 juli).
+- [x] `hudproblem/oonskat-har/` — LIVE 6 juli. Prediktion 🟠→🔵 (1,77). Ägar-frågan "underarmar" STÄNGD 3 juli: korrekt svenska, ingen ändring. **Öppet:** AIQ-frågelistan saknas i `lynx-questions`.
+- [x] `microdermabrasion.php` — LIVE 6 juli. Prediktion 🟠→🔵 (1,82). **Öppet:** AIQ GOOD→OK-frågedetaljen fortfarande obesvarad.
+- [x] `hudproblem/bristningar/` — LIVE 6 juli. Prediktion 🟠→🔵 (1,92; färsk SCORE-FÖRE 63).
+- [x] `solskadad-hy.php` — LIVE 6 juli. Prediktion 🟠→🔵.
+- [x] `rhinophyma-rosacea.php` — LIVE 6 juli. Prediktion 🟠→🔵. **Öppet:** V2 OMÄTT (crawlen ≤6 juli läste gamla texten); AI STYLE-FÖRE 70.
+- [x] `pigmentflackar.php` — LIVE 6 juli (KW244, sista MODERATE; V1→V2 efter ägar-feedback "kapa inte info"). **Öppet: V2 OMÄTT** — vid NÄSTA AI Copy-refresh: mät FÖRE→EFTER (prediktion 🟠→🔵) + jämför AI STYLE mot 55-baselinen.
 
 Körs facit-drivet löpande — **ej grindat efter Fas 2-schemat** (fristående spår). Prioordning även i **§9.1**.
 
@@ -125,27 +112,22 @@ Körs facit-drivet löpande — **ej grindat efter Fas 2-schemat** (fristående 
 - [ ] **fragor-svar AIQ OK→POOR (7 juli 14:16; SCORE 36→56 färsk samtidigt):** sidan ÄR wave 2-ändrad (FaceTime→Google Meet, live 6 juli) men ändringen är minimal och AIQ är SERP-baserad → trolig extern/omskalnings-effekt, EJ attribuerad. Be om §1.5-frågelistan för fragor-svar vid tillfälle — vilken fråga föll? (Sidan är HUMAN-badgad, 114 ord — FAQ-hubben; POOR här kan vara AIQ-uppsida när Fas 2-schemat körs.)
 - [ ] **Milier-/CryoPen-priser (öppen ägar-verifiering — flyttad hit från logg 2 juli em #4):** enstaka milier-borttagning rättades till 495 kr, men **CryoPen-återbesökspriset (hudforandringar) + milier-paketpriset 1295 kr väntar fortfarande ägarens verifiering** mot bokningssystemet.
 - [ ] **"missing localized"-DRAFT-raden (7 juli 14:16, ofiltrerad Pages-vy, VALUE 27):** KW **616**(!) · CLICKS 0 · ingen URL · enda raden med AI FEATURES-toggeln AV · WORDS/STATUS tomma. Troligen LYNX-systemrad för sökord utan mappad/lokaliserad sida — **fråga ägaren/LYNX vad den är**; 616 KW är för mycket för att ignorera om det är riktiga icke-mappade sökord (jfr sidregister B — saknade sidor).
-- [x] **§1.4 medel-omräkning — GJORD (modellanalysen 2 jul em):** medel FÖLL på 3 av 6 äldre (acne.php 1,75→🟠 vs 🔵 · behandla-pigment 2,3→🟠 vs 🔴 · hudforandringar 2,08→🟠 vs 🔴) → §1.4 nedgraderad till ARBETSMODELL med gråzon 1,9–2,4 (medel 14/17 = median 14/17, disjunkta missar). Full tabell + fällda alternativ-modeller i lynx-examples.
 - [ ] **BESTÄLLNING (avgör §1.4-frågan):** be ägaren köra FÄRSK analys på 1–2 sidor och skicka sidnivå-badge + KOMPLETT per-block-lista (inkl. expanderade FAQ-svar) ur SAMMA scan — testar om orapporterade FAQ-svar/versionsskillnad förklarar konflikten. Kombinera med §1.2-beställningen (2–3 färska SCORE-breakdowns varav minst en med AI STYLE beräknad) — **NYTT 6 jul: prioritera ytliga-blodkärls färska nedbrytning (SCORE 74, post-rewrite = AI STYLE-spakens A/B-test, snabbare än att vänta på acne.php).**
-- [x] **Homepage-raden i AICOPY-vyn — LÖST 2 jul 14:20 (zoom-dump + ägarbesked):** homepage `/` FINNS i LYNX (VAL 41 · SCORE 28 · GAPS 0/0 · **AI COPY SLIGHT** · AIQ POOR · KW 298); `/behandlingar.php` = **redirect till /hudbehandlingar/** (KW 0 — ingen egen copy att åtgärda). Rad-data i lynx-data. Följd: homepage är INTE AI COPY-flaggad → dess uppsida är SCORE + AIQ (enda POOR-sidan), inte flagg-vinst.
 - [ ] **`/varumarken/powerlite-photonova/`:** finns i LYNX/live men INTE i repot — utred (borttagen sida som lever kvar på live? redirect behövs?).
 - [ ] **`/varumarken/hifu/`:** nyligen tillagd sida som ännu inte syns i LYNX — bevaka att den indexeras.
 - [ ] **om-oss gap-popupens 4:e punkt** ej synlig i dumpen (2 QW + 2 sugg; 3 lästa: remiss/vårdkö, skillnad mot hudläkare, prisinformation — bekräftade oförändrade 6 jul) — be om den när om-oss-gapsen ska åtgärdas; §8.1-beslut för om-oss tas då (remiss-/hudläkare-vinkeln är redan sidans positionering → trolig GÖR inom §5, men beslut väntar 4:e punkten + badge-bekräftelsen).
-- [x] **pigmentflackar.php borta ur AICOPY-filtret — LÖST 7 jul (logg #14):** raden TILLBAKA (VALUE 32 · SCORE 73 färsk); blank-läget var mycket riktigt pågående omanalys (ägarens metodprincip bekräftad). MEN: re-scanen läste gamla pre-deploy-texten → V2:ns EFTER-facit väntar fortfarande på nästa AI Copy-refresh (badge-kolumnen var dessutom skymd av popupen — okänd). Kvarvarande bevakning ligger på Fas 3-raden i §9.
 
 **Fas 3b — facit-klara sidor (rewrite i SEPARAT session, ägarbesked 2 jul; alla sidnivå 🔵 → §1.4: SCORE/AI STYLE-vinst, ej flagg-vinst)**
 - [ ] `microneedling.php` (KW70, SCORE 50 färsk; facit 22 apr: 4🔴/2🟠) — de-AI + "microneedling kur"-gapet (§8.1). **Rewrite ÅTERRULLAD 2 jul (ägarbesked) — färdig block-plan i §11-posten em #2. 5 språkfel/typos FIXADE separat 2 jul em** (markanden, micronnedling-FAQ:n, slussas-in-kanalerna, våra→vår, utseendet) — kvar: enbart de-AI-omskrivningen.
 - [ ] `portomning.php` (KW28, SCORE 60 färsk; facit 24 jun: 2🟠) — lätt pass: importans-öppningar/svansar + typos ("ansiktet,ryggen", "brötstet").
 - [ ] `acne-rygg.php` (KW51→46; SCORE 0 var pågående omanalys/indexering → 69 färsk 7 jul, satte sig själv — ägarbesked 7 jul: 0/blank = LYNX uppdaterar, inte fel; facit 25 apr: 3🔴/1🟠) — de-AI + 2 grammatikfel live + gap-punkter (§8.1).
 - [ ] `seborroisk-keratos.php` (KW110, SCORE 74 färsk; facit 25 apr: 2🔴/2🟠) — de-AI + grammatikfel (CryoPen-blocket) + §8.1-gaps (smalna av, curettage).
-- [x] ~~`mogen-hy.php`~~ — **STALE DUBBLETTRAD (upptäckt 6 jul):** sidan omskrevs 2 jul inkl. språkfelen (se Fas 3-raden [x] ovan + §11 2 jul em #7); låg kvar öppen här av misstag. "Vad betyder hy?"-gapet medvetet lämnat (ägarbeslut 2 jul).
 
 **Löpande / avslut**
 - [ ] **Datum-svep i LYNX-filerna (ägarbeställd TODO 7 juli):** skriv ut månadsnamnen retroaktivt i alla egna datum ("2 jul"→"2 juli", "30 jun"→"30 juni" osv.) — mekaniskt städpass i egen commit när det passar; ordagranna LYNX-citat ("Last update: 06 Jul", "Analyzed X ago") lämnas verbatim. Konventionen framåt är redan aktiv (§0).
 - [ ] LYNX justeringsloop (§10) — läs varje refresh, uppdatera §11 + lynx-data.php.
 - [ ] Mät-loop & modell-förfining (§10): prediktera före, mät efter, förfina §1.1/§1.2, **backporta lärdomar till redan gjorda sidor**.
 - [ ] **Gå igenom `hudproblem/hudforandringar/index.php` (mall-review)** — en pre-existerande död debug-rad (`$types_url`, rad 777) läckte en synlig PHP-warning på live (nu borttagen). Kontrollera om mallen har mer cruft/latenta buggar: andra utkommenterade `<?php echo $var ?>`, odefinierade variabler, gamla debug-rester. *(Temporär TODO här tills sidan är genomgången.)*
-- [x] (Löst) Filerna är `.php` med `<?php exit;` → renderas tomma på webben; behöver inte raderas.
 
 **Parkerat / väntar externt**
 - [P] **PRODUKTIFIERING — flera signaler + flera domäner (ägar-idé 8 juli, PARKERAD tills LYNX-arbetet är klart).** Målet på sikt: setupen blir ett textskrivar-verktyg som kan lyftas in på andra sajter — först LYNX-komponenten, sedan GSC, Ahrefs m.fl. **Vad som krävs:** filsetet blandar idag tre saker som då måste separeras — (a) **SIGNAL-adaptern** (LYNX-specifik: kolumndefs, badges, SCORE-formeln, skärmbilds-intaget; engångs per verktyg), (b) **HANTVERKET** (portabelt = själva produkten: formeln, checklistan, AI-tellsen, mät-disciplinen prediktera→mät→förfina→backporta, arkiv-policyn, "ett fakta = en cell"), (c) **SAJTPROFILEN** (per kund: husröst, juridisk ram MFL/PIL/estetiklagen, silo-karta, brandfakta 30 år/SHR/1994, förbudslistan). Idag ligger de om vartannat — §5 blandar em-streck (hantverk), medicinska påståenden (sajtprofil) och roaccutan-guarden (enskild sida); §1.1/§1.3 är rena LYNX-artefakter (per-block-tiers finns inte i GSC). **Billig förberedelse när vi ändå rör filerna:** lägg en ANDRA axel bredvid KIND — `SCOPE: CRAFT | SITE | SIGNAL` — så blir framtida extraktion en grep i stället för en omskrivning. **Två beslut som blir dyrare med tiden:** `lynx-`-prefixet bakar in leverantören i varje filnamn; §-numren (arv från monolit-playbooken) är redan orsaken till trasiga pekare vid varje flytt → namngivna ankare (`#formeln`, `#seo-skydd`) överlever flyttar. **⚠️ Ärlighet:** bedömningsmodellen är kalibrerad på EN korpus, ETT språk, EN bransch (blindtest 57–62 % exakt på vår copy; 3 av 14 omskrivna sidor mätta). Generalisera METODEN, inte MODELLEN, förrän en andra sajt bekräftat den.
