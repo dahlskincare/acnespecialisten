@@ -563,7 +563,9 @@ STEP = {
   # Omätta FÖRE-baselines + öppna prediktioner
   ('AI STYLE-FÖRE pigment 55 / rhino 70',   'UNION', 'pigment 55, rhino 70'),
   ('V2-rewriterna OMÄTTA',                  'UNION', 'V2-rewriterna fortfarande OMÄTTA'),
-  ('pigmentflackar V2: prediktion + AI STYLE 55', 'UNION', 'jämför AI STYLE mot 55-baselinen'),
+  ('pigmentflackar V2: prediktion kvar',      'UNION', 'pred 🟠→🔵'),
+  ('pigmentflackar V2: AI STYLE-FÖRE 55',     'UNION', 'AI STYLE mot 55-baselinen'),
+  ('pigmentflackar: AI STYLE 55 i kanonisk cell', 'lynx-models', 'AI STYLE-FÖRE 55'),
   # Invarianter som MÅSTE stanna i START
   ('Prime-direktivet: ändrar jag för mycket?','lynx-START', 'ändrar jag för mycket?'),
   ('Prime-direktivet: räkna punkterna',      'lynx-START', 'räkna punkterna före/efter'),
