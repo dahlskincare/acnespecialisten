@@ -44,6 +44,15 @@ Fulltext flyttas till **`includes/lynx/lynx-log-arkiv.php`**; kvar här blir en 
 | behandla-pigmentflackar.php | 14 | – | – | –/– | SIGNIFICANT | GOOD | – | 16 |
 | hudproblem/hudforandringar/ | 10 | – | 17 | 3/2 | SIGNIFICANT | OK | – | 8 |
 
+### 2026-07-08 #36 — Återgivningarna borta: nu finns status på exakt ett ställe. LYNX-setupen är klar.
+**In:** Ägarbeslut: "fixa dem, jag vill bli helt klar." De tre återgivningarna av MÄTT/OMÄTT i backlog, `lynx-data` och `lynx-examples`.
+**Fynd:**
+- **En skarp invariant först, för att inte kapa för mycket:** *ingen fil utom `lynx-lage` får påstå om en sida att den är LIVE eller MÄTT/OMÄTT.* Allt annat står kvar ordagrant. Den gör städningen mekaniskt avgränsad i stället för smakbaserad. [RATIFICERAD → §0]
+- **19 strykningar.** `lynx-backlog` per-sida-listan + Tier 3-raden (fyra `✅ LIVE`-märken jag först missade) · `lynx-data` Status-kolumnen → `Not (status: §11.1)` · `lynx-examples` tre "Sidan är MÄTT". [STÄNGD]
+- **Delningen är ren:** backloggen äger *gjort* och *öppet*; `lynx-lage` äger *LIVE, MÄTT, FÖRE-baseline, prediktion*. Rå LYNX-data per (sida × vy) rördes inte — mätkorpus, inte dubblett. [RATIFICERAD → §0]
+- **Verifierat efter:** invarianten testad = 0 brott · alla tolv öppna trådar ur de strukna raderna lever kvar (micro-fix, AIQ-listorna, SCORE-popupen, badge-bekräftelsen, 13:58-frånvaron …) · `lynx-data` 12 kolumner per rad · §11.1 18 rader · §-KARTAN 33/33. [STÄNGD]
+**Åtgärd:** `lynx-backlog` (19 rader + rubriknot + §9.3 stängd), `lynx-data`, `lynx-examples`. **Ett statusbyte kräver nu en ändring i en fil.** Setupen är klar: en dispatcher, en statusfil, en TODO-fil, hantverket, modellen, rådatan, historiken.
+
 ### 2026-07-08 #35 — EN ENDA STATUSCELL: `lynx-lage.php` skapad (ägar-idé). Sista sömmen stängd.
 **In:** Ägarbeslut: gör klart setupen. Premissen mättes först — och den höll.
 **Fynd:**

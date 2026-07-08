@@ -38,7 +38,7 @@ PEKAR-PÅ      lynx-rewrite §1.1/§1.3/§1.4 = bedömningsmodellen · lynx-exam
 **Fullständig acne.php-facit mottagen 2026-07-01 — BEKRÄFTAR ovanstående 22 apr-betyg** (stark modell-validering: alla citerade referensblock stämmer). Tillägg som saknades i tabellen ovan: "Akne kan uppträda på olika områden… hormonella/kläder/sol" 🔴 · "En effektiv ansiktsbehandling fokuserar på att extrahera orenheter…" 🔵 · "Bölder: Stora, varfyllda… ofta större än 5 mm" 🟢 · "För att effektivt bekämpa… daglig behandling med rätt produkter" 🔵 · "Acneärr uppstår i form av gropar…" 🔵 · "Välj Acnespecialisten innan du går till en läkare…" 🔴.
 **VIKTIGT:** acne.php är vår husröst-/modell-REFERENS men har **~10 🔴-block på sidnivå** (intro-scaffolding "Här förklarar vi", demografisk-skal "vanligast bland tonåringar… oavsett kön", importans "det är viktigt att", marknads-CTA "Du som vill ha det bäst… 30 år" / "Tveka inte att kontakta"). Dess **🔵/🟢-block är de validerade referensblocken att EMULERA/LÄMNA** (full mekanism-payoff, definitioner, Noduler/Bölder med "5 mm"-mått, konkreta vi-handlingar). Rubriken "SLIGHT-referens" avser alltså block-nivå, inte sidnivå. **Rewrite-mål:** de ~10 🔴 (KW116 huvudsida = hög prio); lämna 🔵/🟢.
 
-*(FÖRE-facit acne-ansikte 22 apr → `lynx-examples-arkiv.php`. Sidan är MÄTT; FÖRE-motsvarigheten står i EFTER-tabellen nedan.)*
+*(FÖRE-facit acne-ansikte 22 apr → `lynx-examples-arkiv.php`. FÖRE-motsvarigheten står i EFTER-tabellen nedan.)*
 
 ## /acne-ansikte.php — 05 Jul 2026 — ✅ EFTER REWRITE (FÖRSTA EFTER-FACITET; sidnivå 🔴→🔵 SLIGHT; dump möjligen partiell — FAQ-block ej synliga)
 | Block (snippet, EFTER-text) | Betyg | FÖRE-motsvarighet (22 apr) → tolkning |
@@ -113,7 +113,7 @@ PEKAR-PÅ      lynx-rewrite §1.1/§1.3/§1.4 = bedömningsmodellen · lynx-exam
 ## FÖRE-facit per block — de 3 sidor vi skrev om 1 jul (RÅDATA, bevaras för omtolkning)
 > LYNX per-block-betyg på **ORIGINALtexten** (LYNX-analys 22–29 apr; har INTE sett våra 1 jul-omskrivningar än — EFTER-värden kommer efter main-push + refresh). Betyg = FAKTA. "Min FÖRE-gissning" = prediktionsliggaren (§10). Detta är facit att score:a mot. **NY tier: 🟥 EXTREME.**
 
-*(FÖRE-facit behandla-pigmentflackar 25 apr → `lynx-examples-arkiv.php`. Sidan är MÄTT; FÖRE-kolumnen finns i EFTER-tabellen.)*
+*(FÖRE-facit behandla-pigmentflackar 25 apr → `lynx-examples-arkiv.php`. FÖRE-kolumnen finns i EFTER-tabellen.)*
 
 ### /hudproblem/hudforandringar/ — 22 Apr 2026 (SIGNIFICANT-tung)
 | Block (utdrag) | LYNX (rå) | Min gissning | Träff |
@@ -213,7 +213,7 @@ PEKAR-PÅ      lynx-rewrite §1.1/§1.3/§1.4 = bedömningsmodellen · lynx-exam
 4. **Eftervård, samma sektion, motsatt betyg:** lång + "avgörande/bästa/effektiv"-öppning = 🔴 (blk 14); kort + direkt = 🟢 HUMAN (blk 16).
 5. **HUMAN** = korta, direkta, "mänskligt röstade" instruktioner + omdömen med namn/tidsdetalj.
 
-*(FÖRE-facit om-oss 22 apr + v3-blindtestets resultat → `lynx-examples-arkiv.php`. Sidan är MÄTT; FÖRE-motsvarigheten står i EFTER-tabellen nedan.)*
+*(FÖRE-facit om-oss 22 apr + v3-blindtestets resultat → `lynx-examples-arkiv.php`. FÖRE-motsvarigheten står i EFTER-tabellen nedan.)*
 
 ## /om-oss.php — 05 Jul 2026 — ✅ EFTER REWRITE (ANDRA EFTER-FACITET; 0 flaggade block synliga; badge ej synlig i dumpen men sidan borta ur MODERATE-gruppen → SLIGHT implicerat)
 | Block (snippet, EFTER-text) | Betyg | FÖRE-motsvarighet (22 apr) → tolkning |
@@ -493,5 +493,5 @@ VALUE 66 · SCORE **60** (var 50) · GAPS 0⚡/1💡 · AI COPY 🔵 SLIGHT · A
 ## Rewrite-resultat (fyll på efter LYNX-refresh — validerar/finjusterar modellen)
 | Sida | Block | Före | Efter (ny LYNX) | Vad vi ändrade | Datum |
 |---|---|---|---|---|---|
-| ipl-rosacea.php | 7 block (5🔴+2🟠 av 11); desc-p2, Inför-p1/p2, Process-p2/p3, Eftervård-p1/p2 | 🔴/🟠 | *(LIVE 1 juli; väntar LYNX-refresh — status: `lynx-models` §11.1)* | de-AI: öppningar→mekanism/aktiv imperativ, antites "inte bara X utan Y"/marknadssvans/importans/passiv bort; 3 interna länkar + sökord behållna. Workflow-predikt (15 agenter): **alla 7 → SLIGHT**, sidnivå-median → SLIGHT (§1.4). A/B: bryter AI STYLE-taket 25? | 2026-07-01 |
+| ipl-rosacea.php | 7 block (5🔴+2🟠 av 11); desc-p2, Inför-p1/p2, Process-p2/p3, Eftervård-p1/p2 | 🔴/🟠 | *(status: `lynx-lage` §11.1)* | de-AI: öppningar→mekanism/aktiv imperativ, antites "inte bara X utan Y"/marknadssvans/importans/passiv bort; 3 interna länkar + sökord behållna. Workflow-predikt (15 agenter): **alla 7 → SLIGHT**, sidnivå-median → SLIGHT (§1.4). A/B: bryter AI STYLE-taket 25? | 2026-07-01 |
 | *(fler fylls i när resultat kommer)* | | | | | |
