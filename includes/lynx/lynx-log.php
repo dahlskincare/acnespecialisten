@@ -44,6 +44,15 @@ Fulltext flyttas till **`includes/lynx/lynx-log-archive.php`**; kvar här blir e
 | behandla-pigmentflackar.php | 14 | – | – | –/– | SIGNIFICANT | GOOD | – | 16 |
 | hudproblem/hudforandringar/ | 10 | – | 17 | 3/2 | SIGNIFICANT | OK | – | 8 |
 
+### 2026-07-08 #38 — §9 grupperad så startritualen fungerar. En öppen tråd hade arkivet som enda bärare.
+**In:** Ägarfråga: *"när jag skriver lynx nästa gång, får jag intron och kan välja en TODO?"* Svaret var nej. Tre fel hittade genom att läsa START som en ny session gör.
+**Fynd:**
+- **§9 öppnade med 25 rader avslutat arbete.** En ny Claude mötte `✅ STÄNGD — CHECK-REVISIONEN` och `✅ SLUTFÖRT §9.0` under rubriken TODO, före första öppna punkten. [STÄNGD]
+- **Kön var osorterad.** 24 öppna rader i en hög: sidarbete, ägar-beställningar, mätning, och en meta-punkt (datum-svepet) som spärren förbjuder att föreslå. Startritualen säger *"LISTA BARA SIDARBETE"* — det gick inte att göra utan att sortera högen först. [STÄNGD]
+- **🔴 EN ÖPPEN TRÅD HADE ARKIVET SOM ENDA BÄRARE.** `oonskat-har`s saknade AIQ-frågelista följde med när §9.0 arkiverades. §0 förbjuder det uttryckligen. Återställd som öppen rad. **Två andra flaggor var falsklarm** — täckta av §9 rad 94 respektive §11.1:s FÖRE-baseline. Semantisk kontroll, inte strängmatchning, avgjorde vilken som var vilken. [STÄNGD]
+- **Arkivering måste alltid följas av en tråd-kontroll.** Ett block som flyttas till HISTORIK kan bära öppna trådar mitt i sig. Kontrollera varje tråd mot en AKTIV cell **efteråt**, aldrig genom att lita på att man såg dem. [RATIFICERAD → §0.1]
+**Åtgärd:** §9 i fem grupper — SIDARBETE (9 rader, det enda som får föreslås) · ÄGAR-BESTÄLLNINGAR (5) · MÄTNING & BEVAKNING (10) · PARKERAT (3) · STÄNGT (5, sist). Inga rader omskrivna, bara flyttade; datum-svepet till §9.3. Bannerraden i `lynx-status` pekade på en router som bor i START — rättad. **Verifierat: 33 av 34 block oförändrade, det 34:e flyttat.**
+
 ### 2026-07-08 #37 — Filnamnen normaliserade till engelska. Avslutat arbete flyttat ur den AKTIVA arbetsfilen.
 **In:** Tre ägarbeslut i följd: engelska filnamn · `lynx-lage` → `lynx-status` · arkivera avslutat arbete. Plus ägar-observation som blottade ett strukturfel.
 **Fynd:**

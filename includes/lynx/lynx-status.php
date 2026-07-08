@@ -15,7 +15,7 @@ PEKAR-PÅ      lynx-START = router/invarianter/§-KARTA · lynx-backlog = TODO/c
 
 ---
 
-> **🟢 LÄGE 2026-07-08** *(ny session: läs denna banner → routern överst → rätt fil för din uppgift; arbetet i `lynx-backlog.php`)*
+> **🟢 LÄGE 2026-07-08** *(ny session: läs `lynx-START` först — router, spärr och invarianter. Denna fil säger var vi står; `lynx-backlog` §9 säger vad som är öppet.)*
 > - **Mål:** LYNX grönt **utan att skada ranking/trafik**. **RAMEN (verifierad 6 jul):** spaken är SUBSTANS-kvalitet; AI COPY-flaggan är PROXY, Google straffar ej AI-text (lynx-rewrite §1). **SCORE ska INTE jagas** — tak ~75-77 på våra sidtyper, EEAT-badge låst 60 (lynx-score/models).
 > - **🎯 Mätt: 6/6 — varje prediktion har träffat.** acne-ansikte 🔴→🔵 · behandla-pigmentflackar 🔴→🔵 (tvåstegs-hopp) · om-oss 🔵 (badge bekräftad 8 juli) · **mogen-hy · solskadad-hy · rhinophyma-rosacea alla 🟠→🔵 den 8 juli.** §1.1 nyckel 1 kausalbelagd. Kvar: pigmentflackar (omanalys) + **AI STYLE-testet på rhinophyma — beställ SCORE-popupen.** *(Cache — kanonisk cell: `lynx-models` §11.1.)*
 > - **✅ ALLA flagg-sidor LIVE PÅ MAIN.** Wave 2 (6 Fas 3 + pigmentflackar + småfixar: milier-pris, Google Meet, d3ce9162) **pushad till main 6 jul (ägarbeslut) → VERIFIERAD LIVE PÅ PRODUKTION**: alla 20 ändrade sidor HTTP 200, 0 PHP-fel, nytt innehåll bekräftat (logg #13 produktions-verifiering; staging-kontrollen arkiverad, `lynx-log-archive` 6 juli #12). §10.0 GSC-gaten passerad på ägarbeslut. **Kvar på dessa = passiv mät-uppföljning (LYNX-refresh + GSC), ej blockerande.**
