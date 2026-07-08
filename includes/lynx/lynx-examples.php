@@ -255,8 +255,35 @@ PEKAR-PÅ      lynx-rewrite §1.1/§1.3/§1.4 = bedömningsmodellen · lynx-exam
 
 **Median-check (§1.4):** 4🔴/2🟠/7🔵/3🟢 (n=16) → median 🔵 = sidnivå SLIGHT ✓ (inventeringen). **Obetygsatt:** H2, "Se alla omdömen Se alla omdömen" (dubblett), 7 FAQ-titlar (Fas 2-underlag). **Rewrite-ammo:** typo "markanden"→"marknaden" (🟢-block, lätt hand); "microneedling kur" finns i eftervårdsblocket men gap:en vill ha den i hero/paketpris-sektionen; exosomer-gap = VÄNTAR (§9).
 
-### 🔧 REWRITE-SPEC microneedling.php (AKTIV — flyttad hit ur `lynx-logg` 8 juli)
-> Loggen är HISTORIK och får inte vara enda bärare av en aktiv spec (POST-MALLENS ram 4). Rewriten påbörjades 2 juli och ÅTERRULLADES på ägarbeslut (statistiken skulle sammanställas först); block-planen bevarades. **Typos/språkfel redan fixade separat** — kvar är enbart de-AI-omskrivningen. Raderas när sidan är omskriven.
+### 🔧 REWRITE-SPEC microneedling.php (AKTIV — läs HELA innan du rör en bokstav)
+> Rewriten har försökts **två gånger och rullats tillbaka två gånger**: 2 juli (ägarbeslut: statistiken först) och **8 juli (§7.4b-granskningen underkände den)**. Block-planen nedan är fortfarande giltig. Fällorna under den är verifierade, inte hypotetiska — de kommer ur den granskning som fällde försök 2. Raderas när sidan är omskriven och godkänd.
+
+#### ⛔ FÄLLORNA — sex ALLVARLIGA fynd ur §7.4b 8 juli (tre oberoende granskare, 232k tokens)
+1. **§5-BROTT PÅ RAD 64, i en mening du kommer att redigera.** `"ett smärtfritt alternativ ... och erbjuder minimala risker för biverkningar"`. §5 förbjuder ordet **"smärtfritt"** ordagrant och förbjuder riskfritt-intryck (KO-praxis). Meta-descriptionen (rad 7) har `✓Smärtfritt`. **Kör §3-checklistans riskfritt-fråga på VARJE block.** *(Sajtbrett: 12 filer, egen §9-tråd.)*
+2. **`process-p2`: strök du "maximera hudens upptagningsförmåga" OCH "stimulera förnyelseprocessen"?** Det är TVÅ distinkta syften med serumet. Ersätt dem inte med `"medan de fortfarande är öppna"` — det påståendet gör sidan aldrig. §13.D + §13.O.
+3. **`prep-p1`: konsultationen identifierar "specifika behov OCH hudtillstånd".** Två saker. Hitta inte på `"vilka produkter du använder idag"` — det står ingenstans.
+4. **`prep-p2` bär ett PROAKTIVT löfte:** *"Din hudterapeut kommer att ge dig all information du behöver."* Invertera det inte till reaktivt (*"svarar om du frågar"*). Kliniken slutar då lova något.
+5. **`aftercare-p2` och `desc-p1` bär HEDGAR som är juridik, inte fluff:** `kan öka` (svullnad) · `kan vara extra skadlig` (UV) · `syftar till att förbättra`. Stryk dem inte. `"förbättrar"` är ett obetingat effektlöfte (§5). `aftercare-p1`:s `"normalt"` är §4.1:s keeper *biverkning som bevis på effekt* — behåll det, och mildra inte `svullen` till `lite svullen`.
+6. **BANNERN (facit 🔵): lägger du till kur-meningen MÅSTE du också ta öppningen.** `"Som ledande experter ... toppmodern behandling"` är marknadssuperlativ. En blind bedömare gav blocket **SIGNIFICANT (konf 72)** efter att en mening lagts till utan att öppningen rörts — §1.1 nyckel 1: *fluff-ackumulering × längd höjer graden*. Antingen de-AI:a hela bannern, eller lägg kur-meningen någon annanstans. *(Ägaren erbjöd bannern 8 juli; den som gör det behöver inte fråga igen.)*
+
+#### ⚠️ Sju gränsfall att inte upprepa
+- **Kur-poängen får bara stå på ETT ställe.** Den finns redan i `aftercare-p3` (🔵, orörd per spec). Lägger du den i bannern OCH säger `"hur många gånger du behöver komma"` i `prep-p1` står den tre gånger. §3: ingen poäng upprepad mellan block.
+- **`desc-p1` och `process-p2` beskriver samma mekanism.** Skriv du båda mot mekanism-mallen blir de nästan ordagrant lika. Differentiera: `desc-p1` = vad behandlingen ÄR, `process-p2` = vad som händer i rummet.
+- **Mekanismen på sidan är att SKADAN triggar kollagensvaret** (rad 20 + rad 83), inte att kanalerna gör det. Låt inte kanalerna orsaka cellförnyelsen.
+- **Komma-täthet.** Försök 2 sänkte ordantalet 20 % i de rörda raderna men ADDERADE fem komman (4,4 → 6,8 per 100 ord). Räkna komman, inte bara ord.
+- **Språk:** `avstå smink` → `avstå FRÅN smink`. `maskin för ... nålar genom huden` läses som *maskin avsedd för nålar* (garden-path). `Kanalerna gör två saker:` är translationese + list-scaffold i prosa (§2: bunden prosa).
+- **`Samtidigt ... medan`** = pleonasm.
+- **`din microneedling session`** är särskrivning + anglicism, men frasen fanns FÖRE — rör den bara om du rör meningen ändå.
+
+#### 📌 Orörda block: notera, skriv inte om (facit 🔵/🟢 — §13.D: facit trumfar tyckande)
+`$floating_box` (`innovativ och effektiv`, `adressera`) · `$types_description` (satsfragment, `vilket är effektivt`) · `$service_brands_text` (`vilket` → `som`; obelagt superlativ `de modernaste och mest effektiva ... på marknaden`) · FAQ-svaren (`skräddarsy`, `Intressant nog`) · `$description_title` (*Hur fungerar metoden?*) dubblerar article-titeln (*Hur går behandlingen till?*) — den strukturella orsaken till innehållsdubbleringen.
+**Äkta bugg, egen §9-tråd:** kortet *Microneedling mot Pigmentfläckar* visar `mogen-hy.webp` med alt `Microneedling för Pigmentfläckar`. Rätt bildfil finns.
+
+#### ✅ Det som FUNGERADE i försök 2 (återanvänd)
+Alla sex 🔴/🟠-block predikterades **SLIGHT** av en blind bedömare som inte såg facit — målet nåddes. `§6`-fras-kollen var grön (0 av 8 målfraser tappade). Em-strecket borta. `inklusive men inte begränsat till` → `till exempel`. Passiv → aktiv imperativ i eftervård och förberedelse. Kur-meningens siffror är verifierade mot `procedures` (3 behandlingar 7995 kr, 5 behandlingar 10995 kr).
+
+#### 🎯 FÄRSK FÖRE-BASELINE (8 juli 10:55, timmar före försök 2)
+VALUE 66 · SCORE **60** (var 50) · GAPS 0⚡/1💡 · AI COPY 🔵 SLIGHT · AIQ OK · P.PRICE HIGHEST · KW 63. Block-facit 22 april: 4🔴/2🟠/7🔵/3🟢 (n=16, medel 1,44). **Sidnivå väntas stanna 🔵** — detta är en SCORE-vinst, inte en flagg-vinst (§1.4). *(WORDS/CLICKS ej synliga i vyn → §10.0 punkt 3 ouppfylld.)*
 
 **Block-plan (11 punkter):** (1) banner: tankstreck→komma + NY kur-mening för §8.1-gapet ("Bäst resultat ger en microneedling kur på 3 eller 5 behandlingar, eftersom kollagenet byggs upp gradvis mellan behandlingarna"); (2) desc-p1 🔴: mekanism-öppning, behåll 16-nålar/tusentals-kanaler/serum/alla-hudtyper, döda ", vilket möjliggör"; (3) desc-p2 🔵 lätt hand: "inklusive men inte begränsat till"→"till exempel" (translationese); (4) prep-p1 🔴: konsult-boilerplate→konkreta vi-handlingar; (5) prep-p2 🟠: aktiv imperativ ("Kom inte solbränd..."), importans+svans bort; (6) process-p2 🔴: "speciellt utformade"/"maximera"/strålande-svans bort, grammatikfel "slussas in kanalerna" rättas, rodnad-är-normalt behålls; (7) aftercare-p1 🔴: importans-öppningen (ren meta) bort, imperativ, 24-timmar/smink/smutsiga-händer kvar; (8) aftercare-p2 🟠: "undvika"→"Undvik", "bastu, och"→"bastu och", "av yttersta vikt"/"rekommenderas att" bort, SPF/milda-produkter/fuktbalans kvar; (9) brands: typo "markanden"→"marknaden"; (10) kort-grammatik: "våra resultatinriktade microneedlingbehandling"→"vår...", "bristningarnas utseendet"→"utseende"; (11) FAQ §1.5: topp-frågan "Vad är microneedling bra för?" (score 25, OK) — svaret kompletteras med pigmentfläckar/bristningar/aktiv acne (sidans egna behandlingar); FAQ-typo "micronnedling"→"microneedling" (typon BRYTER sökordsfrasen "microneedling resultat"). Aftercare-p3 🔵 med "microneedling kur" lämnas orörd.
 

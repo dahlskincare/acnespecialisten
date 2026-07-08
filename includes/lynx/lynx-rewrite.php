@@ -271,8 +271,12 @@ Sidorna rankar redan på sökord. Omskrivningen får höja kvaliteten **utan att
 
 **E. Definition of Done.** `statuskoll.py` grön (ingen cell säger emot §11.1); `git diff` rör bara mål-`.php` (+ logg); deploy grön; **sidan testad på staging-URL → HTTP 200 + renderad HTML (inte blankt/500, §13.C) §7.6**; sökord finns kvar (grep); LYNX-baseline + ändring loggad i §11. Först då töms claim i §12.
 
+**⚠️ ORDNINGEN (skärpt 8 juli): §7.4b-verifieringen körs FÖRE du visar ägaren, inte efter.** Ägaren kan bara svara på "ändrar jag för mycket?" om underlaget stämmer. Ett pass godkändes 8 juli på en kvittens som senare visade sig felaktig; granskningen fällde texten efteråt. Visa ägaren granskarnas fynd, inte bara din egen sammanfattning.
+
 **Autonom-kvittens (obligatorisk när ingen ägare följer varje steg — annars är sidan inte klar).** §13.O:s "visa ägaren varje steg" finns inte för en autonom exekutor, så klistra in detta i §11-loggen per sida; det gör "ändrade jag för mycket?" (START HÄR) mätbart i efterhand:
-- **Punkt-count:** block/`<li>`/sakpoänger FÖRE = EFTER per omskrivet block (§13.D). Blev det färre → motivera varje borttagen (ren dubblett/fyllnad) eller återställ.
+- **Punkt-count — ⚠️ FÅR INTE VARA SJÄLVGRADERAD (skärpt 8 juli efter ett underkänt pass).** Räkna inte "sakpoänger" på känsla och rapportera en siffra. **Skriv ut listan:** numrera varje sakpoäng i FÖRE-blocket ordagrant, para ihop den med sin motsvarighet i EFTER, och namnge den som saknar motsvarighet. En siffra du själv bestämt innebörden av är ingen kvittens — det är ett omdöme i kvittensens kläder. *(Incident: en rewrite rapporterades "45 → 45 sakpoänger, 2 medvetna trimmar" och gick igenom ägar-godkännande. §7.4b-granskningen hittade sedan fem tappade poänger och tre påhittade påståenden i samma text. Samma felklass som en check som kan returnera tyst grönt.)*
+- **Claim-hedgar räknas som substans, inte fluff.** `kan öka`, `kan vara`, `syftar till att` är ofta juridik (§5), inte fyllnad. Att stryka en hedge är att skärpa ett påstående. Räkna dem i punkt-counten.
+- **Nya påståenden:** varje mekanism- eller sakpåstående i EFTER som inte finns i FÖRE måste kunna beläggas någon annanstans på sidan. Kan det inte det, är det påhittat (§5).
 - **Sökord:** `grep` bekräftar att varje målfras (§6) finns kvar.
 - **PHP:** inga råa apostrofer/backslash i copy-strängar (§13.C). *(OBS: `php -l` går INTE lokalt — `php` saknas i Claude-skalet på denna maskin; verifiera syntax via staging-deploy istället: HTTP 200 + renderad HTML, inte 500.)*
 - **Live:** staging HTTP 200 + grep på en NY formulering syns i svaret (§7.6).
