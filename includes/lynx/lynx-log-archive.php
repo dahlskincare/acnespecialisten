@@ -1,5 +1,5 @@
 <?php exit; /* intern LYNX-arbetsfil – ej webb-serverad, läs i editor/git */ ?>
-# LYNX Arbetslogg — ARKIV (avslutade & mätta §11-poster)
+# LYNX LOG — ARKIV (avslutade & mätta §11-poster)
 
 ```
 ▣ MANIFEST
@@ -13,7 +13,6 @@ PEKAR-PÅ      lynx-log = aktiva poster + enrads-referenser · regelfilerna bär
 > Hit flyttas §11-poster från `lynx-log.php` när de är stängda: antingen ratificerade i regler/ersatta av nyare poster, eller (för sid-poster) när deras §11.1-rad är MÄTT (arkiv-policy R1–R6, `lynx-log.php` §11). Kvar i lynx-log blir en enrads-referens per arkiverad post. Ordning: senaste överst. Fulltext här är **HISTORIK — aldrig retroaktivt uppdaterad**; gällande sanning bor i regelfilerna och i lynx-START. *(Filnamnen rättade 7 juli — §11 flyttade från playbooken till lynx-log vid splitten 6 juli. Stort arkiveringspass 8 juli: 23 poster enligt R2/R3 (em #2 delvis — dess microneedling-block-plan står kvar aktiv i lynx-log), fil-optimeringspasset §9.0 steg 4.)*
 
 > **⚠️ §-referenser i denna fil avser filstrukturen vid postens datum.** Sedan 8 juli bor **§8, §8.1, §9, §9.0, §9.1 och §12 i `lynx-backlog.php`** (ej lynx-START). §-KARTAN i `lynx-START.php` är resolvern. Historik uppdateras aldrig retroaktivt.
-
 
 ### 2026-07-06 #12 — FÖRE-SEMESTER-KONTROLL av alla ändrade sidor (ägar-beställd: "lämna sidan i rätt skick") → ALLT GRÖNT
 Kontrollpass över de **20 ändrade innehållssidorna** (diff `main..staging`, exkl. `includes/lynx/`-arbetsfilerna). Syfte: verifiera att det vi gjort FUNGERAR + STÄMMER med riktlinjerna innan 3 v semester. Metod = mekanisk regression + §7.6 live + §6 fras-koll + §3 copy-paste-rest (INTE ny djup-§7.4b — den kördes redan per sida vid rewrite).

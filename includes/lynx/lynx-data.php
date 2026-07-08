@@ -1,5 +1,5 @@
 <?php exit; /* intern LYNX-arbetsfil – ej webb-serverad, läs i editor/git */ ?>
-# LYNX-data — AKTUELLT LÄGE per sida · kolumndefinitioner · sidregister · beställningssedel
+# LYNX DATA — AKTUELLT LÄGE per sida · kolumndefinitioner · sidregister · beställningssedel
 
 ```
 ▣ MANIFEST

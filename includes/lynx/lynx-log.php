@@ -1,5 +1,5 @@
 <?php exit; /* intern LYNX-arbetsfil – ej webb-serverad, läs i editor/git */ ?>
-# LYNX LOGG — arbetslogg (händelsehistorik, senaste först)
+# LYNX LOG — arbetslogg (händelsehistorik, senaste först)
 
 ```
 ▣ MANIFEST
@@ -43,6 +43,16 @@ Fulltext flyttas till **`includes/lynx/lynx-log-archive.php`**; kvar här blir e
 | ytliga-blodkarl.php | 42 | – | 22 | 2/2 | SIGNIFICANT | OK | – | 172 |
 | behandla-pigmentflackar.php | 14 | – | – | –/– | SIGNIFICANT | GOOD | – | 16 |
 | hudproblem/hudforandringar/ | 10 | – | 17 | 3/2 | SIGNIFICANT | OK | – | 8 |
+
+### 2026-07-08 #37 — Filnamnen normaliserade till engelska. Avslutat arbete flyttat ur den AKTIVA arbetsfilen.
+**In:** Tre ägarbeslut i följd: engelska filnamn · `lynx-lage` → `lynx-status` · arkivera avslutat arbete. Plus ägar-observation som blottade ett strukturfel.
+**Fynd:**
+- **Namnen:** `lynx-logg` → `lynx-log` · `lynx-log-arkiv` → `lynx-log-archive` · `lynx-data-arkiv`/`lynx-examples-arkiv` → `-archive` · `lynx-lage` → `lynx-status`. Ursprunget till log/logg-krocken: arkivfilen föddes 2 juli när loggen ännu var §11 inuti playbooken — det fanns ingen logg-fil att matcha. **Ingen bestämde, det bara blev.** [STÄNGD]
+- **Ägar-fynd som jag missade: jag la avslutade ARBETSposter i LOGGENS arkiv.** Fel låda. Setets egen konvention är en arkivfil per växande fil (`data`→`data-archive`, `examples`→`examples-archive`). Därför: **`lynx-backlog-archive.php`** skapad. Loggen dokumenterar händelserna; backloggen bär arbetslistan och sin egen historia. [STÄNGD]
+- **§9.0-passet + CHECK-REVISIONEN (79 rader avslutat arbete) flyttade dit.** `lynx-backlog` 239 → 172 rader; kvar är stubbar med utfallet och en pekare. En AKTIV fil bär inte historik (§0). [STÄNGD]
+- **`backlog` behålls (ägarbeslut efter genomgång).** Ordet är korrekt facktermin — "lista över kommande arbete", inte "vi ligger efter". Mitt förslag `lynx-work` avvisades och namnet är etablerat. §9.1 "Prioriterad helsides-backlog" är dessutom en äkta backlog. [STÄNGD]
+- **Sex gånger i dag har mina EGNA kontrollnålar gett falsklarm** (skiftläge, fel filmängd, gissade sökord). Två av dem stoppade en felaktig flytt genom assertion — det är enda skälet att §9.0-kroppen inte tystnade i fel fil. **Mät på innehåll, aldrig på gissade ord.** [RATIFICERAD → §0.1]
+**Åtgärd:** 15 filer, alla med manifest, php-guard och **rubrik som stämmer med sitt filnamn** (fem rättade). §-KARTAN 33/33, statusinvarianten 0 brott. Kvar parkerat i §9.3: `lynx-`-prefixet · versaliseringen i `lynx-START`.
 
 ### 2026-07-08 #36 — Återgivningarna borta: nu finns status på exakt ett ställe. LYNX-setupen är klar.
 **In:** Ägarbeslut: "fixa dem, jag vill bli helt klar." De tre återgivningarna av MÄTT/OMÄTT i backlog, `lynx-data` och `lynx-examples`.

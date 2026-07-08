@@ -1,5 +1,5 @@
 <?php exit; /* intern LYNX-arbetsfil – ej webb-serverad, läs i editor/git */ ?>
-# LYNX-data ARKIV — historiska Pages-snapshots (rådumpar, verbatim; senaste överst)
+# LYNX DATA — ARKIV (historiska Pages-snapshots rådumpar, verbatim; senaste överst)
 
 ```
 ▣ MANIFEST

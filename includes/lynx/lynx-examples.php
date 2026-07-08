@@ -1,5 +1,5 @@
 <?php exit; /* intern LYNX-arbetsfil – ej webb-serverad, läs i editor/git */ ?>
-# LYNX AI COPY — per-block-facit (AKTIV facit-bank)
+# LYNX EXAMPLES — AI COPY per-block-facit (AKTIV facit-bank)
 
 ```
 ▣ MANIFEST
