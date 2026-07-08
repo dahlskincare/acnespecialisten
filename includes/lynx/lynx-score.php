@@ -6,11 +6,11 @@
 KIND          REGEL: SLUTLÄGE + EXTERN VERIFIERING     AKTIV: färska nedbrytningar (rådata)     HISTORIK: gamla skalan + superseded lager (nederst)
 LADDA-NÄR     SCORE-fråga · ny nedbrytning kommer in · när en gammal (>30 dgr) analys dyker upp
 KANONISK-FÖR  SCORE-modellens HÄRLEDNING (slutsats A–F) · alla SCORE-nedbrytningar (rådata) · den externa verifieringen
-PEKAR-PÅ      lynx-models §1.2 = operativa sammanfattningen · lynx-models §11.1 = mätprincipen · lynx-data = Pages/AKTUELLT LÄGE
+PEKAR-PÅ      lynx-models §1.2 = operativa sammanfattningen · lynx-status = mätreglerna (§11.1) · lynx-data = Pages/AKTUELLT LÄGE
 ```
 
 > **SCORE-kolumnens datafil** (filkarta i `lynx-data.php`). Alla nedbrytningar: Overall · CONTENT QUALITY [Base/Depth/Evidence/Language/Readability] · E-E-A-T [Experience/Expertise/Authority/Trust] · AI STYLE [Human-like].
-> **TVÅ SKALOR — jämför aldrig kors.** GAMLA analyser ("Analyzed >30 days ago") följer den multiplikativa formeln Overall ≈ CQ×EEAT×AI/3640 (7/7). FÄRSKA följer medel(CQ-badge, EEAT-badge). **Jämför ALDRIG färsk mot gammal** (mätregel 1, `lynx-models` §11.1).
+> **TVÅ SKALOR — jämför aldrig kors.** GAMLA analyser ("Analyzed >30 days ago") följer den multiplikativa formeln Overall ≈ CQ×EEAT×AI/3640 (7/7). FÄRSKA följer medel(CQ-badge, EEAT-badge). **Jämför ALDRIG färsk mot gammal** (mätregel 1, §11.1).
 > **SCORE 0/blank = pågående omanalys/indexering som sätter sig SJÄLV** (ägarbesked 7 juli — "trasig" var överdrift): acne-rygg 0→69, sebo 0→74, acnearr 0→74, micro-nollorna→komplett; alla utan omkörning → **be inte om omkörning**, vänta in nästa dump.
 > **Arbetsfördelning:** härledningen bor HÄR (SLUTLÄGE nedan); den operativa sammanfattningen bor i `lynx-models` §1.2. Ett fakta, en cell.
 > **Öppet:** SCORE-kolumnens officiella tooltip saknas ännu — beställd.
@@ -29,7 +29,7 @@ Nio färska nedbrytningar (6 juli) + fyra (7 juli) + Pages-vyns bekräftelser. *
 
 **⇒ OPERATIVT (det enda som ska styra arbete):** rör **aldrig** copy för att jaga EEAT- eller CQ-badge — antingen låsta, eller så rör de sig av sig själva när LYNX uppdaterar (vänta på observerad delta). SCORE-Overall är nästan uttömt och lågt takat på våra sidtyper. Den bevisade vinsten ligger i **AI COPY-flaggan** (§1.1, kausalt belagd) + **AIQ** (§1.5). Höj Evidence (CQ:s lägsta sub, 70–82) för substansens skull, §5-filtrerat — inte för garanterad SCORE.
 
-**Mätprincipen är kanonisk i `lynx-models` §11.1** — läs de fem mätreglerna innan någon FÖRE→EFTER-slutsats dras ur tabellerna nedan. Kort: uppdateringsenheten är (sida × vy); attribuera endast vid **observerad delta** mellan två analyser med olika värden; blank/0 = pågående omanalys. Därför är "EFTER"-etiketter i rådatan nedan PROVISORISKA.
+**Mätprincipen är kanonisk i §11.1** — läs de sex mätreglerna innan någon FÖRE→EFTER-slutsats dras ur tabellerna nedan. Kort: uppdateringsenheten är (sida × vy); attribuera endast vid **observerad delta** mellan två analyser med olika värden; blank/0 = pågående omanalys. Därför är "EFTER"-etiketter i rådatan nedan PROVISORISKA.
 
 **Öppna trådar ur SCORE-datan:** roaccutan 23 + melasma 23 = lägsta färska → be om nedbrytning (troligen tunt/dublett-innehåll) · powerlite saknas i repot (F) · SCORE-tooltippen · skärmbild 2:s rad-tilldelning (ytliga-blodkarl 74) bekräftas med ägaren.
 

@@ -147,7 +147,7 @@ Kryssa här. Start/stopp-vänligt: status = §9 + §11 (logg) + §12 (claims). P
   - **Heredoc:** citera alltid avgränsaren — `<<'EOF'`, aldrig `<<EOF`. Utan fnuttar tolkar skalet innehållet först och kodblocket töms tyst. Gäller varje engångsskript.
   - *(Ägarbeslut 8 juli: ingen pre-commit-hook. Allt LYNX-arbete stannar i `includes/lynx/*.php` — ingen ny filtyp, ingen git-konfiguration. Spara och pusha alltid.)*
   *(Den fullständiga incident-tabellen beskrev buggar i raderad kod. Den ligger i git-historiken; skälen i logg #26–#28.)*
-- [x] ~~Beställning: SLIGHT-raderna ur AICOPY-vyn~~ — **LEVERERAD 8 juli.** Mätningen står i `lynx-models` §11.1; rådata i `lynx-data-archive`.
+- [x] ~~Beställning: SLIGHT-raderna ur AICOPY-vyn~~ — **LEVERERAD 8 juli.** Mätningen står i §11.1; rådata i `lynx-data-archive`.
 - [x] **NAMNKONVENTION — ÄGARBESLUT 8 juli: engelska filnamn.** Genomfört: `lynx-logg` → `lynx-log` · `lynx-log-arkiv` → `lynx-log-archive` · `lynx-data-arkiv` → `lynx-data-archive` · `lynx-examples-arkiv` → `lynx-examples-archive`. Samma pass: `lynx-lage` → `lynx-status`. 98 referenser uppdaterade, §-KARTAN 33/33 grön. **Kvar, parkerat i §9.3:** `lynx-`-prefixet (bakar in leverantören i varje filnamn — hör ihop med produktifierings-beslutet) · versaliseringen i `lynx-START` (enda filen med versaler).
 
 ## 9.1 Prioriterad helsides-backlog (hela sajten, 2026-07-01)

@@ -43,8 +43,8 @@ PEKAR-PÅ      lynx-data-archive = snapshots verbatim · lynx-examples/score/que
 *(SCORE-kolumnens tooltip ingick inte i leveransen — be om den vid tillfälle. AI FEATURES-kolumnen (toggle, sedd 7 juli) odokumenterad — tooltip beställd, se beställningssedeln #9.)*
 
 ## AKTUELLT LÄGE (senaste kända värde per sida × vy — datumet är del av värdet)
-> **Mätprincip (lynx-models §11.1):** LYNX uppdaterar per (sida × vy), aldrig i sajt-svep → en rads celler kan ha olika ålder. **"Sedd"-kolumnen daterar hela raden; celler med avvikande ålder får egen notering.** Markörer: **`FÖRE:`** = fryst baseline, skrivs ALDRIG över — ny avvikande mätning skrivs som `FÖRE:x → y ·datum` + mät-loop §10 · **`⟳`** = vyn blank i senaste dump = omanalys pågår (senaste kända värde står kvar; ägarbesked 7 juli: be EJ om omkörning) · **(stale)** på AI COPY-badge = crawlen äldre än vår live-text · år 2026 implicit i datum.
-> **Uppdateringsregler vid ny dump:** samma värde → uppdatera bara Sedd-datumet · nytt värde → skriv nya värdet (gamla finns i arkiv + git) · blank där värde funnits → lägg `⟳datum` (skriv ALDRIG över värde med blank) · kolumn ej synlig i dumpen → rör inte cellen · **Status/not ändras bara vid statusbyte** — prosa/prediktioner bor i §11.1 (lynx-models) och loggen. **Sida som saknas i tabellen = ingen data efter 30 juni** → se 30 juni-inventeringen i arkivet.
+> **Mätprincip (§11.1):** LYNX uppdaterar per (sida × vy), aldrig i sajt-svep → en rads celler kan ha olika ålder. **"Sedd"-kolumnen daterar hela raden; celler med avvikande ålder får egen notering.** Markörer: **`FÖRE:`** = fryst baseline, skrivs ALDRIG över — ny avvikande mätning skrivs som `FÖRE:x → y ·datum` + mät-loop §10 · **`⟳`** = vyn blank i senaste dump = omanalys pågår (senaste kända värde står kvar; ägarbesked 7 juli: be EJ om omkörning) · **(stale)** på AI COPY-badge = crawlen äldre än vår live-text · år 2026 implicit i datum.
+> **Uppdateringsregler vid ny dump:** samma värde → uppdatera bara Sedd-datumet · nytt värde → skriv nya värdet (gamla finns i arkiv + git) · blank där värde funnits → lägg `⟳datum` (skriv ALDRIG över värde med blank) · kolumn ej synlig i dumpen → rör inte cellen · **Status/not ändras bara vid statusbyte** — prosa/prediktioner bor i §11.1 och loggen. **Sida som saknas i tabellen = ingen data efter 30 juni** → se 30 juni-inventeringen i arkivet.
 
 **Flagg-gruppen (AI COPY ≥ MODERATE i senaste vyn):**
 | URL | VAL | SCORE | AI COPY | AIQ | GAPS ⚡/💡 | KW | WORDS | CLICKS | P.PRICE | Sedd | Not (status: §11.1) |
@@ -157,7 +157,7 @@ PEKAR-PÅ      lynx-data-archive = snapshots verbatim · lynx-examples/score/que
 *Föregående: 7 juli kl. 14:16 (fynd i logg #16).*
 
 ## BASELINE-REGISTER (öppna mätningar — en rad per FÖRE som väntar på EFTER; arkiveras först när mätningen är STÄNGD)
-> Kanonisk mättabell med prediktioner = **lynx-models §11.1**. Detta register skyddar FÖRE-värdena som inte får egen tabellcell. Gamla skalans FÖRE för EJ omskrivna sidor = 30 juni-inventeringen i arkivet (jämför ALDRIG gammal↔färsk, §11.1).
+> Kanonisk mättabell med prediktioner = **§11.1**. Detta register skyddar FÖRE-värdena som inte får egen tabellcell. Gamla skalans FÖRE för EJ omskrivna sidor = 30 juni-inventeringen i arkivet (jämför ALDRIG gammal↔färsk, §11.1).
 
 - **KW/WORDS/CLICKS-FÖRE, hela flagg-gruppen** = cellvärdena daterade 7/7 13:58 ovan (§10.0 punkt 2–3, krävs för GSC-passet).
 - **AI STYLE-FÖRE (färsk skala):** pigmentflackar **55** · rhinophyma **70** (7 juli, lynx-score) — jämför vid post-6 juli-crawl.

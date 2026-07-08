@@ -56,7 +56,7 @@ Säger användaren *"vi fortsätter med LYNX-uppgifterna"* eller klistrar in LYN
 §11.1                           → lynx-status      bevakningslistan (per-sida STATUS)
 §11                             → lynx-log      arbetslogg (HISTORIK)
 ```
-*(Splittrad 2026-07-06. HISTORIK-filer får inte uppdateras retroaktivt — deras §-referenser avser strukturen vid postens datum; se header-raden i respektive arkivfil.)*
+*(Splittrad 2026-07-06. HISTORIK-filer uppdateras inte retroaktivt på eget initiativ (ägaren kan begära det — se VENTILEN i §0) — deras §-referenser avser strukturen vid postens datum; se header-raden i respektive arkivfil.)*
 
 ---
 
@@ -71,7 +71,7 @@ Sync-drift uppstår när samma sanning står på två ställen. Skriv den EN gå
 |---|---|---|
 | **REGEL** | Stabil. Ändras bara när data motsäger den. Behöver inte re-läsas varje session. | `lynx-rewrite` · `lynx-models` · `lynx-score` (SLUTLÄGE) |
 | **AKTIV** | Levande. Re-läs alltid; lita aldrig på minnet av den. | **`lynx-status`** · `lynx-backlog` · `lynx-data` · `lynx-examples` · `lynx-gaps` · `lynx-questions` |
-| **HISTORIK** | Append-only. **Uppdateras aldrig retroaktivt** — dess §-referenser avser strukturen vid postens datum. Får inte styra beslut. | `lynx-log` · `lynx-log-archive` · `lynx-data-archive` · `lynx-examples-archive` |
+| **HISTORIK** | Append-only. **Uppdateras aldrig retroaktivt** *(= aldrig på eget initiativ; ägaren kan begära det — se VENTILEN)* — dess §-referenser avser strukturen vid postens datum. Får inte styra beslut. | `lynx-log` · `lynx-log-archive` · `lynx-data-archive` · `lynx-examples-archive` |
 
 **Ladda bara det uppgiftstypen kräver** (routern överst är den korta versionen):
 | Uppgift | Celler |
@@ -95,9 +95,21 @@ Sync-drift uppstår när samma sanning står på två ställen. Skriv den EN gå
 
 **Från 8 juli bor status i EN fil: `lynx-status`.** LÄGE-bannern och §11.1-tabellen ligger där tillsammans, så en människa ser läget utan att öppna fyra filer — **och det finns inget att synka mellan filer.** Det var ägarens beslut, och det stänger den sista sömmen: den 6 juli sa sex sidor "väntar main-push" medan bannern sa "live", i två olika filer. Nu kan de inte göra det.
 
-**Kvar att städa (§9.3):** `lynx-backlog`, `lynx-data` och `lynx-examples` bär fortfarande varsin återgivning av MÄTT/OMÄTT. **Ser du en: ta bort den och peka på `lynx-status`.** Vid konflikt vinner cellen, aldrig återgivningen.
+**Invarianten gäller och är testad** (8 juli, 19 strykningar i `lynx-backlog`, `lynx-data` och `lynx-examples`): **ingen fil utom `lynx-status` påstår om en sida att den är LIVE eller MÄTT/OMÄTT.** Hittar du ändå en återgivning: ta bort den och peka hit. Vid konflikt vinner cellen, aldrig återgivningen. *(Rå LYNX-data per (sida × vy) är inte en återgivning — det är mätkorpusen.)*
 
 **Ändrar du en status: greppa filsetet efter den GAMLA formuleringen och synka alla förekomster** (§0.2 state-synk-principen). Det görs för hand. Ett skript försökte göra det 8 juli och kunde bara känna igen tre exakta strängar — *"väntar på main-push"* med ett inskjutet ord passerade tyst (§9, V5). **Ögat som letar efter meningen slår en nål som letar efter en sträng.**
+
+### ▶ VENTILEN — reglerna binder exekutorn, inte ägaren (ägarbeslut 8 juli)
+**Ber ägaren om ett avsteg är avsteget tillåtet — även från en "aldrig"-regel i den här filen.** Reglerna finns för att skydda arbetet mot exekutorns egna genvägar. De är inte ett fängelse för den som äger arbetet. Utan den här raden ställs varje ny Claude inför ett omöjligt val när ägaren ber om något §0 förbjuder: vägra honom, eller lyda och lämna en oförklarad motsägelse efter sig.
+
+Tre villkor, ägarens egna ord 8 juli, och de är hela ventilen:
+1. **Du följer alltid reglerna.** Default är lydnad, inte omdöme. En regel du får tolka bort när den skaver är ingen regel.
+2. **Du frångår dem på ägarens begäran.** Ber han om det är avsteget tillåtet — även från ett "aldrig". Regeln kan finnas av ett skäl han inte minns just nu: säg vilket, med EN mening. Säger han ändå ja, gör det och förhandla inte vidare.
+3. **Du får be om att frångå dem, och förklara varför.** Att fråga är alltid tillåtet. Att avgöra själv är det aldrig. **Skillnaden mellan att be och att bara göra är hela regelverket.** *(Att be om ett avsteg är inte samma sak som att föreslå nytt arbete — den spärren står orörd i §9.3.)*
+
+**Notera avsteget där det gjordes.** Bad ägaren uttryckligen om ingen notering är git-historiken spåret, och det räcker.
+
+**Retroaktiv ändring av HISTORIK kräver alltså ägarbeslut — men den är inte förbjuden.** Läs "uppdateras aldrig retroaktivt" i KIND-tabellen som **"aldrig på eget initiativ"**.
 
 **Två fällor som kostat oss tid, båda strukturella:**
 1. **En öppen tråd får aldrig ha loggen som enda bärare.** Loggen är historik. Skapa §9-raden i `lynx-backlog` först, länka sen.

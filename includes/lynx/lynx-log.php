@@ -6,7 +6,7 @@
 KIND          HISTORIK — append-only, aldrig retroaktivt uppdaterad. INGEN öppen tråd får ha loggen som enda bärare.
 LADDA-NÄR     "vad beslutades om X, och varför?" — sällan. Aldrig för att veta nuläget (det bor i lynx-START LÄGE + lynx-backlog).
 KANONISK-FÖR  §11 arbetsloggen: händelsehistorik + POST-MALLEN + arkiv-policyn R1–R6
-PEKAR-PÅ      lynx-log-archive = äldre poster (fulltext) · lynx-backlog = öppna trådar · lynx-models §11.1 = mätstatus
+PEKAR-PÅ      lynx-log-archive = äldre poster (fulltext) · lynx-backlog = öppna trådar · lynx-status = mätstatus (§11.1)
 ```
 
 > Vad vi gjort + varför, per session. Referens/historik — läs vid behov (t.ex. "vad beslutades om X?"). Äldre poster arkiveras till `lynx-log-archive.php`. State/nästa-steg bor i `lynx-START.php`, inte här.
@@ -24,7 +24,7 @@ Senaste först. Korrelera mot LYNX-refresh. Per omskrivning: spara **FÖRE-basel
 **Fynd:** max 5 punkter à 1 rad. Varje punkt SLUTAR med en tagg:
    [ÖPPEN → §9-rad] · [RATIFICERAD → fil/§] · [STÄNGD] · [BASELINE → §11.1]
 **Åtgärd:** 1 rad — vilka filer uppdaterades + nästa steg.
-**Baseline/prediktion** (endast sid-poster): 1 rad — FÖRE-siffror + förväntat EFTER (kanonisk kopia i lynx-models §11.1).
+**Baseline/prediktion** (endast sid-poster): 1 rad — FÖRE-siffror + förväntat EFTER (kanonisk kopia i §11.1).
 ```
 **Hårda ramar:** (1) blockdetaljer per omskrivning loggas ALDRIG i posten — git-diffen och `lynx-examples` äger dem; (2) §13.E-kvittensen skrivs som EN rad ("kvittens grön: sökord / punkt-count / streck"), grep-siffrorna går i commit-meddelandet; (3) en regel- eller modelländring beskrivs i REGELFILEN — posten får bara pekaren, aldrig samma prosa två gånger; (4) **en öppen tråd får ALDRIG ha loggen som enda bärare** — skapa §9-raden först, länka sen.
 
@@ -43,6 +43,15 @@ Fulltext flyttas till **`includes/lynx/lynx-log-archive.php`**; kvar här blir e
 | ytliga-blodkarl.php | 42 | – | 22 | 2/2 | SIGNIFICANT | OK | – | 172 |
 | behandla-pigmentflackar.php | 14 | – | – | –/– | SIGNIFICANT | GOOD | – | 16 |
 | hudproblem/hudforandringar/ | 10 | – | 17 | 3/2 | SIGNIFICANT | OK | – | 8 |
+
+### 2026-07-08 #43 — VENTILEN införd i §0: reglerna binder exekutorn, inte ägaren. Fyra drift-fel rättade.
+**In:** Ägar-beställd regelöversyn efter strukturändringarna (*"kan du se över våra regler snabbt"*). Ingen mätdata. Inget ändrades förrän ägaren godkänt punkt för punkt.
+**Fynd:**
+- **§0 saknade en ventil.** Bad ägaren om något en "aldrig"-regel förbjöd stod exekutorn inför ett omöjligt val: vägra honom, eller lyda och lämna en oförklarad motsägelse. **Ägarens tre villkor, hans ord:** du följer alltid reglerna · du frångår dem på hans begäran · du får be om att frångå dem och förklara varför. [RATIFICERAD → §0 VENTILEN]
+- **`§11.1`-pekaren var död på 14 ställen.** §11.1 flyttade till `lynx-status` 8 juli, men fjorton celler sa fortfarande `lynx-models §11.1` — inklusive `lynx-status` själv, som skickade läsaren till en annan fil för att läsa sig själv, och `lynx-models`, som pekade på sig själv om något den inte längre bär. **§0 förbjuder redan "§N i `<filnamn>`". Regeln bröts fjorton gånger, alltså gällde den inte.** Fixen är att stryka filnamnet, inte att byta det. 11 rättade · 3 lämnade (daterade HISTORIK-poster). [STÄNGD]
+- **`lynx-START` §0 bar ett dött imperativ:** *"Kvar att städa: tre filer bär återgivningar av MÄTT/OMÄTT"* — medan §9.3 sa att de ströks 8 juli. Nästa session hade skickats att jaga spöken. Precis felklassen §0.2 varnar för. [STÄNGD]
+- **Mätregel-räkningen var fel, och felet var mitt eget från idag:** jag lade till mätregel 6 utan att röra rubriken *"fem lager — alla fem gäller"*. Två celler räknade fel i sex timmar. **Ett tillägg är också en state-synk.** [STÄNGD]
+**Åtgärd:** `lynx-START` (VENTILEN i §0 + KIND-tabellen och §-KARTA-fotnoten synkade mot den + döda imperativet ersatt) · `lynx-status` · `lynx-score` · `lynx-models` · `lynx-data` · `lynx-backlog` · `lynx-log` (14 pekare + mätregel-räkningen). Inga sidfiler rörda. **Utfallstest (§0.1): diffen ligger helt i `includes/lynx/` — uppdraget flyttade sig inte. Denna gång var det beställt.**
 
 ### 2026-07-08 #42 — Följden av mätregel 6: vår egen "SCORE-determinism" var aldrig belagd, och testet står på fel sida.
 **In:** Ingen ny data. Genomgång av vad #41 medför för tidigare slutsatser (ägarfråga: *"har vi lärt oss något nytt som bör noteras?"*).
