@@ -61,7 +61,7 @@ Säger användaren *"vi fortsätter med LYNX-uppgifterna"* eller klistrar in LYN
 ```
 §0, §0.1, §0.2, §0.3, §0.4      → lynx-START     arkitektur · SESSIONS-RITUALEN · användning · en-i-taget · dispatch
 §14                             → lynx-data      SPARA-RECEPT (save-first vid inkommen dump)
-§8, §8.1, §9, §9.0, §9.1, §12   → lynx-backlog   sidkarta · gap-beslut · TODO · prio · claims   [flyttade dit 8 juli]
+§8, §8.1, §9, §9.0, §9.1, §9.2, §12 → lynx-backlog   sidkarta · gap-beslut · TODO · prio · FYNDLÅDAN · claims   [flyttade dit 8 juli]
 §1, §1.1, §1.3, §1.4            → lynx-rewrite   bedömningsmodellen
 §2, §3, §4, §4.1, §4.2, §5, §6, §7, §13 → lynx-rewrite   formel · checklista · husröst · ramar/juridik · SEO-skydd · process · skyddsregler
 §1.2, §1.5, §10, §10.0, §11.1   → lynx-models    SCORE · AIQ · mät-loop · SEO-vakt · bevakning
@@ -127,6 +127,17 @@ Sync-drift uppstår när samma sanning står på två ställen. Skriv den EN gå
 3. **Rapportera tre rader:** vad checkarna säger · vad LÄGE säger är nästa · vilka öppna beställningar som väntar på ägaren.
    ⚠️ **Så länge CHECK-REVISIONEN (§9) är öppen: säg "checkarna gröna, men fyra detektorer kan inte bli röda — se §9".** Att rapportera deras gröna utan det förbehållet är precis det påstående revisionen visar är obelagt.
 4. **Fråga vad han vill göra — och LISTA vad du kan göra.** Ägaren väljer; du föreslår. Han svarar antingen på listan **eller skickar en uppgift direkt**, ofta inklistrad LYNX-data. Kommer data: **§14 SPARA-RECEPT först, agera sen.**
+
+### ▶ UNDER ARBETET — ETT FYND ÄR INTE ETT UPPDRAG (ägarbeslut 8 juli)
+**Du kommer att hitta saker. Det är bra — och det är inte det du blev ombedd att göra.**
+
+Hittar du något äkta mitt i en uppgift: **skriv EN rad i §9.2 FYNDLÅDAN, säg EN mening till ägaren, fortsätt med uppgiften.** Utreder gör du bara om han säger till. En tråd som parkeras förlorar ingenting; en uppgift som överges halvvägs gör det. Lådan är default — **ett fynd tas ur den bara genom ägarbeslut**, aldrig för att det kändes viktigt i stunden. *(Varför en §9-rad och inte en logg-post: §0:s två strukturella fällor.)*
+
+**Ett verktyg är inte ett mål.** Får du en snabbare metod — fler agenter, ett bredare svep, en ny modell — är det tillstånd att göra **den valda uppgiften** fortare. Det är aldrig tillstånd att välja en större uppgift. Fråga innan du breddar, särskilt när frågan var liten: glappet mellan "städa en rad" och "revidera verktygen" är där ägaren slutar lita på att scopet håller.
+
+**Står det en arbetsmetod i en projektfil binder den**, även när ett glänsande alternativ finns. *(`§9.0`: "ETT steg i taget med ägar-avstämning emellan · INGA agent-utskick" — läst och förbigången samma dag den här regeln skrevs.)*
+
+> **Varför regeln finns.** 8 juli: uppgiften var en halvtimme (städa §9.0:s dubblerade steg 7/8). På vägen dit hittades en död detektor — ett verkligt fynd. I stället för en §9-rad skickades **21 agenter** för att revidera samtliga detektorer i alla tre skripten. Fyndet var äkta; hanteringen var fel. **Uppgiftens andra halva — §9.0:s fyra raderingsbeslut — blev aldrig påbörjad.** Ägaren fick bevaka scopet själv, vilket är hans ord: *"därför måste jag kolla när det växer."* Prime-direktivets *"nya exekutorer skriver nästan alltid om för mycket"* handlar om text; det beskriver scope lika väl.
 
 ### ✅ VID SLUT — spara och pusha ALLTID; slutchecken är frivillig (ägarbeslut 8 juli)
 **Varje uppgift avslutas med commit + `git push` på `staging`.** Osparat arbete är den enda förlust som är oåterkallelig. Checkarna bevakar arbetsfilernas bokföring, och en bokföringsmiss kan lagas nästa session — en tappad ändring kan inte det. **Rör aldrig `main`.**

@@ -216,3 +216,18 @@ blodprickar (175, SCORE17) · milier (173, 37) · seborre (168, –) · pormaska
 **Scope-beslut (ägarbesked 2 jul em):** (1) **ALLA sidor som finns i LYNX ska gås igenom** — vissa redan gjorda, resten framöver; komplett sidregister (i LYNX / saknas i LYNX / i LYNX men ej i repot) i `lynx-data.php` under "Snapshot 2026-07-02 EM". (2) **Allt nedanför `/studentrabatt/` i LYNX-vyn (botox m.m.) = drafts/oanvänt → EXKLUDERAS** ur genomgången. (3) Sidor som saknas i LYNX (homepage-raden?, varumarken/hifu/, avbokningspolicy, karriar, ev. ansiktsbehandling/rosacea/) = håll utkik vid framtida scans (bevakningstrådar §9).
 
 *(Full 5-tier-lista med alla ~100 sidor + noter genererad 2026-07-01; härledbar ur `lynx-data.php`.)*
+
+---
+
+## 9.2 FYNDLÅDAN — upptäckt under arbetet, parkerat för senare (ägarbeslut 8 juli)
+**Hit går allt du snubblar på medan du gör något annat.** Regeln står i §0.1 ▶ UNDER ARBETET: skriv EN rad här, säg EN mening till ägaren, fortsätt med uppgiften. **Lådan är default. Ett fynd tas ur den bara genom ägarbeslut** — aldrig för att det kändes viktigt i stunden.
+
+Skillnaden mot de andra listorna: **§9.0/Fas-listorna = planerat arbete** · **Bevaka = trådar öppnade av inkommen mätdata** · **§9.2 = sidofynd.** Ett sidofynd som ägaren prioriterar flyttas härifrån till rätt lista och får en rad i §11. Ett som aldrig prioriteras ligger kvar — det kostar en rad och skyddar mot att samma sak upptäcks tre gånger.
+
+**Format:** en rad. `[allvarlighet] fyndet — var det syns — vad som skulle krävas.` Bevis hör hemma i raden, inte i en utredning.
+
+- [ ] **[LOW] Stubben `lynx-copy-playbook.php` bär en egen stale filkarta.** Dess tabell påstår att `lynx-START.php` innehåller *"backlog §8/§9 · claims §12"* — de flyttade till `lynx-backlog.php` 8 juli (§9.0 steg 7). Det är exakt den pekartyp §0 förbjuder ("skriv aldrig §N i `<filnamn>`"). `pekarkoll` fångar den inte: rad 96 hoppar över `KIND=DÖR`-filer. **Ofarligt så länge stubben faktiskt raderas** — men den har nu överlevt ett ägarbeslut ("vi tar inte bort något just nu") och pekar fel under tiden. Avgörs av §9.0:s raderingsbeslut.
+- [ ] **[LOW] `pekarkoll`s "okända lynx-omnämnanden" listar 14 böjningsformer** (`lynx-datas`, `lynx-scores`, `lynx-fil`, `lynx-logg-posterna` …). Ren svensk genitiv/pluralböjning i prosa, inga trasiga pekare. Detektorn saknar skiftlägeshantering och böjningsstamning. **Beslut: ignorera, eller lär detektorn stamma?** Ingår i CHECK-REVISIONEN steg 1.
+- [ ] **[LOW] §9.0 steg 8: specen sa "§13.O:s *tre* stycken → ett", utfallsraden säger "*fyra* stycken → ett".** Båda bevarade i steg 8-raden. Ingen vet i efterhand vilken som räknade rätt; §13.O är redan ett stycke. Kosmetiskt.
+
+*(Tomma rader tas aldrig bort med motiveringen "verkar inte viktigt". De tas bort när fyndet är åtgärdat eller när ägaren avfärdar det — och då med en rad i §11.)*
