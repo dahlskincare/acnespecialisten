@@ -44,6 +44,17 @@ Fulltext flyttas till **`includes/lynx/lynx-log-arkiv.php`**; kvar här blir en 
 | behandla-pigmentflackar.php | 14 | – | – | –/– | SIGNIFICANT | GOOD | – | 16 |
 | hudproblem/hudforandringar/ | 10 | – | 17 | 3/2 | SIGNIFICANT | OK | – | 8 |
 
+### 2026-07-08 #23 — 🎯 TRE EFTER-MÄTNINGAR PÅ EN GÅNG: mogen-hy · solskadad-hy · rhinophyma alla 🟠→🔵. Metoden 6/6. om-oss-badgen bekräftad.
+**In:** 12 skärmdumpar (10:45 + 10:55–10:57), komplett AICOPY-vy SIGNIFICANT→HUMAN. Sparat FÖRST verbatim → `lynx-data-arkiv` (två snapshots). Beställningen från den skurna 10:45-vyn besvarad.
+**Fynd:**
+- **EFTER-MÄTNING #4/#5/#6: `mogen-hy` · `solskadad-hy` · `rhinophyma-rosacea` alla 🟠 → 🔵 SLIGHT.** Observerad delta (mätregel 4): rhinophyma bekräftades 🟠 så sent som 7 juli, då crawlen ännu läste PRE-V2-texten (logg #14). **Alla tre prediktioner träffade. Metoden nu 6/6 på mätta omskrivna sidor.** solskadad-hy låg dessutom mitt i §1.4:s gråzon (FÖRE-medel 2,09) och landade som förutsagt. [BASELINE → §11.1]
+- **`om-oss` badge BEKRÄFTAD 🔵** — beställningen från 6 juli besvarad. om-oss räknas nu in i §1.4-statistiken (EFTER-medel 0,91 → pred 🔵 ✓). [STÄNGD]
+- **`pigmentflackar` SAKNAS HELT i vyn** — inte i någon grupp. Pågående omanalys, tom badge. Tredje gången mönstret upprepas. **Frånvaro ≠ SLIGHT: bekräftat.** Att inte attribuera på 10:45-dumpen var rätt. V2 fortfarande OMÄTT. [ÖPPEN → §9]
+- **⚠️ AI STYLE-TESTET ÄR FORTFARANDE ÖPPET.** rhinophymas Overall är 74 både FÖRE och EFTER — men AI STYLE ingår inte i Overall (lynx-score slutsats D), så Overall säger ingenting. Rhinophyma är den enda sidan med färsk FÖRE-baseline på nya skalan (SCORE 74 · **AI STYLE 70**) tagen innan vår text gick live. **Beställ SCORE-popupen.** [ÖPPEN → §9]
+- **`microneedling` fick en färsk FÖRE-baseline timmar före rewriten:** VALUE 66 · SCORE 60 (var 50) · GAPS 0⚡/1💡 · 🔵 · AIQ OK · P.PRICE HIGHEST · KW 63. WORDS/CLICKS syns inte i denna vy → §10.0 punkt 3 ouppfylld. [BASELINE → §11.1]
+- **`statuskoll.py` bevisade sig.** Jag uppdaterade den kanoniska cellen (§11.1) och larmet namngav omedelbart fyra cacher som ljög — i backlog och lynx-data. Jag hade glömt varenda en. Det larmade även på min egen nyskrivna §9-rad, som nämnde tre MÄTTA sidor och ordet OMÄTT (om en fjärde) på samma rad. Raden delades; checken tystades inte. [STÄNGD]
+**Åtgärd:** kanonisk cell + alla cacher synkade; §9-tråden ersatt av AI STYLE-testet. Verifiering: statuskoll 4/4 · pekarkoll 0 trasiga. **Kvar öppet:** AI STYLE-popupen (rhinophyma) · pigmentflackars rad · ytliga-blodkärls badge (SCORE 74, badge SIGNIFICANT — väntat, vyerna refreshar oberoende, ägarbekräftat).
+
 ### 2026-07-08 #22 — STATUSDISCIPLIN: kanonisk cell per statusklass + `statuskoll.py`; två stale states som överlevt hela passet
 **In:** ägarfråga — "har vi löst att saker inte hålls uppdaterade?" Mätning i stället för gissning: `acne-ansikte är MÄTT` stod i **6 aktiva celler**, `AI STYLE-FÖRE 55` i 4, `V2 OMÄTT` i 3. **Svaret var nej.** Lagen hade tvingats in på regler och procedurer, aldrig på status — och det är status som ruttnar, för det är status som ändras.
 **Fynd:**

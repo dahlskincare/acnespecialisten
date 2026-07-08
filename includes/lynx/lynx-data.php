@@ -57,9 +57,9 @@ PEKAR-PÅ      lynx-data-arkiv = snapshots verbatim · lynx-examples/score/quest
 | /ipl-rosacea.php | 55 | **60 färsk** (6/7) | 🟠 MODERATE (stale) | OK | 3/1 (texter: lynx-gaps) | 18 | 823 | 10 | HIGHEST | 7/7 | LIVE 1/7 — DELMÄTT; väntar badge-refresh |
 | /microdermabrasion.php | 30 | 50 (2/7) ⟳7/7 | 🟠 MODERATE (stale) | OK | –/– | 6 | 536 | 3 | LOWEST (var MID) | 7/7 | LIVE 6/7 — OMÄTT |
 | /pigmentflackar.php | 32 | **FÖRE:73** (7/7; AI STYLE 55) | 🟠 MODERATE (crawl ≤6/7 = pre-V2) | OK | 0/0 | 232 | 946 | 19 | – | 7/7 | V2 LIVE 6/7 — OMÄTT (logg #14) |
-| /rhinophyma-rosacea.php | 34 | **FÖRE:74** (7/7 = replika av 6/7; AI 70) | 🟠 MODERATE (crawl ≤6/7 = pre-V2) | OK | 0/0 | 46 | 788 | 15 | – | 7/7 | V2 LIVE 6/7 — OMÄTT (logg #14) |
-| /solskadad-hy.php | 31 | ⟳7/7 | 🟠 MODERATE (stale) | OK | –/– | 33 | 560 | 5 | – | 7/7 | LIVE 6/7 — OMÄTT |
-| /mogen-hy.php | 11 (6/7) | ⟳ | **? borta ur 13:58-AICOPY-vyn** — omanalys ELLER →SLIGHT under dump-snittet | OK (6/7) | –/– | 9 (6/7) | | | – | 13:58-frånvaro | LIVE 6/7 — OMÄTT; **bevaka nästa dump** (samma mönster som pigmentflackar 6/7) |
+| /rhinophyma-rosacea.php | 35 (8/7) | 74 (8/7; FÖRE 74 · AI STYLE-FÖRE 70) | **🔵 SLIGHT** (8/7) | OK | 0/0 | 46 | 788 | 15 | – | 8/7 | ✅ **MÄTT 🟠→🔵.** AI STYLE-testet öppet — beställ SCORE-popupen |
+| /solskadad-hy.php | 31 (8/7) | – (omanalys) | **🔵 SLIGHT** (8/7) | OK | –/– | 33 | 560 | 5 | – | 8/7 | ✅ **MÄTT 🟠→🔵** (FÖRE-medel 2,09, gråzonen) |
+| /mogen-hy.php | 10 (8/7) | – (omanalys) | **🔵 SLIGHT** (8/7) | OK | –/– | 8 | | | – | 8/7 | ✅ **MÄTT 🟠→🔵.** 13:58-frånvaron 7/7 var alltså inte badge-flytt utan omanalys — bekräftat |
 | /om-oss.php | 7 (6/7) | 17 (analys apr) | 🔵 implicerat (borta ur MODERATE 6/7; badge-bekräftelse beställd) | OK | 2/2 | 2 | | | – | 6/7 | MÄTT 5/7: 0 flaggade block; kvar: badge-bekräftelse (§11.1) |
 
 **Övriga sidor med data efter 30 juni (alfabetiskt):**

@@ -16,6 +16,33 @@ PEKAR-PÅ      lynx-data = AKTUELLT LÄGE (gällande värden) · jämför ALDRIG
 
 
 
+
+## Snapshot 2026-07-08 kl. 10:55–10:57 — KOMPLETT AICOPY-vy (11 dumpar, hela listan SIGNIFICANT→HUMAN)
+> Ägar-leverans efter beställning i §9. Alfabetisk inom varje AI COPY-grupp. Kolumner: VALUE · PAGE TYPE · SCORE · GAPS ⚡/💡 · AI COPY · AIQ · P.PRICE · EG SCORE · KW.
+
+**SIGNIFICANT (2):** hudforandringar (10 · 17 · 3/2 · OK · KW 7) · ytliga-blodkarl (41 · **74** · 0/0 · OK · KW 157)
+**MODERATE (5):** hudbehandlingar/ipl (34 · – · HIGH · KW 18) · bristningar (18 · 63 · 0/0 · KW 67) · oonskat-har (11 · – · KW 13) · ipl-rosacea (54 · 60 · 3/1 · HIGHEST · KW 18) · microdermabrasion (29 · – · LOWEST · KW 6)
+
+**SLIGHT — de fyra bevakade raderna:**
+| Sida | VALUE | SCORE | GAPS | AIQ | P.PRICE | KW | Not |
+|---|---|---|---|---|---|---|---|
+| /mogen-hy.php | 10 | – | –/– | OK | – | 8 | **🟠 → 🔵** |
+| /rhinophyma-rosacea.php | 35 | **74** | 0/0 | OK | – | 46 | **🟠 → 🔵**; SCORE identisk med FÖRE (74) |
+| /solskadad-hy.php | 31 | – | –/– | OK | – | 33 | **🟠 → 🔵** |
+| /pigmentflackar.php | — | — | — | — | — | — | **SAKNAS HELT i vyn** (ej i SIGNIFICANT/MODERATE/SLIGHT/HUMAN) |
+
+**SLIGHT — övriga av intresse:** om-oss (7 · 17 · 2/2 · OK · KW 1) **badge BEKRÄFTAD 🔵** · behandla-pigmentflackar (10 · – · AIQ **GOOD** · KW 13) · acne-ansikte (31 · – · KW 52) · **microneedling (66 · 60 · 0⚡/1💡 · OK · HIGHEST · KW 63)** · portomning (65 · 60 · 0/0 · HIGHEST · KW 25) · acne-rygg (61 · 69 · 2/1 · KW 46) · seborroisk-keratos (64 · 74 · 0/0 · **GOOD** · KW 108) · acne.php (40 · 47 · 2/1 · KW 105) · acnearr (45 · 74 · 1/0 · KW 123) · homepage (41 · 65 · 0/0 · **POOR** · KW 288) · hudflikar (43 · 78 · KW 112) · milier (40 · 75 · KW 164) · blodprickar (59 · 75 · KW 171) · pormaskar (44 · 76 · KW 126) · rosacea (27 · – · KW 199) · perioral-dermatit (32 · – · KW 179) · seborre (36 · – · KW 161) · torr-hy (30 · 74 · KW 152) · **/varumarken/powerlite-photonova/ (18 · 88 · KW 0)** = sajtens högsta SCORE, saknas i repot (§9 slutsats F) · splendor-x (31 · 79) · rejuve-dye-vl (19 · 86) · skin-tech (17 · 66 · AIQ GOOD) · soprano-ice (9 · **22** · 2/1) · roaccutan (49 · 23) · melasma (29 · 23 · 0/2) · blandhy (11 · 24) · finnar-arr (13 · **9**) · resultat.php (14 · 40 · AIQ POOR) · elevbehandlingar (10 · 18)
+
+**HUMAN (11):** acne-myter · elevbehandlingar · **fragor-svar (56 · AIQ POOR)** · franchise · hudguide · not-found · online-konsultation · ordlista · priser (AIQ POOR) · recensioner-omdomen · studentrabatt (AIQ POOR)
+
+**🎯 MÄTNING (mätregel 4 — observerad delta mellan två analyser med olika värden):**
+- **mogen-hy 🟠→🔵 · solskadad-hy 🟠→🔵 · rhinophyma-rosacea 🟠→🔵.** Alla tre var 🟠 i sparad data; rhinophyma bekräftades 🟠 så sent som 7 juli då crawlen ännu läste PRE-V2-texten (logg #14). **Prediktionerna träffade. Metoden nu 6/6 på mätta omskrivna sidor.**
+- **om-oss badge BEKRÄFTAD 🔵** — beställningen från 6 juli är besvarad. om-oss räknas nu in i §1.4-statistiken (EFTER-medel 0,91 → pred 🔵 ✓).
+- **pigmentflackar SAKNAS HELT** — tredje gången mönstret upprepas (6 juli, och nu). Pågående omanalys, tom badge. **V2 fortfarande OMÄTT.** Frånvaro ≠ SLIGHT: bekräftat.
+- **rhinophyma SCORE 74 = identiskt med FÖRE-baselinen (6 juli).** Säger INGET om AI STYLE: slutsats D (`lynx-score`) visar att AI STYLE inte ingår i Overall. **AI STYLE-testet kräver SCORE-popupen** (FÖRE 70). Beställ den.
+- **microneedling: FÄRSK FÖRE-BASELINE timmar före vår rewrite** — VALUE 66 · SCORE 60 (var 50) · GAPS 0⚡/1💡 · 🔵 SLIGHT · AIQ OK · P.PRICE HIGHEST · KW 63 (var 70). WORDS/CLICKS syns ej i denna vy (§10.0 punkt 3 ouppfylld).
+
+
 ## Snapshot 2026-07-08 kl. 10:45 — AICOPY-filtrerad Pages-vy (13 rader synliga, SKUREN efter /acnebehandling.php)
 > Ägar-dump. Sorterad på AI COPY (SIGNIFICANT → MODERATE → SLIGHT). Kolumnen **EG SCORE** nu synlig, "–" överallt. PAGE TYPE "–" på ipl/oonskat-har/microdermabrasion/behandlingar/acne-ansikte/acnebehandling, blank på övriga.
 
