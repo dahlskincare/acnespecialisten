@@ -5,7 +5,7 @@
 ▣ MANIFEST
 KIND          VERKTYG (stabil som REGEL). Kopiera ut till .py och kör. Filen CITERAR pekare och dödsfraser som exempel — checkarna undantar den från sig själva.
 LADDA-NÄR     efter varje statusbyte · före varje main-push · efter varje omstrukturering av filsetet
-KANONISK-FÖR  statuskoll (divergens) · pekarkoll (trasiga pekare) · noloss (innehållsförlust)
+KANONISK-FÖR  statuskoll (divergens + verktygsintegritet) · pekarkoll (trasiga pekare) · noloss (innehållsförlust)
 PEKAR-PÅ      lynx-START §0 = statusdisciplinen + arkitekturen · lynx-models §11.1 = den kanoniska statuscellen
 ```
 
@@ -132,6 +132,26 @@ def kolla_resolvern():
                 fel.append((mal, 0, f'§-KARTAN säger att §{ref} bor här, men ingen rubrik matchar'))
     return fel
 
+# ── 6. VERKTYGSINTEGRITET: går skripten i lynx-verktyg.php ens att köra? ─────
+def kolla_verktygen():
+    """Repo-kopian är den enda som finns kvar när en session dör. Om den är trunkerad
+    eller inte parsar är hela skyddet illusoriskt — och ingenting säger ifrån.
+    (8 juli: pekarkoll var 564 tecken lång i repot; koden högg av sin egen fence.)"""
+    import ast
+    try: v = load('lynx-verktyg.php')
+    except FileNotFoundError: return [('lynx-verktyg.php saknas helt')]
+    fel = []
+    if '```python' in v:
+        fel.append('backtick-fence används — skripten innehåller ``` och hugger av sitt eget block. Använd ~~~')
+    blocks = re.findall(r'~~~python\n(.*?)~~~', v, re.S)
+    if len(blocks) != 3:
+        fel.append(f'{len(blocks)} kodblock funna, förväntat 3 (statuskoll, pekarkoll, noloss)')
+    for n, b in zip(('statuskoll','pekarkoll','noloss'), blocks):
+        if len(b) < 3000: fel.append(f'{n}: bara {len(b)} tecken — trunkerad?')
+        try: ast.parse(b)
+        except SyntaxError as e: fel.append(f'{n}: går inte att parsa (rad {e.lineno}: {e.msg})')
+    return fel
+
 sidor = kanonisk()
 print(f'═══ KANONISK CELL: lynx-models §11.1 — {len(sidor)} sidor ═══')
 print(f'   MÄTTA: {", ".join(s for s,v in sidor.items() if v["matt"]) or "—"}')
@@ -157,7 +177,11 @@ r = kolla_resolvern()
 print('\n═══ 🔴 RESOLVERN — pekar §-KARTAN på filer som bär §:et? ═══')
 print('  ✓ varje § i kartan har en matchande rubrik i sin fil' if not r else '\n'.join(f'  ❌ {a}: {c}' for a,_,c in r))
 
-sys.exit(1 if (n or m or s or r) else 0)
+vk = kolla_verktygen()
+print('\n═══ 🔴 VERKTYGSINTEGRITET — går skripten i lynx-verktyg.php att köra? ═══')
+print('  ✓ tre kodblock, alla parsar' if not vk else '\n'.join(f'  ❌ {x}' for x in vk))
+
+sys.exit(1 if (n or m or s or r or vk) else 0)
 ~~~
 
 ## 2. `pekarkoll.py` — pekar pekarna rätt?

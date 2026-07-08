@@ -44,6 +44,14 @@ Fulltext flyttas till **`includes/lynx/lynx-log-arkiv.php`**; kvar här blir en 
 | behandla-pigmentflackar.php | 14 | – | – | –/– | SIGNIFICANT | GOOD | – | 16 |
 | hudproblem/hudforandringar/ | 10 | – | 17 | 3/2 | SIGNIFICANT | OK | – | 8 |
 
+### 2026-07-08 #25 — Felklassen namngiven: "en verifiering som kan passera utan att verifiera". Femte detektorn byggd.
+**In:** ägarfråga — ska den här typen av fel bli en TODO? Svar: nej, en TODO är en lapp någon måste komma ihåg. Fyra av sex incidenter fick en check i stället.
+**Fynd:**
+- **`lynx-verktyg.php` var TRUNKERAD i repot.** `pekarkoll` och `statuskoll` innehåller själva trippel-backtick (de parsar §-KARTA-blocket). Inbäddade i en backtick-fence högg koden av sitt eget block: repo-kopian av pekarkoll var **564 tecken**. Ingen märkte det, för jag körde alltid scratchpad-kopian. **Filen en framtida session hade kopierat ut gick inte att köra.** [STÄNGD]
+- **statuskoll fick en femte detektor — VERKTYGSINTEGRITET:** extraherar de tre kodblocken, kräver `~~~`-fence, kör `ast.parse` på var och en, larmar om något är kortare än 3 000 tecken. Negativkontrollerad. Efter denna session är repo-kopian den enda som finns — den måste kunna köras. [RATIFICERAD → lynx-verktyg]
+- **Sex incidenter samma dag, samma form:** tomt regex-slice · FÖRE-mappning som gav blast radius 0 · backtick i heredoc · trunkerad fence · självgraderad kvittens · commit med röd check. **Gemensam nämnare: verifieringssteget kunde returnera grönt utan att ha mätt något.** Fyra har nu en check. Två saknar: heredoc-konventionen, och en pre-commit-gate som vägrar committa när en check är röd. [ÖPPEN → §9 felklass-genomgången]
+**Åtgärd:** statuskoll → 5 detektorer; verktygsfilen och underlaget byggda om med `~~~`-fence + varningsruta; verifierat genom att extrahera skripten UR repo-filen och köra dem (alla exit 0). §9-tråd med tabellen över de sex incidenterna. Minnesfilen synkad.
+
 ### 2026-07-08 #24 — microneedling-rewriten UNDERKÄND av §7.4b och ÅTERRULLAD (andra gången). Processfelet: en självgraderad kvittens.
 **In:** ägaren godkände ultracode för §7.4b. Tre oberoende granskare (blind bedömare · adversariell diff-granskare · helhetskritiker), 232k tokens. Rewriten var då redan ägar-godkänd — på mitt underlag.
 **Fynd:**
