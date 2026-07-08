@@ -44,6 +44,16 @@ Fulltext flyttas till **`includes/lynx/lynx-log-arkiv.php`**; kvar här blir en 
 | behandla-pigmentflackar.php | 14 | – | – | –/– | SIGNIFICANT | GOOD | – | 16 |
 | hudproblem/hudforandringar/ | 10 | – | 17 | 3/2 | SIGNIFICANT | OK | – | 8 |
 
+### 2026-07-08 #32 — CHECK-REVISIONEN steg 1 KLART: 9/9 hypoteser prövade. `noloss` säger "inget tappat" om ett skal där 97 % är borta.
+**In:** Ägaren: "gör klart revisionen, vi har några timmar". `noloss`-fyran mutationstestad med per-check-avläsning (exit-koden räcker inte — en bestämd nål ska fällas).
+**Fynd:**
+- **V10, värst: batteri 8 = 22 rena delsträngar, noll strukturella checkar.** Ersatte `lynx-rewrite` med rubriker + de 23 nålsträngarna: **52 309 → 1 803 tecken.** Batteri 8: `22/22 gröna ✅ inget tappat`. **Hela grinden grön.** Batteriets enda uppgift är att svara "tappade vi något?". [ÖPPEN → §9-rad V10]
+- **V8: batteri 6 verifierar levande REGEL-text mot dekoyer i HISTORIK.** `lynx-score` är 58 % HISTORIK; 8 av 38 nålar har sin sträng även där. Kirurgiskt test: raderade ett levande faktum, lät kopian ligga → hela grinden grön. **§0 säger att HISTORIK inte får styra beslut — här vouchar den för den levande cellen.** [ÖPPEN → §9-rad V8]
+- **V9: `('EFTER' in aktiv and x in aktiv)`** — två oberoende globala fakta. Raderade alla tre om-oss-omnämnandena, la in `<!-- TODO: kolla om-oss någon gång -->` → checken grön. **V11:** `body >= 16` mot 17 rader (INTRO-EXPERIMENT-raden är gratis att tappa, grinden helgrön) + delsträngsalias `pigmentflackar` ⊂ `behandla-pigmentflackar`. [ÖPPEN → §9-rad V9, V11]
+- **Metod höll:** båda de första röda visade sig vara **kollateral, inte upptäckt** (batteri 6:s rött kom från en nål min mutation råkade förstöra; batteri 8:s från batteri 7:s egen rewrite-nål). Kirurgiska omtag krävdes. **T1:s regel "ett rött utan känd orsak bevisar inget" betalade sig samma dag den skrevs.** [RATIFICERAD → §9 steg 1]
+- **Dispositionen faller ut av bevisen:** `noloss`-batterierna heter `§9.0 steg 5…9` — de vaktar ett pass som är klart. Samma sak som blast radius (V1). **Radera, laga inte.** [ÖPPEN → §9 steg 2]
+**Åtgärd:** `lynx-backlog` (V8–V11 · steg 1 stängt · steg 2 omskrivet till ett beslutsunderlag: radera / laga / kan-ej-lagas / V6-först). **Nästa: ägarbeslut per detektor.** V6 måste lagas först — den vaktar alla andra.
+
 ### 2026-07-08 #31 — CHECK-REVISIONEN hypotes 3–5: en fasad passerar verktygsintegriteten, och nålarna är skrivna mot incidenter i stället för mot lagen.
 **In:** Ägaren: "gör klart revisionen". Mutationsriggen (`mutrig.py`, temp) byggd först — tre spärrar: baseline grön · positiv kontroll röd · mutationen måste bevisligen landa. Sen hypotes 3, 4, 5.
 **Fynd:**
