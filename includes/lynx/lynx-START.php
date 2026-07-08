@@ -112,7 +112,19 @@ Sync-drift uppstår när samma sanning står på två ställen. Skriv den EN gå
 ### ▶ VID START — tre steg
 1. **Kolla att du är ensam.** `git status` (rent?) + **§12 i `lynx-backlog`** (är någon annan igång?). Ser du osparat jobb du inte känner igen → stanna och fråga ägaren (§0.3).
 2. **Läs `lynx-status.php`** (var vi står) och §9 (TODO). Där står vad som är **öppet** — inte vad som är bestämt.
-3. **Fråga vad han vill göra — och LISTA BARA SIDARBETE.** Ägaren väljer; du föreslår. Han svarar antingen på listan **eller skickar en uppgift direkt**, ofta inklistrad LYNX-data. Kommer data: **§14 SPARA-RECEPT först, agera sen.**
+3. **Hälsa, visa ÖPPNINGSLISTAN, fråga vad han vill göra.** Ägaren väljer; du föreslår. Han svarar antingen på listan **eller skickar en uppgift direkt**, ofta inklistrad LYNX-data. Kommer data: **§14 SPARA-RECEPT först, agera sen.**
+
+#### ▶ ÖPPNINGSLISTAN — formatet ägaren bad om (ägarbeslut 8 juli)
+En trevlig hälsningsfras. Sedan **EN enda löpande numrering hela vägen ned** — grupprubrikerna bryter inte numret. Först allt öppet ur §9, sist vad du kan göra. Två listor som båda börjar på 1 krockar; det var felet ägaren pekade på.
+
+**Generera listan ur §9 varje gång — skriv aldrig av den hit.** §9 är cellen; den här filen säger bara hur den ska visas. En kopia av kön i START vore precis den återgivning §0 förbjuder, och den skulle ruttna första gången en rad kryssas.
+
+Grupper i ordning, med sina etiketter intakta: **Sidarbete** · **Väntar på dig** (ägar-beställningar) · **Mätning och bevakning** · **Parkerat** · **Fyndlådan** · sist **Vad jag kan göra**, som fortsätter på nästa lediga nummer.
+
+**Spärren gäller i listan.** §9.3-metat får **en rad under Parkerat, med sin etikett "bara på din begäran"** — aldrig utbrutet i egna numrerade alternativ, aldrig högt upp. Listan är en **orientering, inte en meny**: den säger vad som finns, inte vad du föreslår att han väljer. Skillnaden är hela §0.1.
+
+**Vad jag kan göra** (KANONISK CELL — står bara här, härled inget ur routern):
+ta emot LYNX-data (§14 först, agera sen) · skriva om en sida (§7) · micro-fix på ett enskilt block · svep över flera filer i egen commit (juridik/språk) · fixa buggar i siddata (§13.K) · analysera mätdata och förfina modellen (§10) · slå upp ett beslut och varför i `lynx-log` · committa och pusha `staging` — **aldrig `main`**.
 
 > ### 🚧 SPÄRREN — varför den ser ut så här (ägarbeslut 8 juli)
 > **Arbete på LYNX-filerna själva föreslås ALDRIG.** Verktyg, struktur, städning, revisioner: allt sådant bor i **§9.3 PARKERAT-META** och tas därifrån **bara om ägaren ber om det med egna ord.** Kön i §9 innehåller sidor.
