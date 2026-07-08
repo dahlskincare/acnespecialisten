@@ -18,7 +18,7 @@ Vi kör **1 Claude i taget** (§0.1), så det här är ingen parallell-lås län
 
 | Sida | Status | Tid |
 |------|--------|-----|
-| *(tom — ingen är igång)* Nästa: **CHECK-REVISIONEN §9, hypotes 2 — `statuskoll` RESOLVERN (borttagen kartrad)**. Hypotes 1 avklarad 8 juli → V5 (logg #29) | – | – |
+| *(tom — ingen är igång)* Nästa: **CHECK-REVISIONEN §9, hypotes 3 — `statuskoll` VERKTYGSINTEGRITET (`ast.parse` = syntax, ej substans)**. Hypotes 1 → V5, hypotes 2 → T1 (logg #29, #30) | – | – |
 
 ---
 
@@ -69,9 +69,16 @@ Kryssa här. Start/stopp-vänligt: status = §9 + §11 (logg) + §12 (claims). P
 | V4 | **`pekarkoll` UTAN `--efter` är RÖD på ett orört filset** (`lynx-backlog:26` flaggas POSITIONELL). Grinden passerar bara för att §0.1 råkar skicka flaggan. | `exit=1` |
 | V5 | **`statuskoll` MOTSÄGELSER är BLIND FÖR OMFORMULERING** (rad 71). Nålen är tre hårdkodade strängar. Den fångar **formuleringen, inte faktumet** — och de tre strängarna är exakt den prosa 6 juli-incidenten råkade använda. *Annan felmod än V1–V3:* den **kan** bli röd, den kan bara inte se saken sägas med andra ord. Ett fjärde literal lagar inget; det flyttar hålet. | Mutation, 8 scenarier, alla samma falska faktum (`acne-ansikte`, kanoniskt LIVE, motsagt i en AKTIV cell). Harness validerad: baseline grön ✓, positiv kontroll "väntar main-push" → `exit=1` ✓, "hålls på staging" → `exit=1` ✓. **Fem omformuleringar passerar tyst:** `väntar på main-push` (ett ord inskjutet!) · `ligger kvar på staging` · `är ej pushad till main` · `är inte live än` · `🚧 GSC-gate` (bytt emoji). |
 
+**TÄCKT — mutationstestat, ingen åtgärd. Lika viktigt att bokföra som ett fynd: annars byggs en detektor som redan finns.**
+
+| # | Hypotes | Utfall |
+|---|---|---|
+| T1 | `statuskoll` RESOLVERN ser inte en **borttagen** kartrad (bara en malformerad) | **Halvt sann — och därför ofarlig.** Detektornivå: BEKRÄFTAD. Ta bort `§11 → lynx-logg` (granskade 32→31) eller hela backlog-raden (→**exakt 25**, kvorumet är `< 25`) och `statuskoll` skriver `✓ varje § i kartan har en matchande rubrik`. Grindnivå: **REFUTERAD.** `pekarkoll` fälls av rätt orsak — `§-REF UTAN ÄGARE`, 9 föräldralösa `§11` resp. 71 — och den detektorn når `sys.exit` (den är en av V3:s tre). Malformerad rad fälls av båda; tömd karta av båda. **Täckningens gräns, mätt:** den bygger på att någon fil *pekar* på det borttagna §:et. Varje kartrad har idag ≥2 pekare (tunnast `§0.3`=2, `§9.2`=4) → varje borttagning fångas. En framtida kartrad för ett ännu opekat § vore tyst. ⇒ **Bygg ingen ny nål i `statuskoll`.** Borttagning ägs av `pekarkoll`; att `statuskoll` inte duplicerar den är §0:s lag, inte ett hål. |
+
 **EJ VERIFIERAT — agentpåståenden. Verifieringssteget kördes aldrig (sessionen stoppades). Behandla som hypoteser, mutationstesta en och en:**
 - ~~`statuskoll`: MOTSÄGELSER-nålen (rad 71) är hårdkodad mot prosa som kan ha drivit~~ → **BEKRÄFTAD 8 juli, se V5.**
-- `statuskoll`: RESOLVERN skyddar mot en *malformerad* kartrad men inte mot en *borttagen* · VERKTYGSINTEGRITET mäter syntax (`ast.parse`), inte substans — en kommentarsvägg på 4141 tecken passerar.
+- ~~`statuskoll`: RESOLVERN skyddar mot malformerad men inte borttagen kartrad~~ → **PRÖVAD 8 juli, se T1: täckt av `pekarkoll`, ingen åtgärd.**
+- `statuskoll`: VERKTYGSINTEGRITET mäter syntax (`ast.parse`), inte substans — en kommentarsvägg på 4141 tecken passerar.
 - `pekarkoll`: TRASIGA-pekare-regexen (rad 90) hårdkodar literalen `START` → en pekare som namnger någon **annan** fil fångas inte · KVORUM räknar refs i alla 16 filer men detektor 4 hoppar över flera → kvorumet vouchar för något det inte mäter.
 - `noloss`: batteri 6:s A–F-nålar har dekoyer i HISTORIK (`needle in load(f)` söker hela filen) · batteri 9:s `('EFTER' in aktiv and x in aktiv)` är degenererat · batteri 8 har **noll** strukturella checkar (22 rena `needle in file`) · batteri 5:s tröskel `>= 16` mot en tabell med **17** rader → exakt en rad är gratis att tappa; plus delsträngsalias (`pigmentflackar` ⊂ `behandla-pigmentflackar`).
 - *(Redan känt, står i Bevaka: batteri 9:s `micronnedling`-typo.)*
@@ -79,8 +86,9 @@ Kryssa här. Start/stopp-vänligt: status = §9 + §11 (logg) + §12 (claims). P
 **DIAGNOSEN — en enda, och den förklarar alla:** ***checkarna bryter mot lagen de finns för att upprätthålla.*** §0 säger *"ett fakta = en cell; celler pekar, återger aldrig."* Varje nål är en handskriven **återgivning** av ett fakta som bor i en fil. Skrivs faktumet om ruttnar kopian, tyst. Det är 6 juli-driften igen — ett lager ner, i verktygen. **Fler detektorer ovanpå ärver felet.**
 
 **NÄSTA STEG (ETT i taget, ägar-avstämning emellan):**
-1. Mutationstesta hypoteserna ovan, en och en. Stryk dem som inte reproducerar. **1 avklarad (→ V5), resten kvar.** *(Räkna dem som `·`-separerade påståenden — LÄGE och §9 har sagt "sex", listan bär nio; se §9.2.)*
-   **Harness-kravet, lärt av V5-testet:** ett mutationstest utan **baseline-grön + positiv kontroll-röd** kan inte skilja "detektorn är blind" från "min testrigg är trasig". Kör alltid båda. Riggen: färsk kopia av filsetet per scenario, `LYNX`-konstanten ompekad, samma falska faktum uttryckt på N sätt.
+1. Mutationstesta hypoteserna ovan, en och en. Stryk dem som inte reproducerar. **2 prövade (→ V5 bekräftad · T1 täckt), resten kvar.** *(Räkna dem som `·`-separerade påståenden — LÄGE och §9 har sagt "sex", listan bär nio; se §9.2.)*
+   **Harness-kravet, lärt av V5:** ett mutationstest utan **baseline-grön + positiv-kontroll-röd** kan inte skilja "detektorn är blind" från "min testrigg är trasig". Kör alltid båda. Riggen: färsk kopia av filsetet per scenario, `LYNX`-konstanten ompekad, samma falska faktum uttryckt på N sätt.
+   **Två skärpningar, lärda av T1:** (a) **kör HELA grinden per scenario, inte den misstänkta detektorn** — en blind nål är ofarlig om en annan check täcker felet, och det syns bara om alla tre körs; (b) **ett rött utan känd orsak är lika obelagt som ett grönt.** Läs sektionen som fällde, kräv rätt orsak. T1:s `pekarkoll`-röda hade lika gärna kunnat vara V4:s positionella falsklarm.
 2. Besluta per död detektor: **laga eller radera.** Blast radius mätte en engångsmigration som redan skett → radering är troligen rätt, inte reparation.
 3. Plumba varje kvarvarande detektor till `sys.exit` (V3).
 4. Den generella boten, **om** den ska byggas: *en nål som matchar noll gånger är RÖD.* Det gör felklassen omöjlig att gömma i stället för bara upptäckbar — samma steg som §0:s lag tog för celler. Överväg att **härleda** nålar ur den kanoniska cellen i stället för att skriva av dem.

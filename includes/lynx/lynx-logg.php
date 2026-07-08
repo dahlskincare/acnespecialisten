@@ -44,6 +44,15 @@ Fulltext flyttas till **`includes/lynx/lynx-log-arkiv.php`**; kvar här blir en 
 | behandla-pigmentflackar.php | 14 | – | – | –/– | SIGNIFICANT | GOOD | – | 16 |
 | hudproblem/hudforandringar/ | 10 | – | 17 | 3/2 | SIGNIFICANT | OK | – | 8 |
 
+### 2026-07-08 #30 — CHECK-REVISIONEN hypotes 2: RESOLVERN är blind för borttagen kartrad — men `pekarkoll` täcker den.
+**In:** Ägarvald fortsättning, en hypotes till. Mutation, 6 scenarier på §-KARTAN, hela grinden körd per scenario.
+**Fynd:**
+- **Hypotesen är halvt sann. Detektornivå: BEKRÄFTAD** — ta bort `§11 → lynx-logg`, eller hela backlog-raden (granskade 32→**exakt 25**, kvorumet är `< 25`), och `statuskoll` skriver `✓`. Den ser bara rader som finns. [STÄNGD → T1]
+- **Grindnivå: REFUTERAD.** `pekarkoll` fälls av **rätt** orsak — `§-REF UTAN ÄGARE` (9 föräldralösa `§11`, 71 för backlog-raden) — och den detektorn når `sys.exit`. Täckningsgränsen mätt: varje kartrad har ≥2 pekare (tunnast `§0.3`=2) → varje borttagning fångas idag. [STÄNGD → T1]
+- **⇒ Bygg ingen ny nål.** Att `statuskoll` inte duplicerar `pekarkoll` är §0:s lag, inte ett hål. Utan mätningen hade nästa session byggt detektorn som redan finns. **Ett "täckt" måste bokföras lika hårt som ett fynd.** [RATIFICERAD → §9 T1]
+- **Metodskärpning:** (a) kör HELA grinden per scenario, inte bara den misstänkta detektorn — annars ser man inte täckningen; (b) **ett rött utan känd orsak är lika obelagt som ett grönt** — läs sektionen som fällde. T1:s röda kunde ha varit V4:s positionella falsklarm. [RATIFICERAD → §9 steg 1]
+**Åtgärd:** `lynx-backlog` (ny TÄCKT-tabell med T1 · hypotesen struken ur EJ VERIFIERAT · två skärpningar i steg 1 · §12), `lynx-logg`. Nästa hypotes: `statuskoll` VERKTYGSINTEGRITET (`ast.parse` mäter syntax, inte substans) — **en i taget, ägar-avstämning emellan.**
+
 ### 2026-07-08 #29 — CHECK-REVISIONEN hypotes 1/N: MOTSÄGELSER-nålen fångar strängen, inte faktumet.
 **In:** Start-ritualen körd (git rent, §12 tom, GRIND EXIT=0 — rapporterad med §9-förbehållet). Ägarvald uppgift: CHECK-REVISIONEN steg 1, en hypotes.
 **Fynd:**
