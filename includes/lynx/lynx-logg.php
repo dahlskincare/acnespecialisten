@@ -2,6 +2,9 @@
 # LYNX LOGG — arbetslogg (händelsehistorik, senaste först)
 > Vad vi gjort + varför, per session. Referens/historik — läs vid behov (t.ex. "vad beslutades om X?"). Äldre poster arkiveras till `lynx-log-arkiv.php`. State/nästa-steg bor i `lynx-START.php`, inte här.
 
+
+> **⚠️ §-referenser i denna fil avser filstrukturen vid postens datum.** Sedan 8 juli bor **§8, §8.1, §9, §9.0, §9.1 och §12 i `lynx-backlog.php`** (ej lynx-START). §-KARTAN i `lynx-START.php` är resolvern. Historik uppdateras aldrig retroaktivt.
+
 ## 11. Arbetslogg (vad vi gjort + varför)
 Senaste först. Korrelera mot LYNX-refresh. Per omskrivning: spara **FÖRE-baseline** + **prediktion** (§10 steg 1) så modellens träffsäkerhet kan mätas när EFTER kommer. **All rå LYNX-data bor i KOLUMNFILERNA** (filkarta överst i **`includes/lynx/lynx-data.php`**) — loggen bär händelsen, inte datan.
 

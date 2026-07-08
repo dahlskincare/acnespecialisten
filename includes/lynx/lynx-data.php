@@ -3,14 +3,14 @@
 
 > **📁 FILKARTA — RÅDATA (kanonisk här; instruktionsfiler & router: `lynx-START.php`):**
 > - **`lynx-data.php` (denna)** — AKTUELLT LÄGE-tabellen (senaste värde per sida × vy, daterat) · baseline-register · officiella kolumndefinitioner · sidregister · beställningssedel.
-> - **`lynx-examples.php`** — AI COPY per-block-facit per sida. · **`lynx-questions.php`** — AIQ-frågelistor. · **`lynx-score.php`** — SCORE-nedbrytningar + modellhärledning. · **`lynx-gaps.php`** — gap-texter (beslut i lynx-START §8.1).
+> - **`lynx-examples.php`** — AI COPY per-block-facit per sida. · **`lynx-questions.php`** — AIQ-frågelistor. · **`lynx-score.php`** — SCORE-nedbrytningar + modellhärledning. · **`lynx-gaps.php`** — gap-texter (beslut i `lynx-backlog.php` §8.1).
 > - **`lynx-data-arkiv.php`** — historiska Pages-snapshots verbatim (30 juni-fullinventeringen = gamla skalans FÖRE-baseline för hela sajten).
 >
 > **📥 SPARA-RECEPT vid inkommen dump (save-first, ägarbeslut 2 juli — agera ALDRIG på facit utan att först spara):**
 > 1. Avgör syftet: **(a) per sida** (riktat facit → spara + kör §7 på sidan) eller **(b) bunt-inventering** (→ diffa mot AKTUELLT LÄGE).
 > 2. **SPARA VERBATIM i rätt kolumnfil:** Pages-rader → ny daterad sektion överst i `lynx-data-arkiv.php` · per-block-facit → examples · frågelistor → questions · SCORE-nedbrytningar → score · gap-texter → gaps.
 > 3. Uppdatera berörda celler i AKTUELLT LÄGE (regler under tabellen) + klassa NYTT/ÄNDRAT vs OFÖRÄNDRAT → **EN loggpost** i `lynx-logg.php` (mall där).
-> 4. Öppna §9-TODO i lynx-START för det som ska åtgärdas.
+> 4. Öppna §9-TODO i `lynx-backlog.php` för det som ska åtgärdas.
 > **Skärmbilds-principen (ägarbesked 2 juli):** dumpar är av naturen PARTIELLA — jobba med det som syns, fråga riktat efter resten; läs HELA bilden (grannrader/kolumner/badges); förändring i kanten mot sparad data → egen §9-tråd. Vi kan inte polla LYNX — **påminn ägaren om uppdateringar** om de dröjer.
 
 ## OFFICIELLA KOLUMN-DEFINITIONER (LYNX-tooltips, mottagna 2 jul 15:00 — ersätter våra gissningar)
@@ -156,7 +156,7 @@
 ## SIDREGISTER (ägar-beställt 2 juli): sidor I LYNX vs sidor SOM SAKNAS
 **Ägarbesked 2 juli (scope):** (1) **ALLA sidor i LYNX ska gås igenom** — vissa gjorda, resten framöver. (2) **Allt nedanför `/studentrabatt/` i LYNX-vyn (botox m.m.) = drafts/oanvänt → EXKLUDERAS.** (3) Metod: URL-kolumnen ur inventerings-dumpar korsad mot repots publika sidor (repo = källa; suddiga läsningar upplösta mot repot).
 
-**A. I LYNX OCH i repot (≈112 sidor — hela genomgångs-listan):** flaggade 14 (alla ✅ omskrivna + live) + rot-sidor + katalog-sidor — full lista i arkivets 2 juli-version (oförändrad); aktuell status per sida i AKTUELLT LÄGE ovan + lynx-START §8/§9.
+**A. I LYNX OCH i repot (≈112 sidor — hela genomgångs-listan):** flaggade 14 (alla ✅ omskrivna + live) + rot-sidor + katalog-sidor — full lista i arkivets 2 juli-version (oförändrad); aktuell status per sida i AKTUELLT LÄGE ovan + `lynx-backlog.php` §8/§9.
 
 **B. SAKNAS i LYNX-dumparna men FINNS i repot (håll utkik):**
 1. `/varumarken/hifu/` — nyligen tillagd (d3257a9a) → bevaka att LYNX indexerar den.

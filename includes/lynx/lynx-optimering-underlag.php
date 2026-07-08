@@ -99,7 +99,7 @@
 
 **Verktygen (bor här — dör med denna fil vid steg 10; efter det bär manifestens `PEKAR-PÅ` bevakningen).**
 
-<details><summary><code>pekarkoll.py</code> — pekar-census, kör före/efter varje omstrukturering</summary>
+<details><summary><code>pekarkoll.py</code> — pekar-census; kör före/efter varje omstrukturering. **Den avgörande checken är "TRASIGA pekare"** (namnger fel fil / positionell) — en ren §-referens löses av §-KARTAN och är inte trasig</summary>
 
 ```python
 #!/usr/bin/env python3
@@ -136,7 +136,7 @@ HOME_NOW = 'lynx-backlog' if EFTER else 'lynx-START'
 # KIND per fil — avgör OM en trasig pekare måste redigeras
 KIND = {'lynx-START':'AKTIV','lynx-rewrite':'REGEL','lynx-models':'REGEL','lynx-score':'REGEL',
         'lynx-data':'AKTIV','lynx-gaps':'AKTIV','lynx-questions':'AKTIV','lynx-examples':'AKTIV',
-        'lynx-backlog':'AKTIV','lynx-logg':'HISTORIK','lynx-log-arkiv':'HISTORIK',
+        'lynx-backlog':'AKTIV','lynx-examples-arkiv':'HISTORIK','lynx-logg':'HISTORIK','lynx-log-arkiv':'HISTORIK',
         'lynx-data-arkiv':'HISTORIK','lynx-examples-arkiv':'HISTORIK',
         'lynx-copy-playbook':'DÖR','lynx-optimering-underlag':'TEMP'}
 PLANNED = {'lynx-backlog','lynx-examples-arkiv','lynx-examples-aktiv','lynx-score-arkiv'}
@@ -182,6 +182,24 @@ print('\n═══ lynx-*-omnämnanden som INTE är kända/planerade filer (gran
 for (s,t),n in sorted(unknown.items()):
     print(f'  {s:<26} → {t:<32} ×{n}')
 
+# ── DEN AVGÖRANDE CHECKEN: pekare som NAMNGER fel fil, eller är positionella ──
+# En ren "§9" löses av §-KARTAN och är inte trasig. En "lynx-START §9" eller "§9 nedan" ÄR trasig.
+print('\n═══ 🔴 TRASIGA pekare — namnger fel fil eller är positionella (måste vara 0) ═══')
+MOVED = r'§\s?(?:8|9|12)(?:\.[0-9])?'
+QUAL  = re.compile(r'(?:lynx-)?START[^.\n]{0,15}' + MOVED + r'|' + MOVED + r'[^.\n]{0,25}(?:i |från |överst i )(?:lynx-)?START')
+POS   = re.compile(MOVED + r'[^|\n]{0,25}(?:nedan|ovan|överst)|(?:nedan|ovan|överst)[^|\n]{0,15}' + MOVED)
+broken = 0
+for path in files:
+    src = os.path.basename(path)[:-4]
+    if KIND.get(src) in ('HISTORIK','TEMP','DÖR'): continue   # historik: header-raden täcker; temp/dör: raderas
+    txt = open(path, encoding='utf-8').read()
+    for lineno, line in enumerate(txt.split('\n'), 1):
+        for rx, kind in ((QUAL,'NAMNGER FIL'), (POS,'POSITIONELL')):
+            if rx.search(line):
+                print(f'  ❌ {src}:{lineno}  [{kind}]  {line.strip()[:95]}')
+                broken += 1
+print('  ✓ inga trasiga pekare' if not broken else f'  ── {broken} MÅSTE LAGAS')
+
 print('\n═══ STUBBEN lynx-copy-playbook — vem pekar på den? ═══')
 tot = 0
 for path in files:
@@ -196,7 +214,7 @@ print('  ✓ ingen — kan raderas' if not tot else f'  ── {tot} omnämnande
 ```
 </details>
 
-<details><summary><code>noloss.py</code> — no-loss-batteri per steg (5, 6, 8, 9 färdiga + validerade åt båda håll)</summary>
+<details><summary><code>noloss.py</code> — no-loss-batteri per steg (5, 6, 7, 8, 9 färdiga + validerade åt båda håll)</summary>
 
 ```python
 #!/usr/bin/env python3
@@ -206,7 +224,13 @@ Kör:  python3 noloss.py 5"""
 import sys, os, re
 
 LYNX = '/Applications/Cursor/acnespecialisten/includes/lynx'
-def load(f): return open(os.path.join(LYNX, f + '.php'), encoding='utf-8').read()
+def load(f):
+    if f == 'UNION':
+        t = load('lynx-START')
+        try: t += load('lynx-backlog')
+        except FileNotFoundError: pass
+        return t
+    return open(os.path.join(LYNX, f + '.php'), encoding='utf-8').read()
 
 # (etikett, fil, nål) — nålen är en EXAKT delsträng som måste överleva steget.
 STEP = {
@@ -326,6 +350,63 @@ STEP = {
   ('RE-SCAN: crawlfönstret',               'lynx-examples', '16:09'),
   ('RE-SCAN: determinism-replikationen',   'lynx-examples', 'determinism'),
  ],
+ 7: [  # START-splitten. Nålen måste finnas i START ELLER lynx-backlog (UNION).
+  # Omätta FÖRE-baselines + öppna prediktioner
+  ('AI STYLE-FÖRE pigment 55 / rhino 70',   'UNION', 'pigment 55, rhino 70'),
+  ('V2-rewriterna OMÄTTA',                  'UNION', 'V2-rewriterna fortfarande OMÄTTA'),
+  ('pigmentflackar V2: prediktion + AI STYLE 55', 'UNION', 'jämför AI STYLE mot 55-baselinen'),
+  # Invarianter som MÅSTE stanna i START
+  ('Prime-direktivet: ändrar jag för mycket?','lynx-START', 'ändrar jag för mycket?'),
+  ('Prime-direktivet: räkna punkterna',      'lynx-START', 'räkna punkterna före/efter'),
+  ('§0.2 dispatch-citatet ordagrant',        'lynx-START', 'Läs `includes/lynx/lynx-START.php` först'),
+  ('Aldrig-listan',                          'lynx-START', '**Aldrig:**'),
+  ('Rollfördelningen: rör aldrig main',      'lynx-START', 'Rör aldrig `main`.'),
+  ('§0.1 regel 2: du ska vara ENSAM',        'lynx-START', 'Du ska vara ENSAM'),
+  ('Banner-regeln',                          'lynx-START', 'Banner-regel 6 jul'),
+  ('Datum-skrivkonventionen',                'lynx-START', 'Skrivkonvention datum'),
+  ('State-synk-principen',                   'lynx-START', 'State-synk-principen'),
+  ('"Vi rutar inte in oss"-principen',       'lynx-START', 'Vad som hör hemma i den här filen'),
+  ('Routern',                                'lynx-START', '▶ ROUTER'),
+  ('Filkartan',                              'lynx-START', '**Filkarta (hela LYNX-setet):**'),
+  ('§-KARTAN (resolvern)',                   'lynx-START', '### §-KARTA'),
+  # §12 claim-markören
+  ('§12 claim-tabellen',                     'UNION', '| Sida | Status | Tid |'),
+  # §8.1 EJ genomförda gap-beslut + den portabla principen
+  ('§8.1 sebo: curettage-beslutet',          'UNION', 'curettage'),
+  ('§8.1 microneedling: kur-gapet',          'UNION', 'microneedling kur'),
+  ('§8.1 acne-rygg: synonymerna',            'UNION', 'ryggakne'),
+  ('"ingen hemmakur"-principen',             'UNION', 'ingen hemmakur'),
+  # §9.1 tier-listan + scope-beslutet
+  ('§9.1 Tier 1-listan',                     'UNION', 'Tier 1 — störst KW + uppsida'),
+  ('§9.1 scope: studentrabatt exkluderas',   'UNION', 'studentrabatt'),
+  ('Widget-bugg PARKERAD',                   'UNION', 'Widget-bugg (PARKERAD)'),
+  # Öppna §9-trådar — var och en
+  ('§9 GSC-KOLL',                            'UNION', 'GSC-KOLL'),
+  ('§9 ärr-boilerplate-läckan',              'UNION', 'ÄRR-FRÅN-FINNAR-BOILERPLATE'),
+  ('§9 Akne Specialiserade-sweepen (27 filer)','UNION', 'Akne Specialiserade Hudterapeuter'),
+  ('§9 GAPS-rensningen (konkurrent-relativ)','UNION', 'GAPS-rensningen'),
+  ('§9 microdermabrasion AIQ GOOD→OK',       'UNION', 'microdermabrasion AIQ GOOD→OK'),
+  ('§9 fragor-svar AIQ OK→POOR',             'UNION', 'fragor-svar AIQ OK→POOR'),
+  ('§9 milier-/CryoPen-priserna',            'UNION', 'CryoPen-återbesökspriset'),
+  ('§9 "missing localized" KW 616',          'UNION', 'missing localized'),
+  ('§9 powerlite-photonova saknas i repot',  'UNION', 'powerlite-photonova'),
+  ('§9 hifu bevakas',                        'UNION', 'varumarken/hifu'),
+  ('§9 om-oss 4:e gap-punkten',              'UNION', 'om-oss gap-popupens 4:e punkt'),
+  ('§9 datum-svepet',                        'UNION', 'Datum-svep i LYNX-filerna'),
+  ('§9 exosomer (gated på lansering)',       'UNION', 'Exosomer + polynukleotider'),
+  ('§9 produktifierings-idén (parkerad)',    'UNION', 'PRODUKTIFIERING'),
+  ('§9 hudforandringar mall-review',         'UNION', 'mall-review'),
+  ('§9 Fas 2: FAQPage JSON-LD',              'UNION', 'FAQPage JSON-LD'),
+  ('§9.0 passets checklista',                'UNION', 'FIL-OPTIMERINGSPASSET'),
+  # Öppna rester inuti [x]-rader
+  ('Öppen rest: oonskat-har "underarmar"',   'UNION', 'underarmar'),
+  ('Öppen rest: micro AIQ-frågedetaljen',    'UNION', 'AIQ GOOD→OK-frågedetaljen'),
+  ('Öppen rest: acne-ansikte intro-🟠',      'UNION', 'intro-blockets 🟠'),
+  ('Öppen rest: behandla-pigment micro-fix', 'UNION', 'micro-fix-kandidat'),
+  # Fas 3b-kön
+  ('Fas 3b: portomning',                     'UNION', 'portomning.php'),
+  ('Fas 3b: seborroisk-keratos',             'UNION', 'seborroisk-keratos.php'),
+ ],
 }
 
 # Strukturella invarianter som inte är enkla delsträngar
@@ -341,6 +422,12 @@ def structural(step):
         need = ['SCORE 22', 'AISTYLE25', 'AISTYLE30', 'medel 1,57', 'medel 1,77', 'medel 1,82', 'medel 1,92']
         for n in need:
             out.append((f'§11.1 FÖRE-baseline "{n}"', n in t))
+    if step == 7:
+        t = load('UNION')
+        for tier in ('Tier 1','Tier 2','Tier 3','Tier 4'):
+            out.append((f'§9.1 {tier} kvar', tier in t))
+        out.append(('§9 Fas 3: alla 10 MODERATE-rader kvar', t.count('✅ OMSKRIVEN') >= 6))
+        out.append(('§12 exakt EN claim-tabell', t.count('| Sida | Status | Tid |') == 1))
     if step == 9:
         t = load('lynx-examples')
         # varje sida med facit måste ha kvar sin Räkning-rad och sitt sidnamn

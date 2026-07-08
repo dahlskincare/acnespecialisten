@@ -3,6 +3,9 @@
 
 > **Arkivregel (7 juli, analog med logg-arkivpolicyn):** hit flyttas daterade snapshot-sektioner från `lynx-data.php` när (1) deras data är inskriven i AKTUELLT LÄGE-tabellen och (2) omätta baselines står i baseline-registret. Aktuellt läge + kolumndefinitioner + sidregister + beställningssedel bor i `lynx-data.php`; fynd/resonemang per dump i `lynx-logg.php`. **30 juni-inventeringen längst ned = gamla skalans kompletta FÖRE-baseline för hela sajten — raderas aldrig.** Nya dumpar transkriberas VERBATIM hit (ny daterad sektion överst) enligt spara-receptet i `lynx-data.php`.
 
+> **⚠️ §-referenser i denna fil avser filstrukturen vid postens datum.** Sedan 8 juli bor **§8, §8.1, §9, §9.0, §9.1 och §12 i `lynx-backlog.php`** (ej lynx-START). §-KARTAN i `lynx-START.php` är resolvern. Historik uppdateras aldrig retroaktivt.
+
+
 ## Snapshot 2026-07-07 (12:15–12:28, 11 dumpar) — pigmentflackar TILLBAKA ur omanalysen + rhinophyma re-scan: BÅDA läste PRE-WAVE-2-texten (V2 omätt)
 > Ägaren: "vi har fått uppdatering på pigmentfläckar" + rhinophyma-batch + fråga "skiljer de sig från förra? hur står sig våra bedömningar?". **Fynd:** (1) pigmentflackar-raden TILLBAKA i AICOPY-vyn (VALUE 32 · SCORE 73 färsk popup; AI COPY-badgen skymd av popupen — okänd); (2) **BÅDA AI Copy-vyerna "Last update: 06 Jul" läste GAMLA texten — crawlen daterad till 2 jul 16:09–6 jul 16:08 (produktion FÖRE wave 2-mergen; blocken har 2 jul-språkfixarna men inte V2)** → pigmentflackar 18/18 + rhinophyma 16/16 identiska tiers med gamla faciten (determinism-replikation #3+#4; typo-fixar flyttar inte betyg) → **V2-omskrivningarna fortfarande OMÄTTA** (detalj i `lynx-examples.php`); (3) SCORE-popups: pigmentflackar 73 = medel(84,60) ✓ AI STYLE 55 (= FÖRE-baseline) · rhinophyma 74 identisk replika av 6 jul (AI 70) · hudforandringar 17 "79 days ago" oförändrad (subs = redan sparade) → `lynx-score.php`.
 
