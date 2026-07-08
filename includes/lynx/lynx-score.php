@@ -45,6 +45,36 @@ Verifierade våra LYNX/SCORE/E-E-A-T-slutsatser mot publik SEO-kunskap. Resultat
 
 # 📊 AKTIV — FÄRSKA NEDBRYTNINGAR (rådata; nya dumpar läggs överst)
 
+## rhinophyma-rosacea 8 juli 2026 18:13, "Analyzed just now" — 🚨 ALLA 13 VÄRDEN IDENTISKA MED FÖRE. "Analyzed just now" är inte ett färskhetsbevis.
+> Ägar-popup 18:13, beställd som AI STYLE-testet. **Sparad FÖRST.** Samma leverans som AI Copy-vyn för samma sida samma dag, *"Last update: 08 Jul, 2026"* → per-block-facit i `lynx-examples`.
+
+| Komponent | FÖRE (6 jul = 7 jul, pre-V2-crawl) | 8 jul 18:13 "Analyzed just now" | Δ |
+|---|---|---|---|
+| **Overall** | **74** | **74** | 0 |
+| CONTENT QUALITY (badge) | 85 | 85 | 0 |
+| – Base Quality | 85 | 85 | 0 |
+| – Depth | 84 | 84 | 0 |
+| – Evidence | 76 | 76 | 0 |
+| – Language | 95 | 95 | 0 |
+| – Readability | 90 | 90 | 0 |
+| E-E-A-T (badge) | **60** | **60** | 0 |
+| – Experience | 85 | 85 | 0 |
+| – Expertise | 80 | 80 | 0 |
+| – Authority | 80 | 80 | 0 |
+| – Trust | 85 | 85 | 0 |
+| **AI STYLE / Human-like** | **70 / 70** | **70 / 70** | **0** |
+
+**TREDJE exakta replikationen** (6 jul · 7 jul · 8 jul). Två läsningar, och bara en överlever:
+
+- **(a) SCORE-vyn har inte läst V2-texten.** Sannolik.
+- **(b) SCORE rörde sig inte på en sida där 11 av 16 block skrevs om.** ⚠️ Detta kräver att **Language 95 stod stilla trots språkfixar**, att **Evidence 76 stod stilla trots att IPL och ansiktsbehandlingar namngavs**, och att **alla tolv delvärden landade på exakt samma heltal**. Evidence och Language är innehållshärledda. Att de rör sig noll är inte "ingen effekt" — det är "ingen läsning".
+
+**⇒ Slutsats E (NY): `"Analyzed just now"` säger ingenting om crawlens ålder.** Popupens tidsstämpel beskriver när badgen renderades, inte när texten hämtades. Mätregel 4 varnade för detta som en möjlighet; nu är det belagt. **Samma sida, samma dag, två vyer, två olika crawlar:** AI Copy läste V2 (*"Last update: 08 Jul"*, block-texterna grep-verifierade mot filen), SCORE läste pre-V2. Det är mätregel 3 (uppdateringsenheten = sida × vy) i sin skarpaste form — och den motsatta lutningen mot `ytliga-blodkarl`, där SCORE är färsk (74) och AI Copy-badgen stale.
+
+**⇒ AI STYLE-TESTET ÄR OBESVARAT, inte besvarat med nej.** Att läsa 70→70 som "de-AI flyttar inte AI STYLE" vore att attribuera på en stale crawl — exakt felet mätregel 4 finns för. **Diskriminatorn framåt:** vilken som helst av de tolv delsiffrorna som rör sig bevisar att crawlen är ny. Först i den dumpen är AI STYLE-värdet ett EFTER. Rör sig ingen: fortsätt vänta, be inte om omkörning (ägarbesked 7 juli).
+
+*(Bevakas i `lynx-backlog` §9. Kvarstår: `pigmentflackar` AI STYLE-FÖRE 55 — samma test, samma spärr.)*
+
 ## Färska analyser (7 jul 2026, "Analyzed just now") — pigmentflackar 73 = medel(84,60) ✓ + rhinophyma-popupen REPLIKERAD exakt; AI STYLE-FÖRE-baselines satta
 > Ägarens popups 7 jul ~12:15–12:28, samma leverans som AI Copy-re-scannerna "Last update 06 Jul". **Crawlen DATERAD (git-arkeologi, lynx-examples): pre-wave-2-produktionen (2 jul 16:09 – 6 jul 16:08)** — gammal text + 2 jul-språkfixar, INTE V2. ⇒ värdena nedan är **FÖRE-baselines på färska skalan** för V2-rewriterna (med reservationen att SCORE-popupens crawl inte är direkt observerbar — men rhinophymas exakta replikation av 6 jul-värdena talar för samma gamla snapshot). **rhinophyma-popupen 7 jul = IDENTISK med 6 jul** (74 · CQ 85: Base 85/Depth 84/Evidence 76/Language 95/Readability 90 · EEAT 60: 85/80/80/85 · AI STYLE 70/70) → SCORE-determinism på oförändrad crawl ✓.
 

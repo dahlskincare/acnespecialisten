@@ -405,6 +405,40 @@ VALUE 66 · SCORE **60** (var 50) · GAPS 0⚡/1💡 · AI COPY 🔵 SLIGHT · A
 
 **RE-SCAN "Last update: 06 Jul" (mottagen 7 jul, 4 dumpar) — SAMMA MÖNSTER SOM PIGMENTFLACKAR: gammal text, INTE ett EFTER-facit:** crawlen läste pre-wave-2-produktionen (2 jul 16:09 – 6 jul 16:08): blocken visar 2 jul-språkfixarna ("genetisk", "Detta tillstånd") men INTE V2-rewriten a98bd687 (grep: "mer frekvent hos män", "särskild och avancerad form", "det självklara valet" m.fl. finns inte kvar i filen). **Alla 16 block EXAKT samma tier som 22 apr-facitet ovan (8🔴/2🟠/5🔵/1🟢, block för block avstämt)** → determinism-replikation #4 — inkl. de 2 typo-fixade blocken som behöll sina tiers ("genetiskto"→"genetisk" i 🔵-orsaksblocket, "Denna"→"Detta" i 🔴-Näsa-blocket) ⇒ **rena typo-fixar flyttar inte betyg** (nu belagt på 2 sidor, 4 block). FAQ-raden "På vilka sätt skiljer sig…" fick 🔵 igen ✓. **V2:ns EFTER-facit väntar på NÄSTA refresh; prediktionen 🟠→🔵 står kvar omätt.**
 
+### ✅ EFTER-FACIT "Last update: 08 Jul, 2026" (mottaget 8 juli 18:11, 5 dumpar) — 🎯 FÖRSTA KOMPLETTA FÖRE→EFTER-PARET PÅ EN V2-REWRITE
+> **V2-texten verifierad läst:** grep mot `rhinophyma-rosacea.php` bekräftar 7/7 EFTER-snuttar ("sätter sig på näsan", "talgkörtlar och bindväv", "näsan sitter mitt i ansiktet", "Vill du veta var du står" m.fl.). Crawlen ligger efter main-merge 6 jul 16:08 ⇒ **ren observerad delta** (mätregel 4 uppfylld: två analyser, olika värden). Samma dag läste SCORE-vyn fortfarande PRE-V2 → se `lynx-score` slutsats E.
+
+| # | Block (EFTER, snippet) | FÖRE | EFTER | Vad flyttet säger |
+|---|---|---|---|---|
+| 1 | "Utforska vad som kännetecknar rhinophyma rosacea… potatisnäsa eller portvinsnäsa. Vi diskuterar varför…" | 🔵 | 🔵 | **ORÖRT block** — determinism #5 |
+| 2 | "Rhinophyma rosacea är en särskilt svår form av rosacea som sätter sig på näsan. Den långvariga inflammationen får talgkörtlar och bindväv att växa till…" | 🔴 | **🟠** | ⚠️ **fastnade** — mekanism-ledd men ändå bara ETT steg |
+| 3 | "Rhinophyma rosacea har en ärftlig komponent… kan det i allvarligare fall leda till andningssvårigheter… bedöma hur långt förtjockningen gått" | 🔵 | 🔵 | omskrivet, höll 🔵 |
+| 4 | (Näsa) "Rosacea på näsan kan i sällsynta fall utvecklas till rhinophyma… Upptäcks förändringen tidigt är den lättare att behandla…" | 🔴 | **🟠** | ⚠️ **fastnade** — samma klass som #2 |
+| 5 | "Vill du veta var du står börjar det med en konsultation: hudterapeuten undersöker näsans hud, bedömer hur långt förändringen gått…" | 🔴 | 🔵 | konsult-boilerplate → konkret sekvens |
+| 6 | "Märker du att huden på näsan gradvis blir tjockare eller att formen börjar förändras är det läge att boka en bedömning…" | 🔴 | 🔵 | importans-öppning → observerbart tecken |
+| 7 | "Vid konsultationen bedömer hudterapeuten vilket stadium förtjockningen är i… näsan sitter mitt i ansiktet, och tillståndet kan tynga mer än man visar." | 🔴 | **🟢 HUMAN** | 🏆 **tre steg — sidans största hopp** |
+| 8 | "Söker du en expert på behandling av rhinophyma rosacea? Med mer än 30 års erfarenhet inom hudvård och rosacea…" | 🟠 | 🔵 | ✅ **30-års-siffran bekräftad** (se nedan) |
+| 9 | "Behandlingen läggs upp efter hur långt rhinophyman gått: ansiktsbehandlingar… produkter… och IPL mot rodnad och ytliga kärl." | 🟠 | 🔵 | marknads-stapel → namngivna metoder |
+| 10 | "Din personliga hudterapeut följer dig hela vägen, från första konsultationen till uppföljning och underhåll." | 🔴 | 🔵 | partner/resa-boilerplate bort |
+| 11 | "Vid ett personligt möte med en specialist på rosacea utförs en undersökning av din hud. Vi tar före-bilder…" | 🔵 | 🔵 | **ORÖRT block** — determinism #5 |
+| – | "Från 1495 kr" / "Från 1995 kr" | – | – | obetygsatta prisrader (som FÖRE) |
+| 12 | "Daglig behandling med rätt produkter hjälper till att hålla rosacean i schack mellan behandlingarna…" | 🔴 | 🔵 | importans + "speciellt utformade" bort |
+| 13 | "När rosacean är under kontroll kan kvarvarande rodnad och ytliga blodkärl behandlas med IPL, intensivt pulserande ljus. Ljuset riktar in sig på…" | 🔴 | 🔵 | staplade CTA:er → mekanism |
+| 14 | Omdöme 1 ("Hade testat allt innan…") | 🔵 | 🔵 | **ORÖRT** — determinism #5 |
+| 15 | Omdöme 2 ("Super fin personal…") | 🟢 | 🟢 | **ORÖRT** — determinism #5 |
+| 16 | FAQ-rad "På vilka sätt skiljer sig rhinophyma från andra hudtillstånd som påverkar näsan?" | 🔵 | 🔵 | **ORÖRT** — determinism #5 |
+
+**Räkning EFTER: 0🔴 / 2🟠 / 12🔵 / 2🟢 (n=16).** FÖRE var 8🔴/2🟠/5🔵/1🟢.
+**§1.4-check: MEDEL 2,06 → 1,00 → 🔵 ✓** — sidnivå-badgen (🟠→🔵, oberoende observerad) bekräftas nu av block-medlet. **Prediktionen i §11.1 träffade på båda nivåerna.** 11 av 16 block rördes; **de 5 orörda behöll exakt tier** → determinism-replikation #5 (nu 5 sidor).
+
+**Fyra lärdomar, i fallande ordning av hur mycket de ändrar hantverket:**
+1. 🏆 **Konkret empati läser HUMAN. Empati-vaddering läser AI.** Block #7 är sidans enda 🔴→🟢. FÖRE hade "minska eventuella psykologiska påfrestningar" (abstrakt, hedgat, utbytbart). EFTER har *"näsan sitter mitt i ansiktet, och tillståndet kan tynga mer än man visar"* — samma sakpoäng, men **förankrad i något bara den här sidan kan säga**. §4:s "empati-padding bort" är alltså för trubbig: det är abstraktionen som fälls, inte omsorgen. **Detta är den starkaste enskilda 🟢-generatorn vi mätt.**
+2. ✅ **30-års-siffran är kausalbelagd, cross-page.** `lynx-examples` gissade det på bristningar 2 juli (*"marknad MED 30-års-SIFFRA = 🔵, rhinophyma-motsvarigheten UTAN siffra = 🟠 — siffran gör skillnaden, nyckel 3/5"*). Block #8 är samma block, samma sida, före och efter: siffran in → 🟠→🔵. **En förutsagd, riktad, enblocks-verifiering.** Inte längre korrelation mellan sidor.
+3. ⚠️ **Definitions-/förloppsprosa fastnar på 🟠 även mekanism-ledd.** Block #2 och #4 är sidans enda kvarvarande flaggor, och båda är samma genre: "vad tillståndet är och hur det utvecklas". Båda fick mekanism (talgkörtlar/bindväv växer till; förloppet över tid) och rörde sig ändå bara 🔴→🟠. **§2:s "led med mekanism" räcker till ett steg, inte två, i den genren.** Jfr §1.3 v5 "luta 🔴 på behandlingsprosa" — detta är dess syskon. **Micro-fix-kandidat med färskt facit: två block, resten av sidan rörs inte.**
+4. **Den klassiska AI-öppningen "Utforska vad som kännetecknar…" bär 🔵 orörd, tredje scanen i rad.** Ackumulation fäller, inte en enskild fras (§1.1). Sluta jaga den frasen isolerat.
+
+*(Language-fynd, live: block #3 slutar `"…rosacea bilder på näsan ."` — mellanslag före punkt. → `lynx-backlog` §9.2.)*
+
 ## /microdermabrasion.php — facit 25 Jun 2026, mottaget 2 jul em (MODERATE-vågen §8, EJ omskriven — FÖRE-facit; KOMPLETT)
 | Block (snippet) | Betyg | Varför (tolkning) |
 |---|---|---|

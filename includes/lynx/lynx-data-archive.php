@@ -17,6 +17,48 @@ PEKAR-PÅ      lynx-data = AKTUELLT LÄGE (gällande värden) · jämför ALDRIG
 
 
 
+## Snapshot 2026-07-08 kl. 18:13 — VALUE-sorterad Pages-vy, TVÅ fönster (13 + 12 rader, ofiltrerad)
+> Ägar-dumpar 18:13:22 + 18:13:45, skickade som följe till SCORE-popupen för rhinophyma (→ `lynx-score`, 8 juli-sektionen). **Fönster 2 är delvis skymt av popupen** (AI COPY / AIQ / P.PRICE / KW dolda till höger) — bara VALUE + URL + PAGE TYPE + SCORE avläsbara där. PAGE TYPE "–" eller blank överallt; EG SCORE "–" överallt.
+
+**Fönster 1 (VALUE 66→50, alla kolumner synliga):**
+
+| URL | VALUE | SCORE | GAPS ⚡/💡 | AI COPY | AIQ | P.PRICE | EG | KW |
+|---|---|---|---|---|---|---|---|---|
+| /microneedling.php | 66 | 60 | 0/1 | 🔵 SLIGHT | OK | HIGHEST | – | 63 |
+| /portomning.php | 65 | 60 | 0/0 | 🔵 SLIGHT | OK | HIGHEST | – | 23 |
+| /seborroisk-keratos.php | 64 | 74 | 0/0 | 🔵 SLIGHT | **GOOD** | – | – | 107 |
+| /acne-rygg.php | 61 | 69 | 2/1 | 🔵 SLIGHT | OK | – | – | 46 |
+| /hydrafacial.php | 59 | 63 | 0/0 | 🔵 SLIGHT | OK | HIGHEST | – | 14 |
+| /blodprickar.php | 59 | 75 | 2/1 | 🔵 SLIGHT | OK | – | – | 169 |
+| /cystisk-acne.php | 58 | 70 | 0/0 | 🔵 SLIGHT | OK | – | – | 21 |
+| /djuprengoring.php | 55 | 75 | 1/1 | 🔵 SLIGHT | OK | HIGH | – | 7 |
+| /ipl-rosacea.php | 54 | 60 | 3/1 | 🟠 MODERATE | OK | HIGHEST | – | 18 |
+| /mallorca-acne.php | 53 | 68 | 0/0 | 🔵 SLIGHT | OK | – | – | 11 |
+| /resultat-rosacea.php | 50 | 44 | 0/0 | 🔵 SLIGHT | OK | – | – | 6 |
+| /acne-brost.php | 50 | 73 | 2/1 | 🔵 SLIGHT | OK | – | – | 45 |
+| /milierbehandling.php | 50 | 60 | 0/0 | 🔵 SLIGHT | OK | – | – | 33 |
+
+**Fönster 2 (VALUE 38→32, endast VALUE/URL/PAGE TYPE/SCORE avläsbara — resten skymt av SCORE-popupen):**
+
+| URL | VALUE | SCORE |
+|---|---|---|
+| /postinflammatorisk-hyperpigmentering… (URL trunkerad i vyn) | 38 | – |
+| /komedoner.php | 37 | – |
+| /pormaskar-rygg.php | 36 | – |
+| /tonarsacne.php | 36 | 70 |
+| /seborre.php | 36 | – |
+| /resultat-acne.php | 35 | 55 |
+| **/rhinophyma-rosacea.php** (raden highlightad = popupens sida) | 35 | **74** |
+| /hudbehandlingar/ipl/ | 34 | – |
+| /hormonell-acne.php | 34 | 70 |
+| /ipl-pigmentflackar.php | 33 | – |
+| /pigmentflackar.php | 32 | 73 |
+| /perioral-dermatit.php | 32 | – |
+
+**Noter:** `seborroisk-keratos` AIQ **GOOD** (ej OK — Tier 2-raden i §9.1 sa GOOD, bekräftat). `portomning` KW 28→**23**. `blodprickar` KW 175→169, SCORE 75 (oförändrad). `microneedling` oförändrad mot 10:55-dumpen (VALUE 66 · SCORE 60 · KW 63 · GAPS 0⚡/1💡 · P.PRICE HIGHEST) ⇒ **FÖRE-baselinen står, sidan orörd.** `pigmentflackar` **finns i Pages-vyn igen** (VALUE 32, SCORE 73) efter 16:54-frånvaron — men AI COPY-cellen är skymd, så **badgen är fortfarande oläst**. `hudbehandlingar/ipl` SCORE fortsatt "–". Nya sidor mot AKTUELLT LÄGE: `hydrafacial` · `mallorca-acne` · `resultat-rosacea` · `milierbehandling` · `komedoner` · `pormaskar-rygg` · `tonarsacne` · `resultat-acne` · `hormonell-acne` · `ipl-pigmentflackar` · `postinflammatorisk-hyperpigmentering`.
+
+---
+
 ## Snapshot 2026-07-08 kl. 16:54 — AICOPY-sorterad Pages-vy (8 rader, SKUREN efter /behandlingar.php)
 > Ägar-dump: *"uppdatering från listan sorterade på ai copy, så du ser vilka som är kvar som har högt."* Samma vy som 10:45-snapshotet nedan. **Flagg-gruppen är ändå KOMPLETT fångad:** raden överst ligger direkt under kolumnhuvudet (⇒ ingen EXTREME) och SLIGHT börjar på rad 8 (⇒ inget flaggat under microdermabrasion). PAGE TYPE "–" på ipl/oonskat-har/microdermabrasion/behandlingar, blank på övriga. EG SCORE "–" överallt.
 

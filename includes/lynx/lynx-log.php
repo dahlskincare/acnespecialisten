@@ -44,6 +44,16 @@ Fulltext flyttas till **`includes/lynx/lynx-log-archive.php`**; kvar här blir e
 | behandla-pigmentflackar.php | 14 | – | – | –/– | SIGNIFICANT | GOOD | – | 16 |
 | hudproblem/hudforandringar/ | 10 | – | 17 | 3/2 | SIGNIFICANT | OK | – | 8 |
 
+### 2026-07-08 #41 — AI STYLE-testet levererat och obesvarat: SCORE-vyn läste gammal text. Samtidigt kom sidans kompletta EFTER-facit.
+**In:** Ägar-dumpar 18:11 (AI Copy per sida, 5 skärmbilder) + 18:13 (SCORE-popup + 2 Pages-fönster), alla rhinophyma-rosacea. Sparade FÖRST → `lynx-examples` (EFTER-facit) · `lynx-score` (popupen) · `lynx-data-archive` (Pages verbatim) · AKTUELLT LÄGE (24 rader).
+**Fynd:**
+- **SCORE-popupen replikerade ALLA 13 delvärden bit-identiskt** (3:e gången: 6/7/8 juli). Language 95 orört trots språkfixar, Evidence 76 trots namngivna metoder ⇒ crawlen är pre-V2. **`"Analyzed just now"` daterar renderingen, inte crawlen.** [RATIFICERAD → `lynx-status` mätregel 6 · `lynx-score` slutsats E]
+- **AI STYLE 70→70 får INTE läsas som "de-AI flyttar inte AI STYLE".** Det vore attribution på stale crawl (mätregel 4). Diskriminator: när en delsiffra rör sig är crawlen ny. [ÖPPEN → §9]
+- **Samma sida, samma minut, två vyer, två crawlar:** AI Copy läste V2 (*"Last update: 08 Jul"*, grep-verifierad), SCORE läste pre-V2. Mätregel 3 i sin skarpaste form — och motsatt lutning mot ytliga-blodkarl. [RATIFICERAD → mätregel 6]
+- **🎯 KOMPLETT FÖRE→EFTER per-block-facit, det första på en V2-rewrite:** 8🔴/2🟠/5🔵/1🟢 → 0🔴/2🟠/12🔵/2🟢, medel 2,06→1,00. Prediktionen träffade på block- OCH sidnivå. 5 orörda block höll exakt tier (determinism #5). [BASELINE → §11.1]
+- **Tre hantverksfynd, alla i `lynx-examples`:** konkret empati läser 🟢 medan empati-vaddering läser AI (block #7, sidans enda tresteg) · 30-års-siffran kausalbelagd cross-page, riktad enblocks-verifiering av bristningar-gissningen · definitionsprosa fastnar på 🟠 även mekanism-ledd (block #2+#4 = micro-fix-kandidat). [ÖPPEN → §9]
+**Åtgärd:** `lynx-examples` (EFTER-facit + 4 lärdomar) · `lynx-score` (popup + slutsats E) · `lynx-data-archive` (18:13-snapshot) · `lynx-data` (24 rader; `milierbehandling` SCORE –→60 = mätregel 5 igen) · `lynx-status` (LÄGE, §11.1, mätregel 6) · `lynx-backlog` (AI STYLE-raden omskriven, micro-fix-rad, §9.2-fynd). **Inga sidfiler rörda — diffen ligger helt i `includes/lynx/` (§0.1 utfallstest): uppdraget flyttade sig inte, men mätkorpusen växte.**
+
 ### 2026-07-08 #40 — Flagg-listan innehåller noll oskrivna sidor. Alla sju är våra egna, och ingen badge har rört sig på sex timmar.
 **In:** Ägar-dump 16:54, AICOPY-sorterad Pages-vy, 8 rader. Sparad FÖRST → `lynx-data-archive` 16:54-snapshot.
 **Fynd:**
