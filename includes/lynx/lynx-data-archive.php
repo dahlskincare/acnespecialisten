@@ -73,7 +73,7 @@ PEKAR-PÅ      lynx-data = AKTUELLT LÄGE (gällande värden) · jämför ALDRIG
 | /microdermabrasion.php | 29 | – | –/– | 🟠 MODERATE | OK | LOWEST | – | 6 |
 | /behandlingar.php | 14 | – | –/– | 🔵 SLIGHT | OK | – | – | 0 |
 
-**DIFF mot 10:45-dumpen sex timmar tidigare: två KW-celler, inget annat.** ytliga-blodkarl KW 157→156 · oonskat-har KW 13→12. Åtta badges, alla SCORE, GAPS, P.PRICE, AIQ och VALUE identiska. **Ingen badge har rört sig sedan i morse.** *(Flagg-gruppens sammansättning likaså oförändrad sedan 10:45: 2 SIGNIFICANT + 5 MODERATE.)*
+**DIFF mot 10:45-dumpen sex timmar tidigare: två KW-celler, inget annat.** ytliga-blodkarl KW 157→156 · oonskat-har KW 13→12. Åtta badges, alla SCORE, GAPS, P.PRICE, AIQ och VALUE identiska. **Ingen badge har rört sig sedan 10:45-dumpen.** *(Flagg-gruppens sammansättning likaså oförändrad sedan 10:45: 2 SIGNIFICANT + 5 MODERATE.)*
 
 
 ## Snapshot 2026-07-08 kl. 10:55–10:57 — KOMPLETT AICOPY-vy (11 dumpar, hela listan SIGNIFICANT→HUMAN)
