@@ -32,6 +32,16 @@ Fulltext flyttas till **`includes/lynx/lynx-log-arkiv.php`**; kvar här blir en 
 | behandla-pigmentflackar.php | 14 | – | – | –/– | SIGNIFICANT | GOOD | – | 16 |
 | hudproblem/hudforandringar/ | 10 | – | 17 | 3/2 | SIGNIFICANT | OK | – | 8 |
 
+### 2026-07-08 #19 — MÅL-ARKITEKTUREN RATIFICERAD (ägaren, med fyra ändringar) → steg 5–10 har nu en destination
+**In:** ägar-genomgång av mål-arkitektur-specen (`lynx-optimering-underlag.php`, förslag 7 juli kväll). Fyra invändningar lagda fram, alla fyra bifallna.
+**Fynd/gjort:**
+- **Ratificerad LAG: "ett fakta = en cell; celler pekar, återger aldrig."** Triad KIND (REGEL/AKTIV/HISTORIK) × domän + START som tunn dispatcher (~60 rader) + front-matter-manifest (`LADDA-NÄR / KANONISK-FÖR / PEKAR-PÅ / KIND`). [RATIFICERAD → underlagets MÅL-ARKITEKTUR; permanentas i START §0 vid steg 10]
+- **Ändring 1 — NY cell `lynx-backlog.php` (AKTIV):** utkastet sa inte var §8/§8.1/§9/§12 bor. Utan egen cell förblir START fet och dispatcher-idén faller. Gatar steg 7. [ÖPPEN → §9.0 steg 7]
+- **Ändring 2 — loggen är HISTORIK, inte AKTIV.** Följer av mall-ramen från #18 ("aldrig sole bearer"): inget operativt beror på loggen. Sista hålet = microneedling-block-planen i em #2 → flyttas till `examples-aktiv` vid steg 9. [ÖPPEN → §9.0 steg 9]
+- **Ändring 3 — specen bröt sin egen lag:** `copy-playbook` (23-raders stub, ska raderas) och `copy-formula` låg i REGEL-listan. copy-formula bodde i en personlig minnesfil utanför repot fast §0.1 säger att repo-filerna gäller — och formeln finns i rewrite §2. **ÅTGÄRDAT samma dag:** minnesfilen omgjord till ren pekare, täckningen grep-verifierad 13/13. [STÄNGD]
+- **Ändring 4 — KIND per SEKTION, inga nya splittar.** Utkastets triad blandade volatilitet med laddnings-frekvens (`questions` ändras ofta, läses nästan aldrig); manifestets LADDA-NÄR bär frekvensen. Riktiga filer är blandade (`score` = härledning + rådata). Radantal struket ur manifestet — ett fält som blir fel vid varje redigering bryter lagen. [RATIFICERAD → underlaget]
+**Åtgärd:** underlagets MÅL-ARKITEKTUR omskriven till ratificerad spec + de fyra besluten; §9.0 steg 5–10 riktade mot destinationen (steg 7 = START-split + backlog-cellen, steg 9 = examples-splitten + block-planen + stub-raderingen, steg 10 = permanentning i §0 + manifest på alla filer). **Nästa: steg 5 (lynx-models).** Känd risk kvitterad: refaktorn föder en ny kull trasiga pekare — steg 10:s grep-koll är motmedlet.
+
 ### 2026-07-08 #18 — §9.0 steg 4: loggpost-MALL + arkiv-policy R1–R6 · 23 stängda poster arkiverade · #14 komprimerad (loggen 87→57 kB)
 **In:** fil-optimeringspasset §9.0 steg 4 (ETT steg, ägar-avstämning efter; inga agent-utskick). Underlag: rapporterna *audit-logg* + *audit-designLogFormat* i `lynx-optimering-underlag.php`.
 **Fynd/gjort:**

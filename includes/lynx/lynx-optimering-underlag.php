@@ -18,32 +18,39 @@
 
 **Planens logik (riskstyrd ordning):** felrättning (2) → rädda unikt (3) → arkivera per policy (4) → en-sanning-per-sak i models/score (5–6) → navet START = störst läsvinst (7) → rewrite FÖRSIKTIGAST, endast format aldrig regler (8) → examples/småfiler (9) → no-loss-verifiering mot MÅSTE-BEHÅLLAS-listorna + radera denna fil (10). **Princip: INGET raderas** — öppna trådar/omätta baselines/ägarbeslut flyttas eller komprimeras, historik → arkivfiler, git har verbatim. Effekt ≈ 2 300 → ~1 400 aktiva rader; egentliga vinsten = gällande sanning står EN gång på EN plats.
 
-## ▶ MÅL-ARKITEKTUR (förslag 7 juli kväll — ATT GÅ IGENOM med ägaren innan steg 5+; ännu EJ ratificerad)
-Ägar-idé: tydligare, mer AI-kompatibel struktur — en logg / en aktiv fil / en historik, återanvänt PER domän & uppgift; START kortare; ladda bara det uppgiftstypen kräver.
+## ▶ MÅL-ARKITEKTUR — ✅ RATIFICERAD AV ÄGAREN 8 JULI 2026 (med fyra ändringar, se nedan)
+Ägar-idé: tydligare, mer AI-kompatibel struktur — en logg / en aktiv fil / en historik, återanvänt PER domän & uppgift; START kortare; ladda bara det uppgiftstypen kräver. **Detta är nu DESTINATIONEN för steg 5–10.** Struktur-kartan skrivs permanent i lynx-START §0 vid steg 10 (annars dör specen med denna temporära fil).
 
-**Bärande princip:** *Ett fakta = en cell. Uppgifter laddar celler. En cell upprepar aldrig en annan — den pekar.* (Sync-driften 7 juli em fanns för att steg-status stod på TVÅ ställen; hade underlags-headern sagt "läge: se START §9.0" kunde den aldrig drivit isär → hela drift-klassen strukturellt borta, inte bara upptäckt-och-lagad.)
+**Bärande princip (LAG):** *Ett fakta = en cell. Uppgifter laddar celler. En cell upprepar aldrig en annan — den pekar.* (Sync-driften 7 juli em fanns för att steg-status stod på TVÅ ställen; hade underlags-headern sagt "läge: se START §9.0" kunde den aldrig drivit isär → hela drift-klassen strukturellt borta, inte bara upptäckt-och-lagad.)
 
-**Atompartikel — triaden × KIND** (varje fil taggas så AI vet hur den ska litas på):
-- REGEL (stabil, ändras sällan, re-läses ej): models, score, rewrite, copy-playbook, copy-formula
-- AKTIV (levande, ändras varje session, re-läses alltid): data, gaps, questions, LÄGE
-- HISTORIK (append-only, aldrig retroaktiv): data-arkiv, log-arkiv, examples-arkiv
+**Atompartikel — triaden × KIND** (så AI vet hur en cell ska litas på):
+- REGEL (stabil, ändras sällan, behöver ej re-läsas): rewrite, models, score-härledningen
+- AKTIV (levande, ändras när ny LYNX-data kommer): data, gaps, questions, examples-aktiv, LÄGE, **backlog**
+- HISTORIK (append-only, aldrig retroaktivt uppdaterad): data-arkiv, log-arkiv, examples-arkiv, **logg**
 
 **Domäner ("olika modeller"):**
-- Mätning/SCORE: REGEL models+score · AKTIV data+gaps · HIST data-arkiv
-- Rewrite/Copy: REGEL rewrite+copy-playbook+copy-formula · AKTIV examples-aktiv · HIST examples-arkiv ← examples (632 rader) = dold jätte, splitta precis som data gjordes
-- Loggen (tvärs alla domäner): AKTIV logg · HIST log-arkiv
+- Mätning/SCORE: REGEL models + score-härledningen · AKTIV data + gaps + score-rådata · HIST data-arkiv
+- Rewrite/Copy: REGEL rewrite · AKTIV examples-aktiv · HIST examples-arkiv ← examples (632 rader) = dold jätte, splitta precis som data gjordes
+- Loggen (tvärs alla domäner): HISTORIK logg + log-arkiv
 
-**START = tunn dispatcher ("olika uppgifter"):** router (uppgiftstyp → celler) + LÄGE + invarianter, ingen operativ text. Laddnings-recept:
+**START = tunn dispatcher (~60 rader):** router (uppgiftstyp → celler) + LÄGE + invarianter, INGEN operativ text. Laddnings-recept:
 - Orientera / "var är vi" → START
+- Vad är gjort / nästa → START + **backlog**
 - Städa sync → START (LÄGE = facit + state-synk-regeln, båda kanoniska här)
-- LYNX-push in → data + data-arkiv + score-regeln + spara-recept + logg
+- LYNX-push in → data + data-arkiv + spara-receptet + logg
 - Score-fråga → models + score
-- Skriva om sida → rewrite + copy-playbook + examples-aktiv + sidans data-rad
-- Logga utfall → logg + logg-konventionen
+- Skriva om sida → START + backlog (sidans rad) + rewrite + examples-aktiv (facit + ev. block-plan) + sidans data-rad
+- Logga utfall → logg + POST-MALLEN (lynx-logg §11)
 
-**AI-kompatibilitets-lager (nya idéer att väga):** (1) front-matter-manifest överst i varje fil — LADDA-NÄR / KANONISK-FÖR / PEKAR-PÅ / KIND / ~rader → AI drar exakt rätt celler, aldrig hela sajten. (2) referera-aldrig-återge för state = strukturell lag mot drift (viktigast). (3) stabila §-ankare så pekare träffar exakt (facit-flödet saknar §-nr idag → routern kan inte peka på det). (4) REGEL/AKTIV/HISTORIK-taggen låter AI hoppa över stabila regelfiler och lägga uppmärksamheten på det ändrade.
+**AI-kompatibilitets-lager:** (1) **front-matter-manifest** överst i varje fil — `LADDA-NÄR / KANONISK-FÖR / PEKAR-PÅ / KIND` (**ej radantal — ett fält som blir fel vid varje redigering bryter lagen**). (2) **referera-aldrig-återge för state** = strukturell lag mot drift (viktigast). (3) **stabila §-ankare** så pekare träffar exakt — facit-flödet saknar §-nr idag, därför pekar routern på §0 som inte nämner save-first. (4) **KIND-taggen** låter AI hoppa över stabila regelfiler.
 
-**Koppling till passet:** detta ger steg 5–10 en DESTINATION i stället för fil-för-fil-städning i blindo. Om ratificerad: skriv struktur-kartan permanent i START §0 vid steg 10 (annars dör specen med denna temporära fil).
+### ⚖️ ÄGARBESLUT 8 juli — fyra ändringar mot 7 juli-utkastet
+1. **NY CELL `lynx-backlog.php` (AKTIV):** §8 sidkarta + §8.1 gap-beslut + §9 TODO + §12 claims flyttar dit. Utan detta förblir START fet och dispatcher-idén faller (utkastet sa inte var backloggen bor). START landar på ~60 rader. Alla §8/§9/§12-pekare måste synkas i steg 10.
+2. **Loggen är HISTORIK, inte AKTIV.** Följer av mall-ramen 8 juli: *"en öppen tråd får aldrig ha loggen som enda bärare"* → inget operativt beror på loggen → den är per definition append-only historik. **Sista hålet stängs: microneedling-block-planen (logg em #2) flyttas till `examples-aktiv` under microneedlings sektion**, bredvid sidans facit — där en rewrite-session ändå laddar.
+3. **`copy-playbook` och `copy-formula` UT ur REGEL-listan.** copy-playbook = 23-raders redirect-stub, dör i steg 9. `copy-formula` bor i en personlig minnesfil utanför repot medan §0.1 säger att repo-filerna gäller — och formeln finns redan i rewrite §2. Två celler, ett fakta = lagbrott i själva specen. *(ÅTGÄRDAT 8 juli: minnesfilen omgjord till ren pekare mot rewrite §2–§6; täckningen grep-verifierad, 13/13 regler fanns.)*
+4. **KIND per SEKTION, inte per fil — inga nya splittar av score/data.** Utkastets triad blandade två axlar (volatilitet vs laddnings-frekvens: `questions` ändras ofta men läses nästan aldrig). Fix: KIND bär volatilitet/förtroende, manifestets `LADDA-NÄR` bär frekvensen. Riktiga filer är blandade (`score` = härledning REGEL + rådata AKTIV; `data` = tabell AKTIV + kolumndefs/spara-recept REGEL) → front-matter listar sektionernas KIND. Splitten av `examples` (steg 9) räcker för den här rundan.
+
+**Känd risk (ägaren informerad):** en refaktor av just de filer som bär processkunskapen producerar en ny kull trasiga pekare — förra splitten (6 juli) lämnade sådana som lagades 7 juli (steg 2) och 8 juli (tre till, vid arkiveringen). Motmedel: steg 10:s grep-koll av pekare + no-loss mot MÅSTE-BEHÅLLAS-listorna. Höll 8 juli.
 
 ---
 
