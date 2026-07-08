@@ -18,7 +18,7 @@ Vi kör **1 Claude i taget** (§0.1), så det här är ingen parallell-lås län
 
 | Sida | Status | Tid |
 |------|--------|-----|
-| *(tom — ingen är igång)* Nästa: **CHECK-REVISIONEN överst i §9**, sen §9.0:s fyra raderingsbeslut. §9.0-dubbletten städad 8 juli (logg #28) | – | – |
+| *(tom — ingen är igång)* Nästa: **CHECK-REVISIONEN §9, hypotes 2 — `statuskoll` RESOLVERN (borttagen kartrad)**. Hypotes 1 avklarad 8 juli → V5 (logg #29) | – | – |
 
 ---
 
@@ -67,9 +67,11 @@ Kryssa här. Start/stopp-vänligt: status = §9 + §11 (logg) + §12 (claims). P
 | V2 | **`statuskoll` DÖDA FRASER är VILANDE — och skriver ändå `✓ inga`.** Vakten `if all(s['live'] for s in sidor.values())` (rad 79) är falsk så länge en enda sida inte är live. | statuskolls egen utskrift: *"16 sidor … LIVE: 15 st"* (microneedling). Detektorn har alltså **aldrig kört** på ett filset där den behövdes. |
 | V3 | **Bara 3 av 6 detektorer i `pekarkoll` når `sys.exit`.** Rad 129: `sys.exit(1 if (broken or unresolved or kvorum_brutet) else 0)`. `blast`, `unknown` och stubb-räknaren kan aldrig fälla grinden. | grep. Exakt samma form som incident #7, som ansågs stängd. |
 | V4 | **`pekarkoll` UTAN `--efter` är RÖD på ett orört filset** (`lynx-backlog:26` flaggas POSITIONELL). Grinden passerar bara för att §0.1 råkar skicka flaggan. | `exit=1` |
+| V5 | **`statuskoll` MOTSÄGELSER är BLIND FÖR OMFORMULERING** (rad 71). Nålen är tre hårdkodade strängar. Den fångar **formuleringen, inte faktumet** — och de tre strängarna är exakt den prosa 6 juli-incidenten råkade använda. *Annan felmod än V1–V3:* den **kan** bli röd, den kan bara inte se saken sägas med andra ord. Ett fjärde literal lagar inget; det flyttar hålet. | Mutation, 8 scenarier, alla samma falska faktum (`acne-ansikte`, kanoniskt LIVE, motsagt i en AKTIV cell). Harness validerad: baseline grön ✓, positiv kontroll "väntar main-push" → `exit=1` ✓, "hålls på staging" → `exit=1` ✓. **Fem omformuleringar passerar tyst:** `väntar på main-push` (ett ord inskjutet!) · `ligger kvar på staging` · `är ej pushad till main` · `är inte live än` · `🚧 GSC-gate` (bytt emoji). |
 
 **EJ VERIFIERAT — agentpåståenden. Verifieringssteget kördes aldrig (sessionen stoppades). Behandla som hypoteser, mutationstesta en och en:**
-- `statuskoll`: MOTSÄGELSER-nålen (rad 71) är hårdkodad mot prosa som kan ha drivit · RESOLVERN skyddar mot en *malformerad* kartrad men inte mot en *borttagen* · VERKTYGSINTEGRITET mäter syntax (`ast.parse`), inte substans — en kommentarsvägg på 4141 tecken passerar.
+- ~~`statuskoll`: MOTSÄGELSER-nålen (rad 71) är hårdkodad mot prosa som kan ha drivit~~ → **BEKRÄFTAD 8 juli, se V5.**
+- `statuskoll`: RESOLVERN skyddar mot en *malformerad* kartrad men inte mot en *borttagen* · VERKTYGSINTEGRITET mäter syntax (`ast.parse`), inte substans — en kommentarsvägg på 4141 tecken passerar.
 - `pekarkoll`: TRASIGA-pekare-regexen (rad 90) hårdkodar literalen `START` → en pekare som namnger någon **annan** fil fångas inte · KVORUM räknar refs i alla 16 filer men detektor 4 hoppar över flera → kvorumet vouchar för något det inte mäter.
 - `noloss`: batteri 6:s A–F-nålar har dekoyer i HISTORIK (`needle in load(f)` söker hela filen) · batteri 9:s `('EFTER' in aktiv and x in aktiv)` är degenererat · batteri 8 har **noll** strukturella checkar (22 rena `needle in file`) · batteri 5:s tröskel `>= 16` mot en tabell med **17** rader → exakt en rad är gratis att tappa; plus delsträngsalias (`pigmentflackar` ⊂ `behandla-pigmentflackar`).
 - *(Redan känt, står i Bevaka: batteri 9:s `micronnedling`-typo.)*
@@ -77,7 +79,8 @@ Kryssa här. Start/stopp-vänligt: status = §9 + §11 (logg) + §12 (claims). P
 **DIAGNOSEN — en enda, och den förklarar alla:** ***checkarna bryter mot lagen de finns för att upprätthålla.*** §0 säger *"ett fakta = en cell; celler pekar, återger aldrig."* Varje nål är en handskriven **återgivning** av ett fakta som bor i en fil. Skrivs faktumet om ruttnar kopian, tyst. Det är 6 juli-driften igen — ett lager ner, i verktygen. **Fler detektorer ovanpå ärver felet.**
 
 **NÄSTA STEG (ETT i taget, ägar-avstämning emellan):**
-1. Mutationstesta de sex hypoteserna ovan, en och en. Stryk dem som inte reproducerar.
+1. Mutationstesta hypoteserna ovan, en och en. Stryk dem som inte reproducerar. **1 avklarad (→ V5), resten kvar.** *(Räkna dem som `·`-separerade påståenden — LÄGE och §9 har sagt "sex", listan bär nio; se §9.2.)*
+   **Harness-kravet, lärt av V5-testet:** ett mutationstest utan **baseline-grön + positiv kontroll-röd** kan inte skilja "detektorn är blind" från "min testrigg är trasig". Kör alltid båda. Riggen: färsk kopia av filsetet per scenario, `LYNX`-konstanten ompekad, samma falska faktum uttryckt på N sätt.
 2. Besluta per död detektor: **laga eller radera.** Blast radius mätte en engångsmigration som redan skett → radering är troligen rätt, inte reparation.
 3. Plumba varje kvarvarande detektor till `sys.exit` (V3).
 4. Den generella boten, **om** den ska byggas: *en nål som matchar noll gånger är RÖD.* Det gör felklassen omöjlig att gömma i stället för bara upptäckbar — samma steg som §0:s lag tog för celler. Överväg att **härleda** nålar ur den kanoniska cellen i stället för att skriva av dem.
@@ -230,5 +233,6 @@ Skillnaden mot de andra listorna: **§9.0/Fas-listorna = planerat arbete** · **
 - [ ] **[LOW] Stubben `lynx-copy-playbook.php` bär en egen stale filkarta.** Dess tabell påstår att `lynx-START.php` innehåller *"backlog §8/§9 · claims §12"* — de flyttade till `lynx-backlog.php` 8 juli (§9.0 steg 7). Det är exakt den pekartyp §0 förbjuder ("skriv aldrig §N i `<filnamn>`"). `pekarkoll` fångar den inte: rad 96 hoppar över `KIND=DÖR`-filer. **Ofarligt så länge stubben faktiskt raderas** — men den har nu överlevt ett ägarbeslut ("vi tar inte bort något just nu") och pekar fel under tiden. Avgörs av §9.0:s raderingsbeslut.
 - [ ] **[LOW] `pekarkoll`s "okända lynx-omnämnanden" listar 14 böjningsformer** (`lynx-datas`, `lynx-scores`, `lynx-fil`, `lynx-logg-posterna` …). Ren svensk genitiv/pluralböjning i prosa, inga trasiga pekare. Detektorn saknar skiftlägeshantering och böjningsstamning. **Beslut: ignorera, eller lär detektorn stamma?** Ingår i CHECK-REVISIONEN steg 1.
 - [ ] **[LOW] §9.0 steg 8: specen sa "§13.O:s *tre* stycken → ett", utfallsraden säger "*fyra* stycken → ett".** Båda bevarade i steg 8-raden. Ingen vet i efterhand vilken som räknade rätt; §13.O är redan ett stycke. Kosmetiskt.
+- [ ] **[LOW] "Sex hypoteser" stämmer inte med listan — den bär nio.** LÄGE-bannern och §9 steg 1 sa båda *sex*; EJ VERIFIERAT-listan innehåller nio `·`-separerade påståenden (statuskoll 3 · pekarkoll 2 · noloss 4). Ingen vet vilka tre som räknades bort. **Ofarligt** — varje påstående mutationstestas ändå en och en — men siffran styr förväntan på hur lång revisionen är. **Vad som krävs:** ägaren (eller den som skrev listan) avgör om tre av dem är delfall av andra; annars skriv nio. Upptäckt medan V5 bokfördes.
 
 *(Tomma rader tas aldrig bort med motiveringen "verkar inte viktigt". De tas bort när fyndet är åtgärdat eller när ägaren avfärdar det — och då med en rad i §11.)*

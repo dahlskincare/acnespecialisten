@@ -44,6 +44,15 @@ Fulltext flyttas till **`includes/lynx/lynx-log-arkiv.php`**; kvar här blir en 
 | behandla-pigmentflackar.php | 14 | – | – | –/– | SIGNIFICANT | GOOD | – | 16 |
 | hudproblem/hudforandringar/ | 10 | – | 17 | 3/2 | SIGNIFICANT | OK | – | 8 |
 
+### 2026-07-08 #29 — CHECK-REVISIONEN hypotes 1/N: MOTSÄGELSER-nålen fångar strängen, inte faktumet.
+**In:** Start-ritualen körd (git rent, §12 tom, GRIND EXIT=0 — rapporterad med §9-förbehållet). Ägarvald uppgift: CHECK-REVISIONEN steg 1, en hypotes.
+**Fynd:**
+- **`statuskoll` MOTSÄGELSER (rad 71) är BLIND FÖR OMFORMULERING.** 8 mutationsscenarier, samma falska faktum om en kanoniskt LIVE-sida, bara ordvalet skiljer: de 2 hårdkodade literalerna fälls (`exit=1`), **5 omformuleringar passerar tyst** — värst `väntar på main-push`, ett inskjutet ord. [ÖPPEN → §9-rad V5]
+- **Annan felmod än V1–V3, håll isär dem:** V1/V2/V3 = detektorer som *inte kan* bli röda. V5 = en som *kan*, men bara på den prosa 6 juli-incidenten råkade använda. **Ett fjärde literal lagar inget — det flyttar hålet.** Stärker §9:s diagnos: nålen är en handskriven återgivning. [ÖPPEN → §9-rad V5]
+- **Metodfynd:** ett mutationstest utan **baseline-grön + positiv-kontroll-röd** kan inte skilja "detektorn är blind" från "testriggen är trasig". Båda kontrollerna kördes; riggen bevisat giltig. Kravet infört i §9 steg 1. [RATIFICERAD → §9 steg 1]
+- "Sex hypoteser" i LÄGE/§9 mot en lista som bär nio `·`-separerade påståenden. Ofarligt, men styr förväntan på revisionens längd. [ÖPPEN → §9.2]
+**Åtgärd:** `lynx-backlog` (V5 i VERIFIERAT-tabellen · hypotesen struken ur EJ VERIFIERAT · harness-kravet i steg 1 · §9.2-rad · §12), `lynx-START` (LÄGE). Nästa hypotes: `statuskoll` RESOLVERN (borttagen kartrad) — **en i taget, ägar-avstämning emellan, inga agent-utskick.**
+
 ### 2026-07-08 #28 — §9.0-dubbletten städad. Och: fyra detektorer i #27:s egna checkar kan inte bli röda.
 **In:** Start-ritualen (§0.1) körd — git rent, §12 tom, checkarna gröna. Ägarvald uppgift: städa §9.0-dubbletten + slutgranska §9.0.
 **Fynd:**
