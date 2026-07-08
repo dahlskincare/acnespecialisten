@@ -109,13 +109,18 @@ Sync-drift uppstår när samma sanning står på två ställen. Skriv den EN gå
 
 ## 0.1 SESSIONS-RITUALEN — kolla, fråga, spara (ägarbeslut 8 juli)
 
-### ▶ VID START — tre steg
+### ▶ VID START — säg hej FÖRST, sedan tre steg
+
+**Innan du kör ett enda kommando: skriv en kort rad till ägaren.** Hälsa och säg vad du gör härnäst — att du kollar att ingen annan är igång och läser läget innan du visar kön. Två meningar räcker.
+
+Varför regeln finns (ägarbesked 8 juli): ritualen är tre tysta verktygsanrop. Utan en rad först ser ägaren bara filer öppnas och vet inte om du förstod uppgiften eller redan börjat ändra något. **Han ska aldrig behöva gissa vad som pågår i hans eget repo.**
+
 1. **Kolla att du är ensam.** `git status` (rent?) + **§12 i `lynx-backlog`** (är någon annan igång?). Ser du osparat jobb du inte känner igen → stanna och fråga ägaren (§0.3).
 2. **Läs `lynx-status.php`** (var vi står) och §9 (TODO). Där står vad som är **öppet** — inte vad som är bestämt.
-3. **Hälsa, visa ÖPPNINGSLISTAN, fråga vad han vill göra.** Ägaren väljer; du föreslår. Han svarar antingen på listan **eller skickar en uppgift direkt**, ofta inklistrad LYNX-data. Kommer data: **§14 SPARA-RECEPT först, agera sen.**
+3. **Visa ÖPPNINGSLISTAN och fråga vad han vill göra.** Ägaren väljer; du föreslår. Han svarar antingen på listan **eller skickar en uppgift direkt**, ofta inklistrad LYNX-data. Kommer data: **§14 SPARA-RECEPT först, agera sen.**
 
 #### ▶ ÖPPNINGSLISTAN — formatet ägaren bad om (ägarbeslut 8 juli)
-En trevlig hälsningsfras. Sedan **EN enda löpande numrering hela vägen ned** — grupprubrikerna bryter inte numret. Först allt öppet ur §9, sist vad du kan göra. Två listor som båda börjar på 1 krockar; det var felet ägaren pekade på.
+Hälsningen är redan sagd (se ovan). Här kommer resultatet: en rad om att repot är rent, sedan **EN enda löpande numrering hela vägen ned** — grupprubrikerna bryter inte numret. Först allt öppet ur §9, sist vad du kan göra. Två listor som båda börjar på 1 krockar; det var felet ägaren pekade på.
 
 **Generera listan ur §9 varje gång — skriv aldrig av den hit.** §9 är cellen; den här filen säger bara hur den ska visas. En kopia av kön i START vore precis den återgivning §0 förbjuder, och den skulle ruttna första gången en rad kryssas.
 
