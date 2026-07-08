@@ -17,6 +17,23 @@ PEKAR-PÅ      lynx-data = AKTUELLT LÄGE (gällande värden) · jämför ALDRIG
 
 
 
+## Snapshot 2026-07-08 kl. 16:54 — AICOPY-sorterad Pages-vy (8 rader, SKUREN efter /behandlingar.php)
+> Ägar-dump: *"uppdatering från listan sorterade på ai copy, så du ser vilka som är kvar som har högt."* Samma vy som 10:45-snapshotet nedan. **Flagg-gruppen är ändå KOMPLETT fångad:** raden överst ligger direkt under kolumnhuvudet (⇒ ingen EXTREME) och SLIGHT börjar på rad 8 (⇒ inget flaggat under microdermabrasion). PAGE TYPE "–" på ipl/oonskat-har/microdermabrasion/behandlingar, blank på övriga. EG SCORE "–" överallt.
+
+| URL | VALUE | SCORE | GAPS ⚡/💡 | AI COPY | AIQ | P.PRICE | EG | KW |
+|---|---|---|---|---|---|---|---|---|
+| /hudproblem/hudforandringar/ | 10 | 17 | 3/2 | **SIGNIFICANT** | OK | – | – | 7 |
+| /ytliga-blodkarl.php | 41 | **74** | 0/0 | **SIGNIFICANT** | OK | – | – | 156 |
+| /hudbehandlingar/ipl/ | 34 | – | –/– | 🟠 MODERATE | OK | HIGH | – | 18 |
+| /hudproblem/bristningar/ | 18 | 63 | 0/0 | 🟠 MODERATE | OK | – | – | 67 |
+| /hudproblem/oonskat-har/ | 11 | – | –/– | 🟠 MODERATE | OK | – | – | 12 |
+| /ipl-rosacea.php | 54 | 60 | 3/1 | 🟠 MODERATE | OK | HIGHEST | – | 18 |
+| /microdermabrasion.php | 29 | – | –/– | 🟠 MODERATE | OK | LOWEST | – | 6 |
+| /behandlingar.php | 14 | – | –/– | 🔵 SLIGHT | OK | – | – | 0 |
+
+**DIFF mot 10:45-dumpen sex timmar tidigare: två KW-celler, inget annat.** ytliga-blodkarl KW 157→156 · oonskat-har KW 13→12. Åtta badges, alla SCORE, GAPS, P.PRICE, AIQ och VALUE identiska. **Ingen badge har rört sig sedan i morse.** *(Flagg-gruppens sammansättning likaså oförändrad sedan 10:45: 2 SIGNIFICANT + 5 MODERATE.)*
+
+
 ## Snapshot 2026-07-08 kl. 10:55–10:57 — KOMPLETT AICOPY-vy (11 dumpar, hela listan SIGNIFICANT→HUMAN)
 > Ägar-leverans efter beställning i §9. Alfabetisk inom varje AI COPY-grupp. Kolumner: VALUE · PAGE TYPE · SCORE · GAPS ⚡/💡 · AI COPY · AIQ · P.PRICE · EG SCORE · KW.
 

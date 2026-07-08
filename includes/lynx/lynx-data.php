@@ -49,14 +49,14 @@ PEKAR-PÅ      lynx-data-archive = snapshots verbatim · lynx-examples/score/que
 **Flagg-gruppen (AI COPY ≥ MODERATE i senaste vyn):**
 | URL | VAL | SCORE | AI COPY | AIQ | GAPS ⚡/💡 | KW | WORDS | CLICKS | P.PRICE | Sedd | Not (status: §11.1) |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| /hudproblem/hudforandringar/ | 10 | 17 (analys ~18/4) | 🔴 SIGNIFICANT (stale) | OK | 3/2 | 7 | 968 | 0 | – | 7/7 | → §11.1 |
-| /ytliga-blodkarl.php | 40 | **74 färsk** (6/7) | 🔴 SIGNIFICANT (stale) | OK | 0/0 | 157 | 919 | 51 | – | 7/7 | → §11.1. **Öppet:** väntar badge-refresh |
-| /hudbehandlingar/ipl/ | 34 | ⟳7/7 (aldrig färsk) | 🟠 MODERATE (stale) | OK | –/– | 18 | 1 006 | 13 | HIGH | 7/7 | → §11.1 |
-| /hudproblem/bristningar/ | 18 | **FÖRE:63** (6/7 färsk) | 🟠 MODERATE (pre-rewrite) | OK | 0/0 | 66 | 791 | 2 | – | 7/7 | → §11.1 |
-| /hudproblem/oonskat-har/ | 11 | ⟳7/7 | 🟠 MODERATE (stale) | OK | –/– | 13 | 759 | 0 | – | 7/7 | → §11.1 |
-| /ipl-rosacea.php | 55 | **60 färsk** (6/7) | 🟠 MODERATE (stale) | OK | 3/1 (texter: lynx-gaps) | 18 | 823 | 10 | HIGHEST | 7/7 | → §11.1. **Öppet:** väntar badge-refresh |
-| /microdermabrasion.php | 30 | 50 (2/7) ⟳7/7 | 🟠 MODERATE (stale) | OK | –/– | 6 | 536 | 3 | LOWEST (var MID) | 7/7 | → §11.1 |
-| /pigmentflackar.php | 32 | **FÖRE:73** (7/7; AI STYLE 55) | 🟠 MODERATE (crawl ≤6/7 = pre-V2) | OK | 0/0 | 232 | 946 | 19 | – | 7/7 | → §11.1 (logg #14) |
+| /hudproblem/hudforandringar/ | 10 | 17 (analys ~18/4) | 🔴 SIGNIFICANT (stale) | OK | 3/2 | 7 | 968 | 0 | – | 8/7 16:54 | → §11.1 |
+| /ytliga-blodkarl.php | 41 | **74 färsk** (6/7) | 🔴 SIGNIFICANT (stale) | OK | 0/0 | 156 | 919 | 51 | – | 8/7 16:54 | → §11.1. **Öppet:** väntar badge-refresh |
+| /hudbehandlingar/ipl/ | 34 | ⟳8/7 (aldrig färsk) | 🟠 MODERATE (stale) | OK | –/– | 18 | 1 006 | 13 | HIGH | 8/7 16:54 | → §11.1 |
+| /hudproblem/bristningar/ | 18 | **FÖRE:63** (6/7 färsk) | 🟠 MODERATE (pre-rewrite) | OK | 0/0 | 67 | 791 | 2 | – | 8/7 16:54 | → §11.1 |
+| /hudproblem/oonskat-har/ | 11 | ⟳8/7 | 🟠 MODERATE (stale) | OK | –/– | 12 | 759 | 0 | – | 8/7 16:54 | → §11.1 |
+| /ipl-rosacea.php | 54 | **60 färsk** (6/7) | 🟠 MODERATE (stale) | OK | 3/1 (texter: lynx-gaps) | 18 | 823 | 10 | HIGHEST | 8/7 16:54 | → §11.1. **Öppet:** väntar badge-refresh |
+| /microdermabrasion.php | 29 | 50 (2/7) ⟳8/7 | 🟠 MODERATE (stale) | OK | –/– | 6 | 536 | 3 | LOWEST (var MID) | 8/7 16:54 | → §11.1 |
+| /pigmentflackar.php | 32 | **FÖRE:73** (7/7; AI STYLE 55) | 🟠 MODERATE ⟳8/7 (ej i flagg-gruppen 16:54 — omanalys, ej badge-flytt) | OK | 0/0 | 232 | 946 | 19 | – | 7/7 | → §11.1 (logg #14) |
 | /rhinophyma-rosacea.php | 35 (8/7) | 74 (8/7; FÖRE 74 · AI STYLE-FÖRE 70) | **🔵 SLIGHT** (8/7) | OK | 0/0 | 46 | 788 | 15 | – | 8/7 | → §11.1. **Öppet:** AI STYLE-testet — beställ SCORE-popupen |
 | /solskadad-hy.php | 31 (8/7) | – (omanalys) | **🔵 SLIGHT** (8/7) | OK | –/– | 33 | 560 | 5 | – | 8/7 | → §11.1 |
 | /mogen-hy.php | 10 (8/7) | – (omanalys) | **🔵 SLIGHT** (8/7) | OK | –/– | 8 | | | – | 8/7 | → §11.1. 13:58-frånvaron 7/7 var inte badge-flytt utan omanalys — bekräftat |
@@ -84,7 +84,7 @@ PEKAR-PÅ      lynx-data-archive = snapshots verbatim · lynx-examples/score/que
 | /behandla-finnar-arr.php | 8 | – | 🔵 | OK | | 2 | 687 | 0 | – | 7/7 | ORÖRD |
 | /behandla-pigmentflackar.php | 10 | – (aldrig satt) | 🔵 (crawl 7/7 av VÅR text) | GOOD | –/– | 13 | 532 | 0 | – | 7/7 | → §11.1. **Öppet:** färsk SCORE + 4 micro-fix-block |
 | /behandla-stora-porer.php | 46 | **63 färsk** | 🔵 | OK | 1/1 | 39 | | | – | 7/7 | ORÖRD |
-| /behandlingar.php | 14 | – | 🔵 | OK | | 0 | 275 | 1 | – | 7/7 | Redirect → /hudbehandlingar/; **STATUS 301 ✓** |
+| /behandlingar.php | 14 | – | 🔵 | OK | –/– | 0 | 275 | 1 | – | 8/7 16:54 | Redirect → /hudbehandlingar/; **STATUS 301 ✓** |
 | /blodprickar.php | 59 | 75 | 🔵 | OK | 2/1 | 171 | | | – | 7/7 | ORÖRD — Tier 2 |
 | /cystisk-acne.php | 58 | 70 | 🔵 | OK | 0/0 | 21 | | | – | 7/7 | ORÖRD |
 | /djuprengoring.php | 56 | 75 | 🔵 | OK | 1/1 | 8 | | | HIGH | 7/7 | ORÖRD |

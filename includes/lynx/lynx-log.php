@@ -44,6 +44,16 @@ Fulltext flyttas till **`includes/lynx/lynx-log-archive.php`**; kvar här blir e
 | behandla-pigmentflackar.php | 14 | – | – | –/– | SIGNIFICANT | GOOD | – | 16 |
 | hudproblem/hudforandringar/ | 10 | – | 17 | 3/2 | SIGNIFICANT | OK | – | 8 |
 
+### 2026-07-08 #40 — Flagg-listan innehåller noll oskrivna sidor. Alla sju är våra egna, och ingen badge har rört sig på sex timmar.
+**In:** Ägar-dump 16:54, AICOPY-sorterad Pages-vy, 8 rader. Sparad FÖRST → `lynx-data-archive` 16:54-snapshot.
+**Fynd:**
+- **Dumpen är en dublett av 10:45-dumpen.** Enda skillnaden på sex timmar: KW 157→156 (ytliga-blodkarl) och 13→12 (oonskat-har). Alla badges, SCORE, GAPS, P.PRICE och VALUE identiska. [STÄNGD]
+- **🔴 Flagg-gruppens sju sidor är ALLA redan omskrivna och live på main.** 2 SIGNIFICANT + 5 MODERATE, ingen oskriven. **Listan är en väntelista, inte en arbetskö** — den kan inte betas av med rewrites. [RATIFICERAD → `lynx-status` LÄGE]
+- **Vy-oberoendet (mätregel 2) är nu grovt:** ytliga-blodkarl har SCORE 22→74 färsk sedan 6 juli medan AI COPY-badgen står kvar på SIGNIFICANT sedan 1 juli. Sju dygn. [ÖPPEN → §9]
+- **Två tolkningar, ett datum skiljer dem.** Stale crawl (vänta) vs fyra rewrites som inte flyttade badgen medan tre andra gjorde det. Endast *"Last update"* per sida avgör; listvyn bär inte datumet. **Attribuera inget tills det lästs** (mätregel 4). [ÖPPEN → §9]
+- **AKTUELLT LÄGE var inte propagerad från morgonens dumpar** (VALUE 40/55/30 kvar där 10:45 sa 41/54/29). Rättat ur 16:54-dumpen. §14 steg 3 hoppades över i morse. [STÄNGD]
+**Åtgärd:** `lynx-data-archive` (verbatim) · AKTUELLT LÄGE 8 rader + pigmentflackar ⟳8/7 · §9 ägar-beställning "Last update-datum för de 7 flaggade" (ersätter den felräknade "3 kvarvarande SIGNIFICANT") · `lynx-status` LÄGE. Inga sidor rörda.
+
 ### 2026-07-08 #39 — Fyndlådans enda rad avgjord: §13.O hade FEM stycken. Både specen och utfallsraden räknade fel.
 **In:** Ägaren valde §9.2:s enda fynd — *"specen sa tre stycken, utfallsraden fyra; ingen vet i efterhand vilken som räknade rätt."* Git-historiken vet.
 **Fynd:**
