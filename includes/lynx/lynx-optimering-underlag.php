@@ -50,7 +50,37 @@
 3. **`copy-playbook` och `copy-formula` UT ur REGEL-listan.** copy-playbook = 23-raders redirect-stub, dör i steg 9. `copy-formula` bor i en personlig minnesfil utanför repot medan §0.1 säger att repo-filerna gäller — och formeln finns redan i rewrite §2. Två celler, ett fakta = lagbrott i själva specen. *(ÅTGÄRDAT 8 juli: minnesfilen omgjord till ren pekare mot rewrite §2–§6; täckningen grep-verifierad, 13/13 regler fanns.)*
 4. **KIND per SEKTION, inte per fil — inga nya splittar av score/data.** Utkastets triad blandade två axlar (volatilitet vs laddnings-frekvens: `questions` ändras ofta men läses nästan aldrig). Fix: KIND bär volatilitet/förtroende, manifestets `LADDA-NÄR` bär frekvensen. Riktiga filer är blandade (`score` = härledning REGEL + rådata AKTIV; `data` = tabell AKTIV + kolumndefs/spara-recept REGEL) → front-matter listar sektionernas KIND. Splitten av `examples` (steg 9) räcker för den här rundan.
 
-**Känd risk (ägaren informerad):** en refaktor av just de filer som bär processkunskapen producerar en ny kull trasiga pekare — förra splitten (6 juli) lämnade sådana som lagades 7 juli (steg 2) och 8 juli (tre till, vid arkiveringen). Motmedel: steg 10:s grep-koll av pekare + no-loss mot MÅSTE-BEHÅLLAS-listorna. Höll 8 juli.
+**Känd risk (ägaren informerad):** en refaktor av just de filer som bär processkunskapen producerar en ny kull trasiga pekare — förra splitten (6 juli) lämnade sådana som lagades 7 juli (steg 2) och 8 juli (tre till, vid arkiveringen). Motmedel: **pekar-censusen nedan (flyttad från steg 10 till FÖRE steg 7)** + no-loss mot MÅSTE-BEHÅLLAS-listorna.
+
+## ▶ PEKAR-BASELINE (mätt 8 juli, FÖRE steg 7 — kör om EFTER varje omstrukturering)
+**Varför före:** utan FÖRE-baseline går en trasig pekare inte att attribuera till refaktorn — den kan ha varit trasig sedan 6 juli-splitten. Samma princip som mät-loopens *"attribution kräver observerad delta"* (lynx-models §11.1), tillämpad på filsetet.
+
+**FÖRE-läge 8 juli — §8/§9/§12-pekare utanför START, per KIND:**
+| KIND | Filer | Pekare | Åtgärd vid steg 7 |
+|---|---|---|---|
+| AKTIV | examples 13 · data 12 · gaps 8 · questions 1 | **34** | ✏️ redigeras → `lynx-backlog` |
+| REGEL | rewrite 9 · models 5 · score 1 | **15** | ✏️ redigeras → `lynx-backlog` |
+| HISTORIK | logg 49 · log-arkiv 46 · data-arkiv 6 | **101** | 📌 **EN header-rad per fil** (se nedan) |
+| DÖR/TEMP | copy-playbook 7 · underlag 123 | 130 | 🗑 filerna raderas (steg 9 resp. 10) |
+
+**➜ Faktiska redigeringar: 49 pekare i 7 filer.** Övriga 231 kräver ingen redigering. **§-refs utan ägare i §-kartan: 0** (inga redan-trasiga §-pekare i FÖRE-läget — allt som går sönder efter steg 7 är alltså orsakat av steg 7).
+
+**⚖️ NYTT BESLUT som följer av lagen (census-fynd 8 juli, ej i 7 juli-specen):** HISTORIK-filer får per definition **inte** uppdateras retroaktivt — men deras 101 §-pekare skulle då peka fel för all framtid. Lösningen är lagen själv: **en enda cell överst i varje historik-fil** — *"§-referenser i denna fil avser filstrukturen vid postens datum. §8/§9/§12 bor sedan 8 juli i `lynx-backlog.php`; §-kartan i lynx-START är resolvern."* Ett fakta, en cell, 101 pekare lösta. Gäller `lynx-logg`, `lynx-log-arkiv`, `lynx-data-arkiv` (+ `lynx-examples-arkiv` när den skapas i steg 9).
+
+**Stubb-raderingen (steg 9):** endast **3 omnämnanden** blockerar — `lynx-START` ×1, `lynx-rewrite` ×2. Resten sitter i log-arkiv (historik, header-raden täcker) och underlaget (raderas).
+
+**Census-skriptet** (kör `python3 pekarkoll.py` före, `--efter` efter; jämför):
+```python
+# §-kartan = resolvern. §8/§9/§12 → BACKLOG alltid; HOME_NOW = START före steg 7, lynx-backlog efter.
+OWNER = {'0':'lynx-START','8':'BACKLOG','9':'BACKLOG','12':'BACKLOG','1':'lynx-rewrite','2':'lynx-rewrite',
+         '3':'lynx-rewrite','4':'lynx-rewrite','5':'lynx-rewrite','6':'lynx-rewrite','7':'lynx-rewrite',
+         '13':'lynx-rewrite','10':'lynx-models','11':'lynx-logg'}
+SUB_OWNER = {'1.2':'lynx-models','1.5':'lynx-models','11.1':'lynx-models'}
+KIND = {...}   # REGEL/AKTIV/HISTORIK/DÖR/TEMP per fil — avgör OM en pekare måste redigeras
+# För varje fil: regex §(\d+(\.\d+)?) → slå upp ägare → räkna de som pekar utanför sin hemfil.
+# Rapportera dessutom: §-refs utan ägare (redan trasiga), lynx-*-refs till icke-existerande filer, stubb-refs.
+```
+*(⚠️ Fallgrop, upptäckt vid första körningen: om skriptet i FÖRE-läge mappar §8/§9/§12 tillbaka till START blir blast radius **0** — en tyst nolla som ser ut som "allt är bra". §8/§9/§12 måste alltid mappa till BACKLOG; det är hemfilen som varierar. En check som kan returnera falskt grönt är värre än ingen check.)*
 
 ---
 
