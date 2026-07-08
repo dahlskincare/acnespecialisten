@@ -19,7 +19,7 @@ PEKAR-PÅ      lynx-backlog = arbetet (§8/§9/§12) · lynx-rewrite = hantverke
 | **Slå upp ett beslut/varför** | `lynx-logg.php` (arbetslogg) |
 
 
-**Filkarta (hela LYNX-setet):** `lynx-START` (denna: router/läge/invarianter/§-KARTA) · `lynx-backlog` (sidkarta/TODO/claims) · `lynx-rewrite` (omskrivnings-hantverk) · `lynx-models` (modeller/mät) · `lynx-logg` (historik) · `lynx-log-arkiv` (gammal historik) · RÅDATA: `lynx-data` (Pages+kolumndefs) · `lynx-score` (SCORE) · `lynx-examples` (AI COPY-facit) · `lynx-questions` (AIQ) · `lynx-gaps` (gaps).
+**Filkarta (hela LYNX-setet):** `lynx-START` (denna: router/läge/invarianter/§-KARTA) · `lynx-backlog` (sidkarta/TODO/claims) · `lynx-rewrite` (omskrivnings-hantverk) · `lynx-models` (modeller/mät) · `lynx-logg` (historik) · `lynx-log-arkiv` (gammal historik) · `lynx-verktyg` (de tre mekaniska checkarna) · RÅDATA: `lynx-data` (Pages+kolumndefs) · `lynx-score` (SCORE) · `lynx-examples` (AI COPY-facit) · `lynx-questions` (AIQ) · `lynx-gaps` (gaps).
 ---
 
 ## ▶ START HÄR — för en ny Claude utan kontext
@@ -38,7 +38,7 @@ Säger användaren *"vi fortsätter med LYNX-uppgifterna"* eller klistrar in LYN
 > - **✅ ALLA flagg-sidor LIVE PÅ MAIN.** Wave 2 (6 Fas 3 + pigmentflackar + småfixar: milier-pris, Google Meet, d3ce9162) **pushad till main 6 jul (ägarbeslut) → VERIFIERAD LIVE PÅ PRODUKTION**: alla 20 ändrade sidor HTTP 200, 0 PHP-fel, nytt innehåll bekräftat (logg #13 produktions-verifiering; staging-kontrollen arkiverad, `lynx-log-arkiv` 6 juli #12). §10.0 GSC-gaten passerad på ägarbeslut. **Kvar på dessa = passiv mät-uppföljning (LYNX-refresh + GSC), ej blockerande.**
 > - **SEO-vakt §10.0 = SENARE process (ägarbeslut 6 jul):** GSC + Ahrefs görs som eget pass senare (LYNX-prioritet nu pga refresh-fördröjning). Gaten blockerar inte längre; main-push är ägarens beslut. KW-vakt löpande via LYNX-data kvarstår.
 > - **pigmentflackar + rhinophyma re-scannade 7 jul (logg #14):** båda "Last update 06 Jul"-vyerna läste PRE-WAVE-2-texten (crawl daterad 2 jul 16:09–6 jul 16:08 via git) — 18/18 + 16/16 block identiska med gamla faciten (determinism #3+#4; typo-fixar flyttar inte betyg) → **V2-rewriterna fortfarande OMÄTTA; EFTER-facit väntar nästa refresh (crawl efter 6 jul 16:08).** SCORE: pigment 73 = medel(84,60) ✓; AI STYLE-FÖRE-baselines satta (pigment 55, rhino 70).
-> - **✅ FIL-OPTIMERINGSPASSET §9.0 KLART 8 juli (steg 1–10).** Arkitekturen är ratificerad och permanentad i §0: lagen **"ett fakta = en cell, celler pekar — återger aldrig"**, KIND-taggar och `▣ MANIFEST` på alla filer. Kvar: ägarens slutgranskning + två raderingsbeslut (stubben, underlagsfilen) + ett innehållsbeslut (`lynx-score` HISTORIK-prosan). **Nästa arbete: microneedling (Fas 3b) — REWRITE-SPEC i `lynx-examples`.**
+> - **✅ FIL-OPTIMERINGSPASSET §9.0 KLART 8 juli (steg 1–10).** Arkitekturen är ratificerad och permanentad i §0: lagen **"ett fakta = en cell, celler pekar — återger aldrig"**, KIND-taggar och `▣ MANIFEST` på alla filer. Kvar: ägarens slutgranskning + två raderingsbeslut (stubben, underlagsfilen) + ett innehållsbeslut (`lynx-score` HISTORIK-prosan). **Statusdisciplin (8 juli): kanonisk cell per statusklass, LÄGE = cache — kör `statuskoll.py` före varje main-push.** **Nästa arbete: microneedling (Fas 3b) — REWRITE-SPEC i `lynx-examples`.**
 > - **Nästa SIDARBETE (efter passet):** microneedling (block-plan lynx-logg 2 jul em #2; typos redan fixade — kvar = de-AI) → övriga Fas 3b (portomning/acne-rygg/seborroisk-keratos, facit finns) → Tier 1-SLIGHT (rosacea/perioral-dermatit, facit saknas).
 > - **Öppna ägar-beställningar:** om-oss badge-rad · acne-ansikte FAQ-facitrest · AI Copy-datum för de 3 kvarvarande SIGNIFICANT · (GSC/Ahrefs = eget senare pass) · boilerplate-sweep "Akne Specialiserade Hudterapeuter" (27 filer — timing-beslut).
 > - **Varningar/regler:** 1 Claude i taget (§0.1) · save-first i rätt kolumnfil (filkarta i `lynx-data`) · ny LYNX-skala → färsk-mot-färsk · **attribution kräver observerad delta, ej deploy-timing** · **LYNX uppdaterar per (sida × vy), aldrig i sajt-svep — datera varje cell, EFTER-data droppar in löpande** (lynx-models §11.1) · Fas 3-facit REDAN sparat — be inte igen.
@@ -93,6 +93,20 @@ Sync-drift uppstår när samma sanning står på två ställen. Skriv den EN gå
 | Skriva om en sida | `lynx-backlog` (claima i §12, läs sidans rad) + `lynx-rewrite` + sidans facit i `lynx-examples` |
 | Logga utfall | `lynx-logg` §11, POST-MALLEN |
 
+### Statusdisciplin — en kanonisk cell per statusklass (8 juli)
+**Lagen gäller även status — och status är det som ruttnar, för det är status som ändras.** Den 6 juli sa sex sidor "väntar main-push" medan LÄGE sa "live på main". Ingen märkte det på en vecka.
+
+| Statusklass | KANONISK CELL |
+|---|---|
+| Per-sida mätstatus: MÄTT/OMÄTT · FÖRE-baseline · prediktion | **`lynx-models` §11.1** |
+| Är sidan LIVE på main? | **`lynx-models` §11.1**, kolumnen "Main-push" |
+| Senaste LYNX-värde per sida × vy | **`lynx-data`** AKTUELLT LÄGE |
+| Arbetsstatus: klar · i kö · öppna rester | **`lynx-backlog`** §8/§9 |
+
+**LÄGE-bannern och backloggens sammanfattningar är CACHE.** De får återge status, för en människa vill se läget utan att öppna fyra filer. **Men vid konflikt vinner cellen, aldrig cachen.** Ser du en konflikt: rätta cachen, kör `statuskoll.py`, och lita aldrig på att du var den enda som läste fel.
+
+**Larmet: `statuskoll.py` (i `lynx-verktyg.php`).** Läser den kanoniska cellen och larmar om någon aktiv cell säger emot. Verifierar också att varje omskriven sida HAR en §11.1-rad, och att §-KARTAN pekar på filer som faktiskt bär §:et. **Kör den efter varje statusbyte och alltid före en main-push.** Den hade fångat 6 juli-driften samma dag den uppstod — och när den kördes första gången, 8 juli, hittade den två stale states som överlevt hela städpasset: §10.0 höll tre sidor "på staging" som varit live i två dagar, och rewrite-resultat-tabellen sa "väntar main-push" om en sida live sedan 1 juli.
+
 **Två fällor som kostat oss tid, båda strukturella:**
 1. **En öppen tråd får aldrig ha loggen som enda bärare.** Loggen är historik. Skapa §9-raden i `lynx-backlog` först, länka sen.
 2. **En pekare som namnger en fil bryts när filen flyttar; en ren `§9` gör det inte** — §-KARTAN är resolvern. Skriv paragraf-numret naket. Skriv aldrig "§N i `<filnamn>`": filen kan flytta, numret gör det inte.
@@ -110,7 +124,7 @@ Sync-drift uppstår när samma sanning står på två ställen. Skriv den EN gå
 
 Prioritet: **de mest flaggade blocken först** (🟥/🔴 före 🟠); lämna 🔵/🟢 (lätt hand, §13.D).
 
-**State-synk-principen (bevisad 2× den 2 juli; flyttad hit från loggen 7 juli):** när ett tillstånd eller en modellslutsats ändras — **greppa filsetet efter den GAMLA frasen** (t.ex. "väntar main-push") och synka ALLA förekomster, även bannern/tabellerna; det är dem en ny session litar på. Iterativa påbyggnader lämnar annars döda imperativ kvar.
+**State-synk-principen (bevisad 2× den 2 juli):** när ett tillstånd eller en modellslutsats ändras — **greppa filsetet efter den GAMLA frasen** (t.ex. "väntar main-push") och synka ALLA förekomster, även bannern och tabellerna; det är dem en ny session litar på. Iterativa påbyggnader lämnar annars döda imperativ kvar. **Kör `statuskoll.py` efteråt** — den gör grepandet mekaniskt i stället för att förlita sig på att du kom ihåg alla formuleringar.
 
 **Skrivkonvention datum (ägarbesked 7 juli):** i egen text skrivs månaden ut — "2 juli", inte "2 jul" ("vi skriver så mycket så vi kan lika gärna skriva ut hela månaden"; juni/juli förkortas inte på svenska). Ordagranna LYNX-citat ("Last update: 06 Jul") transkriberas verbatim. Gäller framåt direkt; retroaktivt svep av gamla poster = §9-TODO.
 

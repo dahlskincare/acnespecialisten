@@ -44,6 +44,16 @@ Fulltext flyttas till **`includes/lynx/lynx-log-arkiv.php`**; kvar här blir en 
 | behandla-pigmentflackar.php | 14 | – | – | –/– | SIGNIFICANT | GOOD | – | 16 |
 | hudproblem/hudforandringar/ | 10 | – | 17 | 3/2 | SIGNIFICANT | OK | – | 8 |
 
+### 2026-07-08 #22 — STATUSDISCIPLIN: kanonisk cell per statusklass + `statuskoll.py`; två stale states som överlevt hela passet
+**In:** ägarfråga — "har vi löst att saker inte hålls uppdaterade?" Mätning i stället för gissning: `acne-ansikte är MÄTT` stod i **6 aktiva celler**, `AI STYLE-FÖRE 55` i 4, `V2 OMÄTT` i 3. **Svaret var nej.** Lagen hade tvingats in på regler och procedurer, aldrig på status — och det är status som ruttnar, för det är status som ändras.
+**Fynd:**
+- **§11.1 var ofullständig.** Att utse den till kanonisk cell avslöjade att tre omskrivna sidor med öppna prediktioner saknade rad: `solskadad-hy`, `rhinophyma-rosacea`, `pigmentflackar`. Tillagda med FÖRE-baselines (rhino AI STYLE 70 / SCORE 74 · pigment 55 / 73). Nu 16 rader. [STÄNGD]
+- **`statuskoll.py` byggd** — läser status ur §11.1 och larmar om någon aktiv cell säger emot (MÄTT vs OMÄTT · LIVE vs "väntar main-push"), kollar att varje omskriven sida HAR en kanonisk rad, och att §-KARTAN pekar på filer som faktiskt bär §:et. Negativkontrollerad på alla fyra detektorer. [RATIFICERAD → lynx-verktyg]
+- **🔴 Första körningen hittade TVÅ ÄKTA stale states som överlevt hela §9.0-passet:** (1) `lynx-models` §10.0 höll `mogen-hy/oonskat-har/microdermabrasion` "på staging tills GSC-kollen är grön" — de var live sedan 6 juli, och jag redigerade själv den filen i steg 5 utan att se det. (2) `lynx-examples` rewrite-resultat-tabellen sa "väntar main-push" om `ipl-rosacea`, live sedan 1 juli. Båda lagade. [STÄNGD]
+- **Statusdisciplinen förankrad i START §0:** kanonisk cell per statusklass · **LÄGE och backloggens sammanfattningar deklarerade som CACHE — vid konflikt vinner cellen, aldrig cachen** · `statuskoll.py` grön är nu del av Definition of Done (rewrite §13.E), och körs alltid före main-push. [RATIFICERAD → lynx-START §0]
+- **Ny fil `lynx-verktyg.php`** — de tre checkarna bor nu i repot, inte i den temporära underlagsfilen. Med den gyllene regeln överst: *en check som kan returnera tyst grönt är farligare än ingen check.* [STÄNGD]
+**Åtgärd:** START §0 · rewrite §13.E · models §10.0 + §11.1 · examples. Verifiering: statuskoll 4/4 · pekarkoll 0 trasiga · noloss 5–9 (177 checkar) alla gröna. **Kvarstår ärligt: LÄGE är fortfarande en cache utan automatisk invalidering — larmet upptäcker driften, det förhindrar den inte.**
+
 ### 2026-07-08 #21 — FIL-OPTIMERINGSPASSET §9.0 KLART (steg 7–10): START-splitten, examples-splitten, arkitekturen permanentad
 **In:** ägaren lät mig arbeta igenom planen och granskar helheten efteråt. Inga raderingar (ägarbeslut).
 **Fynd/gjort:**

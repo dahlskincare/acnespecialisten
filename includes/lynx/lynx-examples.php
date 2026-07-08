@@ -466,5 +466,5 @@ PEKAR-PÅ      lynx-rewrite §1.1/§1.3/§1.4 = bedömningsmodellen · lynx-exam
 ## Rewrite-resultat (fyll på efter LYNX-refresh — validerar/finjusterar modellen)
 | Sida | Block | Före | Efter (ny LYNX) | Vad vi ändrade | Datum |
 |---|---|---|---|---|---|
-| ipl-rosacea.php | 7 block (5🔴+2🟠 av 11); desc-p2, Inför-p1/p2, Process-p2/p3, Eftervård-p1/p2 | 🔴/🟠 | *(väntar main-push + refresh)* | de-AI: öppningar→mekanism/aktiv imperativ, antites "inte bara X utan Y"/marknadssvans/importans/passiv bort; 3 interna länkar + sökord behållna. Workflow-predikt (15 agenter): **alla 7 → SLIGHT**, sidnivå-median → SLIGHT (§1.4). A/B: bryter AI STYLE-taket 25? | 2026-07-01 |
+| ipl-rosacea.php | 7 block (5🔴+2🟠 av 11); desc-p2, Inför-p1/p2, Process-p2/p3, Eftervård-p1/p2 | 🔴/🟠 | *(LIVE 1 juli; väntar LYNX-refresh — status: `lynx-models` §11.1)* | de-AI: öppningar→mekanism/aktiv imperativ, antites "inte bara X utan Y"/marknadssvans/importans/passiv bort; 3 interna länkar + sökord behållna. Workflow-predikt (15 agenter): **alla 7 → SLIGHT**, sidnivå-median → SLIGHT (§1.4). A/B: bryter AI STYLE-taket 25? | 2026-07-01 |
 | *(fler fylls i när resultat kommer)* | | | | | |
