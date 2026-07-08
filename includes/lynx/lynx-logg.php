@@ -1,5 +1,14 @@
 <?php exit; /* intern LYNX-arbetsfil – ej webb-serverad, läs i editor/git */ ?>
 # LYNX LOGG — arbetslogg (händelsehistorik, senaste först)
+
+```
+▣ MANIFEST
+KIND          HISTORIK — append-only, aldrig retroaktivt uppdaterad. INGEN öppen tråd får ha loggen som enda bärare.
+LADDA-NÄR     "vad beslutades om X, och varför?" — sällan. Aldrig för att veta nuläget (det bor i lynx-START LÄGE + lynx-backlog).
+KANONISK-FÖR  §11 arbetsloggen: händelsehistorik + POST-MALLEN + arkiv-policyn R1–R6
+PEKAR-PÅ      lynx-log-arkiv = äldre poster (fulltext) · lynx-backlog = öppna trådar · lynx-models §11.1 = mätstatus
+```
+
 > Vad vi gjort + varför, per session. Referens/historik — läs vid behov (t.ex. "vad beslutades om X?"). Äldre poster arkiveras till `lynx-log-arkiv.php`. State/nästa-steg bor i `lynx-START.php`, inte här.
 
 
@@ -34,6 +43,17 @@ Fulltext flyttas till **`includes/lynx/lynx-log-arkiv.php`**; kvar här blir en 
 | ytliga-blodkarl.php | 42 | – | 22 | 2/2 | SIGNIFICANT | OK | – | 172 |
 | behandla-pigmentflackar.php | 14 | – | – | –/– | SIGNIFICANT | GOOD | – | 16 |
 | hudproblem/hudforandringar/ | 10 | – | 17 | 3/2 | SIGNIFICANT | OK | – | 8 |
+
+### 2026-07-08 #21 — FIL-OPTIMERINGSPASSET §9.0 KLART (steg 7–10): START-splitten, examples-splitten, arkitekturen permanentad
+**In:** ägaren lät mig arbeta igenom planen och granskar helheten efteråt. Inga raderingar (ägarbeslut).
+**Fynd/gjort:**
+- **Steg 7:** START 254→111 rader, prosan 50,1→15,2 kB (−70 %). Ny `lynx-backlog.php`. Facit-flödets 1 744-teckens prosavägg → **§14 SPARA-RECEPT** i lynx-data, vilket lagade routerns trasiga "(save-first, §0)". Prime-direktivet stod 3 ggr, står nu 1. [STÄNGD]
+- **Steg 8:** lynx-rewrite −6 %, **0 regeländringar** (§2–§7 orörda). §1.1-väggen, §1.3-sagan, §1.4, §13.D, §13.O komprimerade. Spak-regeln stod på två ställen → EN. [STÄNGD]
+- **Steg 9:** lynx-examples 632→457 rader; superseded modellarbete + FÖRE-facit för de 3 MÄTTA sidorna → ny `lynx-examples-arkiv`. **Microneedlings block-plan flyttad ur loggen → `lynx-examples` REWRITE-SPEC = sista hålet där loggen var enda bärare av en aktiv spec.** SERP-drift-regeln → models §1.5. [STÄNGD]
+- **Steg 10:** struktur-kartan permanentad i **START §0** (lagen + KIND-tabellen + laddnings-receptet + de två strukturella fällorna); `▣ MANIFEST` på alla 14 filer. [RATIFICERAD → lynx-START §0]
+- **Tre incidenter, alla fångade av verktygen, ingen av ögat:** (1) en osäker sträng-hjälpare gjorde `str.replace('', x)` och sprängde lynx-rewrite 53 kB → 55 MB; batteriet gick 0/22. (2) Två pekare i lynx-data som jag avfärdade som falska träffar stod 240 tecken in på raden och var äkta. (3) Min "50 pekare måste redigeras" räknade korsfils-referenser, inte trasiga — en ren `§9` löses av §-KARTAN. **Lärdom: en hjälpare som kan returnera tomt är samma felklass som en check som kan returnera tyst grönt.** [STÄNGD]
+- **ÖPPNA ÄGARBESLUT:** radera stubben + underlagsfilen? · `lynx-score` växte 26,3→37,6 kB (A–F-prosan bär två öppna trådar) · namnkonventionen (`lynx-logg` vs `lynx-log-arkiv`) + `lynx-`-prefixet. [ÖPPEN → §9]
+**Åtgärd:** commits 1f45c1a7 · 9e19949b · 3c0f03fd · bc925cdc + denna. Slutverifiering: **batterierna 5–9 = 172 checkar, alla gröna; censusen 0 trasiga pekare, 0 §-refs utan ägare.** Nästa arbete: **microneedling (Fas 3b)** — REWRITE-SPEC ligger i `lynx-examples`.
 
 ### 2026-07-08 #20 — §9.0 steg 5 + 6 KLARA (autonomt) · batterier för steg 8 + 9 byggda · sakfel i EEAT-mekanismen rättat
 **In:** ägaren lämnade uppdraget "steg 5 + 6 + bygg batterier för 8 och 9" och gick. Ram: staging only, `<?php exit;`-filer (ingen produktionsrisk), git = ångerknapp. Steg 7–10, microneedling och main rördes EJ.

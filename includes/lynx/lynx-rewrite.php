@@ -1,5 +1,14 @@
 <?php exit; /* intern LYNX-arbetsfil – ej webb-serverad, läs i editor/git */ ?>
 # LYNX REWRITE — hantverket (läs DENNA när du ska skriva om en sida)
+
+```
+▣ MANIFEST
+KIND          REGEL — stabil. Ändras bara när ≥2 sidors facit motsäger en regel. Behöver inte re-läsas varje session.
+LADDA-NÄR     du ska skriva om en sida (tillsammans med sidans facit i lynx-examples)
+KANONISK-FÖR  §1/§1.1/§1.3/§1.4 bedömningsmodellen · §2 formeln · §3 checklistan · §4 husrösten · §5 ramar + juridik · §6 SEO-skyddet · §7 processen · §13 skyddsreglerna
+PEKAR-PÅ      lynx-examples = facit + rewrite-specar · lynx-models = SCORE/AIQ/mät · lynx-backlog = vilken sida står på tur
+```
+
 > Allt du behöver för att skriva om ett textblock: bedömningsmodellen (vad LYNX läser som AI), formeln, husrösten, ramarna+juridiken, SEO-skyddet, checklistan, processen och skyddsreglerna. **Läs `lynx-START.php` FÖRST** (läge + router + regler). Modell-FORSKNINGEN + SCORE/AIQ/mät bor i `lynx-models.php`. Rådata: `lynx-examples.php` (facit) m.fl. (filkarta i `lynx-data.php`).
 
 ## 1. Hävstången (varför vissa sidor är SLIGHT och andra SIGNIFICANT)

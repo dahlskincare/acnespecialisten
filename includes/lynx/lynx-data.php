@@ -1,6 +1,15 @@
 <?php exit; /* intern LYNX-arbetsfil – ej webb-serverad, läs i editor/git */ ?>
 # LYNX-data — AKTUELLT LÄGE per sida · kolumndefinitioner · sidregister · beställningssedel
 
+```
+▣ MANIFEST
+KIND          AKTIV: AKTUELLT LÄGE-tabellen + beställningssedeln    REGEL: §14 SPARA-RECEPT + kolumndefinitionerna
+LADDA-NÄR     en LYNX-dump kommer in (§14) · "vad är senaste värdet för sida X?" · baseline före rewrite
+KANONISK-FÖR  §14 SPARA-RECEPT · AKTUELLT LÄGE per sida × vy · officiella kolumndefinitioner · sidregistret · beställningssedeln
+PEKAR-PÅ      lynx-data-arkiv = snapshots verbatim · lynx-examples/score/questions/gaps = kolumnfilerna · lynx-backlog = TODO
+```
+
+
 > **📁 FILKARTA — RÅDATA (kanonisk här; instruktionsfiler & router: `lynx-START.php`):**
 > - **`lynx-data.php` (denna)** — AKTUELLT LÄGE-tabellen (senaste värde per sida × vy, daterat) · baseline-register · officiella kolumndefinitioner · sidregister · beställningssedel.
 > - **`lynx-examples.php`** — AI COPY per-block-facit per sida. · **`lynx-questions.php`** — AIQ-frågelistor. · **`lynx-score.php`** — SCORE-nedbrytningar + modellhärledning. · **`lynx-gaps.php`** — gap-texter (beslut i `lynx-backlog.php` §8.1).

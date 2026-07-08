@@ -1,6 +1,15 @@
 <?php exit; /* intern LYNX-arbetsfil – ej webb-serverad, läs i editor/git */ ?>
 # LYNX Arbetslogg — ARKIV (avslutade & mätta §11-poster)
 
+```
+▣ MANIFEST
+KIND          HISTORIK — append-only, aldrig retroaktivt uppdaterad. Inget här får styra beslut.
+LADDA-NÄR     nästan aldrig. Forensik: "vad var hela resonemanget bakom beslut X?"
+KANONISK-FÖR  ingenting. Fulltext för arkiverade §11-poster (arkiv-policy R1–R6, lynx-logg §11).
+PEKAR-PÅ      lynx-logg = aktiva poster + enrads-referenser · regelfilerna bär det som ratificerats
+```
+
+
 > Hit flyttas §11-poster från `lynx-logg.php` när de är stängda: antingen ratificerade i regler/ersatta av nyare poster, eller (för sid-poster) när deras §11.1-rad är MÄTT (arkiv-policy R1–R6, `lynx-logg.php` §11). Kvar i lynx-logg blir en enrads-referens per arkiverad post. Ordning: senaste överst. Fulltext här är **HISTORIK — aldrig retroaktivt uppdaterad**; gällande sanning bor i regelfilerna och i lynx-START. *(Filnamnen rättade 7 juli — §11 flyttade från playbooken till lynx-logg vid splitten 6 juli. Stort arkiveringspass 8 juli: 23 poster enligt R2/R3 (em #2 delvis — dess microneedling-block-plan står kvar aktiv i lynx-logg), fil-optimeringspasset §9.0 steg 4.)*
 
 > **⚠️ §-referenser i denna fil avser filstrukturen vid postens datum.** Sedan 8 juli bor **§8, §8.1, §9, §9.0, §9.1 och §12 i `lynx-backlog.php`** (ej lynx-START). §-KARTAN i `lynx-START.php` är resolvern. Historik uppdateras aldrig retroaktivt.

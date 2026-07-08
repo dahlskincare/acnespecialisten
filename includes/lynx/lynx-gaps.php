@@ -1,6 +1,15 @@
 <?php exit; /* intern LYNX-arbetsfil – ej webb-serverad, läs i editor/git */ ?>
 # LYNX GAPS — gap-texter per sida (kolumnfil)
 
+```
+▣ MANIFEST
+KIND          AKTIV — rådata. Gap-texter per sida; besluten bor i lynx-backlog §8.1.
+LADDA-NÄR     gap-arbete på en specifik sida
+KANONISK-FÖR  LYNX gap-texter verbatim (⚡ quick wins / 💡 suggestions)
+PEKAR-PÅ      lynx-backlog §8.1 = besluten · GAPS är KONKURRENT-relativa → attribuera aldrig förändringar till oss utan att läsa gap-texterna
+```
+
+
 > **GAPS-kolumnens datafil** (filkarta i `lynx-data.php`). Officiell kolumndefinition: *"Actionable optimization opportunities and content gaps compared to top-ranking competitors."* — dvs. **KONKURRENT-relativa**: gaps kan dyka upp/rensas när konkurrentbilden ändras, inte bara när vi agerar → attribuera aldrig GAPS-förändringar till oss utan att läsa gap-texterna. Kolumnformat i Pages-vyn: ⚡ quick wins / 💡 suggestions (antal). **BESLUTEN per gap bor i playbook §8.1** (kosmetisk-ram §5, siloing) — här ligger rådatan/texterna. Be om gap-text när en sida med GAPS >0 blir aktuell (§7 steg 4).
 
 ## Gap-texter (mottagna)

@@ -1,6 +1,16 @@
 <?php exit; /* intern LYNX-arbetsfil – ej webb-serverad, läs i editor/git */ ?>
 # LYNX Copy Playbook — SPLITTRAD 2026-07-06 (denna fil = bara vägvisare)
 
+```
+▣ MANIFEST
+KIND          PEKARE — filen är tom på innehåll. Splittrad 2026-07-06.
+LADDA-NÄR     aldrig. Du letar antagligen efter lynx-START (router/läge), lynx-rewrite (hantverk) eller lynx-logg (historik).
+KANONISK-FÖR  ingenting.
+PEKAR-PÅ      lynx-START.php → §-KARTAN säger var varje § bor.
+```
+*(Radering vs behållen pekare avgörs vid ägarens slutgranskning — ägarbeslut 8 juli: "vi tar inte bort något just nu".)*
+
+
 > **⚠️ Den gamla monolitiska playbooken är uppdelad (ägarbeslut 6 jul: "optimerat för AI — ladda bara det du behöver").** Läs inte allt top-to-bottom längre; gå direkt till rätt fil för din uppgift.
 
 ## ▶ BÖRJA HÄR

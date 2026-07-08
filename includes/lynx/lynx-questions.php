@@ -1,6 +1,15 @@
 <?php exit; /* intern LYNX-arbetsfil – ej webb-serverad, läs i editor/git */ ?>
 # LYNX AI QUESTIONS — frågelistor per sida (kolumnfil)
 
+```
+▣ MANIFEST
+KIND          AKTIV — rådata. AI Overview-frågelistor per sida.
+LADDA-NÄR     FAQ-/Fas 2-arbete på en specifik sida
+KANONISK-FÖR  LYNX AI Overview-frågelistor verbatim (fråga · score · OPTIMIZED-status)
+PEKAR-PÅ      lynx-models §1.5 = AIQ-modellen + SERP-drift-regeln (attribuera aldrig AIQ-drift till oss utan diff)
+```
+
+
 > **AI QUESTIONS-kolumnens datafil** (filkarta i `lynx-data.php`). Innehåller LYNX-vyn "AI Overview Ranking" per sida: **SCORE** = frågans vikt (högst först) · **OPTIMIZED** = hur väl sidan besvarar frågan (Very Good > GOOD > OK > POOR > VERY POOR; "–" = ingen status). Officiell kolumndefinition: *"How well this page answers common user questions for the topic based on Google SERP."* Tolkningsmodell: playbook **§1.5** (H1–H7). Används i §7 steg 4a (rewrite) + Fas 2 (FAQ). Format: score · fråga · status. Fyll på per sida när ägaren skickar; notera FÖRE-status inför mätning (§10).
 
 ## Sid-listor (mottagna 2 jul 2026, LAST UPDATE 02 JUL)
