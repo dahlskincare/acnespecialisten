@@ -32,6 +32,16 @@ Fulltext flyttas till **`includes/lynx/lynx-log-arkiv.php`**; kvar här blir en 
 | behandla-pigmentflackar.php | 14 | – | – | –/– | SIGNIFICANT | GOOD | – | 16 |
 | hudproblem/hudforandringar/ | 10 | – | 17 | 3/2 | SIGNIFICANT | OK | – | 8 |
 
+### 2026-07-08 #20 — §9.0 steg 5 + 6 KLARA (autonomt) · batterier för steg 8 + 9 byggda · sakfel i EEAT-mekanismen rättat
+**In:** ägaren lämnade uppdraget "steg 5 + 6 + bygg batterier för 8 och 9" och gick. Ram: staging only, `<?php exit;`-filer (ingen produktionsrisk), git = ångerknapp. Steg 7–10, microneedling och main rördes EJ.
+**Fynd:**
+- **SAKFEL:** `lynx-models` §1.2 förklarade EEAT-klampen med "hälsosidor — vi är hudterapeuter, ej läkare på YMYL". Den premissen förkastades 6 juli av `lynx-score` slutsats B (klampen gäller även /kontakt.php, /hudproblem/; följer /varumarken/-URL-strukturen) + online-verifieringen. Operativa slutsatsen står — EEAT låst 60, ej copy-spak. Instans av §0:s state-synk-princip. [STÄNGD]
+- **Steg 5:** models → operativ REGEL-cell + första front-matter-manifestet. Superseded lager (OMPRÖVAS, det besvarade testprotokollet, hela 30 juni-multiplikativa modellen) flyttade VERBATIM ur git → lynx-score HISTORIK. §11.1:s fem staplade ⚠️-mätregler → ETT 5-punktsblock. Batteri 38/38. [STÄNGD]
+- **Steg 6:** score → KIND per sektion. Slutsatserna A–F blev kanonisk SLUTLÄGE-tabell; det unika beviset ur B lyft in (**EEAT-60 är ett FÄRSK-analys-fenomen** — gamla analyser visar EEAT-badge ≈ subs, ingen klamp). HISTORIK-headern varnar för TRE falsifierade påståenden och listar de levande FÖRE-baselines som bor där. Batteri 40/40. [STÄNGD]
+- **⚠️ ÖPPET ÄGARBESLUT:** score VÄXTE 26,3→37,6 kB. Jag behöll A–F:s ursprungsprosa i HISTORIK trots att tabellen bär slutsatserna, för den innehåller öppna trådar (rhinophymas rena FÖRE→EFTER-test av de-AI→AI STYLE; "CQ-badge följer Overall snarare än subsen — BEVAKA"). Att stryka den är informationsförlust → ägarens beslut vid steg 10. [ÖPPEN → §9.0 steg 10]
+- **Batterier 8 + 9 byggda** ur audit-rewrite/audit-examples MÅSTE-BEHÅLLAS, validerade åt båda håll (röda när §3:s copy-paste-regel, ett facit och två Räkning-rader ströks). Batteri 9 var rött mot ORÖRD fil först — nålarna var fel, inte filen. Det är torrkörningens hela poäng. [STÄNGD]
+**Åtgärd:** commits 3204234f (steg 5) + c9f9f5b4 (steg 6) på staging. §9.0 steg 5–6 ikryssade; LÄGE + §12 synkade. **NÄSTA: steg 7 — START-splitten. Kräver ägaren i rummet: destruktivt, 50 pekare, kör `pekarkoll.py --efter` och diffa mot FÖRE-baselinen.** Pekar-censusen fångade under passet att min egen redigering la till en ny §9-pekare i models (49→50).
+
 ### 2026-07-08 #19 — MÅL-ARKITEKTUREN RATIFICERAD (ägaren, med fyra ändringar) → steg 5–10 har nu en destination
 **In:** ägar-genomgång av mål-arkitektur-specen (`lynx-optimering-underlag.php`, förslag 7 juli kväll). Fyra invändningar lagda fram, alla fyra bifallna.
 **Fynd/gjort:**

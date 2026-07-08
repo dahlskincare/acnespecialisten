@@ -196,7 +196,7 @@ print('  ✓ ingen — kan raderas' if not tot else f'  ── {tot} omnämnande
 ```
 </details>
 
-<details><summary><code>noloss.py</code> — no-loss-batteri per steg (steg 5 färdigt)</summary>
+<details><summary><code>noloss.py</code> — no-loss-batteri per steg (5, 6, 8, 9 färdiga + validerade åt båda håll)</summary>
 
 ```python
 #!/usr/bin/env python3
@@ -244,6 +244,88 @@ STEP = {
   # 9. Rad 101 — instruktionen
   ('§11.1 mät→logga→förfina→backporta→töm','lynx-models', 'förfina modellen (steg 4), backporta (steg 5), töm raden'),
  ],
+ 6: [
+  # 1. Rad 4 sakinnehåll
+  ('Tvåskalemodellen: jämför aldrig kors',   'lynx-score', 'Jämför ALDRIG färsk mot gammal'),
+  ('SCORE 0/blank sätter sig själv',          'lynx-score', 'be inte om omkörning'),
+  ('Öppen tråd: SCORE-tooltippen beställd',   'lynx-score', 'officiella tooltip saknas'),
+  # 2. 7 juli-sektionen — omätta FÖRE-baselines
+  ('AI STYLE-FÖRE 55 / rhinophyma 70',        'lynx-score', 'pigmentflackar 55 · rhinophyma 70'),
+  ('pigmentflackar-tabellen (AI STYLE 55/55)','lynx-score', '**55 / 55**'),
+  ('Över-attributions-kontrollpunkten',       'lynx-score', 'homepage 28(gammal)→65 UTAN att vi rört den'),
+  # 3+4. 6 juli-tabellen med fotnoter
+  ('rhinophyma = omätt FÖRE nya skalan',      'lynx-score', 'LYNX läste GAMLA texten = **FÖRE-baseline nya skalan**'),
+  ('micro-komplett-raden (stängningsbevis)',  'lynx-score', '2 jul hade micro Base 0/Language 0/AI 0/Overall 50 (partiell)'),
+  ('Öppen ägarbekräftelse: skärmbild 2',      'lynx-score', 'tilldelning bekräftas med ägaren'),
+  # 5. Rådatatabellen 5 HÖGA sidor
+  ('Rådatatabellen 5 HÖGA sidor',             'lynx-score', 'powerlite-photonova (88) | rejuve-dye-vl (86) | splendor-x (79)'),
+  # 6. Slutsatserna A–F i SAK
+  ('A: prediktor 15/15',                      'lynx-score', '15/15'),
+  ('A: prediktor, ej styrbar mekanism',       'lynx-score', 'styrbar mekanism'),
+  ('B: sidtyps-hypotesen förkastad',          'lynx-score', 'SIDTYPS-hypotesen FÖRKASTAD'),
+  ('B: jaga inte EEAT/CQ-badge med copy',     'lynx-score', 'jaga EEAT/CQ-badge'),
+  ('C: CQ-badge följer subsen normalt',       'lynx-score', 'CQ-badge FÖLJER subsen normalt'),
+  ('D: AI STYLE ingår EJ i Overall',          'lynx-score', 'AI STYLE ingår EJ i Overall'),
+  ('E: SCORE-taket 75–77',                    'lynx-score', '75–77'),
+  ('E: splendor-x 79 bryter taket',           'lynx-score', 'splendor-x'),
+  ('F: powerlite saknas i repot (ÖPPEN §9)',  'lynx-score', 'men SAKNAS i repot'),
+  # 7. Rad 95 — det unika URL-struktur-beviset
+  ('skin-tech: CQ 60 men EEAT 78',            'lynx-score', 'skin-tech har CQ-badge 60 MEN EEAT 78'),
+  ('alma-hybrid: .php → EEAT klampad',        'lynx-score', '/alma-hybrid-co2-laser.php 60'),
+  ('URL-strukturen, inte ämnet, styr EEAT',   'lynx-score', 'URL-strukturen (PAGE TYPE), INTE maskin-/produkt-ämnet'),
+  # 8. Rad 97 — öppen låg-ände + färsk-skala-nedbrytningar
+  ('Öppet: roaccutan 23 + melasma 23',        'lynx-score', 'roaccutan 23 + melasma 23'),
+  ('porto/sebo färsk-skala-nedbrytningar',    'lynx-score', 'portomning 60 (CQ-badge 60/subs 89'),
+  # 9. Mätprincipen minst som pekare till models §11.1
+  ('Mätprincipen → lynx-models §11.1',        'lynx-score', 'lynx-models §11.1'),
+  # 10. Gamla skalan: formeln, valideringspunkterna, acne.php no-regression-subs
+  ('Gamla formeln CQ×EEAT×AI/3640',           'lynx-score', 'CQ×EEAT×AI/3640'),
+  ('Validering: om-oss 7:e punkten',          'lynx-score', '7:e valideringen'),
+  ('Validering: bristningar 6:e punkten',     'lynx-score', '52×50×25/3640 = 17,9'),
+  ('acne.php = kolumn A (FÖRE-baseline)',     'lynx-score', 'kolumn A = acne.php'),
+  ('acne.php no-regression: Depth 77/EEAT 84','lynx-score', 'Depth 77 / E-E-A-T 84'),
+  ('30 jun FÖRE: hudforandringar + ytliga',   'lynx-score', 'hudforandringar (17) | ytliga-blodkarl (22)'),
+  # Steg 5-migrationen måste överleva steg 6
+  ('Steg 5: testprotokollet (historik)',      'lynx-score', 'Falsifierbart testprotokoll'),
+  ('Steg 5: marginalkalkylen',                'lynx-score', 'dOverall/dAI'),
+  ('Steg 5: multiplikativa modellen',         'lynx-score', 'Overall ≈ CONTENT QUALITY × E-E-A-T × AI STYLE / ~3640'),
+  ('HISTORIK varnar för falsifierade påståenden', 'lynx-score', 'Falsifierade påståenden som förekommer nedan'),
+  ('  …falsifiering 1: SCORE 0 = omanalys',   'lynx-score', 'be aldrig om omkörning'),
+  ('  …falsifiering 2: EEAT ≠ hälsosidor',    'lynx-score', 'klampen följer /varumarken/-URL-strukturen'),
+  ('  …falsifiering 3: CQ ≠ frikopplad',      'lynx-score', 'CQ-badge följer subsen i normalfallet'),
+ ],
+ 8: [  # lynx-rewrite — ENDAST formatkomprimering tillåten; inga regeländringar
+  ('§1 Fem nycklar (nyckel 1 + 5)',        'lynx-rewrite', '**Fem nycklar:**'),
+  ('§1 Målet: 🔴/🟠 → minst 🔵 SLIGHT',      'lynx-rewrite', 'minst 🔵 SLIGHT'),
+  ('§1.4 arbetsmodell sidnivå ≈ viktat',   'lynx-rewrite', 'Arbetsmodell: sidnivå ≈ VIKT'),
+  ('§1.4 ÖPPEN beställning: same-scan',    'lynx-rewrite', 'same-scan'),
+  ('§2 Formeln Krok → Mekanism → Skylt',   'lynx-rewrite', '## 2. Formeln: **Krok → Mekanism → Skylt**'),
+  ('§2 intro-hypotesen (ÖPPEN, omätt)',    'lynx-rewrite', 'ej regel än, §0):** acne-ansikte'),
+  ('§3 Checklistan finns',                 'lynx-rewrite', '## 3. Checklista (kör varje block)'),
+  ('§3 COPY-PASTE-REST-KOLL (ägarbeslut)', 'lynx-rewrite', '**COPY-PASTE-REST-KOLL (obligatorisk, ägarbeslut 6 jul).**'),
+  ('§4 Husrösten + öppningsbanken',        'lynx-rewrite', '## 4. Husrösten'),
+  ('§4 CTA-facit-noten (rak kort CTA)',    'lynx-rewrite', 'Facit-not (6 jul): rak kort CTA'),
+  ('§4.1 reassurance: säg trösten RAKT',   'lynx-rewrite', 'säg trösten RAKT'),
+  ('§5 Låsta ramar',                       'lynx-rewrite', '## 5. Låsta ramar (gäller alla sidor)'),
+  ('§5 Juridikblocket (MFL/PIL/estetiklag)','lynx-rewrite', 'ABSOLUTA krav, trumfar all stil'),
+  ('§5 juridik: käll-URL:erna',            'lynx-rewrite', 'konsumentverket.se/for-foretag/prissattning'),
+  ('§6 SEO-skyddet',                       'lynx-rewrite', '## 6. ⚠️ SEO-skydd'),
+  ('§6 $seo_keywords = parkeringsplats',   'lynx-rewrite', 'medveten PARKERINGSPLATS'),
+  ('§6 obligatoriska fras-kollen (grep)',  'lynx-rewrite', 'grep:a HELA `$seo_keywords`-listan FÖRE→EFTER'),
+  ('§7 Arbetsprocessen',                   'lynx-rewrite', '## 7. Arbetsprocess per sida'),
+  ('§7 SCORE 0/blank-noteringen',          'lynx-rewrite', 'pågående omanalys'),
+  ('§7 save-first i rätt kolumnfil',       'lynx-rewrite', 'SPARA rådatan FÖRST'),
+  ('§7 staging-poll-regeln',               'lynx-rewrite', 'acnespecialisten-staging'),
+  ('§13 Autonom-kvittensen',               'lynx-rewrite', '**Autonom-kvittens (obligatorisk'),
+ ],
+ 9: [  # lynx-examples — splittas i aktiv/arkiv; INGET facit får tappas
+  ('Tier-legend: betyg = LYNX-FAKTA',      'lynx-examples', 'Betyg = LYNX-FAKTA (bevaras för omtolkning)'),
+  ('ÅTGÄRD-blocket (öppen TODO: ytliga)',  'lynx-examples', '### ÅTGÄRD (skarpt, från facit)'),
+  ('Lärdomar = HYPOTESER, ruta inte in',   'lynx-examples', '### Lärdomar (HYPOTESER'),
+  ('Rewrite-resultat-tabellen (mätliggare)','lynx-examples', '## Rewrite-resultat (fyll på efter LYNX-refresh'),
+  ('RE-SCAN: crawlfönstret',               'lynx-examples', '16:09'),
+  ('RE-SCAN: determinism-replikationen',   'lynx-examples', 'determinism'),
+ ],
 }
 
 # Strukturella invarianter som inte är enkla delsträngar
@@ -259,6 +341,25 @@ def structural(step):
         need = ['SCORE 22', 'AISTYLE25', 'AISTYLE30', 'medel 1,57', 'medel 1,77', 'medel 1,82', 'medel 1,92']
         for n in need:
             out.append((f'§11.1 FÖRE-baseline "{n}"', n in t))
+    if step == 9:
+        t = load('lynx-examples')
+        # varje sida med facit måste ha kvar sin Räkning-rad och sitt sidnamn
+        sidor = ['ipl-rosacea','hudforandringar','ytliga-blodkarl','mogen-hy','solskadad-hy',
+                 'rhinophyma','microdermabrasion','bristningar','pigmentflackar','oonskat-har',
+                 'acne.php','acnebehandling','dermapen','microneedling','portomning','acne-rygg',
+                 'seborroisk-keratos','acne-ansikte','behandla-pigmentflackar','om-oss']
+        saknas = [p for p in sidor if p not in t]
+        out.append((f'alla {len(sidor)} facit-sidor närvarande' + (f' — SAKNAS: {saknas}' if saknas else ''), not saknas))
+        rak = t.count('Räkning')
+        out.append((f'Räkning-rader kvar (hittade {rak}, kräver ≥7)', rak >= 7))
+        chk = t.count('§1.4-check')
+        out.append((f'§1.4-check-rader kvar (hittade {chk}, kräver ≥6)', chk >= 6))
+        out.append((f'AIQ-listorna (acnebehandling + om-oss) — {t.count("AI QUESTIONS")} st', t.count('AI QUESTIONS') >= 2))
+    if step == 6:
+        t = load('lynx-score')
+        tables = t.count('| **Overall** |')
+        out.append((f'lynx-score: alla 4 Overall-rådatatabeller kvar (hittade {tables})', tables == 4))
+        out.append(('HISTORIK-sektionen finns och varnar', 'KIND: HISTORIK' in t))
     return out
 
 def main():
