@@ -33,7 +33,7 @@ Nio färska nedbrytningar (6 juli) + fyra (7 juli) + Pages-vyns bekräftelser. *
 
 **Öppna trådar ur SCORE-datan:** roaccutan 23 + melasma 23 = lägsta färska → be om nedbrytning (troligen tunt/dublett-innehåll) · powerlite saknas i repot (F) · SCORE-tooltippen · skärmbild 2:s rad-tilldelning (ytliga-blodkarl 74) bekräftas med ägaren.
 
-## ✅ EXTERN ONLINE-VERIFIERING (6 juli 2026, 5 research-agenter + syntes — denna sektion ÄR fulldatan; loggposten arkiverad, `lynx-log-arkiv` 6 juli #9)
+## ✅ EXTERN ONLINE-VERIFIERING (6 juli 2026, 5 research-agenter + syntes — denna sektion ÄR fulldatan; loggposten arkiverad, `lynx-log-archive` 6 juli #9)
 Verifierade våra LYNX/SCORE/E-E-A-T-slutsatser mot publik SEO-kunskap. Resultat:
 - **LYNX = bespoke/internt (BEKRÄFTAT):** ingen publik produkt har denna taxonomi (CQ-subs + E-E-A-T-subpoäng + AI STYLE Human-like + AI COPY-gradient). Delaxlarna = kända byggstenar (E-E-A-T från Googles QRG, Readability=Flesch/Gunning Fog, AI Questions≈People-Also-Ask, AI COPY≈GPTZero/Originality-skalor). **Exakt SCORE-formel är overifierbar** → medel(CQ,EEAT) förblir prediktor, ej styrbar mekanism.
 - **EEAT-60 = troligt HÅRDKODAT GOLV/ARTEFAKT, INTE sidtyps-auktoritet (KORRIGERAT):** auktoritet är off-page/sajt-nivå; Google rangordnar ej sidtyper efter auktoritet. /varumarken/-lyftet beror på rikare off-page-signaler (recensioner/certifieringar/schema), ej sidtypen. **Sluta tolka EEAT-rörelser som en SEO-signal vi styr.**
@@ -173,7 +173,7 @@ Overall **50** · CQ 41 (Base **0**, Depth **89**, Evidence **76**, Language **0
 | – Trust | 90 | 85 | 0 |
 | AI STYLE (Human-like) | 0 | **50** | 0 |
 
-**Modellimplikationer 2 juli (→ lynx-models §1.2 OMPRÖVAS; resonemanget i `lynx-log-arkiv` 2 juli "STOR facit-leverans"):**
+**Modellimplikationer 2 juli (→ lynx-models §1.2 OMPRÖVAS; resonemanget i `lynx-log-archive` 2 juli "STOR facit-leverans"):**
 1. **SCORE 0/blank = pågående omanalys/indexering, inte dålig sida** (ägarbesked 7 jul — "trasig" var överdrift: acne-rygg 0→69 och seborroisk 0→74 satte sig SJÄLVA) → vänta in 0-sidor innan slutsats, ingen omkörning behövs (acnearr, stora-porer, cystisk-acne, djuprengoring, resultat-*, microneedling-acnearr m.fl.).
 2. **"39-taket" brutet UTAN våra ändringar** (sebo 74, porto 60, micro 50) → ny version/skala; 30 jun-baselines EJ jämförbara — mät färsk-mot-färsk.
 3. **AI STYLE 0 på färska = troligen "ej beräknad än"**; sebo 50 = första uppmätta >30.
@@ -182,7 +182,7 @@ Overall **50** · CQ 41 (Base **0**, Depth **89**, Evidence **76**, Language **0
 ## Gamla analyser (multiplikativa formeln Overall ≈ CQ×EEAT×AI/3640 — 7/7)
 
 **om-oss.php — 6 jul-dump, "Analyzed 79 days ago" (≈ 18 apr, gamla skalan — FÖRSTA om-oss-nedbrytningen):**
-Overall **17** · CQ **57** (Base 58, Depth 63, Evidence 46, Language 68, Readability 50) · E-E-A-T **59** (Experience 60, Expertise 55, Authority 60, Trust 60) · AI STYLE **20** (Human-like 20). **Formel-check: 57×59×20/3640 = 18,5 vs 17 — inom tidigare tolerans (±1–2 p) → 7:e valideringen.** ⚠️ **AI STYLE 20 = LÄGSTA uppmätta** (spannet var 25–30) — om-oss gamla marknadsprosa (3🔴-block) hade sajtens sämsta human-like; konsistent med multiplikativa modellen (medioker CQ/EEAT × 0,20 → 17). OBS: SCORE-analysen är från APRIL medan sidans AI Copy-vy är refreshad 5 JUL — vyerna refreshar OBEROENDE (belägg för rullande refresh, lynx-logg §11 6 juli #2).
+Overall **17** · CQ **57** (Base 58, Depth 63, Evidence 46, Language 68, Readability 50) · E-E-A-T **59** (Experience 60, Expertise 55, Authority 60, Trust 60) · AI STYLE **20** (Human-like 20). **Formel-check: 57×59×20/3640 = 18,5 vs 17 — inom tidigare tolerans (±1–2 p) → 7:e valideringen.** ⚠️ **AI STYLE 20 = LÄGSTA uppmätta** (spannet var 25–30) — om-oss gamla marknadsprosa (3🔴-block) hade sajtens sämsta human-like; konsistent med multiplikativa modellen (medioker CQ/EEAT × 0,20 → 17). OBS: SCORE-analysen är från APRIL medan sidans AI Copy-vy är refreshad 5 JUL — vyerna refreshar OBEROENDE (belägg för rullande refresh, lynx-log §11 6 juli #2).
 
 **hudproblem/bristningar/ — 2 jul-dump, "Analyzed 78 days ago" (⚠️ transkription ± några enheter, liten skärmdump):**
 Overall **18** · CQ ~52 (Base ~64, Depth ~43, Evidence ~44, Language ~50, Readability ~45) · E-E-A-T ~50 (subs ~44–50) · AI STYLE **25** (Human-like 25). **Formel-check (modellanalysen 2 jul em): 52×50×25/3640 = 17,9 ≈ 18 ✓** — 6:e valideringen av gamla formeln.

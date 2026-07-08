@@ -10,7 +10,7 @@ PEKAR-PÅ      lynx-data = AKTUELLT LÄGE (gällande värden) · jämför ALDRIG
 ```
 
 
-> **Arkivregel (7 juli, analog med logg-arkivpolicyn):** hit flyttas daterade snapshot-sektioner från `lynx-data.php` när (1) deras data är inskriven i AKTUELLT LÄGE-tabellen och (2) omätta baselines står i baseline-registret. Aktuellt läge + kolumndefinitioner + sidregister + beställningssedel bor i `lynx-data.php`; fynd/resonemang per dump i `lynx-logg.php`. **30 juni-inventeringen längst ned = gamla skalans kompletta FÖRE-baseline för hela sajten — raderas aldrig.** Nya dumpar transkriberas VERBATIM hit (ny daterad sektion överst) enligt spara-receptet i `lynx-data.php`.
+> **Arkivregel (7 juli, analog med logg-arkivpolicyn):** hit flyttas daterade snapshot-sektioner från `lynx-data.php` när (1) deras data är inskriven i AKTUELLT LÄGE-tabellen och (2) omätta baselines står i baseline-registret. Aktuellt läge + kolumndefinitioner + sidregister + beställningssedel bor i `lynx-data.php`; fynd/resonemang per dump i `lynx-log.php`. **30 juni-inventeringen längst ned = gamla skalans kompletta FÖRE-baseline för hela sajten — raderas aldrig.** Nya dumpar transkriberas VERBATIM hit (ny daterad sektion överst) enligt spara-receptet i `lynx-data.php`.
 
 > **⚠️ §-referenser i denna fil avser filstrukturen vid postens datum.** Sedan 8 juli bor **§8, §8.1, §9, §9.0, §9.1 och §12 i `lynx-backlog.php`** (ej lynx-START). §-KARTAN i `lynx-START.php` är resolvern. Historik uppdateras aldrig retroaktivt.
 

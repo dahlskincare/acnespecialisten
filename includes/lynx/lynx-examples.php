@@ -6,7 +6,7 @@
 KIND          AKTIV — nya facit läggs till vid varje leverans; betygen ändras aldrig retroaktivt (LYNX-rådata).
 LADDA-NÄR     innan en sida skrivs om (hämta sidans facit + ev. rewrite-spec) · när nytt per-block-facit kommer in · vid backport
 KANONISK-FÖR  LYNX per-block-facit per sida · EFTER-facit + backport-lärdomar · aktiva rewrite-specar
-PEKAR-PÅ      lynx-rewrite §1.1/§1.3/§1.4 = bedömningsmodellen · lynx-examples-arkiv = superseded modellarbete + FÖRE-facit för MÄTTA sidor · lynx-backlog = prio
+PEKAR-PÅ      lynx-rewrite §1.1/§1.3/§1.4 = bedömningsmodellen · lynx-examples-archive = superseded modellarbete + FÖRE-facit för MÄTTA sidor · lynx-backlog = prio
 ```
 
 > Växande samling av LYNX per-block-facit. Varje bedömt stycke bidrar till helhetsbilden av bedömningsmodellen (§1.1 i `includes/lynx/lynx-rewrite.php`). **Fyll på** med nya facit (sida + datum). När vi skrivit om ett block och fått ny LYNX-refresh: logga **före→efter** längst ned så vi validerar och finjusterar modellen. Snippets är förkortade — full text finns i sidans `.php` / git-historik.
@@ -38,7 +38,7 @@ PEKAR-PÅ      lynx-rewrite §1.1/§1.3/§1.4 = bedömningsmodellen · lynx-exam
 **Fullständig acne.php-facit mottagen 2026-07-01 — BEKRÄFTAR ovanstående 22 apr-betyg** (stark modell-validering: alla citerade referensblock stämmer). Tillägg som saknades i tabellen ovan: "Akne kan uppträda på olika områden… hormonella/kläder/sol" 🔴 · "En effektiv ansiktsbehandling fokuserar på att extrahera orenheter…" 🔵 · "Bölder: Stora, varfyllda… ofta större än 5 mm" 🟢 · "För att effektivt bekämpa… daglig behandling med rätt produkter" 🔵 · "Acneärr uppstår i form av gropar…" 🔵 · "Välj Acnespecialisten innan du går till en läkare…" 🔴.
 **VIKTIGT:** acne.php är vår husröst-/modell-REFERENS men har **~10 🔴-block på sidnivå** (intro-scaffolding "Här förklarar vi", demografisk-skal "vanligast bland tonåringar… oavsett kön", importans "det är viktigt att", marknads-CTA "Du som vill ha det bäst… 30 år" / "Tveka inte att kontakta"). Dess **🔵/🟢-block är de validerade referensblocken att EMULERA/LÄMNA** (full mekanism-payoff, definitioner, Noduler/Bölder med "5 mm"-mått, konkreta vi-handlingar). Rubriken "SLIGHT-referens" avser alltså block-nivå, inte sidnivå. **Rewrite-mål:** de ~10 🔴 (KW116 huvudsida = hög prio); lämna 🔵/🟢.
 
-*(FÖRE-facit acne-ansikte 22 apr → `lynx-examples-arkiv.php`. FÖRE-motsvarigheten står i EFTER-tabellen nedan.)*
+*(FÖRE-facit acne-ansikte 22 apr → `lynx-examples-archive.php`. FÖRE-motsvarigheten står i EFTER-tabellen nedan.)*
 
 ## /acne-ansikte.php — 05 Jul 2026 — ✅ EFTER REWRITE (FÖRSTA EFTER-FACITET; sidnivå 🔴→🔵 SLIGHT; dump möjligen partiell — FAQ-block ej synliga)
 | Block (snippet, EFTER-text) | Betyg | FÖRE-motsvarighet (22 apr) → tolkning |
@@ -113,7 +113,7 @@ PEKAR-PÅ      lynx-rewrite §1.1/§1.3/§1.4 = bedömningsmodellen · lynx-exam
 ## FÖRE-facit per block — de 3 sidor vi skrev om 1 jul (RÅDATA, bevaras för omtolkning)
 > LYNX per-block-betyg på **ORIGINALtexten** (LYNX-analys 22–29 apr; har INTE sett våra 1 jul-omskrivningar än — EFTER-värden kommer efter main-push + refresh). Betyg = FAKTA. "Min FÖRE-gissning" = prediktionsliggaren (§10). Detta är facit att score:a mot. **NY tier: 🟥 EXTREME.**
 
-*(FÖRE-facit behandla-pigmentflackar 25 apr → `lynx-examples-arkiv.php`. FÖRE-kolumnen finns i EFTER-tabellen.)*
+*(FÖRE-facit behandla-pigmentflackar 25 apr → `lynx-examples-archive.php`. FÖRE-kolumnen finns i EFTER-tabellen.)*
 
 ### /hudproblem/hudforandringar/ — 22 Apr 2026 (SIGNIFICANT-tung)
 | Block (utdrag) | LYNX (rå) | Min gissning | Träff |
@@ -213,7 +213,7 @@ PEKAR-PÅ      lynx-rewrite §1.1/§1.3/§1.4 = bedömningsmodellen · lynx-exam
 4. **Eftervård, samma sektion, motsatt betyg:** lång + "avgörande/bästa/effektiv"-öppning = 🔴 (blk 14); kort + direkt = 🟢 HUMAN (blk 16).
 5. **HUMAN** = korta, direkta, "mänskligt röstade" instruktioner + omdömen med namn/tidsdetalj.
 
-*(FÖRE-facit om-oss 22 apr + v3-blindtestets resultat → `lynx-examples-arkiv.php`. FÖRE-motsvarigheten står i EFTER-tabellen nedan.)*
+*(FÖRE-facit om-oss 22 apr + v3-blindtestets resultat → `lynx-examples-archive.php`. FÖRE-motsvarigheten står i EFTER-tabellen nedan.)*
 
 ## /om-oss.php — 05 Jul 2026 — ✅ EFTER REWRITE (ANDRA EFTER-FACITET; 0 flaggade block synliga; badge ej synlig i dumpen men sidan borta ur MODERATE-gruppen → SLIGHT implicerat)
 | Block (snippet, EFTER-text) | Betyg | FÖRE-motsvarighet (22 apr) → tolkning |
@@ -231,7 +231,7 @@ PEKAR-PÅ      lynx-rewrite §1.1/§1.3/§1.4 = bedömningsmodellen · lynx-exam
 
 **FÖRE→EFTER-summering:** 22 apr **3🔴/2🟠/6🔵/1🟢** (n=14 m. dubbletter, medel 1,64–1,85) → 5 jul **0🔴/0🟠/10🔵/1🟢** (synliga, medel 0,91). Banner-blocket (O01 🟠, "unik och effektiv fyrstegsmetod… utan remiss") syns INTE i EFTER-dumpen — utanför bild eller borttaget ur analysen; FAQ-svaren (5 titlar synliga) obetygsatta i dumpen → be om resten. **Alla tre 🔴 gick till 🔵 + O04 🟠→🔵 = prediktionen träffade.** **Modellfynd:** (1) samma mönster som acne-ansikte — konkretion-leder-öppningen gör jobbet (§1.1 nyckel 1, andra kausala belägget); (2) O08-läxan bekräftad baklänges: 22 apr fälldes blocket TROTS 3 namngivna kliniker (längd+marknad dominerade) — nu räddar samma konkretion blocket när marknaden är borta; (3) omdömen + orörda 🔵 stabila över refresh (andra sidan i rad = replikerat). **OBS vyernas oberoende:** AI Copy-vyn färsk (5 jul) men SCORE-analysen 79 dagar gammal (Overall 17, AI STYLE 20 — se `lynx-score.php`) → sidnivå-SCORE i Pages-tabellen kan vara STALE bredvid färsk AI Copy.
 
-*(SCORE-modellens reverse-engineering (1 juli), MEDIAN-hypotesen och blindtest 1 → `lynx-examples-arkiv.php`. SUPERSEDED: SCORE-härledningen bor i `lynx-score` SLUTLÄGE; sidnivåmodellen är MEDEL, inte median — `lynx-rewrite` §1.4.)*
+*(SCORE-modellens reverse-engineering (1 juli), MEDIAN-hypotesen och blindtest 1 → `lynx-examples-archive.php`. SUPERSEDED: SCORE-härledningen bor i `lynx-score` SLUTLÄGE; sidnivåmodellen är MEDEL, inte median — `lynx-rewrite` §1.4.)*
 
 ## /microneedling.php — facit 22 Apr 2026, mottaget 2 jul (Tier 3, EJ omskriven — FÖRE-facit)
 | Block (snippet) | Betyg | Varför (tolkning) |
@@ -488,10 +488,10 @@ VALUE 66 · SCORE **60** (var 50) · GAPS 0⚡/1💡 · AI COPY 🔵 SLIGHT · A
 
 **Räkning:** 5🔴/2🟠/4🔵/2🟢 (n=13). **§1.4-check:** MEDEL = (15+4+4+0)/13 ≈ **1,77 → 🟠 ✓**; MEDIAN = 7:e av 13 = **🟠 ✓**. **Badge-mattem:** 🔵 kräver summa ≤19 → skala bort 4 poäng ≈ **2 🔴→🔵-fixar** (näst billigast efter mogen-hy). **Obetygsatt:** sektionsrubriker, prisrad (Från 995 kr), 4 FAQ-titlar. **Rewrite-ammo:** 4 live-språkfel **ALLA FIXADE 2 jul** (trasig hirsutism-mening, "området mellan näsan"→"runt näsan", östrogen-meningen, verblös partner-mening + "dina individuella hår och hudtyp"→"din individuella hår- och hudtyp"). *("hårfollikelarna" var transkriptionsfel — stavningen var redan korrekt.)*
 
-*(§1.4-konsolideringen, MODELLANALYS 2 juli (A–D) och blindtest 3 + 4 → `lynx-examples-arkiv.php`. Allt ratificerat: §1.4-gråzonen och v5-gradienten står i `lynx-rewrite`; §1.2 i `lynx-models` (härledningen i `lynx-score`).)*
+*(§1.4-konsolideringen, MODELLANALYS 2 juli (A–D) och blindtest 3 + 4 → `lynx-examples-archive.php`. Allt ratificerat: §1.4-gråzonen och v5-gradienten står i `lynx-rewrite`; §1.2 i `lynx-models` (härledningen i `lynx-score`).)*
 
 ## Rewrite-resultat (fyll på efter LYNX-refresh — validerar/finjusterar modellen)
 | Sida | Block | Före | Efter (ny LYNX) | Vad vi ändrade | Datum |
 |---|---|---|---|---|---|
-| ipl-rosacea.php | 7 block (5🔴+2🟠 av 11); desc-p2, Inför-p1/p2, Process-p2/p3, Eftervård-p1/p2 | 🔴/🟠 | *(status: `lynx-lage` §11.1)* | de-AI: öppningar→mekanism/aktiv imperativ, antites "inte bara X utan Y"/marknadssvans/importans/passiv bort; 3 interna länkar + sökord behållna. Workflow-predikt (15 agenter): **alla 7 → SLIGHT**, sidnivå-median → SLIGHT (§1.4). A/B: bryter AI STYLE-taket 25? | 2026-07-01 |
+| ipl-rosacea.php | 7 block (5🔴+2🟠 av 11); desc-p2, Inför-p1/p2, Process-p2/p3, Eftervård-p1/p2 | 🔴/🟠 | *(status: `lynx-status` §11.1)* | de-AI: öppningar→mekanism/aktiv imperativ, antites "inte bara X utan Y"/marknadssvans/importans/passiv bort; 3 interna länkar + sökord behållna. Workflow-predikt (15 agenter): **alla 7 → SLIGHT**, sidnivå-median → SLIGHT (§1.4). A/B: bryter AI STYLE-taket 25? | 2026-07-01 |
 | *(fler fylls i när resultat kommer)* | | | | | |

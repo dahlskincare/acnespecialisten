@@ -3,10 +3,10 @@
 
 ```
 ▣ MANIFEST
-KIND          REGEL — stabil. Ändras bara när data motsäger modellen. **Bär ingen status; §11.1 flyttade till `lynx-lage` 8 juli.**
+KIND          REGEL — stabil. Ändras bara när data motsäger modellen. **Bär ingen status; §11.1 flyttade till `lynx-status` 8 juli.**
 LADDA-NÄR     mät-analys · modellförfining · SCORE-/AIQ-fråga · prediktion före rewrite
 KANONISK-FÖR  SCORE-modellens OPERATIVA slutsats (§1.2) · AI QUESTIONS-modellen (§1.5) · mät-loopen (§10) · SEO-vakten (§10.0)
-PEKAR-PÅ      lynx-lage = §11.1 bevakningslistan (status) · lynx-score = SCORE-härledning + rådata + superseded modell-lager · lynx-rewrite = §1.1/§1.3/§1.4 bedömning · lynx-data = Pages/AKTUELLT LÄGE · lynx-logg = §11
+PEKAR-PÅ      lynx-status = §11.1 bevakningslistan (status) · lynx-score = SCORE-härledning + rådata + superseded modell-lager · lynx-rewrite = §1.1/§1.3/§1.4 bedömning · lynx-data = Pages/AKTUELLT LÄGE · lynx-log = §11
 ```
 
 > Tolkningen av rådatan: SCORE-modellen (§1.2), AI QUESTIONS-modellen (§1.5), mät-loopen (§10) + SEO-vakten (§10.0), bevakningslistan (§11.1). Bedömningsmodellen (§1.1/1.3/1.4) som används VID omskrivning bor i `lynx-rewrite.php`. Rådata: `lynx-score.php` (SCORE-nedbrytningar), `lynx-examples.php` (facit), `lynx-questions.php` (AIQ). **Härledningen, 6 juli-slutsatserna, online-verifieringen och de superseded modell-lagren bor i `lynx-score.php` — ett fakta, en cell. §1.2 här = den operativa sammanfattningen.**

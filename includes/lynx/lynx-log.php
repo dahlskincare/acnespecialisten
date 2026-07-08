@@ -6,10 +6,10 @@
 KIND          HISTORIK — append-only, aldrig retroaktivt uppdaterad. INGEN öppen tråd får ha loggen som enda bärare.
 LADDA-NÄR     "vad beslutades om X, och varför?" — sällan. Aldrig för att veta nuläget (det bor i lynx-START LÄGE + lynx-backlog).
 KANONISK-FÖR  §11 arbetsloggen: händelsehistorik + POST-MALLEN + arkiv-policyn R1–R6
-PEKAR-PÅ      lynx-log-arkiv = äldre poster (fulltext) · lynx-backlog = öppna trådar · lynx-models §11.1 = mätstatus
+PEKAR-PÅ      lynx-log-archive = äldre poster (fulltext) · lynx-backlog = öppna trådar · lynx-models §11.1 = mätstatus
 ```
 
-> Vad vi gjort + varför, per session. Referens/historik — läs vid behov (t.ex. "vad beslutades om X?"). Äldre poster arkiveras till `lynx-log-arkiv.php`. State/nästa-steg bor i `lynx-START.php`, inte här.
+> Vad vi gjort + varför, per session. Referens/historik — läs vid behov (t.ex. "vad beslutades om X?"). Äldre poster arkiveras till `lynx-log-archive.php`. State/nästa-steg bor i `lynx-START.php`, inte här.
 
 
 > **⚠️ §-referenser i denna fil avser filstrukturen vid postens datum.** Sedan 8 juli bor **§8, §8.1, §9, §9.0, §9.1 och §12 i `lynx-backlog.php`** (ej lynx-START). §-KARTAN i `lynx-START.php` är resolvern. Historik uppdateras aldrig retroaktivt.
@@ -29,7 +29,7 @@ Senaste först. Korrelera mot LYNX-refresh. Per omskrivning: spara **FÖRE-basel
 **Hårda ramar:** (1) blockdetaljer per omskrivning loggas ALDRIG i posten — git-diffen och `lynx-examples` äger dem; (2) §13.E-kvittensen skrivs som EN rad ("kvittens grön: sökord / punkt-count / streck"), grep-siffrorna går i commit-meddelandet; (3) en regel- eller modelländring beskrivs i REGELFILEN — posten får bara pekaren, aldrig samma prosa två gånger; (4) **en öppen tråd får ALDRIG ha loggen som enda bärare** — skapa §9-raden först, länka sen.
 
 ### 🗄️ Arkiv-policy (beslutad 2026-07-02, skärpt 2026-07-08)
-Fulltext flyttas till **`includes/lynx/lynx-log-arkiv.php`**; kvar här blir en enrads-referens (format: `- DATUM #N kärnrubrik — utfall; öppet kvar: X (→ §9-rad)`). Syfte: en session behöver bara de senaste posterna.
+Fulltext flyttas till **`includes/lynx/lynx-log-archive.php`**; kvar här blir en enrads-referens (format: `- DATUM #N kärnrubrik — utfall; öppet kvar: X (→ §9-rad)`). Syfte: en session behöver bara de senaste posterna.
 - **R1 (sid-poster):** arkiveras FÖRST när sidans §11.1-rad är MÄTT och stängd (EFTER loggat, modellen förfinad, backport listad). Aldrig före — FÖRE-baseline + prediktion behövs i mät-loopen.
 - **R2 (process-/modell-/leveransposter):** arkiveras så snart innehållet är **ratificerat i en regelfil eller ersatt av nyare post** — de bär inga baselines och behöver inte vänta på mätning. **Förkrav:** öppna deltrådar flyttade till §9, operativa regler till regelfil, korspekare uppdaterade.
 - **R3 (verifieringsposter):** arkiveras när en senare post verifierar samma sak på högre nivå (staging-kontroll ersätts av produktions-verifiering).
@@ -47,27 +47,27 @@ Fulltext flyttas till **`includes/lynx/lynx-log-arkiv.php`**; kvar här blir en 
 ### 2026-07-08 #36 — Återgivningarna borta: nu finns status på exakt ett ställe. LYNX-setupen är klar.
 **In:** Ägarbeslut: "fixa dem, jag vill bli helt klar." De tre återgivningarna av MÄTT/OMÄTT i backlog, `lynx-data` och `lynx-examples`.
 **Fynd:**
-- **En skarp invariant först, för att inte kapa för mycket:** *ingen fil utom `lynx-lage` får påstå om en sida att den är LIVE eller MÄTT/OMÄTT.* Allt annat står kvar ordagrant. Den gör städningen mekaniskt avgränsad i stället för smakbaserad. [RATIFICERAD → §0]
+- **En skarp invariant först, för att inte kapa för mycket:** *ingen fil utom `lynx-status` får påstå om en sida att den är LIVE eller MÄTT/OMÄTT.* Allt annat står kvar ordagrant. Den gör städningen mekaniskt avgränsad i stället för smakbaserad. [RATIFICERAD → §0]
 - **19 strykningar.** `lynx-backlog` per-sida-listan + Tier 3-raden (fyra `✅ LIVE`-märken jag först missade) · `lynx-data` Status-kolumnen → `Not (status: §11.1)` · `lynx-examples` tre "Sidan är MÄTT". [STÄNGD]
-- **Delningen är ren:** backloggen äger *gjort* och *öppet*; `lynx-lage` äger *LIVE, MÄTT, FÖRE-baseline, prediktion*. Rå LYNX-data per (sida × vy) rördes inte — mätkorpus, inte dubblett. [RATIFICERAD → §0]
+- **Delningen är ren:** backloggen äger *gjort* och *öppet*; `lynx-status` äger *LIVE, MÄTT, FÖRE-baseline, prediktion*. Rå LYNX-data per (sida × vy) rördes inte — mätkorpus, inte dubblett. [RATIFICERAD → §0]
 - **Verifierat efter:** invarianten testad = 0 brott · alla tolv öppna trådar ur de strukna raderna lever kvar (micro-fix, AIQ-listorna, SCORE-popupen, badge-bekräftelsen, 13:58-frånvaron …) · `lynx-data` 12 kolumner per rad · §11.1 18 rader · §-KARTAN 33/33. [STÄNGD]
 **Åtgärd:** `lynx-backlog` (19 rader + rubriknot + §9.3 stängd), `lynx-data`, `lynx-examples`. **Ett statusbyte kräver nu en ändring i en fil.** Setupen är klar: en dispatcher, en statusfil, en TODO-fil, hantverket, modellen, rådatan, historiken.
 
-### 2026-07-08 #35 — EN ENDA STATUSCELL: `lynx-lage.php` skapad (ägar-idé). Sista sömmen stängd.
+### 2026-07-08 #35 — EN ENDA STATUSCELL: `lynx-status.php` skapad (ägar-idé). Sista sömmen stängd.
 **In:** Ägarbeslut: gör klart setupen. Premissen mättes först — och den höll.
 **Fynd:**
 - **Bara EN äkta dubblett fanns.** Arbetsstatus bor bara i backloggen; rå LYNX-data bara i `lynx-data`. Men **mätstatus (MÄTT/OMÄTT + live-på-main) fanns i fyra exemplar**: §11.1, backloggen, `lynx-data`, `lynx-examples` — plus LÄGE-bannern. [STÄNGD]
 - **§11.1 satt i fel sorts fil.** `lynx-models` deklarerade själv `KIND REGEL: §1.2 … AKTIV: §11.1` — samma dubbelnatur som START hade. En stabil regelfil bar det som ändras varje session. [STÄNGD]
-- **Klipp och klistra, ingen omskrivning.** LÄGE-bannern (ur START) + §11.1 (ur models) verbatim in i `lynx-lage.php`. Verifierat: 18 tabellrader oförändrade, alla sju FÖRE-baselines med, §-KARTAN 33/33. `lynx-START` och `lynx-models` är nu rena `KIND: REGEL`. [STÄNGD]
+- **Klipp och klistra, ingen omskrivning.** LÄGE-bannern (ur START) + §11.1 (ur models) verbatim in i `lynx-status.php`. Verifierat: 18 tabellrader oförändrade, alla sju FÖRE-baselines med, §-KARTAN 33/33. `lynx-START` och `lynx-models` är nu rena `KIND: REGEL`. [STÄNGD]
 - **Kvar av samma tanke, eget litet pass:** de tre återgivningarna i backlog/data/examples. Först när de pekar i stället för att återge slipper man uppdatera flera filer vid ett statusbyte. [ÖPPEN → §9.3]
-**Åtgärd:** `lynx-lage.php` skapad. `lynx-START` (manifest · router · filkarta · §-KARTA · KIND-tabell · statusdisciplin · §0.1 steg 2), `lynx-models` + `lynx-backlog` (manifest), `lynx-backlog` §9.3. **Filsetet: 14 filer.** Setupen: en dispatcher, en statusfil, en TODO-fil, hantverket, modellen, rådatan, historiken.
+**Åtgärd:** `lynx-status.php` skapad. `lynx-START` (manifest · router · filkarta · §-KARTA · KIND-tabell · statusdisciplin · §0.1 steg 2), `lynx-models` + `lynx-backlog` (manifest), `lynx-backlog` §9.3. **Filsetet: 14 filer.** Setupen: en dispatcher, en statusfil, en TODO-fil, hantverket, modellen, rådatan, historiken.
 
 ### 2026-07-08 #34 — §9.0 SLUTFÖRT: stubben och underlagsfilen raderade. Filsetet är nere på 13 filer, alla med syfte.
 **In:** Ägarbeslut: gör klart flytten. De två sista §9.0-filerna — `lynx-copy-playbook.php` (stub, `KIND: DÖR`) och `lynx-optimering-underlag.php` (1 338 rader, `KIND: TEMP`, "radera när passet är klart").
 **Fynd:**
 - **Bevisat före radering, inte antaget.** Underlagets nio öppna trådar (powerlite · same-scan · intro-hypotesen · ÅTGÄRD-blocket · POST-MALLENS taggar · SPARA-RECEPTET · §12-flytten · BASELINE-REGISTRET · backlog-som-AKTIV-cell) lever alla i filsetet. MÅL-ARKITEKTUREN står permanent i §0 — vilket steg 10 gjorde *just för att* den annars dött med filen. [STÄNGD]
 - **Stubben pekade fel.** Dess filkarta påstod att START innehöll backlog §8/§9 och claims §12 — de flyttade i steg 7. **En vägvisare som pekar fel är sämre än ingen.** [STÄNGD]
-- **Ägar-idé, parkerad i §9.3 med skiss: EN enda statuscell (`lynx-lage`).** Status bor idag på tre kanoniska ställen plus en cache; det var 6 juli-driften, och V5 bevisade att ingen nål kan vakta den. Boten är att ta bort dubbletten. **START ska INTE bära den** — per-sida-status är 17 rader, och START är `KIND: REGEL` medan status är `AKTIV`. Samma idé fanns i det raderade underlaget ("en logg / en aktiv fil / en historik"); den överlevde filen. [ÖPPEN → §9.3]
+- **Ägar-idé, parkerad i §9.3 med skiss: EN enda statuscell (`lynx-status`).** Status bor idag på tre kanoniska ställen plus en cache; det var 6 juli-driften, och V5 bevisade att ingen nål kan vakta den. Boten är att ta bort dubbletten. **START ska INTE bära den** — per-sida-status är 17 rader, och START är `KIND: REGEL` medan status är `AKTIV`. Samma idé fanns i det raderade underlaget ("en logg / en aktiv fil / en historik"); den överlevde filen. [ÖPPEN → §9.3]
 - **Mitt eget kontrollskript fyrade fel en fjärde gång i dag** (sökte POST-MALLEN i fel filmängd). Ingen nål — inte ens en tio rader lång — är gratis. [RATIFICERAD → §0.1]
 **Åtgärd:** två filer raderade, sju referenser omskrivna, en löst §9.2-rad bort. `lynx-backlog` (§9.0 steg 9–10 stängda · §9.3 + skissen), `lynx-START` (LÄGE). **Filsetet: 13 filer.** Kvar i §9.3, ej brådskande: `lynx-score` HISTORIK-prosan · filnamnskonventionen · statuscellen.
 
@@ -103,11 +103,11 @@ Fulltext flyttas till **`includes/lynx/lynx-log-arkiv.php`**; kvar här blir en 
 ### 2026-07-08 #30 — CHECK-REVISIONEN hypotes 2: RESOLVERN är blind för borttagen kartrad — men `pekarkoll` täcker den.
 **In:** Ägarvald fortsättning, en hypotes till. Mutation, 6 scenarier på §-KARTAN, hela grinden körd per scenario.
 **Fynd:**
-- **Hypotesen är halvt sann. Detektornivå: BEKRÄFTAD** — ta bort `§11 → lynx-logg`, eller hela backlog-raden (granskade 32→**exakt 25**, kvorumet är `< 25`), och `statuskoll` skriver `✓`. Den ser bara rader som finns. [STÄNGD → T1]
+- **Hypotesen är halvt sann. Detektornivå: BEKRÄFTAD** — ta bort `§11 → lynx-log`, eller hela backlog-raden (granskade 32→**exakt 25**, kvorumet är `< 25`), och `statuskoll` skriver `✓`. Den ser bara rader som finns. [STÄNGD → T1]
 - **Grindnivå: REFUTERAD.** `pekarkoll` fälls av **rätt** orsak — `§-REF UTAN ÄGARE` (9 föräldralösa `§11`, 71 för backlog-raden) — och den detektorn når `sys.exit`. Täckningsgränsen mätt: varje kartrad har ≥2 pekare (tunnast `§0.3`=2) → varje borttagning fångas idag. [STÄNGD → T1]
 - **⇒ Bygg ingen ny nål.** Att `statuskoll` inte duplicerar `pekarkoll` är §0:s lag, inte ett hål. Utan mätningen hade nästa session byggt detektorn som redan finns. **Ett "täckt" måste bokföras lika hårt som ett fynd.** [RATIFICERAD → §9 T1]
 - **Metodskärpning:** (a) kör HELA grinden per scenario, inte bara den misstänkta detektorn — annars ser man inte täckningen; (b) **ett rött utan känd orsak är lika obelagt som ett grönt** — läs sektionen som fällde. T1:s röda kunde ha varit V4:s positionella falsklarm. [RATIFICERAD → §9 steg 1]
-**Åtgärd:** `lynx-backlog` (ny TÄCKT-tabell med T1 · hypotesen struken ur EJ VERIFIERAT · två skärpningar i steg 1 · §12), `lynx-logg`. Nästa hypotes: `statuskoll` VERKTYGSINTEGRITET (`ast.parse` mäter syntax, inte substans) — **en i taget, ägar-avstämning emellan.**
+**Åtgärd:** `lynx-backlog` (ny TÄCKT-tabell med T1 · hypotesen struken ur EJ VERIFIERAT · två skärpningar i steg 1 · §12), `lynx-log`. Nästa hypotes: `statuskoll` VERKTYGSINTEGRITET (`ast.parse` mäter syntax, inte substans) — **en i taget, ägar-avstämning emellan.**
 
 ### 2026-07-08 #29 — CHECK-REVISIONEN hypotes 1/N: MOTSÄGELSER-nålen fångar strängen, inte faktumet.
 **In:** Start-ritualen körd (git rent, §12 tom, GRIND EXIT=0 — rapporterad med §9-förbehållet). Ägarvald uppgift: CHECK-REVISIONEN steg 1, en hypotes.
@@ -166,7 +166,7 @@ Fulltext flyttas till **`includes/lynx/lynx-log-arkiv.php`**; kvar här blir en 
 **Åtgärd:** `git checkout microneedling.php` (0 rader kvar av rewriten). **Hela granskningen räddad till REWRITE-SPEC i `lynx-examples`** — sex verifierade fällor, sju gränsfall, det som fungerade, och den färska FÖRE-baselinen. Block-planens 11 punkter ordagrant bevarade. **Regeländring (§13.E):** punkt-count får inte vara självgraderad — numrera FÖRE-poängerna ordagrant och para ihop dem; hedgar räknas som substans; nya påståenden måste beläggas på sidan. **§7.4b körs FÖRE ägar-godkännande, inte efter.** Två nya §9-trådar: §5-svepet (12 filer, ägarbeslut) + bildbuggen på pigmentfläckar-kortet. §11.1 + §12 återställda. Verifiering: statuskoll 4/4 · pekarkoll 0 trasiga · noloss 8 grön.
 
 ### 2026-07-08 #23 — 🎯 TRE EFTER-MÄTNINGAR PÅ EN GÅNG: mogen-hy · solskadad-hy · rhinophyma alla 🟠→🔵. Metoden 6/6. om-oss-badgen bekräftad.
-**In:** 12 skärmdumpar (10:45 + 10:55–10:57), komplett AICOPY-vy SIGNIFICANT→HUMAN. Sparat FÖRST verbatim → `lynx-data-arkiv` (två snapshots). Beställningen från den skurna 10:45-vyn besvarad.
+**In:** 12 skärmdumpar (10:45 + 10:55–10:57), komplett AICOPY-vy SIGNIFICANT→HUMAN. Sparat FÖRST verbatim → `lynx-data-archive` (två snapshots). Beställningen från den skurna 10:45-vyn besvarad.
 **Fynd:**
 - **EFTER-MÄTNING #4/#5/#6: `mogen-hy` · `solskadad-hy` · `rhinophyma-rosacea` alla 🟠 → 🔵 SLIGHT.** Observerad delta (mätregel 4): rhinophyma bekräftades 🟠 så sent som 7 juli, då crawlen ännu läste PRE-V2-texten (logg #14). **Alla tre prediktioner träffade. Metoden nu 6/6 på mätta omskrivna sidor.** solskadad-hy låg dessutom mitt i §1.4:s gråzon (FÖRE-medel 2,09) och landade som förutsagt. [BASELINE → §11.1]
 - **`om-oss` badge BEKRÄFTAD 🔵** — beställningen från 6 juli besvarad. om-oss räknas nu in i §1.4-statistiken (EFTER-medel 0,91 → pred 🔵 ✓). [STÄNGD]
@@ -191,10 +191,10 @@ Fulltext flyttas till **`includes/lynx/lynx-log-arkiv.php`**; kvar här blir en 
 **Fynd/gjort:**
 - **Steg 7:** START 254→111 rader, prosan 50,1→15,2 kB (−70 %). Ny `lynx-backlog.php`. Facit-flödets 1 744-teckens prosavägg → **§14 SPARA-RECEPT** i lynx-data, vilket lagade routerns trasiga "(save-first, §0)". Prime-direktivet stod 3 ggr, står nu 1. [STÄNGD]
 - **Steg 8:** lynx-rewrite −6 %, **0 regeländringar** (§2–§7 orörda). §1.1-väggen, §1.3-sagan, §1.4, §13.D, §13.O komprimerade. Spak-regeln stod på två ställen → EN. [STÄNGD]
-- **Steg 9:** lynx-examples 632→457 rader; superseded modellarbete + FÖRE-facit för de 3 MÄTTA sidorna → ny `lynx-examples-arkiv`. **Microneedlings block-plan flyttad ur loggen → `lynx-examples` REWRITE-SPEC = sista hålet där loggen var enda bärare av en aktiv spec.** SERP-drift-regeln → models §1.5. [STÄNGD]
+- **Steg 9:** lynx-examples 632→457 rader; superseded modellarbete + FÖRE-facit för de 3 MÄTTA sidorna → ny `lynx-examples-archive`. **Microneedlings block-plan flyttad ur loggen → `lynx-examples` REWRITE-SPEC = sista hålet där loggen var enda bärare av en aktiv spec.** SERP-drift-regeln → models §1.5. [STÄNGD]
 - **Steg 10:** struktur-kartan permanentad i **START §0** (lagen + KIND-tabellen + laddnings-receptet + de två strukturella fällorna); `▣ MANIFEST` på alla 14 filer. [RATIFICERAD → lynx-START §0]
 - **Tre incidenter, alla fångade av verktygen, ingen av ögat:** (1) en osäker sträng-hjälpare gjorde `str.replace('', x)` och sprängde lynx-rewrite 53 kB → 55 MB; batteriet gick 0/22. (2) Två pekare i lynx-data som jag avfärdade som falska träffar stod 240 tecken in på raden och var äkta. (3) Min "50 pekare måste redigeras" räknade korsfils-referenser, inte trasiga — en ren `§9` löses av §-KARTAN. **Lärdom: en hjälpare som kan returnera tomt är samma felklass som en check som kan returnera tyst grönt.** [STÄNGD]
-- **ÖPPNA ÄGARBESLUT:** radera stubben + underlagsfilen? · `lynx-score` växte 26,3→37,6 kB (A–F-prosan bär två öppna trådar) · namnkonventionen (`lynx-logg` vs `lynx-log-arkiv`) + `lynx-`-prefixet. [ÖPPEN → §9]
+- **ÖPPNA ÄGARBESLUT:** radera stubben + underlagsfilen? · `lynx-score` växte 26,3→37,6 kB (A–F-prosan bär två öppna trådar) · namnkonventionen (`lynx-log` vs `lynx-log-archive`) + `lynx-`-prefixet. [ÖPPEN → §9]
 **Åtgärd:** commits 1f45c1a7 · 9e19949b · 3c0f03fd · bc925cdc + denna. Slutverifiering: **batterierna 5–9 = 172 checkar, alla gröna; censusen 0 trasiga pekare, 0 §-refs utan ägare.** Nästa arbete: **microneedling (Fas 3b)** — REWRITE-SPEC ligger i `lynx-examples`.
 
 ### 2026-07-08 #20 — §9.0 steg 5 + 6 KLARA (autonomt) · batterier för steg 8 + 9 byggda · sakfel i EEAT-mekanismen rättat
@@ -220,16 +220,16 @@ Fulltext flyttas till **`includes/lynx/lynx-log-arkiv.php`**; kvar här blir en 
 ### 2026-07-08 #18 — §9.0 steg 4: loggpost-MALL + arkiv-policy R1–R6 · 23 stängda poster arkiverade · #14 komprimerad (loggen 87→57 kB)
 **In:** fil-optimeringspasset §9.0 steg 4 (ETT steg, ägar-avstämning efter; inga agent-utskick). Underlag: rapporterna *audit-logg* + *audit-designLogFormat* i `lynx-optimering-underlag.php`.
 **Fynd/gjort:**
-- **POST-MALL** (max ~8 rader; In/Fynd/Åtgärd + taggarna ÖPPEN/RATIFICERAD/STÄNGD/BASELINE) + fyra hårda ramar i §11-intron — bl.a. "en öppen tråd får aldrig ha loggen som enda bärare". Arkiv-policyn skärpt från R1 till **R1–R6** (R2 process-poster arkiveras vid ratificering, R3 verifieringsposter vid högre-nivå-verifiering, R4 städtrigger ~30 kB/~15 poster, R5/R6 enrads-format). [RATIFICERAD → lynx-logg §11]
-- **23 poster arkiverade** till `lynx-log-arkiv` (fulltext) med enrads-referens kvar: 6 juli #3/#4/#5/#6/#9/#10/#12 · hela 2 juli-sjoket (14 poster) · 1 juli main-push-milstolpen. Steg 3:s förkrav var uppfyllda — inget unikt gick i arkiv utan att först ha en aktiv bärare. [STÄNGD]
+- **POST-MALL** (max ~8 rader; In/Fynd/Åtgärd + taggarna ÖPPEN/RATIFICERAD/STÄNGD/BASELINE) + fyra hårda ramar i §11-intron — bl.a. "en öppen tråd får aldrig ha loggen som enda bärare". Arkiv-policyn skärpt från R1 till **R1–R6** (R2 process-poster arkiveras vid ratificering, R3 verifieringsposter vid högre-nivå-verifiering, R4 städtrigger ~30 kB/~15 poster, R5/R6 enrads-format). [RATIFICERAD → lynx-log §11]
+- **23 poster arkiverade** till `lynx-log-archive` (fulltext) med enrads-referens kvar: 6 juli #3/#4/#5/#6/#9/#10/#12 · hela 2 juli-sjoket (14 poster) · 1 juli main-push-milstolpen. Steg 3:s förkrav var uppfyllda — inget unikt gick i arkiv utan att först ha en aktiv bärare. [STÄNGD]
 - **R1 respekterad: sid-poster med omätta baselines rördes EJ** (#7/#8/#11, 3 juli ×2, 2 juli em #7, alla sju 1 juli-rewrites, 30 juni acne-ansikte). `em #2` arkiverad DELVIS — **microneedling-block-planen står kvar aktiv** (spec för nästa sidarbete). [BASELINE → §11.1]
 - **#14 komprimerad** 5,9 → ~2,2 kB. Oavkortat kvar: AI STYLE-FÖRE 55/70 · crawlfönstret 2 juli 16:09–6 juli 16:08 · V2 OMÄTTA · EFTER-mätning #3 (2,38→1,38) + micro-fix-kandidaterna · båda ägarbeskeden. [ÖPPEN → §9 + §11.1]
 - **Korspekare lagade** som arkiveringen annars brutit: rewrite §4.2 (juridik-källorna), lynx-score ×4 ("playbook §11" → rätt fil), lynx-examples §1.2-pekaren. [STÄNGD]
-**Åtgärd:** `lynx-logg` 262→201 rader / 87→57 kB (−34 %; resterande volym = R1-skyddade sid-poster + kompressions-kandidater i steg 5–9). `lynx-log-arkiv` 31→150 rader. **Nästa: steg 5 — men FÖRST går vi igenom mål-arkitekturen (§9.0 "ATT GÅ IGENOM") med ägaren.**
+**Åtgärd:** `lynx-log` 262→201 rader / 87→57 kB (−34 %; resterande volym = R1-skyddade sid-poster + kompressions-kandidater i steg 5–9). `lynx-log-archive` 31→150 rader. **Nästa: steg 5 — men FÖRST går vi igenom mål-arkitekturen (§9.0 "ATT GÅ IGENOM") med ägaren.**
 
 ### 2026-07-07 #17 — FIL-OPTIMERINGSPASSET STARTAT (§9.0): lynx-data → AKTUELLT LÄGE-tabell (ägar-godkänd) · stale state rättad · unika loggfynd räddade
 **In:** ägar-beställning ("för långa sektioner skummas; långa loggar kanske egen fil") → 11-rapporters filanalys (→ `lynx-optimering-underlag.php`, temporär) → 10-stegsplan i §9.0. Ägar-feedback under dagen, inskriven som arbetsregel: ETT steg i taget med avstämning, inga agent-utskick.
-**Gjort (steg 1–3):** (1) `lynx-data.php` 519→183 rader — AKTUELLT LÄGE-tabell (senaste värde per sida × vy, daterat, ⟳/FÖRE-markörer) + baseline-register + spara-recept; alla snapshots verbatim → NYA `lynx-data-arkiv.php` [GODKÄND av ägaren 7 juli]. (2) Stale state rättad: 6 sidors "väntar main-push/GSC-gate" → LIVE 6 juli i START §8/§9/Tier 3 + models §11.1; TOC → §-till-fil-karta; playbook-pekare i log-arkiv/logg/examples rättade [STÄNGD]. (3) Unikt loggmaterial räddat: milier/CryoPen-prisfrågan → §9 Bevaka · state-synk-principen → §0 · juridik-käll-URL:er → rewrite §5 [STÄNGD]. (4) Bonus ur tabellbygget: **mogen-hy BORTA ur 13:58-AICOPY-vyn** (omanalys eller badge-flytt under dump-snittet) — bevakas i AKTUELLT LÄGE [ÖPPEN].
+**Gjort (steg 1–3):** (1) `lynx-data.php` 519→183 rader — AKTUELLT LÄGE-tabell (senaste värde per sida × vy, daterat, ⟳/FÖRE-markörer) + baseline-register + spara-recept; alla snapshots verbatim → NYA `lynx-data-archive.php` [GODKÄND av ägaren 7 juli]. (2) Stale state rättad: 6 sidors "väntar main-push/GSC-gate" → LIVE 6 juli i START §8/§9/Tier 3 + models §11.1; TOC → §-till-fil-karta; playbook-pekare i log-arkiv/logg/examples rättade [STÄNGD]. (3) Unikt loggmaterial räddat: milier/CryoPen-prisfrågan → §9 Bevaka · state-synk-principen → §0 · juridik-käll-URL:er → rewrite §5 [STÄNGD]. (4) Bonus ur tabellbygget: **mogen-hy BORTA ur 13:58-AICOPY-vyn** (omanalys eller badge-flytt under dump-snittet) — bevakas i AKTUELLT LÄGE [ÖPPEN].
 **Åtgärd:** steg 4–10 kvar (§9.0-checklistan); nästa session börjar på steg 4 (loggmall + arkivering). Sidarbete pausat under passet; därefter microneedling (Fas 3b).
 
 ### 2026-07-07 #16 — Ofiltrerad Pages-vy VALUE 40→19 (2 dumpar 14:16) — splendor-x 79 BRYTER TAKET · 11 nya färska SCORE · fragor-svar AIQ OK→POOR · "missing localized"-DRAFT-rad KW 616
@@ -244,7 +244,7 @@ Sparad FÖRST → `lynx-data.php` "Tillägg 14:16" (full transkription + diff). 
 **Åtgärd/status:** inga sidändringar (allt väsentligt = väntan på färsk crawl av wave 2-sidorna; SCORE-blank-mönstret ipl/oonskat-har/micro/solskadad kvarstår = omanalys-kön). Uppdaterat: lynx-data (snapshot + STATUS-def + beställningssedel #9), lynx-START (§9.1 acnearr + GAPS-tråden). Nästa aktiva arbete oförändrat: microneedling.php de-AI (Fas 3b).
 
 ### 2026-07-07 #14 — pigmentflackar + rhinophyma re-scannade: BÅDA läste PRE-WAVE-2-texten (V2 omätt) · determinism #3+#4 · EFTER-mätning #3 · AI STYLE-FÖRE-baselines satta
-**In:** 22 skärmdumpar 12:15–12:42, allt sparat FÖRST → `lynx-score` / `lynx-examples` / `lynx-data` (snapshot 7 juli; rådumpar i `lynx-data-arkiv`). Stänger §9-beställningen "pigmentflackar-raden + AI Copy-vy". *(Komprimerad 8 juli; fulltexten med all crawl-forensik finns i git-historiken, ej i arkivet — posten är AKTIV, inte arkiverad.)*
+**In:** 22 skärmdumpar 12:15–12:42, allt sparat FÖRST → `lynx-score` / `lynx-examples` / `lynx-data` (snapshot 7 juli; rådumpar i `lynx-data-archive`). Stänger §9-beställningen "pigmentflackar-raden + AI Copy-vy". *(Komprimerad 8 juli; fulltexten med all crawl-forensik finns i git-historiken, ej i arkivet — posten är AKTIV, inte arkiverad.)*
 **Fynd:**
 - **Båda AI Copy-re-scannerna ("Last update: 06 Jul") läste GAMLA texten.** Blocken har 2 juli-språkfixarna men inte V2-rewriterna (main-merge 1683f85d 6 juli 16:08) ⇒ **crawlfönster 2 juli 16:09 – 6 juli 16:08; V2-omskrivningarna är fortfarande OMÄTTA**, prediktionerna 🟠→🔵 står öppna. [ÖPPEN → §11.1 + §9 Fas 3]
 - **Determinism-replikation #3+#4:** pigmentflackar 18/18 + rhinophyma 16/16 block fick exakt samma tier som faciten 2,5 månader tidigare, inkl. 4 typo-fixade block ⇒ **per-block-betyg är deterministiska; rena typo-fixar flyttar inte betyg; betygsflytt = substansändring.** [RATIFICERAD → lynx-rewrite §1.1, lynx-score #0]
@@ -318,10 +318,10 @@ Sparad FÖRST → `lynx-data.php` "Tillägg 14:16" (full transkription + diff). 
 **Transkriptionsrättelser i lynx-examples (datahygien):** 3 tidigare noterade "fel" fanns INTE i filerna (solskadad "kan också avgörande" = felläst, texten korrekt; rhinophyma Näsa-"grammatikhaveriet" = felläst, meningen hel; oonskat "hårfollikelarna" = redan rättstavat) — facit-tabellerna korrigerade. **Lärdom: skärmdumps-transkription av brödtext är opålitlig på detaljnivå — verifiera språkfel mot FILEN innan de läggs i rewrite-ammo.**
 
 ### 2026-07-02 em #2 — microneedling-BLOCK-PLAN (aktiv spec; rewriten återrullad på ägarbeslut)
-> *Posten är arkiverad DELVIS 8 juli: leveransen (4 MODERATE-facit + helsajts-inventering + sidregister + §1.4 median→MEDEL + modell-observationer) ligger i fulltext i `lynx-log-arkiv.php`. **Block-planen nedan står kvar aktiv** — den är specen för nästa sidarbete (LÄGE + §9 Fas 3b pekar hit) och arkiveras först när microneedling är omskriven.*
+> *Posten är arkiverad DELVIS 8 juli: leveransen (4 MODERATE-facit + helsajts-inventering + sidregister + §1.4 median→MEDEL + modell-observationer) ligger i fulltext i `lynx-log-archive.php`. **Block-planen nedan står kvar aktiv** — den är specen för nästa sidarbete (LÄGE + §9 Fas 3b pekar hit) och arkiveras först när microneedling är omskriven.*
 
 **Microneedling (Fas 3b):** rewriten påbörjades men ÅTERRULLADES på ägarbeslut (statistiken skulle sammanställas först; `git checkout`, claim tömd). **Block-planen (11 punkter) flyttad 8 juli → `lynx-examples.php`, REWRITE-SPEC under microneedling-sektionen.** Loggen är HISTORIK och får inte vara enda bärare av en aktiv spec.
-**Leverans/inventering/modell-observationer:** → `lynx-log-arkiv.php` (fulltext). Facit i `lynx-examples`, sidregistret + studentrabatt-scopet i `lynx-data`, §1.4 median→MEDEL ratificerad i `lynx-rewrite` §1.4.
+**Leverans/inventering/modell-observationer:** → `lynx-log-archive.php` (fulltext). Facit i `lynx-examples`, sidregistret + studentrabatt-scopet i `lynx-data`, §1.4 median→MEDEL ratificerad i `lynx-rewrite` §1.4.
 
 ### 2026-07-01 — `ipl-rosacea.php` (MODERATE, Fas 3, KW20, SCORE 39, P.PRICE HIGHEST) — FACIT-GUIDAD de-AI, klar → staging
 **Gjort (facit 29 apr, v4 §1.3 + adversariellt workflow-verifierad):** Skrev om de 7 block facit rated 🔴/🟠 (desc-p2 "inte bara X utan Y"+marknadssvans; Inför-p1 konsult-boilerplate; Inför-p2 "det är viktigt att"+lång; Process-p2 passiv/generisk procedur; Process-p3 hedge-stapel+boilerplate-svans; Eftervård-p1 importans-filler; Eftervård-p2 passiv "rekommenderas det att"+lång) → ledde med mekanism/konkret + aktiv imperativ, kapade antites/marknad/importans/passiv. **LÄMNADE de 4 🔵/🟢** (desc-p1, Process-p1, Eftervård-p3, Märken-raden) — facit=OK (§13.D-disciplin). Bevarat: 3 interna länkar (rosacea/rosaceabehandling/ipl-ytliga-blodkarl), alla priser, sökord (rosacea 127, IPL 67, "IPL-behandling mot rosacea" 6, rodnad, blodkärl, ytliga blodkärl, pigment), frysta meta. 0 em-streck/råa apostrofer (§13.C; php-lint saknas lokalt → verifieras på staging).
@@ -361,7 +361,7 @@ Sparad FÖRST → `lynx-data.php` "Tillägg 14:16" (full transkription + diff). 
 **Prediktion (§10 steg 1):** AI STYLE ↑ (mindre fyllnad/marknadsord + Orsaker-öppningarna ledda med mekanism = §1.1:s största spak), Evidence/Depth = (substans kvar), sökord/E-E-A-T =. Förväntad landning SIGNIFICANT → MODERATE/SLIGHT. Listformatet behållet med flit — mäter om LYNX straffar en ren lista eller bara en utfylld.
 **Process-lärdomar (inbakat i playbook):** §13.O minimal-diff (ta bort LITE, iterera, kan även lägga till/rätta); §13.D döm efter sektionens syfte (uppräkning → behåll lista, slå inte ihop poänger); §13.N info ≠ längd, bonussidor får vara kortare; §3 komma stryks rakt av.
 
-### Arkiverade poster → `includes/lynx/lynx-log-arkiv.php` (fulltext där)
+### Arkiverade poster → `includes/lynx/lynx-log-archive.php` (fulltext där)
 *(23 poster arkiverade 8 juli enligt R2/R3 (em #2 delvis — block-planen kvar aktiv) — allt ratificerat i regelfil eller ersatt av nyare post; öppna deltrådar låg redan i §9 eller flyttades dit 7 juli. Sid-poster med omätta baselines rördes ej, R1.)*
 - 2026-07-06 #12 Före-semester-kontroll av 20 ändrade sidor — ALLT GRÖNT (HTTP 200, 0 PHP-fel; §6 fras-koll: 0 rankande fras tappad). Ersatt av #13:s produktions-verifiering (R3); fras-koll-siffrorna = forensik om KW-vakten larmar.
 - 2026-07-06 #10 Filstrukturen splittrad per arbetsläge (START/rewrite/models/logg) — ratificerad; öppet kvar: SCORE-tolkningen bor i lynx-score, ev. flytt till models (→ §9.0 steg 6).

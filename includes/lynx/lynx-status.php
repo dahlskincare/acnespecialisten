@@ -1,12 +1,12 @@
 <?php exit; /* intern LYNX-arbetsfil – ej webb-serverad, läs i editor/git */ ?>
-# LYNX LÄGE — var vi står just nu (ENDA STATUSCELLEN)
+# LYNX STATUS — var vi står just nu (ENDA STATUSCELLEN)
 
 ```
 ▣ MANIFEST
 KIND          AKTIV — ändras varje session. Re-läs ALLTID; lita aldrig på minnet av den.
 LADDA-NÄR     vid sessionsstart · efter varje statusbyte · före varje main-push · när LYNX-data kommer in
 KANONISK-FÖR  LÄGE (var vi står) · §11.1 bevakningslistan: per-sida mätstatus · live-på-main · FÖRE-baselines · prediktioner
-PEKAR-PÅ      lynx-START = router/invarianter/§-KARTA · lynx-backlog = TODO/claims · lynx-models = modellen · lynx-data = rådata per (sida × vy) · lynx-logg = historik
+PEKAR-PÅ      lynx-START = router/invarianter/§-KARTA · lynx-backlog = TODO/claims · lynx-models = modellen · lynx-data = rådata per (sida × vy) · lynx-log = historik
 ```
 
 > **Denna fil är den enda källan för STATUS (ägar-beslut 8 juli).** Den bröts ut ur `lynx-models` (som är `KIND: REGEL` och därför inte ska bära något som ändras varje session) och ur `lynx-START` (som ska vara en tunn dispatcher).
@@ -18,7 +18,7 @@ PEKAR-PÅ      lynx-START = router/invarianter/§-KARTA · lynx-backlog = TODO/c
 > **🟢 LÄGE 2026-07-08** *(ny session: läs denna banner → routern överst → rätt fil för din uppgift; arbetet i `lynx-backlog.php`)*
 > - **Mål:** LYNX grönt **utan att skada ranking/trafik**. **RAMEN (verifierad 6 jul):** spaken är SUBSTANS-kvalitet; AI COPY-flaggan är PROXY, Google straffar ej AI-text (lynx-rewrite §1). **SCORE ska INTE jagas** — tak ~75-77 på våra sidtyper, EEAT-badge låst 60 (lynx-score/models).
 > - **🎯 Mätt: 6/6 — varje prediktion har träffat.** acne-ansikte 🔴→🔵 · behandla-pigmentflackar 🔴→🔵 (tvåstegs-hopp) · om-oss 🔵 (badge bekräftad 8 juli) · **mogen-hy · solskadad-hy · rhinophyma-rosacea alla 🟠→🔵 den 8 juli.** §1.1 nyckel 1 kausalbelagd. Kvar: pigmentflackar (omanalys) + **AI STYLE-testet på rhinophyma — beställ SCORE-popupen.** *(Cache — kanonisk cell: `lynx-models` §11.1.)*
-> - **✅ ALLA flagg-sidor LIVE PÅ MAIN.** Wave 2 (6 Fas 3 + pigmentflackar + småfixar: milier-pris, Google Meet, d3ce9162) **pushad till main 6 jul (ägarbeslut) → VERIFIERAD LIVE PÅ PRODUKTION**: alla 20 ändrade sidor HTTP 200, 0 PHP-fel, nytt innehåll bekräftat (logg #13 produktions-verifiering; staging-kontrollen arkiverad, `lynx-log-arkiv` 6 juli #12). §10.0 GSC-gaten passerad på ägarbeslut. **Kvar på dessa = passiv mät-uppföljning (LYNX-refresh + GSC), ej blockerande.**
+> - **✅ ALLA flagg-sidor LIVE PÅ MAIN.** Wave 2 (6 Fas 3 + pigmentflackar + småfixar: milier-pris, Google Meet, d3ce9162) **pushad till main 6 jul (ägarbeslut) → VERIFIERAD LIVE PÅ PRODUKTION**: alla 20 ändrade sidor HTTP 200, 0 PHP-fel, nytt innehåll bekräftat (logg #13 produktions-verifiering; staging-kontrollen arkiverad, `lynx-log-archive` 6 juli #12). §10.0 GSC-gaten passerad på ägarbeslut. **Kvar på dessa = passiv mät-uppföljning (LYNX-refresh + GSC), ej blockerande.**
 > - **SEO-vakt §10.0 = SENARE process (ägarbeslut 6 jul):** GSC + Ahrefs görs som eget pass senare (LYNX-prioritet nu pga refresh-fördröjning). Gaten blockerar inte längre; main-push är ägarens beslut. KW-vakt löpande via LYNX-data kvarstår.
 > - **pigmentflackar + rhinophyma re-scannade 7 jul (logg #14):** båda "Last update 06 Jul"-vyerna läste PRE-WAVE-2-texten (crawl daterad 2 jul 16:09–6 jul 16:08 via git) — 18/18 + 16/16 block identiska med gamla faciten (determinism #3+#4; typo-fixar flyttar inte betyg) → **V2-rewriterna fortfarande OMÄTTA; EFTER-facit väntar nästa refresh (crawl efter 6 jul 16:08).** SCORE: pigment 73 = medel(84,60) ✓; AI STYLE-FÖRE-baselines satta (pigment 55, rhino 70).
 > - **✅ FIL-OPTIMERINGSPASSET §9.0 SLUTFÖRT 8 juli (steg 1–10 + slutgranskning).** Arkitekturen är ratificerad och permanentad i §0: lagen **"ett fakta = en cell, celler pekar — återger aldrig"**, KIND-taggar och `▣ MANIFEST` på alla filer. **Stubben och underlagsfilen raderade.** Kvar, parkerat i §9.3: `lynx-score` HISTORIK-prosan · filnamnskonventionen. **Statusdisciplin: kanonisk cell per statusklass, LÄGE = cache; synka för hand (§0.2).** *(Cachen är den kända sömmen — ägar-idén om EN statuscell ligger i §9.3.)*
@@ -27,7 +27,7 @@ PEKAR-PÅ      lynx-START = router/invarianter/§-KARTA · lynx-backlog = TODO/c
 > - **Öppna ägar-beställningar:** om-oss badge-rad · acne-ansikte FAQ-facitrest · AI Copy-datum för de 3 kvarvarande SIGNIFICANT · (GSC/Ahrefs = eget senare pass) · boilerplate-sweep "Akne Specialiserade Hudterapeuter" (27 filer — timing-beslut).
 > - **Varningar/regler:** 1 Claude i taget (§0.1) · save-first i rätt kolumnfil (filkarta i `lynx-data`) · ny LYNX-skala → färsk-mot-färsk · **attribution kräver observerad delta, ej deploy-timing** · **LYNX uppdaterar per (sida × vy), aldrig i sajt-svep — datera varje cell, EFTER-data droppar in löpande** (lynx-models §11.1) · Fas 3-facit REDAN sparat — be inte igen.
 >
-> *(Banner-regel 6 jul: LÄGE hålls som punktlista, max ~8 rader. Nya detaljer går till §8/§9/§11/§11.1 — här uppdateras bara STATUSBYTEN. Prosaväggen som stod här förut leder till skumläsning; `lynx-log-arkiv` 6 juli #6.)*
+> *(Banner-regel 6 jul: LÄGE hålls som punktlista, max ~8 rader. Nya detaljer går till §8/§9/§11/§11.1 — här uppdateras bara STATUSBYTEN. Prosaväggen som stod här förut leder till skumläsning; `lynx-log-archive` 6 juli #6.)*
 
 ---
 
