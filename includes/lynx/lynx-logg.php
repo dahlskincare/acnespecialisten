@@ -44,6 +44,15 @@ Fulltext flyttas till **`includes/lynx/lynx-log-arkiv.php`**; kvar här blir en 
 | behandla-pigmentflackar.php | 14 | – | – | –/– | SIGNIFICANT | GOOD | – | 16 |
 | hudproblem/hudforandringar/ | 10 | – | 17 | 3/2 | SIGNIFICANT | OK | – | 8 |
 
+### 2026-07-08 #31 — CHECK-REVISIONEN hypotes 3–5: en fasad passerar verktygsintegriteten, och nålarna är skrivna mot incidenter i stället för mot lagen.
+**In:** Ägaren: "gör klart revisionen". Mutationsriggen (`mutrig.py`, temp) byggd först — tre spärrar: baseline grön · positiv kontroll röd · mutationen måste bevisligen landa. Sen hypotes 3, 4, 5.
+**Fynd:**
+- **V6, allvarligast: VERKTYGSINTEGRITET mäter syntax, inte substans.** Ett sabotage-skript som skriver `✓ inga` under varje rubrik och returnerar 0 passerade det **officiella extraktions-receptet** (`assert m` ✓, `len > 3000` ✓ på 3768 tecken, `compile()` ✓). Den utextraherade "checken" granskade noll sidor — grinden hade skrivit `GRIND EXIT=0`. Repo-kopian är det enda som överlever en död session. [ÖPPEN → §9-rad V6]
+- **V7: `pekarkoll`s trasiga-pekare-nål hårdkodar både filnamnet `START` och §-mängden `8|9|12`.** `§9 i lynx-models`, backtick-varianten, `§11.1`, `§14` — fyra lagbrott passerar tyst. **Nålen bär själv en hårdkodad filnamnspekare, det den finns för att förbjuda.** [ÖPPEN → §9-rad V7]
+- **T2: kvorumet är en felmärkning, inget hål.** 2121 refs totalt, detektor 4 läser 747 (35 %); de överhoppade bär 1374 själva. Raden vouchar för korpusläsning, inte granskning. Scenariot den skulle dölja är dock **täckt** (statuskoll RESOLVERN + noloss, mätt). Billig fix: räkna det detektorn faktiskt läser. Överhoppet av HISTORIK är korrekt policy — **min egen förväntan var fel och testet rättade mig.** [STÄNGD → T2]
+- **Diagnosen skärpt, och det är nyckeln:** varje bekräftad nål är skriven **mot en incident, inte mot en lag.** V5 kodar 6 juli-prosan, V1 kodar steg 7:s sentinel, V7 kodar filen §:en flyttade ut ur. En nål mot en incident fångar en repris; en nål mot lagen fångar felklassen. [RATIFICERAD → §9 DIAGNOSEN]
+**Åtgärd:** `lynx-backlog` (V6 · V7 · T2 · skärpt diagnos · riggen i steg 1 · §12). Kvar: `noloss`-fyran, sen ägarens laga/radera-beslut (steg 2–3). **Öppen fråga: ska `mutrig` permanentas i `lynx-verktyg`?**
+
 ### 2026-07-08 #30 — CHECK-REVISIONEN hypotes 2: RESOLVERN är blind för borttagen kartrad — men `pekarkoll` täcker den.
 **In:** Ägarvald fortsättning, en hypotes till. Mutation, 6 scenarier på §-KARTAN, hela grinden körd per scenario.
 **Fynd:**
