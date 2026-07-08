@@ -44,6 +44,15 @@ Fulltext flyttas till **`includes/lynx/lynx-log-arkiv.php`**; kvar här blir en 
 | behandla-pigmentflackar.php | 14 | – | – | –/– | SIGNIFICANT | GOOD | – | 16 |
 | hudproblem/hudforandringar/ | 10 | – | 17 | 3/2 | SIGNIFICANT | OK | – | 8 |
 
+### 2026-07-08 #34 — §9.0 SLUTFÖRT: stubben och underlagsfilen raderade. Filsetet är nere på 13 filer, alla med syfte.
+**In:** Ägarbeslut: gör klart flytten. De två sista §9.0-filerna — `lynx-copy-playbook.php` (stub, `KIND: DÖR`) och `lynx-optimering-underlag.php` (1 338 rader, `KIND: TEMP`, "radera när passet är klart").
+**Fynd:**
+- **Bevisat före radering, inte antaget.** Underlagets nio öppna trådar (powerlite · same-scan · intro-hypotesen · ÅTGÄRD-blocket · POST-MALLENS taggar · SPARA-RECEPTET · §12-flytten · BASELINE-REGISTRET · backlog-som-AKTIV-cell) lever alla i filsetet. MÅL-ARKITEKTUREN står permanent i §0 — vilket steg 10 gjorde *just för att* den annars dött med filen. [STÄNGD]
+- **Stubben pekade fel.** Dess filkarta påstod att START innehöll backlog §8/§9 och claims §12 — de flyttade i steg 7. **En vägvisare som pekar fel är sämre än ingen.** [STÄNGD]
+- **Ägar-idé, parkerad i §9.3 med skiss: EN enda statuscell (`lynx-lage`).** Status bor idag på tre kanoniska ställen plus en cache; det var 6 juli-driften, och V5 bevisade att ingen nål kan vakta den. Boten är att ta bort dubbletten. **START ska INTE bära den** — per-sida-status är 17 rader, och START är `KIND: REGEL` medan status är `AKTIV`. Samma idé fanns i det raderade underlaget ("en logg / en aktiv fil / en historik"); den överlevde filen. [ÖPPEN → §9.3]
+- **Mitt eget kontrollskript fyrade fel en fjärde gång i dag** (sökte POST-MALLEN i fel filmängd). Ingen nål — inte ens en tio rader lång — är gratis. [RATIFICERAD → §0.1]
+**Åtgärd:** två filer raderade, sju referenser omskrivna, en löst §9.2-rad bort. `lynx-backlog` (§9.0 steg 9–10 stängda · §9.3 + skissen), `lynx-START` (LÄGE). **Filsetet: 13 filer.** Kvar i §9.3, ej brådskande: `lynx-score` HISTORIK-prosan · filnamnskonventionen · statuscellen.
+
 ### 2026-07-08 #33 — CHECK-REVISIONEN STÄNGD: alla tre checkarna raderade. Verktygen vaktade en flytt som redan var gjord.
 **In:** Ägarbeslut efter steg 1: radera `noloss`, radera `pekarkoll`, radera `statuskoll` — hela `lynx-verktyg.php`. Ägarens formulering: *"det borde vara en start som har filer för olika uppgifter bara."*
 **Fynd:**

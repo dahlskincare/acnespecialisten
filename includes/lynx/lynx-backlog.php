@@ -82,16 +82,16 @@ Kryssa här. Start/stopp-vänligt: status = §9 + §11 (logg) + §12 (claims). P
 
 ---
 
-**Öppet sedan tidigare, ej påbörjat:** §9.0:s slutgranskning = de fyra ägarbesluten (stubben · `lynx-optimering-underlag.php` · `lynx-score` HISTORIK-prosan · filnamnskonventionen). Se ⚠️ AVVIKELSE-noterna i steg 9 och 10 nedan.
+**✅ §9.0 SLUTFÖRT 8 juli.** Stubben och underlagsfilen raderade (se steg 9–10). Kvar, parkerat och ej brådskande: `lynx-score` HISTORIK-prosan · filnamnskonventionen — båda i §9.3.
 
 ---
 
 ### 9.0 FIL-OPTIMERINGSPASSET (ägar-beställt 7 juli — "för långa sektioner skummas; långa loggar kanske egen fil")
-**Arbetssätt (ägar-feedback 7 juli):** ETT steg i taget med ägar-avstämning emellan · INGA agent-utskick (vanligt läge, usage-hänsyn) · fullständigt analysunderlag med radnummer + MÅSTE-BEHÅLLAS-listor i **`lynx-optimering-underlag.php`** (temporär fil — radera när passet är klart). Princip: inget raderas — öppna trådar/omätta baselines/ägarbeslut flyttas eller komprimeras, historik → arkivfiler (git har alltid verbatim).
+**Arbetssätt (ägar-feedback 7 juli):** ETT steg i taget med ägar-avstämning emellan · INGA agent-utskick (vanligt läge, usage-hänsyn) · fullständigt analysunderlag i en temporär arbetsfil (raderad 8 juli när passet stängdes — git har den verbatim). Princip: inget raderas — öppna trådar/omätta baselines/ägarbeslut flyttas eller komprimeras, historik → arkivfiler (git har alltid verbatim).
 
 **▶ DESTINATION — mål-arkitekturen ✅ RATIFICERAD av ägaren 8 juli.** Triad **KIND = REGEL/AKTIV/HISTORIK** (deklarerad PER SEKTION i ett front-matter-manifest: `LADDA-NÄR / KANONISK-FÖR / PEKAR-PÅ / KIND`) × domän (mätning · rewrite · logg). **START = tunn dispatcher, ~60 rader: router + LÄGE + invarianter, ingen operativ text.** Strukturell lag: **"ett fakta = en cell; celler pekar, återger aldrig."**
 > **Ägarändringar mot 7 juli-utkastet:** (1) **NY cell `lynx-backlog.php` (AKTIV)** = §8 + §8.1 + §9 + §12 — utan den förblir START fet. (2) **Loggen är HISTORIK**, inte AKTIV; microneedling-block-planen flyttas till `examples-aktiv` = sista "logg som enda bärare"-hålet. (3) copy-playbook-stubben dör; `copy-formula`-minnesfilen → ren pekare mot rewrite §2–§6 *(gjort 8 juli, 13/13 regler grep-verifierade)*. (4) Inga splittar av score/data — blandade filer deklarerar KIND per sektion.
-> **Full spec + laddnings-recept + känd risk: `lynx-optimering-underlag.php` (MÅL-ARKITEKTUR, överst). Skrivs permanent i §0 vid steg 10 — annars dör den med underlagsfilen.**
+> **MÅL-ARKITEKTUREN står permanent i §0** (steg 10 gjorde det, precis för att den annars dött med underlagsfilen). Verifierat före raderingen 8 juli: §0 bär lagen, KIND-triaden, manifest-kravet och tunn-dispatcher-principen.
 
 - [x] **1. Ägarbeslut: lynx-data-omstruktureringen GODKÄND (ägaren 7 juli)** — AKTUELLT LÄGE-tabell + baseline-register i lynx-data.php, snapshots verbatim → lynx-data-arkiv.php (519→183 rader). Mönstret aktivt-läge+arkivfil = mall för resten av passet.
 - [x] **2. KLAR 7 juli — stale state + trasiga pekare rättade:** §9 Fas 3-raderna säger "väntar main-push/⛔GSC-gate" på 6 sidor fast ALLT är LIVE på main sedan 6 juli (logg #13) — även §8 (d3ce9162) + §9.1 Tier 3; TOC-raden ("Innehåll:") listar §§ som flyttat till rewrite/models/logg vid splitten; routerns "(save-first, §0)"-pekare; lynx-log-arkiv + logg-intron säger "playbooken"; lynx-examples rad 4 pekar på stubben.
@@ -103,10 +103,10 @@ Kryssa här. Start/stopp-vänligt: status = §9 + §11 (logg) + §12 (claims). P
   - **🔴 EFTER-JÄMFÖRELSEN OVAN ÄR OGILTIG — upptäckt 8 juli.** `pekarkoll`s blast-radius-detektor **dog i denna commit.** Dess sentinel är strängen `FLYTTAR` i §-KARTA-raden (`if 'FLYTTAR' in line and 'lynx-backlog' in line: target = 'BACKLOG'`). FÖRE steg 7 stod där `[FLYTTAR → …]` (`150863b0`) och detektorn mätte 49. Steg 7 skrev om raden till `→ lynx-backlog … [flyttade dit 8 juli]` — sentinel borta, `owner == 'BACKLOG'` blev oåtkomligt, och sektionen rapporterar sedan dess **0 oavsett innehåll** (mutationstestat: 3 injicerade §-pekare i en REGEL-fil → fortfarande 0). **FÖRE 49 → EFTER 0 är inte en ren migration; det är en död mätare.** Bevis som inte kräver kodläsning: specen säger att historikens pekare ska stå kvar (arkiv får ej uppdateras retroaktivt) — de är **147** idag; detektorn säger 0. **Detektorns nål pekade på en formulering i prosan, och prosan skrevs om.** Samma felklass som resten, ett lager djupare: nålen satt i det den bevakade. → §9 Bevaka.
 - [x] **8. KLAR 8 juli** — lynx-rewrite formatkomprimerad −6 %, **0 regeländringar**. §1.1-väggen → 5 punktrader · §1.3 blindtest-sagan → 5 slutsatser · §1.4 → punktlista (öppna beställningar ordagrant) · §13.D → punktlista · §13.O fyra stycken → ett. §2–§7 orörda. Batteri 8: 22/22. *(Ursprunglig spec:* ENDAST formatkomprimering (inga regeländringar). *No-loss-batteri 8 FÄRDIGT (22 checkar, validerat).* §1.1-väggen → 5 punktrader; §1.3-ingressens blindtest-saga → 5 operativa slutsatser + pekare till examples; §1.4 → ~8 rader (öppna beställningar oavkortade); §13.O:s **tre** stycken → ett (spak-regeln EN gång); §13.D → punktlista. §2–§7, §4-banken, §5-juridiken, §3-checklistan RÖRS EJ.*) *(Specen sa "tre stycken", utfallsraden "fyra" — båda bevarade; ingen vet i efterhand vilken som räknade rätt.)*
 - [x] **9. KLAR 8 juli** — `lynx-examples` 632→457 rader (−24 %); superseded modellarbete (SCORE-reverse-engineeringen, MEDIAN-hypotesen, blindtest 1/3/4, MODELLANALYS 2 juli, §1.4-konsolideringen) + FÖRE-facit för de 3 MÄTTA sidorna → **ny `lynx-examples-arkiv.php`** (HISTORIK, 218 rader). Alla facit för omätta/kösidor kvar i aktiva filen. **Microneedlings block-plan flyttad ur `lynx-logg` → `lynx-examples` REWRITE-SPEC** = sista hålet där loggen var enda bärare av en aktiv spec. SERP-drift-regeln → `lynx-models` §1.5 (rådatafilen fick pekare). Manifest på examples + examples-arkiv. Batteri 9: 18/18.
-  - **⚠️ AVVIKELSE (ägarbeslut 8 juli "vi tar inte bort något just nu"):** stubben `lynx-copy-playbook.php` **RADERADES EJ** — den ligger kvar orörd. Förkravet är uppfyllt (rewrite §13.B städad); kvarvarande referenser: `lynx-backlog` ×1, `lynx-log-arkiv` ×1 (historik), underlaget ×14 (temp). Beslut om radering vs 4-raders gravsten tas vid slutgranskningen.
+  - **✅ STÄNGT 8 juli: stubben `lynx-copy-playbook.php` RADERAD.** Den bar en egen stale filkarta som påstod att START innehöll backlog §8/§9 och claims §12 — de flyttade i steg 7. **En vägvisare som pekar fel är sämre än ingen vägvisare.**
 
 - [x] **10. KLAR 8 juli (utom raderingarna)** — **struktur-kartan permanentad i lynx-START §0** (lagen, KIND-tabellen, laddnings-receptet, de två strukturella fällorna). **`▣ MANIFEST` på alla 14 filer.** Slutverifiering: batterierna 5–9 alla gröna (172 checkar), censusen 0 trasiga pekare, 0 §-refs utan ägare. §-KARTAN utökad med §14 → lynx-data.
-  - **⚠️ AVVIKELSE (ägarbeslut 8 juli):** `lynx-optimering-underlag.php` **raderades EJ** — den bär MÅSTE-BEHÅLLAS-listorna (facit för att bedöma om något tappats) + båda verifieringsskripten. Raderas efter ägarens slutgranskning. Samma gäller stubben.
+  - **✅ STÄNGT 8 juli: `lynx-optimering-underlag.php` RADERAD.** Verifierat före radering: alla nio öppna trådar den bar lever i filsetet, och MÅL-ARKITEKTUREN står i §0. Verifieringsskripten den innehöll är också borta (§9). Git har filen verbatim.
   - **ÖPPET ÄGARBESLUT:** `lynx-score` växte 26,3→37,6 kB — A–F:s ursprungsprosa behållen i HISTORIK för att den bär två öppna trådar (rhinophymas rena FÖRE→EFTER-test av de-AI→AI STYLE; "CQ-badge följer Overall snarare än subsen — BEVAKA"). Att stryka den är informationsförlust.
 
 
@@ -214,7 +214,6 @@ Skillnaden mot de andra listorna: **§9.0/Fas-listorna = planerat arbete** · **
 
 **Format:** en rad. `[allvarlighet] fyndet — var det syns — vad som skulle krävas.` Bevis hör hemma i raden, inte i en utredning.
 
-- [ ] **[LOW] Stubben `lynx-copy-playbook.php` bär en egen stale filkarta.** Dess tabell påstår att `lynx-START.php` innehåller *"backlog §8/§9 · claims §12"* — de flyttade till `lynx-backlog.php` 8 juli (§9.0 steg 7). Det är exakt den pekartyp §0 förbjuder ("skriv aldrig §N i `<filnamn>`"). **Ofarligt så länge stubben faktiskt raderas** — men den har nu överlevt ett ägarbeslut ("vi tar inte bort något just nu") och pekar fel under tiden. Avgörs av §9.0:s raderingsbeslut.
 - [ ] **[LOW] §9.0 steg 8: specen sa "§13.O:s *tre* stycken → ett", utfallsraden säger "*fyra* stycken → ett".** Båda bevarade i steg 8-raden. Ingen vet i efterhand vilken som räknade rätt; §13.O är redan ett stycke. Kosmetiskt.
 
 *(Tomma rader tas aldrig bort med motiveringen "verkar inte viktigt". De tas bort när fyndet är åtgärdat eller när ägaren avfärdar det — och då med en rad i §11.)*
@@ -228,7 +227,19 @@ Skillnaden mot de andra listorna: **§9.0/Fas-listorna = planerat arbete** · **
 
 **Utfallstestet (§0.1):** rör sessionens `git diff --stat` bara `includes/lynx/` har uppdraget inte flyttat sig. Säg det rakt ut i stället för att låta gröna commits se ut som framsteg.
 
-- [ ] §9.0:s fyra ägarbeslut: stubben `lynx-copy-playbook.php` · `lynx-optimering-underlag.php` (temp) · `lynx-score` HISTORIK-prosan · filnamnskonventionen.
+- [ ] §9.0:s **två kvarvarande** ägarbeslut: `lynx-score` HISTORIK-prosan · filnamnskonventionen. *(Stubben och underlagsfilen raderade 8 juli.)*
+- [ ] **⭐ EN ENDA STATUSCELL — ägar-idé 8 juli, det starkaste förslaget i lådan.** Söm nr 1 är att status bor på tre kanoniska ställen **plus** en cache (LÄGE-bannern). Det var 6 juli-driften, och `statuskoll` bevisades oförmögen att vakta den (§9, V5: samma faktum sägs på fem sätt, en nål känner igen ett). **Boten är att ta bort dubbletten, inte att bevaka den.**
+
+  | Fil | Bär då |
+  |---|---|
+  | `lynx-START` | router · §-KARTA · invarianter. **Pekar. Ingen status alls.** |
+  | **`lynx-lage`** (ny) | **enda statuscellen:** LÄGE + §11.1:s statuskolumner (live? mätt?) + backloggens klar/i-kö-markörer |
+  | `lynx-backlog` | ren TODO + §9.2 fyndlådan + §9.3 denna låda |
+  | `lynx-models` | modellen + FÖRE-baselines + prediktioner (mätdata, inte status) |
+
+  **Lägg den INTE i START:** per-sida-status är 17 rader, och START skulle svälla tillbaka — "för långa sektioner skummas" var vad som startade hela flytten. START är dessutom `KIND: REGEL` medan status är `AKTIV`; STARTs manifest bär redan den dubbelnaturen som skarv. *(Samma idé står i det raderade underlaget: "en logg / en aktiv fil / en historik". Den överlevde filen.)*
+  **Kostnad:** ett pass över fyra filer. **Vinst:** ingen cache, inget att synka, sömmen försvinner i stället för att bevakas.
+
 - [ ] Produktifieringen: separera SIGNAL / HANTVERK / SAJTPROFIL, `SCOPE`-tagg bredvid `KIND`.
 - [ ] Datum-svepet: gamla poster skriver "2 jul", konventionen säger "2 juli" (§0.2). Retroaktivt, kosmetiskt.
 
