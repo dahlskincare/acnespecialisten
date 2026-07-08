@@ -3,24 +3,22 @@
 
 ```
 ▣ MANIFEST
-KIND          VERKTYG (stabil som REGEL). Kopiera ut till .py och kör. Filen CITERAR pekare och dödsfraser som exempel — checkarna undantar den från sig själva.
-LADDA-NÄR     efter varje statusbyte · före varje main-push · efter varje omstrukturering av filsetet
+KIND          VERKTYG (stabil som REGEL). Kopiera ut mellan BEGIN/END-markörerna till en .py-fil och kör.
+LADDA-NÄR     vid sessionsstart · efter varje statusbyte · före varje main-push · efter varje omstrukturering
 KANONISK-FÖR  statuskoll (divergens + verktygsintegritet) · pekarkoll (trasiga pekare) · noloss (innehållsförlust)
 PEKAR-PÅ      lynx-START §0 = statusdisciplinen + arkitekturen · lynx-models §11.1 = den kanoniska statuscellen
 ```
 
-> ⚠️ **Kodblocken nedan använder `~~~`-fence, inte trippel-backtick.** Skripten innehåller själva trippel-backtick (pekarkoll och statuskoll parsar §-KARTA-blocket i lynx-START). Bäddas de in i en backtick-fence hugger koden av sitt eget block. Det hände 8 juli: repo-kopian av pekarkoll var trunkerad till 564 tecken och gick inte att köra. **Rör inte fencen.**
+> ⚠️⚠️ **RÖR INTE AVGRÄNSARNA.** Skripten avgränsas av Python-kommentarer, `# ==== BEGIN x.py ====` / `# ==== END x.py ====`, **inte av markdown-fences.** Skälet: skripten innehåller själva både ``` och `~~~` i sina egna regex (de parsar §-KARTA-blocket och varandras kodblock). Varje fence de känner igen hugger av dem själva. **Det hände två gånger den 8 juli** — först blev `pekarkoll` 564 tecken lång i repot, sedan högg `statuskoll` av sig själv i den funktion som skulle upptäcka just det. **Kravet på en avgränsare: den får inte kunna förekomma i det den avgränsar.**
 >
-> **Varför verktygen finns.** Tre felklasser har kostat oss tid, alla tysta: (1) en cell säger emot en annan — 6 juli sa sex sidor "väntar main-push" medan LÄGE sa "live på main"; (2) en pekare pekar på en fil som flyttat; (3) innehåll försvinner i en omstrukturering utan att någon märker det. Ögat missar alla tre. Ett skript gör det inte.
+> **Varför verktygen finns.** Tre tysta felklasser: (1) en cell säger emot en annan — 6 juli sa sex sidor "väntar main-push" medan LÄGE sa "live på main"; (2) en pekare pekar på en fil som flyttat; (3) innehåll försvinner i en omstrukturering. Ögat missar alla tre.
 >
-> **Gyllene regeln: en check som kan returnera tyst grönt är farligare än ingen check.** Alla tre är negativkontrollerade — det är visat att de blir röda när man skadar det de bevakar. **Sänk aldrig en tröskel, gör aldrig en regel mer tillåtande, och peka aldrig om en nål, utan att först bevisa att innehållet lever. Kör negativkontrollen igen efteråt.** Detta gäller även en check du själv graderar: en självgraderad kvittens är samma felklass (§13.E).
->
-> *(Tre gånger 8 juli gjorde en osäker hjälpare skada: ett tomt regex-slice fick `str.replace("", x)` att spränga en fil 53 kB → 55 MB · en FÖRE-lägesmappning fick blast radius att rapportera 0 · en backtick i en heredoc lät shellet exekvera ett kodblock. Låt aldrig en hjälpare returnera tomt.)*
+> **Gyllene regeln: en check som kan returnera tyst grönt är farligare än ingen check.** Alla fem detektorer är negativkontrollerade. **Sänk aldrig en tröskel, gör aldrig en regel mer tillåtande, peka aldrig om en nål, och committa aldrig med en röd check — utan att först bevisa att innehållet lever.** Detta gäller även en check du själv graderar: en självgraderad kvittens är samma felklass (§13.E).
 
-## 1. `statuskoll.py` — säger cellerna samma sak?
-Läser status ur den KANONISKA cellen (`lynx-models` §11.1) och larmar om någon aktiv cell påstår motsatsen (MÄTT vs OMÄTT, LIVE vs "väntar main-push"). Kollar även att varje omskriven sida HAR en kanonisk rad, och att §-KARTAN pekar på filer som faktiskt bär §:et. **Kör efter varje statusbyte och alltid före en main-push.** Den hade fångat 6 juli-driften samma dag den uppstod; första körningen 8 juli hittade två stale states som överlevt hela §9.0-passet.
+## 1. `statuskoll.py` — säger cellerna samma sak, och går verktygen att köra?
+Fem detektorer: motsägelser mot den kanoniska cellen (`lynx-models` §11.1) · dödsfraser härledda ur den · fullständighet (varje omskriven sida måste ha en kanonisk rad) · resolvern (pekar §-KARTAN på filer som bär §:et?) · **verktygsintegritet** (går skripten här nedanför ens att parsa?). **Kör vid sessionsstart och alltid före main-push.**
 
-~~~python
+# ==== BEGIN statuskoll.py ====
 #!/usr/bin/env python3
 """STATUSKOLL — divergens-detektor för LYNX-filsetet.
 
@@ -134,21 +132,24 @@ def kolla_resolvern():
 
 # ── 6. VERKTYGSINTEGRITET: går skripten i lynx-verktyg.php ens att köra? ─────
 def kolla_verktygen():
-    """Repo-kopian är den enda som finns kvar när en session dör. Om den är trunkerad
-    eller inte parsar är hela skyddet illusoriskt — och ingenting säger ifrån.
-    (8 juli: pekarkoll var 564 tecken lång i repot; koden högg av sin egen fence.)"""
+    """Repo-kopian är den enda som finns kvar när en session dör. Är den trunkerad
+    eller oparsbar är hela skyddet en illusion — och ingenting säger ifrån.
+
+    ⚠️ Avgränsarna är Python-KOMMENTARER, inte markdown-fences. Skripten innehåller
+    både ``` och ~~~ i sina egna regex, så varje fence de känner igen hugger av dem
+    själva. Det hände två gånger 8 juli, andra gången i just den här funktionen.
+    Kravet på en avgränsare: den får inte kunna förekomma i det den avgränsar."""
     import ast
     try: v = load('lynx-verktyg.php')
-    except FileNotFoundError: return [('lynx-verktyg.php saknas helt')]
+    except FileNotFoundError: return ['lynx-verktyg.php saknas helt']
     fel = []
-    if '```python' in v:
-        fel.append('backtick-fence används — skripten innehåller ``` och hugger av sitt eget block. Använd ~~~')
-    blocks = re.findall(r'~~~python\n(.*?)~~~', v, re.S)
-    if len(blocks) != 3:
-        fel.append(f'{len(blocks)} kodblock funna, förväntat 3 (statuskoll, pekarkoll, noloss)')
-    for n, b in zip(('statuskoll','pekarkoll','noloss'), blocks):
-        if len(b) < 3000: fel.append(f'{n}: bara {len(b)} tecken — trunkerad?')
-        try: ast.parse(b)
+    for n in ('statuskoll.py','pekarkoll.py','noloss.py'):
+        a, b = f'# ==== BEGIN {n} ====', f'# ==== END {n} ===='
+        if a not in v or b not in v:
+            fel.append(f'{n}: BEGIN/END-markör saknas'); continue
+        kod = v[v.index(a)+len(a):v.index(b)]
+        if len(kod) < 3000: fel.append(f'{n}: bara {len(kod)} tecken — trunkerad?')
+        try: ast.parse(kod)
         except SyntaxError as e: fel.append(f'{n}: går inte att parsa (rad {e.lineno}: {e.msg})')
     return fel
 
@@ -182,12 +183,13 @@ print('\n═══ 🔴 VERKTYGSINTEGRITET — går skripten i lynx-verktyg.php 
 print('  ✓ tre kodblock, alla parsar' if not vk else '\n'.join(f'  ❌ {x}' for x in vk))
 
 sys.exit(1 if (n or m or s or r or vk) else 0)
-~~~
+
+# ==== END statuskoll.py ====
 
 ## 2. `pekarkoll.py` — pekar pekarna rätt?
-Parsar §-KARTAN ur `lynx-START` (håller aldrig en egen kopia — det vore samma lagbrott den ska bevaka). **Den avgörande checken heter TRASIGA pekare:** en pekare som NAMNGER en fil, eller är POSITIONELL ("§9 nedan"), bryts när filen flyttar; ett naket §-nummer gör det inte. Kör med `--efter` efter en omstrukturering och diffa mot FÖRE-baselinen.
+Parsar §-KARTAN ur `lynx-START` (håller aldrig en egen kopia). **Den avgörande checken heter TRASIGA pekare:** en pekare som NAMNGER en fil, eller är positionell ("§9 nedan"), bryts när filen flyttar; ett naket §-nummer gör det inte.
 
-~~~python
+# ==== BEGIN pekarkoll.py ====
 #!/usr/bin/env python3
 """Pekar-census för LYNX-filsetet. Kör FÖRE och EFTER varje omstrukturerings-steg
 (§9.0 steg 7 + 9). Utan FÖRE-baseline går trasiga pekare inte att attribuera.
@@ -301,12 +303,13 @@ for path in files:
         print(f'  {src:<26} ×{n:<3} [{k}]{"  ← måste bort före radering" if k in ("AKTIV","REGEL") else ""}')
         tot += n
 print('  ✓ ingen — kan raderas' if not tot else f'  ── {tot} omnämnanden')
-~~~
+
+# ==== END pekarkoll.py ====
 
 ## 3. `noloss.py` — tappade vi något?
 Ett batteri per §9.0-steg, härlett ur MÅSTE-BEHÅLLAS-listorna. **Kör FÖRE redigering** — måste vara grönt, annars är nålarna fel, inte filen — **och efter.**
 
-~~~python
+# ==== BEGIN noloss.py ====
 #!/usr/bin/env python3
 """No-loss-batteri per §9.0-steg. Härlett ur underlagets MÅSTE-BEHÅLLAS-listor.
 Kör FÖRE redigering (måste vara helgrönt — annars är nålarna fel) och EFTER (måste vara helgrönt).
@@ -574,4 +577,5 @@ def main():
     sys.exit(1 if fails else 0)
 
 main()
-~~~
+
+# ==== END noloss.py ====

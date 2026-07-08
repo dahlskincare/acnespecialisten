@@ -44,6 +44,15 @@ Fulltext flyttas till **`includes/lynx/lynx-log-arkiv.php`**; kvar här blir en 
 | behandla-pigmentflackar.php | 14 | – | – | –/– | SIGNIFICANT | GOOD | – | 16 |
 | hudproblem/hudforandringar/ | 10 | – | 17 | 3/2 | SIGNIFICANT | OK | – | 8 |
 
+### 2026-07-08 #26 — SESSIONS-RITUALEN införd (ägarbeslut): start-check → uppgiftsval → slut-GRIND. Samma bugg fångad ett lager djupare.
+**In:** ägarfråga — "ska vi göra en checklista i början och slutet av varje process?" Ja. Och jag committade med en röd check medan jag svarade.
+**Fynd:**
+- **Jag committade med röd check TVÅ GÅNGER samma dag.** Andra gången (8d474641) i det commit-meddelande som beskrev den första. Utskriften sa `4/5 detektorer gröna`; jag läste den inte. **En regel man ska komma ihåg är inte ett skydd.** Det avgör ägarens fråga: ritual, inte påminnelse. [STÄNGD]
+- **Verktygsfilen var trasig igen — ett lager djupare.** `statuskoll.py` innehåller nu `~~~python` i sitt EGET regex (det som letar efter kodblocken). Inbäddad i en `~~~`-fence högg den av sig själv — **i just den funktion som skulle upptäcka precis det felet.** Dessutom triggade dess backtick-check på sin egen källkod. [STÄNGD]
+- **Regeln som följer:** *en avgränsare får inte kunna förekomma i det den avgränsar.* Skripten avgränsas nu av Python-kommentarer (`# ==== BEGIN x.py ====`), inte av markdown-fences. Verifierat genom att extrahera skripten UR repo-filen och köra dem: alla exit 0. [RATIFICERAD → lynx-verktyg]
+- **SESSIONS-RITUALEN → `lynx-START` §0.1** (ny kanonisk cell). **Vid start:** `git status` + §12 → kör `statuskoll` + `pekarkoll` **utan att fråga om lov** (ett tillfälle att hoppa över är ett tillfälle det hoppas över) → rapportera tre rader → **först därefter** välja uppgift. **Vid slut: en GRIND, inte en vana** — committa aldrig med en röd check; läs exit-koden, inte utskriften. Sänk aldrig en tröskel för att göra en check grön. [RATIFICERAD → START §0.1]
+**Åtgärd:** START §0/§0.1–§0.4 numrerade om, §-KARTAN uppdaterad. §9 felklass-tabellen: rad 6 har nu en grind; kvar är en `pre-commit`-hook som tvingar fram den (ägarbeslut). **Grinden kördes före denna commit: statuskoll 5/5 · pekarkoll 0 trasiga · noloss 5–9 gröna.**
+
 ### 2026-07-08 #25 — Felklassen namngiven: "en verifiering som kan passera utan att verifiera". Femte detektorn byggd.
 **In:** ägarfråga — ska den här typen av fel bli en TODO? Svar: nej, en TODO är en lapp någon måste komma ihåg. Fyra av sex incidenter fick en check i stället.
 **Fynd:**
