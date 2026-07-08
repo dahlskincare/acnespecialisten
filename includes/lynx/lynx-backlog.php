@@ -173,7 +173,7 @@ Skillnaden mot de andra listorna: **§9.0/Fas-listorna = planerat arbete** · **
 
 **Format:** en rad. `[allvarlighet] fyndet — var det syns — vad som skulle krävas.` Bevis hör hemma i raden, inte i en utredning.
 
-- [ ] **[LOW] §9.0 steg 8: specen sa "§13.O:s *tre* stycken → ett", utfallsraden säger "*fyra* stycken → ett".** Båda bevarade i steg 8-raden. Ingen vet i efterhand vilken som räknade rätt; §13.O är redan ett stycke. Kosmetiskt.
+*(Tom — inga öppna fynd. Det senaste stängdes 8 juli: §13.O:s styckeräkning — svaret var fem, båda räknarna undersköt, ingen substans förlorad. Logg #39.)*
 
 *(Tomma rader tas aldrig bort med motiveringen "verkar inte viktigt". De tas bort när fyndet är åtgärdat eller när ägaren avfärdar det — och då med en rad i §11.)*
 

@@ -44,6 +44,15 @@ Fulltext flyttas till **`includes/lynx/lynx-log-archive.php`**; kvar här blir e
 | behandla-pigmentflackar.php | 14 | – | – | –/– | SIGNIFICANT | GOOD | – | 16 |
 | hudproblem/hudforandringar/ | 10 | – | 17 | 3/2 | SIGNIFICANT | OK | – | 8 |
 
+### 2026-07-08 #39 — Fyndlådans enda rad avgjord: §13.O hade FEM stycken. Både specen och utfallsraden räknade fel.
+**In:** Ägaren valde §9.2:s enda fynd — *"specen sa tre stycken, utfallsraden fyra; ingen vet i efterhand vilken som räknade rätt."* Git-historiken vet.
+**Fynd:**
+- **§13.O hade fem blankradsseparerade stycken före steg 8.** Spec (tre) och utfallsrad (fyra) undersköt båda. [STÄNGD]
+- **Byte-identisk vid spec-commiten (`1c05b405`) och direkt före exekveringen (`3c0f03fd^`).** Diskrepansen var aldrig en ändring i filen utan två olika felräkningar. [STÄNGD]
+- **Stycket båda missade var det enda utan fet ingress** — och det längsta. Att räkna feta ingresser är inte att räkna stycken. [STÄNGD]
+- **Ingen substansförlust.** Det missade styckets sakinnehåll lever i §13.O:s nuvarande stycke; §1.1-pekaren är avdubbleringen #21 bokförde. Kosmetiskt — nu bevisat, inte antaget. [STÄNGD]
+**Åtgärd:** §9.2-raden struken, lådan tom. `lynx-backlog-archive` orörd (HISTORIK ändras aldrig retroaktivt) — svaret bor här. Inga regelfiler rörda.
+
 ### 2026-07-08 #38 — §9 grupperad så startritualen fungerar. En öppen tråd hade arkivet som enda bärare.
 **In:** Ägarfråga: *"när jag skriver lynx nästa gång, får jag intron och kan välja en TODO?"* Svaret var nej. Tre fel hittade genom att läsa START som en ny session gör.
 **Fynd:**
