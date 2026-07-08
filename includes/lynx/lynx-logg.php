@@ -44,6 +44,16 @@ Fulltext flyttas till **`includes/lynx/lynx-log-arkiv.php`**; kvar här blir en 
 | behandla-pigmentflackar.php | 14 | – | – | –/– | SIGNIFICANT | GOOD | – | 16 |
 | hudproblem/hudforandringar/ | 10 | – | 17 | 3/2 | SIGNIFICANT | OK | – | 8 |
 
+### 2026-07-08 #27 — FELKLASS-GENOMGÅNGEN: fem nya tysta gröna. Grinden från #26 kunde bara fällas av en av sina tre checkar.
+**In:** ägarvald uppgift (§0.1 steg 4). Alla fynd bevisade med negativkontroll mot muterade kopior i temp-katalog — aldrig i repot.
+**Fynd:**
+- `pekarkoll` saknade sin `sys.exit`: skrev "1 MÅSTE LAGAS" och returnerade **0**. Den avgörande checken kunde aldrig fälla grinden. [STÄNGD]
+- Grindens `|| break` gav alltid 0 (`break` lyckas → for-loopen lyckas). **Fixen för incident #6 var själv en instans av felklassen.** [STÄNGD]
+- statuskolls detektor 4 + 5 gick gröna på noll granskade enheter. Kvorum ensamt räcker inte: bryt EN kartrad, så bär de övriga tröskeln → **ingen rad får hoppas över tyst.** [RATIFICERAD → lynx-verktyg]
+- Tom `.py` avslutas med exit 0 → extraktion utan assertions kan ge helgrön grind som aldrig körde. [RATIFICERAD → lynx-verktyg]
+- **Boten: "grönt är ett mätt påstående, inte frånvaron av en klagan"** — kvorum + bevisad fällbarhet. 14 mutationer, 14/14 fångade; batteriet avslöjade en halvfärdig fix i sig självt. [RATIFICERAD → lynx-verktyg]
+**Åtgärd:** `lynx-verktyg` (tre skript + gyllene regeln + extraktions-recept + heredoc-konventionen) · `lynx-START` §0.1 omskriven på ägarbeslut (säg till → kolla → rapportera → **lista och fråga**; spara+pusha ALLTID, slutchecken frivillig eftersom start-kontrollen fångar samma sak) + manifestets två stale §-pekare lagade · `lynx-backlog` Bevaka-tråden stängd. **Ägarbeslut: ingen pre-commit-hook — allt LYNX-arbete stannar i `includes/lynx/*.php`.** Öppet kvar: pekare *inom* en fil är obevakade; noloss batteri 9 mäter typon `micronnedling` i stället för block-planen. [ÖPPEN → §9-rad]
+
 ### 2026-07-08 #26 — SESSIONS-RITUALEN införd (ägarbeslut): start-check → uppgiftsval → slut-GRIND. Samma bugg fångad ett lager djupare.
 **In:** ägarfråga — "ska vi göra en checklista i början och slutet av varje process?" Ja. Och jag committade med en röd check medan jag svarade.
 **Fynd:**

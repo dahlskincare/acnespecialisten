@@ -9,11 +9,37 @@ KANONISK-FÖR  statuskoll (divergens + verktygsintegritet) · pekarkoll (trasiga
 PEKAR-PÅ      lynx-START §0 = statusdisciplinen + arkitekturen · lynx-models §11.1 = den kanoniska statuscellen
 ```
 
+> ### ▶ EXTRAHERA SÅ HÄR — aldrig utan assertions
+> En tom `.py` avslutas med **exit 0**. Missar din extraktion sina markörer får du tre tomma filer och en helgrön grind som aldrig körde något. Kopiera aldrig ut skripten utan att kräva bevis på att de kom med:
+> ```
+> import re, os
+> src = open('includes/lynx/lynx-verktyg.php', encoding='utf-8').read()
+> for namn in ('statuskoll.py','pekarkoll.py','noloss.py'):
+>     m = re.search(r'# ==== BEGIN %s ====\n(.*?)\n# ==== END %s ====' % (namn, namn), src, re.S)
+>     assert m,                     f'EXTRAKTION MISSLYCKADES: {namn}'
+>     assert len(m.group(1)) > 3000, f'TRUNKERAD: {namn} = {len(m.group(1))} tecken'
+>     compile(m.group(1), namn, 'exec')          # syntaxfel här = filen är trasig i repot
+>     open('/tmp/' + namn, 'w', encoding='utf-8').write(m.group(1))
+> ```
+> Lägg .py-filerna i en temp-katalog, **aldrig i repot** — allt LYNX-arbete stannar i `includes/lynx/*.php` (ägarbeslut 8 juli: inga andra filtyper, inga git-hooks, ingen git-konfiguration).
+>
+> ### ▶ HEREDOC-KONVENTIONEN — citera alltid avgränsaren (felklass-incident #3)
+> Skickar du kod till skalet: skriv **`<<'PYEOF'`**, aldrig `<<PYEOF`. Utan fnuttar tolkar skalet innehållet först — backticks körs som kommandon, `$n` expanderas till tomt, och kodblocket töms tyst. Det hände 8 juli (inbäddningen försvann) och igen samma dag i ett `echo` med backticks. **Samma lag som för avgränsarna nedan: det som ska bäras oförändrat får inte tolkas av bäraren.** Behöver du skriva en fil — använd en filskrivare, inte `echo` eller `cat`.
+>
 > ⚠️⚠️ **RÖR INTE AVGRÄNSARNA.** Skripten avgränsas av Python-kommentarer, `# ==== BEGIN x.py ====` / `# ==== END x.py ====`, **inte av markdown-fences.** Skälet: skripten innehåller själva både ``` och `~~~` i sina egna regex (de parsar §-KARTA-blocket och varandras kodblock). Varje fence de känner igen hugger av dem själva. **Det hände två gånger den 8 juli** — först blev `pekarkoll` 564 tecken lång i repot, sedan högg `statuskoll` av sig själv i den funktion som skulle upptäcka just det. **Kravet på en avgränsare: den får inte kunna förekomma i det den avgränsar.**
 >
 > **Varför verktygen finns.** Tre tysta felklasser: (1) en cell säger emot en annan — 6 juli sa sex sidor "väntar main-push" medan LÄGE sa "live på main"; (2) en pekare pekar på en fil som flyttat; (3) innehåll försvinner i en omstrukturering. Ögat missar alla tre.
 >
-> **Gyllene regeln: en check som kan returnera tyst grönt är farligare än ingen check.** Alla fem detektorer är negativkontrollerade. **Sänk aldrig en tröskel, gör aldrig en regel mer tillåtande, peka aldrig om en nål, och committa aldrig med en röd check — utan att först bevisa att innehållet lever.** Detta gäller även en check du själv graderar: en självgraderad kvittens är samma felklass (§13.E).
+> **Gyllene regeln: en check som kan returnera tyst grönt är farligare än ingen check.** **Sänk aldrig en tröskel, gör aldrig en regel mer tillåtande, peka aldrig om en nål, och committa aldrig med en röd check — utan att först bevisa att innehållet lever.** Detta gäller även en check du själv graderar: en självgraderad kvittens är samma felklass (§13.E).
+>
+> ### 🟩 GRÖNT ÄR ETT MÄTT PÅSTÅENDE, INTE FRÅNVARON AV EN KLAGAN (8 juli)
+> Den gyllene regeln namngav sjukdomen. Detta är boten, och den har två halvor:
+> 1. **KVORUM.** Varje detektor redovisar *hur många enheter den granskade* och går **röd på noll**. En check som slutat mäta ska larma, inte tiga. Dessa kvorum finns nu i alla tre skripten — **sänk dem aldrig för att få grönt; laga parsningen i stället.**
+> 2. **Den måste kunna bli röd.** Fram till 8 juli **saknade `pekarkoll` sin `sys.exit`**: den skrev "1 MÅSTE LAGAS" och returnerade 0. Och grindens `|| break` gjorde att `noloss` inte heller kunde fälla den. Av de tre checkarna kunde alltså **bara `statuskoll`** stoppa en commit — i den ritual som skrevs just för att stoppa commits med röd check.
+>
+> **Konsekvensen: en detektors påstående "jag är negativkontrollerad" är värdelöst om ingen kör kontrollen igen.** Verifiera med mutation — kopiera filsetet till en temp-katalog, injicera felet detektorn ska hitta, och kräv att den blir röd. Blir den grön är detektorn trasig, inte filen.
+
+
 
 ## 1. `statuskoll.py` — säger cellerna samma sak, och går verktygen att köra?
 Fem detektorer: motsägelser mot den kanoniska cellen (`lynx-models` §11.1) · dödsfraser härledda ur den · fullständighet (varje omskriven sida måste ha en kanonisk rad) · resolvern (pekar §-KARTAN på filer som bär §:et?) · **verktygsintegritet** (går skripten här nedanför ens att parsa?). **Kör vid sessionsstart och alltid före main-push.**
@@ -58,6 +84,12 @@ def kanonisk():
             'matt': bool(re.search(r'\bMÄTT\b', c[6])),
             'rad' : namn,
         }
+    # KVORUM. Parsas tabellen inte får vi noll sidor — och då går detektor 1 och 2
+    # nedanför gröna utan att ha granskat en enda rad. Grönt är ett MÄTT påstående.
+    if len(sidor) < 16:
+        sys.exit(f'❌ KVORUM BRUTET: §11.1 gav bara {len(sidor)} sidrader (väntar ≥16).\n'
+                 '   Tabellformatet har ändrats → checken är BLIND, inte grön.\n'
+                 '   Laga parsningen. Sänk aldrig kvorumet för att få grönt.')
     return sidor
 
 # ── 2. MOTSÄGELSER ─────────────────────────────────────────────────────────
@@ -101,34 +133,54 @@ def kolla_dodsfraser(sidor):
 
 # ── 4. FULLSTÄNDIGHET: varje omskriven sida måste ha en kanonisk rad ───────
 def kolla_fullstandighet(sidor):
+    """KVORUM: 14 flagg-sidor är omskrivna. Hittar regexen färre har backloggens
+    listformat ändrats — och då granskar checken NOLL sidor och skriver ändå ✓.
+    Bevisat 8 juli: byt '- [x]' mot '* [x]' i backloggen och detektorn tystnar."""
     bl = load('lynx-backlog.php')
     omskrivna = re.findall(r'^- \[x\] `([^`]+)`', bl, re.M)
+    if len(omskrivna) < 14:
+        return ([f'KVORUM BRUTET: bara {len(omskrivna)} omskrivna sidor i backloggen (väntar ≥14) '
+                 '— listformatet har ändrats, checken mäter ingenting'], len(omskrivna))
     saknas = []
     for sida in omskrivna:
         slug = sida.replace('/index.php','').replace('.php','').strip('/')
         if slug not in ('hudbehandlingar/ipl',) and '/' in slug: slug = slug.split('/')[-1]
-        if slug not in sidor: saknas.append(sida)
-    return saknas
+        if slug not in sidor: saknas.append(f'SAKNAS i §11.1: {sida}')
+    return saknas, len(omskrivna)
 
 # ── 5. RESOLVERN: pekar §-KARTAN på filer som faktiskt bär §:et? ───────────
 def kolla_resolvern():
+    """Byt kartans pil '→' mot något annat och `continue` hoppar tyst över raden
+    — detektorn säger då ✓ om en resolver den aldrig läste. Bevisat 8 juli.
+
+    Ett kvorum på ett magiskt tal räcker INTE: bryts en enda kartrad ligger de
+    övriga kvar och tröskeln passeras. Den rätta invarianten är starkare och
+    behöver ingen tröskel — INGEN rad i kartan får hoppas över tyst."""
     txt = load('lynx-START.php')
     blk = re.search(r'### §-KARTA.*?```\n(.*?)```', txt, re.S)
-    if not blk: return [('lynx-START.php', 0, '§-KARTA-blocket saknas')]
-    fel = []
+    if not blk: return [('lynx-START.php', 0, '§-KARTA-blocket saknas')], 0
+    fel, granskade, otolkade = [], 0, 0
     for line in blk.group(1).splitlines():
         m = re.match(r'\s*(§[\d.,\s§]+?)\s*→\s*(\S+)', line)
-        if not m: continue
+        if not m:
+            if '§' in line: otolkade += 1        # en kartrad resolvern inte förstår
+            continue
         mal = m.group(2)
-        if mal == 'lynx-backlog': mal = 'lynx-backlog'
         try: filtext = load(mal + '.php')
         except FileNotFoundError:
             fel.append((mal, 0, 'filen finns inte')); continue
         for ref in re.findall(r'§(\d+(?:\.\d+)?)', m.group(1)):
+            granskade += 1
             # rubrik som "## 1.2", "### 8.1", "## §14", "## 0.3"
             if not re.search(r'^#{1,4} (§)?' + re.escape(ref) + r'[\s.]', filtext, re.M):
                 fel.append((mal, 0, f'§-KARTAN säger att §{ref} bor här, men ingen rubrik matchar'))
-    return fel
+    if otolkade:
+        fel.append(('lynx-START.php', 0, f'{otolkade} rad(er) i §-KARTAN bär ett § men kunde inte tolkas '
+                                         '— resolvern hoppar tyst över dem'))
+    if granskade < 25:
+        fel.append(('lynx-START.php', 0, f'KVORUM BRUTET: bara {granskade} §-referenser lästes ur kartan '
+                                         '(väntar ≥25) — kartans format har ändrats, checken mäter inget'))
+    return fel, granskade
 
 # ── 6. VERKTYGSINTEGRITET: går skripten i lynx-verktyg.php ens att köra? ─────
 def kolla_verktygen():
@@ -159,7 +211,7 @@ print(f'   MÄTTA: {", ".join(s for s,v in sidor.items() if v["matt"]) or "—"}
 print(f'   OMÄTTA: {len([1 for v in sidor.values() if not v["matt"]])} st · LIVE: {len([1 for v in sidor.values() if v["live"]])} st')
 
 n = 0
-print('\n═══ 🔴 MOTSÄGELSER — en cell säger emot den kanoniska ═══')
+print(f'\n═══ 🔴 MOTSÄGELSER — en cell säger emot den kanoniska ({len(sidor)} sidor × {len(KOLLADE)} filer) ═══')
 for f, ln, slug, why, line in kolla_motsagelser(sidor):
     print(f'  ❌ {f}:{ln}  [{slug}]  {why}\n       {line.strip()[:100]}'); n += 1
 print('  ✓ inga' if not n else f'  ── {n} MÅSTE LAGAS')
@@ -170,12 +222,12 @@ for f, ln, _, why, line in kolla_dodsfraser(sidor):
     print(f'  ❌ {f}:{ln}  {why}\n       {line.strip()[:100]}'); m += 1
 print('  ✓ inga' if not m else f'  ── {m} MÅSTE LAGAS')
 
-s = kolla_fullstandighet(sidor)
-print('\n═══ 🔴 FULLSTÄNDIGHET — omskriven sida utan kanonisk rad ═══')
-print('  ✓ alla omskrivna sidor har en §11.1-rad' if not s else '\n'.join(f'  ❌ SAKNAS i §11.1: {x}' for x in s))
+s, n_sidor = kolla_fullstandighet(sidor)
+print(f'\n═══ 🔴 FULLSTÄNDIGHET — omskriven sida utan kanonisk rad ({n_sidor} granskade) ═══')
+print('  ✓ alla omskrivna sidor har en §11.1-rad' if not s else '\n'.join(f'  ❌ {x}' for x in s))
 
-r = kolla_resolvern()
-print('\n═══ 🔴 RESOLVERN — pekar §-KARTAN på filer som bär §:et? ═══')
+r, n_ref = kolla_resolvern()
+print(f'\n═══ 🔴 RESOLVERN — pekar §-KARTAN på filer som bär §:et? ({n_ref} §-referenser granskade) ═══')
 print('  ✓ varje § i kartan har en matchande rubrik i sin fil' if not r else '\n'.join(f'  ❌ {a}: {c}' for a,_,c in r))
 
 vk = kolla_verktygen()
@@ -204,14 +256,17 @@ def load_sec_map():
     txt = open(os.path.join(LYNX, 'lynx-START.php'), encoding='utf-8').read()
     blk = re.search(r'### §-KARTA.*?```\n(.*?)```', txt, re.S)
     if not blk: sys.exit('❌ §-KARTA-blocket hittades inte i lynx-START — resolvern saknas, avbryter.')
-    m = {}
+    m, otolkade = {}, 0
     for line in blk.group(1).splitlines():
         mm = re.match(r'\s*(§[\d.,\s§]+?)\s*→\s*(\S+)', line)
-        if not mm: continue
+        if not mm:
+            if '§' in line: otolkade += 1        # tyst överhoppad kartrad = partiell blindhet
+            continue
         target = mm.group(2)
         if 'FLYTTAR' in line and 'lynx-backlog' in line: target = 'BACKLOG'
         for ref in re.findall(r'§(\d+(?:\.\d+)?)', mm.group(1)):
             m[ref] = target
+    if otolkade: sys.exit(f'❌ {otolkade} rad(er) i §-KARTAN bär ett § men kunde inte tolkas — resolvern är partiellt blind.')
     if not m: sys.exit('❌ §-KARTA-blocket kunde inte parsas.')
     return m
 
@@ -230,15 +285,17 @@ KIND = {'lynx-START':'AKTIV','lynx-rewrite':'REGEL','lynx-models':'REGEL','lynx-
 PLANNED = {'lynx-backlog','lynx-examples-arkiv','lynx-examples-aktiv','lynx-score-arkiv'}
 
 files = sorted(glob.glob(os.path.join(LYNX,'*.php')))
+if len(files) < 8: sys.exit(f'❌ KVORUM BRUTET: bara {len(files)} .php-filer i {LYNX} (väntar ≥8) — fel katalog?')
 existing = {os.path.basename(f)[:-4] for f in files}
 sec_re, file_re = re.compile(r'§\s?(\d+(?:\.\d+)?)'), re.compile(r'\blynx-[a-z-]+\b')
 
-blast = collections.Counter(); unresolved = []; unknown = collections.Counter()
+blast = collections.Counter(); unresolved = []; unknown = collections.Counter(); refs_seen = 0
 for path in files:
     src = os.path.basename(path)[:-4]
     text = open(path, encoding='utf-8').read()
     for m in sec_re.finditer(text):
         ref = m.group(1)
+        refs_seen += 1
         owner = owner_of(ref)
         if owner is None: unresolved.append((src, ref)); continue
         if owner == 'BACKLOG' and src != HOME_NOW and src != 'lynx-backlog':
@@ -303,6 +360,17 @@ for path in files:
         print(f'  {src:<26} ×{n:<3} [{k}]{"  ← måste bort före radering" if k in ("AKTIV","REGEL") else ""}')
         tot += n
 print('  ✓ ingen — kan raderas' if not tot else f'  ── {tot} omnämnanden')
+
+# ── EXIT-KODEN. Den här raden saknades fram till 8 juli. ────────────────────
+# pekarkoll skrev "── 1 MÅSTE LAGAS" och returnerade ändå 0, så grinden i §0.1
+# — som läser exit-koden, inte utskriften — släppte igenom varje trasig pekare.
+# En check som inte KAN bli röd är ingen check. Och noll granskade referenser
+# är rött, inte grönt: grönt är ett mätt påstående, inte frånvaron av en klagan.
+kvorum_brutet = refs_seen < 200
+print(f'\n═══ KVORUM — {len(files)} filer · {refs_seen} §-referenser lästa ═══')
+print(f'  ❌ bara {refs_seen} referenser lästes (väntar ≥200) — checken har slutat mäta'
+      if kvorum_brutet else '  ✓ checken har faktiskt mätt något')
+sys.exit(1 if (broken or unresolved or kvorum_brutet) else 0)
 
 # ==== END pekarkoll.py ====
 
@@ -563,17 +631,22 @@ def structural(step):
 def main():
     step = int(sys.argv[1])
     if step not in STEP: sys.exit(f'Inget batteri för steg {step} än.')
+    struct = structural(step)          # EN gång. Kördes förut två — andra gången bara för att räknas.
+    checkar = len(STEP[step]) + len(struct)
+    # KVORUM: ett tomt batteri skrev förut "0/0 gröna. ✅ inget tappat." och gav exit 0.
+    # Noll checkar bevisar ingenting. Grönt är ett mätt påstående.
+    if checkar < 5:
+        sys.exit(f'❌ KVORUM BRUTET: batteri {step} har bara {checkar} checkar — det mäter ingenting.')
     fails = 0
-    print(f'═══ NO-LOSS-BATTERI · §9.0 steg {step} ═══')
+    print(f'═══ NO-LOSS-BATTERI · §9.0 steg {step} ({checkar} checkar) ═══')
     for label, f, needle in STEP[step]:
         ok = needle in load(f)
         print(f'  {"✓" if ok else "❌ SAKNAS"}  {label}')
         fails += not ok
-    for label, ok in structural(step):
+    for label, ok in struct:
         print(f'  {"✓" if ok else "❌ BRUTEN"}  {label}')
         fails += not ok
-    n = len(STEP[step]) + len(structural(step))
-    print(f'\n  {n - fails}/{n} gröna.' + ('' if fails else '  ✅ inget tappat.'))
+    print(f'\n  {checkar - fails}/{checkar} gröna.' + ('' if fails else '  ✅ inget tappat.'))
     sys.exit(1 if fails else 0)
 
 main()

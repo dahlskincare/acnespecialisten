@@ -3,9 +3,9 @@
 
 ```
 ▣ MANIFEST
-KIND          REGEL: router · §-KARTA · §0/§0.1/§0.2 · invarianter        AKTIV: LÄGE-bannern
+KIND          REGEL: router · §-KARTA · §0–§0.4 · invarianter             AKTIV: LÄGE-bannern
 LADDA-NÄR     ALLTID, först. Denna fil säger vad du ska ladda härnäst.
-KANONISK-FÖR  §-KARTAN (resolvern) · LÄGE · prime-direktivet · en-i-taget (§0.1) · dispatch-snutten (§0.2) · Aldrig-listan · rollfördelningen · state-synk-principen · struktur-kartan
+KANONISK-FÖR  §-KARTAN (resolvern) · LÄGE · prime-direktivet · sessions-ritualen (§0.1) · en-i-taget (§0.3) · dispatch-snutten (§0.4) · Aldrig-listan · rollfördelningen · state-synk-principen · struktur-kartan
 PEKAR-PÅ      lynx-backlog = arbetet (§8/§9/§12) · lynx-rewrite = hantverket · lynx-models = mät · lynx-data = rådata + §14 · lynx-logg = historik
 ```
 
@@ -115,21 +115,39 @@ Sync-drift uppstår när samma sanning står på två ställen. Skriv den EN gå
 
 ---
 
-## 0.1 SESSIONS-RITUALEN — kör checkarna först och sist (ägarbeslut 8 juli)
+## 0.1 SESSIONS-RITUALEN — säg till, kolla, fråga; och fråga igen på slutet (ägarbeslut 8 juli)
 **Varför ritual och inte påminnelse:** den 8 juli committades två gånger med en röd check. Andra gången skedde det i det commit-meddelande som beskrev första gången. **En regel du ska komma ihåg är inte ett skydd.**
 
-### ▶ VID START — innan någon uppgift väljs
-1. `git status` (ren?) + läs **§12 i `lynx-backlog`** — är någon annan igång? (§0.2)
-2. **Kör `statuskoll.py` och `pekarkoll.py`** (`lynx-verktyg.php`). De är läsbara-bara och tar sekunder. **Fråga inte om lov** — ett tillfälle att hoppa över är ett tillfälle det hoppas över.
-3. **Rapportera tre rader till ägaren:** vad checkarna säger · vad LÄGE säger är nästa · vilka öppna beställningar som väntar på honom.
-4. **Först därefter: fråga vilken uppgift som ska köras.** Ägaren väljer; du föreslår.
+### ▶ VID START — fyra steg, i ordning (ägarbeslut 8 juli)
+1. **Säg att du hittat LYNX, och att kontrollen kommer först.** Nämner ägaren LYNX: slå upp filsetet och svara ungefär *"Jag hittade LYNX-uppgiften. Den börjar alltid med en kontroll — den tar ett par minuter. Sen frågar jag vad du vill göra."* Han ska veta **varför** det tar tid, innan det tar tid.
+2. **Kör kontrollen. Fråga inte om lov** — ett tillfälle att hoppa över är ett tillfälle det hoppas över.
+   - `git status` (rent?) + **§12 i `lynx-backlog`** — är någon annan igång? (§0.3)
+   - `statuskoll.py` + `pekarkoll.py` (`lynx-verktyg`). Bara läsande, ofarliga.
+3. **Rapportera tre rader:** vad checkarna säger · vad LÄGE säger är nästa · vilka öppna beställningar som väntar på ägaren.
+4. **Fråga vad han vill göra — och LISTA vad du kan göra.** Ägaren väljer; du föreslår. Han svarar antingen på listan **eller skickar en uppgift direkt**, ofta inklistrad LYNX-data. Kommer data: **§14 SPARA-RECEPT först, agera sen.**
 
-### ⛔ VID SLUT — GRINDEN, inte en vana
-**Committa aldrig `includes/lynx/` eller en sidfil med en röd check.** Kör allt, och läs exit-koden — inte utskriften:
+### ✅ VID SLUT — spara och pusha ALLTID; slutchecken är frivillig (ägarbeslut 8 juli)
+**Varje uppgift avslutas med commit + `git push` på `staging`.** Osparat arbete är den enda förlust som är oåterkallelig. Checkarna bevakar arbetsfilernas bokföring, och en bokföringsmiss kan lagas nästa session — en tappad ändring kan inte det. **Rör aldrig `main`.**
+
+**Fråga sedan ägaren om du ska köra slutchecken.** Säger han nej är inget förlorat: nästa sessions start-kontroll (steg 2) kör samma checkar *innan* något nytt arbete påbörjas. **Det är därför kontrollen ligger i STARTEN** — den ska garantera ett friskt utgångsläge, inte grinda commiten. Checkarna existerade inte alls före 8 juli och arbetet fungerade ändå; de är ett skyddsnät, inte en spärr.
+
+*(Undantag: sidarbete. Där gäller §13.E, §7.4b och §6:s fras-koll före commit — de skyddar ranking och juridik, inte bokföring.)*
+
+Kör allt, läs exit-koden — inte utskriften:
 ```
-python3 statuskoll.py && python3 pekarkoll.py --efter && for n in 5 6 7 8 9; do python3 noloss.py $n || break; done
+rc=0
+python3 statuskoll.py        || rc=1
+python3 pekarkoll.py --efter || rc=1
+for n in 5 6 7 8 9; do python3 noloss.py $n || rc=1; done
+echo "GRIND EXIT=$rc"
 ```
-Är något rött: **bevisa först att innehållet lever, peka sedan om nålen.** Sänk aldrig en tröskel för att göra en check grön. Vid sidarbete tillkommer §13.E (punkt-count, ej självgraderad) och §7.4b **före** du frågar ägaren "ändrar jag för mycket?".
+**Varför inte den gamla `&&`-kedjan med `|| break`:** den stod här till 8 juli och **returnerade alltid 0** — `break` lyckas, alltså lyckas for-loopen. `pekarkoll` saknade dessutom sin `sys.exit` helt. Av tre checkar kunde bara `statuskoll` fälla grinden — i den ritual som skrevs för att stoppa commits med röd check. Raden ovan kör **alla** checkar (du ser allt som är rött, inte bara det första) och summerar ärligt.
+
+**Skriver grinden ingen `GRIND EXIT=`-rad har den inte kört.** Tystnad är inte grönt: en tom `.py` — t.ex. en extraktion som missade sina BEGIN/END-markörer — avslutas också med 0. Extrahera med assertions (receptet överst i `lynx-verktyg`).
+
+**Om `.py`:** checkarna är skrivna i Python men bor som text i `lynx-verktyg.php`. De kopieras ut till en **temp-katalog utanför projektet**, körs där, och kastas. Ingen `.py` hamnar någonsin i repot — allt LYNX-arbete stannar i `includes/lynx/*.php` (ägarbeslut 8 juli: inga andra filtyper, inga git-hooks, ingen git-konfiguration). PHP-varianten är utesluten: ingen `php` finns i terminalen här.
+
+Är något rött: **bevisa först att innehållet lever, peka sedan om nålen.** Sänk aldrig ett kvorum eller en tröskel för att få en check grön. Går det inte att laga direkt — skriv upp det i §9 så nästa sessions start-kontroll ser det. Vid sidarbete tillkommer §13.E (punkt-count, ej självgraderad) och §7.4b **före** du frågar ägaren "ändrar jag för mycket?".
 
 ---
 

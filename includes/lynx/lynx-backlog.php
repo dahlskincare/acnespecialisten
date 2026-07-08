@@ -18,7 +18,7 @@ Vi kör **1 Claude i taget** (§0.1), så det här är ingen parallell-lås län
 
 | Sida | Status | Tid |
 |------|--------|-----|
-| *(tom — microneedling återrullad, spec uppdaterad; ny session tar om den)* | – | – |
+| *(tom — felklass-genomgången klar 8 juli, se §9 Bevaka + logg #27; microneedling återrullad, spec uppdaterad)* | – | – |
 
 ---
 
@@ -111,16 +111,23 @@ Kryssa här. Start/stopp-vänligt: status = §9 + §11 (logg) + §12 (claims). P
 Körs facit-drivet löpande — **ej grindat efter Fas 2-schemat** (fristående spår). Prioordning även i **§9.1**.
 
 **Bevaka — trådar öppnade från omkringliggande skärmbildsdata (§0-principen, 2 jul)**
-- [ ] **FELKLASS-GENOMGÅNG: "en verifiering som kan passera utan att verifiera" (ägar-beställd 8 juli — se över nästa omgång).** Sex incidenter samma dag, alla samma form. Fyra har nu en mekanisk check; två har det inte.
+- [x] **FELKLASS-GENOMGÅNGEN KLAR 8 juli: "en verifiering som kan passera utan att verifiera".** Elva incidenter, alla samma form. **Fem nya hittades vid genomgången — och två av dem gjorde grinden till en attrapp.** Alla bevisade med negativkontroll, inte kodläsning.
   | # | Incident | Fångades av | Check finns? |
   |---|---|---|---|
   | 1 | `str.replace("", x)` sprängde `lynx-rewrite` 53 kB → 55 MB (tomt regex-slice) | batteriet gick 0/22 | ✅ noloss + assertions i hjälparen |
   | 2 | Pekar-censusen mappade §8/§9/§12 tillbaka till START i FÖRE-läge → blast radius **0** | mänskligt eftertänkande | ✅ §8/§9/§12 mappar alltid till BACKLOG |
-  | 3 | Backtick i ociterad heredoc → shellet exekverade kodblocket, inbäddningen tömdes | tom fil syntes | ⚠️ ingen check; citera alltid heredocs |
-  | 4 | `lynx-verktyg` truncerad till 564 tecken (koden högg av sin egen ```-fence) | **ingenting — hittades av en slump** | ✅ statuskoll detektor 5 (ast.parse + fence-koll) |
+  | 3 | Backtick i ociterad heredoc → shellet exekverade kodblocket, inbäddningen tömdes | tom fil syntes | ✅ heredoc-konventionen, `lynx-verktyg` överst |
+  | 4 | `lynx-verktyg` truncerad till 564 tecken (koden högg av sin egen fence) | **ingenting — hittades av en slump** | ✅ statuskoll detektor 5 (ast.parse + fence-koll) |
   | 5 | Självgraderad §13.E-kvittens → ägaren godkände en text med §5-brott | §7.4b, i efterhand | ✅ §13.E skärpt + §7.4b före godkännande |
-  | 6 | Commit gjord med röd check — **två gånger 8 juli, andra gången i commit-meddelandet som beskrev den första** | jag själv, i efterhand | ⚠️ **grind i START §0.1** (kör allt, läs exit-koden). Kvar: en `pre-commit`-hook som tvingar fram den — ägarbeslut |
-  **Att gå igenom:** (a) #6 — en pre-commit-gate som vägrar committa `includes/lynx/` när någon check är röd? (b) #3 — konvention för heredocs/inbäddad kod. (c) Finns fler tysta verifieringar vi inte tänkt på? **Gemensam nämnare: checken kunde returnera grönt utan att ha mätt något.** Den regeln står i `lynx-verktyg` överst; det som saknas är att den tvingas fram.
+  | 6 | Commit gjord med röd check — **två gånger 8 juli, andra gången i commit-meddelandet som beskrev den första** | jag själv, i efterhand | ✅ grinden i §0.1 fungerar nu. **Hook: NEJ** (ägarbeslut, se nedan) |
+  | 7 | **`pekarkoll` saknade `sys.exit`** — skrev "1 MÅSTE LAGAS" och returnerade **0** | negativkontroll 8 juli | ✅ exit-kod + kvorum |
+  | 8 | **Grindens `\|\| break` returnerade alltid 0** (`break` lyckas → for-loopen lyckas) → `noloss` kunde aldrig fälla | negativkontroll 8 juli | ✅ ny grind-rad i §0.1, kör allt, summerar `rc` |
+  | 9 | statuskoll **detektor 4** grön på **noll granskade sidor** (byt `- [x]` → `* [x]`) | mutation 8 juli | ✅ kvorum ≥14 |
+  | 10 | statuskoll **detektor 5** grön på **noll granskade §** (byt kartans `→`) — och kvorum ensamt räckte inte: bryt EN kartrad, de övriga bär tröskeln | mutation 8 juli | ✅ *ingen rad får hoppas över tyst* + kvorum ≥25 |
+  | 11 | En tom `.py` avslutas med **exit 0** → missad extraktion = helgrön grind som aldrig körde | resonemang 8 juli | ✅ extraktion med assertions; `GRIND EXIT=`-raden måste synas |
+  **Svaren på de tre frågorna:** **(a) pre-commit-hook: NEJ** — ägarbeslut 8 juli, allt LYNX-arbete stannar i `includes/lynx/*.php`; ingen ny filtyp, ingen git-konfiguration. Grinden är ett skyddsnät, inte en spärr: **spara och pusha alltid**, kontrollen ligger i STARTEN (§0.1). **(b) heredoc-konventionen** skriven (`lynx-verktyg` överst): citera alltid avgränsaren. **(c) Ja — fem till (#7–#11).**
+  **Boten, permanentad i `lynx-verktyg`:** *grönt är ett mätt påstående, inte frånvaron av en klagan.* Varje detektor redovisar antalet granskade enheter och går röd på noll; och **varje detektor måste bevisligen kunna bli röd** — verifierat med 14 mutationer, 14/14 fångade. Mutationstestet avslöjade en halvfärdig fix i sig självt (#10).
+  **Kvarstår (öppet):** ingen check bevakar **pekare inom en fil** — STARTs eget manifest kallade en-i-taget för §0.1 och dispatchen för §0.2 (båda förskjutna två steg, lagade 8 juli). Och `noloss` batteri 9 mäter nålen `micronnedling` (dubbel-n) — **en typo, inte block-planen**; den är grön för att typon finns i `lynx-examples`. Peka inte om nålen utan att först bevisa att block-planen lever.
 - [ ] **⚖️ §5-BROTT LIVE PÅ PRODUKTION: ordet "smärtfritt" i 12 filer (upptäckt 8 juli av §7.4b-granskaren).** §5:s juridikblock förbjuder ordagrant *"Inga 'helt riskfritt', 'smärtfritt', 'garanterat resultat'"* och *"Aldrig riskfritt-intryck — utelämnad riskinformation = vilseledande marknadsföring (KO-praxis)"*. Regeringsuppdraget juni 2026 = skärpning på väg. **Filer:** `infuzion` · `permanent-harborttagning` · `dermapen` · `hudflikar` · `ytliga-blodkarl` · `microneedling` (brödtext rad 64 **+ meta rad 7 `✓Smärtfritt`**) · `rosaceabehandling` · `varumarken/index` · `prx-t33` · `varumarken/splendor-x` · `varumarken/soprano-ice` · `hudbehandlingar/skinbooster`. **ÄGARBESLUT:** eget juridik-pass (som språkfel-svepet 2 juli, egen commit) eller per sida vid rewrite? Meta-descriptions kräver separat commit (§13.H). **Ersättning enligt §4.2:** riskinfo är copy-vänlig — säg vad som faktiskt händer ("de flesta beskriver behandlingen som lätt stickande; huden är röd i ett till två dygn") i stället för att påstå frånvaro av smärta.
 - [ ] **BUGG: `microneedling.php`-kortet "Microneedling mot Pigmentfläckar" visar fel bild** (upptäckt av §3:s copy-paste-rest-koll, 8 juli). `image_small/large` pekar på `mogen-hy.webp`, alt/title säger *"Microneedling för Pigmentfläckar"*. Samma bildfil används av kortet direkt ovanför (*Rynkor & Fina Linjer*). Rätt filer finns: `bilder/hudproblem/{102x102,200x200}/pigmentflackar.webp`. Siddata (§13.K) → säkert att rätta. Ta det när microneedling skrivs om.
 - [ ] ***AI STYLE-TESTET — det viktigaste öppna mätvärdet (öppnat 8 juli).** `rhinophyma-rosacea` är den ENDA sidan med en färsk FÖRE-baseline på nya skalan (SCORE 74 · **AI STYLE 70**) tagen innan vår text gick live. Overall är 74 både före och efter — men **AI STYLE ingår inte i Overall** (lynx-score slutsats D), så Overall säger ingenting. **Beställ SCORE-popupen.** Rör sig AI STYLE är de-AI-hävstången bevisad; står den stilla är §1.2:s AI STYLE-antagande ren extrapolation.
