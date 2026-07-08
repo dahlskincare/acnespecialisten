@@ -6,7 +6,7 @@
 KIND          AKTIV — ändras varje session (status, TODO, claims). Re-läs ALLTID; lita aldrig på minnet av den.
 LADDA-NÄR     "vad är gjort / vad är nästa" · innan du börjar på en sida (claima i §12) · när en ny TODO öppnas
 KANONISK-FÖR  §12 claims · §8 sidkarta · §8.1 gap-beslut · §9 TODO + Bevaka · §9.0 fil-optimeringspasset · §9.1 prioriterad backlog
-PEKAR-PÅ      lynx-START = router/LÄGE/invarianter/§-KARTA · lynx-rewrite = hantverket · lynx-models = mät · lynx-logg = historik · lynx-data = rådata
+PEKAR-PÅ      lynx-lage = STATUS (LÄGE + §11.1) · lynx-START = router/invarianter/§-KARTA · lynx-rewrite = hantverket · lynx-models = modellen · lynx-logg = historik · lynx-data = rådata
 ```
 
 > **Utbruten ur `lynx-START.php` 8 juli (§9.0 steg 7)** så START kan vara en tunn dispatcher. START bär läget och invarianterna; denna fil bär arbetet. **Öppnar du en ny tråd — skriv den HÄR, aldrig bara i loggen eller i en konversation** (POST-MALLENS ram 4, `lynx-logg` §11).
@@ -228,17 +228,8 @@ Skillnaden mot de andra listorna: **§9.0/Fas-listorna = planerat arbete** · **
 **Utfallstestet (§0.1):** rör sessionens `git diff --stat` bara `includes/lynx/` har uppdraget inte flyttat sig. Säg det rakt ut i stället för att låta gröna commits se ut som framsteg.
 
 - [ ] §9.0:s **två kvarvarande** ägarbeslut: `lynx-score` HISTORIK-prosan · filnamnskonventionen. *(Stubben och underlagsfilen raderade 8 juli.)*
-- [ ] **⭐ EN ENDA STATUSCELL — ägar-idé 8 juli, det starkaste förslaget i lådan.** Söm nr 1 är att status bor på tre kanoniska ställen **plus** en cache (LÄGE-bannern). Det var 6 juli-driften, och `statuskoll` bevisades oförmögen att vakta den (§9, V5: samma faktum sägs på fem sätt, en nål känner igen ett). **Boten är att ta bort dubbletten, inte att bevaka den.**
-
-  | Fil | Bär då |
-  |---|---|
-  | `lynx-START` | router · §-KARTA · invarianter. **Pekar. Ingen status alls.** |
-  | **`lynx-lage`** (ny) | **enda statuscellen:** LÄGE + §11.1:s statuskolumner (live? mätt?) + backloggens klar/i-kö-markörer |
-  | `lynx-backlog` | ren TODO + §9.2 fyndlådan + §9.3 denna låda |
-  | `lynx-models` | modellen + FÖRE-baselines + prediktioner (mätdata, inte status) |
-
-  **Lägg den INTE i START:** per-sida-status är 17 rader, och START skulle svälla tillbaka — "för långa sektioner skummas" var vad som startade hela flytten. START är dessutom `KIND: REGEL` medan status är `AKTIV`; STARTs manifest bär redan den dubbelnaturen som skarv. *(Samma idé står i det raderade underlaget: "en logg / en aktiv fil / en historik". Den överlevde filen.)*
-  **Kostnad:** ett pass över fyra filer. **Vinst:** ingen cache, inget att synka, sömmen försvinner i stället för att bevakas.
+- [x] **✅ EN ENDA STATUSCELL — GENOMFÖRD 8 juli (ägar-idé, ägarbeslut).** `lynx-lage.php` skapad: LÄGE-bannern (ur START) + §11.1 (ur `lynx-models`), båda verbatim. `lynx-START` och `lynx-models` är nu rena `KIND: REGEL`. Status bor på ett ställe.
+  **Kvar av samma tanke — eget litet pass:** `lynx-backlog`, `lynx-data` och `lynx-examples` bär varsin återgivning av MÄTT/OMÄTT. Ta bort dem och peka på `lynx-lage`. Först då slipper man uppdatera flera filer vid ett statusbyte. *(Rå LYNX-data per (sida × vy) i `lynx-data` är INTE en dubblett — det är mätkorpusen. Rör den inte.)*
 
 - [ ] Produktifieringen: separera SIGNAL / HANTVERK / SAJTPROFIL, `SCOPE`-tagg bredvid `KIND`.
 - [ ] Datum-svepet: gamla poster skriver "2 jul", konventionen säger "2 juli" (§0.2). Retroaktivt, kosmetiskt.

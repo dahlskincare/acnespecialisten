@@ -1,25 +1,26 @@
 <?php exit; /* intern LYNX-arbetsfil – ej webb-serverad, läs i editor/git */ ?>
-# LYNX START — router, läge & invarianter (LÄS DENNA FÖRST, alltid)
+# LYNX START — router & invarianter (LÄS DENNA FÖRST, alltid)
 
 ```
 ▣ MANIFEST
-KIND          REGEL: router · §-KARTA · §0–§0.4 · invarianter             AKTIV: LÄGE-bannern
+KIND          REGEL — stabil. Router · §-KARTA · §0–§0.4 · invarianter. **Bär ingen status; den bor i `lynx-lage`.**
 LADDA-NÄR     ALLTID, först. Denna fil säger vad du ska ladda härnäst.
-KANONISK-FÖR  §-KARTAN (resolvern) · LÄGE · prime-direktivet · sessions-ritualen (§0.1) · en-i-taget (§0.3) · dispatch-snutten (§0.4) · Aldrig-listan · rollfördelningen · state-synk-principen · struktur-kartan
-PEKAR-PÅ      lynx-backlog = arbetet (§8/§9/§12) · lynx-rewrite = hantverket · lynx-models = mät · lynx-data = rådata + §14 · lynx-logg = historik
+KANONISK-FÖR  §-KARTAN (resolvern) · prime-direktivet · sessions-ritualen (§0.1) · en-i-taget (§0.3) · dispatch-snutten (§0.4) · Aldrig-listan · rollfördelningen · state-synk-principen · struktur-kartan
+PEKAR-PÅ      lynx-lage = VAR VI STÅR (LÄGE + §11.1) · lynx-backlog = TODO (§8/§9/§12) · lynx-rewrite = hantverket · lynx-models = modellen · lynx-data = rådata + §14 · lynx-logg = historik
 ```
 
 ## ▶ ROUTER — vad ska du göra? (läs bara det du behöver)
 | Uppgift | Läs |
 |---|---|
+| **Var står vi? Status på en sida?** | **`lynx-lage.php`** — enda statuscellen (LÄGE + §11.1) |
 | **Skriva om en sida** | denna fil (läge+invarianter) → `lynx-backlog.php` (claima i §12, läs sidans rad) → `lynx-rewrite.php` (formel/husröst/ramar/SEO/checklista/process/§13) → sidans facit i `lynx-examples.php` |
 | **Analysera mätdata / förfina modeller** | denna fil → `lynx-models.php` (SCORE/AIQ/mät-loop/bevakning) → rådata i `lynx-score.php` · `lynx-examples.php` · `lynx-questions.php` |
 | **Spara inkommen LYNX-data** | **§14 SPARA-RECEPT** överst i `lynx-data.php` (save-first) → rätt kolumnfil |
-| **Kolla vad som är gjort / nästa** | `lynx-backlog.php` (§8 sidkarta · §9 TODO · §12 claims) + `lynx-logg.php` (historik) |
+| **Kolla vad som är gjort / vad som är öppet** | `lynx-lage.php` (status) + `lynx-backlog.php` (§8 sidkarta · §9 TODO · §12 claims) |
 | **Slå upp ett beslut/varför** | `lynx-logg.php` (arbetslogg) |
 
 
-**Filkarta (hela LYNX-setet):** `lynx-START` (denna: router/läge/invarianter/§-KARTA) · `lynx-backlog` (sidkarta/TODO/claims) · `lynx-rewrite` (omskrivnings-hantverk) · `lynx-models` (modeller/mät) · `lynx-logg` (historik) · `lynx-log-arkiv` (gammal historik) · RÅDATA: `lynx-data` (Pages+kolumndefs) · `lynx-score` (SCORE) · `lynx-examples` (AI COPY-facit) · `lynx-questions` (AIQ) · `lynx-gaps` (gaps).
+**Filkarta (hela LYNX-setet):** `lynx-START` (denna: router/invarianter/§-KARTA) · **`lynx-lage` (LÄGE + §11.1 — ENDA statuscellen)** · `lynx-backlog` (sidkarta/TODO/claims) · `lynx-rewrite` (omskrivnings-hantverk) · `lynx-models` (modeller/mät) · `lynx-logg` (historik) · `lynx-log-arkiv` (gammal historik) · RÅDATA: `lynx-data` (Pages+kolumndefs) · `lynx-score` (SCORE) · `lynx-examples` (AI COPY-facit) · `lynx-questions` (AIQ) · `lynx-gaps` (gaps).
 ---
 
 ## ▶ START HÄR — för en ny Claude utan kontext
@@ -32,19 +33,6 @@ Säger användaren *"vi fortsätter med LYNX-uppgifterna"* eller klistrar in LYN
 **📥 Facit-flöde (så mätdata kommer in — LYNX saknar export):** ägaren klistrar in LYNX-facit som skärmbild eller text. **Avgör alltid FÖRST vad syftet är** — han säger inte alltid rakt ut. **(a) Per sida** = riktat facit → spara baseline, kör §7 på sidan. **(b) Bunt** = många sidors kolumndata → diffa mot AKTUELLT LÄGE i `lynx-data`.
 **Oavsett läge: SPARA FÖRST, agera sen.** Hela proceduren — rätt kolumnfil, NYTT/ÄNDRAT-klassningen, skärmbilds-principen — står i **§14 SPARA-RECEPT (`lynx-data.php`, kanonisk)**. Agera aldrig på facit utan att först spara: det är vår enda mätkälla.
 
-> **🟢 LÄGE 2026-07-08** *(ny session: läs denna banner → routern överst → rätt fil för din uppgift; arbetet i `lynx-backlog.php`)*
-> - **Mål:** LYNX grönt **utan att skada ranking/trafik**. **RAMEN (verifierad 6 jul):** spaken är SUBSTANS-kvalitet; AI COPY-flaggan är PROXY, Google straffar ej AI-text (lynx-rewrite §1). **SCORE ska INTE jagas** — tak ~75-77 på våra sidtyper, EEAT-badge låst 60 (lynx-score/models).
-> - **🎯 Mätt: 6/6 — varje prediktion har träffat.** acne-ansikte 🔴→🔵 · behandla-pigmentflackar 🔴→🔵 (tvåstegs-hopp) · om-oss 🔵 (badge bekräftad 8 juli) · **mogen-hy · solskadad-hy · rhinophyma-rosacea alla 🟠→🔵 den 8 juli.** §1.1 nyckel 1 kausalbelagd. Kvar: pigmentflackar (omanalys) + **AI STYLE-testet på rhinophyma — beställ SCORE-popupen.** *(Cache — kanonisk cell: `lynx-models` §11.1.)*
-> - **✅ ALLA flagg-sidor LIVE PÅ MAIN.** Wave 2 (6 Fas 3 + pigmentflackar + småfixar: milier-pris, Google Meet, d3ce9162) **pushad till main 6 jul (ägarbeslut) → VERIFIERAD LIVE PÅ PRODUKTION**: alla 20 ändrade sidor HTTP 200, 0 PHP-fel, nytt innehåll bekräftat (logg #13 produktions-verifiering; staging-kontrollen arkiverad, `lynx-log-arkiv` 6 juli #12). §10.0 GSC-gaten passerad på ägarbeslut. **Kvar på dessa = passiv mät-uppföljning (LYNX-refresh + GSC), ej blockerande.**
-> - **SEO-vakt §10.0 = SENARE process (ägarbeslut 6 jul):** GSC + Ahrefs görs som eget pass senare (LYNX-prioritet nu pga refresh-fördröjning). Gaten blockerar inte längre; main-push är ägarens beslut. KW-vakt löpande via LYNX-data kvarstår.
-> - **pigmentflackar + rhinophyma re-scannade 7 jul (logg #14):** båda "Last update 06 Jul"-vyerna läste PRE-WAVE-2-texten (crawl daterad 2 jul 16:09–6 jul 16:08 via git) — 18/18 + 16/16 block identiska med gamla faciten (determinism #3+#4; typo-fixar flyttar inte betyg) → **V2-rewriterna fortfarande OMÄTTA; EFTER-facit väntar nästa refresh (crawl efter 6 jul 16:08).** SCORE: pigment 73 = medel(84,60) ✓; AI STYLE-FÖRE-baselines satta (pigment 55, rhino 70).
-> - **✅ FIL-OPTIMERINGSPASSET §9.0 SLUTFÖRT 8 juli (steg 1–10 + slutgranskning).** Arkitekturen är ratificerad och permanentad i §0: lagen **"ett fakta = en cell, celler pekar — återger aldrig"**, KIND-taggar och `▣ MANIFEST` på alla filer. **Stubben och underlagsfilen raderade.** Kvar, parkerat i §9.3: `lynx-score` HISTORIK-prosan · filnamnskonventionen. **Statusdisciplin: kanonisk cell per statusklass, LÄGE = cache; synka för hand (§0.2).** *(Cachen är den kända sömmen — ägar-idén om EN statuscell ligger i §9.3.)*
-> - **✅ CHECK-REVISIONEN STÄNGD 8 juli — löst genom radering (ägarbeslut).** `lynx-verktyg.php` med sina tre checkar är borta. De vaktade §9.0:s omstrukturering, som är gjord; sju mutationstestade fynd visade att de rapporterade grönt på ett filset där 97 % av innehållet var borta. **Bygg inga nya utan att läsa §9 först.** Regeln som blev kvar: *vaktar verktyget ett pass som är klart är det skuld, inte skydd* (§0.1).
-> - **Kön är ÖPPEN, inte ordnad (ägarbeslut 8 juli).** §9 listar vad som går att göra; **ägaren väljer utifrån situationen**, du föreslår. Skriv aldrig in ett "nästa" åt honom — det blir ett imperativ som nästa session lyder utan att pröva. *(Öppet just nu: microneedling Fas 3b — ÅTERRULLAD 2×, läs REWRITE-SPEC:en i `lynx-examples` först · §5-brottet "smärtfritt" i 12 filer · övriga Fas 3b · Tier 1-SLIGHT.)*
-> - **Öppna ägar-beställningar:** om-oss badge-rad · acne-ansikte FAQ-facitrest · AI Copy-datum för de 3 kvarvarande SIGNIFICANT · (GSC/Ahrefs = eget senare pass) · boilerplate-sweep "Akne Specialiserade Hudterapeuter" (27 filer — timing-beslut).
-> - **Varningar/regler:** 1 Claude i taget (§0.1) · save-first i rätt kolumnfil (filkarta i `lynx-data`) · ny LYNX-skala → färsk-mot-färsk · **attribution kräver observerad delta, ej deploy-timing** · **LYNX uppdaterar per (sida × vy), aldrig i sajt-svep — datera varje cell, EFTER-data droppar in löpande** (lynx-models §11.1) · Fas 3-facit REDAN sparat — be inte igen.
->
-> *(Banner-regel 6 jul: LÄGE hålls som punktlista, max ~8 rader. Nya detaljer går till §8/§9/§11/§11.1 — här uppdateras bara STATUSBYTEN. Prosaväggen som stod här förut leder till skumläsning; `lynx-log-arkiv` 6 juli #6.)*
 
 - **Uppdrag (pågår tills allt är klart):** skriv om sidor som LYNX flaggar för AI COPY (SIGNIFICANT/MODERATE) så varje textblock når **minst SLIGHT** (HUMAN där blocket naturligt tillåter, §1.1) och läser som människa, **utan att tappa sökord/ranking**. **Slutmål: LYNX helt grönt/korrekt** på alla signaler — AI COPY först → FAQPage-schema (AI QUESTIONS) → `$rich_product` (PAGE TYPE/P. PRICE) → gap-punkter → sedan löpande. **Status & nästa sida:** §9 (TODO), §11 (logg/baseline), §12 (claims).
 - **Trigger per sida: hämta ALLTID sidans NUVARANDE LYNX per-block-status FÖRST, innan du redigerar** — inte "lär modellen en gång och kör resten på egen bedömning"; dra in LYNX för varje sida. Följ §7: spara baseline (§11) → **prioritera 🔴/🟠/🟥 (skriv om dem), men se ÄVEN över 🔵/🟢 med LÄTT HAND** (bara tydliga fixar: typo, grammatik, tappat sökord, uppenbar tell; INGEN stilistisk över-omskrivning av OK-block = v3-felet, §1.3) enligt §2 + §4 + §5 → kör §3 + §6 + §13 → logga (§11) → committa + pusha **`staging`**. *(Saknas facit: gissa med §1.3-modellen (±1-band, ej facit), lämna hellre vid SLIGHT↔MODERATE-tvivel.)*
@@ -56,7 +44,7 @@ Säger användaren *"vi fortsätter med LYNX-uppgifterna"* eller klistrar in LYN
 ---
 
 ### §-KARTA — RESOLVERN (KANONISK CELL)
-**Var bor vilket §?** Detta block är den enda källan. Pekar-censusen (`§9.0`) **parsar det** i stället för att hålla en egen kopia — en resolver som dubbleras driftar, och då bevakar verktyget en karta som inte längre gäller. Uppdatera HÄR när ett § flyttar, ingen annanstans.
+**Var bor vilket §?** Detta block är den enda källan. Uppdatera HÄR när ett § flyttar, ingen annanstans. *(Kartan är exakt härledbar ur filernas egna rubriker — mätt 8 juli, 33/33. Skriv ändå aldrig en detektor som vaktar den: det vore att vakta en dubblett, se §9.)*
 
 ```
 §0, §0.1, §0.2, §0.3, §0.4      → lynx-START     arkitektur · SESSIONS-RITUALEN · användning · en-i-taget · dispatch
@@ -64,7 +52,8 @@ Säger användaren *"vi fortsätter med LYNX-uppgifterna"* eller klistrar in LYN
 §8, §8.1, §9, §9.0, §9.1, §9.2, §9.3, §12 → lynx-backlog   sidkarta · gap-beslut · TODO · prio · FYNDLÅDAN · PARKERAT-META · claims
 §1, §1.1, §1.3, §1.4            → lynx-rewrite   bedömningsmodellen
 §2, §3, §4, §4.1, §4.2, §5, §6, §7, §13 → lynx-rewrite   formel · checklista · husröst · ramar/juridik · SEO-skydd · process · skyddsregler
-§1.2, §1.5, §10, §10.0, §11.1   → lynx-models    SCORE · AIQ · mät-loop · SEO-vakt · bevakning
+§1.2, §1.5, §10, §10.0          → lynx-models    SCORE · AIQ · mät-loop · SEO-vakt
+§11.1                           → lynx-lage      bevakningslistan (per-sida STATUS)
 §11                             → lynx-logg      arbetslogg (HISTORIK)
 ```
 *(Splittrad 2026-07-06. HISTORIK-filer får inte uppdateras retroaktivt — deras §-referenser avser strukturen vid postens datum; se header-raden i respektive arkivfil.)*
@@ -81,13 +70,13 @@ Sync-drift uppstår när samma sanning står på två ställen. Skriv den EN gå
 | KIND | Betyder | Filer |
 |---|---|---|
 | **REGEL** | Stabil. Ändras bara när data motsäger den. Behöver inte re-läsas varje session. | `lynx-rewrite` · `lynx-models` · `lynx-score` (SLUTLÄGE) |
-| **AKTIV** | Levande. Re-läs alltid; lita aldrig på minnet av den. | `lynx-backlog` · `lynx-data` · `lynx-examples` · `lynx-gaps` · `lynx-questions` · LÄGE-bannern |
+| **AKTIV** | Levande. Re-läs alltid; lita aldrig på minnet av den. | **`lynx-lage`** · `lynx-backlog` · `lynx-data` · `lynx-examples` · `lynx-gaps` · `lynx-questions` |
 | **HISTORIK** | Append-only. **Uppdateras aldrig retroaktivt** — dess §-referenser avser strukturen vid postens datum. Får inte styra beslut. | `lynx-logg` · `lynx-log-arkiv` · `lynx-data-arkiv` · `lynx-examples-arkiv` |
 
 **Ladda bara det uppgiftstypen kräver** (routern överst är den korta versionen):
 | Uppgift | Celler |
 |---|---|
-| Orientera / "var är vi" | START |
+| Orientera / "var är vi" | **`lynx-lage`** |
 | Vad är gjort / vad är nästa | START + `lynx-backlog` |
 | LYNX-dump kommer in | **§14 SPARA-RECEPT** (`lynx-data`) → rätt kolumnfil → `lynx-logg` (POST-MALLEN) |
 | SCORE-/AIQ-fråga | `lynx-models` (+ `lynx-score` för härledningen) |
@@ -99,12 +88,14 @@ Sync-drift uppstår när samma sanning står på två ställen. Skriv den EN gå
 
 | Statusklass | KANONISK CELL |
 |---|---|
-| Per-sida mätstatus: MÄTT/OMÄTT · FÖRE-baseline · prediktion | **`lynx-models` §11.1** |
-| Är sidan LIVE på main? | **`lynx-models` §11.1**, kolumnen "Main-push" |
+| Per-sida mätstatus: MÄTT/OMÄTT · FÖRE-baseline · prediktion | **`lynx-lage`** §11.1 |
+| Är sidan LIVE på main? | **`lynx-lage`** §11.1, kolumnen "Main-push" |
 | Senaste LYNX-värde per sida × vy | **`lynx-data`** AKTUELLT LÄGE |
 | Arbetsstatus: klar · i kö · öppna rester | **`lynx-backlog`** §8/§9 |
 
-**LÄGE-bannern och backloggens sammanfattningar är CACHE.** De får återge status, för en människa vill se läget utan att öppna fyra filer. **Men vid konflikt vinner cellen, aldrig cachen.** Ser du en konflikt: rätta cachen, och lita aldrig på att du var den enda som läste fel.
+**Från 8 juli bor status i EN fil: `lynx-lage`.** LÄGE-bannern och §11.1-tabellen ligger där tillsammans, så en människa ser läget utan att öppna fyra filer — **och det finns inget att synka mellan filer.** Det var ägarens beslut, och det stänger den sista sömmen: den 6 juli sa sex sidor "väntar main-push" medan bannern sa "live", i två olika filer. Nu kan de inte göra det.
+
+**Kvar att städa (§9.3):** `lynx-backlog`, `lynx-data` och `lynx-examples` bär fortfarande varsin återgivning av MÄTT/OMÄTT. **Ser du en: ta bort den och peka på `lynx-lage`.** Vid konflikt vinner cellen, aldrig återgivningen.
 
 **Ändrar du en status: greppa filsetet efter den GAMLA formuleringen och synka alla förekomster** (§0.2 state-synk-principen). Det görs för hand. Ett skript försökte göra det 8 juli och kunde bara känna igen tre exakta strängar — *"väntar på main-push"* med ett inskjutet ord passerade tyst (§9, V5). **Ögat som letar efter meningen slår en nål som letar efter en sträng.**
 
@@ -120,7 +111,7 @@ Sync-drift uppstår när samma sanning står på två ställen. Skriv den EN gå
 
 ### ▶ VID START — tre steg
 1. **Kolla att du är ensam.** `git status` (rent?) + **§12 i `lynx-backlog`** (är någon annan igång?). Ser du osparat jobb du inte känner igen → stanna och fråga ägaren (§0.3).
-2. **Läs LÄGE-bannern överst** och §9 (TODO). Där står vad som är **öppet** — inte vad som är bestämt.
+2. **Läs `lynx-lage.php`** (var vi står) och §9 (TODO). Där står vad som är **öppet** — inte vad som är bestämt.
 3. **Fråga vad han vill göra — och LISTA BARA SIDARBETE.** Ägaren väljer; du föreslår. Han svarar antingen på listan **eller skickar en uppgift direkt**, ofta inklistrad LYNX-data. Kommer data: **§14 SPARA-RECEPT först, agera sen.**
 
 > ### 🚧 SPÄRREN — varför den ser ut så här (ägarbeslut 8 juli)

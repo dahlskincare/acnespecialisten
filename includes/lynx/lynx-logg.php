@@ -44,6 +44,15 @@ Fulltext flyttas till **`includes/lynx/lynx-log-arkiv.php`**; kvar här blir en 
 | behandla-pigmentflackar.php | 14 | – | – | –/– | SIGNIFICANT | GOOD | – | 16 |
 | hudproblem/hudforandringar/ | 10 | – | 17 | 3/2 | SIGNIFICANT | OK | – | 8 |
 
+### 2026-07-08 #35 — EN ENDA STATUSCELL: `lynx-lage.php` skapad (ägar-idé). Sista sömmen stängd.
+**In:** Ägarbeslut: gör klart setupen. Premissen mättes först — och den höll.
+**Fynd:**
+- **Bara EN äkta dubblett fanns.** Arbetsstatus bor bara i backloggen; rå LYNX-data bara i `lynx-data`. Men **mätstatus (MÄTT/OMÄTT + live-på-main) fanns i fyra exemplar**: §11.1, backloggen, `lynx-data`, `lynx-examples` — plus LÄGE-bannern. [STÄNGD]
+- **§11.1 satt i fel sorts fil.** `lynx-models` deklarerade själv `KIND REGEL: §1.2 … AKTIV: §11.1` — samma dubbelnatur som START hade. En stabil regelfil bar det som ändras varje session. [STÄNGD]
+- **Klipp och klistra, ingen omskrivning.** LÄGE-bannern (ur START) + §11.1 (ur models) verbatim in i `lynx-lage.php`. Verifierat: 18 tabellrader oförändrade, alla sju FÖRE-baselines med, §-KARTAN 33/33. `lynx-START` och `lynx-models` är nu rena `KIND: REGEL`. [STÄNGD]
+- **Kvar av samma tanke, eget litet pass:** de tre återgivningarna i backlog/data/examples. Först när de pekar i stället för att återge slipper man uppdatera flera filer vid ett statusbyte. [ÖPPEN → §9.3]
+**Åtgärd:** `lynx-lage.php` skapad. `lynx-START` (manifest · router · filkarta · §-KARTA · KIND-tabell · statusdisciplin · §0.1 steg 2), `lynx-models` + `lynx-backlog` (manifest), `lynx-backlog` §9.3. **Filsetet: 14 filer.** Setupen: en dispatcher, en statusfil, en TODO-fil, hantverket, modellen, rådatan, historiken.
+
 ### 2026-07-08 #34 — §9.0 SLUTFÖRT: stubben och underlagsfilen raderade. Filsetet är nere på 13 filer, alla med syfte.
 **In:** Ägarbeslut: gör klart flytten. De två sista §9.0-filerna — `lynx-copy-playbook.php` (stub, `KIND: DÖR`) och `lynx-optimering-underlag.php` (1 338 rader, `KIND: TEMP`, "radera när passet är klart").
 **Fynd:**
