@@ -44,6 +44,16 @@ Fulltext flyttas till **`includes/lynx/lynx-log-arkiv.php`**; kvar här blir en 
 | behandla-pigmentflackar.php | 14 | – | – | –/– | SIGNIFICANT | GOOD | – | 16 |
 | hudproblem/hudforandringar/ | 10 | – | 17 | 3/2 | SIGNIFICANT | OK | – | 8 |
 
+### 2026-07-08 #28 — §9.0-dubbletten städad. Och: fyra detektorer i #27:s egna checkar kan inte bli röda.
+**In:** Start-ritualen (§0.1) körd — git rent, §12 tom, checkarna gröna. Ägarvald uppgift: städa §9.0-dubbletten + slutgranska §9.0.
+**Fynd:**
+- §9.0 hade steg **7 och 8 dubblerade** ([x] KLAR + kvarlämnad [ ] med ursprungsspecen), ordning 1,2,3,4,5,**7,8,6**. Specarna infällda verbatim som i steg 5/6; no-loss 18/18 fragment + 7/7 rubrikbitar, negativkontrollerad. En rationale ("störst läsvinst") hade faktiskt tappats — återställd. [STÄNGD]
+- **`pekarkoll` BLAST RADIUS är död.** Sentinel-strängen `'FLYTTAR'` skrevs bort av steg 7 → **detektorn dog i den commit vars korrekthet den fanns för att bevisa.** Historiken bär 147 §8/§9/§12-pekare; den rapporterar 0. Bevaka #2:s fix regredierad samma dag den skrevs. [ÖPPEN → §9-rad]
+- **`statuskoll` DÖDA FRASER är vilande** — vakten `all(s['live'])` är falsk (15 av 16 live) → detektorn hoppas över och skriver ändå `✓ inga`. Har aldrig kört på ett filset där den behövdes. [ÖPPEN → §9-rad]
+- Bara **3 av 6** `pekarkoll`-detektorer når `sys.exit` (samma form som incident #7, som ansågs stängd). Utan `--efter` är den röd på ett orört filset — grinden passerar bara för att §0.1 råkar skicka flaggan. [ÖPPEN → §9-rad]
+- **#27:s bot mätte 14 fall, inte varje detektor.** "14/14 fångade" var ett sant påstående om 14 saker som lästes som ett påstående om alla — **täckningen redovisades aldrig, bara träffarna.** Diagnos som förklarar alla fyra: nålarna *återger* fakta i stället för att *peka* → §0:s lag bruten, en våning ner, i verktygen. [ÖPPEN → §9-rad]
+**Åtgärd:** `lynx-backlog` (CHECK-REVISIONEN först i §9 · Bevaka #2 + boten korrigerade · §12), `lynx-START` (LÄGE + §0.1 steg 3:s förbehåll). Nästa: mutationstesta de sex ohypotestade påståendena **en i taget**, sen §9.0:s fyra raderingsbeslut. **Process-lärdom (ägar-påpekande):** uppgiften var 30 min; jag skickade 21 agenter i stället för att skriva §9-raden. §9.0:s *"ETT steg i taget · INGA agent-utskick"* gäller — ett fynd är inte ett uppdrag.
+
 ### 2026-07-08 #27 — FELKLASS-GENOMGÅNGEN: fem nya tysta gröna. Grinden från #26 kunde bara fällas av en av sina tre checkar.
 **In:** ägarvald uppgift (§0.1 steg 4). Alla fynd bevisade med negativkontroll mot muterade kopior i temp-katalog — aldrig i repot.
 **Fynd:**
