@@ -44,6 +44,15 @@ Fulltext flyttas till **`includes/lynx/lynx-log-archive.php`**; kvar här blir e
 | behandla-pigmentflackar.php | 14 | – | – | –/– | SIGNIFICANT | GOOD | – | 16 |
 | hudproblem/hudforandringar/ | 10 | – | 17 | 3/2 | SIGNIFICANT | OK | – | 8 |
 
+### 2026-07-08 #42 — Följden av mätregel 6: vår egen "SCORE-determinism" var aldrig belagd, och testet står på fel sida.
+**In:** Ingen ny data. Genomgång av vad #41 medför för tidigare slutsatser (ägarfråga: *"har vi lärt oss något nytt som bör noteras?"*).
+**Fynd:**
+- **RÄTTELSE: "SCORE-determinism på oförändrad crawl ✓" (7 juli-sektionen) följer inte.** En cachad analys visad tre gånger är inte tre analyser. Vi har aldrig sett SCORE köra om samma text. *(AI COPY-determinismen ÄR belagd — determinism #5 var en ny crawl.)* [RATIFICERAD → `lynx-score` slutsats F]
+- **Fällan: en sida vid SCORE-taket kan aldrig bevisas färsk.** Diskriminatorn kräver att en delsiffra rör sig; rhinophyma har inget som kan röra sig (Language 95, Readability 90, EEAT klampad). **Ju bättre sidan är, desto mindre mätbar.** [RATIFICERAD → `lynx-score` slutsats G]
+- **⇒ AI STYLE-testet hör hemma på en sida med GOLV.** `microneedling` skrivs om härnäst och saknar popup-nedbrytning. **Hela popupen FÖRE main-push = färskhetsdetektorn.** Kan inte tas i efterhand. [ÖPPEN → §9 ägar-beställning]
+- **Prövad och förkastad:** att AI STYLE ändå ingår i Overall med ~3 % vikt (väckt av att medel(CQ,EEAT) systematiskt undskattar +1…+1,5). Viktad formel träffar fyra sidor exakt men **faller på hudflikar**, och vikterna anpassades till två av dem. Slutsats D står. Nedskriven så nästa session slipper resan. [STÄNGD]
+**Åtgärd:** `lynx-score` (slutsats F + G + den förkastade hypotesen; 7 juli-raden struken med rättelse) · `lynx-backlog` (beställning: microneedlings hela popup före rewrite; rhinophyma utpekad som fel testsida). Inga sidfiler rörda, ingen ny data.
+
 ### 2026-07-08 #41 — AI STYLE-testet levererat och obesvarat: SCORE-vyn läste gammal text. Samtidigt kom sidans kompletta EFTER-facit.
 **In:** Ägar-dumpar 18:11 (AI Copy per sida, 5 skärmbilder) + 18:13 (SCORE-popup + 2 Pages-fönster), alla rhinophyma-rosacea. Sparade FÖRST → `lynx-examples` (EFTER-facit) · `lynx-score` (popupen) · `lynx-data-archive` (Pages verbatim) · AKTUELLT LÄGE (24 rader).
 **Fynd:**
