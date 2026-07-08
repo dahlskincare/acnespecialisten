@@ -19,7 +19,7 @@ PEKAR-PÅ      lynx-backlog = arbetet (§8/§9/§12) · lynx-rewrite = hantverke
 | **Slå upp ett beslut/varför** | `lynx-logg.php` (arbetslogg) |
 
 
-**Filkarta (hela LYNX-setet):** `lynx-START` (denna: router/läge/invarianter/§-KARTA) · `lynx-backlog` (sidkarta/TODO/claims) · `lynx-rewrite` (omskrivnings-hantverk) · `lynx-models` (modeller/mät) · `lynx-logg` (historik) · `lynx-log-arkiv` (gammal historik) · `lynx-verktyg` (de tre mekaniska checkarna) · RÅDATA: `lynx-data` (Pages+kolumndefs) · `lynx-score` (SCORE) · `lynx-examples` (AI COPY-facit) · `lynx-questions` (AIQ) · `lynx-gaps` (gaps).
+**Filkarta (hela LYNX-setet):** `lynx-START` (denna: router/läge/invarianter/§-KARTA) · `lynx-backlog` (sidkarta/TODO/claims) · `lynx-rewrite` (omskrivnings-hantverk) · `lynx-models` (modeller/mät) · `lynx-logg` (historik) · `lynx-log-arkiv` (gammal historik) · RÅDATA: `lynx-data` (Pages+kolumndefs) · `lynx-score` (SCORE) · `lynx-examples` (AI COPY-facit) · `lynx-questions` (AIQ) · `lynx-gaps` (gaps).
 ---
 
 ## ▶ START HÄR — för en ny Claude utan kontext
@@ -38,9 +38,9 @@ Säger användaren *"vi fortsätter med LYNX-uppgifterna"* eller klistrar in LYN
 > - **✅ ALLA flagg-sidor LIVE PÅ MAIN.** Wave 2 (6 Fas 3 + pigmentflackar + småfixar: milier-pris, Google Meet, d3ce9162) **pushad till main 6 jul (ägarbeslut) → VERIFIERAD LIVE PÅ PRODUKTION**: alla 20 ändrade sidor HTTP 200, 0 PHP-fel, nytt innehåll bekräftat (logg #13 produktions-verifiering; staging-kontrollen arkiverad, `lynx-log-arkiv` 6 juli #12). §10.0 GSC-gaten passerad på ägarbeslut. **Kvar på dessa = passiv mät-uppföljning (LYNX-refresh + GSC), ej blockerande.**
 > - **SEO-vakt §10.0 = SENARE process (ägarbeslut 6 jul):** GSC + Ahrefs görs som eget pass senare (LYNX-prioritet nu pga refresh-fördröjning). Gaten blockerar inte längre; main-push är ägarens beslut. KW-vakt löpande via LYNX-data kvarstår.
 > - **pigmentflackar + rhinophyma re-scannade 7 jul (logg #14):** båda "Last update 06 Jul"-vyerna läste PRE-WAVE-2-texten (crawl daterad 2 jul 16:09–6 jul 16:08 via git) — 18/18 + 16/16 block identiska med gamla faciten (determinism #3+#4; typo-fixar flyttar inte betyg) → **V2-rewriterna fortfarande OMÄTTA; EFTER-facit väntar nästa refresh (crawl efter 6 jul 16:08).** SCORE: pigment 73 = medel(84,60) ✓; AI STYLE-FÖRE-baselines satta (pigment 55, rhino 70).
-> - **✅ FIL-OPTIMERINGSPASSET §9.0 KLART 8 juli (steg 1–10).** Arkitekturen är ratificerad och permanentad i §0: lagen **"ett fakta = en cell, celler pekar — återger aldrig"**, KIND-taggar och `▣ MANIFEST` på alla filer. Kvar: ägarens slutgranskning + två raderingsbeslut (stubben, underlagsfilen) + ett innehållsbeslut (`lynx-score` HISTORIK-prosan). **Statusdisciplin (8 juli): kanonisk cell per statusklass, LÄGE = cache — kör `statuskoll.py` före varje main-push.** **Nästa arbete: microneedling (Fas 3b) — ÅTERRULLAD 2×; läs HELA REWRITE-SPEC:en i `lynx-examples` (block-plan + sex verifierade fällor) innan du rör sidan.** Öppet HIGH: §5-brottet "smärtfritt" i 12 filer.
-> - **🔴 CHECK-REVISIONEN öppnad 8 juli — FÖRST I KÖN (§9).** Fyra detektorer kan bevisligen inte bli röda: `pekarkoll`s blast radius är död (dess sentinel skrevs bort av steg 7), `statuskoll`s dödsfras-detektor är vilande men skriver ändå `✓ inga`, och 3 av 6 pekarkoll-detektorer når aldrig `sys.exit`. **Checkarnas gröna är tills vidare INTE ett mätt påstående.** Diagnos: nålarna *återger* fakta i stället för att *peka* — samma lag-brott §0 förbjuder, en våning ner. **V5 (8 juli): MOTSÄGELSER-nålen är dessutom BLIND för omformulering — den fångar strängen, inte faktumet; ett inskjutet ord tystar den.** Resten mutationstestas en i taget.
-> - **Nästa SIDARBETE (efter passet):** microneedling (block-plan lynx-logg 2 jul em #2; typos redan fixade — kvar = de-AI) → övriga Fas 3b (portomning/acne-rygg/seborroisk-keratos, facit finns) → Tier 1-SLIGHT (rosacea/perioral-dermatit, facit saknas).
+> - **✅ FIL-OPTIMERINGSPASSET §9.0 KLART 8 juli (steg 1–10).** Arkitekturen är ratificerad och permanentad i §0: lagen **"ett fakta = en cell, celler pekar — återger aldrig"**, KIND-taggar och `▣ MANIFEST` på alla filer. Kvar: ägarens slutgranskning + två raderingsbeslut (stubben, underlagsfilen) + ett innehållsbeslut (`lynx-score` HISTORIK-prosan). **Statusdisciplin: kanonisk cell per statusklass, LÄGE = cache; synka för hand vid statusbyte (§0.2).**
+> - **✅ CHECK-REVISIONEN STÄNGD 8 juli — löst genom radering (ägarbeslut).** `lynx-verktyg.php` med sina tre checkar är borta. De vaktade §9.0:s omstrukturering, som är gjord; sju mutationstestade fynd visade att de rapporterade grönt på ett filset där 97 % av innehållet var borta. **Bygg inga nya utan att läsa §9 först.** Regeln som blev kvar: *vaktar verktyget ett pass som är klart är det skuld, inte skydd* (§0.1).
+> - **Kön är ÖPPEN, inte ordnad (ägarbeslut 8 juli).** §9 listar vad som går att göra; **ägaren väljer utifrån situationen**, du föreslår. Skriv aldrig in ett "nästa" åt honom — det blir ett imperativ som nästa session lyder utan att pröva. *(Öppet just nu: microneedling Fas 3b — ÅTERRULLAD 2×, läs REWRITE-SPEC:en i `lynx-examples` först · §5-brottet "smärtfritt" i 12 filer · övriga Fas 3b · Tier 1-SLIGHT.)*
 > - **Öppna ägar-beställningar:** om-oss badge-rad · acne-ansikte FAQ-facitrest · AI Copy-datum för de 3 kvarvarande SIGNIFICANT · (GSC/Ahrefs = eget senare pass) · boilerplate-sweep "Akne Specialiserade Hudterapeuter" (27 filer — timing-beslut).
 > - **Varningar/regler:** 1 Claude i taget (§0.1) · save-first i rätt kolumnfil (filkarta i `lynx-data`) · ny LYNX-skala → färsk-mot-färsk · **attribution kräver observerad delta, ej deploy-timing** · **LYNX uppdaterar per (sida × vy), aldrig i sajt-svep — datera varje cell, EFTER-data droppar in löpande** (lynx-models §11.1) · Fas 3-facit REDAN sparat — be inte igen.
 >
@@ -61,7 +61,7 @@ Säger användaren *"vi fortsätter med LYNX-uppgifterna"* eller klistrar in LYN
 ```
 §0, §0.1, §0.2, §0.3, §0.4      → lynx-START     arkitektur · SESSIONS-RITUALEN · användning · en-i-taget · dispatch
 §14                             → lynx-data      SPARA-RECEPT (save-first vid inkommen dump)
-§8, §8.1, §9, §9.0, §9.1, §9.2, §12 → lynx-backlog   sidkarta · gap-beslut · TODO · prio · FYNDLÅDAN · claims   [flyttade dit 8 juli]
+§8, §8.1, §9, §9.0, §9.1, §9.2, §9.3, §12 → lynx-backlog   sidkarta · gap-beslut · TODO · prio · FYNDLÅDAN · PARKERAT-META · claims
 §1, §1.1, §1.3, §1.4            → lynx-rewrite   bedömningsmodellen
 §2, §3, §4, §4.1, §4.2, §5, §6, §7, §13 → lynx-rewrite   formel · checklista · husröst · ramar/juridik · SEO-skydd · process · skyddsregler
 §1.2, §1.5, §10, §10.0, §11.1   → lynx-models    SCORE · AIQ · mät-loop · SEO-vakt · bevakning
@@ -104,9 +104,9 @@ Sync-drift uppstår när samma sanning står på två ställen. Skriv den EN gå
 | Senaste LYNX-värde per sida × vy | **`lynx-data`** AKTUELLT LÄGE |
 | Arbetsstatus: klar · i kö · öppna rester | **`lynx-backlog`** §8/§9 |
 
-**LÄGE-bannern och backloggens sammanfattningar är CACHE.** De får återge status, för en människa vill se läget utan att öppna fyra filer. **Men vid konflikt vinner cellen, aldrig cachen.** Ser du en konflikt: rätta cachen, kör `statuskoll.py`, och lita aldrig på att du var den enda som läste fel.
+**LÄGE-bannern och backloggens sammanfattningar är CACHE.** De får återge status, för en människa vill se läget utan att öppna fyra filer. **Men vid konflikt vinner cellen, aldrig cachen.** Ser du en konflikt: rätta cachen, och lita aldrig på att du var den enda som läste fel.
 
-**Larmet: `statuskoll.py` (i `lynx-verktyg.php`).** Läser den kanoniska cellen och larmar om någon aktiv cell säger emot. Verifierar också att varje omskriven sida HAR en §11.1-rad, och att §-KARTAN pekar på filer som faktiskt bär §:et. **Kör den efter varje statusbyte och alltid före en main-push.** Den hade fångat 6 juli-driften samma dag den uppstod — och när den kördes första gången, 8 juli, hittade den två stale states som överlevt hela städpasset: §10.0 höll tre sidor "på staging" som varit live i två dagar, och rewrite-resultat-tabellen sa "väntar main-push" om en sida live sedan 1 juli.
+**Ändrar du en status: greppa filsetet efter den GAMLA formuleringen och synka alla förekomster** (§0.2 state-synk-principen). Det görs för hand. Ett skript försökte göra det 8 juli och kunde bara känna igen tre exakta strängar — *"väntar på main-push"* med ett inskjutet ord passerade tyst (§9, V5). **Ögat som letar efter meningen slår en nål som letar efter en sträng.**
 
 **Två fällor som kostat oss tid, båda strukturella:**
 1. **En öppen tråd får aldrig ha loggen som enda bärare.** Loggen är historik. Skapa §9-raden i `lynx-backlog` först, länka sen.
@@ -116,17 +116,21 @@ Sync-drift uppstår när samma sanning står på två ställen. Skriv den EN gå
 
 ---
 
-## 0.1 SESSIONS-RITUALEN — säg till, kolla, fråga; och fråga igen på slutet (ägarbeslut 8 juli)
-**Varför ritual och inte påminnelse:** den 8 juli committades två gånger med en röd check. Andra gången skedde det i det commit-meddelande som beskrev första gången. **En regel du ska komma ihåg är inte ett skydd.**
+## 0.1 SESSIONS-RITUALEN — kolla, fråga, spara (ägarbeslut 8 juli)
 
-### ▶ VID START — fyra steg, i ordning (ägarbeslut 8 juli)
-1. **Säg att du hittat LYNX, och att kontrollen kommer först.** Nämner ägaren LYNX: slå upp filsetet och svara ungefär *"Jag hittade LYNX-uppgiften. Den börjar alltid med en kontroll — den tar ett par minuter. Sen frågar jag vad du vill göra."* Han ska veta **varför** det tar tid, innan det tar tid.
-2. **Kör kontrollen. Fråga inte om lov** — ett tillfälle att hoppa över är ett tillfälle det hoppas över.
-   - `git status` (rent?) + **§12 i `lynx-backlog`** — är någon annan igång? (§0.3)
-   - `statuskoll.py` + `pekarkoll.py` (`lynx-verktyg`). Bara läsande, ofarliga.
-3. **Rapportera tre rader:** vad checkarna säger · vad LÄGE säger är nästa · vilka öppna beställningar som väntar på ägaren.
-   ⚠️ **Så länge CHECK-REVISIONEN (§9) är öppen: säg "checkarna gröna, men fyra detektorer kan inte bli röda — se §9".** Att rapportera deras gröna utan det förbehållet är precis det påstående revisionen visar är obelagt.
-4. **Fråga vad han vill göra — och LISTA vad du kan göra.** Ägaren väljer; du föreslår. Han svarar antingen på listan **eller skickar en uppgift direkt**, ofta inklistrad LYNX-data. Kommer data: **§14 SPARA-RECEPT först, agera sen.**
+### ▶ VID START — tre steg
+1. **Kolla att du är ensam.** `git status` (rent?) + **§12 i `lynx-backlog`** (är någon annan igång?). Ser du osparat jobb du inte känner igen → stanna och fråga ägaren (§0.3).
+2. **Läs LÄGE-bannern överst** och §9 (TODO). Där står vad som är **öppet** — inte vad som är bestämt.
+3. **Fråga vad han vill göra — och LISTA BARA SIDARBETE.** Ägaren väljer; du föreslår. Han svarar antingen på listan **eller skickar en uppgift direkt**, ofta inklistrad LYNX-data. Kommer data: **§14 SPARA-RECEPT först, agera sen.**
+
+> ### 🚧 SPÄRREN — varför den ser ut så här (ägarbeslut 8 juli)
+> **Arbete på LYNX-filerna själva föreslås ALDRIG.** Verktyg, struktur, städning, revisioner: allt sådant bor i **§9.3 PARKERAT-META** och tas därifrån **bara om ägaren ber om det med egna ord.** Kön i §9 innehåller sidor.
+>
+> **Varför inte bara en regel till:** §0.1 innehöll redan *"ett fynd är inte ett uppdrag"* och *"ett verktyg är inte ett mål"*. Båda skrevs 8 juli. Båda bröts 8 juli. **En regel du ska komma ihåg är inte ett skydd** — det står i den här filen, och det gäller den här filen. Driften kom inte ur att någon glömde en regel; den kom ur att **ett meta-projekt stod "FÖRST I KÖN" och därför erbjöds ägaren som ett alternativ bland andra.** Ta bort seedet, inte symptomet.
+>
+> **Utfallstestet, mätbart på fem sekunder — kör det innan du säger att sessionen gick bra:** `git diff --stat` över sessionens commits. **Rör diffen bara `includes/lynx/` har uppdraget inte flyttat sig.** Det är inte förbjudet. Men säg det rakt ut till ägaren i stället för att låta tre gröna commits se ut som framsteg.
+
+*(Här stod till 8 juli en fjärde startpunkt: kör tre mekaniska checkar. De är raderade — §9.)*
 
 ### ▶ UNDER ARBETET — ETT FYND ÄR INTE ETT UPPDRAG (ägarbeslut 8 juli)
 **Du kommer att hitta saker. Det är bra — och det är inte det du blev ombedd att göra.**
@@ -139,28 +143,16 @@ Hittar du något äkta mitt i en uppgift: **skriv EN rad i §9.2 FYNDLÅDAN, sä
 
 > **Varför regeln finns.** 8 juli: uppgiften var en halvtimme (städa §9.0:s dubblerade steg 7/8). På vägen dit hittades en död detektor — ett verkligt fynd. I stället för en §9-rad skickades **21 agenter** för att revidera samtliga detektorer i alla tre skripten. Fyndet var äkta; hanteringen var fel. **Uppgiftens andra halva — §9.0:s fyra raderingsbeslut — blev aldrig påbörjad.** Ägaren fick bevaka scopet själv, vilket är hans ord: *"därför måste jag kolla när det växer."* Prime-direktivets *"nya exekutorer skriver nästan alltid om för mycket"* handlar om text; det beskriver scope lika väl.
 
-### ✅ VID SLUT — spara och pusha ALLTID; slutchecken är frivillig (ägarbeslut 8 juli)
-**Varje uppgift avslutas med commit + `git push` på `staging`.** Osparat arbete är den enda förlust som är oåterkallelig. Checkarna bevakar arbetsfilernas bokföring, och en bokföringsmiss kan lagas nästa session — en tappad ändring kan inte det. **Rör aldrig `main`.**
+**Frågan att ställa innan du bygger något som vaktar arbetet:** *vad är det som ändras, och ändras det fortfarande?* Vaktar verktyget ett pass som redan är genomfört är det skuld, inte skydd — det skriver grönt och lär nästa session falsk tillit. Det var därför de tre checkarna raderades 8 juli (§9). **Sidorna är uppdraget. Filerna är arbetsmaterial. Verktyg kring filerna är tredje ledet, och nästan alltid fel svar.**
 
-**Fråga sedan ägaren om du ska köra slutchecken.** Säger han nej är inget förlorat: nästa sessions start-kontroll (steg 2) kör samma checkar *innan* något nytt arbete påbörjas. **Det är därför kontrollen ligger i STARTEN** — den ska garantera ett friskt utgångsläge, inte grinda commiten. Checkarna existerade inte alls före 8 juli och arbetet fungerade ändå; de är ett skyddsnät, inte en spärr.
+### ✅ VID SLUT — spara och pusha, alltid
+**Varje uppgift avslutas med commit + `git push` på `staging`.** Osparat arbete är den enda förlust som är oåterkallelig. **Rör aldrig `main`** — ägaren pushar dit.
 
-*(Undantag: sidarbete. Där gäller §13.E, §7.4b och §6:s fras-koll före commit — de skyddar ranking och juridik, inte bokföring.)*
+Vid **sidarbete** gäller dessutom före commit: §13.E · §7.4b · §6:s fras-koll. De skyddar ranking och juridik — det enda som faktiskt kan skada något utanför de här filerna.
 
-Kör allt, läs exit-koden — inte utskriften:
-```
-rc=0
-python3 statuskoll.py        || rc=1
-python3 pekarkoll.py --efter || rc=1
-for n in 5 6 7 8 9; do python3 noloss.py $n || rc=1; done
-echo "GRIND EXIT=$rc"
-```
-**Varför inte den gamla `&&`-kedjan med `|| break`:** den stod här till 8 juli och **returnerade alltid 0** — `break` lyckas, alltså lyckas for-loopen. `pekarkoll` saknade dessutom sin `sys.exit` helt. Av tre checkar kunde bara `statuskoll` fälla grinden — i den ritual som skrevs för att stoppa commits med röd check. Raden ovan kör **alla** checkar (du ser allt som är rött, inte bara det första) och summerar ärligt.
+*(Ingen mekanisk slutcheck finns längre. Se §9 CHECK-REVISIONEN för varför: de tre checkarna vaktade §9.0:s omstrukturering, den är gjord, och de bevisades rapportera grönt på ett filset där 97 % av innehållet var borta. Bokföringsmissar lagas nästa session; en tappad ändring kan inte lagas.)*
 
-**Skriver grinden ingen `GRIND EXIT=`-rad har den inte kört.** Tystnad är inte grönt: en tom `.py` — t.ex. en extraktion som missade sina BEGIN/END-markörer — avslutas också med 0. Extrahera med assertions (receptet överst i `lynx-verktyg`).
-
-**Om `.py`:** checkarna är skrivna i Python men bor som text i `lynx-verktyg.php`. De kopieras ut till en **temp-katalog utanför projektet**, körs där, och kastas. Ingen `.py` hamnar någonsin i repot — allt LYNX-arbete stannar i `includes/lynx/*.php` (ägarbeslut 8 juli: inga andra filtyper, inga git-hooks, ingen git-konfiguration). PHP-varianten är utesluten: ingen `php` finns i terminalen här.
-
-Är något rött: **bevisa först att innehållet lever, peka sedan om nålen.** Sänk aldrig ett kvorum eller en tröskel för att få en check grön. Går det inte att laga direkt — skriv upp det i §9 så nästa sessions start-kontroll ser det. Vid sidarbete tillkommer §13.E (punkt-count, ej självgraderad) och §7.4b **före** du frågar ägaren "ändrar jag för mycket?".
+**Om `.py`-filer:** allt LYNX-arbete stannar i `includes/lynx/*.php` — inga andra filtyper i repot, inga git-hooks, ingen git-konfiguration (ägarbeslut 8 juli). Behöver du ett engångsskript: lägg det i en temp-katalog utanför projektet och kasta det.
 
 ---
 
@@ -173,7 +165,7 @@ echo "GRIND EXIT=$rc"
 
 Prioritet: **de mest flaggade blocken först** (🟥/🔴 före 🟠); lämna 🔵/🟢 (lätt hand, §13.D).
 
-**State-synk-principen (bevisad 2× den 2 juli):** när ett tillstånd eller en modellslutsats ändras — **greppa filsetet efter den GAMLA frasen** (t.ex. "väntar main-push") och synka ALLA förekomster, även bannern och tabellerna; det är dem en ny session litar på. Iterativa påbyggnader lämnar annars döda imperativ kvar. **Kör `statuskoll.py` efteråt** — den gör grepandet mekaniskt i stället för att förlita sig på att du kom ihåg alla formuleringar.
+**State-synk-principen (bevisad 2× den 2 juli):** när ett tillstånd eller en modellslutsats ändras — **greppa filsetet efter den GAMLA frasen** (t.ex. "väntar main-push") och synka ALLA förekomster, även bannern och tabellerna; det är dem en ny session litar på. Iterativa påbyggnader lämnar annars döda imperativ kvar. **Greppa på flera formuleringar, inte en** — samma sak sägs på fem sätt, och det var precis där ett skript gick bet (§9, V5).
 
 **Skrivkonvention datum (ägarbesked 7 juli):** i egen text skrivs månaden ut — "2 juli", inte "2 jul" ("vi skriver så mycket så vi kan lika gärna skriva ut hela månaden"; juni/juli förkortas inte på svenska). Ordagranna LYNX-citat ("Last update: 06 Jul") transkriberas verbatim. Gäller framåt direkt; retroaktivt svep av gamla poster = §9-TODO.
 

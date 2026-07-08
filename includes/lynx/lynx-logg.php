@@ -44,6 +44,16 @@ Fulltext flyttas till **`includes/lynx/lynx-log-arkiv.php`**; kvar här blir en 
 | behandla-pigmentflackar.php | 14 | – | – | –/– | SIGNIFICANT | GOOD | – | 16 |
 | hudproblem/hudforandringar/ | 10 | – | 17 | 3/2 | SIGNIFICANT | OK | – | 8 |
 
+### 2026-07-08 #33 — CHECK-REVISIONEN STÄNGD: alla tre checkarna raderade. Verktygen vaktade en flytt som redan var gjord.
+**In:** Ägarbeslut efter steg 1: radera `noloss`, radera `pekarkoll`, radera `statuskoll` — hela `lynx-verktyg.php`. Ägarens formulering: *"det borde vara en start som har filer för olika uppgifter bara."*
+**Fynd:**
+- **Dispositionen var densamma för alla tre, och bevisen sa det tre gånger innan jag drog den fullt ut.** Checkarna vaktade §9.0:s omstrukturering. Den är genomförd. En vakt över ett avslutat pass skriver grönt och lär nästa session falsk tillit. [STÄNGD]
+- **`statuskoll`s RESOLVERN vaktade en dubblett.** §-KARTAN är **exakt härledbar ur filernas egna rubriker (32/32, mätt)** — den handskrivna kartan bär noll egen information. En detektor som kontrollerar att en avskrift stämmer med sitt original, i ett filset vars första lag är "återge aldrig, peka". [STÄNGD]
+- **Utbyte av revisionen:** en äkta trasig pekare lagad (`§1.2 i lynx-score` → `lynx-models`), sju mutationsbelagda fynd som skäl, och regeln i §0.1: *vaktar verktyget ett pass som är klart är det skuld, inte skydd.* [RATIFICERAD → §0.1]
+- **Rotorsaksfixen är strukturell, inte en regel till.** §0.1 bar redan "ett fynd är inte ett uppdrag" + "ett verktyg är inte ett mål" — skrivna 8 juli, brutna 8 juli. Driften kom ur att ett META-projekt stod **"FÖRST I KÖN" i §9** och därför erbjöds ägaren som ett alternativ. **Ny §9.3 PARKERAT-META: meta-arbete föreslås aldrig vid start.** Plus utfallstestet: rör sessionens `git diff --stat` bara `includes/lynx/` har uppdraget inte flyttat sig. [RATIFICERAD → §0.1, §9.3]
+- **Kön skrivs inte längre som ordnad.** Ägarbeslut: §9 är en öppen TODO, valet görs i stunden. Ett inskrivet "nästa" blir ett imperativ som nästa session lyder utan att pröva. [RATIFICERAD → LÄGE, §0.1]
+**Åtgärd:** `lynx-verktyg.php` raderad. `lynx-START` (§0.1 ritual utan grind · spärren · LÄGE · filkarta · §-KARTA + §9.3), `lynx-backlog` (§9 stängd, 14 164 → 2 189 tecken · §9.3 skapad · tre döda §9.2-rader · två döda pekare), `lynx-rewrite` (§13.E utan `statuskoll.py`), `lynx-examples` (pekar-fixen).
+
 ### 2026-07-08 #32 — CHECK-REVISIONEN steg 1 KLART: 9/9 hypoteser prövade. `noloss` säger "inget tappat" om ett skal där 97 % är borta.
 **In:** Ägaren: "gör klart revisionen, vi har några timmar". `noloss`-fyran mutationstestad med per-check-avläsning (exit-koden räcker inte — en bestämd nål ska fällas).
 **Fynd:**

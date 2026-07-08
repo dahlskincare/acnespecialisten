@@ -18,7 +18,7 @@ Vi kör **1 Claude i taget** (§0.1), så det här är ingen parallell-lås län
 
 | Sida | Status | Tid |
 |------|--------|-----|
-| *(tom — ingen är igång)* **CHECK-REVISIONEN steg 1 KLART** (9/9 hypoteser, logg #29–#32). Nästa: **steg 2 = ägarbeslut per detektor** (radera / laga). V6 först — den vaktar alla andra | – | – |
+| *(tom — ingen är igång)* CHECK-REVISIONEN stängd 8 juli, checkarna raderade (§9, logg #29–#33). **Kön i §9 är öppen — ägaren väljer.** | – | – |
 
 ---
 
@@ -56,72 +56,31 @@ Från LYNX "Quick wins / Recommended improvements". Beslut enligt §5 (kosmetisk
 ## 9. TODO (denna fil är källan — ingen task-tracker)
 Kryssa här. Start/stopp-vänligt: status = §9 + §11 (logg) + §12 (claims). Per-sida gap-detaljer i §8.1.
 
-### ▶ FÖRST I KÖN — CHECK-REVISIONEN (öppnad 8 juli · ägarbeslut: ETT steg i taget, ingen agent-fan-out)
-**Bevaka-tabellens rad 2 säger `✅ §8/§9/§12 mappar alltid till BACKLOG`. Den fixen har regredierat.** Och boten *"varje detektor måste bevisligen kunna bli röd — 14/14 mutationer"* testade **14 fall, inte varje detektor.** Fyra detektorer stod utanför de 14 och är nu bevisat oförmögna att fälla grinden.
+### ✅ STÄNGD — CHECK-REVISIONEN (8 juli · löst genom radering, ägarbeslut)
+**Beslut:** `lynx-verktyg.php` raderad, alla tre checkarna borta. Ingen mekanisk grind finns kvar (§0.1).
 
-**VERIFIERAT** — med mutation eller direkt motbevis, aldrig kodläsning:
+**Varför, i en mening:** de vaktade §9.0:s omstrukturering — den är gjord — och nio mutationstestade hypoteser visade att deras gröna aldrig var ett mätt påstående.
 
-| # | Fynd | Bevis |
+| # | Vad checken påstod | Vad mutationen visade |
 |---|---|---|
-| V1 | **`pekarkoll` BLAST RADIUS är DÖD.** Sentinel-strängen `'FLYTTAR'` (rad 22) fanns i §-KARTA-raden FÖRE steg 7 (`150863b0`); steg 7 skrev om raden till `→ lynx-backlog … [flyttade dit 8 juli]` → `target` blir `'lynx-backlog'`, aldrig `'BACKLOG'` → rad 57 är oåtkomlig. | 3 injicerade §-pekare i en REGEL-fil → rapporterar fortfarande `0`. Och: historiken bär **147** §8/§9/§12-pekare (arkiv får ej uppdateras retroaktivt) — detektorn säger `0`. **Den dog i den commit vars korrekthet den fanns för att bevisa.** |
-| V2 | **`statuskoll` DÖDA FRASER är VILANDE — och skriver ändå `✓ inga`.** Vakten `if all(s['live'] for s in sidor.values())` (rad 79) är falsk så länge en enda sida inte är live. | statuskolls egen utskrift: *"16 sidor … LIVE: 15 st"* (microneedling). Detektorn har alltså **aldrig kört** på ett filset där den behövdes. |
-| V3 | **Bara 3 av 6 detektorer i `pekarkoll` når `sys.exit`.** Rad 129: `sys.exit(1 if (broken or unresolved or kvorum_brutet) else 0)`. `blast`, `unknown` och stubb-räknaren kan aldrig fälla grinden. | grep. Exakt samma form som incident #7, som ansågs stängd. |
-| V4 | **`pekarkoll` UTAN `--efter` är RÖD på ett orört filset** (`lynx-backlog:26` flaggas POSITIONELL). Grinden passerar bara för att §0.1 råkar skicka flaggan. | `exit=1` |
-| V5 | **`statuskoll` MOTSÄGELSER är BLIND FÖR OMFORMULERING** (rad 71). Nålen är tre hårdkodade strängar. Den fångar **formuleringen, inte faktumet** — och de tre strängarna är exakt den prosa 6 juli-incidenten råkade använda. *Annan felmod än V1–V3:* den **kan** bli röd, den kan bara inte se saken sägas med andra ord. Ett fjärde literal lagar inget; det flyttar hålet. | Mutation, 8 scenarier, alla samma falska faktum (`acne-ansikte`, kanoniskt LIVE, motsagt i en AKTIV cell). Harness validerad: baseline grön ✓, positiv kontroll "väntar main-push" → `exit=1` ✓, "hålls på staging" → `exit=1` ✓. **Fem omformuleringar passerar tyst:** `väntar på main-push` (ett ord inskjutet!) · `ligger kvar på staging` · `är ej pushad till main` · `är inte live än` · `🚧 GSC-gate` (bytt emoji). |
+| V5 | ingen cell säger emot den kanoniska | fångade tre exakta strängar; `väntar på main-push` (ett inskjutet ord) passerade tyst |
+| V6 | skripten går att köra | godkände ett sabotage-skript som skrev `✓` under varje rubrik och returnerade 0 |
+| V7 | inga trasiga pekare | letade bara efter pekare till **en** fil, för **tre** § — och bar själv den hårdkodade filnamnspekare den fanns för att förbjuda |
+| V8 | regeln lever | frågade HISTORIK, som §0 säger inte får styra beslut |
+| V9 | om-oss har EFTER-facit | nöjde sig med en TODO-kommentar |
+| V10 | inget tappat | godkände `lynx-rewrite` reducerad från 52 309 till 1 803 tecken |
+| V11 | 17 bevakningsrader kvar | accepterade 16; och `pigmentflackar` matchade inuti `behandla-pigmentflackar` |
 
-| V6 | **`statuskoll` VERKTYGSINTEGRITET mäter syntax, inte substans — och det är den allvarligaste.** Vakten frågar: finns BEGIN/END · är blocket ≥3000 tecken · går det att `ast.parse`? **Ingen av frågorna gäller om koden GÖR något.** Repo-kopian är det enda som överlever en död session (vaktens egen docstring). | Mutation: 3 positiva kontroller fälls av rätt orsak (syntaxfel · trunkering · saknad markör). **Tre fasader passerar tyst:** kommentarsvägg 4141 tecken · `import sys` + vägg + `sys.exit(0)` · **ett sabotage-skript som skriver `✓ inga` under varje rubrik och returnerar 0.** Sabotaget kördes genom det officiella extraktions-receptet: `assert m` OK, `assert len > 3000` OK (3768), `compile()` OK. Den utextraherade "checken" granskade **noll** sidor, noll pekare, noll celler — och grinden hade skrivit `GRIND EXIT=0`. |
-| V7 | **`pekarkoll` TRASIGA-pekare hårdkodar BÅDE filnamnet och §-mängden** (rad 90). `QUAL` letar efter formen «§8/§9/§12 … START». §0:s lag förbjuder *alla* filnamngivande pekare — nålen känner igen en enda form: den som pekar på den fil §:en flyttade **ut ur** 8 juli. **Nålen skrevs mot migrationen, inte mot lagen — exakt V1:s felmod.** Och: **själva nålen innehåller en hårdkodad filnamnspekare, det den finns för att förbjuda.** | Mutation i en granskad AKTIV-fil. Positiva kontroller fälls (`NAMNGER FIL`, `POSITIONELL`). **Fyra lagbrott passerar tyst:** `§9 i lynx-models` (fel fil) · samma med backticks · `§11.1 i` START-filen (§ utanför `8\|9\|12`) · `§14 överst i lynx-backlog`. |
+*(V1–V4 var kända sedan tidigare. T1 och T2 prövades och avfärdades — täckta av en annan check. Fullt underlag med bevis: logg #29–#33, samt git-historiken för `lynx-verktyg.php`.)*
 
-| V8 | **`noloss` batteri 6 verifierar levande REGEL-text mot dekoyer i HISTORIK.** `needle in load(f)` söker HELA filen. `lynx-score` är 35 791 tecken varav **20 933 (58 %) HISTORIK**. **8 av 38 nålar har sin sträng även där.** §0: HISTORIK *"får inte styra beslut"* — men den vouchar tyst för att den levande cellen lever. | Kirurgiskt: raderade den levande raden för `AI STYLE ingår EJ i Overall`, lät kopian i HISTORIK ligga. Ingen annan nål rörd. **Hela grinden grön.** Faktumet är borta ur regeln; checken märker inget. |
-| V9 | **`noloss` batteri 9:s EFTER-nål är en konjunktion av två globala fakta.** `('EFTER' in aktiv and x in aktiv)` frågar: finns ordet EFTER *någonstans* i filen (29 ggr), och nämns sidan *någonstans*? Den tittar aldrig på om sidans facit har ett EFTER. | Raderade **alla tre** om-oss-omnämnanden ur `lynx-examples` och la in en kommentar: `<!-- TODO: kolla om-oss någon gång -->`. Checken `om-oss: EFTER-facit kvar i AKTIVA filen` → **grön.** En TODO-kommentar räcker som facit. |
-| V10 | **`noloss` batteri 8: 22 rena delsträngar, noll strukturella checkar** (`structural()` har grenar för steg 5, 6, 7, 9 — ingen för 8). Batteriets hela uppgift är att svara *"tappade vi något?"* | Ersatte `lynx-rewrite` med ett **skal**: rubrikraderna + de 23 nålsträngar hela `noloss` läser ur filen. **52 309 → 1 803 tecken (97 % av hantverket borta).** Batteri 8: `22/22 gröna ✅ inget tappat`. **Hela grinden grön** — statuskoll, pekarkoll, noloss. |
-| V11 | **`noloss` batteri 5: tröskel med glapp + delsträngsalias.** (a) `body >= 16` mot en tabell med **17** rader. (b) `maste_aktiv`-nålen `'pigmentflackar'` matchar inuti `'behandla-pigmentflackar'`. | (a) Raderade INTRO-EXPERIMENT-raden ur §11.1 → 16 rader → **hela grinden grön.** Exakt en rad är gratis att tappa, och `statuskoll` ser den inte (den hoppar över delraden). (b) Bytte ut varje **fristående** `pigmentflackar` i `lynx-examples`, lämnade den längre systersidan → checken `alla 17 omätta/kösidors facit i AKTIVA filen` → **grön.** |
+**Diagnosen — det enda som är värt att bära vidare:** varje nål var skriven **mot den incident som avslöjade behovet, inte mot lagen som skulle upprätthållas.** Därför fångade de reprisar och inget annat. En nål mot en lag gör felklassen omöjlig; en nål mot en incident bevisar bara att gårdagens fel inte upprepades ordagrant.
 
-**TÄCKT — mutationstestat, ingen åtgärd. Lika viktigt att bokföra som ett fynd: annars byggs en detektor som redan finns.**
+**Vad revisionen faktiskt gav:**
+- **En äkta trasig pekare lagad:** `§1.2 i lynx-score` → `lynx-models` (§1.2 bor där; `lynx-score` bär härledningen).
+- **§-KARTAN är exakt härledbar ur filernas egna rubriker — 32 av 32, mätt.** Den handskrivna kartan bär noll egen information. Den får stå kvar som mänskligt index. **Skriv aldrig en detektor som vaktar den:** det vore att vakta en dubblett som §0 förbjuder.
+- Regeln i §0.1: *vaktar verktyget ett pass som redan är genomfört är det skuld, inte skydd.*
 
-| # | Hypotes | Utfall |
-|---|---|---|
-| T2 | `pekarkoll` KVORUM räknar refs i alla 16 filer, men detektor 4 läser bara 9 | **Sant — men en felmärkning, inte ett hål.** Mätt: 2121 §-refs totalt, detektor 4 läser **747 (35 %)**; de överhoppade filerna bär 1374 helt själva, alltså långt över tröskeln `≥ 200`. Raden `✓ checken har faktiskt mätt något` är därför ett påstående om **korpusläsning**, inte om granskning. **Men scenariot den skulle dölja är täckt:** strippa alla §-refs ur de 9 granskade filerna → `statuskoll` RESOLVERN + `noloss` fäller (mätt, båda varianterna). ⇒ **Billig fix, ingen ny detektor:** låt kvorumet räkna refs i de filer detektor 4 *faktiskt* läser (747), så blir den gröna raden ett mätt påstående om nålen. Överhoppet av HISTORIK/TEMP/DÖR/VERKTYG är **korrekt** och ska inte röras — append-only är policy (min egen förväntan om motsatsen var fel, och testet rättade mig). |
-| T1 | `statuskoll` RESOLVERN ser inte en **borttagen** kartrad (bara en malformerad) | **Halvt sann — och därför ofarlig.** Detektornivå: BEKRÄFTAD. Ta bort `§11 → lynx-logg` (granskade 32→31) eller hela backlog-raden (→**exakt 25**, kvorumet är `< 25`) och `statuskoll` skriver `✓ varje § i kartan har en matchande rubrik`. Grindnivå: **REFUTERAD.** `pekarkoll` fälls av rätt orsak — `§-REF UTAN ÄGARE`, 9 föräldralösa `§11` resp. 71 — och den detektorn når `sys.exit` (den är en av V3:s tre). Malformerad rad fälls av båda; tömd karta av båda. **Täckningens gräns, mätt:** den bygger på att någon fil *pekar* på det borttagna §:et. Varje kartrad har idag ≥2 pekare (tunnast `§0.3`=2, `§9.2`=4) → varje borttagning fångas. En framtida kartrad för ett ännu opekat § vore tyst. ⇒ **Bygg ingen ny nål i `statuskoll`.** Borttagning ägs av `pekarkoll`; att `statuskoll` inte duplicerar den är §0:s lag, inte ett hål. |
-
-**EJ VERIFIERAT — agentpåståenden. Verifieringssteget kördes aldrig (sessionen stoppades). Behandla som hypoteser, mutationstesta en och en:**
-- ~~`statuskoll`: MOTSÄGELSER-nålen (rad 71) är hårdkodad mot prosa som kan ha drivit~~ → **BEKRÄFTAD 8 juli, se V5.**
-- ~~`statuskoll`: RESOLVERN skyddar mot malformerad men inte borttagen kartrad~~ → **PRÖVAD 8 juli, se T1: täckt av `pekarkoll`, ingen åtgärd.**
-- ~~`statuskoll`: VERKTYGSINTEGRITET mäter syntax, inte substans~~ → **BEKRÄFTAD 8 juli, se V6. Allvarligast av alla.**
-- ~~`pekarkoll`: TRASIGA-pekare-regexen hårdkodar literalen `START`~~ → **BEKRÄFTAD 8 juli, se V7.** · ~~KVORUM vouchar för något det inte mäter~~ → **PRÖVAD, se T2: felmärkning, billig fix, inget hål.**
-- ~~`noloss`: dekoyer i HISTORIK · degenererad EFTER-konjunktion · noll strukturella checkar i batteri 8 · tröskelglapp + delsträngsalias i batteri 5~~ → **ALLA FYRA BEKRÄFTADE 8 juli, se V8–V11.**
-- *(Redan känt, står i Bevaka: batteri 9:s `micronnedling`-typo.)*
-
-✅ **STEG 1 KLART 8 juli — alla 9 hypoteser prövade.** 7 bekräftade (V5–V11), 2 täckta (T1, T2). Ingen kvar att gissa om.
-
-**DIAGNOSEN — en enda, och den förklarar alla:** ***checkarna bryter mot lagen de finns för att upprätthålla.*** §0 säger *"ett fakta = en cell; celler pekar, återger aldrig."* Varje nål är en handskriven **återgivning** av ett fakta som bor i en fil. Skrivs faktumet om ruttnar kopian, tyst. Det är 6 juli-driften igen — ett lager ner, i verktygen. **Fler detektorer ovanpå ärver felet.**
-
-**Skärpt 8 juli av V5–V7, och den skärpningen är hela nyckeln:** varje bekräftad nål visade sig vara skriven **mot en incident, inte mot en lag.** V5 kodar 6 juli-incidentens exakta prosa. V1 kodar steg 7:s sentinel. V7 kodar filnamnet §:en flyttade **ut ur** — och gör det genom att skriva `START` rakt in i regexen, alltså **själva den filnamnspekare §0 förbjuder**, i den nål som finns för att förbjuda den. En nål mot en incident fångar en repris. En nål mot lagen fångar felklassen. **Det är därför de gröna inte betyder något: de bevisar bara att gårdagens fel inte upprepades ordagrant.**
-
-**NÄSTA STEG (ETT i taget, ägar-avstämning emellan):**
-1. ✅ **KLART 8 juli.** Alla 9 hypoteser mutationstestade, en och en: **7 bekräftade (V5–V11), 2 täckta (T1, T2).** Noll kvar att gissa om.
-   **Riggen finns:** `mutrig.py` (temp-katalog, aldrig i repot). Ett hypotestest = en lista scenarier; riggen kopierar filsetet per scenario, kör HELA grinden, visar sektionen som fällde. Tre spärrar den vägrar rapportera utan: baseline grön · minst en positiv kontroll röd · **varje mutation måste bevisligen ha ändrat en fil** (annars betyder ett grönt "inget muterades", inte "detektorn är blind"). ⇒ **Öppen fråga till ägaren: ska riggen permanentas som ett fjärde block i `lynx-verktyg`?** Den är i dag ett sessionsartefakt och försvinner.
-   **Harness-kravet, lärt av V5:** ett mutationstest utan **baseline-grön + positiv-kontroll-röd** kan inte skilja "detektorn är blind" från "min testrigg är trasig". Kör alltid båda. Riggen: färsk kopia av filsetet per scenario, `LYNX`-konstanten ompekad, samma falska faktum uttryckt på N sätt.
-   **Två skärpningar, lärda av T1:** (a) **kör HELA grinden per scenario, inte den misstänkta detektorn** — en blind nål är ofarlig om en annan check täcker felet, och det syns bara om alla tre körs; (b) **ett rött utan känd orsak är lika obelagt som ett grönt.** Läs sektionen som fällde, kräv rätt orsak. T1:s `pekarkoll`-röda hade lika gärna kunnat vara V4:s positionella falsklarm.
-2. **ÄGARBESLUT PER DETEKTOR: laga eller radera.** ⬅ *här står vi 8 juli.* Underlaget nedan; besluten är hans.
-
-   **▶ RADERA — engångsvakter för migrationer som redan är gjorda.** En trasig vakt över ett avslutat arbete är ren skuld: den skriver grönt och lär oss falsk tillit.
-   - `pekarkoll` BLAST RADIUS (V1) — mätte steg 7:s flytt. Flytten är gjord.
-   - **hela `noloss` (V8–V11)** — batterierna heter `§9.0 steg 5…9`. De vaktar ett omstruktureringspass som är klart. **Samma disposition som blast radius, och samma bevisning: skalet klarade 22/22.** Pensioneras när §9.0 stängs.
-
-   **▶ LAGA — billigt, strukturellt, strikt bättre.**
-   - `pekarkoll` QUAL (V7): **härled ur §-KARTAN** i stället för att hårdkoda `START` + `8|9|12`. Lagen är "inget filnamn i en §-pekare" — den går att skriva rakt av.
-   - `pekarkoll` (V4): ta bort `--efter`-flaggan. Den är ett migrationsartefakt; utan den är checken röd på ett orört filset.
-   - `pekarkoll` (V3): plumba till `sys.exit`, **eller** märk `unknown`/stubb-räknaren ärligt som INFORMATION som inte fäller.
-   - `pekarkoll` KVORUM (T2): räkna referenserna i de filer detektor 4 faktiskt läser (747), inte i korpusen (2121).
-   - `statuskoll` DÖDA FRASER (V2): släng vakten `all(s['live'])` — den gör detektorn vilande så fort en enda sida inte är live.
-
-   **▶ KAN INTE LAGAS MED EN NÅL — V5.** Ingen literal-lista fångar "samma faktum sagt med andra ord". Ett fjärde literal flyttar hålet. **Den strukturella boten ligger i filerna, inte i verktyget:** låt cache-cellerna sluta återge status. Alternativet är att märka nålen ärligt som *"fångar ordagranna reprisar av 6 juli"*.
-
-   **▶ MÅSTE LAGAS FÖRST — V6, för den vaktar alla andra.** Så länge en parsbar fasad passerar som giltig check är varje annat beslut här byggt på sand. Bot: låt `VERKTYGSINTEGRITET` **köra** skripten mot ett fixtur-filset med en planterad defekt och **kräva rött**. En fasad kan då inte passera — den kan inte bli röd på något.
-3. Plumba varje kvarvarande detektor till `sys.exit` (V3).
-4. Den generella boten, **om** den ska byggas: *en nål som matchar noll gånger är RÖD.* Det gör felklassen omöjlig att gömma i stället för bara upptäckbar — samma steg som §0:s lag tog för celler. Överväg att **härleda** nålar ur den kanoniska cellen i stället för att skriva av dem. **V6:s bot ovan ÄR detta steg, tillämpat på verktygen själva.**
-5. ⚠️ **Tills detta är stängt: checkarnas gröna är inte ett mätt påstående.** §0.1:s start-rapport ska lyda *"checkarna gröna, men se CHECK-REVISIONEN överst i §9"*.
+---
 
 **Öppet sedan tidigare, ej påbörjat:** §9.0:s slutgranskning = de fyra ägarbesluten (stubben · `lynx-optimering-underlag.php` · `lynx-score` HISTORIK-prosan · filnamnskonventionen). Se ⚠️ AVVIKELSE-noterna i steg 9 och 10 nedan.
 
@@ -181,24 +140,13 @@ Kryssa här. Start/stopp-vänligt: status = §9 + §11 (logg) + §12 (claims). P
 Körs facit-drivet löpande — **ej grindat efter Fas 2-schemat** (fristående spår). Prioordning även i **§9.1**.
 
 **Bevaka — trådar öppnade från omkringliggande skärmbildsdata (§0-principen, 2 jul)**
-- [x] **FELKLASS-GENOMGÅNGEN KLAR 8 juli: "en verifiering som kan passera utan att verifiera".** Elva incidenter, alla samma form. **Fem nya hittades vid genomgången — och två av dem gjorde grinden till en attrapp.** Alla bevisade med negativkontroll, inte kodläsning.
-  | # | Incident | Fångades av | Check finns? |
-  |---|---|---|---|
-  | 1 | `str.replace("", x)` sprängde `lynx-rewrite` 53 kB → 55 MB (tomt regex-slice) | batteriet gick 0/22 | ✅ noloss + assertions i hjälparen |
-  | 2 | Pekar-censusen mappade §8/§9/§12 tillbaka till START i FÖRE-läge → blast radius **0** | mänskligt eftertänkande | ❌ **REGREDIERAD samma dag** — fixen hängde på sentinel-strängen `FLYTTAR`, som steg 7 skrev bort. Se CHECK-REVISIONEN överst i §9 (V1) |
-  | 3 | Backtick i ociterad heredoc → shellet exekverade kodblocket, inbäddningen tömdes | tom fil syntes | ✅ heredoc-konventionen, `lynx-verktyg` överst |
-  | 4 | `lynx-verktyg` truncerad till 564 tecken (koden högg av sin egen fence) | **ingenting — hittades av en slump** | ✅ statuskoll detektor 5 (ast.parse + fence-koll) |
-  | 5 | Självgraderad §13.E-kvittens → ägaren godkände en text med §5-brott | §7.4b, i efterhand | ✅ §13.E skärpt + §7.4b före godkännande |
-  | 6 | Commit gjord med röd check — **två gånger 8 juli, andra gången i commit-meddelandet som beskrev den första** | jag själv, i efterhand | ✅ grinden i §0.1 fungerar nu. **Hook: NEJ** (ägarbeslut, se nedan) |
-  | 7 | **`pekarkoll` saknade `sys.exit`** — skrev "1 MÅSTE LAGAS" och returnerade **0** | negativkontroll 8 juli | ✅ exit-kod + kvorum |
-  | 8 | **Grindens `\|\| break` returnerade alltid 0** (`break` lyckas → for-loopen lyckas) → `noloss` kunde aldrig fälla | negativkontroll 8 juli | ✅ ny grind-rad i §0.1, kör allt, summerar `rc` |
-  | 9 | statuskoll **detektor 4** grön på **noll granskade sidor** (byt `- [x]` → `* [x]`) | mutation 8 juli | ✅ kvorum ≥14 |
-  | 10 | statuskoll **detektor 5** grön på **noll granskade §** (byt kartans `→`) — och kvorum ensamt räckte inte: bryt EN kartrad, de övriga bär tröskeln | mutation 8 juli | ✅ *ingen rad får hoppas över tyst* + kvorum ≥25 |
-  | 11 | En tom `.py` avslutas med **exit 0** → missad extraktion = helgrön grind som aldrig körde | resonemang 8 juli | ✅ extraktion med assertions; `GRIND EXIT=`-raden måste synas |
-  **Svaren på de tre frågorna:** **(a) pre-commit-hook: NEJ** — ägarbeslut 8 juli, allt LYNX-arbete stannar i `includes/lynx/*.php`; ingen ny filtyp, ingen git-konfiguration. Grinden är ett skyddsnät, inte en spärr: **spara och pusha alltid**, kontrollen ligger i STARTEN (§0.1). **(b) heredoc-konventionen** skriven (`lynx-verktyg` överst): citera alltid avgränsaren. **(c) Ja — fem till (#7–#11).**
-  **Boten, permanentad i `lynx-verktyg`:** *grönt är ett mätt påstående, inte frånvaron av en klagan.* Varje detektor redovisar antalet granskade enheter och går röd på noll; och **varje detektor måste bevisligen kunna bli röd** — verifierat med 14 mutationer, 14/14 fångade. Mutationstestet avslöjade en halvfärdig fix i sig självt (#10).
-  ⚠️ **KORRIGERING 8 juli, senare samma dag:** de 14 mutationerna testade **14 fall, inte varje detektor.** Fyra detektorer stod utanför urvalet och är sedan dess bevisat oförmögna att fälla grinden (V1–V4, CHECK-REVISIONEN överst i §9). *"14/14 fångade"* var alltså ett mätt påstående om 14 saker — och lästes som ett påstående om alla. **Samma felklass som checkarna själva jagar: täckningen redovisades aldrig, bara träffarna.**
-  **Kvarstår (öppet):** ingen check bevakar **pekare inom en fil** — STARTs eget manifest kallade en-i-taget för §0.1 och dispatchen för §0.2 (båda förskjutna två steg, lagade 8 juli). Och `noloss` batteri 9 mäter nålen `micronnedling` (dubbel-n) — **en typo, inte block-planen**; den är grön för att typon finns i `lynx-examples`. Peka inte om nålen utan att först bevisa att block-planen lever.
+- [x] **FELKLASS-GENOMGÅNGEN 8 juli: "en verifiering som kan passera utan att verifiera".** Elva incidenter, alla samma form. **Nio satt i de tre checkarna — de raderades samma dag (§9 överst).** Kvar, för att de gäller arbetet och inte verktygen:
+  - **Självgraderad §13.E-kvittens lät en text med §5-brott passera ägargranskning.** → §13.E skärpt; §7.4b körs **före** godkännande, inte efter. Gäller alltjämt.
+  - **Boten som skrevs, och som föll:** *"varje detektor måste bevisligen kunna bli röd — 14/14 mutationer."* De 14 testade **14 fall, inte varje detektor.** Ett mätt påstående om 14 saker lästes som ett påstående om alla. **Täckningen redovisades aldrig, bara träffarna.** Den lärdomen överlevde verktygen och bor i §0.1.
+  - **Heredoc:** citera alltid avgränsaren — `<<'EOF'`, aldrig `<<EOF`. Utan fnuttar tolkar skalet innehållet först och kodblocket töms tyst. Gäller varje engångsskript.
+  - *(Ägarbeslut 8 juli: ingen pre-commit-hook. Allt LYNX-arbete stannar i `includes/lynx/*.php` — ingen ny filtyp, ingen git-konfiguration. Spara och pusha alltid.)*
+  *(Den fullständiga incident-tabellen beskrev buggar i raderad kod. Den ligger i git-historiken; skälen i logg #26–#28.)*
+
 - [ ] **⚖️ §5-BROTT LIVE PÅ PRODUKTION: ordet "smärtfritt" i 12 filer (upptäckt 8 juli av §7.4b-granskaren).** §5:s juridikblock förbjuder ordagrant *"Inga 'helt riskfritt', 'smärtfritt', 'garanterat resultat'"* och *"Aldrig riskfritt-intryck — utelämnad riskinformation = vilseledande marknadsföring (KO-praxis)"*. Regeringsuppdraget juni 2026 = skärpning på väg. **Filer:** `infuzion` · `permanent-harborttagning` · `dermapen` · `hudflikar` · `ytliga-blodkarl` · `microneedling` (brödtext rad 64 **+ meta rad 7 `✓Smärtfritt`**) · `rosaceabehandling` · `varumarken/index` · `prx-t33` · `varumarken/splendor-x` · `varumarken/soprano-ice` · `hudbehandlingar/skinbooster`. **ÄGARBESLUT:** eget juridik-pass (som språkfel-svepet 2 juli, egen commit) eller per sida vid rewrite? Meta-descriptions kräver separat commit (§13.H). **Ersättning enligt §4.2:** riskinfo är copy-vänlig — säg vad som faktiskt händer ("de flesta beskriver behandlingen som lätt stickande; huden är röd i ett till två dygn") i stället för att påstå frånvaro av smärta.
 - [ ] **BUGG: `microneedling.php`-kortet "Microneedling mot Pigmentfläckar" visar fel bild** (upptäckt av §3:s copy-paste-rest-koll, 8 juli). `image_small/large` pekar på `mogen-hy.webp`, alt/title säger *"Microneedling för Pigmentfläckar"*. Samma bildfil används av kortet direkt ovanför (*Rynkor & Fina Linjer*). Rätt filer finns: `bilder/hudproblem/{102x102,200x200}/pigmentflackar.webp`. Siddata (§13.K) → säkert att rätta. Ta det när microneedling skrivs om.
 - [ ] ***AI STYLE-TESTET — det viktigaste öppna mätvärdet (öppnat 8 juli).** `rhinophyma-rosacea` är den ENDA sidan med en färsk FÖRE-baseline på nya skalan (SCORE 74 · **AI STYLE 70**) tagen innan vår text gick live. Overall är 74 både före och efter — men **AI STYLE ingår inte i Overall** (lynx-score slutsats D), så Overall säger ingenting. **Beställ SCORE-popupen.** Rör sig AI STYLE är de-AI-hävstången bevisad; står den stilla är §1.2:s AI STYLE-antagande ren extrapolation.
@@ -230,7 +178,7 @@ Körs facit-drivet löpande — **ej grindat efter Fas 2-schemat** (fristående 
 - [ ] **Gå igenom `hudproblem/hudforandringar/index.php` (mall-review)** — en pre-existerande död debug-rad (`$types_url`, rad 777) läckte en synlig PHP-warning på live (nu borttagen). Kontrollera om mallen har mer cruft/latenta buggar: andra utkommenterade `<?php echo $var ?>`, odefinierade variabler, gamla debug-rester. *(Temporär TODO här tills sidan är genomgången.)*
 
 **Parkerat / väntar externt**
-- [P] **NAMNKONVENTION i filsetet (ägar-observation 8 juli — ligger på produktifierings-beslutet).** Inkonsekvent: `lynx-logg` (svenska, två g) vs `lynx-log-arkiv` (engelska, ett g) · `lynx-backlog` (engelskt ord) · `lynx-examples`/`score`/`questions`/`gaps`/`data` (engelska) vs `lynx-rewrite`/`lynx-START` (blandat). **Ursprung:** `lynx-log-arkiv` skapades 2 juli när loggen ännu var §11 inuti playbooken — det fanns ingen "logg"-fil att matcha; `lynx-logg` föddes först vid splitten 6 juli. Ingen bestämde, det bara blev. **Beslutet hör ihop med `lynx-`-prefixet** (bakar in leverantören i varje filnamn — se PRODUKTIFIERING nedan): ta båda samtidigt, annars döps filerna om två gånger. **Kostnad nu låg:** `git mv` + pekar-svep, och censusen (`pekarkoll.py`) gör svepet mekaniskt verifierbart.
+- [P] **NAMNKONVENTION i filsetet (ägar-observation 8 juli — ligger på produktifierings-beslutet).** Inkonsekvent: `lynx-logg` (svenska, två g) vs `lynx-log-arkiv` (engelska, ett g) · `lynx-backlog` (engelskt ord) · `lynx-examples`/`score`/`questions`/`gaps`/`data` (engelska) vs `lynx-rewrite`/`lynx-START` (blandat). **Ursprung:** `lynx-log-arkiv` skapades 2 juli när loggen ännu var §11 inuti playbooken — det fanns ingen "logg"-fil att matcha; `lynx-logg` föddes först vid splitten 6 juli. Ingen bestämde, det bara blev. **Beslutet hör ihop med `lynx-`-prefixet** (bakar in leverantören i varje filnamn — se PRODUKTIFIERING nedan): ta båda samtidigt, annars döps filerna om två gånger. **Kostnad nu låg:** `git mv` + pekar-svep för hand. *(Censusen som skulle gjort svepet mekaniskt är raderad — den var blind för pekare som namngav fel fil, §9 V7.)*
 - [P] **PRODUKTIFIERING — flera signaler + flera domäner (ägar-idé 8 juli, PARKERAD tills LYNX-arbetet är klart).** Målet på sikt: setupen blir ett textskrivar-verktyg som kan lyftas in på andra sajter — först LYNX-komponenten, sedan GSC, Ahrefs m.fl. **Vad som krävs:** filsetet blandar idag tre saker som då måste separeras — (a) **SIGNAL-adaptern** (LYNX-specifik: kolumndefs, badges, SCORE-formeln, skärmbilds-intaget; engångs per verktyg), (b) **HANTVERKET** (portabelt = själva produkten: formeln, checklistan, AI-tellsen, mät-disciplinen prediktera→mät→förfina→backporta, arkiv-policyn, "ett fakta = en cell"), (c) **SAJTPROFILEN** (per kund: husröst, juridisk ram MFL/PIL/estetiklagen, silo-karta, brandfakta 30 år/SHR/1994, förbudslistan). Idag ligger de om vartannat — §5 blandar em-streck (hantverk), medicinska påståenden (sajtprofil) och roaccutan-guarden (enskild sida); §1.1/§1.3 är rena LYNX-artefakter (per-block-tiers finns inte i GSC). **Billig förberedelse när vi ändå rör filerna:** lägg en ANDRA axel bredvid KIND — `SCOPE: CRAFT | SITE | SIGNAL` — så blir framtida extraktion en grep i stället för en omskrivning. **Två beslut som blir dyrare med tiden:** `lynx-`-prefixet bakar in leverantören i varje filnamn; §-numren (arv från monolit-playbooken) är redan orsaken till trasiga pekare vid varje flytt → namngivna ankare (`#formeln`, `#seo-skydd`) överlever flyttar. **⚠️ Ärlighet:** bedömningsmodellen är kalibrerad på EN korpus, ETT språk, EN bransch (blindtest 57–62 % exakt på vår copy; 3 av 14 omskrivna sidor mätta). Generalisera METODEN, inte MODELLEN, förrän en andra sajt bekräftat den.
 - [P] Dubbel `title`-attribut i widgets (§8 — beslut: skippa).
 - [V] **Exosomer + polynukleotider (kombinationsbehandlingar) på microneedling.php** — LYNX HIGH-gap 2 jul (konkurrenter: Akademikliniken, Nordiska Kliniken lyfter det); **väntar på att kliniken lanserar behandlingen** (ägaren 2 jul: "vi ska introducera exosomer"). När den finns: eget kort/block på microneedling.php i husröst (§4) inom §5-ramarna + silo-beslut om ev. egen sida. Skriv INGET innan ägaren bekräftar att tjänsten är live.
@@ -266,10 +214,22 @@ Skillnaden mot de andra listorna: **§9.0/Fas-listorna = planerat arbete** · **
 
 **Format:** en rad. `[allvarlighet] fyndet — var det syns — vad som skulle krävas.` Bevis hör hemma i raden, inte i en utredning.
 
-- [ ] **[DOC] Ägarbeslut 8 juli, ännu ej infört i §0.1:** *"småfix sparas och pushas utan slutcheck så vi inte gör det igen för småfix."* §0.1 VID SLUT säger idag *"Fråga sedan ägaren om du ska köra slutchecken"* — den ska inte fråga varje gång. Skriv om raden: **småfix → commit + push, ingen slutcheck, ingen fråga.** Undantag som redan står där: sidarbete (§13.E, §7.4b, §6:s fras-koll) och ändringar i §-KARTAN (resolvern validerar den — kör `statuskoll.py`). Start-checken nästa session är skyddsnätet.
-- [ ] **[LOW] Stubben `lynx-copy-playbook.php` bär en egen stale filkarta.** Dess tabell påstår att `lynx-START.php` innehåller *"backlog §8/§9 · claims §12"* — de flyttade till `lynx-backlog.php` 8 juli (§9.0 steg 7). Det är exakt den pekartyp §0 förbjuder ("skriv aldrig §N i `<filnamn>`"). `pekarkoll` fångar den inte: rad 96 hoppar över `KIND=DÖR`-filer. **Ofarligt så länge stubben faktiskt raderas** — men den har nu överlevt ett ägarbeslut ("vi tar inte bort något just nu") och pekar fel under tiden. Avgörs av §9.0:s raderingsbeslut.
-- [ ] **[LOW] `pekarkoll`s "okända lynx-omnämnanden" listar 14 böjningsformer** (`lynx-datas`, `lynx-scores`, `lynx-fil`, `lynx-logg-posterna` …). Ren svensk genitiv/pluralböjning i prosa, inga trasiga pekare. Detektorn saknar skiftlägeshantering och böjningsstamning. **Beslut: ignorera, eller lär detektorn stamma?** Ingår i CHECK-REVISIONEN steg 1.
+- [ ] **[LOW] Stubben `lynx-copy-playbook.php` bär en egen stale filkarta.** Dess tabell påstår att `lynx-START.php` innehåller *"backlog §8/§9 · claims §12"* — de flyttade till `lynx-backlog.php` 8 juli (§9.0 steg 7). Det är exakt den pekartyp §0 förbjuder ("skriv aldrig §N i `<filnamn>`"). **Ofarligt så länge stubben faktiskt raderas** — men den har nu överlevt ett ägarbeslut ("vi tar inte bort något just nu") och pekar fel under tiden. Avgörs av §9.0:s raderingsbeslut.
 - [ ] **[LOW] §9.0 steg 8: specen sa "§13.O:s *tre* stycken → ett", utfallsraden säger "*fyra* stycken → ett".** Båda bevarade i steg 8-raden. Ingen vet i efterhand vilken som räknade rätt; §13.O är redan ett stycke. Kosmetiskt.
-- [ ] **[LOW] "Sex hypoteser" stämmer inte med listan — den bär nio.** LÄGE-bannern och §9 steg 1 sa båda *sex*; EJ VERIFIERAT-listan innehåller nio `·`-separerade påståenden (statuskoll 3 · pekarkoll 2 · noloss 4). Ingen vet vilka tre som räknades bort. **Ofarligt** — varje påstående mutationstestas ändå en och en — men siffran styr förväntan på hur lång revisionen är. **Vad som krävs:** ägaren (eller den som skrev listan) avgör om tre av dem är delfall av andra; annars skriv nio. Upptäckt medan V5 bokfördes.
 
 *(Tomma rader tas aldrig bort med motiveringen "verkar inte viktigt". De tas bort när fyndet är åtgärdat eller när ägaren avfärdar det — och då med en rad i §11.)*
+
+---
+
+## 9.3 PARKERAT-META — arbete på LYNX-filerna själva (ägarbeslut 8 juli)
+**Detta föreslås ALDRIG vid sessionsstart.** Det ligger här tills ägaren ber om det med egna ord. Kön i §9 innehåller **sidor**; verktyg, struktur, städning och revisioner innehåller den inte.
+
+**Varför lådan finns:** den 8 juli stod ett meta-projekt som *"FÖRST I KÖN"* i §9. En ny Claude läste kön, erbjöd projektet som ett alternativ bland andra, ägaren valde ur listan — och hela sessionen gick till verktyg. Ingen regel bröts av slarv; **seedet låg i filen innan sessionen började.** §0.1 hade redan *"ett fynd är inte ett uppdrag"* och *"ett verktyg är inte ett mål"*. Båda skrivna samma dag, båda brutna samma dag. **Skyddet måste vara strukturellt, inte något du ska minnas.**
+
+**Utfallstestet (§0.1):** rör sessionens `git diff --stat` bara `includes/lynx/` har uppdraget inte flyttat sig. Säg det rakt ut i stället för att låta gröna commits se ut som framsteg.
+
+- [ ] §9.0:s fyra ägarbeslut: stubben `lynx-copy-playbook.php` · `lynx-optimering-underlag.php` (temp) · `lynx-score` HISTORIK-prosan · filnamnskonventionen.
+- [ ] Produktifieringen: separera SIGNAL / HANTVERK / SAJTPROFIL, `SCOPE`-tagg bredvid `KIND`.
+- [ ] Datum-svepet: gamla poster skriver "2 jul", konventionen säger "2 juli" (§0.2). Retroaktivt, kosmetiskt.
+
+*(Tillkommer något här: skriv EN rad, gå vidare. Ta aldrig något härifrån utan att ägaren ber om det.)*

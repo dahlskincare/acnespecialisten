@@ -488,7 +488,7 @@ VALUE 66 · SCORE **60** (var 50) · GAPS 0⚡/1💡 · AI COPY 🔵 SLIGHT · A
 
 **Räkning:** 5🔴/2🟠/4🔵/2🟢 (n=13). **§1.4-check:** MEDEL = (15+4+4+0)/13 ≈ **1,77 → 🟠 ✓**; MEDIAN = 7:e av 13 = **🟠 ✓**. **Badge-mattem:** 🔵 kräver summa ≤19 → skala bort 4 poäng ≈ **2 🔴→🔵-fixar** (näst billigast efter mogen-hy). **Obetygsatt:** sektionsrubriker, prisrad (Från 995 kr), 4 FAQ-titlar. **Rewrite-ammo:** 4 live-språkfel **ALLA FIXADE 2 jul** (trasig hirsutism-mening, "området mellan näsan"→"runt näsan", östrogen-meningen, verblös partner-mening + "dina individuella hår och hudtyp"→"din individuella hår- och hudtyp"). *("hårfollikelarna" var transkriptionsfel — stavningen var redan korrekt.)*
 
-*(§1.4-konsolideringen, MODELLANALYS 2 juli (A–D) och blindtest 3 + 4 → `lynx-examples-arkiv.php`. Allt ratificerat: §1.4-gråzonen och v5-gradienten står i `lynx-rewrite`; §1.2 i `lynx-score`.)*
+*(§1.4-konsolideringen, MODELLANALYS 2 juli (A–D) och blindtest 3 + 4 → `lynx-examples-arkiv.php`. Allt ratificerat: §1.4-gråzonen och v5-gradienten står i `lynx-rewrite`; §1.2 i `lynx-models` (härledningen i `lynx-score`).)*
 
 ## Rewrite-resultat (fyll på efter LYNX-refresh — validerar/finjusterar modellen)
 | Sida | Block | Före | Efter (ny LYNX) | Vad vi ändrade | Datum |

@@ -269,7 +269,7 @@ Sidorna rankar redan på sökord. Omskrivningen får höja kvaliteten **utan att
 - **Bevara varje distinkt punkt — döm efter sektionens SYFTE.** Är sektionens hela poäng en uppräkning (varningstecken, ansiktszoner, metoder) → **behåll posterna distinkta; en stramad de-fluffad lista är då rätt, inte en nödlösning.** Var "listan" i själva verket utfylld prosa → gör om till bunden prosa.
 - **Slå aldrig ihop två poänger till en vagare mening, och tappa aldrig någon.** Döda etikett-filler-formatet, inte substansen. **Räkna punkterna före/efter** ("fysisk smärta" och "utebliven förbättring" är två tecken, inte ett). Det är ett skäl till att vi läser HELA sidan: bara så vet vi en sektions syfte.
 
-**E. Definition of Done.** `statuskoll.py` grön (ingen cell säger emot §11.1); `git diff` rör bara mål-`.php` (+ logg); deploy grön; **sidan testad på staging-URL → HTTP 200 + renderad HTML (inte blankt/500, §13.C) §7.6**; sökord finns kvar (grep); LYNX-baseline + ändring loggad i §11. Först då töms claim i §12.
+**E. Definition of Done.** Ingen cell säger emot §11.1 (läs den kanoniska cellen, synka cachen för hand — §0.2); `git diff` rör bara mål-`.php` (+ logg); deploy grön; **sidan testad på staging-URL → HTTP 200 + renderad HTML (inte blankt/500, §13.C) §7.6**; sökord finns kvar (grep); LYNX-baseline + ändring loggad i §11. Först då töms claim i §12.
 
 **⚠️ ORDNINGEN (skärpt 8 juli): §7.4b-verifieringen körs FÖRE du visar ägaren, inte efter.** Ägaren kan bara svara på "ändrar jag för mycket?" om underlaget stämmer. Ett pass godkändes 8 juli på en kvittens som senare visade sig felaktig; granskningen fällde texten efteråt. Visa ägaren granskarnas fynd, inte bara din egen sammanfattning.
 
