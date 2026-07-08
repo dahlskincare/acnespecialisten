@@ -9,16 +9,18 @@ KANONISK-FÖR  statuskoll (divergens) · pekarkoll (trasiga pekare) · noloss (i
 PEKAR-PÅ      lynx-START §0 = statusdisciplinen + arkitekturen · lynx-models §11.1 = den kanoniska statuscellen
 ```
 
-> **Varför de finns.** Tre felklasser har kostat oss tid, alla tysta: (1) en cell säger emot en annan — 6 juli sa sex sidor "väntar main-push" medan LÄGE sa "live på main"; (2) en pekare pekar på en fil som flyttat; (3) innehåll försvinner i en omstrukturering utan att någon märker det. Ögat missar alla tre. Ett skript gör det inte.
+> ⚠️ **Kodblocken nedan använder `~~~`-fence, inte trippel-backtick.** Skripten innehåller själva trippel-backtick (pekarkoll och statuskoll parsar §-KARTA-blocket i lynx-START). Bäddas de in i en backtick-fence hugger koden av sitt eget block. Det hände 8 juli: repo-kopian av pekarkoll var trunkerad till 564 tecken och gick inte att köra. **Rör inte fencen.**
 >
-> **Gyllene regeln: en check som kan returnera tyst grönt är farligare än ingen check.** Alla tre är negativkontrollerade — det är visat att de blir röda när man skadar det de bevakar. Sänk aldrig en tröskel, och gör aldrig en regel mer tillåtande, utan att först bevisa att innehållet är intakt. Kör negativkontrollen igen efteråt.
+> **Varför verktygen finns.** Tre felklasser har kostat oss tid, alla tysta: (1) en cell säger emot en annan — 6 juli sa sex sidor "väntar main-push" medan LÄGE sa "live på main"; (2) en pekare pekar på en fil som flyttat; (3) innehåll försvinner i en omstrukturering utan att någon märker det. Ögat missar alla tre. Ett skript gör det inte.
 >
-> *(Två gånger har en osäker hjälpare i de här skripten gjort skada: ett tomt regex-slice fick `str.replace("", x)` att spränga en fil 53 kB → 55 MB, och en FÖRE-lägesmappning fick blast radius att rapportera 0. Båda fångades av att en annan check gick rött. Låt aldrig en hjälpare returnera tomt.)*
+> **Gyllene regeln: en check som kan returnera tyst grönt är farligare än ingen check.** Alla tre är negativkontrollerade — det är visat att de blir röda när man skadar det de bevakar. **Sänk aldrig en tröskel, gör aldrig en regel mer tillåtande, och peka aldrig om en nål, utan att först bevisa att innehållet lever. Kör negativkontrollen igen efteråt.** Detta gäller även en check du själv graderar: en självgraderad kvittens är samma felklass (§13.E).
+>
+> *(Tre gånger 8 juli gjorde en osäker hjälpare skada: ett tomt regex-slice fick `str.replace("", x)` att spränga en fil 53 kB → 55 MB · en FÖRE-lägesmappning fick blast radius att rapportera 0 · en backtick i en heredoc lät shellet exekvera ett kodblock. Låt aldrig en hjälpare returnera tomt.)*
 
 ## 1. `statuskoll.py` — säger cellerna samma sak?
-Läser status ur den KANONISKA cellen (`lynx-models` §11.1) och larmar om någon aktiv cell påstår motsatsen (MÄTT vs OMÄTT, LIVE vs "väntar main-push"). Kollar även att varje omskriven sida HAR en kanonisk rad, och att §-KARTAN pekar på filer som faktiskt bär §:et. **Kör efter varje statusbyte och alltid före en main-push.** Den hade fångat 6 juli-driften samma dag den uppstod.
+Läser status ur den KANONISKA cellen (`lynx-models` §11.1) och larmar om någon aktiv cell påstår motsatsen (MÄTT vs OMÄTT, LIVE vs "väntar main-push"). Kollar även att varje omskriven sida HAR en kanonisk rad, och att §-KARTAN pekar på filer som faktiskt bär §:et. **Kör efter varje statusbyte och alltid före en main-push.** Den hade fångat 6 juli-driften samma dag den uppstod; första körningen 8 juli hittade två stale states som överlevt hela §9.0-passet.
 
-```python
+~~~python
 #!/usr/bin/env python3
 """STATUSKOLL — divergens-detektor för LYNX-filsetet.
 
@@ -156,55 +158,12 @@ print('\n═══ 🔴 RESOLVERN — pekar §-KARTAN på filer som bär §:et? 
 print('  ✓ varje § i kartan har en matchande rubrik i sin fil' if not r else '\n'.join(f'  ❌ {a}: {c}' for a,_,c in r))
 
 sys.exit(1 if (n or m or s or r) else 0)
-```\n(.*?)```', txt, re.S)
-    if not blk: return [('lynx-START.php', 0, '§-KARTA-blocket saknas')]
-    fel = []
-    for line in blk.group(1).splitlines():
-        m = re.match(r'\s*(§[\d.,\s§]+?)\s*→\s*(\S+)', line)
-        if not m: continue
-        mal = m.group(2)
-        if mal == 'lynx-backlog': mal = 'lynx-backlog'
-        try: filtext = load(mal + '.php')
-        except FileNotFoundError:
-            fel.append((mal, 0, 'filen finns inte')); continue
-        for ref in re.findall(r'§(\d+(?:\.\d+)?)', m.group(1)):
-            # rubrik som "## 1.2", "### 8.1", "## §14", "## 0.3"
-            if not re.search(r'^#{1,4} (§)?' + re.escape(ref) + r'[\s.]', filtext, re.M):
-                fel.append((mal, 0, f'§-KARTAN säger att §{ref} bor här, men ingen rubrik matchar'))
-    return fel
-
-sidor = kanonisk()
-print(f'═══ KANONISK CELL: lynx-models §11.1 — {len(sidor)} sidor ═══')
-print(f'   MÄTTA: {", ".join(s for s,v in sidor.items() if v["matt"]) or "—"}')
-print(f'   OMÄTTA: {len([1 for v in sidor.values() if not v["matt"]])} st · LIVE: {len([1 for v in sidor.values() if v["live"]])} st')
-
-n = 0
-print('\n═══ 🔴 MOTSÄGELSER — en cell säger emot den kanoniska ═══')
-for f, ln, slug, why, line in kolla_motsagelser(sidor):
-    print(f'  ❌ {f}:{ln}  [{slug}]  {why}\n       {line.strip()[:100]}'); n += 1
-print('  ✓ inga' if not n else f'  ── {n} MÅSTE LAGAS')
-
-m = 0
-print('\n═══ 🔴 DÖDA FRASER — härlett ur den kanoniska cellen ═══')
-for f, ln, _, why, line in kolla_dodsfraser(sidor):
-    print(f'  ❌ {f}:{ln}  {why}\n       {line.strip()[:100]}'); m += 1
-print('  ✓ inga' if not m else f'  ── {m} MÅSTE LAGAS')
-
-s = kolla_fullstandighet(sidor)
-print('\n═══ 🔴 FULLSTÄNDIGHET — omskriven sida utan kanonisk rad ═══')
-print('  ✓ alla omskrivna sidor har en §11.1-rad' if not s else '\n'.join(f'  ❌ SAKNAS i §11.1: {x}' for x in s))
-
-r = kolla_resolvern()
-print('\n═══ 🔴 RESOLVERN — pekar §-KARTAN på filer som bär §:et? ═══')
-print('  ✓ varje § i kartan har en matchande rubrik i sin fil' if not r else '\n'.join(f'  ❌ {a}: {c}' for a,_,c in r))
-
-sys.exit(1 if (n or m or s or r) else 0)
-```
+~~~
 
 ## 2. `pekarkoll.py` — pekar pekarna rätt?
 Parsar §-KARTAN ur `lynx-START` (håller aldrig en egen kopia — det vore samma lagbrott den ska bevaka). **Den avgörande checken heter TRASIGA pekare:** en pekare som NAMNGER en fil, eller är POSITIONELL ("§9 nedan"), bryts när filen flyttar; ett naket §-nummer gör det inte. Kör med `--efter` efter en omstrukturering och diffa mot FÖRE-baselinen.
 
-```python
+~~~python
 #!/usr/bin/env python3
 """Pekar-census för LYNX-filsetet. Kör FÖRE och EFTER varje omstrukturerings-steg
 (§9.0 steg 7 + 9). Utan FÖRE-baseline går trasiga pekare inte att attribuera.
@@ -318,112 +277,12 @@ for path in files:
         print(f'  {src:<26} ×{n:<3} [{k}]{"  ← måste bort före radering" if k in ("AKTIV","REGEL") else ""}')
         tot += n
 print('  ✓ ingen — kan raderas' if not tot else f'  ── {tot} omnämnanden')
-```\n(.*?)```', txt, re.S)
-    if not blk: sys.exit('❌ §-KARTA-blocket hittades inte i lynx-START — resolvern saknas, avbryter.')
-    m = {}
-    for line in blk.group(1).splitlines():
-        mm = re.match(r'\s*(§[\d.,\s§]+?)\s*→\s*(\S+)', line)
-        if not mm: continue
-        target = mm.group(2)
-        if 'FLYTTAR' in line and 'lynx-backlog' in line: target = 'BACKLOG'
-        for ref in re.findall(r'§(\d+(?:\.\d+)?)', mm.group(1)):
-            m[ref] = target
-    if not m: sys.exit('❌ §-KARTA-blocket kunde inte parsas.')
-    return m
-
-SEC = load_sec_map()
-def owner_of(ref):
-    return SEC.get(ref) or SEC.get(ref.split('.')[0])
-
-HOME_NOW = 'lynx-backlog' if EFTER else 'lynx-START'
-
-# KIND per fil — avgör OM en trasig pekare måste redigeras
-KIND = {'lynx-START':'AKTIV','lynx-rewrite':'REGEL','lynx-models':'REGEL','lynx-score':'REGEL',
-        'lynx-data':'AKTIV','lynx-gaps':'AKTIV','lynx-questions':'AKTIV','lynx-examples':'AKTIV',
-        'lynx-backlog':'AKTIV','lynx-examples-arkiv':'HISTORIK','lynx-logg':'HISTORIK','lynx-log-arkiv':'HISTORIK',
-        'lynx-data-arkiv':'HISTORIK','lynx-examples-arkiv':'HISTORIK',
-        'lynx-copy-playbook':'DÖR','lynx-optimering-underlag':'TEMP'}
-PLANNED = {'lynx-backlog','lynx-examples-arkiv','lynx-examples-aktiv','lynx-score-arkiv'}
-
-files = sorted(glob.glob(os.path.join(LYNX,'*.php')))
-existing = {os.path.basename(f)[:-4] for f in files}
-sec_re, file_re = re.compile(r'§\s?(\d+(?:\.\d+)?)'), re.compile(r'\blynx-[a-z-]+\b')
-
-blast = collections.Counter(); unresolved = []; unknown = collections.Counter()
-for path in files:
-    src = os.path.basename(path)[:-4]
-    text = open(path, encoding='utf-8').read()
-    for m in sec_re.finditer(text):
-        ref = m.group(1)
-        owner = owner_of(ref)
-        if owner is None: unresolved.append((src, ref)); continue
-        if owner == 'BACKLOG' and src != HOME_NOW and src != 'lynx-backlog':
-            blast[(KIND.get(src,'?'), src)] += 1
-    for m in file_re.finditer(text):
-        t = m.group(0)
-        if t not in existing and t not in PLANNED: unknown[(src,t)] += 1
-
-print(f'═══ BLAST RADIUS steg 7 — §8/§9/§12-pekare utanför en backlog-cell ═══')
-groups = collections.defaultdict(int)
-for (kind, src), n in blast.items(): groups[kind] += n
-todo = 0
-for kind in ('AKTIV','REGEL','HISTORIK','DÖR','TEMP'):
-    rows = sorted([(s,n) for (k,s),n in blast.items() if k==kind], key=lambda x:-x[1])
-    if not rows: continue
-    action = {'AKTIV':'✏️  MÅSTE REDIGERAS','REGEL':'✏️  MÅSTE REDIGERAS',
-              'HISTORIK':'📌 EN header-rad räcker (append-only, ej retroaktiv)',
-              'DÖR':'🗑  filen raderas (steg 9)','TEMP':'🗑  filen raderas (steg 10)'}[kind]
-    print(f'\n  [{kind}]  {groups[kind]:>3} pekare — {action}')
-    for s,n in rows: print(f'      {s:<26} {n:>3}')
-    if kind in ('AKTIV','REGEL'): todo += groups[kind]
-print(f'\n  ➜ FAKTISKA REDIGERINGAR: {todo} pekare. Resten: {groups["HISTORIK"]} via 3 header-rader, '
-      f'{groups["DÖR"]+groups["TEMP"]} i filer som raderas.')
-
-print('\n═══ §-REF UTAN ÄGARE (skulle vara redan trasiga) ═══')
-print('  ✓ inga' if not unresolved else '\n'.join(f'  ❌ {s} §{r}' for s,r in set(unresolved)))
-
-print('\n═══ lynx-*-omnämnanden som INTE är kända/planerade filer (granska manuellt) ═══')
-for (s,t),n in sorted(unknown.items()):
-    print(f'  {s:<26} → {t:<32} ×{n}')
-
-# ── DEN AVGÖRANDE CHECKEN: pekare som NAMNGER fel fil, eller är positionella ──
-# En ren "§9" löses av §-KARTAN och är inte trasig. En "lynx-START §9" eller "§9 nedan" ÄR trasig.
-print('\n═══ 🔴 TRASIGA pekare — namnger fel fil eller är positionella (måste vara 0) ═══')
-MOVED = r'§\s?(?:8|9|12)(?:\.[0-9])?'
-QUAL  = re.compile(r'(?:lynx-)?START[^.\n]{0,15}' + MOVED + r'|' + MOVED + r'[^.\n]{0,25}(?:i |från |överst i )(?:lynx-)?START')
-POS   = re.compile(MOVED + r'[^|\n]{0,25}(?:nedan|ovan|överst)|(?:nedan|ovan|överst)[^|\n]{0,15}' + MOVED)
-broken = 0
-for path in files:
-    src = os.path.basename(path)[:-4]
-    if KIND.get(src) in ('HISTORIK','TEMP','DÖR'): continue   # historik: header-raden täcker; temp/dör: raderas
-    txt = open(path, encoding='utf-8').read()
-    # En positionell pekare ("§9 nedan") är KORREKT i den fil där §9 faktiskt bor.
-    at_home = (src == HOME_NOW)
-    rules = ((QUAL,'NAMNGER FIL'),) if at_home else ((QUAL,'NAMNGER FIL'), (POS,'POSITIONELL'))
-    for lineno, line in enumerate(txt.split('\n'), 1):
-        for rx, kind in rules:
-            if rx.search(line):
-                print(f'  ❌ {src}:{lineno}  [{kind}]  {line.strip()[:95]}')
-                broken += 1
-print('  ✓ inga trasiga pekare' if not broken else f'  ── {broken} MÅSTE LAGAS')
-
-print('\n═══ STUBBEN lynx-copy-playbook — vem pekar på den? ═══')
-tot = 0
-for path in files:
-    src = os.path.basename(path)[:-4]
-    if src == 'lynx-copy-playbook': continue
-    n = open(path, encoding='utf-8').read().count('lynx-copy-playbook')
-    if n:
-        k = KIND.get(src,'?')
-        print(f'  {src:<26} ×{n:<3} [{k}]{"  ← måste bort före radering" if k in ("AKTIV","REGEL") else ""}')
-        tot += n
-print('  ✓ ingen — kan raderas' if not tot else f'  ── {tot} omnämnanden')
-```
+~~~
 
 ## 3. `noloss.py` — tappade vi något?
-Ett batteri per §9.0-steg, härlett ur MÅSTE-BEHÅLLAS-listorna i granskningsrapporterna. **Kör FÖRE redigering** — måste vara grönt, annars är nålarna fel, inte filen — **och efter.**
+Ett batteri per §9.0-steg, härlett ur MÅSTE-BEHÅLLAS-listorna. **Kör FÖRE redigering** — måste vara grönt, annars är nålarna fel, inte filen — **och efter.**
 
-```python
+~~~python
 #!/usr/bin/env python3
 """No-loss-batteri per §9.0-steg. Härlett ur underlagets MÅSTE-BEHÅLLAS-listor.
 Kör FÖRE redigering (måste vara helgrönt — annars är nålarna fel) och EFTER (måste vara helgrönt).
@@ -691,4 +550,4 @@ def main():
     sys.exit(1 if fails else 0)
 
 main()
-```
+~~~

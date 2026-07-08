@@ -99,9 +99,11 @@
 
 **Verktygen (bor här — dör med denna fil vid steg 10; efter det bär manifestens `PEKAR-PÅ` bevakningen).**
 
+⚠️ *Kodblocken använder `~~~`-fence: skripten innehåller själva trippel-backtick och skulle annars hugga av sitt eget block (hände 8 juli).*
+
 <details><summary><code>pekarkoll.py</code> — pekar-census; kör före/efter varje omstrukturering. **Den avgörande checken är "TRASIGA pekare"** (namnger fel fil / positionell) — en ren §-referens löses av §-KARTAN och är inte trasig</summary>
 
-```python
+~~~python
 #!/usr/bin/env python3
 """Pekar-census för LYNX-filsetet. Kör FÖRE och EFTER varje omstrukturerings-steg
 (§9.0 steg 7 + 9). Utan FÖRE-baseline går trasiga pekare inte att attribuera.
@@ -115,6 +117,107 @@ EFTER = '--efter' in sys.argv
 def load_sec_map():
     txt = open(os.path.join(LYNX, 'lynx-START.php'), encoding='utf-8').read()
     blk = re.search(r'### §-KARTA.*?```\n(.*?)```', txt, re.S)
+    if not blk: sys.exit('❌ §-KARTA-blocket hittades inte i lynx-START — resolvern saknas, avbryter.')
+    m = {}
+    for line in blk.group(1).splitlines():
+        mm = re.match(r'\s*(§[\d.,\s§]+?)\s*→\s*(\S+)', line)
+        if not mm: continue
+        target = mm.group(2)
+        if 'FLYTTAR' in line and 'lynx-backlog' in line: target = 'BACKLOG'
+        for ref in re.findall(r'§(\d+(?:\.\d+)?)', mm.group(1)):
+            m[ref] = target
+    if not m: sys.exit('❌ §-KARTA-blocket kunde inte parsas.')
+    return m
+
+SEC = load_sec_map()
+def owner_of(ref):
+    return SEC.get(ref) or SEC.get(ref.split('.')[0])
+
+HOME_NOW = 'lynx-backlog' if EFTER else 'lynx-START'
+
+# KIND per fil — avgör OM en trasig pekare måste redigeras
+KIND = {'lynx-START':'AKTIV','lynx-rewrite':'REGEL','lynx-models':'REGEL','lynx-score':'REGEL',
+        'lynx-data':'AKTIV','lynx-gaps':'AKTIV','lynx-questions':'AKTIV','lynx-examples':'AKTIV',
+        'lynx-backlog':'AKTIV','lynx-examples-arkiv':'HISTORIK','lynx-logg':'HISTORIK','lynx-log-arkiv':'HISTORIK',
+        'lynx-data-arkiv':'HISTORIK','lynx-examples-arkiv':'HISTORIK',
+        'lynx-copy-playbook':'DÖR','lynx-optimering-underlag':'TEMP','lynx-verktyg':'VERKTYG'}
+PLANNED = {'lynx-backlog','lynx-examples-arkiv','lynx-examples-aktiv','lynx-score-arkiv'}
+
+files = sorted(glob.glob(os.path.join(LYNX,'*.php')))
+existing = {os.path.basename(f)[:-4] for f in files}
+sec_re, file_re = re.compile(r'§\s?(\d+(?:\.\d+)?)'), re.compile(r'\blynx-[a-z-]+\b')
+
+blast = collections.Counter(); unresolved = []; unknown = collections.Counter()
+for path in files:
+    src = os.path.basename(path)[:-4]
+    text = open(path, encoding='utf-8').read()
+    for m in sec_re.finditer(text):
+        ref = m.group(1)
+        owner = owner_of(ref)
+        if owner is None: unresolved.append((src, ref)); continue
+        if owner == 'BACKLOG' and src != HOME_NOW and src != 'lynx-backlog':
+            blast[(KIND.get(src,'?'), src)] += 1
+    for m in file_re.finditer(text):
+        t = m.group(0)
+        if t not in existing and t not in PLANNED: unknown[(src,t)] += 1
+
+print(f'═══ BLAST RADIUS steg 7 — §8/§9/§12-pekare utanför en backlog-cell ═══')
+groups = collections.defaultdict(int)
+for (kind, src), n in blast.items(): groups[kind] += n
+todo = 0
+for kind in ('AKTIV','REGEL','HISTORIK','DÖR','TEMP'):
+    rows = sorted([(s,n) for (k,s),n in blast.items() if k==kind], key=lambda x:-x[1])
+    if not rows: continue
+    action = {'AKTIV':'✏️  MÅSTE REDIGERAS','REGEL':'✏️  MÅSTE REDIGERAS',
+              'HISTORIK':'📌 EN header-rad räcker (append-only, ej retroaktiv)',
+              'DÖR':'🗑  filen raderas (steg 9)','TEMP':'🗑  filen raderas (steg 10)'}[kind]
+    print(f'\n  [{kind}]  {groups[kind]:>3} pekare — {action}')
+    for s,n in rows: print(f'      {s:<26} {n:>3}')
+    if kind in ('AKTIV','REGEL'): todo += groups[kind]
+print(f'\n  ➜ FAKTISKA REDIGERINGAR: {todo} pekare. Resten: {groups["HISTORIK"]} via 3 header-rader, '
+      f'{groups["DÖR"]+groups["TEMP"]} i filer som raderas.')
+
+print('\n═══ §-REF UTAN ÄGARE (skulle vara redan trasiga) ═══')
+print('  ✓ inga' if not unresolved else '\n'.join(f'  ❌ {s} §{r}' for s,r in set(unresolved)))
+
+print('\n═══ lynx-*-omnämnanden som INTE är kända/planerade filer (granska manuellt) ═══')
+for (s,t),n in sorted(unknown.items()):
+    print(f'  {s:<26} → {t:<32} ×{n}')
+
+# ── DEN AVGÖRANDE CHECKEN: pekare som NAMNGER fel fil, eller är positionella ──
+# En ren "§9" löses av §-KARTAN och är inte trasig. En "lynx-START §9" eller "§9 nedan" ÄR trasig.
+print('\n═══ 🔴 TRASIGA pekare — namnger fel fil eller är positionella (måste vara 0) ═══')
+MOVED = r'§\s?(?:8|9|12)(?:\.[0-9])?'
+QUAL  = re.compile(r'(?:lynx-)?START[^.\n]{0,15}' + MOVED + r'|' + MOVED + r'[^.\n]{0,25}(?:i |från |överst i )(?:lynx-)?START')
+POS   = re.compile(MOVED + r'[^|\n]{0,25}(?:nedan|ovan|överst)|(?:nedan|ovan|överst)[^|\n]{0,15}' + MOVED)
+broken = 0
+for path in files:
+    src = os.path.basename(path)[:-4]
+    # VERKTYG citerar pekare som exempel i sin egen kod — den äger inga.
+    if KIND.get(src) in ('HISTORIK','TEMP','DÖR','VERKTYG'): continue
+    txt = open(path, encoding='utf-8').read()
+    # En positionell pekare ("§9 nedan") är KORREKT i den fil där §9 faktiskt bor.
+    at_home = (src == HOME_NOW)
+    rules = ((QUAL,'NAMNGER FIL'),) if at_home else ((QUAL,'NAMNGER FIL'), (POS,'POSITIONELL'))
+    for lineno, line in enumerate(txt.split('\n'), 1):
+        for rx, kind in rules:
+            if rx.search(line):
+                print(f'  ❌ {src}:{lineno}  [{kind}]  {line.strip()[:95]}')
+                broken += 1
+print('  ✓ inga trasiga pekare' if not broken else f'  ── {broken} MÅSTE LAGAS')
+
+print('\n═══ STUBBEN lynx-copy-playbook — vem pekar på den? ═══')
+tot = 0
+for path in files:
+    src = os.path.basename(path)[:-4]
+    if src == 'lynx-copy-playbook': continue
+    n = open(path, encoding='utf-8').read().count('lynx-copy-playbook')
+    if n:
+        k = KIND.get(src,'?')
+        print(f'  {src:<26} ×{n:<3} [{k}]{"  ← måste bort före radering" if k in ("AKTIV","REGEL") else ""}')
+        tot += n
+print('  ✓ ingen — kan raderas' if not tot else f'  ── {tot} omnämnanden')
+~~~\n(.*?)```', txt, re.S)
     if not blk: sys.exit('❌ §-KARTA-blocket hittades inte i lynx-START — resolvern saknas, avbryter.')
     m = {}
     for line in blk.group(1).splitlines():
@@ -219,7 +322,7 @@ print('  ✓ ingen — kan raderas' if not tot else f'  ── {tot} omnämnande
 
 <details><summary><code>noloss.py</code> — no-loss-batteri per steg (5, 6, 7, 8, 9 färdiga + validerade åt båda håll)</summary>
 
-```python
+~~~python
 #!/usr/bin/env python3
 """No-loss-batteri per §9.0-steg. Härlett ur underlagets MÅSTE-BEHÅLLAS-listor.
 Kör FÖRE redigering (måste vara helgrönt — annars är nålarna fel) och EFTER (måste vara helgrönt).
@@ -228,6 +331,8 @@ import sys, os, re
 
 LYNX = '/Applications/Cursor/acnespecialisten/includes/lynx'
 def load(f):
+    if f == 'EXAMPLES_ALL':
+        return open(os.path.join(LYNX,'lynx-examples.php'),encoding='utf-8').read() + open(os.path.join(LYNX,'lynx-examples-arkiv.php'),encoding='utf-8').read()
     if f == 'UNION':
         t = load('lynx-START')
         try: t += load('lynx-backlog')
@@ -357,7 +462,9 @@ STEP = {
   # Omätta FÖRE-baselines + öppna prediktioner
   ('AI STYLE-FÖRE pigment 55 / rhino 70',   'UNION', 'pigment 55, rhino 70'),
   ('V2-rewriterna OMÄTTA',                  'UNION', 'V2-rewriterna fortfarande OMÄTTA'),
-  ('pigmentflackar V2: prediktion + AI STYLE 55', 'UNION', 'jämför AI STYLE mot 55-baselinen'),
+  ('pigmentflackar V2: prediktion kvar',      'UNION', 'pred 🟠→🔵'),
+  ('pigmentflackar V2: AI STYLE-FÖRE 55',     'UNION', 'AI STYLE mot 55-baselinen'),
+  ('pigmentflackar: AI STYLE 55 i kanonisk cell', 'lynx-models', 'AI STYLE-FÖRE 55'),
   # Invarianter som MÅSTE stanna i START
   ('Prime-direktivet: ändrar jag för mycket?','lynx-START', 'ändrar jag för mycket?'),
   ('Prime-direktivet: räkna punkterna',      'lynx-START', 'räkna punkterna före/efter'),
@@ -421,7 +528,9 @@ def structural(step):
         m = re.search(r'## 11\.1(.*?)(?=\nNär en rad refreshats)', t, re.S)
         rows = [l for l in (m.group(1).splitlines() if m else []) if l.startswith('| ') and '---' not in l]
         body = len(rows) - 1  # minus rubrikraden
-        out.append((f'§11.1: alla 13 bevakningsrader kvar (hittade {body})', body == 13))
+        out.append((f'§11.1: minst 16 bevakningsrader (hittade {body})', body >= 16))
+        for sida in ('solskadad-hy','rhinophyma-rosacea','pigmentflackar.php','acne-ansikte','om-oss'):
+            out.append((f'§11.1 har rad för {sida}', sida in m.group(1)))
         # varje omätt rad måste behålla en FÖRE-baseline
         need = ['SCORE 22', 'AISTYLE25', 'AISTYLE30', 'medel 1,57', 'medel 1,77', 'medel 1,82', 'medel 1,92']
         for n in need:
@@ -439,17 +548,24 @@ def structural(step):
     if step == 9:
         t = load('lynx-examples')
         # varje sida med facit måste ha kvar sin Räkning-rad och sitt sidnamn
-        sidor = ['ipl-rosacea','hudforandringar','ytliga-blodkarl','mogen-hy','solskadad-hy',
-                 'rhinophyma','microdermabrasion','bristningar','pigmentflackar','oonskat-har',
-                 'acne.php','acnebehandling','dermapen','microneedling','portomning','acne-rygg',
-                 'seborroisk-keratos','acne-ansikte','behandla-pigmentflackar','om-oss']
-        saknas = [p for p in sidor if p not in t]
-        out.append((f'alla {len(sidor)} facit-sidor närvarande' + (f' — SAKNAS: {saknas}' if saknas else ''), not saknas))
-        rak = t.count('Räkning')
-        out.append((f'Räkning-rader kvar (hittade {rak}, kräver ≥7)', rak >= 7))
-        chk = t.count('§1.4-check')
-        out.append((f'§1.4-check-rader kvar (hittade {chk}, kräver ≥6)', chk >= 6))
-        out.append((f'AIQ-listorna (acnebehandling + om-oss) — {t.count("AI QUESTIONS")} st', t.count('AI QUESTIONS') >= 2))
+        aktiv = load('lynx-examples'); allt = load('EXAMPLES_ALL')
+        # OMÄTTA + kösidor: facit MÅSTE ligga kvar i den AKTIVA filen
+        maste_aktiv = ['ipl-rosacea','hudforandringar','ytliga-blodkarl','mogen-hy','solskadad-hy',
+                       'rhinophyma','microdermabrasion','bristningar','pigmentflackar','oonskat-har',
+                       'acne.php','acnebehandling','dermapen','microneedling','portomning','acne-rygg','seborroisk-keratos']
+        m = [x for x in maste_aktiv if x not in aktiv]
+        out.append((f'alla {len(maste_aktiv)} omätta/kösidors facit i AKTIVA filen' + (f' — SAKNAS: {m}' if m else ''), not m))
+        # MÄTTA sidor: EFTER-facit i aktiva filen, FÖRE får bo i arkivet
+        for x in ('acne-ansikte','behandla-pigmentflackar','om-oss'):
+            out.append((f'{x}: EFTER-facit kvar i AKTIVA filen', 'EFTER' in aktiv and x in aktiv))
+        out.append((f'inget facit tappat (aktiv+arkiv): Räkning {allt.count("Räkning")}≥7', allt.count('Räkning') >= 7))
+        out.append((f'inget tappat: §1.4-check {allt.count("§1.4-check")}≥6', allt.count('§1.4-check') >= 6))
+        out.append(('AIQ-listorna kvar', allt.count('AI QUESTIONS') >= 2))
+        out.append(('microneedling REWRITE-SPEC i AKTIVA filen', 'REWRITE-SPEC microneedling' in aktiv))
+        out.append(('block-planens 11 punkter kvar', 'micronnedling' in aktiv and 'microneedling kur' in aktiv))
+        out.append(('loggen är inte längre enda bärare', 'Block-planen (11 punkter) flyttad' in load('lynx-logg')))
+        out.append(('SERP-drift-regeln → lynx-models §1.5', 'SERP-DRIFT' in load('lynx-models')))
+        out.append(('examples-arkiv varnar (KIND: HISTORIK)', 'KIND          HISTORIK' in load('lynx-examples-arkiv')))
     if step == 6:
         t = load('lynx-score')
         tables = t.count('| **Overall** |')
@@ -474,7 +590,7 @@ def main():
     sys.exit(1 if fails else 0)
 
 main()
-```
+~~~
 </details>
 
 *(⚠️ Fallgrop, upptäckt vid första körningen: om skriptet i FÖRE-läge mappar §8/§9/§12 tillbaka till START blir blast radius **0** — en tyst nolla som ser ut som "allt är bra". §8/§9/§12 måste alltid mappa till BACKLOG; det är hemfilen som varierar. En check som kan returnera falskt grönt är värre än ingen check.)*
