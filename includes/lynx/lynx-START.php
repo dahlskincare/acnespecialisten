@@ -48,7 +48,18 @@ Säger användaren typ *"vi fortsätter med LYNX-uppgifterna"* eller klistrar in
 
 > Nav-fil för uppdraget att skriva om sidor som LYNX flaggar för **AI COPY** (SIGNIFICANT/MODERATE) så de läser som människa, utan att tappa sökord eller ranking. **Denna fil (lynx-START) är ingången** — LÄGE, router, regler, TODO + status bor här (vi använder ingen task-tracker). Hantverket bor i `lynx-rewrite`, modellerna i `lynx-models`, historiken i `lynx-logg`. En ny Claude utan kontext läser START först, sen rätt fil per router (se §0.1 — kör 1 i taget). Splittrad 2026-07-06.
 
-**§-KARTA (efter splitten 6 juli — så du letar i rätt fil):** **DENNA FIL:** §0 använda filen · §0.1 en-i-taget · §0.2 dispatch · §8/§8.1 backlog+gaps · §9/§9.1 TODO+prio · §12 claims — **`lynx-rewrite`:** §1/§1.1/§1.3/§1.4 bedömning · §2 formel · §3 checklista · §4 husröst · §5 ramar/juridik · §6 SEO-skydd · §7 process · §13 skyddsregler — **`lynx-models`:** §1.2 SCORE · §1.5 AIQ · §10/§10.0 mät-loop+SEO-vakt · §11.1 bevakning — **`lynx-logg`:** §11 arbetslogg
+### §-KARTA — RESOLVERN (KANONISK CELL)
+**Var bor vilket §?** Detta block är den enda källan. Pekar-censusen (`§9.0`) **parsar det** i stället för att hålla en egen kopia — en resolver som dubbleras driftar, och då bevakar verktyget en karta som inte längre gäller. Uppdatera HÄR när ett § flyttar, ingen annanstans.
+
+```
+§0, §0.1, §0.2                  → lynx-START     nav · en-i-taget · dispatch
+§8, §8.1, §9, §9.0, §9.1, §12   → lynx-START     backlog · gaps · TODO · prio · claims   [FLYTTAR → lynx-backlog vid §9.0 steg 7]
+§1, §1.1, §1.3, §1.4            → lynx-rewrite   bedömningsmodellen
+§2, §3, §4, §4.1, §4.2, §5, §6, §7, §13 → lynx-rewrite   formel · checklista · husröst · ramar/juridik · SEO-skydd · process · skyddsregler
+§1.2, §1.5, §10, §10.0, §11.1   → lynx-models    SCORE · AIQ · mät-loop · SEO-vakt · bevakning
+§11                             → lynx-logg      arbetslogg (HISTORIK)
+```
+*(Splittrad 2026-07-06. HISTORIK-filer får inte uppdateras retroaktivt — deras §-referenser avser strukturen vid postens datum; se header-raden i respektive arkivfil.)*
 
 ---
 

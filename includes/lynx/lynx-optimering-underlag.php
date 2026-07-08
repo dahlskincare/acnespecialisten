@@ -52,6 +52,34 @@
 
 **Känd risk (ägaren informerad):** en refaktor av just de filer som bär processkunskapen producerar en ny kull trasiga pekare — förra splitten (6 juli) lämnade sådana som lagades 7 juli (steg 2) och 8 juli (tre till, vid arkiveringen). Motmedel: **pekar-censusen nedan (flyttad från steg 10 till FÖRE steg 7)** + no-loss mot MÅSTE-BEHÅLLAS-listorna.
 
+## ▶ FÖRBEREDELSER (8 juli, före steg 5 — så resten kan köras igenom utan stopp)
+
+**1. Radnummer i rapporterna — status.** Rapporterna skrevs mot 7 juli em-versionerna. Kontroll 8 juli:
+| Fil | Rapport påstår | Faktiskt nu | Steg | Duger radnumren? |
+|---|---|---|---|---|
+| lynx-models | 104 | 104 | 5 | ✅ ja |
+| lynx-score | 182 | 182 | 6 | ✅ ja |
+| lynx-rewrite | 272 | 272 | 8 | ✅ ja |
+| lynx-examples | 632 | 632 | 9 | ✅ ja |
+| lynx-START | 231 | 253 | **7** | ❌ **STALE** — verifiera mot levande fil |
+| lynx-gaps | 112 | 34 | **9** | ❌ **STALE** (rapporten mäter fel fil?) — verifiera |
+| ~~lynx-logg~~ 257→221 · ~~lynx-data~~ 519→183 | | | 1, 4 | (stegen redan gjorda) |
+
+**2. MÅSTE-BEHÅLLAS finns för varje kvarvarande steg:** models 9 punkter · score 10 · rewrite 10 · examples 9 · gaps 9. *(audit-freshEyes saknar lista — den är en läs-simulering, inte en filgranskning. Inget att bevaka.)*
+
+**3. §-kartan är nu EN cell.** Den låg som prosa i START **och** hårdkodad i census-skriptet — lagbrottet vi just förbjöd, i verktyget som ska bevaka lagen. START §-KARTA är nu ett maskinläsbart block som skriptet **parsar**; saknas blocket avbryter skriptet högljutt i stället för att rapportera 0.
+
+**4. No-loss-batteri byggt för steg 5** (`noloss.py 5`, 38 checkar ur audit-models MÅSTE-BEHÅLLAS). **Validerat i båda riktningar 8 juli:** 38/38 grönt på den ORÖRDA filen (annars är nålarna fel, inte filen), och rött när no-regression-regeln ströks + en §11.1-rad togs bort. Batterierna för steg 6/8/9 byggs vid respektive stegs start — nålarna måste härledas ur den verkliga filtexten.
+
+**5. ⚠️ SAKFEL ATT RÄTTA I STEG 5 (upptäckt vid batteribygget):** `lynx-models` §1.2 rad 6 förklarar EEAT-klampen med *"klampas till 60 på HÄLSOSIDOR (vi = hudterapeuter, ej läkare på YMYL)"*. **Den förklaringen är FALSIFIERAD** — `lynx-score` slutsats B: *"SIDTYPS-hypotesen FÖRKASTAD; EEAT 60 gäller ÄVEN /kontakt.php, /hudproblem/, hydrafacial, portomning — alltså inte YMYL-specifikt"* (mönstret följer /varumarken/-URL-strukturen), bekräftat av online-verifieringen (logg 6 juli #9). **Den operativa slutsatsen står** (EEAT låst 60, ej copy-spak) — men mekanismen ska rättas, inte konserveras vid komprimeringen. Klassisk instans av §0:s state-synk-princip: nya data underkände premissen, imperativet blev kvar.
+
+**6. Steg 7 — gränsdragningen bestämd** (så inget stall mitt i splitten):
+- **→ `lynx-backlog.php`:** §8, §8.1 (öppna gap-beslut; genomförda → `lynx-gaps`), §9, §9.0, §9.1, §12.
+- **Stannar i START:** §0 (invarianter: iterativ plan, prime-direktivet EN gång, "vi rutar inte in oss", datum-konventionen, state-synk-principen), §0.1 (en-i-taget), §0.2 (dispatch-snutten — den ÄR dispatcherns egen spec), routern, §-KARTAN, LÄGE, Aldrig-listan, rollfördelningen.
+- **Facit-flödet (rad 24, saknar §-nr):** → `lynx-data` som numrerat **SPARA-RECEPT** med stabilt §-ankare; 4–5 raders sammanfattning + pekare kvar i START. Detta lagar routerns trasiga "(save-first, §0)".
+- **§9.0** följer §9 till backlog vid steg 7 och **raderas vid steg 10** när passet stängs.
+- **Känd friktion av ägarbeslutet:** §0.1 regel 2 ("kontrollera att du är ensam INNAN du rör något") kräver nu att sessionen laddar `lynx-backlog` för att läsa §12. Accepterat: backlog laddas ändå för allt riktigt arbete, och alternativet — en statuskopia i START — vore lagbrott. START §0.1 måste säga "kolla §12 i `lynx-backlog`".
+
 ## ▶ PEKAR-BASELINE (mätt 8 juli, FÖRE steg 7 — kör om EFTER varje omstrukturering)
 **Varför före:** utan FÖRE-baseline går en trasig pekare inte att attribuera till refaktorn — den kan ha varit trasig sedan 6 juli-splitten. Samma princip som mät-loopens *"attribution kräver observerad delta"* (lynx-models §11.1), tillämpad på filsetet.
 
@@ -69,17 +97,190 @@
 
 **Stubb-raderingen (steg 9):** endast **3 omnämnanden** blockerar — `lynx-START` ×1, `lynx-rewrite` ×2. Resten sitter i log-arkiv (historik, header-raden täcker) och underlaget (raderas).
 
-**Census-skriptet** (kör `python3 pekarkoll.py` före, `--efter` efter; jämför):
+**Verktygen (bor här — dör med denna fil vid steg 10; efter det bär manifestens `PEKAR-PÅ` bevakningen).**
+
+<details><summary><code>pekarkoll.py</code> — pekar-census, kör före/efter varje omstrukturering</summary>
+
 ```python
-# §-kartan = resolvern. §8/§9/§12 → BACKLOG alltid; HOME_NOW = START före steg 7, lynx-backlog efter.
-OWNER = {'0':'lynx-START','8':'BACKLOG','9':'BACKLOG','12':'BACKLOG','1':'lynx-rewrite','2':'lynx-rewrite',
-         '3':'lynx-rewrite','4':'lynx-rewrite','5':'lynx-rewrite','6':'lynx-rewrite','7':'lynx-rewrite',
-         '13':'lynx-rewrite','10':'lynx-models','11':'lynx-logg'}
-SUB_OWNER = {'1.2':'lynx-models','1.5':'lynx-models','11.1':'lynx-models'}
-KIND = {...}   # REGEL/AKTIV/HISTORIK/DÖR/TEMP per fil — avgör OM en pekare måste redigeras
-# För varje fil: regex §(\d+(\.\d+)?) → slå upp ägare → räkna de som pekar utanför sin hemfil.
-# Rapportera dessutom: §-refs utan ägare (redan trasiga), lynx-*-refs till icke-existerande filer, stubb-refs.
+#!/usr/bin/env python3
+"""Pekar-census för LYNX-filsetet. Kör FÖRE och EFTER varje omstrukturerings-steg
+(§9.0 steg 7 + 9). Utan FÖRE-baseline går trasiga pekare inte att attribuera.
+Kör:  python3 pekarkoll.py [--efter]"""
+import re, os, glob, collections, sys
+
+LYNX = '/Applications/Cursor/acnespecialisten/includes/lynx'
+EFTER = '--efter' in sys.argv
+
+# §-kartan PARSAS ur lynx-START (kanonisk cell) — aldrig en egen kopia här.
+def load_sec_map():
+    txt = open(os.path.join(LYNX, 'lynx-START.php'), encoding='utf-8').read()
+    blk = re.search(r'### §-KARTA.*?```\n(.*?)```', txt, re.S)
+    if not blk: sys.exit('❌ §-KARTA-blocket hittades inte i lynx-START — resolvern saknas, avbryter.')
+    m = {}
+    for line in blk.group(1).splitlines():
+        mm = re.match(r'\s*(§[\d.,\s§]+?)\s*→\s*(\S+)', line)
+        if not mm: continue
+        target = mm.group(2)
+        if 'FLYTTAR' in line and 'lynx-backlog' in line: target = 'BACKLOG'
+        for ref in re.findall(r'§(\d+(?:\.\d+)?)', mm.group(1)):
+            m[ref] = target
+    if not m: sys.exit('❌ §-KARTA-blocket kunde inte parsas.')
+    return m
+
+SEC = load_sec_map()
+def owner_of(ref):
+    return SEC.get(ref) or SEC.get(ref.split('.')[0])
+
+HOME_NOW = 'lynx-backlog' if EFTER else 'lynx-START'
+
+# KIND per fil — avgör OM en trasig pekare måste redigeras
+KIND = {'lynx-START':'AKTIV','lynx-rewrite':'REGEL','lynx-models':'REGEL','lynx-score':'REGEL',
+        'lynx-data':'AKTIV','lynx-gaps':'AKTIV','lynx-questions':'AKTIV','lynx-examples':'AKTIV',
+        'lynx-backlog':'AKTIV','lynx-logg':'HISTORIK','lynx-log-arkiv':'HISTORIK',
+        'lynx-data-arkiv':'HISTORIK','lynx-examples-arkiv':'HISTORIK',
+        'lynx-copy-playbook':'DÖR','lynx-optimering-underlag':'TEMP'}
+PLANNED = {'lynx-backlog','lynx-examples-arkiv','lynx-examples-aktiv','lynx-score-arkiv'}
+
+files = sorted(glob.glob(os.path.join(LYNX,'*.php')))
+existing = {os.path.basename(f)[:-4] for f in files}
+sec_re, file_re = re.compile(r'§\s?(\d+(?:\.\d+)?)'), re.compile(r'\blynx-[a-z-]+\b')
+
+blast = collections.Counter(); unresolved = []; unknown = collections.Counter()
+for path in files:
+    src = os.path.basename(path)[:-4]
+    text = open(path, encoding='utf-8').read()
+    for m in sec_re.finditer(text):
+        ref = m.group(1)
+        owner = owner_of(ref)
+        if owner is None: unresolved.append((src, ref)); continue
+        if owner == 'BACKLOG' and src != HOME_NOW and src != 'lynx-backlog':
+            blast[(KIND.get(src,'?'), src)] += 1
+    for m in file_re.finditer(text):
+        t = m.group(0)
+        if t not in existing and t not in PLANNED: unknown[(src,t)] += 1
+
+print(f'═══ BLAST RADIUS steg 7 — §8/§9/§12-pekare utanför en backlog-cell ═══')
+groups = collections.defaultdict(int)
+for (kind, src), n in blast.items(): groups[kind] += n
+todo = 0
+for kind in ('AKTIV','REGEL','HISTORIK','DÖR','TEMP'):
+    rows = sorted([(s,n) for (k,s),n in blast.items() if k==kind], key=lambda x:-x[1])
+    if not rows: continue
+    action = {'AKTIV':'✏️  MÅSTE REDIGERAS','REGEL':'✏️  MÅSTE REDIGERAS',
+              'HISTORIK':'📌 EN header-rad räcker (append-only, ej retroaktiv)',
+              'DÖR':'🗑  filen raderas (steg 9)','TEMP':'🗑  filen raderas (steg 10)'}[kind]
+    print(f'\n  [{kind}]  {groups[kind]:>3} pekare — {action}')
+    for s,n in rows: print(f'      {s:<26} {n:>3}')
+    if kind in ('AKTIV','REGEL'): todo += groups[kind]
+print(f'\n  ➜ FAKTISKA REDIGERINGAR: {todo} pekare. Resten: {groups["HISTORIK"]} via 3 header-rader, '
+      f'{groups["DÖR"]+groups["TEMP"]} i filer som raderas.')
+
+print('\n═══ §-REF UTAN ÄGARE (skulle vara redan trasiga) ═══')
+print('  ✓ inga' if not unresolved else '\n'.join(f'  ❌ {s} §{r}' for s,r in set(unresolved)))
+
+print('\n═══ lynx-*-omnämnanden som INTE är kända/planerade filer (granska manuellt) ═══')
+for (s,t),n in sorted(unknown.items()):
+    print(f'  {s:<26} → {t:<32} ×{n}')
+
+print('\n═══ STUBBEN lynx-copy-playbook — vem pekar på den? ═══')
+tot = 0
+for path in files:
+    src = os.path.basename(path)[:-4]
+    if src == 'lynx-copy-playbook': continue
+    n = open(path, encoding='utf-8').read().count('lynx-copy-playbook')
+    if n:
+        k = KIND.get(src,'?')
+        print(f'  {src:<26} ×{n:<3} [{k}]{"  ← måste bort före radering" if k in ("AKTIV","REGEL") else ""}')
+        tot += n
+print('  ✓ ingen — kan raderas' if not tot else f'  ── {tot} omnämnanden')
 ```
+</details>
+
+<details><summary><code>noloss.py</code> — no-loss-batteri per steg (steg 5 färdigt)</summary>
+
+```python
+#!/usr/bin/env python3
+"""No-loss-batteri per §9.0-steg. Härlett ur underlagets MÅSTE-BEHÅLLAS-listor.
+Kör FÖRE redigering (måste vara helgrönt — annars är nålarna fel) och EFTER (måste vara helgrönt).
+Kör:  python3 noloss.py 5"""
+import sys, os, re
+
+LYNX = '/Applications/Cursor/acnespecialisten/includes/lynx'
+def load(f): return open(os.path.join(LYNX, f + '.php'), encoding='utf-8').read()
+
+# (etikett, fil, nål) — nålen är en EXAKT delsträng som måste överleva steget.
+STEP = {
+ 5: [
+  # 1. Rad 6 — gällande SCORE-modellen
+  ('§1.2 Overall = medel(CQ,EEAT)',        'lynx-models', 'Overall = medel(CQ-badge, EEAT-badge)'),
+  ('§1.2 EEAT låst 60, ej copy-spak',      'lynx-models', 'EEAT LÅST 60, ej copy-flyttbar'),
+  ('§1.2 SCORE-taket 75–77',               'lynx-models', '75–77'),
+  ('§1.2 operativ slutsats: jaga ej SCORE','lynx-models', 'JAGA INTE SCORE med copy'),
+  # 2. Rad 19 — Evidence-§5-filtret (OK / INTE OK)
+  ('Evidence-filtret genom §5',            'lynx-models', 'Evidence-höjning MÅSTE filtreras genom §5'),
+  ('Evidence INTE OK: hudläkare-granskn.', 'lynx-models', '"granskad av hudläkare"'),
+  ('Evidence OK: Från X kr / 30 år',       'lynx-models', '"Från X kr", "30 år"'),
+  # 3. Rad 31 — no-regression (KRITISKT)
+  ('No-regression-regeln ordagrant',       'lynx-models', 'varje ändring ska vara ≥0 på alla komponenter och >0 på minst en'),
+  ('No-regression: optimera aldrig på annans bekostnad', 'lynx-models', 'Optimera aldrig en komponent på en annans bekostnad'),
+  # 4. Rad 37–49 — hela §1.5
+  ('§1.5 officiella tooltip-definitionen', 'lynx-models', 'based on Google SERP'),
+  *[(f'§1.5 hypotes H{i}', 'lynx-models', f'**H{i} —') for i in range(1, 8)],
+  ('§1.5 operativa stegen 1–4',            'lynx-models', 'hämta sidans AI Overview Ranking'),
+  # 5. Rad 53–59 — §10.0 SEO-vakten
+  ('§10.0 GSC-gaten',                      'lynx-models', 'GSC-GATE före main-push'),
+  ('§10.0 KW-tröskeln 10–15 %',            'lynx-models', '>10–15 %'),
+  ('§10.0 CLICKS+WORDS i baseline',        'lynx-models', 'CLICKS + WORDS i baseline'),
+  ('§10.0 våg-attribution',                'lynx-models', 'Attribution per sida i vågor'),
+  ('§10.0 tumregeln',                      'lynx-models', 'ranking-tapp är dyrare än en sen LYNX-fix'),
+  # 6. Rad 61–73 — mät-loopen + per-signal-responsen
+  ('§10 prediktera före, mät efter',       'lynx-models', 'prediktera före, mät efter'),
+  ('§10 steg 5 backporta',                 'lynx-models', '**Backporta:**'),
+  ('§10 per-signal: AIQ ej GOOD',          'lynx-models', 'AI QUESTIONS ej GOOD?'),
+  ('§10 per-signal: PAGE TYPE/P. PRICE',   'lynx-models', 'PAGE TYPE/P. PRICE "–"?'),
+  # 8. Ägarprincipen (rad 81) — sakinnehållet måste överleva kompressionen
+  ('Attribution kräver observerad delta',  'lynx-models', 'Attribuera FÖRE→EFTER ENDAST när vi faktiskt SER två analyser med OLIKA värden'),
+  ('Uppdateringsenheten = (sida × vy)',    'lynx-models', 'UPPDATERINGSENHETEN ÄR (SIDA × VY)'),
+  # 9. Rad 101 — instruktionen
+  ('§11.1 mät→logga→förfina→backporta→töm','lynx-models', 'förfina modellen (steg 4), backporta (steg 5), töm raden'),
+ ],
+}
+
+# Strukturella invarianter som inte är enkla delsträngar
+def structural(step):
+    out = []
+    if step == 5:
+        t = load('lynx-models')
+        m = re.search(r'## 11\.1(.*?)(?=\nNär en rad refreshats)', t, re.S)
+        rows = [l for l in (m.group(1).splitlines() if m else []) if l.startswith('| ') and '---' not in l]
+        body = len(rows) - 1  # minus rubrikraden
+        out.append((f'§11.1: alla 13 bevakningsrader kvar (hittade {body})', body == 13))
+        # varje omätt rad måste behålla en FÖRE-baseline
+        need = ['SCORE 22', 'AISTYLE25', 'AISTYLE30', 'medel 1,57', 'medel 1,77', 'medel 1,82', 'medel 1,92']
+        for n in need:
+            out.append((f'§11.1 FÖRE-baseline "{n}"', n in t))
+    return out
+
+def main():
+    step = int(sys.argv[1])
+    if step not in STEP: sys.exit(f'Inget batteri för steg {step} än.')
+    fails = 0
+    print(f'═══ NO-LOSS-BATTERI · §9.0 steg {step} ═══')
+    for label, f, needle in STEP[step]:
+        ok = needle in load(f)
+        print(f'  {"✓" if ok else "❌ SAKNAS"}  {label}')
+        fails += not ok
+    for label, ok in structural(step):
+        print(f'  {"✓" if ok else "❌ BRUTEN"}  {label}')
+        fails += not ok
+    n = len(STEP[step]) + len(structural(step))
+    print(f'\n  {n - fails}/{n} gröna.' + ('' if fails else '  ✅ inget tappat.'))
+    sys.exit(1 if fails else 0)
+
+main()
+```
+</details>
+
 *(⚠️ Fallgrop, upptäckt vid första körningen: om skriptet i FÖRE-läge mappar §8/§9/§12 tillbaka till START blir blast radius **0** — en tyst nolla som ser ut som "allt är bra". §8/§9/§12 måste alltid mappa till BACKLOG; det är hemfilen som varierar. En check som kan returnera falskt grönt är värre än ingen check.)*
 
 ---
