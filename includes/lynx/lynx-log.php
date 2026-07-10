@@ -45,6 +45,15 @@ Fulltext flyttas till **`includes/lynx/lynx-log-archive.php`**; kvar här blir e
 | behandla-pigmentflackar.php | 14 | – | – | –/– | SIGNIFICANT | GOOD | – | 16 |
 | hudproblem/hudforandringar/ | 10 | – | 17 | 3/2 | SIGNIFICANT | OK | – | 8 |
 
+### 2026-07-10 #64 — Milier-verifieringen stängd + CryoPen-FAQ:n rättad (ägarbesked: "milier stämmer, cryopen är från 1995kr").
+**In:** Ägar-verifiering mot bokningssystemet, svar på 2 juli-beställningen.
+**Fynd:**
+- Milier bekräftade: enstaka 495 kr + paket 1595/3995/4995 — sajten stämmer, inget ändras. [STÄNGD]
+- CryoPen från 1995 kr ⇒ FAQ-svaret "Vad kostar det att ta bort en åldersvårta?" på `hudforandringar` bar gamla priset på TVÅ ställen i samma mening (från 1595 · första behandlingen 1595) — båda → 1995. Enda förekomsten i repot (grep); cryopen.php + seborroisk-keratos.php redan rätt. [STÄNGD]
+- Kvar EN siffra ur 2 juli-beställningen: CryoPen-återbesöket 295 kr/åldersvårta — obekräftat, frågan ställd till ägaren. [ÖPPEN → §9-raden]
+**Åtgärd:** `hudproblem/hudforandringar/index.php` · §9-raden uppdaterad · denna post. Väntar: ägarens merge → live-svep.
+**Kontroll:** grupperad diff läst (mönstret `^(\+\+\+|---) `) — 1 sidfil 2 rättade tal i samma FAQ-text + 2 lynx-filer; stat läst efter sista editen, före commit-meddelandet.
+
 ### 2026-07-10 #63 — Från-priset 799→999 kr på fyra sidor (ägarbeslut): konventionen förklarad — per behandling i 5-paketet; 799 var före höjningen.
 **In:** Ägarbesked: *"från 799 kr ska nog bli från 999 kr och beror på höjning av priset på 5 behandlingar … även om det inte syns ska sidan vara korrekt för ai."*
 **Fynd:**
