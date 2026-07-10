@@ -44,10 +44,18 @@ Fulltext flyttas till **`includes/lynx/lynx-log-archive.php`**; kvar här blir e
 | behandla-pigmentflackar.php | 14 | – | – | –/– | SIGNIFICANT | GOOD | – | 16 |
 | hudproblem/hudforandringar/ | 10 | – | 17 | 3/2 | SIGNIFICANT | OK | – | 8 |
 
-### 2026-07-10 #47 — Sweep del 2 på ägarval: §9.2-restfynden svepta (24 + 59 filer totalt); ett nytt fynd parkerat med föreslagen fix.
+### 2026-07-10 #48 — ⛔-förvillkoret UPPFYLLT: microneedlings kompletta SCORE-popup levererad — AI STYLE-FÖRE 60, testet armerat.
+**In:** Ägar-dump 09:40 (SCORE-popup för microneedling + Pages-vyn URL-filtrerad "microneedling"). Sparad FÖRST → `lynx-score` (13 delvärden) · `lynx-data-archive` (09:40-snapshot) · AKTUELLT LÄGE (4 rader).
+**Fynd:**
+- **Komplett FÖRE-fingeravtryck FÖRE main-push:** Overall 60 · CQ 60 [88/88/83/95/92] · EEAT 60 [85/80/85/90] · **AI STYLE 60**. Sidan orörd på live ⇒ giltigt FÖRE oavsett crawl-datum. Efter rewrite: rör sig en delsiffra → crawlen ny → AI STYLE giltigt EFTER. [RATIFICERAD → `lynx-score` + §11.1]
+- Overall 60 = medel(60,60) ✓ slutsats A nu 16/16 · **CQ-anomalin består** (badge 60 vs subs-medel 89,2; slutsats C) — rättas den bör Overall hoppa ~75 av sig själv, ej copy-attribuerbart. [STÄNGD → `lynx-score`]
+- microneedling-acnearr SCORE 60 färsk (ny rad) · micro-VALUE 66→44 · **dubblettrader med trailing slash i Pages-vyn** → ny bevaka-rad. [ÖPPEN → §9]
+**Åtgärd:** `lynx-score` · `lynx-data-archive` · `lynx-data` · `lynx-status` (§11.1 + LÄGE: testet armerat) · `lynx-backlog` (⛔→✅ redo för rewrite · AI STYLE-raden · bevaka-rad). Inga sidfiler rörda.
+
+### 2026-07-10 #47 — Sweep del 2 på ägarval: §9.2-restfynden svepta (25 + 59 filer totalt); ett nytt fynd parkerat med föreslagen fix.
 **In:** Ägaren: *"ja fortsätt sweep om du tror det behövs, föreslå fix och lägg dem i din fyndlåda"* — restfynden exekverade, nya fynd parkeras i stället för att utföras. Ingen mätdata.
 **Fynd:**
-- 24 `$specialist_url_title`-filer rättade: ämnessidor → "Hudterapeuter specialiserade på X"; typos (Specialisserade/specialisterade) + versalisering fixade; nakna varianten fick minimal casing-fix ("Specialiserade hudterapeuter" ×5); 3 lämnade korrekta ("Se alla hudterapeuter" m.fl.). [STÄNGD]
+- 25 `$specialist_url_title`-filer rättade *(stod först "24" — rättat samma dag vid ägarbeställd dubbelkoll; diffen räknar 25 titelrader i del 2)*: ämnessidor → "Hudterapeuter specialiserade på X"; typos (Specialisserade/specialisterade) + versalisering fixade; nakna varianten fick minimal casing-fix ("Specialiserade hudterapeuter" ×5); 3 lämnade korrekta ("Se alla hudterapeuter" m.fl.). [STÄNGD]
 - Verktyg-bildtitlarna svepta sajtbrett: Dermapen (53) + CryoPen (11) → svensk sammanskrivning. 0 felmönster kvar (grep). [STÄNGD]
 - **Nytt fynd, PARKERAT per ägarens instruktion:** `image_alt: 'Dermapen Brand Logo'` på engelska i 53 filer — föreslagen fix `'Dermapen logotyp'` (syskonen använder "X logotyp"). [ÖPPEN → §9.2]
 **Åtgärd:** 59 sidfiler (egen commit 7ca56e95) · lynx-backlog (§9.2 två rader stängda + en ny, ärr-radens not, §12 tömd). Titel-/alt-attribut = siddata §13.K → ingen attributionsrisk.

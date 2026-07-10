@@ -17,6 +17,26 @@ PEKAR-PÅ      lynx-data = AKTUELLT LÄGE (gällande värden) · jämför ALDRIG
 
 
 
+## Snapshot 2026-07-10 kl. 09:40 — Pages-vyn URL-filtrerad "microneedling" + SCORE-popup för /microneedling.php
+> Ägar-dump 09:40:19. Popupen skymmer AI COPY/AIQ/P.PRICE/KW-kolumnerna; PAGE TYPE "–" där synlig. **Popupens 13 delvärden verbatim i `lynx-score` (10 juli-sektionen — ⛔-förvillkoret uppfyllt).**
+
+| URL | VALUE | SCORE |
+|---|---|---|
+| /microneedling.php (markerad = popupens sida) | 44 | 60 |
+| /microneedling-acne.php | 41 | – |
+| /microneedling-acnearr.php | 48 | 60 |
+| /microneedling-stora-porer.php | 29 | – |
+| /nyhet-nu-har-vi-aven-microneedling-b… (URL trunkerad i vyn) | – | – |
+| /lp-microneedling/ | – | – |
+| /microneedling.php (dublettrad, utan VALUE) | – | – |
+| /microneedling.php/ (trailing slash-variant) | – | – |
+| /microneedling-acne.php (dublettrad) | – | – |
+| /microneedling-acnearr.php (dublettrad) | – | – |
+
+**Noter:** Overall 60 "Analyzed 42 minutes ago" (nedbrytning i `lynx-score`). **Dubblettrader utan VALUE/SCORE för flera URL:er, inkl. trailing slash-variant** → bevaka-rad §9 (kanoniserings-/indexeringsfråga).
+
+---
+
 ## Snapshot 2026-07-10 kl. 08:42 — AICOPY-sorterad Pages-vy (13 rader synliga, listan trunkerad i SLIGHT-delen)
 > Ägar-dump 08:42:55. Filter-chip "AICOPY" aktiv, sorterad på AI COPY (SIGNIFICANT → MODERATE → SLIGHT). PAGE TYPE "–" eller blank; EG SCORE "–" överallt; WORDS/CLICKS/STATUS ej synliga i vyn.
 

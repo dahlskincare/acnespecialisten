@@ -119,9 +119,10 @@ PEKAR-PÅ      lynx-data-archive = snapshots verbatim · lynx-examples/score/que
 | /laser-acne.php | 28 | – | 🔵 | OK | | 9 | 253 | 3 | LOWEST | 7/7 | ORÖRD |
 | /mallorca-acne.php | 53 | 68 | 🔵 | OK | 0/0 | 11 | | | – | 8/7 18:13 | ORÖRD |
 | /melasma.php | 31 | 23 (färsk-låg) | 🔵 | OK | 0/2 | 27 | 583 | 10 | – | 7/7 | ORÖRD; låg-änden — nedbrytning beställd (lynx-score) |
-| /microneedling.php | 66 | **FÖRE:60 färsk** (8/7 10:55) | 🔵 | OK | 0/1 | 63 | | | HIGHEST | 8/7 18:13 | Fas 3b-kö. **Oförändrad 10:55→18:13 ⇒ FÖRE-baselinen står** (REWRITE-SPEC i `lynx-examples`) |
-| /microneedling-acne.php | 37 | – | 🔵 | GOOD | | 6 | 299 | 7 | HIGHEST | 7/7 | ORÖRD |
-| /microneedling-stora-porer.php | 28 | – | 🔵 | OK | | 3 | 267 | 2 | HIGHEST | 7/7 | ORÖRD |
+| /microneedling.php | 44 (var 66 8/7) | **FÖRE:60 färsk** (8/7; popup-bekräftad 10/7) | 🔵 | OK | 0/1 | 63 | | | HIGHEST | 10/7 09:40 (VAL/SCORE) | Fas 3b-kö. **⛔-förvillkoret UPPFYLLT 10/7 09:40: komplett SCORE-popup → `lynx-score`** (AI STYLE-FÖRE 60). REWRITE-SPEC i `lynx-examples` |
+| /microneedling-acne.php | 41 | – | 🔵 | GOOD | | 6 | 299 | 7 | HIGHEST | 10/7 09:40 (VAL) | ORÖRD |
+| /microneedling-acnearr.php | 48 | **60 färsk** (10/7) | | | | | | | | 10/7 09:40 (VAL/SCORE) | ORÖRD — ny rad; övriga kolumner skymda av popupen |
+| /microneedling-stora-porer.php | 29 | – | 🔵 | OK | | 3 | 267 | 2 | HIGHEST | 10/7 09:40 (VAL) | ORÖRD |
 | /milier.php | 39 | 75 | 🔵 | OK | 0/0 | 164 | 841 | 35 | – | 7/7 | ORÖRD — Tier 2 |
 | /milierbehandling.php | 50 | **60 färsk** (8/7; var –) | 🔵 | OK | 0/0 | 33 | | | – | 8/7 18:13 | ORÖRD — SCORE satte sig själv (mätregel 5) |
 | **"missing localized" [DRAFT]** | 27 | – | – | – | | **616** | | 0 | – | 7/7 | **§9-tråd: vad är raden?** (enda med AI FEATURES AV) |
@@ -161,7 +162,7 @@ PEKAR-PÅ      lynx-data-archive = snapshots verbatim · lynx-examples/score/que
 
 - **KW/WORDS/CLICKS-FÖRE, hela flagg-gruppen** = cellvärdena daterade 7/7 13:58 ovan (§10.0 punkt 2–3, krävs för GSC-passet).
 - **AI STYLE-FÖRE (färsk skala):** pigmentflackar **55** · rhinophyma **70** (7 juli, lynx-score) — jämför vid post-6 juli-crawl.
-- **SCORE-FÖRE (färsk skala):** bristningar **63** (6/7) · pigmentflackar **73** (7/7) · rhinophyma **74** (6+7/7) · microdermabrasion **50** (2/7) · microneedling **50** (2/7).
+- **SCORE-FÖRE (färsk skala):** bristningar **63** (6/7) · pigmentflackar **73** (7/7) · rhinophyma **74** (6+7/7) · microdermabrasion **50** (2/7) · microneedling **50** (2/7) → **60** (8/7; **komplett popup-nedbrytning 10/7 09:40 → `lynx-score`, AI STYLE-FÖRE 60**).
 - **Block-medel-FÖRE (facit, → lynx-examples):** bristningar 1,92 · mogen-hy 1,57 · oonskat-har 1,77 · microdermabrasion 1,82 · pigmentflackar 2,06 · solskadad/rhinophyma (facit apr) — prediktion 🟠→🔵 för samtliga (§11.1).
 - **acne-ansikte intro-experimentet:** intro-blocket 🟠 (5/7-facit) → prediktion 🔵 — dömer §2-intro-hypotesen (§11.1).
 - **EFTER-mätningar hittills (metoden 3/3):** acne-ansikte 🔴→🔵 (5/7) · om-oss 0 flagg (5/7) · behandla-pigmentflackar 🔴→🔵 + per-block 2,38→1,38 (7/7).

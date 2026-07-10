@@ -45,6 +45,29 @@ Verifierade våra LYNX/SCORE/E-E-A-T-slutsatser mot publik SEO-kunskap. Resultat
 
 # 📊 AKTIV — FÄRSKA NEDBRYTNINGAR (rådata; nya dumpar läggs överst)
 
+## microneedling 10 juli 2026 09:40, "Analyzed 42 minutes ago" — ⛔-FÖRVILLKORET UPPFYLLT: komplett FÖRE-fingeravtryck taget FÖRE rewrite/main-push
+> Ägar-popup (Pages-vyn URL-filtrerad "microneedling"; raderna i `lynx-data-archive` 09:40). **Sparad FÖRST.** Sidan är EJ omskriven och live-texten oförändrad sedan 6 juli ⇒ **giltigt FÖRE oavsett crawl-datum** — det är hela poängen med att ta popupen före ändringar (slutsats G).
+
+| Komponent | FÖRE 10 jul 09:40 |
+|---|---|
+| **Overall** | **60** |
+| CONTENT QUALITY (badge) | **60** |
+| – Base Quality | 88 |
+| – Depth | 88 |
+| – Evidence | 83 |
+| – Language | 95 |
+| – Readability | 92 |
+| E-E-A-T (badge) | **60** |
+| – Experience | 85 |
+| – Expertise | 80 |
+| – Authority | 85 |
+| – Trust | 90 |
+| **AI STYLE / Human-like** | **60 / 60** |
+
+**Modell-checkar:** Overall 60 = medel(CQ 60, EEAT 60) ✓ (slutsats A, nu 16/16) · **CQ-anomalin BESTÅR: badge 60 vs subs-medel 89,2** ("ej fullt satt", slutsats C — micro var redan listad som anomali; rättas den bör Overall hoppa till ~75 av sig själv, ej copy-attribuerbart) · EEAT 60 på .php-URL ✓ (slutsats B) · AI STYLE ingår ej i Overall ✓ (slutsats D).
+**Så används fingeravtrycket (slutsats G-vägen):** efter rewrite + main-push — **rör sig NÅGON delsiffra är crawlen bevisligen ny ⇒ AI STYLE-värdet i den dumpen är giltigt EFTER, även om det står stilla på 60.** Sidan har golv (60) till skillnad från rhinophyma vid taket, så testet är mätbart.
+**Övrigt ur samma dump:** VALUE 66 (8/7) → 44 (10/7), relativt mått · `microneedling-acnearr.php` SCORE 60 färsk (VAL 48) · dubblettrader i Pages (microneedling.php ×2 + `/microneedling.php/` med trailing slash, utan VALUE/SCORE) → §9-bevaka.
+
 ## rhinophyma-rosacea 8 juli 2026 18:13, "Analyzed just now" — 🚨 ALLA 13 VÄRDEN IDENTISKA MED FÖRE. "Analyzed just now" är inte ett färskhetsbevis.
 > Ägar-popup 18:13, beställd som AI STYLE-testet. **Sparad FÖRST.** Samma leverans som AI Copy-vyn för samma sida samma dag, *"Last update: 08 Jul, 2026"* → per-block-facit i `lynx-examples`.
 
