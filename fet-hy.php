@@ -428,7 +428,7 @@ $brands = array(
       new Brand(
             label: 'Dermapen',
             image: 'bilder/logotyper/dermapen.svg',
-            image_alt: 'Dermapen Brand Logo',
+            image_alt: 'Dermapen logotyp',
             image_title: 'Dermapen - microneedlingverktyg för hudföryngring',
             url: '/dermapen.php',
             url_title: 'Läs mer om Dermapen Microneedling Hudvårdslösningar',
