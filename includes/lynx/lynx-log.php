@@ -45,6 +45,15 @@ Fulltext flyttas till **`includes/lynx/lynx-log-archive.php`**; kvar här blir e
 | behandla-pigmentflackar.php | 14 | – | – | –/– | SIGNIFICANT | GOOD | – | 16 |
 | hudproblem/hudforandringar/ | 10 | – | 17 | 3/2 | SIGNIFICANT | OK | – | 8 |
 
+### 2026-07-10 #67 — HELSAJTSSVEP före ledigheten på ägarfråga ("100% säker?"): 137/137 sitemap-sidor HTTP 200, 0 PHP-fel — sajten lämnas fullverifierad.
+**In:** Ägarfråga om fullständig säkerhet. Svar genom mätning: samtliga sitemap-URL:er testade mot produktionen (inte bara de ändrade sidorna).
+**Fynd:**
+- 137/137 sidor HTTP 200 med 0 PHP-fel i utdata (Warning/Notice/Fatal/Parse/Deprecated). Tillsammans med #65/#66: alla ändringstyper innehållsverifierade, 15/15 lynx-filer tomma. [STÄNGD]
+- Redovisade gränser för garantin: bokningsflödet är extern tjänst (länkar/prisklasser verifierade, ej genomklickade) · orört innehåll orört · hosting-drift utanför repot; inget deployas under frånvaron. [STÄNGD]
+- Metodnot: första svepet fick 000 på allt — macOS-sed strök inte `<loc>`-taggarna (`\?` ogiltigt i BRE; `-E`-flaggan krävs). Kontrollen som räknar OK-rader fångade det direkt. [STÄNGD]
+**Åtgärd:** denna post. Main orörd (2 bokförings-commits släpar till nästa merge). Ägaren ledig 3 veckor — läget i `lynx-status` gäller.
+**Kontroll:** grupperad diff läst (mönstret `^(\+\+\+|---) `) — 1 lynx-fil; stat läst i separat anrop före commit-meddelandet.
+
 ### 2026-07-10 #66 — CryoPen-återbesöket 295 kr BEKRÄFTAT (ägar-skärmbild av hela prislistan) — Milier/CryoPen-tråden från 2 juli helt stängd.
 **In:** Ägar-skärmbild 16:12, bokningssystemets CryoPen-lista (transkriberad här som prisfacit): **behandling** 1 st 1995 · 2–3 st 2995 · 4–6 st 3995 · 7–10 st 4995 · 11–20 st 7995 · 21–50 st 15995 kr · **återbesök** 1 st 295 · 2–3 st 395 · 4–6 st 495 · 7–10 st 695 · 20 st 1995 · 50 st 2995 kr.
 **Fynd:**
