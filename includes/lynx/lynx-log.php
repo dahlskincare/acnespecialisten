@@ -45,6 +45,16 @@ Fulltext flyttas till **`includes/lynx/lynx-log-archive.php`**; kvar här blir e
 | behandla-pigmentflackar.php | 14 | – | – | –/– | SIGNIFICANT | GOOD | – | 16 |
 | hudproblem/hudforandringar/ | 10 | – | 17 | 3/2 | SIGNIFICANT | OK | – | 8 |
 
+### 2026-07-10 #53 — Ritualen skärpt på ägar-rättelse: tidshälsning + fyndlåde-format med lösningsförslag; avbrotts-ordningen saknades → förslag i §9.2.
+**In:** Ägar-rättelser vid sessionsstart 10:40 (ingen mätdata): hälsningen föll bort · fynd OCH förslag ska till §9.2 med vad-det-är + lösningsförslag · en bit av förra sessionens diskussion kom aldrig med.
+**Fynd/beslut:**
+- §0.1 VID START skärpt: hälsa utifrån tid på dygnet (`date`, gissa inte) + säg att du kontrollerar, läser läget och sedan presenterar alternativen. [RATIFICERAD → §0.1]
+- §9.2-formatet skärpt: `vad det är — var det syns — mitt förslag på lösning`; även egna förslag parkeras i lådan för klump-beslut. [RATIFICERAD → §9.2]
+- "avbrott/avbryt" = 0 grep-träffar i filsetet — avbrotts-ordningen kom aldrig med (SLUTKONTROLLEN kom med, #49). Förslag skrivet, väntar ägarbeslut. [ÖPPEN → §9.2-rad]
+- Kontrollen fångade eget fynd: grupperings-grepen döljer bullet-rader (`^[+-]{2}` matchar även "+- "), 4/14 plusrader osynliga — avstämt mot stat i två räknevägar. [ÖPPEN → §9.2-rad]
+**Åtgärd:** `lynx-START` (§0.1) · `lynx-backlog` (§9.2 format + ny rad + §12-notisen) · denna post. Inga sidfiler rörda.
+**Kontroll:** grupperad diff läst — alla radmönster avsedda (3 lynx-filer, inga sidfiler); slutlig stat läst efter sista editen, före commit-meddelandet; siffrorna dit ur staten.
+
 ### 2026-07-10 #52 — R4-städpasset: 27 poster arkiverade, loggen 119,7→71,2 kB; sid-poster med öppna §11.1-rader står kvar (R1).
 **In:** Ägarval (*"1 och 2 av dina förslag"* — detta var 2; passet ägar-beställt 8 juli, §9.3). Ingen mätdata.
 **Fynd/beslut:**

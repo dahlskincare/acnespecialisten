@@ -18,7 +18,7 @@ Vi kör **1 Claude i taget** (§0.1), så det här är ingen parallell-lås län
 
 | Sida | Status | Tid |
 |------|--------|-----|
-| *(tom — ingen är igång)* Senast 10 juli: fixar + sweep 86 filer + meta-fix + Dermapen-svep + R4-städpass (logg #44–#52). **Kön i §9 är öppen — ägaren väljer.** | – | – |
+| *(tom — ingen är igång)* Senast 10 juli: fixar + sweep 86 filer + meta-fix + Dermapen-svep + R4-städpass + ritual-skärpning (logg #44–#53). **Kön i §9 är öppen — ägaren väljer.** | – | – |
 
 ---
 
@@ -177,7 +177,10 @@ blodprickar (175, SCORE17) · milier (173, 37) · seborre (168, –) · pormaska
 
 Skillnaden mot de andra listorna: **§9.0/Fas-listorna = planerat arbete** · **Bevaka = trådar öppnade av inkommen mätdata** · **§9.2 = sidofynd.** Ett sidofynd som ägaren prioriterar flyttas härifrån till rätt lista och får en rad i §11. Ett som aldrig prioriteras ligger kvar — det kostar en rad och skyddar mot att samma sak upptäcks tre gånger.
 
-**Format:** en rad. `[allvarlighet] fyndet — var det syns — vad som skulle krävas.` Bevis hör hemma i raden, inte i en utredning.
+**Format (skärpt 10 juli på ägarbesked):** en rad. `[allvarlighet] vad det är — var det syns — mitt förslag på lösning.` Raden ska vara effektiv att gå igenom i klump OCH begriplig vid ett senare tillfälle utan sessionens kontext — skriv ut vad fyndet ÄR, inte bara var det sitter, och ge alltid ett lösningsförslag att ta ställning till. **Även egna förslag (process/regler/förbättringar) parkeras här** — allt exekutorn hittar eller föreslår hamnar i lådan så ägaren kan besluta i klump. Bevis hör hemma i raden, inte i en utredning.
+
+- [ ] **[lågt, men den sitter i själva kontrollen] SLUTKONTROLL-receptets grupperings-grep döljer bullet-rader** — §0.1 VID SLUT steg 1 (`grep -vE '^[+-]{2}'`) ska strippa diffens +++/----huvuden men matchar också tillagda/strukna rader som själva börjar med "- " (list-punkter, fyndlåde-rader): 4 av 14 plusrader i #53-passet syntes inte i grupperingen, bara i staten (upptäckt när räknevägarna inte gick ihop). **Förslag:** byt mönstret till `grep -vE '^(\+\+\+|---) '` i §0.1 steg 1 — strippar exakt filhuvudena, behåller bullet-rader; stat-korsräkningen fångade felet nu, men bara för att differensen var stor nog att synas.
+- [ ] **[process-förslag, ägar-efterlyst 10 juli] AVBROTTS-ORDNINGEN saknas i regelverket** — förra sessionen diskuterade vad som gäller när ägaren avbryter en pågående uppgift (t.ex. klistrar in en skärmbild), men bara SLUTKONTROLLEN kom med i filerna (logg #49); "avbrott/avbryt" = 0 grep-träffar i hela filsetet. **Förslag (ratificeras i §0.1 UNDER ARBETET vid ja):** (1) spara inkommen data FÖRST i rätt kolumnfil (§14 — redan lag) · (2) säg EN rad: vad som sparats + var den avbrutna uppgiften står · (3) slutför den avbrutna uppgiften till närmaste säkra punkt — påbörjad redigering görs färdig, SLUTKONTROLL + commit + push körs; halvredigerade filer lämnas aldrig — om inte ägaren uttryckligen säger byt/släpp · (4) agera sedan på det nya, eller visa alternativen och låt ägaren välja. §12-raden står kvar tills den avbrutna uppgiften är klar eller ägaren avfärdat den.
 
 *(Senast stängda fynd 10 juli: Dermapen-logotyp-svepet — `'Dermapen Brand Logo'` → `'Dermapen logotyp'` i 53 filer på ägarval, commit c801c09a, logg #51. Dessförinnan samma dag: §9.2-restfynden från sweepen — 25 `$specialist_url_title`-varianter + Verktyg-bildtitlarna — SVEPTA på ägarval samma dag, commit 7ca56e95, logg #47. Dessförinnan: mellanslaget-före-punkt på rhinophyma — fanns INTE i källan eller live (`näsan</a>.` curl-verifierad mot produktion); LYNX textextraktion infogar mellanslag när inline-länken strippas. Not i `lynx-examples`, logg #45. Dessförinnan 8 juli: §13.O:s styckeräkning, logg #39. Samma dag stängdes bildbuggen på microneedling-kortet — rättad på ägarval, logg #45.)*
 

@@ -123,7 +123,7 @@ Tre villkor, ägarens egna ord 8 juli, och de är hela ventilen:
 
 ### ▶ VID START — säg hej FÖRST, sedan tre steg
 
-**Innan du kör ett enda kommando: skriv en kort rad till ägaren.** Hälsa och säg vad du gör härnäst — att du kollar att ingen annan är igång och läser läget innan du visar kön. Två meningar räcker.
+**Innan du kör ett enda kommando: skriv en kort rad till ägaren.** Hälsa **utifrån tid på dygnet** ("God morgon" / "God eftermiddag" / "God kväll" — kolla klockan med `date`, gissa inte) och säg vad du gör härnäst — att du kontrollerar att ingen annan är igång, läser läget och **sedan presenterar alternativen**. Två meningar räcker. *(Skärpt 10 juli på ägar-rättelse: en sessionsstart hoppade över själva hälsningen — den är inte valfri.)*
 
 Varför regeln finns (ägarbesked 8 juli): ritualen är tre tysta verktygsanrop. Utan en rad först ser ägaren bara filer öppnas och vet inte om du förstod uppgiften eller redan börjat ändra något. **Han ska aldrig behöva gissa vad som pågår i hans eget repo.**
 
