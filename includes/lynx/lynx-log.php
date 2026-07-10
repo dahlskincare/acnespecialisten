@@ -45,6 +45,16 @@ Fulltext flyttas till **`includes/lynx/lynx-log-archive.php`**; kvar här blir e
 | behandla-pigmentflackar.php | 14 | – | – | –/– | SIGNIFICANT | GOOD | – | 16 |
 | hudproblem/hudforandringar/ | 10 | – | 17 | 3/2 | SIGNIFICANT | OK | – | 8 |
 
+### 2026-07-10 #69 — Ägaren levererade de skymda kolumnerna (16:36 + 16:37–38): stjärnsystemet validerat direkt · roaccutan AIQ POOR · blodprickar = mest klickade sidan · finnar-arr SCORE 9.
+**In:** Tre skärmbilder: b–f-segmentet utan popup (16:36, alla kolumner) + VALUE-sorterad vy i två delar (16:37–38, vänster med URL + höger-scrollad med WORDS/CLICKS/STATUS; radmatchning på gemensamma fält, entydig 13/13). **Sparade FÖRST → `lynx-data-archive` (två sektioner).**
+**Fynd:**
+- **Stjärnsystemet bevisade sig på första försöket:** cystisk-acne KW 21*→19 (den markerade cellen HADE ändrats) · behandla-finnar-arr:s * löstes som oförändrade; WORDS/CLICKS där fortfarande osedda → * kvar. [STÄNGD]
+- **AIQ-drift på ORÖRDA sidor, fjärde/femte exemplet: roaccutan OK→POOR · seborroisk-keratos GOOD→OK** → AIQ-bevaka-raden uppdaterad; attribuera aldrig utan §1.5-frågelista. [ÖPPEN → §9-rad]
+- **blodprickar CLICKS 549 = sajtens mest klickade sida** (över homepage 381; KW 171) — Tier 2-prion stärkt. **KW rör sig mellan renderingar** (167 kl. 16:36 → 171 kl. 16:38, samma sida) — läs KW som ±brus, aldrig ensam signal. [STÄNGD]
+- **finnar-arr SCORE 9 färsk = sajtens lägsta** (nedbrytning → beställningssedeln med blandhy 24). ipl-rosacea MODERATE står kvar (10:e observationen). STATUS 200 + AI FEATURES PÅ + EG "–" på alla 26 sedda rader. [ÖPPEN → beställningssedeln]
+**Åtgärd:** `lynx-data-archive` (2 sektioner) · `lynx-data` (26 rader uppdaterade/fyllda + finnar-arr ny; beställningssedel #1) · `lynx-backlog` (AIQ-raden) · denna post.
+**Kontroll:** transkription omläst mot alla tre bilderna (radmatchningen verifierad via KW+SCORE+GAPS-tripplar); stat läses i separat anrop före commit-meddelandet.
+
 ### 2026-07-10 #68 — LYNX-dump 16:22 sparad: 🆕 "Human-like Score" som AI STYLE-delsiffra · CQ-anomalin replikerad på cryopen · AI STYLE 85 på två orörda sidor.
 **In:** Två ägar-skärmbilder 16:22 (AICOPY-vyn b–f + SCORE-popups blodprickar/cryopen). **Sparade FÖRST → `lynx-data-archive` (12 rader) + `lynx-score` (popuparna verbatim) 16:4x.**
 **Fynd:**
