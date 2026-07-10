@@ -45,6 +45,14 @@ Fulltext flyttas till **`includes/lynx/lynx-log-archive.php`**; kvar här blir e
 | behandla-pigmentflackar.php | 14 | – | – | –/– | SIGNIFICANT | GOOD | – | 16 |
 | hudproblem/hudforandringar/ | 10 | – | 17 | 3/2 | SIGNIFICANT | OK | – | 8 |
 
+### 2026-07-10 #66 — CryoPen-återbesöket 295 kr BEKRÄFTAT (ägar-skärmbild av hela prislistan) — Milier/CryoPen-tråden från 2 juli helt stängd.
+**In:** Ägar-skärmbild 16:12, bokningssystemets CryoPen-lista (transkriberad här som prisfacit): **behandling** 1 st 1995 · 2–3 st 2995 · 4–6 st 3995 · 7–10 st 4995 · 11–20 st 7995 · 21–50 st 15995 kr · **återbesök** 1 st 295 · 2–3 st 395 · 4–6 st 495 · 7–10 st 695 · 20 st 1995 · 50 st 2995 kr.
+**Fynd:**
+- Återbesök 1 st = 295 kr ⇒ FAQ-meningen på `hudforandringar` stämmer (frågan avser EN åldersvårta). Sista öppna siffran ur 2 juli-beställningen stängd; §9-raden kryssad. [STÄNGD]
+- Sajtens alla CryoPen-prisfält ("Från 1995 kr": cryopen, hudflikar, fodelsemarken, blodprickar, seborroisk-keratos) = 1 st-priset ✓ konsistenta. Listan sparad här som facit för från-pris-surveyn (§9.2). [STÄNGD]
+**Åtgärd:** `lynx-backlog` (§9-raden kryssad) · denna post. Inga sidfiler rörda — allt stämde.
+**Kontroll:** grupperad diff läst (mönstret `^(\+\+\+|---) `) — 2 lynx-filer; stat läses i SEPARAT anrop före commit-meddelandet (#65-erratans regel).
+
 ### 2026-07-10 #65 — Andra main-pushen (PR #242) produktions-verifierad: alla dagens prisfixar live — sista passet före ägarens 3-veckorsledighet.
 **In:** Ägarbesked "pushat till main, kolla så allt fungerar" (merge 3847792e, 0 commits saknas).
 **Fynd:**
@@ -53,6 +61,7 @@ Fulltext flyttas till **`includes/lynx/lynx-log-archive.php`**; kvar här blir e
 - Öppet efter ledigheten: CryoPen-återbesöket 295 kr (obekräftat, §9-raden) · från-pris-survey · smärtfritt-passet · microneedling-rewriten (AI STYLE-testet armerat, väntar nu på LYNX-refresh av dagens sidor). [ÖPPEN → §9]
 **Åtgärd:** denna post. Main = staging t.o.m. b272cd37; endast denna bokförings-post släpar till nästa merge.
 **Kontroll:** grupperad diff läst (mönstret `^(\+\+\+|---) `) — 1 lynx-fil; stat läst efter sista editen, före commit-meddelandet.
+**Errata (samma session):** bokförings-committen ce79e1fa skrev "10+/0−" mot faktiska 9+/0− — TREDJE gången i dag stat och meddelande skrevs i samma svep (#62-erratan, sen igen). Roten är buntningen, inte slarvet: steget "läs stat" och steget "skriv meddelande" måste vara TVÅ verktygsanrop. Detta errata-commit görs så.
 
 ### 2026-07-10 #64 — Milier-verifieringen stängd + CryoPen-FAQ:n rättad (ägarbesked: "milier stämmer, cryopen är från 1995kr").
 **In:** Ägar-verifiering mot bokningssystemet, svar på 2 juli-beställningen.
