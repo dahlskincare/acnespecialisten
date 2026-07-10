@@ -170,7 +170,7 @@ Hittar du något äkta mitt i en uppgift: **skriv EN rad i §9.2 FYNDLÅDAN, sä
 
 **SLUTKONTROLLEN (grundnivå, ägarbeslut 10 juli) — körs FÖRE push; utfallet skrivs som Kontroll-raden i loggposten (POST-MALLEN, §11):**
 1. **Grupperad diff:** `git diff | grep -E '^[+-]' | grep -vE '^[+-]{2}' | sort | uniq -c` — varje radmönster ska vara avsett, plus- och minusrader ska gå ihop.
-2. **Siffror ur diffen, aldrig ur minnet:** fil-/radantal i commit och logg räknas ur `git diff --stat`/grupperingen — två oberoende räknevägar ska ge samma tal. *(Bakgrund: "24 filer" var ett minnestal, diffen sa 25 — logg #47/#48.)*
+2. **Siffror ur diffen, aldrig ur minnet:** fil-/radantal i commit och logg räknas ur `git diff --stat`/grupperingen — två oberoende räknevägar ska ge samma tal. **Ordningen är del av regeln: läs SLUTLIGA diff-stat EFTER sista editen, FÖRE commit-meddelandet skrivs** — ett tal skrivet före sista läsningen är ett minnestal. *(Bakgrund: "24 filer" var ett minnestal, diffen sa 25 — logg #47/#48; ratificerings-committen själv skrev "23+/5−" mot faktiska 22+/4− av samma skäl — logg #49 errata.)*
 3. **Vid dump-sparning:** läs transkriptionen EN gång till mot bilden före commit; osäker avläsning markeras "(?)" i cellen.
 
 *(Fördjupningen — per-uppgiftstyp-katalogen §13.P — är ägar-beställd men medvetet uppskjuten: §9.3.)*

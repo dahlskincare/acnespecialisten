@@ -53,6 +53,7 @@ Fulltext flyttas till **`includes/lynx/lynx-log-archive.php`**; kvar här blir e
 - Fördjupningen (§13.P-katalogen A–D + självkontrollens gräns) medvetet uppskjuten av ägaren. [ÖPPEN → §9.3]
 **Åtgärd:** `lynx-START` (§0.1 VID SLUT + parentesen omskriven) · `lynx-log` (POST-MALLEN + ram 5) · `lynx-backlog` (§9.3-rad). Inga sidfiler rörda.
 **Kontroll:** grupperad diff över 3 lynx-filer + diff-stat — **fångade direkt ett eget fel: §9.3-editen hade ERSATT raden om §9.0:s två kvarvarande ägarbeslut i stället för att lägga till (1+/1− där 2+/1− var avsett) — återställd före push.** Övriga radmönster avsedda; state-synk-grep "slutcheck": kvarvarande träffar är HISTORIK + korrekt historia; §-KARTAN oförändrad.
+**Errata (samma dag):** ratificerings-committens meddelande (9d54ed9f) skrev "23+/5−"; slutliga diffen var **22+/4−** — talet formulerades innan sista diff-staten lästes. Pushad historik skrivs inte om; regeln fick ordningsklausulen i §0.1 steg 2 av just detta.
 
 ### 2026-07-10 #48 — ⛔-förvillkoret UPPFYLLT: microneedlings kompletta SCORE-popup levererad — AI STYLE-FÖRE 60, testet armerat.
 **In:** Ägar-dump 09:40 (SCORE-popup för microneedling + Pages-vyn URL-filtrerad "microneedling"). Sparad FÖRST → `lynx-score` (13 delvärden) · `lynx-data-archive` (09:40-snapshot) · AKTUELLT LÄGE (4 rader).
