@@ -45,6 +45,14 @@ Fulltext flyttas till **`includes/lynx/lynx-log-archive.php`**; kvar här blir e
 | behandla-pigmentflackar.php | 14 | – | – | –/– | SIGNIFICANT | GOOD | – | 16 |
 | hudproblem/hudforandringar/ | 10 | – | 17 | 3/2 | SIGNIFICANT | OK | – | 8 |
 
+### 2026-07-10 #57 — Fjärde intro-incidenten: testsessionen tyst igen — ägarbeslut: tidshälsningen SKROTAD, vanlig hälsning + information räcker.
+**In:** Ägar-test 11:15 (skärmbild av ny parallell sessionsstart — ingen LYNX-data): ingen hälsning före verktygsanropen trots #56-regeln. Ägarens beslut: *"det blev för komplicerat så vi skippar tidsgrejen … vanlig hälsning och information".*
+**Fynd/beslut:**
+- Fyra incidenter, fyra olika vägar (hoppad · `date`-buntning · svald av terminalen · tyst testsession) — tidskravet var den gemensamma komplexiteten: det tvingade in `date` före första raden. [STÄNGD]
+- §0.1 förenklad: vanlig hälsning + info som första textrad, inget `date`, ingen tidsvariant; ÖPPNINGSLISTAN (turens sista meddelande, visas alltid) öppnar med samma hälsning. [RATIFICERAD → §0.1]
+**Åtgärd:** `lynx-START` (§0.1 VID START + ÖPPNINGSLISTAN-raden) · denna post. Inga sidfiler rörda. Ägaren testar vid nästa sessionsstart.
+**Kontroll:** grupperad diff läst (korrigerade mönstret `^(\+\+\+|---) `, §9.2-raden om det är öppen) — alla radmönster avsedda, 2 lynx-filer; state-synk-grep på "tidshälsning"/"tid på dygnet"/"God morgon" = 0 döda referenser kvar; slutlig stat läst efter sista editen, före commit-meddelandet.
+
 ### 2026-07-10 #56 — Tredje intro-incidenten: hälsningen skrevs enligt regel men visades aldrig — hej:et flyttat till sessionens FÖRSTA rad, tidshälsningen till öppningslistan.
 **In:** Ägar-rapport 11:03 (skärmbild av sessionsstarten — ingen LYNX-data, inget att spara): ingen hälsning syntes, *"intron fungerar inte"* — tredje gången.
 **Fynd/beslut:**
