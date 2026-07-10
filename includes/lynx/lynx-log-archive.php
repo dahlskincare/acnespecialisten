@@ -197,7 +197,7 @@ PEKAR-PÅ      lynx-log = aktiva poster + enrads-referenser · regelfilerna bär
 **Åtgärd:** commits 1f45c1a7 · 9e19949b · 3c0f03fd · bc925cdc + denna. Slutverifiering: **batterierna 5–9 = 172 checkar, alla gröna; censusen 0 trasiga pekare, 0 §-refs utan ägare.** Nästa arbete: **microneedling (Fas 3b)** — REWRITE-SPEC ligger i `lynx-examples`.
 
 ### 2026-07-08 #20 — §9.0 steg 5 + 6 KLARA (autonomt) · batterier för steg 8 + 9 byggda · sakfel i EEAT-mekanismen rättat
-**In:** ägaren lämnade uppdraget "steg 5 + 6 + bygg batterier för 8 och 9" och gick. Ram: staging only, `<?php exit;`-filer (ingen produktionsrisk), git = ångerknapp. Steg 7–10, microneedling och main rördes EJ.
+**In:** ägaren lämnade uppdraget "steg 5 + 6 + bygg batterier för 8 och 9" och gick. Ram: staging only, exit-vaktade filer (ingen produktionsrisk), git = ångerknapp. Steg 7–10, microneedling och main rördes EJ. *(Ordagrant tagg-citat på denna rad neutraliserat 10 juli på ägarbeslut — det fällde filens PHP-parsning till ett publikt parse error; logg #59.)*
 **Fynd:**
 - **SAKFEL:** `lynx-models` §1.2 förklarade EEAT-klampen med "hälsosidor — vi är hudterapeuter, ej läkare på YMYL". Den premissen förkastades 6 juli av `lynx-score` slutsats B (klampen gäller även /kontakt.php, /hudproblem/; följer /varumarken/-URL-strukturen) + online-verifieringen. Operativa slutsatsen står — EEAT låst 60, ej copy-spak. Instans av §0:s state-synk-princip. [STÄNGD]
 - **Steg 5:** models → operativ REGEL-cell + första front-matter-manifestet. Superseded lager (OMPRÖVAS, det besvarade testprotokollet, hela 30 juni-multiplikativa modellen) flyttade VERBATIM ur git → lynx-score HISTORIK. §11.1:s fem staplade ⚠️-mätregler → ETT 5-punktsblock. Batteri 38/38. [STÄNGD]
