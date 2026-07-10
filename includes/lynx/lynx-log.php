@@ -53,6 +53,7 @@ Fulltext flyttas till **`includes/lynx/lynx-log-archive.php`**; kvar här blir e
 - display_errors-raden nyanserad med ägarens bedömning 10 juli: lynx-URL:erna besöks aldrig och är oviktiga; radens kvarvarande motiv är fel på riktiga kundsidor. [ÖPPEN → §9.2-rad]
 **Åtgärd:** `hudterapeutens-val/index.php` (commit 479e33dd) · §9.2-rad (799 kr) · denna post. Väntar: ägarens merge → live-verifiering.
 **Kontroll:** grupperad diff 15+/15− exakt symmetrisk (varje minusrad har sin plusrad); staging-render verifierad efter deploy (16 träffar nya priser, 0 gamla); stat läst efter sista editen, före commit-meddelandet.
+**Errata (samma session):** bokförings-committen c8473055 skrev "11+/0−" mot faktiska 10+/0− — stat och meddelande skrevs i samma svep i stället för i ordning (§0.1 steg 2-brottet från #49, upprepat). Talen i denna post är kontrollräknade efteråt.
 
 ### 2026-07-10 #61 — Ägarens main-push produktions-verifierad: svepen + parse-fixen live — ägaren ledig 3 veckor.
 **In:** Ägarbesked *"nu har jag pushat till main, bevaka"* (merge 2960def5). Ingen LYNX-data.
