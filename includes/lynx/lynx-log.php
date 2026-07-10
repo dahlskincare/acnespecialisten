@@ -45,6 +45,16 @@ Fulltext flyttas till **`includes/lynx/lynx-log-archive.php`**; kvar här blir e
 | behandla-pigmentflackar.php | 14 | – | – | –/– | SIGNIFICANT | GOOD | – | 16 |
 | hudproblem/hudforandringar/ | 10 | – | 17 | 3/2 | SIGNIFICANT | OK | – | 8 |
 
+### 2026-07-10 #70 — Gravstenar för 5 utgångna lynx-sökvägar + stående rutin: deployen raderar aldrig — gamla serverkopior skrivs ÖVER, inte bort.
+**In:** Ägarfråga om lynx-filerna utanför repot → alla 32 historiska lynx-sökvägar ur git-historiken inventerade mot båda domänerna (HTTP-kod + bytes per sökväg).
+**Fynd:**
+- Repots 15 filer svarar 0 bytes på båda domänerna — exit-vakten håller. [STÄNGD]
+- Deployen (zip + unzip -o) raderar aldrig → omdöpta/raderade filer ligger kvar i sista deployade version; 5 utgångna sökvägar behövde åtgärd (3 php i gammal version + 2 .md från tiden före php-konverteringen). [STÄNGD → gravstenar]
+- Lösning utan serveråtkomst: gravstensfiler på exakt de sökvägarna, så enkla det går (php-exit-vakt resp. tom .md; .md = php-only-avsteg på ägarbeslut, VENTILEN §0). Live-sökvägen uppdateras vid nästa main-push. [ÖPPEN → §9-rad]
+- Rutin framåt (ägarbeställd): namnbyte/radering av lynx-fil ⇒ gravsten på gamla sökvägen i samma commit + staging-verifiering direkt. [RATIFICERAD → §0.1 VID SLUT + filkartan i START]
+**Åtgärd:** e575c272 (5 gravstenar) + denna commit (gravstenar förenklade till bara vakten · §0.1-rutinen · filkartans GRAVSTENAR-rad · §9-raden + §9.2-synk · denna post).
+**Kontroll:** grupperad diff läst (mönstret `^(\+\+\+|---) `); staging pollad till 5/5 = 0 bytes efter första pushen + omverifieras efter denna; stat läst i separat anrop före commit-meddelandet.
+
 ### 2026-07-10 #69 — Ägaren levererade de skymda kolumnerna (16:36 + 16:37–38): stjärnsystemet validerat direkt · roaccutan AIQ POOR · blodprickar = mest klickade sidan · finnar-arr SCORE 9.
 **In:** Tre skärmbilder: b–f-segmentet utan popup (16:36, alla kolumner) + VALUE-sorterad vy i två delar (16:37–38, vänster med URL + höger-scrollad med WORDS/CLICKS/STATUS; radmatchning på gemensamma fält, entydig 13/13). **Sparade FÖRST → `lynx-data-archive` (två sektioner).**
 **Fynd:**
