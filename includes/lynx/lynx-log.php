@@ -45,6 +45,14 @@ Fulltext flyttas till **`includes/lynx/lynx-log-archive.php`**; kvar här blir e
 | behandla-pigmentflackar.php | 14 | – | – | –/– | SIGNIFICANT | GOOD | – | 16 |
 | hudproblem/hudforandringar/ | 10 | – | 17 | 3/2 | SIGNIFICANT | OK | – | 8 |
 
+### 2026-07-10 #63 — Från-priset 799→999 kr på fyra sidor (ägarbeslut): konventionen förklarad — per behandling i 5-paketet; 799 var före höjningen.
+**In:** Ägarbesked: *"från 799 kr ska nog bli från 999 kr och beror på höjning av priset på 5 behandlingar … även om det inte syns ska sidan vara korrekt för ai."*
+**Fynd:**
+- Konventionen: från-pris = per behandling i 5-packet. 799×5 = 3995 = gamla 5-packpriset; efter höjningen till 4995 → 999. Paketkorten på sidorna stämde alltså redan — bara från-fältet släpade. Fältet renderas inte men rättas ändå (korrekt för AI). §9.2-raden 799 kr stängd genom fixen. [STÄNGD]
+- Survey: ~150 `Från X kr`-fält sajtbrett med obekräftad konvention/färskhet (t.ex. hudterapeutens-val 1995 = styckpris; per konventionen 1199?) — eget pass efter ledigheten. [ÖPPEN → §9.2-rad]
+**Åtgärd:** `porrengoring` + `djuprengoring` + akne- + rosacea-undersidorna (commit cfd7ef62) · §9.2 (799-raden stängd, survey-rad ny) · denna post. Väntar: ägarens merge → live-svep.
+**Kontroll:** grupperad diff 4+/4− symmetrisk (ett mönster, fyra filer); stat läst efter sista editen, före commit-meddelandet.
+
 ### 2026-07-10 #62 — Prisfix Hudterapeutens val på ägar-rapport: undersidan låg kvar på gamla prisklassen — text OCH boknings-URL:er rättade.
 **In:** Ägar-skärmbild av bokningssystemets prislista (Hudterapeutens Val 1995 kr/70 min) + rapport "fel pris". Bilden läst direkt; ej LYNX-data.
 **Fynd:**
