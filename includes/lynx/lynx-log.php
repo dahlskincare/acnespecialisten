@@ -45,6 +45,20 @@ Fulltext flyttas till **`includes/lynx/lynx-log-archive.php`**; kvar här blir e
 | behandla-pigmentflackar.php | 14 | – | – | –/– | SIGNIFICANT | GOOD | – | 16 |
 | hudproblem/hudforandringar/ | 10 | – | 17 | 3/2 | SIGNIFICANT | OK | – | 8 |
 
+### 2026-07-10 #51 — Dermapen-logotyp-svepet: 53 filer rättade, fyndlådan tom.
+**In:** Ägarval (*"efter detta ska vi göra 1 och 2 av dina förslag"* — detta var 1). Ingen mätdata.
+**Fynd:** `image_alt: 'Dermapen Brand Logo'` → `'Dermapen logotyp'` i 53 filer — syskonloggornas "X logotyp"-mönster; siddata §13.K, ingen attributionsrisk. 0 träffar kvar. [STÄNGD]
+**Åtgärd:** 53 sidfiler (commit c801c09a) · lynx-backlog (§9.2-raden stängd). Härnäst på ägarval: R4-städpasset (förslag 2).
+**Kontroll:** grupperad diff = exakt ett mönster åt varje håll (53+/53−); grep 0 kvar sajtbrett; slutlig stat läst före commit-meddelandet.
+
+### 2026-07-10 #50 — Första Ahrefs-datan in: 3 för långa meta descriptions kortade (riktad fix; GSC/Ahrefs-passet fortsatt parkerat).
+**In:** Två Ahrefs Site Audit-bilder 10:12 ("Meta description too long"; crawl-historik: 2 URL:er sedan 4 maj → 3 från ca 15 juni; senaste crawl 6 juli). Ingen LYNX-data.
+**Fynd/beslut:**
+- Alla tre kortade: presentkort 181→**129** tecken (ägarens formulering efter två underkända förslag — *poängen är ATT kortet kan fås hemskickat, inte processen*) · kemisk-peeling 189→**132** (alla metodnamn kvar) · varumarken/hifu 175→**151** (SMAS/kollagen kvar). §13.H: egna meta-commits (6ca0bf6d + 1f1d83cd). [STÄNGD]
+- Ingen av sidorna är LYNX-omskriven → ingen attributionsrisk. Hifu dök upp i issuen ~15 juni = sidans tillkomst; Ahrefs crawlar den (LYNX-bevakan §9 står kvar). [STÄNGD]
+**Åtgärd:** presentkort.php · kemisk-peeling.php · varumarken/hifu/index.php. Ahrefs-issuens innehåll dokumenterat här (tråden stängd i samma session — loggen är inte enda bäraren av något öppet).
+**Kontroll:** teckenlängder räknade före/efter per meta; grupperad diff = enbart meta-rader; slutlig stat läst före varje commit-meddelande (3+/3− resp. 1+/1−); §6-koll: "digitalt presentkort"/"hudvård" · "kemisk peeling" · "HIFU ultraljud" kvar i nya texterna.
+
 ### 2026-07-10 #49 — SLUTKONTROLLEN grundnivå ratificerad: kontroll före varje push, siffror ur diffen; fördjupningen parkerad i §9.3.
 **In:** Ägarbeslut efter dubbelkoll-fyndet (#47-räknefelet): *"lägg in grundläggande kontroll och lägg resten på to do".* Fulla förslaget presenterades och godkändes i grundnivå.
 **Fynd/beslut:**

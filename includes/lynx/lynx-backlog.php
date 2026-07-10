@@ -18,7 +18,7 @@ Vi kör **1 Claude i taget** (§0.1), så det här är ingen parallell-lås län
 
 | Sida | Status | Tid |
 |------|--------|-----|
-| *(tom — ingen är igång)* Senast: boilerplate-sweep del 1+2 ✅ 10 juli (86 filer, logg #46–#47). **Kön i §9 är öppen — ägaren väljer.** | – | – |
+| Ahrefs-fix: 3 för långa meta descriptions (presentkort · kemisk-peeling · hifu) — därefter Dermapen-svepet + R4-städpasset (ägarval 10 juli) | pågår | 10 juli fm |
 
 ---
 
@@ -179,9 +179,7 @@ Skillnaden mot de andra listorna: **§9.0/Fas-listorna = planerat arbete** · **
 
 **Format:** en rad. `[allvarlighet] fyndet — var det syns — vad som skulle krävas.` Bevis hör hemma i raden, inte i en utredning.
 
-- [låg] **`image_alt: 'Dermapen Brand Logo'` på engelska i 53 filer** (hittat vid sweep del 2, 10 juli) — alla syskon-loggor använder svenska ("Harmony XL Pro logotyp", "Skin Tech logotyp", "DAHL Skincare logotyp"). **Föreslagen fix: `'Dermapen logotyp'`** — mekaniskt ensträngs-svep, siddata §13.K.
-
-*(Senast stängda fynd 10 juli: §9.2-restfynden från sweepen — 25 `$specialist_url_title`-varianter + Verktyg-bildtitlarna — SVEPTA på ägarval samma dag, commit 7ca56e95, logg #47. Dessförinnan: mellanslaget-före-punkt på rhinophyma — fanns INTE i källan eller live (`näsan</a>.` curl-verifierad mot produktion); LYNX textextraktion infogar mellanslag när inline-länken strippas. Not i `lynx-examples`, logg #45. Dessförinnan 8 juli: §13.O:s styckeräkning, logg #39. Samma dag stängdes bildbuggen på microneedling-kortet — rättad på ägarval, logg #45.)*
+*(Senast stängda fynd 10 juli: Dermapen-logotyp-svepet — `'Dermapen Brand Logo'` → `'Dermapen logotyp'` i 53 filer på ägarval, commit c801c09a, logg #51. Dessförinnan samma dag: §9.2-restfynden från sweepen — 25 `$specialist_url_title`-varianter + Verktyg-bildtitlarna — SVEPTA på ägarval samma dag, commit 7ca56e95, logg #47. Dessförinnan: mellanslaget-före-punkt på rhinophyma — fanns INTE i källan eller live (`näsan</a>.` curl-verifierad mot produktion); LYNX textextraktion infogar mellanslag när inline-länken strippas. Not i `lynx-examples`, logg #45. Dessförinnan 8 juli: §13.O:s styckeräkning, logg #39. Samma dag stängdes bildbuggen på microneedling-kortet — rättad på ägarval, logg #45.)*
 
 *(Tomma rader tas aldrig bort med motiveringen "verkar inte viktigt". De tas bort när fyndet är åtgärdat eller när ägaren avfärdar det — och då med en rad i §11.)*
 
