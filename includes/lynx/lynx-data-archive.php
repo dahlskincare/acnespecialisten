@@ -17,6 +17,62 @@ PEKAR-PÅ      lynx-data = AKTUELLT LÄGE (gällande värden) · jämför ALDRIG
 
 
 
+## Snapshot 2026-07-10 kl. 16:37–16:38 — VALUE-sorterad Pages-vy (VAL 64→49), TVÅ skärmbilder: vänster del (med URL) + höger-scrollad del (WORDS/CLICKS/STATUS/AI FEATURES, utan URL)
+> Radmatchning gjord på de fält som syns i BÅDA bilderna (SCORE+GAPS+AI COPY+AIQ+P.PRICE+KW) — entydig på alla 13 rader; ägarens anvisning: *"du kan nog matcha baserat på de fält som syns i båda … är du osäker kan du också fråga"*. PAGE TYPE "–" där synlig · EG SCORE "–" på alla · STATUS 200 på alla · AI FEATURES-toggeln PÅ på alla.
+
+| VALUE | URL | SCORE | GAPS ⚡/💡 | AI COPY | AIQ | P.PRICE | KW | WORDS | CLICKS | STATUS |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 64 | /portomning.php | 60 | 0/0 | SLIGHT | OK | HIGHEST | 25 | 515 | 50 | 200 |
+| 63 | /seborroisk-keratos.php | 74 | 0/0 | SLIGHT | OK | – | 105 | 513 | 142 | 200 |
+| 62 | /acne-rygg.php | 69 | 2/1 | SLIGHT | OK | – | 44 | 638 | 54 | 200 |
+| 59 | /cystisk-acne.php | 70 | 0/0 | SLIGHT | OK | – | 19 | 330 | 22 | 200 |
+| 59 | /hydrafacial.php | 63 | 0/0 | SLIGHT | OK | HIGHEST | 13 | 924 | 24 | 200 |
+| 59 | /blodprickar.php | 75 | 2/1 | SLIGHT | OK | – | 171 | 494 | 549 | 200 |
+| 55 | /djuprengoring.php | 75 | 1/1 | SLIGHT | OK | HIGH | 7 | 283 | 6 | 200 |
+| 54 | /ipl-rosacea.php | 60 | 3/1 | MODERATE | OK | HIGHEST | 18 | 823 | 9 | 200 |
+| 53 | /mallorca-acne.php | 68 | 0/0 | SLIGHT | OK | – | 13 | 357 | 79 | 200 |
+| 50 | /porrengoring.php | – (PAGE TYPE –) | –/– | SLIGHT | OK | HIGHEST | 9 | 575 | 12 | 200 |
+| 49 | /resultat-rosacea.php | 44 | 0/0 | SLIGHT | OK | – | 6 | 230 | 8 | 200 |
+| 49 | /roaccutan.php | 23 | 0/0 | SLIGHT | **POOR** | – | 57 | 295 | 30 | 200 |
+| 49 | /acne-brost.php | 73 | 2/1 | SLIGHT | OK | – | 43 | 326 | 21 | 200 |
+
+## Snapshot 2026-07-10 kl. 16:36 — AICOPY-filtrerad Pages-vy, segment b–f UTAN popup (alla kolumner synliga; uppföljning på 16:22-dumpen)
+> Ägar-leverans som svar på *-markörerna: samma segment med PAGE TYPE/GAPS/AI COPY/AIQ/P.PRICE/EG SCORE/KW synliga. WORDS/CLICKS/STATUS utanför beskärningen. EG SCORE "–" på samtliga.
+
+| VALUE | URL | PAGE TYPE | SCORE | GAPS ⚡/💡 | AI COPY | AIQ | P.PRICE | EG | KW |
+|---|---|---|---|---|---|---|---|---|---|
+| 9 | /behandla-finnar-arr.php | – | – | –/– | SLIGHT | OK | – | – | 2 |
+| 10 | /behandla-pigmentflackar.php | – | – | –/– | SLIGHT | GOOD | – | – | 13 |
+| 46 | /behandla-stora-porer.php | | 63 | 1/1 | SLIGHT | OK | – | – | 38 |
+| 11 | /blandhy.php | | 24 | 0/0 | SLIGHT | OK | – | – | 12 |
+| 59 | /blodprickar.php | | 75 | 2/1 | SLIGHT | OK | – | – | 167 |
+| 42 | /cryopen.php | | 60 | 0/1 | SLIGHT | OK | HIGHEST | – | 45 |
+| 59 | /cystisk-acne.php | | 70 | 0/0 | SLIGHT | OK | – | – | 19 |
+| 43 | /dermapen.php | | 60 | 0/0 | SLIGHT | OK | HIGH | – | 52 |
+| 55 | /djuprengoring.php | | 75 | 1/1 | SLIGHT | OK | HIGH | – | 7 |
+| 17 | /fet-hy.php | | 60 | 1/1 | SLIGHT | OK | – | – | 53 |
+| 19 | /finnar.php | – | – | –/– | SLIGHT | OK | – | – | 97 |
+| 12 | /finnar-ansikte.php | – | – | –/– | SLIGHT | OK | – | – | 1 |
+| 14 | /finnar-arr.php | | 9 | 0/0 | SLIGHT | OK | – | – | 13 |
+
+## Snapshot 2026-07-10 kl. 16:22 — AICOPY-filtrerad Pages-vy, segment b–f + SCORE-popups för /blodprickar.php och /cryopen.php (2 skärmbilder 16:22:44 + 16:22:52)
+> Ägar-dump under avslutningen före 3-veckorsledigheten. Filter "AICOPY" aktivt; endast VALUE + SCORE synliga i beskärningen (AI COPY-badge m.fl. kolumner utanför bild). **Popuparnas delvärden verbatim i `lynx-score` (10 juli 16:22-sektionen).** Båda popuparna "Analyzed 22 hours ago".
+
+| URL | VALUE | SCORE |
+|---|---|---|
+| /behandla-finnar-arr.php | 9 | – |
+| /behandla-pigmentflackar.php | 10 | – |
+| /behandla-stora-porer.php | 46 | 63 |
+| /blandhy.php | 11 | 24 |
+| /blodprickar.php (markerad i bild 1 = popupens sida) | 59 | 75 |
+| /cryopen.php (markerad i bild 2 = popupens sida) | 42 | 60 |
+| /cystisk-acne.php | 59 | 70 |
+| /dermapen.php | 43 | 60 |
+| /djuprengoring.php | 55 | 75 |
+| /fet-hy.php | 17 | 60 |
+| /finnar.php | 19 | – |
+| /finnar-ansikte.php | 12 | – |
+
 ## Snapshot 2026-07-10 kl. 09:40 — Pages-vyn URL-filtrerad "microneedling" + SCORE-popup för /microneedling.php
 > Ägar-dump 09:40:19. Popupen skymmer AI COPY/AIQ/P.PRICE/KW-kolumnerna; PAGE TYPE "–" där synlig. **Popupens 13 delvärden verbatim i `lynx-score` (10 juli-sektionen — ⛔-förvillkoret uppfyllt).**
 

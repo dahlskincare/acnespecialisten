@@ -45,6 +45,64 @@ Fulltext flyttas till **`includes/lynx/lynx-log-archive.php`**; kvar här blir e
 | behandla-pigmentflackar.php | 14 | – | – | –/– | SIGNIFICANT | GOOD | – | 16 |
 | hudproblem/hudforandringar/ | 10 | – | 17 | 3/2 | SIGNIFICANT | OK | – | 8 |
 
+### 2026-07-10 #70 — Gravstenar för 5 utgångna lynx-sökvägar + stående rutin: deployen raderar aldrig — gamla serverkopior skrivs ÖVER, inte bort.
+**In:** Ägarfråga om lynx-filerna utanför repot → alla 32 historiska lynx-sökvägar ur git-historiken inventerade mot båda domänerna (HTTP-kod + bytes per sökväg).
+**Fynd:**
+- Repots 15 filer svarar 0 bytes på båda domänerna — exit-vakten håller. [STÄNGD]
+- Deployen (zip + unzip -o) raderar aldrig → omdöpta/raderade filer ligger kvar i sista deployade version; 5 utgångna sökvägar behövde åtgärd (3 php i gammal version + 2 .md från tiden före php-konverteringen). [STÄNGD → gravstenar]
+- Lösning utan serveråtkomst: gravstensfiler på exakt de sökvägarna, så enkla det går (php-exit-vakt resp. tom .md; .md = php-only-avsteg på ägarbeslut, VENTILEN §0). Live-sökvägen uppdateras vid nästa main-push. [ÖPPEN → §9-rad]
+- Rutin framåt (ägarbeställd): namnbyte/radering av lynx-fil ⇒ gravsten på gamla sökvägen i samma commit + staging-verifiering direkt. [RATIFICERAD → §0.1 VID SLUT + filkartan i START]
+**Åtgärd:** e575c272 (5 gravstenar) + denna commit (gravstenar förenklade till bara vakten · §0.1-rutinen · filkartans GRAVSTENAR-rad · §9-raden + §9.2-synk · denna post).
+**Kontroll:** grupperad diff läst (mönstret `^(\+\+\+|---) `); staging pollad till 5/5 = 0 bytes efter första pushen + omverifieras efter denna; stat läst i separat anrop före commit-meddelandet.
+
+### 2026-07-10 #69 — Ägaren levererade de skymda kolumnerna (16:36 + 16:37–38): stjärnsystemet validerat direkt · roaccutan AIQ POOR · blodprickar = mest klickade sidan · finnar-arr SCORE 9.
+**In:** Tre skärmbilder: b–f-segmentet utan popup (16:36, alla kolumner) + VALUE-sorterad vy i två delar (16:37–38, vänster med URL + höger-scrollad med WORDS/CLICKS/STATUS; radmatchning på gemensamma fält, entydig 13/13). **Sparade FÖRST → `lynx-data-archive` (två sektioner).**
+**Fynd:**
+- **Stjärnsystemet bevisade sig på första försöket:** cystisk-acne KW 21*→19 (den markerade cellen HADE ändrats) · behandla-finnar-arr:s * löstes som oförändrade; WORDS/CLICKS där fortfarande osedda → * kvar. [STÄNGD]
+- **AIQ-drift på ORÖRDA sidor, fjärde/femte exemplet: roaccutan OK→POOR · seborroisk-keratos GOOD→OK** → AIQ-bevaka-raden uppdaterad; attribuera aldrig utan §1.5-frågelista. [ÖPPEN → §9-rad]
+- **blodprickar CLICKS 549 = sajtens mest klickade sida** (över homepage 381; KW 171) — Tier 2-prion stärkt. **KW rör sig mellan renderingar** (167 kl. 16:36 → 171 kl. 16:38, samma sida) — läs KW som ±brus, aldrig ensam signal. [STÄNGD]
+- **finnar-arr SCORE 9 färsk = sajtens lägsta** (nedbrytning → beställningssedeln med blandhy 24). ipl-rosacea MODERATE står kvar (10:e observationen). STATUS 200 + AI FEATURES PÅ + EG "–" på alla 26 sedda rader. [ÖPPEN → beställningssedeln]
+**Åtgärd:** `lynx-data-archive` (2 sektioner) · `lynx-data` (26 rader uppdaterade/fyllda + finnar-arr ny; beställningssedel #1) · `lynx-backlog` (AIQ-raden) · denna post.
+**Kontroll:** transkription omläst mot alla tre bilderna (radmatchningen verifierad via KW+SCORE+GAPS-tripplar); stat läses i separat anrop före commit-meddelandet.
+
+### 2026-07-10 #68 — LYNX-dump 16:22 sparad: 🆕 "Human-like Score" som AI STYLE-delsiffra · CQ-anomalin replikerad på cryopen · AI STYLE 85 på två orörda sidor.
+**In:** Två ägar-skärmbilder 16:22 (AICOPY-vyn b–f + SCORE-popups blodprickar/cryopen). **Sparade FÖRST → `lynx-data-archive` (12 rader) + `lynx-score` (popuparna verbatim) 16:4x.**
+**Fynd:**
+- 🆕 AI STYLE bär numera delsiffran **"Human-like Score"** (85/85 på båda = speglar badgen, n=2) — första gången synlig i UI:t; taxonomin externa verifieringen antog är bekräftad. [RATIFICERAD → lynx-score-sektionen]
+- CQ-badge-anomalin (badge 60 vs subs 92/95/94) replikerad på cryopen, med Depth/Evidence-raderna saknade i popupen; EEAT-klampen 60 ✓ på båda. Slutsats A ✓ på cryopen; blodprickar-popupens Overall skymd (rad 75 vs medel 73,5 — noterat, ej attribuerat). [STÄNGD]
+- AI STYLE 85 på två ORÖRDA sidor = näst högst uppmätt — orörd copy kan ligga högt. [STÄNGD]
+- Celler: NYTT blandhy **24** (lägsta-klassen — nedbrytning vid tillfälle) · cryopen/dermapen/fet-hy 60 · finnar/finnar-ansikte "–" · ÄNDRAT VAL-drift ±1 (behandla-finnar-arr, cystisk-acne) · OFÖRÄNDRAT övriga 4. Ingen rad är en omskriven sida → ingen mät-loop triggad. [STÄNGD]
+**Åtgärd:** `lynx-data-archive` · `lynx-score` · `lynx-data` (6 rader uppdaterade + 6 nya) · denna post.
+**Kontroll:** transkriptionen läst EN gång till mot båda bilderna före commit (§0.1 steg 3) — 12 listrader + 2×13 popup-värden stämmer; popup-Overall blodprickar markerad (?); stat läst i separat anrop före commit-meddelandet.
+**Addendum (ägarfråga samma session):** inga celler blankades — de 6 befintliga radernas skymda kolumner behölls orörda ("kolumn ej synlig → rör inte cellen"); de 6 nya radernas tomma celler = "aldrig sedd efter 30/6" (gamla värden i arkivinventeringen). Ägarens heuristik ratificerad i uppdateringsreglerna (`lynx-data`), BÅDA halvorna: synliga värden oförändrade ⇒ skymda troligen också · synliga värden ÄNDRADE ⇒ ny `*`-markör på Sedd-datumet (skymda rimligen förändrade men okända; senast kända värden står kvar). Dagens två VAL-drift-rader (behandla-finnar-arr, cystisk-acne) fick markören — **skärpt till CELLNIVÅ på ägarbesked:** `*` sitter på varje skymd cells värde (inte på Sedd), så varje siffra bär sin egen trovärdighet och framtida jämförelser kan välja bara betrodda värden. Ramprincipen ratificerad ovanför AKTUELLT LÄGE: exporten är imperfekt → bästa möjliga bild med kända glapp; beslut som kräver säkerhet föregås av riktad färsk verifiering.
+
+### 2026-07-10 #67 — HELSAJTSSVEP före ledigheten på ägarfråga ("100% säker?"): 137/137 sitemap-sidor HTTP 200, 0 PHP-fel — sajten lämnas fullverifierad.
+**In:** Ägarfråga om fullständig säkerhet. Svar genom mätning: samtliga sitemap-URL:er testade mot produktionen (inte bara de ändrade sidorna).
+**Fynd:**
+- 137/137 sidor HTTP 200 med 0 PHP-fel i utdata (Warning/Notice/Fatal/Parse/Deprecated). Tillsammans med #65/#66: alla ändringstyper innehållsverifierade, 15/15 lynx-filer tomma. [STÄNGD]
+- Redovisade gränser för garantin: bokningsflödet är extern tjänst (länkar/prisklasser verifierade, ej genomklickade) · orört innehåll orört · hosting-drift utanför repot; inget deployas under frånvaron. [STÄNGD]
+- Metodnot: första svepet fick 000 på allt — macOS-sed strök inte `<loc>`-taggarna (`\?` ogiltigt i BRE; `-E`-flaggan krävs). Kontrollen som räknar OK-rader fångade det direkt. [STÄNGD]
+**Åtgärd:** denna post. Main orörd (2 bokförings-commits släpar till nästa merge). Ägaren ledig 3 veckor — läget i `lynx-status` gäller.
+**Kontroll:** grupperad diff läst (mönstret `^(\+\+\+|---) `) — 1 lynx-fil; stat läst i separat anrop före commit-meddelandet.
+
+### 2026-07-10 #66 — CryoPen-återbesöket 295 kr BEKRÄFTAT (ägar-skärmbild av hela prislistan) — Milier/CryoPen-tråden från 2 juli helt stängd.
+**In:** Ägar-skärmbild 16:12, bokningssystemets CryoPen-lista (transkriberad här som prisfacit): **behandling** 1 st 1995 · 2–3 st 2995 · 4–6 st 3995 · 7–10 st 4995 · 11–20 st 7995 · 21–50 st 15995 kr · **återbesök** 1 st 295 · 2–3 st 395 · 4–6 st 495 · 7–10 st 695 · 20 st 1995 · 50 st 2995 kr.
+**Fynd:**
+- Återbesök 1 st = 295 kr ⇒ FAQ-meningen på `hudforandringar` stämmer (frågan avser EN åldersvårta). Sista öppna siffran ur 2 juli-beställningen stängd; §9-raden kryssad. [STÄNGD]
+- Sajtens alla CryoPen-prisfält ("Från 1995 kr": cryopen, hudflikar, fodelsemarken, blodprickar, seborroisk-keratos) = 1 st-priset ✓ konsistenta. Listan sparad här som facit för från-pris-surveyn (§9.2). [STÄNGD]
+**Åtgärd:** `lynx-backlog` (§9-raden kryssad) · denna post. Inga sidfiler rörda — allt stämde.
+**Kontroll:** grupperad diff läst (mönstret `^(\+\+\+|---) `) — 2 lynx-filer; stat läses i SEPARAT anrop före commit-meddelandet (#65-erratans regel).
+
+### 2026-07-10 #65 — Andra main-pushen (PR #242) produktions-verifierad: alla dagens prisfixar live — sista passet före ägarens 3-veckorsledighet.
+**In:** Ägarbesked "pushat till main, kolla så allt fungerar" (merge 3847792e, 0 commits saknas).
+**Fynd:**
+- Live-svep 6/6 ändrade sidor: HTTP 200, 0 PHP-fel. Hudterapeutens val renderar nya priser (PriceClass_4 ×6 · Spara 990/3980 ×5 vardera; gamla mönster 0). Hudforandringar-FAQ:n renderar "från 1995"/"första behandlingen 1995" (×2 vardera), inga 1595 kvar. Lynx-filer 0 bytes (stickprov 4). [STÄNGD]
+- Hero-fältet "Från 1995 kr" renderas inte heller på hudterapeutens-val-mallen — konsistent med 799-upptäckten; survey-raden i §9.2 täcker frågan. [ÖPPEN → §9.2-rad]
+- Öppet efter ledigheten: CryoPen-återbesöket 295 kr (obekräftat, §9-raden) · från-pris-survey · smärtfritt-passet · microneedling-rewriten (AI STYLE-testet armerat, väntar nu på LYNX-refresh av dagens sidor). [ÖPPEN → §9]
+**Åtgärd:** denna post. Main = staging t.o.m. b272cd37; endast denna bokförings-post släpar till nästa merge.
+**Kontroll:** grupperad diff läst (mönstret `^(\+\+\+|---) `) — 1 lynx-fil; stat läst efter sista editen, före commit-meddelandet.
+**Errata (samma session):** bokförings-committen ce79e1fa skrev "10+/0−" mot faktiska 9+/0− — TREDJE gången i dag stat och meddelande skrevs i samma svep (#62-erratan, sen igen). Roten är buntningen, inte slarvet: steget "läs stat" och steget "skriv meddelande" måste vara TVÅ verktygsanrop. Detta errata-commit görs så.
+
 ### 2026-07-10 #64 — Milier-verifieringen stängd + CryoPen-FAQ:n rättad (ägarbesked: "milier stämmer, cryopen är från 1995kr").
 **In:** Ägar-verifiering mot bokningssystemet, svar på 2 juli-beställningen.
 **Fynd:**

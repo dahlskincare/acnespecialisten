@@ -21,6 +21,7 @@ PEKAR-PÅ      lynx-status = VAR VI STÅR (LÄGE + §11.1) · lynx-backlog = TOD
 
 
 **Filkarta (hela LYNX-setet):** `lynx-START` (denna: router/invarianter/§-KARTA) · **`lynx-status` (LÄGE + §11.1 — ENDA statuscellen)** · `lynx-backlog` (sidkarta/TODO/claims) · `lynx-rewrite` (omskrivnings-hantverk) · `lynx-models` (modeller/mät) · `lynx-log` (historik) · `lynx-log-archive` (gammal historik) · RÅDATA: `lynx-data` (Pages+kolumndefs) · `lynx-score` (SCORE) · `lynx-examples` (AI COPY-facit) · `lynx-questions` (AIQ) · `lynx-gaps` (gaps).
+**GRAVSTENAR (radera ej — rutinen i §0.1 VID SLUT, logg #70):** 5 avsiktligt innehållslösa filer på utgångna sökvägar: `includes/lynx-copy-playbook.php` + `includes/lynx-copy-playbook.md` + `includes/lynx-data.md` (tomma .md = php-only-avsteg på ägarbeslut 10 juli) · `includes/lynx/lynx-logg.php` · `includes/lynx/lynx-optimering-underlag.php`.
 ---
 
 ## ▶ START HÄR — för en ny Claude utan kontext
@@ -186,6 +187,8 @@ Vid **sidarbete** gäller dessutom före commit: §13.E · §7.4b · §6:s fras-
 *(Skillnaden mot de raderade checkarna — §9 CHECK-REVISIONEN: de var STÅENDE detektorer som vaktade ett redan genomfört pass och kunde lysa grönt på ett urholkat filset. Slutkontrollen granskar det NYSS utförda arbetet, körs en gång, dör med uppgiften och har inget tillstånd som kan ruttna — varje tal härleds färskt ur diffen. Bokföringsmissar lagas nästa session; en tappad ändring kan inte lagas.)*
 
 **Om `.py`-filer:** allt LYNX-arbete stannar i `includes/lynx/*.php` — inga andra filtyper i repot, inga git-hooks, ingen git-konfiguration (ägarbeslut 8 juli). Behöver du ett engångsskript: lägg det i en temp-katalog utanför projektet och kasta det.
+
+**Vid namnbyte eller radering av en lynx-fil (rutin, ägarbeställd 10 juli — logg #70):** deployen (zip + unzip -o) raderar aldrig serverfiler, den skriver bara över — så en borttagen/omdöpt fil lever kvar på servern i sin sista deployade version. Därför: **(1)** lägg en gravsten på den gamla sökvägen i samma commit — en fil med bara php-exit-vakten, så enkel det går; **(2)** verifiera direkt efter staging-pushen att sökvägen svarar 0 bytes på staging-domänen (main verifieras senare, efter ägarens push — §9-rad); **(3)** för in gravstenen i filkartans GRAVSTENAR-rad ovan. Befintliga gravstenar raderas inte ur repot.
 
 ---
 
