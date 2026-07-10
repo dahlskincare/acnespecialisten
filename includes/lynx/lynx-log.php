@@ -44,6 +44,13 @@ Fulltext flyttas till **`includes/lynx/lynx-log-archive.php`**; kvar här blir e
 | behandla-pigmentflackar.php | 14 | – | – | –/– | SIGNIFICANT | GOOD | – | 16 |
 | hudproblem/hudforandringar/ | 10 | – | 17 | 3/2 | SIGNIFICANT | OK | – | 8 |
 
+### 2026-07-10 #46 — Ägarvald sweep: $specialist_url_title rättad i 27 filer; kartläggningen fann ≈25 varianter till + två Verktyg-bildtitlar.
+**In:** Ägaren valde §9-raden MALL-BOILERPLATE-LÄCKA (öppningslistans punkt 15), full sweep. Ingen mätdata.
+**Fynd:**
+- 23 aknesidor → "Aknespecialiserade hudterapeuter"; ämnesfel: aldersflackar + melasma → "…specialiserade på pigmentbehandlingar" (solskadad-hy-prejudikatet), atrofiska-arr → "…på ärrbehandlingar", milier → "…på borttagning av milier". 0 träffar kvar (grep). Titel-attribut = siddata §13.K → ingen attributionsrisk. [STÄNGD]
+- **"Bevaka även"-kollen:** ≈25 FLER `$specialist_url_title`-varianter sajtbrett med samma felklass (särskrivning/Title Case/typos "Specialisserade"+"specialisterade"/trasig grammatik) + boilerplate-bildtitlarna "Dermapen - Microneedling Verktyg…" (53 filer) och "CryoPen - Kryoterapi Verktyg…" (11 filer). Ett fynd är inte ett uppdrag — parkerat. [ÖPPEN → §9.2, två rader]
+**Åtgärd:** 27 sidfiler (egen commit ed50bc76) · lynx-backlog (§9-raden stängd, §9.2 +2 rader, §12 tömd) · lynx-status (beställnings-bulleten synkad).
+
 ### 2026-07-10 #45 — Ägarval ur öppningslistan: bildbuggen på microneedling-kortet rättad; mellanslags-fyndet var LYNX-extraktionsartefakt.
 **In:** Ägaren valde punkt 26 (fyndlådan: mellanslag före punkt, rhinophyma) + 3 (bildbugg microneedling-kortet). Ingen mätdata.
 **Fynd:**
