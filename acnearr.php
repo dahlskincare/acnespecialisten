@@ -603,7 +603,7 @@ $specialists = array(
 
 
 $specialist_url_label = "Se alla specialister";
-$specialist_url_title = "Specialisserade Hudterapeuter med inriktning mot acneärr";
+$specialist_url_title = "Hudterapeuter specialiserade på acneärr";
 
 $related_problems = array(
       new RelatedProblem(
@@ -663,8 +663,8 @@ $brands = array(
       new Brand(
             label: 'Dermapen',
             image: 'bilder/logotyper/dermapen.svg',
-            image_alt: 'Dermapen Brand Logo',
-            image_title: 'Dermapen - Microneedling Verktyg för Hudföryngring',
+            image_alt: 'Dermapen logotyp',
+            image_title: 'Dermapen - microneedlingverktyg för hudföryngring',
             url: 'dermapen.php',
             url_title: 'Läs mer om Dermapen Microneedling Hudvårdslösningar',
       ),

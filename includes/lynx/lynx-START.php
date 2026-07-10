@@ -1,225 +1,237 @@
 <?php exit; /* intern LYNX-arbetsfil – ej webb-serverad, läs i editor/git */ ?>
-# LYNX START — nav, läge & backlog (LÄS DENNA FÖRST, alltid)
+# LYNX START — router & invarianter (LÄS DENNA FÖRST, alltid)
+
+```
+▣ MANIFEST
+KIND          REGEL — stabil. Router · §-KARTA · §0–§0.4 · invarianter. **Bär ingen status; den bor i `lynx-status`.**
+LADDA-NÄR     ALLTID, först. Denna fil säger vad du ska ladda härnäst.
+KANONISK-FÖR  §-KARTAN (resolvern) · prime-direktivet · sessions-ritualen (§0.1) · en-i-taget (§0.3) · dispatch-snutten (§0.4) · Aldrig-listan · rollfördelningen · state-synk-principen · struktur-kartan
+PEKAR-PÅ      lynx-status = VAR VI STÅR (LÄGE + §11.1) · lynx-backlog = TODO (§8/§9/§12) · lynx-rewrite = hantverket · lynx-models = modellen · lynx-data = rådata + §14 · lynx-log = historik
+```
 
 ## ▶ ROUTER — vad ska du göra? (läs bara det du behöver)
 | Uppgift | Läs |
 |---|---|
-| **Skriva om en sida** | denna fil (läge+regler+backlog) → `lynx-rewrite.php` (formel/husröst/ramar/SEO/checklista/process/§13) → sidans facit i `lynx-examples.php` |
+| **Var står vi? Status på en sida?** | **`lynx-status.php`** — enda statuscellen (LÄGE + §11.1) |
+| **Skriva om en sida** | denna fil (läge+invarianter) → `lynx-backlog.php` (claima i §12, läs sidans rad) → `lynx-rewrite.php` (formel/husröst/ramar/SEO/checklista/process/§13) → sidans facit i `lynx-examples.php` |
 | **Analysera mätdata / förfina modeller** | denna fil → `lynx-models.php` (SCORE/AIQ/mät-loop/bevakning) → rådata i `lynx-score.php` · `lynx-examples.php` · `lynx-questions.php` |
-| **Spara inkommen LYNX-data** | filkarta överst i `lynx-data.php` → rätt kolumnfil (save-first, §0) |
-| **Kolla vad som är gjort / nästa** | §8/§9 nedan (backlog) + `lynx-logg.php` (historik) |
-| **Slå upp ett beslut/varför** | `lynx-logg.php` (arbetslogg) |
+| **Spara inkommen LYNX-data** | **§14 SPARA-RECEPT** överst i `lynx-data.php` (save-first) → rätt kolumnfil |
+| **Kolla vad som är gjort / vad som är öppet** | `lynx-status.php` (status) + `lynx-backlog.php` (§8 sidkarta · §9 TODO · §12 claims) |
+| **Slå upp ett beslut/varför** | `lynx-log.php` (arbetslogg) |
 
 
-**Filkarta (hela LYNX-setet):** `lynx-START` (denna: nav/läge/backlog) · `lynx-rewrite` (omskrivnings-hantverk) · `lynx-models` (modeller/mät) · `lynx-logg` (historik) · `lynx-log-arkiv` (gammal historik) · RÅDATA: `lynx-data` (Pages+kolumndefs) · `lynx-score` (SCORE) · `lynx-examples` (AI COPY-facit) · `lynx-questions` (AIQ) · `lynx-gaps` (gaps).
+**Filkarta (hela LYNX-setet):** `lynx-START` (denna: router/invarianter/§-KARTA) · **`lynx-status` (LÄGE + §11.1 — ENDA statuscellen)** · `lynx-backlog` (sidkarta/TODO/claims) · `lynx-rewrite` (omskrivnings-hantverk) · `lynx-models` (modeller/mät) · `lynx-log` (historik) · `lynx-log-archive` (gammal historik) · RÅDATA: `lynx-data` (Pages+kolumndefs) · `lynx-score` (SCORE) · `lynx-examples` (AI COPY-facit) · `lynx-questions` (AIQ) · `lynx-gaps` (gaps).
 ---
 
 ## ▶ START HÄR — för en ny Claude utan kontext
-Säger användaren typ *"vi fortsätter med LYNX-uppgifterna"* eller klistrar in LYNX-data? Då är **DEN HÄR filen (lynx-START) din startpunkt — läs den, kolla ROUTERN överst, och gå sen till rätt fil för uppgiften** (`lynx-rewrite` för omskrivning, `lynx-models` för mät-analys). Ladda inte allt på en gång.
+Säger användaren *"vi fortsätter med LYNX-uppgifterna"* eller klistrar in LYNX-data? Du är rätt. Kolla routern ovan, ladda bara det uppgiftstypen kräver.
 
-**⚠️ Planen är ITERATIV och aldrig "klar".** Vi har trott den färdig minst två gånger (senast igår vid lunch) och ändå hittat luckor och byggt vidare. Behandla den som ett levande dokument: hittar du en lucka, en oklarhet eller en bättre modell — **uppdatera filen och logga i §11.** "Klar med en sida" ≠ "klar med planen"; setupen förfinas löpande så länge sidor körs.
+**⚠️ Planen är ITERATIV och aldrig "klar".** Behandla den som ett levande dokument: hittar du en lucka, en oklarhet eller en bättre modell — **uppdatera filen och logga i §11.** "Klar med en sida" ≠ "klar med planen"; setupen förfinas löpande så länge sidor körs.
 
 **🚦 Prime-direktiv (det ägaren annars måste säga till varje ny Claude): ÄVEN ARBETET är iterativt — små steg, inte stora omskrivningar.** Nya exekutorer skriver nästan alltid om för mycket. Därför, **innan du sparar en ändring: fråga dig själv OCH ägaren "ändrar jag för mycket?"** Ta hellre bort för lite — vi kan alltid kapa mer när mät-loopen (§10) visar att det krävs, men bortskuren substans är svår att få tillbaka. Behåll varje block, varje list-punkt och varje sakpoäng; **räkna punkterna före/efter** (§13.D). Längden får bli kortare *eller* längre — det som skadar är att ta bort för mycket på en gång (§13.O). Det här är den enskilt viktigaste vanan; den slår alla stilregler nedan.
 
-**📥 Facit-flöde (så mätdata kommer in — LYNX saknar export):** ägaren **klistrar in LYNX-facit** (skärmbild/text) — men **avgör alltid FÖRST vad syftet är**, ägaren säger inte alltid rakt ut. Två lägen: **(a) Per sida (riktat)** = facit för en sida vi jobbar på → spara baseline + kör §7 på just den sidan. **(b) Bunt statistik (inventering)** = många sidors kolumn-data på en gång → **diffa mot `lynx-data.php`** och klassa varje rad: **NYTT/ÄNDRAT** (efter en main-push = mätdata → kör mät-loopen §10, FÖRE→EFTER + validera modell; nya sidor → uppdatera baseline + prio §9.1) vs **OFÖRÄNDRAT** (notera bara, ingen åtgärd — LYNX kanske inte refreshat än). **Oavsett läge: SPARA FÖRST, agera sen** — spara rådatan i rätt KOLUMNFIL (filkarta i `lynx-data.php`; ägarbeslut 2 jul): per-block-facit → `lynx-examples.php` · frågelistor → `lynx-questions.php` · SCORE-nedbrytningar → `lynx-score.php` · gap-texter → `lynx-gaps.php` · Pages-rader/inventeringar → `lynx-data.php`; notera FÖRE→EFTER. Agera sen (rewrite/prio/mätning §10) och **gör en TODO (§9) för det som ska åtgärdas**. Agera aldrig på facit utan att först spara; det är vår enda mätkälla. **Skärmbilds-principen (ägarbesked 2 jul):** (1) skärmbilder är av naturen PARTIELLA — jobba med det som syns, fråga riktat efter det som saknas, behandla inte trunkering som blocker; (2) läs HELA bilden — snappa upp omkringliggande data utanför det vi pratar om (grannrader, kolumner, badges); (3) visar omkringliggande data en FÖRÄNDRING mot sparad data → öppna en ny TODO-tråd i §9 (exempel 2 jul: GAPS-rensningen + microdermabrasion AIQ, upptäckta i kanten av en mogen-hy-leverans).
+**📥 Facit-flöde (så mätdata kommer in — LYNX saknar export):** ägaren klistrar in LYNX-facit som skärmbild eller text. **Avgör alltid FÖRST vad syftet är** — han säger inte alltid rakt ut. **(a) Per sida** = riktat facit → spara baseline, kör §7 på sidan. **(b) Bunt** = många sidors kolumndata → diffa mot AKTUELLT LÄGE i `lynx-data`.
+**Oavsett läge: SPARA FÖRST, agera sen.** Hela proceduren — rätt kolumnfil, NYTT/ÄNDRAT-klassningen, skärmbilds-principen — står i **§14 SPARA-RECEPT (`lynx-data.php`, kanonisk)**. Agera aldrig på facit utan att först spara: det är vår enda mätkälla.
 
-> **🟢 LÄGE 2026-07-06 em** *(ny session: läs denna banner → routern överst → rätt fil för din uppgift; backlog §8/§9 nedan)*
-> - **📁 FILSTRUKTUR SPLITTRAD 6 jul:** läs `lynx-rewrite` för omskrivning, `lynx-models` för mät-analys, `lynx-logg` för historik. Denna fil = nav/läge/backlog. (Detaljer: lynx-logg 6 jul #10.)
-> - **Mål:** LYNX grönt **utan att skada ranking/trafik**. **RAMEN (verifierad 6 jul):** spaken är SUBSTANS-kvalitet; AI COPY-flaggan är PROXY, Google straffar ej AI-text (lynx-rewrite §1). **SCORE ska INTE jagas** — tak ~75-77 på våra sidtyper, EEAT-badge låst 60 (lynx-score/models).
-> - **Mätt (refresh 5 jul — metoden funkar):** acne-ansikte 🔴→🔵 SLIGHT + om-oss 0 flaggade block. §1.1 nyckel 1 kausalbelagd. SCORE-modellen LÖST via 13 nedbrytningar (lynx-score).
-> - **✅ ALLA flagg-sidor LIVE PÅ MAIN.** Wave 2 (6 Fas 3 + pigmentflackar + småfixar: milier-pris, Google Meet, d3ce9162) **pushad till main 6 jul (ägarbeslut) → VERIFIERAD LIVE PÅ PRODUKTION**: alla 20 ändrade sidor HTTP 200, 0 PHP-fel, nytt innehåll bekräftat (logg #12 staging-kontroll + #13 produktions-verifiering). §10.0 GSC-gaten passerad på ägarbeslut. **Kvar på dessa = passiv mät-uppföljning (LYNX-refresh + GSC), ej blockerande.**
-> - **SEO-vakt §10.0 = SENARE process (ägarbeslut 6 jul):** GSC + Ahrefs görs som eget pass senare (LYNX-prioritet nu pga refresh-fördröjning). Gaten blockerar inte längre; main-push är ägarens beslut. KW-vakt löpande via LYNX-data kvarstår.
-> - **Nästa arbete:** pigmentflackar (✅ paus hävd — blank var omanalys; kör när den kommer tillbaka m. facit) → microneedling (block-plan lynx-logg 2 jul) → Tier 1-SLIGHT (rosacea/perioral-dermatit, facit saknas). Alla Fas 3-MODERATE klara.
-> - **Öppna ägar-beställningar:** pigmentflackar-raden + AI Copy-vy när den kommit tillbaka · om-oss badge-rad · acne-ansikte FAQ-facitrest · AI Copy-datum för de 3 kvarvarande SIGNIFICANT · (GSC/Ahrefs = eget senare pass) · boilerplate-sweep "Akne Specialiserade Hudterapeuter" (27 filer — timing-beslut).
-> - **Varningar/regler:** 1 Claude i taget (§0.1) · save-first i rätt kolumnfil (filkarta i `lynx-data`) · ny LYNX-skala → färsk-mot-färsk · **attribution kräver observerad delta, ej deploy-timing** (lynx-models §11.1) · Fas 3-facit REDAN sparat — be inte igen.
->
-> *(Banner-regel 6 jul: LÄGE hålls som punktlista, max ~8 rader. Nya detaljer går till §8/§9/§11/§11.1 — här uppdateras bara STATUSBYTEN. Prosaväggen som stod här förut leder till skumläsning; §11 6 jul #6.)*
 
 - **Uppdrag (pågår tills allt är klart):** skriv om sidor som LYNX flaggar för AI COPY (SIGNIFICANT/MODERATE) så varje textblock når **minst SLIGHT** (HUMAN där blocket naturligt tillåter, §1.1) och läser som människa, **utan att tappa sökord/ranking**. **Slutmål: LYNX helt grönt/korrekt** på alla signaler — AI COPY först → FAQPage-schema (AI QUESTIONS) → `$rich_product` (PAGE TYPE/P. PRICE) → gap-punkter → sedan löpande. **Status & nästa sida:** §9 (TODO), §11 (logg/baseline), §12 (claims).
 - **Trigger per sida: hämta ALLTID sidans NUVARANDE LYNX per-block-status FÖRST, innan du redigerar** — inte "lär modellen en gång och kör resten på egen bedömning"; dra in LYNX för varje sida. Följ §7: spara baseline (§11) → **prioritera 🔴/🟠/🟥 (skriv om dem), men se ÄVEN över 🔵/🟢 med LÄTT HAND** (bara tydliga fixar: typo, grammatik, tappat sökord, uppenbar tell; INGEN stilistisk över-omskrivning av OK-block = v3-felet, §1.3) enligt §2 + §4 + §5 → kör §3 + §6 + §13 → logga (§11) → committa + pusha **`staging`**. *(Saknas facit: gissa med §1.3-modellen (±1-band, ej facit), lämna hellre vid SLIGHT↔MODERATE-tvivel.)*
-- **Arbetssätt (kalibrerat 2026-06-30, skärpt 2026-07-01 — läs §13.O):** vi har kartlagt vad LYNX läser som AI (§1.1/§1.2) och fixar **just de tells, målinriktat och steg för steg** — utan att förstöra sökord eller substans (§6). Jobba i **små steg**: några få ändringar → visa ägaren → mät (§10) → iterera. **Ta inte bort substans** (block, list-punkter, poäng, sökord, claims); längden får bli kortare *eller* längre. Största spaken: **led öppningen med mekanism** (§2/§1.1). **Ta INTE bort hela stycken/listor i ett svep** — ägaren har stoppat det två gånger. Lägg inte till påståenden sidan inte stöder. Testa på staging (§7.6).
+- **Arbetssätt:** fixa just de AI-tells vi kartlagt (§1.1), målinriktat och steg för steg. Största spaken: **led öppningen med mekanism** (§2). Detaljerna i §13.O — prime-direktivet ovan säger resten och står EN gång.
 - **Rollfördelning:** du fixar sidor + pushar `staging`; användaren verifierar + pushar `main`. **Rör aldrig `main`.** LYNX ser bara live, så effekt mäts efter användarens main-push + LYNX-refresh.
-- **Rådata** (LYNX saknar export): en fil per LYNX-kolumn så sessioner bara läser det som behövs (ägarbeslut 2 jul) — **filkarta överst i `includes/lynx/lynx-data.php`** (Pages-listan där; AI COPY → lynx-examples · AI QUESTIONS → lynx-questions · SCORE → lynx-score · GAPS → lynx-gaps). Fyll på vid varje refresh.
+- **Rådata:** en fil per LYNX-kolumn (ägarbeslut 2 juli) — **filkarta överst i `lynx-data.php`**, som också bär §14 SPARA-RECEPT.
 - **Aldrig:** medicin/cancer-påståenden · aktiva ingredienser · em-streck · hudterapeutnamn · korta ner sidor (täthet = substans, §13.N) · tappa målfraser (§6) · röra delade widgets/mallar.
 
 ---
 
-> Nav-fil för uppdraget att skriva om sidor som LYNX flaggar för **AI COPY** (SIGNIFICANT/MODERATE) så de läser som människa, utan att tappa sökord eller ranking. **Denna fil (lynx-START) är ingången** — LÄGE, router, regler, TODO + status bor här (vi använder ingen task-tracker). Hantverket bor i `lynx-rewrite`, modellerna i `lynx-models`, historiken i `lynx-logg`. En ny Claude utan kontext läser START först, sen rätt fil per router (se §0.1 — kör 1 i taget). Splittrad 2026-07-06.
+### §-KARTA — RESOLVERN (KANONISK CELL)
+**Var bor vilket §?** Detta block är den enda källan. Uppdatera HÄR när ett § flyttar, ingen annanstans. *(Kartan är exakt härledbar ur filernas egna rubriker — mätt 8 juli, 33/33. Skriv ändå aldrig en detektor som vaktar den: det vore att vakta en dubblett, se §9.)*
 
-**Innehåll:** §0 använda filen · §0.1 kör 1 i taget · §1 hävstången · §1.1 bedömningsmodell · §1.2 score-modellen · §1.3 prediktions-rubrik · §1.4 medel-modellen · §1.5 AI questions-modellen · §2 formeln · §3 checklista · §4 husröst · §4.1 utökad husröst · §4.2 kund-tilltal & extern best practice · §5 ramar (inkl. juridik) · §6 SEO-skydd · §7 process · §8 backlog · §8.1 per-sida gaps · §9 TODO · §10 justeringsloop · §11 logg + baseline · §11.1 bevakningslista · §12 claims · §13 skyddsregler
+```
+§0, §0.1, §0.2, §0.3, §0.4      → lynx-START     arkitektur · SESSIONS-RITUALEN · användning · en-i-taget · dispatch
+§14                             → lynx-data      SPARA-RECEPT (save-first vid inkommen dump)
+§8, §8.1, §9, §9.0, §9.1, §9.2, §9.3, §12 → lynx-backlog   sidkarta · gap-beslut · TODO · prio · FYNDLÅDAN · PARKERAT-META · claims
+§1, §1.1, §1.3, §1.4            → lynx-rewrite   bedömningsmodellen
+§2, §3, §4, §4.1, §4.2, §5, §6, §7, §13 → lynx-rewrite   formel · checklista · husröst · ramar/juridik · SEO-skydd · process · skyddsregler
+§1.2, §1.5, §10, §10.0          → lynx-models    SCORE · AIQ · mät-loop · SEO-vakt
+§11.1                           → lynx-status      bevakningslistan (per-sida STATUS)
+§11                             → lynx-log      arbetslogg (HISTORIK)
+```
+*(Splittrad 2026-07-06. HISTORIK-filer uppdateras inte retroaktivt på eget initiativ (ägaren kan begära det — se VENTILEN i §0) — deras §-referenser avser strukturen vid postens datum; se header-raden i respektive arkivfil.)*
 
 ---
 
-## 0. Så här använder vi filen
+## 0. Filsetets arkitektur (ratificerad 2026-07-08 — läs en gång, sen räcker manifesten)
+
+**LAGEN: ett fakta = en cell. Uppgifter laddar celler. En cell upprepar aldrig en annan — den pekar.**
+Sync-drift uppstår när samma sanning står på två ställen. Skriv den EN gång, låt allt annat peka dit. Det är den enda regel i det här setet som gör en hel felklass omöjlig i stället för bara upptäckbar.
+
+**Varje fil bär ett `▣ MANIFEST` överst:** `KIND` (hur du ska lita på den) · `LADDA-NÄR` · `KANONISK-FÖR` · `PEKAR-PÅ`. Läs manifestet, inte filen, när du letar.
+
+| KIND | Betyder | Filer |
+|---|---|---|
+| **REGEL** | Stabil. Ändras bara när data motsäger den. Behöver inte re-läsas varje session. | `lynx-rewrite` · `lynx-models` · `lynx-score` (SLUTLÄGE) |
+| **AKTIV** | Levande. Re-läs alltid; lita aldrig på minnet av den. | **`lynx-status`** · `lynx-backlog` · `lynx-data` · `lynx-examples` · `lynx-gaps` · `lynx-questions` |
+| **HISTORIK** | Append-only. **Uppdateras aldrig retroaktivt** *(= aldrig på eget initiativ; ägaren kan begära det — se VENTILEN)* — dess §-referenser avser strukturen vid postens datum. Får inte styra beslut. | `lynx-log` · `lynx-log-archive` · `lynx-data-archive` · `lynx-examples-archive` |
+
+**Ladda bara det uppgiftstypen kräver** (routern överst är den korta versionen):
+| Uppgift | Celler |
+|---|---|
+| Orientera / "var är vi" | **`lynx-status`** |
+| Vad är gjort / vad är nästa | START + `lynx-backlog` |
+| LYNX-dump kommer in | **§14 SPARA-RECEPT** (`lynx-data`) → rätt kolumnfil → `lynx-log` (POST-MALLEN) |
+| SCORE-/AIQ-fråga | `lynx-models` (+ `lynx-score` för härledningen) |
+| Skriva om en sida | `lynx-backlog` (claima i §12, läs sidans rad) + `lynx-rewrite` + sidans facit i `lynx-examples` |
+| Logga utfall | `lynx-log` §11, POST-MALLEN |
+
+### Statusdisciplin — en kanonisk cell per statusklass (8 juli)
+**Lagen gäller även status — och status är det som ruttnar, för det är status som ändras.** Den 6 juli sa sex sidor "väntar main-push" medan LÄGE sa "live på main". Ingen märkte det på en vecka.
+
+| Statusklass | KANONISK CELL |
+|---|---|
+| Per-sida mätstatus: MÄTT/OMÄTT · FÖRE-baseline · prediktion | **`lynx-status`** §11.1 |
+| Är sidan LIVE på main? | **`lynx-status`** §11.1, kolumnen "Main-push" |
+| Senaste LYNX-värde per sida × vy | **`lynx-data`** AKTUELLT LÄGE |
+| Arbetsstatus: klar · i kö · öppna rester | **`lynx-backlog`** §8/§9 |
+
+**Från 8 juli bor status i EN fil: `lynx-status`.** LÄGE-bannern och §11.1-tabellen ligger där tillsammans, så en människa ser läget utan att öppna fyra filer — **och det finns inget att synka mellan filer.** Det var ägarens beslut, och det stänger den sista sömmen: den 6 juli sa sex sidor "väntar main-push" medan bannern sa "live", i två olika filer. Nu kan de inte göra det.
+
+**Invarianten gäller och är testad** (8 juli, 19 strykningar i `lynx-backlog`, `lynx-data` och `lynx-examples`): **ingen fil utom `lynx-status` påstår om en sida att den är LIVE eller MÄTT/OMÄTT.** Hittar du ändå en återgivning: ta bort den och peka hit. Vid konflikt vinner cellen, aldrig återgivningen. *(Rå LYNX-data per (sida × vy) är inte en återgivning — det är mätkorpusen.)*
+
+**Ändrar du en status: greppa filsetet efter den GAMLA formuleringen och synka alla förekomster** (§0.2 state-synk-principen). Det görs för hand. Ett skript försökte göra det 8 juli och kunde bara känna igen tre exakta strängar — *"väntar på main-push"* med ett inskjutet ord passerade tyst (§9, V5). **Ögat som letar efter meningen slår en nål som letar efter en sträng.**
+
+### ▶ VENTILEN — reglerna binder exekutorn, inte ägaren (ägarbeslut 8 juli)
+**Ber ägaren om ett avsteg är avsteget tillåtet — även från en "aldrig"-regel i den här filen.** Reglerna finns för att skydda arbetet mot exekutorns egna genvägar. De är inte ett fängelse för den som äger arbetet. Utan den här raden ställs varje ny Claude inför ett omöjligt val när ägaren ber om något §0 förbjuder: vägra honom, eller lyda och lämna en oförklarad motsägelse efter sig.
+
+Tre villkor, ägarens egna ord 8 juli, och de är hela ventilen:
+1. **Du följer alltid reglerna.** Default är lydnad, inte omdöme. En regel du får tolka bort när den skaver är ingen regel.
+2. **Du frångår dem på ägarens begäran.** Ber han om det är avsteget tillåtet — även från ett "aldrig". Regeln kan finnas av ett skäl han inte minns just nu: säg vilket, med EN mening. Säger han ändå ja, gör det och förhandla inte vidare.
+3. **Du får be om att frångå dem, och förklara varför.** Att fråga är alltid tillåtet. Att avgöra själv är det aldrig. **Skillnaden mellan att be och att bara göra är hela regelverket.** *(Att be om ett avsteg är inte samma sak som att föreslå nytt arbete — den spärren står orörd i §9.3.)*
+
+**Notera avsteget där det gjordes.** Bad ägaren uttryckligen om ingen notering är git-historiken spåret, och det räcker.
+
+**Retroaktiv ändring av HISTORIK kräver alltså ägarbeslut — men den är inte förbjuden.** Läs "uppdateras aldrig retroaktivt" i KIND-tabellen som **"aldrig på eget initiativ"**.
+
+**Två fällor som kostat oss tid, båda strukturella:**
+1. **En öppen tråd får aldrig ha loggen som enda bärare.** Loggen är historik. Skapa §9-raden i `lynx-backlog` först, länka sen.
+2. **En pekare som namnger en fil bryts när filen flyttar; en ren `§9` gör det inte** — §-KARTAN är resolvern. Skriv paragraf-numret naket. Skriv aldrig "§N i `<filnamn>`": filen kan flytta, numret gör det inte.
+
+*(Öppen, parkerad: produktifieringen — separera SIGNAL / HANTVERK / SAJTPROFIL, `SCOPE`-taggen bredvid `KIND`. Se `lynx-backlog` §9 Parkerat.)*
+
+---
+
+## 0.1 SESSIONS-RITUALEN — kolla, fråga, spara (ägarbeslut 8 juli)
+
+### ▶ VID START — säg hej FÖRST, sedan tre steg
+
+**Vanlig hälsning och information — ingen tidshälsning, inget `date` (ägarbeslut 10 juli, logg #57).** Din första textrad är ett kort "Hej!" + vad som händer härnäst — att du kontrollerar att ingen annan är igång, läser läget och **sedan presenterar alternativen**. Två meningar räcker. Skriv den så tidigt du kan — helst före alla verktygsanrop — och **öppna även ÖPPNINGSLISTAN med samma hälsning**: listmeddelandet är turens sista och det enda som garanterat visas. *(Varför tidsgrejen togs bort: tidsanpassade hälsningar krävde `date` före första raden och intron föll fyra gånger på fyra olika sätt — hoppad hälsning · `date`+`git status` före hej (logg #55) · hälsning skriven men svald av terminalen (logg #56: text mitt i en verktygskedja garanteras inte visas; pålitligt är turens FÖRSTA och SISTA meddelande) · testsessionen 11:15 tyst igen. Ägarens ord: "det blev för komplicerat så vi skippar tidsgrejen". En vanlig hälsning kräver ingen förberedelse och kan alltid stå först.)*
+
+Varför regeln finns (ägarbesked 8 juli): ritualen är tre tysta verktygsanrop. Utan en rad först ser ägaren bara filer öppnas och vet inte om du förstod uppgiften eller redan börjat ändra något. **Han ska aldrig behöva gissa vad som pågår i hans eget repo.**
+
+1. **Kolla att du är ensam.** `git status` (rent?) + **§12 i `lynx-backlog`** (är någon annan igång?). Ser du osparat jobb du inte känner igen → stanna och fråga ägaren (§0.3).
+2. **Läs `lynx-status.php`** (var vi står) och §9 (TODO). Där står vad som är **öppet** — inte vad som är bestämt.
+3. **Visa ÖPPNINGSLISTAN och fråga vad han vill göra.** Ägaren väljer; du föreslår. Han svarar antingen på listan **eller skickar en uppgift direkt**, ofta inklistrad LYNX-data. Kommer data: **§14 SPARA-RECEPT först, agera sen.**
+
+#### ▶ ÖPPNINGSLISTAN — formatet ägaren bad om (ägarbeslut 8 juli)
+**Listan öppnar med den vanliga hälsningen** (hej + en rad om att repot är rent — det här är meddelandet som garanterat visas), sedan **EN enda löpande numrering hela vägen ned** — grupprubrikerna bryter inte numret. Först allt öppet ur §9, sist vad du kan göra. Två listor som båda börjar på 1 krockar; det var felet ägaren pekade på.
+
+**Generera listan ur §9 varje gång — skriv aldrig av den hit.** §9 är cellen; den här filen säger bara hur den ska visas. En kopia av kön i START vore precis den återgivning §0 förbjuder, och den skulle ruttna första gången en rad kryssas.
+
+Grupper i ordning, med sina etiketter intakta: **Sidarbete** · **Väntar på dig** (ägar-beställningar) · **Mätning och bevakning** · **Parkerat** · **Fyndlådan** · sist **Vad jag kan göra**, som fortsätter på nästa lediga nummer.
+
+**Spärren gäller i listan.** §9.3-metat får **en rad under Parkerat, med sin etikett "bara på din begäran"** — aldrig utbrutet i egna numrerade alternativ, aldrig högt upp. Listan är en **orientering, inte en meny**: den säger vad som finns, inte vad du föreslår att han väljer. Skillnaden är hela §0.1.
+
+**Vad jag kan göra** (KANONISK CELL — står bara här, härled inget ur routern):
+ta emot LYNX-data (§14 först, agera sen) · skriva om en sida (§7) · micro-fix på ett enskilt block · svep över flera filer i egen commit (juridik/språk) · fixa buggar i siddata (§13.K) · analysera mätdata och förfina modellen (§10) · slå upp ett beslut och varför i `lynx-log` · committa och pusha `staging` — **aldrig `main`**.
+
+> ### 🚧 SPÄRREN — varför den ser ut så här (ägarbeslut 8 juli)
+> **Arbete på LYNX-filerna själva föreslås ALDRIG.** Verktyg, struktur, städning, revisioner: allt sådant bor i **§9.3 PARKERAT-META** och tas därifrån **bara om ägaren ber om det med egna ord.** Kön i §9 innehåller sidor.
+>
+> **Varför inte bara en regel till:** §0.1 innehöll redan *"ett fynd är inte ett uppdrag"* och *"ett verktyg är inte ett mål"*. Båda skrevs 8 juli. Båda bröts 8 juli. **En regel du ska komma ihåg är inte ett skydd** — det står i den här filen, och det gäller den här filen. Driften kom inte ur att någon glömde en regel; den kom ur att **ett meta-projekt stod "FÖRST I KÖN" och därför erbjöds ägaren som ett alternativ bland andra.** Ta bort seedet, inte symptomet.
+>
+> **Utfallstestet, mätbart på fem sekunder — kör det innan du säger att sessionen gick bra:** `git diff --stat` över sessionens commits. **Rör diffen bara `includes/lynx/` har uppdraget inte flyttat sig.** Det är inte förbjudet. Men säg det rakt ut till ägaren i stället för att låta tre gröna commits se ut som framsteg.
+
+*(Här stod till 8 juli en fjärde startpunkt: kör tre mekaniska checkar. De är raderade — §9.)*
+
+### ▶ UNDER ARBETET — ETT FYND ÄR INTE ETT UPPDRAG (ägarbeslut 8 juli)
+**Du kommer att hitta saker. Det är bra — och det är inte det du blev ombedd att göra.**
+
+Hittar du något äkta mitt i en uppgift: **skriv EN rad i §9.2 FYNDLÅDAN, säg EN mening till ägaren, fortsätt med uppgiften.** Utreder gör du bara om han säger till. En tråd som parkeras förlorar ingenting; en uppgift som överges halvvägs gör det. Lådan är default — **ett fynd tas ur den bara genom ägarbeslut**, aldrig för att det kändes viktigt i stunden. *(Varför en §9-rad och inte en logg-post: §0:s två strukturella fällor.)*
+
+**▶ AVBROTTS-ORDNINGEN (ratificerad 10 juli; ägarens ord: *"jag ser saker eller kommer på saker som vi ska göra — viktigt att inget försvinner, men de är inte prio utan kan utföras efteråt"*).** Avbryter ägaren en pågående uppgift — en skärmbild, en idé, en ny uppgift — gäller:
+1. **Fånga det FÖRST, så inget försvinner:** inkommen data → §14 SPARA-RECEPT (redan lag) · idé/uppgift → EN rad i §9.2 FYNDLÅDAN (vad det är + lösningsförslag).
+2. **Säg EN rad:** vad som fångats + var den avbrutna uppgiften står.
+3. **Slutför den avbrutna uppgiften till närmaste säkra punkt** — påbörjad redigering görs färdig, SLUTKONTROLL + commit + push körs; halvredigerade filer lämnas aldrig. Undantag: ägaren säger uttryckligen byt/släpp — då committas/parkeras det påbörjade först.
+4. **Ta sedan det nya** — eller visa alternativen och låt ägaren välja. §12-raden står kvar tills den avbrutna uppgiften är klar eller avfärdad.
+
+**Ett verktyg är inte ett mål.** Får du en snabbare metod — fler agenter, ett bredare svep, en ny modell — är det tillstånd att göra **den valda uppgiften** fortare. Det är aldrig tillstånd att välja en större uppgift. Fråga innan du breddar, särskilt när frågan var liten: glappet mellan "städa en rad" och "revidera verktygen" är där ägaren slutar lita på att scopet håller.
+
+**Står det en arbetsmetod i en projektfil binder den**, även när ett glänsande alternativ finns. *(`§9.0`: "ETT steg i taget med ägar-avstämning emellan · INGA agent-utskick" — läst och förbigången samma dag den här regeln skrevs.)*
+
+> **Varför regeln finns.** 8 juli: uppgiften var en halvtimme (städa §9.0:s dubblerade steg 7/8). På vägen dit hittades en död detektor — ett verkligt fynd. I stället för en §9-rad skickades **21 agenter** för att revidera samtliga detektorer i alla tre skripten. Fyndet var äkta; hanteringen var fel. **Uppgiftens andra halva — §9.0:s fyra raderingsbeslut — blev aldrig påbörjad.** Ägaren fick bevaka scopet själv, vilket är hans ord: *"därför måste jag kolla när det växer."* Prime-direktivets *"nya exekutorer skriver nästan alltid om för mycket"* handlar om text; det beskriver scope lika väl.
+
+**Frågan att ställa innan du bygger något som vaktar arbetet:** *vad är det som ändras, och ändras det fortfarande?* Vaktar verktyget ett pass som redan är genomfört är det skuld, inte skydd — det skriver grönt och lär nästa session falsk tillit. Det var därför de tre checkarna raderades 8 juli (§9). **Sidorna är uppdraget. Filerna är arbetsmaterial. Verktyg kring filerna är tredje ledet, och nästan alltid fel svar.**
+
+### ✅ VID SLUT — kontrollera, spara och pusha, alltid
+**Varje uppgift avslutas med SLUTKONTROLLEN → commit + `git push` på `staging`.** Osparat arbete är den enda förlust som är oåterkallelig. **Rör aldrig `main`** — ägaren pushar dit.
+
+**SLUTKONTROLLEN (grundnivå, ägarbeslut 10 juli) — körs FÖRE push; utfallet skrivs som Kontroll-raden i loggposten (POST-MALLEN, §11):**
+1. **Grupperad diff:** `git diff | grep -E '^[+-]' | grep -vE '^[+-]{2}' | sort | uniq -c` — varje radmönster ska vara avsett, plus- och minusrader ska gå ihop.
+2. **Siffror ur diffen, aldrig ur minnet:** fil-/radantal i commit och logg räknas ur `git diff --stat`/grupperingen — två oberoende räknevägar ska ge samma tal. **Ordningen är del av regeln: läs SLUTLIGA diff-stat EFTER sista editen, FÖRE commit-meddelandet skrivs** — ett tal skrivet före sista läsningen är ett minnestal. *(Bakgrund: "24 filer" var ett minnestal, diffen sa 25 — logg #47/#48; ratificerings-committen själv skrev "23+/5−" mot faktiska 22+/4− av samma skäl — logg #49 errata.)*
+3. **Vid dump-sparning:** läs transkriptionen EN gång till mot bilden före commit; osäker avläsning markeras "(?)" i cellen.
+
+*(Fördjupningen — per-uppgiftstyp-katalogen §13.P — är ägar-beställd men medvetet uppskjuten: §9.3.)*
+
+Vid **sidarbete** gäller dessutom före commit: §13.E · §7.4b · §6:s fras-koll. De skyddar ranking och juridik — det enda som faktiskt kan skada något utanför de här filerna.
+
+*(Skillnaden mot de raderade checkarna — §9 CHECK-REVISIONEN: de var STÅENDE detektorer som vaktade ett redan genomfört pass och kunde lysa grönt på ett urholkat filset. Slutkontrollen granskar det NYSS utförda arbetet, körs en gång, dör med uppgiften och har inget tillstånd som kan ruttna — varje tal härleds färskt ur diffen. Bokföringsmissar lagas nästa session; en tappad ändring kan inte lagas.)*
+
+**Om `.py`-filer:** allt LYNX-arbete stannar i `includes/lynx/*.php` — inga andra filtyper i repot, inga git-hooks, ingen git-konfiguration (ägarbeslut 8 juli). Behöver du ett engångsskript: lägg det i en temp-katalog utanför projektet och kasta det.
+
+---
+
+## 0.2 Så här använder vi filen
 1. LYNX-info kommer in för en sida (AI COPY-block + ev. gap-punkter).
-2. Skriv om de **LYNX-flaggade blocken (🔴/🟠/🟥)**; se över 🔵/🟢 med lätt hand (typo/grammatik/tappat sökord/uppenbar tell) och bedöm sidan som HELHET (§13.D). Enligt **Formeln** (§2) och **Husrösten** (§4).
+2. *(Arbetslistan, gap-besluten och sidprion bor i `lynx-backlog.php`.)* Skriv om de **LYNX-flaggade blocken (🔴/🟠/🟥)**; se över 🔵/🟢 med lätt hand (typo/grammatik/tappat sökord/uppenbar tell) och bedöm sidan som HELHET (§13.D). Enligt **Formeln** (§2) och **Husrösten** (§4).
 3. Kör varje block mot **Checklistan** (§3) och **SEO-skyddet** (§6).
 4. Logga vad som gjorts i **Arbetsloggen** (§11) med resonemang.
 5. Efter LYNX-refresh: använd **Justeringsloopen** (§10).
 
 Prioritet: **de mest flaggade blocken först** (🟥/🔴 före 🟠); lämna 🔵/🟢 (lätt hand, §13.D).
 
+**State-synk-principen (bevisad 2× den 2 juli):** när ett tillstånd eller en modellslutsats ändras — **greppa filsetet efter den GAMLA frasen** (t.ex. "väntar main-push") och synka ALLA förekomster, även bannern och tabellerna; det är dem en ny session litar på. Iterativa påbyggnader lämnar annars döda imperativ kvar. **Greppa på flera formuleringar, inte en** — samma sak sägs på fem sätt, och det var precis där ett skript gick bet (§9, V5).
+
+**Skrivkonvention datum (ägarbesked 7 juli):** i egen text skrivs månaden ut — "2 juli", inte "2 jul" ("vi skriver så mycket så vi kan lika gärna skriva ut hela månaden"; juni/juli förkortas inte på svenska). Ordagranna LYNX-citat ("Last update: 06 Jul") transkriberas verbatim. Gäller framåt direkt; retroaktivt svep av gamla poster = §9-TODO.
+
 **Vad som hör hemma i den här filen (så vi inte rutar in oss):** generella principer, inte engångsiakttagelser. Dyker det upp något på en enskild sida — t.ex. "behövs kommat här?" — är det ett omdöme i stunden, inte en ny regel. Innan en regel läggs till: hjälper den på fler sidor, eller låser den bara fast oss? Hellre få principer + omdöme än en växande lista mikroregler. *(Den gamla komma-efter-sökfras-regeln i §6 var just en sådan över-specificering — den föddes ur ett enskilt "kommat behövdes inte" och togs bort.)*
 
 ---
 
-## 0.1 Kör bara 1 Claude i taget (parallellt fungerar inte)
+## 0.3 Kör bara 1 Claude i taget (parallellt fungerar inte)
 **Beslut 2026-07-01:** kör **en** instans åt gången. Parallellt testades (ipl-rosacea på en andra terminal) och krockar: även när två Claude jobbar på *olika* sidor tvingas båda skriva i samma **processfiler** — §11-loggen, §12, `lynx-data.php`, `lynx-examples.php`, backlog-statusen (§8/§9). Sido-isoleringen räcker inte när själva processen delar filer (kollision på både playbooken och lynx-examples 1 jul, löst manuellt utan dataförlust men onödigt kört). Så: en i taget.
 
 Filsetet är självbärande — en ny Claude utan kontext läser START först (router → rätt fil) och kan börja. (Lokala personliga minnesfiler kan spegla samma sak, men lita inte på dem på andra datorer — dessa filer gäller.)
 
 Regler:
-1. **Läs denna START-fil (läge/router/regler/backlog) + §12 (status) först; slå upp `lynx-logg` vid behov.** På annan dator: `git pull` innan du börjar.
-2. **Du ska vara ENSAM — kontrollera det först.** Kör `git status` (finns ändrade/ostaged filer du inte själv rört?), kolla §12 (aktiv rad?) och senaste §11-logg/commits. Ser du tecken på en annan instans, eller osparat jobb du inte känner igen → **stanna och fråga ägaren** innan du rör något. Anta aldrig att du är ensam.
-3. **Markera vad du jobbar med i §12 innan du börjar** (sida · status · tid); töm raden när du är klar (logga i §11). Så ser nästa session var förra slutade.
+1. **Läs denna START-fil (router/läge/invarianter) + §12 i `lynx-backlog.php` (status) först; slå upp `lynx-log` vid behov.** På annan dator: `git pull` innan du börjar.
+2. **Du ska vara ENSAM — kontrollera det först.** Kör `git status` (finns ändrade/ostaged filer du inte själv rört?), kolla §12 i `lynx-backlog.php` (aktiv rad?) och senaste §11-logg/commits — hela ritualen står i §0.1. Ser du tecken på en annan instans, eller osparat jobb du inte känner igen → **stanna och fråga ägaren** innan du rör något. Anta aldrig att du är ensam.
+3. **Markera vad du jobbar med i §12 (`lynx-backlog.php`) innan du börjar** (sida · status · tid); töm raden när du är klar (logga i §11). Så ser nästa session var förra slutade.
 4. **Rör inte delade widgets/mallar** (§6/§8) — påverkar alla sidor.
-5. **Jobba på `staging`, små commits per sida.** Uppdatera §11 (vad/varför) + §12 (status) när du är klar, sen `git push`.
+5. **Jobba på `staging`, små commits per sida.** Uppdatera §11 (`lynx-log`) + §12 (`lynx-backlog`) när du är klar, sen `git push`.
 6. Följ §2–§6 exakt, så blir rösten enhetlig.
 
 ---
 
-## 0.2 Standing dispatch-instruktion — klistra in när du startar en ny exekutor-Claude
+## 0.4 Standing dispatch-instruktion — klistra in när du startar en ny exekutor-Claude
 Så ägaren slipper upprepa samma sak varje gång. Kopiera detta i första meddelandet till en ny exekutor-Claude:
 
 > Läs `includes/lynx/lynx-START.php` först (läge + router + regler), gå sen till `lynx-rewrite.php` för hantverket och hämta sidans facit i `lynx-examples.php`. Detta är en **iterativ process: små steg, inte stora omskrivningar.** Vi kör 1 Claude i taget — kolla först (`git status` + §12) att ingen annan är igång, markera sen din sida i §12, be mig om sidans LYNX-facit (per-block), följ §7. **Innan du sparar ändringar, fråga dig själv och mig: "ändrar jag för mycket?"** Ta hellre bort för lite — vi kan alltid kapa mer senare. Behåll varje block, list-punkt och sakpoäng; räkna punkterna före/efter (§13.D). Rör aldrig delade widgets/mallar (§6/§8) eller en sida någon annan claimat.
 
 ---
 
-## 8. Sidkarta & backlog (LYNX AI COPY)
-**SIGNIFICANT — alla ✅ KLARA (staging/main):**
-- `acne-ansikte.php` — ✅ KLAR + **MÄTT 6 jul: 🔴→🔵 SLIGHT** (kvar: intro-blockets 🟠 = micro-fix-kandidat; se §11 6 jul)
-- `ytliga-blodkarl.php` — ✅ KLAR (omskriven steg för steg → main, LIVE 1 jul; se §9/§11/§11.1)
-- `behandla-pigmentflackar.php` — ✅ KLAR (bonus, KW16; de-AI:ad → main, LIVE 1 jul)
-- `hudproblem/hudforandringar/index.php` — ✅ KLAR (hub; de-AI:ad → main, LIVE 1 jul; H1 i sep. commit; debug-rad-fix d3ce9162 väntar main-push)
+## ▶ ARBETET BOR I `lynx-backlog.php`
+**§12 claims · §8 sidkarta · §8.1 gap-beslut · §9 TODO + Bevaka · §9.0 fil-optimeringspasset · §9.1 prioriterad backlog** flyttade dit 8 juli (§9.0 steg 7) så den här filen kan vara en tunn dispatcher.
 
-**MODERATE-vågen: ✅ KLAR 10/10 (6 jul em):** om-oss (**MÄTT: 0 flaggade block**), hudbehandlingar/ipl, ipl-rosacea (LIVE, väntar refresh), mogen-hy, oonskat-har, microdermabrasion, bristningar, solskadad-hy, rhinophyma-rosacea, **`pigmentflackar.php` (SISTA — omskriven 6 jul → staging; KW244; omgjord V1→V2 efter ägar-feedback om att inte kapa; workflow-verifierad, 0 resonemang tappat)**. **HELA DEN URSPRUNGLIGA FLAGG-LISTAN (4 SIGNIFICANT + 10 MODERATE) ÄR NU OMSKRIVEN OCH LIVE PÅ MAIN (verifierad på produktion 6 jul, logg #13).** Alla facit i `lynx-examples.php`. **Kvar för framtida städpass:** pigmentflackar FAQ-sektion (AI-holdout, ej facit-flaggad) + typtitel-versalisering; ärr-boilerplate-sweep (§9-spår).
-
-**SLIGHT (mestadels klara):** majoriteten (`acne.php`, `acnearr.php`, `acne-rygg.php`, `acne-brost.php`, startsidan m.fl.) — lättputs vid behov; använd som röstreferens.
-
-**Widget-bugg (PARKERAD):** 20 dubbla `title`-attribut i 5 service-card-widgets. Verklig men ofarlig (webbläsaren ignorerar dubbletten). Beslut: lämna delade widgets orörda för att inte introducera risk. Ta upp endast på begäran.
-
-### 8.1 Per-sida gap-punkter (LYNX-förslag) + beslut
-Från LYNX "Quick wins / Recommended improvements". Beslut enligt §5 (kosmetiskt, siloing).
-
-**ytliga-blodkarl.php**
-- HIGH Fördjupning om Rosacea → **GÖR: länk** till rosacea-sidan (kort omnämnande, ingen rosacea-text här).
-- HIGH Tydliggör när man ska söka medicinsk vård (1177) → **SKIP** (medicinskt — vi håller kosmetiskt).
-- MEDIUM Utesluta hudcancer (basalcellscancer) → **SKIP** (medicinskt).
-- MEDIUM Egenvård/lindring i hemmet → **GÖR (vänd till konvertering):** förklara ärligt att ytliga blodkärl *inte* går att behandla hemma — de kräver IPL på klinik. Svarar på sökintentionen och leder till vår behandling. *Generell princip: när det ärliga svaret är "ingen hemmakur", säg det och förklara vår lösning istället för att skippa frågan.*
-
-**hudproblem/hudforandringar/index.php**
-- HIGH H1 och titel saknar primärt sökord → **GÖR** (sökord i H1/titel; behåll övriga sökord).
-- HIGH För brett fokus på generella hudförändringar → **GÖR inom hub-scope** (tydligare fokus, men sidan är en kategori-hub).
-- HIGH Tydligare riktlinjer för när man ska söka vård → **SKIP** (medicinskt).
-
-**seborroisk-keratos.php** (facit ✅ 2 jul — i Fas 3b-kön; OBS: 2 jul-scanen visar GAPS 0/0, LYNX flaggar inte längre punkterna nedan → besluten kvarstår som frivilliga förbättringar; skrapnings-frågan är GOOD i §1.5-listan)
-- HIGH För brett fokus → **GÖR: smalna av** till seborroisk keratos (mjällvårtor).
-- MEDIUM Information om skrapning (curettage) → **GÖR: nämn + jämför** med våra metoder (Laser/CryoPen), kosmetiskt ramat.
-
-**microneedling.php** (facit ✅ 2 jul; gap-texter 2 jul)
-- LOW ⚡ "microneedling kur" i herosektionen → **GÖR vid rewrite** (frasen finns redan i eftervårdsblocket; integrera naturligt vid paketpriserna, §6-koll).
-- HIGH 💡 Kombinationsbehandlingar Exosomer + Polynukleotider → **VÄNTAR på kliniken** (§9-TODO gated på lansering; §5: inga behandlingar vi inte erbjuder).
-
-**acne-rygg.php** (facit ✅ 2 jul; gap-texter 2 jul)
-- LOW ⚡ Tips om hårvårdsprodukter och sängkläder → **GÖR med lätt hand** (generiska livsstilsråd i stil med befintlig friktions-text: tvätta sängkläder, skölj bort hårprodukter — INGA ingredienser/produktnamn §5; håll kort).
-- LOW ⚡ Synonymer "ryggakne" + "rygg akne" → **GÖR** (integrera naturligt i brödtext; grep-koll §6 att befintliga fraser hålls).
-
-**acne-ansikte.php / behandla-pigmentflackar.php:** inga LYNX gap-punkter (GAPS = ⚡-/💡-); bara AI COPY-omskrivning.
-
----
-
-## 9. TODO (denna fil är källan — ingen task-tracker)
-Kryssa här. Start/stopp-vänligt: status = §9 + §11 (logg) + §12 (claims). Per-sida gap-detaljer i §8.1.
-
-**Setup**
-- [x] Färdigställ setup & playbook (formel, husröst, ramar, SEO-skydd, §13-skyddsregler, lynx-data.php).
-
-**Fas 1 — SIGNIFICANT-sidorna**
-- [x] `acne-ansikte.php` — omskriven (hela sidan), minimal-diff (§13.O); sökord/claims bevarade → main, LIVE.
-- [x] `ytliga-blodkarl.php` (KW172) — omskriven steg för steg (öppningar + summeringar bort + gap-punkter §8.1) → main, LIVE 1 jul. Bortkommenterade $type_categories/$symptoms orörda (bilder saknas).
-- [x] `behandla-pigmentflackar.php` — de-AI:ad (öppningar + marknadssvansar bort), long-tail hållen → main, LIVE 1 jul.
-- [x] `hudforandringar/index.php` — de-AI:ad (hub-register, öppningar + svansar + stavfel) → main, LIVE 1 jul; H1-sökord i separat commit (§13.H); debug-rad-fix d3ce9162 väntar main-push.
-
-**Fas 2 — Schema**
-*(Attribuerings-disciplin §13.G/H: rör INTE de 8 mätsidorna med schema förrän deras FÖRE→EFTER är mätt — börja schema-spåret på sidor utanför mätkohorten.)*
-- [ ] FAQPage JSON-LD från `$faq_categories` (efter de 4 sidorna) — realistiskt scope (§13.J) + FAQ-svar i husröst.
-- [ ] **Fas 2-kandidat #1: acne-ansikte.php** (ägarbesked 2 jul: "rimliga frågor, kika på när vi når den fasen") — ON-TOPIC frågelista i `lynx-questions.php` med topp-gap: käklinje-klustret ~56 samlade poäng på POOR/– ("Varför får man finnar på käklinjen?" score 21) trots att sidan HAR käklinje-zonsektion → svara i frågans varför-/vad-betyder-FORM (§1.5 H2). ⚠️ Sidan är FRYST mätsida (§13.G) — vänta tills FÖRE→EFTER är mätt.
-- [ ] PAGE TYPE/P. PRICE: sätt `$rich_product` per sida med Offer (§13.I) — separat schemaspår.
-
-**Fas 3 — MODERATE-vågen = AI COPY-flagg-uppdraget (🔴 SIGNIFICANT klart i Fas 1; här fixas alla 🟠 MODERATE; facit-komplett 7/7 sedan 2 jul em)**
-*Fix-antal = §1.4-estimat för badge-flytt till 🔵 (gråzons-förbehåll); §7 kräver ändå alla 🔴/🟠-block åtgärdade. Ordning nedan = billigast först; pigmentflackar (KW244) kan lyftas först om payoff prioriteras.*
-- [x] `om-oss.php` — ✅ KLAR (LIVE på main, väntar refresh)
-- [x] `hudbehandlingar/ipl/` — ✅ KLAR (LIVE, väntar refresh)
-- [x] `ipl-rosacea.php` — ✅ KLAR (LIVE, väntar refresh)
-- [x] `mogen-hy.php` — ✅ OMSKRIVEN 2 jul em (alla 5🔴+1🟠 + typos/buggar; §7.4b-verifierad, 5 fynd åtgärdade; prediktion 🟠→🔵) → staging, väntar main-push
-- [x] `hudproblem/oonskat-har/` — ✅ OMSKRIVEN 3 jul (5🔴+2🟠 + lätt hand FAQ/alt-titles; §7.4b-verifierad 3 agenter; prediktion 🟠→🔵; ÄGAR-FRÅGA "underarmar"=armhålor? öppen i §11) → staging, väntar main-push
-- [x] `microdermabrasion.php` — ✅ OMSKRIVEN 3 jul (5🔴+1🟠 + lätt hand $model/FAQ/alt; §7.4b-verifierad; prediktion 🟠→🔵; kortpriser rättade till 2595/6995/9995 kr + diamantspets samma dag; AIQ GOOD→OK-frågedetaljen fortfarande obesvarad) → staging, väntar main-push
-- [x] `hudproblem/bristningar/` — ✅ OMSKRIVEN 6 jul (6🔴+1🟠 + lätt hand extended/FAQ/kort; definitionsdubbletten DIFFERENTIERAD, ej ihopslagen — §13.D respekterad; §7.4b-verifierad 3 agenter, 0 allvarliga; prediktion 🟠→🔵) → staging, väntar ⛔ GSC-gate + main-push (§11 6 jul #7)
-- [x] `solskadad-hy.php` — ✅ OMSKRIVEN 6 jul (6🔴+1🟠 + lätt hand; workflow-verifierad 8 granskare, tier 7/7 grönt inkl. 2 HUMAN; prediktion 🟠→🔵) → staging, väntar main-push
-- [x] `rhinophyma-rosacea.php` — ✅ OMSKRIVEN 6 jul (8🔴+2🟠 + hela FAQ:n de-AI:ad; workflow + juridik-agent, 0 allvarliga, gränsfall hedgade; prediktion 🟠→🔵) → staging, väntar main-push
-- [x] `pigmentflackar.php` — ✅ OMSKRIVEN 6 jul em (8🔴+4🟠, KW244, SISTA MODERATE; orsaks-dubbletten differentierad; omgjord V1→V2 efter ägar-feedback "kapa inte info" → längd-disciplin, 0 resonemang tappat, sökfraser bevarade; §7.4b workflow-verifierad; melanom-säkerhetsrad + buggfixar) → staging, väntar main-push. **När LYNX refreshar den (var i omanalys): mät FÖRE→EFTER + be om ny AI Copy-vy.**
-
-Körs facit-drivet löpande — **ej grindat efter Fas 2-schemat** (fristående spår). Prioordning även i **§9.1**.
-
-**Bevaka — trådar öppnade från omkringliggande skärmbildsdata (§0-principen, 2 jul)**
-- [ ] **GSC-KOLL (SEO-vakten §10.0 — nu POST-LIVE-mätning, ej längre gate; ägar-uppgift):** ⚠️ gaten PASSERADES på ägarbeslut 6 jul (hela wave 2 pushad till main, §13.A = ägarens beslut). Dra därför Search Console-data som UPPFÖLJNING (klick/visningar/snittposition per sida, ~4 v före vs efter) på ALLA nu-live omskrivna sidor. Röd → §13.F-rollback + obduktion. Bakgrund: omskrivna sidor tappade KW mer än orörda i 6 jul-scanen (behandla-pigment −19 %). **Sker under/efter semester — inget blockerar nästa sida.**
-- [ ] **ÄRR-FRÅN-FINNAR-BOILERPLATE-LÄCKA (ägar-flaggat 6 jul — dokumentera för ärr-processen):** ärr-mallens copy-paste läcker på FEL ämne. På `pigmentflackar.php` (fixat 6 jul under omskrivningen): FAQ-kategorirubrik "Allt du behöver veta om ärr av finnar" → "...pigmentfläckar", `$specialist_url_title` "inriktning mot ärr bildade av finnar" → "specialiserade på pigmentfläckar". Strängarna "ärr av finnar/ärr bildade av finnar/fläckar från finnar" finns i **3 filer** (grep): `finnar-arr.php` + `behandla-finnar-arr.php` (ÄRR-sidor — RÄTT ämne, men kolla särskrivning/Title-Case när de görs i LYNX-processen) + `pigmentflackar.php` (var FEL, nu fixat). **När vi når ärr-/finnar-arr-sidorna i backloggen (§9.1 Tier — acnearr KW127 SCORE0, finnar-arr, behandla-finnar-arr, laser-acnearr m.fl.): granska att deras egen boilerplate är ämnesrätt OCH att den inte läckt vidare till andra sidor.** Samma klass som "Akne Specialiserade"-läckan nedan. **Öppen widget-fråga (pigmentflackar):** relaterade-problem-kortet "Åldersfläckar" länkar till `/solskadad-hy.php` (ej `/aldersflackar.php` som finns) — url_title/alt fixade, men url-destinationen lämnad orörd (kan vara medveten silo-koppling åldersfläckar=solskador); bekräfta med ägaren.
-- [ ] **MALL-BOILERPLATE-LÄCKA `$specialist_url_title = "Akne Specialiserade Hudterapeuter"` (upptäckt 6 jul av ägaren; §7.4b-workflow flaggade det på solskadad-hy):** title-attribut på "se alla specialister"-länken, **27 filer** har exakt strängen (grep-verifierat). Två klasser: (a) **4 icke-akne-sidor där titeln är ÄMNESFEL** — `aldersflackar.php`, `atrofiska-arr.php`, `melasma.php`, `milier.php`; (b) 23 akne-sidor där den är ämnesrätt men särskriven ("Akne Specialiserade" → "aknespecialiserade") + engelsk Title Case. **Bedömning:** title-attribut = siddata (§13.K, säkert att ändra) och INTE ett textblock LYNX betygsätter för AI COPY → ingen attributionsrisk, men det är ett äkta språkfel. **RÖRDES EJ 6 jul** (27-filers sweep bryter en-sida-i-taget + kräver ägarbeslut om timing). Solskadad-hy redan rättad ("Hudterapeuter specialiserade på pigmentbehandlingar"). **ÄGARBESLUT:** (a) svep alla 27 i ETT separat språk-pass (som språkfel-svepet 2 jul, egen commit, ofarligt för attribution), (b) bara de 4 ämnesfel-sidorna, eller (c) låt ligga. **Bevaka även:** samma mall läcker troligen fler engelsk-Title-Case-title-attribut (brand-titlar "Microneedling Verktyg", "Kryoterapi Verktyg" hittades på rhinophyma/bristningar) — kolla vid sweepen.
-- [ ] **GAPS-rensningen 2 jul:** ytliga-blodkarl 2/2→0/0, ipl-rosacea 2/1→0/0, homepage 3/2→0/0 — utan att sidorna refreshats (tiers/SCORE står stilla). Verifiera vid nästa scan: äkta rensning (gap-texterna lösta/borttagna av LYNX) eller scan-artefakt? Påverkar §8.1-gapbesluten för de sidorna. **Tooltip-insikt 2 jul 15:00: GAPS är KONKURRENT-relativa** ("compared to top-ranking competitors") → rensning/nya gaps kan bero på ändrad konkurrentbild, inte våra åtgärder — attribuera aldrig GAPS-förändringar till oss utan att läsa gap-texterna.
-- [ ] **microdermabrasion AIQ GOOD→OK** (försämrad 30 jun→2 jul utan våra ändringar) — kolla AI QUESTIONS-detaljen när facit hämtas för sidan (§1.5-modellen: vilken fråga tappade GOOD?).
-- [x] **§1.4 medel-omräkning — GJORD (modellanalysen 2 jul em):** medel FÖLL på 3 av 6 äldre (acne.php 1,75→🟠 vs 🔵 · behandla-pigment 2,3→🟠 vs 🔴 · hudforandringar 2,08→🟠 vs 🔴) → §1.4 nedgraderad till ARBETSMODELL med gråzon 1,9–2,4 (medel 14/17 = median 14/17, disjunkta missar). Full tabell + fällda alternativ-modeller i lynx-examples.
-- [ ] **BESTÄLLNING (avgör §1.4-frågan):** be ägaren köra FÄRSK analys på 1–2 sidor och skicka sidnivå-badge + KOMPLETT per-block-lista (inkl. expanderade FAQ-svar) ur SAMMA scan — testar om orapporterade FAQ-svar/versionsskillnad förklarar konflikten. Kombinera med §1.2-beställningen (2–3 färska SCORE-breakdowns varav minst en med AI STYLE beräknad) — **NYTT 6 jul: prioritera ytliga-blodkärls färska nedbrytning (SCORE 74, post-rewrite = AI STYLE-spakens A/B-test, snabbare än att vänta på acne.php).**
-- [x] **Homepage-raden i AICOPY-vyn — LÖST 2 jul 14:20 (zoom-dump + ägarbesked):** homepage `/` FINNS i LYNX (VAL 41 · SCORE 28 · GAPS 0/0 · **AI COPY SLIGHT** · AIQ POOR · KW 298); `/behandlingar.php` = **redirect till /hudbehandlingar/** (KW 0 — ingen egen copy att åtgärda). Rad-data i lynx-data. Följd: homepage är INTE AI COPY-flaggad → dess uppsida är SCORE + AIQ (enda POOR-sidan), inte flagg-vinst.
-- [ ] **`/varumarken/powerlite-photonova/`:** finns i LYNX/live men INTE i repot — utred (borttagen sida som lever kvar på live? redirect behövs?).
-- [ ] **`/varumarken/hifu/`:** nyligen tillagd sida som ännu inte syns i LYNX — bevaka att den indexeras.
-- [ ] **om-oss gap-popupens 4:e punkt** ej synlig i dumpen (2 QW + 2 sugg; 3 lästa: remiss/vårdkö, skillnad mot hudläkare, prisinformation — bekräftade oförändrade 6 jul) — be om den när om-oss-gapsen ska åtgärdas; §8.1-beslut för om-oss tas då (remiss-/hudläkare-vinkeln är redan sidans positionering → trolig GÖR inom §5, men beslut väntar 4:e punkten + badge-bekräftelsen).
-- [ ] **pigmentflackar.php borta ur AICOPY-filtret (6 jul)** — saknas även i alfabetisk vy (ej omskriven av oss → ej vår förtjänst). URL-sök i Pages + AI Copy-vy beställd av ägaren; Fas 3-/Tier 1-prion för sidan PAUSAD tills löst.
-
-**Fas 3b — facit-klara sidor (rewrite i SEPARAT session, ägarbesked 2 jul; alla sidnivå 🔵 → §1.4: SCORE/AI STYLE-vinst, ej flagg-vinst)**
-- [ ] `microneedling.php` (KW70, SCORE 50 färsk; facit 22 apr: 4🔴/2🟠) — de-AI + "microneedling kur"-gapet (§8.1). **Rewrite ÅTERRULLAD 2 jul (ägarbesked) — färdig block-plan i §11-posten em #2. 5 språkfel/typos FIXADE separat 2 jul em** (markanden, micronnedling-FAQ:n, slussas-in-kanalerna, våra→vår, utseendet) — kvar: enbart de-AI-omskrivningen.
-- [ ] `portomning.php` (KW28, SCORE 60 färsk; facit 24 jun: 2🟠) — lätt pass: importans-öppningar/svansar + typos ("ansiktet,ryggen", "brötstet").
-- [ ] `acne-rygg.php` (KW51, SCORE 0 = trasig analys, be om omkörning; facit 25 apr: 3🔴/1🟠) — de-AI + 2 grammatikfel live + gap-punkter (§8.1).
-- [ ] `seborroisk-keratos.php` (KW110, SCORE 74 färsk; facit 25 apr: 2🔴/2🟠) — de-AI + grammatikfel (CryoPen-blocket) + §8.1-gaps (smalna av, curettage).
-- [x] ~~`mogen-hy.php`~~ — **STALE DUBBLETTRAD (upptäckt 6 jul):** sidan omskrevs 2 jul inkl. språkfelen (se Fas 3-raden [x] ovan + §11 2 jul em #7); låg kvar öppen här av misstag. "Vad betyder hy?"-gapet medvetet lämnat (ägarbeslut 2 jul).
-
-**Löpande / avslut**
-- [ ] LYNX justeringsloop (§10) — läs varje refresh, uppdatera §11 + lynx-data.php.
-- [ ] Mät-loop & modell-förfining (§10): prediktera före, mät efter, förfina §1.1/§1.2, **backporta lärdomar till redan gjorda sidor**.
-- [ ] **Gå igenom `hudproblem/hudforandringar/index.php` (mall-review)** — en pre-existerande död debug-rad (`$types_url`, rad 777) läckte en synlig PHP-warning på live (nu borttagen). Kontrollera om mallen har mer cruft/latenta buggar: andra utkommenterade `<?php echo $var ?>`, odefinierade variabler, gamla debug-rester. *(Temporär TODO här tills sidan är genomgången.)*
-- [x] (Löst) Filerna är `.php` med `<?php exit;` → renderas tomma på webben; behöver inte raderas.
-
-**Parkerat / väntar externt**
-- [P] Dubbel `title`-attribut i widgets (§8 — beslut: skippa).
-- [V] **Exosomer + polynukleotider (kombinationsbehandlingar) på microneedling.php** — LYNX HIGH-gap 2 jul (konkurrenter: Akademikliniken, Nordiska Kliniken lyfter det); **väntar på att kliniken lanserar behandlingen** (ägaren 2 jul: "vi ska introducera exosomer"). När den finns: eget kort/block på microneedling.php i husröst (§4) inom §5-ramarna + silo-beslut om ev. egen sida. Skriv INGET innan ägaren bekräftar att tjänsten är live.
-
----
-
-## 9.1 Prioriterad helsides-backlog (hela sajten, 2026-07-01)
-Från LYNX-inventeringen (`lynx-data.php` + Pages-listan). Prio = AI COPY-svårighet × KW × SCORE/GAPS-uppsida. **Process per sida:** hämta per-block-facit FÖRST → facit-driven rewrite (§13.D). **Facit-kö:** ägaren kan klistra in facit för 2–3 sidor i förväg — spara alla direkt (save-first, §0) och beta av i prio-ordning, så blockeras ingen session på väntan. Minns §1.4: 🔴/🟠-sidor ger AI COPY-flagg-vinst; 🔵-sidor ger SCORE-vinst.
-
-**Tier 1 — störst KW + uppsida (GÖR FÖRST):**
-1. `/` (Homepage) — KW298, **AI COPY SLIGHT (ej flaggad — bekräftat 2 jul 14:20)**, AIQ POOR (enda POOR-sidan), SCORE28, GAPS 0/0 (rensade). Störst enskild uppsida — men vinsten är SCORE + AI QUESTIONS, inte flagg. Skydda E-E-A-T-widgets.
-2. `pigmentflackar.php` — KW244, 🟠 MODERATE **(FACIT ✅ 2 jul 14:22 — medel 2,06, 5–6 🔴→🔵-fixar till 🔵-badge)**. Största MODERATE; pigment-huvudsida (silo mot behandla-pigmentflackar). **✅ Paus HÄVD 6 jul em: blank-läget var pågående omanalys (ägarbesked), ej tier-flytt — kör när sidan + färskt facit dyker upp igen.**
-3. `rosacea.php` — KW221, 🔵 SLIGHT, SCORE –. Rosacea-huvudsida.
-4. `perioral-dermatit.php` — KW194, 🔵, SCORE –.
-
-**Tier 2 — hög-KW SLIGHT, låg/0 SCORE + gaps (enskilda block kan vara 🔴):**
-blodprickar (175, SCORE17) · milier (173, 37) · seborre (168, –) · pormaskar (128, 32) · acnearr (127, **SCORE0** = trolig trasig analys §1.2, +gaps) · **acne.php (116 — FACIT ✅ MOTTAGEN 1 jul: ~10 🔴-block, redo; husröst-REFERENS → LÄMNA dess 🔵/🟢-block)** · **seborroisk-keratos (110, 74 färsk — FACIT ✅ 2 jul, i Fas 3b-kön)** · hudflikar (105, 28) · finnar (101, silo).
-
-**Tier 3 — resterande MODERATE + mellan-KW SLIGHT (~KW40–71):** permanent-harborttagning · **microneedling (FACIT ✅ 2 jul — Fas 3b-kön)** · finnar-rygg · **bristningar (🟠)** · fodelsemarken · stora-porer (0) · fet-hy · roaccutan · cryopen · alma-hybrid-co2 · dermapen · kemisk-peeling (gaps) · **acne-rygg (FACIT ✅ 2 jul — Fas 3b-kön; SCORE 0 = trasig analys)** · **rhinophyma-rosacea (🟠)** · finnar-gravid · behandla-stora-porer · acne-brost · inflammation-acne · **solskadad-hy (🟠)** · ~~ipl-rosacea (🟠)~~ ✅ LIVE, väntar refresh · ~~oonskat-har (🟠)~~ ✅ omskriven → staging · ~~mogen-hy (🟠)~~ ✅ omskriven → staging · ~~microdermabrasion (🟠)~~ ✅ omskriven → staging.
-
-**Tier 4–5 — lägre-KW SLIGHT + HUMAN utility/brand/resultat (lägst prio, batch):** ~60 sidor KW≤38 (full sorterad lista i `lynx-data.php`). HUMAN-sidor (myter, ordlista, priser, recensioner, hudguide…) = bara lätt städning, ej full omskrivning; skydda Trust-bärande widgets. Blanka (avbokningspolicy, karriar) = be om facit vid behov.
-
-**Scope-beslut (ägarbesked 2 jul em):** (1) **ALLA sidor som finns i LYNX ska gås igenom** — vissa redan gjorda, resten framöver; komplett sidregister (i LYNX / saknas i LYNX / i LYNX men ej i repot) i `lynx-data.php` under "Snapshot 2026-07-02 EM". (2) **Allt nedanför `/studentrabatt/` i LYNX-vyn (botox m.m.) = drafts/oanvänt → EXKLUDERAS** ur genomgången. (3) Sidor som saknas i LYNX (homepage-raden?, varumarken/hifu/, avbokningspolicy, karriar, ev. ansiktsbehandling/rosacea/) = håll utkik vid framtida scans (bevakningstrådar §9).
-
-*(Full 5-tier-lista med alla ~100 sidor + noter genererad 2026-07-01; härledbar ur `lynx-data.php`.)*
-
-## 12. Pågående arbete (in-progress-markör)
-Vi kör **1 Claude i taget** (§0.1), så det här är ingen parallell-lås längre utan en **start/stopp-markör**: skriv in sidan du jobbar med **innan** du börjar, töm raden när den är klar (logga i §11). Så ser nästa session direkt var förra slutade. Hittar du en rad ifylld när du trodde du var ensam → **stanna och fråga ägaren** (§0.1 regel 2).
-
-| Sida | Status | Tid |
-|------|--------|-----|
-| *(ingen pågående — 6 jul em: pigmentflackar KLAR → staging; HELA flagg-listan 4 SIG + 10 MOD omskriven. Nästa: main-push (ägare) + LYNX-refresh-mätning; Tier 1-SLIGHT rosacea/perioral-dermatit när facit finns; ärr-boilerplate-sweep)* | | |
+**Innan du rör något:** `git status` → läs **§12 i `lynx-backlog.php`** (är någon annan igång?) → skriv in din rad. Är raden ifylld när du trodde du var ensam — **stanna och fråga ägaren** (§0.1 regel 2).
 
 ---
 

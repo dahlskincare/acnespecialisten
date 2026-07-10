@@ -657,7 +657,7 @@ $specialists = array(
 );
 
 $specialist_url_label = "Se alla specialister";
-$specialist_url_title = "Hudterapeuter Specialiserade på Ytliga blodkärl";
+$specialist_url_title = "Hudterapeuter specialiserade på ytliga blodkärl";
 
 $related_problems = array(
       new RelatedProblem(

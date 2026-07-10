@@ -4,7 +4,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Kemisk peeling Stockholm | AcneSpecialisten';
-$seo_description = 'Vi erbjuder kemisk peeling med olika behandlingsmetoder. ✓Lumilight (AHA) ✓Purify (BHA) ✓Retinol ✓TCA ✓PRX-T33. Boka tid för en gratis hudkonsultation så hjälper vi dig med rätt behandling!';
+$seo_description = 'Vi erbjuder kemisk peeling med flera metoder: ✓Lumilight (AHA) ✓Purify (BHA) ✓Retinol ✓TCA ✓PRX-T33. Boka en gratis hudkonsultation!';
 $seo_keywords = 'kemisk peeling, kemisk peeling ansikte';
 
 $seo_image = 'bilder/hudbehandlingar/424x456/kemisk-peeling.webp';

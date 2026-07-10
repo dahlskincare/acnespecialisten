@@ -298,7 +298,7 @@ $specialists = array(
 );
 
 $specialist_url_label = "Se alla specialister";
-$specialist_url_title = "Akne Specialiserade Hudterapeuter";
+$specialist_url_title = "Hudterapeuter specialiserade på pigmentbehandlingar";
 
 $related_problems = array(
       new RelatedProblem(
@@ -316,8 +316,8 @@ $brands = array(
       new Brand(
             label: 'Dermapen',
             image: 'images/brands/dermapen4.svg',
-            image_alt: 'Dermapen Brand Logo',
-            image_title: 'Dermapen - Microneedling Verktyg för Hudföryngring',
+            image_alt: 'Dermapen logotyp',
+            image_title: 'Dermapen - microneedlingverktyg för hudföryngring',
             url: 'dermapen.php',
             url_title: 'Läs mer om Dermapen Microneedling Hudvårdslösningar',
       ),
@@ -325,7 +325,7 @@ $brands = array(
             label: 'CryoPen',
             image: 'images/brands/cryopen.svg',
             image_alt: 'CryoPen Brand Logo',
-            image_title: 'CryoPen - Kryoterapi Verktyg för Hudbehandlingar',
+            image_title: 'CryoPen - kryoterapiverktyg för hudbehandlingar',
             url: 'cryopen.php',
             url_title: 'Läs mer om CryoPen Kryoterapi Hudbehandlingar',
       ),

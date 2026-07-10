@@ -105,7 +105,7 @@ $path_segments = [
 
     <title class="l10n">Digitalt presentkort på hudvård & skönhet</title>
     <meta name="title" content="Digitalt presentkort på hudvård & skönhet" class="l10n">
-    <meta name="description" content="Ge bort ett digitalt presentkort på hudvård från AcneSpecialisten. Köp på plats i kliniken eller online via Bokadirekt. Vill du ha det fysiskt hemskickat hjälper vår kundtjänst dig." class="l10n">
+    <meta name="description" content="Ge bort ett digitalt presentkort på hudvård från AcneSpecialisten. Köp i kliniken, online via Bokadirekt eller få det hemskickat." class="l10n">
     <meta name="keywords" content="presentkort, presentkort hudvård, digitalt presentkort, skicka digitalt presentkort, presentkort online, skicka presentkort online" class="l10n">
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
 
