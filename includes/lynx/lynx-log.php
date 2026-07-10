@@ -45,6 +45,15 @@ Fulltext flyttas till **`includes/lynx/lynx-log-archive.php`**; kvar här blir e
 | behandla-pigmentflackar.php | 14 | – | – | –/– | SIGNIFICANT | GOOD | – | 16 |
 | hudproblem/hudforandringar/ | 10 | – | 17 | 3/2 | SIGNIFICANT | OK | – | 8 |
 
+### 2026-07-10 #65 — Andra main-pushen (PR #242) produktions-verifierad: alla dagens prisfixar live — sista passet före ägarens 3-veckorsledighet.
+**In:** Ägarbesked "pushat till main, kolla så allt fungerar" (merge 3847792e, 0 commits saknas).
+**Fynd:**
+- Live-svep 6/6 ändrade sidor: HTTP 200, 0 PHP-fel. Hudterapeutens val renderar nya priser (PriceClass_4 ×6 · Spara 990/3980 ×5 vardera; gamla mönster 0). Hudforandringar-FAQ:n renderar "från 1995"/"första behandlingen 1995" (×2 vardera), inga 1595 kvar. Lynx-filer 0 bytes (stickprov 4). [STÄNGD]
+- Hero-fältet "Från 1995 kr" renderas inte heller på hudterapeutens-val-mallen — konsistent med 799-upptäckten; survey-raden i §9.2 täcker frågan. [ÖPPEN → §9.2-rad]
+- Öppet efter ledigheten: CryoPen-återbesöket 295 kr (obekräftat, §9-raden) · från-pris-survey · smärtfritt-passet · microneedling-rewriten (AI STYLE-testet armerat, väntar nu på LYNX-refresh av dagens sidor). [ÖPPEN → §9]
+**Åtgärd:** denna post. Main = staging t.o.m. b272cd37; endast denna bokförings-post släpar till nästa merge.
+**Kontroll:** grupperad diff läst (mönstret `^(\+\+\+|---) `) — 1 lynx-fil; stat läst efter sista editen, före commit-meddelandet.
+
 ### 2026-07-10 #64 — Milier-verifieringen stängd + CryoPen-FAQ:n rättad (ägarbesked: "milier stämmer, cryopen är från 1995kr").
 **In:** Ägar-verifiering mot bokningssystemet, svar på 2 juli-beställningen.
 **Fynd:**
