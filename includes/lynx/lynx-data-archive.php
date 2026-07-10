@@ -17,6 +17,29 @@ PEKAR-PÅ      lynx-data = AKTUELLT LÄGE (gällande värden) · jämför ALDRIG
 
 
 
+## Snapshot 2026-07-10 kl. 08:42 — AICOPY-sorterad Pages-vy (13 rader synliga, listan trunkerad i SLIGHT-delen)
+> Ägar-dump 08:42:55. Filter-chip "AICOPY" aktiv, sorterad på AI COPY (SIGNIFICANT → MODERATE → SLIGHT). PAGE TYPE "–" eller blank; EG SCORE "–" överallt; WORDS/CLICKS/STATUS ej synliga i vyn.
+
+| URL | VALUE | SCORE | GAPS ⚡/💡 | AI COPY | AIQ | P.PRICE | EG | KW |
+|---|---|---|---|---|---|---|---|---|
+| /hudproblem/hudforandringar/ | 10 | 17 | 3/2 | 🔴 SIGNIFICANT | OK | – | – | 7 |
+| /ytliga-blodkarl.php | 41 | 74 | 0/0 | 🔴 SIGNIFICANT | OK | – | – | 151 |
+| /hudbehandlingar/ipl/ | 34 | – | –/– | 🟠 MODERATE | OK | HIGH | – | 17 |
+| /hudproblem/bristningar/ | 19 | 63 | 0/0 | 🟠 MODERATE | OK | – | – | 69 |
+| /hudproblem/oonskat-har/ | 11 | – | –/– | 🟠 MODERATE | OK | – | – | 11 |
+| /ipl-rosacea.php | 54 | 60 | 3/1 | 🟠 MODERATE | OK | HIGHEST | – | 18 |
+| /microdermabrasion.php | 29 | – | –/– | 🟠 MODERATE | OK | LOWEST | – | 5 |
+| /behandlingar.php | 14 | – | –/– | 🔵 SLIGHT | OK | – | – | 0 |
+| / | 41 | 65 | 0/0 | 🔵 SLIGHT | POOR | – | – | 286 |
+| /acne.php | 29 | 47 | 2/1 | 🔵 SLIGHT | OK | – | – | 102 |
+| /acne-ansikte.php | 31 | – | –/– | 🔵 SLIGHT | OK | – | – | 52 |
+| /acnearr.php | 41 | 74 | 1/0 | 🔵 SLIGHT | OK | – | – | 122 |
+| /acnebehandling.php | 12 | – | –/– | 🔵 SLIGHT | OK | – | – | 6 |
+
+**Noter:** **Flagg-gruppen identisk med 8 juli** (2 SIGNIFICANT + 5 MODERATE, samma sidor, samma badges) — femte observationen utan badge-flytt (8/7 10:45 · 16:54 · 18:13 · nu 10/7 08:42). **`pigmentflackar` SAKNAS i MODERATE-blocket trots AICOPY-sortering** — badge-flytt ELLER omanalys; SLIGHT-delen är trunkerad under synfältet, så frånvaron avgör inget (mätregel: frånvaro ≠ SLIGHT). KW-drifter: ytliga-blodkarl 156→151 · ipl 18→17 · oonskat-har 12→11 · microdermabrasion 6→5 · homepage 287→286 · acne 105→102 · acnearr 121→122 · bristningar 67→69. VALUE-drifter: bristningar 18→19 · acne-ansikte 27→31. SCORE oförändrade där synliga (hudforandringar 17 · ytliga-blodkarl 74 · bristningar 63 · ipl-rosacea 60 · homepage 65 · acne 47 · acnearr 74); ipl/oonskat-har/microdermabrasion fortsatt "–". AIQ: homepage fortsatt POOR, övriga OK.
+
+---
+
 ## Snapshot 2026-07-08 kl. 18:13 — VALUE-sorterad Pages-vy, TVÅ fönster (13 + 12 rader, ofiltrerad)
 > Ägar-dumpar 18:13:22 + 18:13:45, skickade som följe till SCORE-popupen för rhinophyma (→ `lynx-score`, 8 juli-sektionen). **Fönster 2 är delvis skymt av popupen** (AI COPY / AIQ / P.PRICE / KW dolda till höger) — bara VALUE + URL + PAGE TYPE + SCORE avläsbara där. PAGE TYPE "–" eller blank överallt; EG SCORE "–" överallt.
 

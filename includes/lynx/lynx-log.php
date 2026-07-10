@@ -44,6 +44,14 @@ Fulltext flyttas till **`includes/lynx/lynx-log-archive.php`**; kvar här blir e
 | behandla-pigmentflackar.php | 14 | – | – | –/– | SIGNIFICANT | GOOD | – | 16 |
 | hudproblem/hudforandringar/ | 10 | – | 17 | 3/2 | SIGNIFICANT | OK | – | 8 |
 
+### 2026-07-10 #44 — Femte dumpen utan badge-flytt: flagg-gruppen står stilla, pigmentflackar fortfarande oläst.
+**In:** Ägar-dump 08:42 (AICOPY-sorterad Pages-vy, 13 rader, trunkerad i SLIGHT-delen). Sparad FÖRST → `lynx-data-archive` 08:42-snapshot + AKTUELLT LÄGE (13 rader).
+**Fynd:**
+- **Flagg-gruppen IDENTISK med 8 juli** (2 SIGNIFICANT + 5 MODERATE, samma badges och SCORE) — femte observationen; ytliga-blodkarl nu 9 dygn stale. "Last update"-beställningen kvarstår som diskriminator. [ÖPPEN → §9 ägar-beställning]
+- **pigmentflackar SAKNAS i MODERATE-blocket trots AICOPY-sortering** — badge-flytt ELLER omanalys; SLIGHT-delen var trunkerad ⇒ badgen fortfarande OLÄST. Frånvaro ≠ SLIGHT. [ÖPPEN → §9-bevakaraden uppdaterad]
+- Endast drift i övrigt: KW −1…−5 på sex sidor (+1 acnearr, +2 bristningar) · VALUE bristningar 18→19, acne-ansikte 27→31 · SCORE oförändrade där synliga. [STÄNGD]
+**Åtgärd:** `lynx-data-archive` (snapshot) · `lynx-data` (13 rader) · `lynx-status` (LÄGE-datum + flagg-bullet) · `lynx-backlog` (pigment-raden). Ingen mät-loop utlöst — inga badge-/SCORE-byten.
+
 ### 2026-07-08 #43 — VENTILEN införd i §0: reglerna binder exekutorn, inte ägaren. Fyra drift-fel rättade.
 **In:** Ägar-beställd regelöversyn efter strukturändringarna (*"kan du se över våra regler snabbt"*). Ingen mätdata. Inget ändrades förrän ägaren godkänt punkt för punkt.
 **Fynd:**
