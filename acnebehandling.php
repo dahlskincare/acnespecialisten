@@ -666,7 +666,7 @@ $specialists = array(
 );
 
 $specialist_url_label = "Se alla specialister";
-$specialist_url_title = "Akne Specialiserade Hudterapeuter";
+$specialist_url_title = "Aknespecialiserade hudterapeuter";
 
 $brands = array(
     new Brand(

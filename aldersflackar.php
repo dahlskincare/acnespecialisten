@@ -298,7 +298,7 @@ $specialists = array(
 );
 
 $specialist_url_label = "Se alla specialister";
-$specialist_url_title = "Akne Specialiserade Hudterapeuter";
+$specialist_url_title = "Hudterapeuter specialiserade på pigmentbehandlingar";
 
 $related_problems = array(
       new RelatedProblem(
