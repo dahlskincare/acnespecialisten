@@ -54,6 +54,7 @@ Fulltext flyttas till **`includes/lynx/lynx-log-archive.php`**; kvar här blir e
 - Rutin framåt (ägarbeställd): namnbyte/radering av lynx-fil ⇒ gravsten på gamla sökvägen i samma commit + staging-verifiering direkt. [RATIFICERAD → §0.1 VID SLUT + filkartan i START]
 **Åtgärd:** e575c272 (5 gravstenar) + denna commit (gravstenar förenklade till bara vakten · §0.1-rutinen · filkartans GRAVSTENAR-rad · §9-raden + §9.2-synk · denna post).
 **Kontroll:** grupperad diff läst (mönstret `^(\+\+\+|---) `); staging pollad till 5/5 = 0 bytes efter första pushen + omverifieras efter denna; stat läst i separat anrop före commit-meddelandet.
+**Addendum (samma dag):** ägarens main-push (PR #243) deployad → live-verifierad: 32/32 historiska sökvägar tomma (200/0) eller 404, 0 avvikelser; stickprov 4 innehållssidor HTTP 200 + 0 PHP-fel; mappkoll `/includes/` + `/includes/lynx/` → 404 på båda domänerna (ingen fillistning). §9-raden stängd — hela tråden klar.
 
 ### 2026-07-10 #69 — Ägaren levererade de skymda kolumnerna (16:36 + 16:37–38): stjärnsystemet validerat direkt · roaccutan AIQ POOR · blodprickar = mest klickade sidan · finnar-arr SCORE 9.
 **In:** Tre skärmbilder: b–f-segmentet utan popup (16:36, alla kolumner) + VALUE-sorterad vy i två delar (16:37–38, vänster med URL + höger-scrollad med WORDS/CLICKS/STATUS; radmatchning på gemensamma fält, entydig 13/13). **Sparade FÖRST → `lynx-data-archive` (två sektioner).**
