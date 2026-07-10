@@ -157,6 +157,12 @@ ta emot LYNX-data (§14 först, agera sen) · skriva om en sida (§7) · micro-f
 
 Hittar du något äkta mitt i en uppgift: **skriv EN rad i §9.2 FYNDLÅDAN, säg EN mening till ägaren, fortsätt med uppgiften.** Utreder gör du bara om han säger till. En tråd som parkeras förlorar ingenting; en uppgift som överges halvvägs gör det. Lådan är default — **ett fynd tas ur den bara genom ägarbeslut**, aldrig för att det kändes viktigt i stunden. *(Varför en §9-rad och inte en logg-post: §0:s två strukturella fällor.)*
 
+**▶ AVBROTTS-ORDNINGEN (ratificerad 10 juli; ägarens ord: *"jag ser saker eller kommer på saker som vi ska göra — viktigt att inget försvinner, men de är inte prio utan kan utföras efteråt"*).** Avbryter ägaren en pågående uppgift — en skärmbild, en idé, en ny uppgift — gäller:
+1. **Fånga det FÖRST, så inget försvinner:** inkommen data → §14 SPARA-RECEPT (redan lag) · idé/uppgift → EN rad i §9.2 FYNDLÅDAN (vad det är + lösningsförslag).
+2. **Säg EN rad:** vad som fångats + var den avbrutna uppgiften står.
+3. **Slutför den avbrutna uppgiften till närmaste säkra punkt** — påbörjad redigering görs färdig, SLUTKONTROLL + commit + push körs; halvredigerade filer lämnas aldrig. Undantag: ägaren säger uttryckligen byt/släpp — då committas/parkeras det påbörjade först.
+4. **Ta sedan det nya** — eller visa alternativen och låt ägaren välja. §12-raden står kvar tills den avbrutna uppgiften är klar eller avfärdad.
+
 **Ett verktyg är inte ett mål.** Får du en snabbare metod — fler agenter, ett bredare svep, en ny modell — är det tillstånd att göra **den valda uppgiften** fortare. Det är aldrig tillstånd att välja en större uppgift. Fråga innan du breddar, särskilt när frågan var liten: glappet mellan "städa en rad" och "revidera verktygen" är där ägaren slutar lita på att scopet håller.
 
 **Står det en arbetsmetod i en projektfil binder den**, även när ett glänsande alternativ finns. *(`§9.0`: "ETT steg i taget med ägar-avstämning emellan · INGA agent-utskick" — läst och förbigången samma dag den här regeln skrevs.)*

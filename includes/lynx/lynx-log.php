@@ -45,6 +45,14 @@ Fulltext flyttas till **`includes/lynx/lynx-log-archive.php`**; kvar här blir e
 | behandla-pigmentflackar.php | 14 | – | – | –/– | SIGNIFICANT | GOOD | – | 16 |
 | hudproblem/hudforandringar/ | 10 | – | 17 | 3/2 | SIGNIFICANT | OK | – | 8 |
 
+### 2026-07-10 #54 — Avbrotts-ordningen ratificerad i §0.1: inget försvinner, men inkastat är inte prio — det tas efteråt.
+**In:** Ägarbekräftelse på #53-förslaget + principen med egna ord: han ser/kommer på saker medan exekutorn jobbar; inget får försvinna, men de utförs efteråt. Ingen mätdata.
+**Fynd/beslut:**
+- Fyra steg ratificerade (fånga först: data → §14, idé/uppgift → §9.2 · säg EN rad · slutför pågående till säker punkt · ta det nya sen). Regeln bor i §0.1 UNDER ARBETET; posten pekar bara. [RATIFICERAD → §0.1]
+- Fyndlåde-raden stängd; kvar öppna i §9.2: SLUTKONTROLL-grepen · Dependabot. [STÄNGD]
+**Åtgärd:** `lynx-START` (§0.1 nytt block) · `lynx-backlog` (§9.2-raden ut, stängd-parentesen uppdaterad) · denna post.
+**Kontroll:** grupperad diff läst (körd med korrigerade mönstret — det ratificerade döljer bullet-rader, §9.2-raden om det är öppen) — alla radmönster avsedda; slutlig stat läst efter sista editen, före commit-meddelandet.
+
 ### 2026-07-10 #53 — Ritualen skärpt på ägar-rättelse: tidshälsning + fyndlåde-format med lösningsförslag; avbrotts-ordningen saknades → förslag i §9.2.
 **In:** Ägar-rättelser vid sessionsstart 10:40 (ingen mätdata): hälsningen föll bort · fynd OCH förslag ska till §9.2 med vad-det-är + lösningsförslag · en bit av förra sessionens diskussion kom aldrig med.
 **Fynd/beslut:**
