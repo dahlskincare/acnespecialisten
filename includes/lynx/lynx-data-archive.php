@@ -17,6 +17,24 @@ PEKAR-PÅ      lynx-data = AKTUELLT LÄGE (gällande värden) · jämför ALDRIG
 
 
 
+## Snapshot 2026-07-10 kl. 16:22 — AICOPY-filtrerad Pages-vy, segment b–f + SCORE-popups för /blodprickar.php och /cryopen.php (2 skärmbilder 16:22:44 + 16:22:52)
+> Ägar-dump under avslutningen före 3-veckorsledigheten. Filter "AICOPY" aktivt; endast VALUE + SCORE synliga i beskärningen (AI COPY-badge m.fl. kolumner utanför bild). **Popuparnas delvärden verbatim i `lynx-score` (10 juli 16:22-sektionen).** Båda popuparna "Analyzed 22 hours ago".
+
+| URL | VALUE | SCORE |
+|---|---|---|
+| /behandla-finnar-arr.php | 9 | – |
+| /behandla-pigmentflackar.php | 10 | – |
+| /behandla-stora-porer.php | 46 | 63 |
+| /blandhy.php | 11 | 24 |
+| /blodprickar.php (markerad i bild 1 = popupens sida) | 59 | 75 |
+| /cryopen.php (markerad i bild 2 = popupens sida) | 42 | 60 |
+| /cystisk-acne.php | 59 | 70 |
+| /dermapen.php | 43 | 60 |
+| /djuprengoring.php | 55 | 75 |
+| /fet-hy.php | 17 | 60 |
+| /finnar.php | 19 | – |
+| /finnar-ansikte.php | 12 | – |
+
 ## Snapshot 2026-07-10 kl. 09:40 — Pages-vyn URL-filtrerad "microneedling" + SCORE-popup för /microneedling.php
 > Ägar-dump 09:40:19. Popupen skymmer AI COPY/AIQ/P.PRICE/KW-kolumnerna; PAGE TYPE "–" där synlig. **Popupens 13 delvärden verbatim i `lynx-score` (10 juli-sektionen — ⛔-förvillkoret uppfyllt).**
 

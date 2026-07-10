@@ -45,6 +45,16 @@ Fulltext flyttas till **`includes/lynx/lynx-log-archive.php`**; kvar här blir e
 | behandla-pigmentflackar.php | 14 | – | – | –/– | SIGNIFICANT | GOOD | – | 16 |
 | hudproblem/hudforandringar/ | 10 | – | 17 | 3/2 | SIGNIFICANT | OK | – | 8 |
 
+### 2026-07-10 #68 — LYNX-dump 16:22 sparad: 🆕 "Human-like Score" som AI STYLE-delsiffra · CQ-anomalin replikerad på cryopen · AI STYLE 85 på två orörda sidor.
+**In:** Två ägar-skärmbilder 16:22 (AICOPY-vyn b–f + SCORE-popups blodprickar/cryopen). **Sparade FÖRST → `lynx-data-archive` (12 rader) + `lynx-score` (popuparna verbatim) 16:4x.**
+**Fynd:**
+- 🆕 AI STYLE bär numera delsiffran **"Human-like Score"** (85/85 på båda = speglar badgen, n=2) — första gången synlig i UI:t; taxonomin externa verifieringen antog är bekräftad. [RATIFICERAD → lynx-score-sektionen]
+- CQ-badge-anomalin (badge 60 vs subs 92/95/94) replikerad på cryopen, med Depth/Evidence-raderna saknade i popupen; EEAT-klampen 60 ✓ på båda. Slutsats A ✓ på cryopen; blodprickar-popupens Overall skymd (rad 75 vs medel 73,5 — noterat, ej attribuerat). [STÄNGD]
+- AI STYLE 85 på två ORÖRDA sidor = näst högst uppmätt — orörd copy kan ligga högt. [STÄNGD]
+- Celler: NYTT blandhy **24** (lägsta-klassen — nedbrytning vid tillfälle) · cryopen/dermapen/fet-hy 60 · finnar/finnar-ansikte "–" · ÄNDRAT VAL-drift ±1 (behandla-finnar-arr, cystisk-acne) · OFÖRÄNDRAT övriga 4. Ingen rad är en omskriven sida → ingen mät-loop triggad. [STÄNGD]
+**Åtgärd:** `lynx-data-archive` · `lynx-score` · `lynx-data` (6 rader uppdaterade + 6 nya) · denna post.
+**Kontroll:** transkriptionen läst EN gång till mot båda bilderna före commit (§0.1 steg 3) — 12 listrader + 2×13 popup-värden stämmer; popup-Overall blodprickar markerad (?); stat läst i separat anrop före commit-meddelandet.
+
 ### 2026-07-10 #67 — HELSAJTSSVEP före ledigheten på ägarfråga ("100% säker?"): 137/137 sitemap-sidor HTTP 200, 0 PHP-fel — sajten lämnas fullverifierad.
 **In:** Ägarfråga om fullständig säkerhet. Svar genom mätning: samtliga sitemap-URL:er testade mot produktionen (inte bara de ändrade sidorna).
 **Fynd:**

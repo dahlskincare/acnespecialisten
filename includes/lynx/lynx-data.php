@@ -81,17 +81,23 @@ PEKAR-PÅ      lynx-data-archive = snapshots verbatim · lynx-examples/score/que
 | /ansiktsbehandlingar.php | 21 | – | 🔵 | OK | | 15 | 966 | 1 | HIGHEST | 7/7 | ORÖRD |
 | /atrofiska-arr.php | 42 | – | 🔵 | OK | | 18 | 448 | 14 | – | 7/7 | ORÖRD |
 | /behandla-acnearr.php | 42 | – | 🔵 | OK | | 15 | 630 | 7 | – | 7/7 | ORÖRD |
-| /behandla-finnar-arr.php | 8 | – | 🔵 | OK | | 2 | 687 | 0 | – | 7/7 | ORÖRD |
-| /behandla-pigmentflackar.php | 10 | – (aldrig satt) | 🔵 (crawl 7/7 av VÅR text) | GOOD | –/– | 13 | 532 | 0 | – | 7/7 | → §11.1. **Öppet:** färsk SCORE + 4 micro-fix-block |
-| /behandla-stora-porer.php | 46 | **63 färsk** | 🔵 | OK | 1/1 | 39 | | | – | 7/7 | ORÖRD |
+| /behandla-finnar-arr.php | 9 (var 8) | – | 🔵 | OK | | 2 | 687 | 0 | – | 10/7 16:22 | ORÖRD |
+| /behandla-pigmentflackar.php | 10 | – (aldrig satt) | 🔵 (crawl 7/7 av VÅR text) | GOOD | –/– | 13 | 532 | 0 | – | 10/7 16:22 | → §11.1. **Öppet:** färsk SCORE + 4 micro-fix-block |
+| /behandla-stora-porer.php | 46 | **63 färsk** | 🔵 | OK | 1/1 | 39 | | | – | 10/7 16:22 | ORÖRD |
 | /behandlingar.php | 14 | – | 🔵 | OK | –/– | 0 | 275 | 1 | – | 10/7 08:42 | Redirect → /hudbehandlingar/; **STATUS 301 ✓** |
-| /blodprickar.php | 59 | 75 | 🔵 | OK | 2/1 | 169 | | | – | 8/7 18:13 | ORÖRD — Tier 2 |
-| /cystisk-acne.php | 58 | 70 | 🔵 | OK | 0/0 | 21 | | | – | 8/7 18:13 | ORÖRD |
-| /djuprengoring.php | 55 | 75 | 🔵 | OK | 1/1 | 7 | | | HIGH | 8/7 18:13 | ORÖRD |
+| /blandhy.php | 11 | **24 färsk** | | | | | | | | 10/7 16:22 | Första data efter 30/6 (AICOPY-vyn b–f; endast VAL/SCORE synliga). **Lägsta-klassen (jfr roaccutan/melasma 23) — nedbrytning vid tillfälle** |
+| /blodprickar.php | 59 | 75 | 🔵 | OK | 2/1 | 169 | | | – | 10/7 16:22 | ORÖRD — Tier 2. **SCORE-popup 10/7 → `lynx-score`** (AI STYLE 85/Human-like 85) |
+| /cryopen.php | 42 | **60 färsk** | | | | | | | | 10/7 16:22 | Första data efter 30/6. **SCORE-popup 10/7 → `lynx-score`** (CQ-anomalin replikerad · AI STYLE 85/Human-like 85) |
+| /cystisk-acne.php | 59 (var 58) | 70 | 🔵 | OK | 0/0 | 21 | | | – | 10/7 16:22 | ORÖRD |
+| /dermapen.php | 43 | **60 färsk** | | | | | | | | 10/7 16:22 | Första data efter 30/6 (AICOPY-vyn; endast VAL/SCORE synliga) |
+| /djuprengoring.php | 55 | 75 | 🔵 | OK | 1/1 | 7 | | | HIGH | 10/7 16:22 | ORÖRD |
 | /elevbehandlingar.php | 10 | 18 | 🟢 HUMAN | OK | 0/0 | 4 | | | HIGHEST | 7/7 | ORÖRD |
+| /fet-hy.php | 17 | **60 färsk** | | | | | | | | 10/7 16:22 | Första data efter 30/6 (AICOPY-vyn; endast VAL/SCORE synliga) |
+| /finnar-ansikte.php | 12 | – | | | | | | | | 10/7 16:22 | Första data efter 30/6 (AICOPY-vyn; endast VAL/SCORE synliga) |
 | /finnar-behandling.php | 24 | – | 🔵 | OK | | 5 | 621 | 0 | – | 7/7 | ORÖRD |
 | /finnar-brost.php | 20 | **72 färsk** | 🔵 | OK | 0/2 | 10 | 375 | 1 | – | 7/7 | ORÖRD |
 | /finnar-gravid.php | 39 | **69 färsk** | 🔵 | OK | 3/0 | 42 | 811 | 20 | – | 7/7 | ORÖRD |
+| /finnar.php | 19 | – | | | | | | | | 10/7 16:22 | Första data efter 30/6 (AICOPY-vyn; endast VAL/SCORE synliga) |
 | /fodelsemarken.php | 31 | – | 🔵 | OK | | 58 | 513 | 24 | – | 7/7 | ORÖRD |
 | /fragor-svar.php | 22 | **56 färsk** | 🟢 HUMAN | **POOR (var OK)** | 0/0 | 8 | 114 | 1 | – | 7/7 | §9-tråd: AIQ-försämring (wave 2-sida, EJ attribuerad) |
 | /hormonell-acne.php | 34 | **70 färsk** | 🔵 | OK | 2/2 | 37 | 335 | 0 | – | 8/7 18:13 (VAL/SCORE) | ORÖRD |

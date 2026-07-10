@@ -45,6 +45,12 @@ Verifierade våra LYNX/SCORE/E-E-A-T-slutsatser mot publik SEO-kunskap. Resultat
 
 # 📊 AKTIV — FÄRSKA NEDBRYTNINGAR (rådata; nya dumpar läggs överst)
 
+## blodprickar + cryopen 10 juli 2026 16:22, "Analyzed 22 hours ago" — 🆕 AI STYLE bär nu delsiffran "Human-like Score"; CQ-anomalin replikerad på cryopen
+> Ägar-dump (AICOPY-filtrerad Pages-vy; raderna i `lynx-data-archive` 16:22). **Sparad FÖRST.** Båda sidorna ORÖRDA av oss.
+**/blodprickar.php (rad-SCORE 75; popupens Overall-tal skyms av beskärningen):** CONTENT QUALITY **87** [Base Quality 92 · Depth 86 · Evidence 76 · Language 95 · Readability 94] · E-E-A-T **60** [Experience 85 · Expertise 80 · Authority 75 · Trust 80] · AI STYLE **85** [Human-like Score 85]. *(medel(87,60)=73,5 mot rad-SCORE 75 — utanför ±1-bandet, men popupens Overall är oläst (?) och rad/popup kan ha olika ålder → noterat, ej attribuerat.)*
+**/cryopen.php (Overall 60):** CONTENT QUALITY **60** [Base Quality 92 · Language 95 · Readability 94 — **Depth-/Evidence-raderna saknas i popupen**] · E-E-A-T **60** [Experience 85 · Expertise 80 · Authority 85 · Trust 90] · AI STYLE **85** [Human-like Score 85]. Overall 60 = medel(60,60) ✓ slutsats A. **CQ-badge 60 mot synliga subs 92/95/94 = slutsats C-anomalin (ipl/micro-mönstret) REPLIKERAD — nu med ofullständig sub-lista (jfr pigmentflackar 7/7 utan Depth).**
+**Fynd:** (1) 🆕 **"Human-like Score" första gången synlig som namngiven delsiffra under AI STYLE** — externa verifieringen antog taxonomin, nu bekräftad i UI:t; båda sidorna AI STYLE 85 = Human-like 85 (n=2: delsiffran verkar spegla badgen). (2) EEAT-klampen 60 replikerad på två nya `.php`-sidor (subs 75–90) ✓ slutsats B. (3) AI STYLE 85 på två ORÖRDA sidor = högsta uppmätta utanför hudflikar 95 — orörd copy kan ligga högt; de-AI är inte enda vägen. (4) blandhy SCORE 24 (listan) = ny medlem i lägsta-klassen (roaccutan/melasma 23) — be om nedbrytning vid tillfälle.
+
 ## microneedling 10 juli 2026 09:40, "Analyzed 42 minutes ago" — ⛔-FÖRVILLKORET UPPFYLLT: komplett FÖRE-fingeravtryck taget FÖRE rewrite/main-push
 > Ägar-popup (Pages-vyn URL-filtrerad "microneedling"; raderna i `lynx-data-archive` 09:40). **Sparad FÖRST.** Sidan är EJ omskriven och live-texten oförändrad sedan 6 juli ⇒ **giltigt FÖRE oavsett crawl-datum** — det är hela poängen med att ta popupen före ändringar (slutsats G).
 
