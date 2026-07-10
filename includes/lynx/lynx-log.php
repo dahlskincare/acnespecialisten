@@ -45,6 +45,14 @@ Fulltext flyttas till **`includes/lynx/lynx-log-archive.php`**; kvar här blir e
 | behandla-pigmentflackar.php | 14 | – | – | –/– | SIGNIFICANT | GOOD | – | 16 |
 | hudproblem/hudforandringar/ | 10 | – | 17 | 3/2 | SIGNIFICANT | OK | – | 8 |
 
+### 2026-07-10 #60 — Parse-fällan neutraliserad på ägarbeslut ("OK vi kör") — staging helt ren, redo för ägarens merge.
+**In:** Ägar-OK på #59-rekommendationen. Ingen LYNX-data.
+**Fynd:**
+- Arkivrad 200 neutraliserad ("exit-vaktade filer" + avstegsnot på raden enligt VENTILEN — HISTORIK-ändring på ägarbegäran, commit 42226c4a). [STÄNGD]
+- Efter staging-deploy: arkivfilen 191→0 bytes; helkoll 15/15 lynx-filer svarar 0 bytes. §9.2-radens (a) klar; (b) regelrad i START + tur-parsande rader kvarstår. [ÖPPEN → §9.2-rad]
+**Åtgärd:** `lynx-log-archive` (rad 200) · `lynx-backlog` (§9.2-raden) · denna post. Ägaren pushade main medan posten skrevs — nästa: live-svep (64 sidor + lynx-filerna + gamla START-felet).
+**Kontroll:** grupperad diff läst (mönstret `^(\+\+\+|---) `) — alla radmönster avsedda; staging-verifiering 15/15 = 0 bytes; slutlig stat läst efter sista editen, före commit-meddelandet.
+
 ### 2026-07-10 #59 — Main-push-undersökning inför 3 veckors frånvaro: diffen ren och staging-verifierad — GO med EN reservation (parse-fällan i arkivfilen).
 **In:** Ägar-uppdrag: är staging→main säkert att pusha? (3 veckors ledighet, inget får gå sönder.) Ingen LYNX-data.
 **Fynd:**
