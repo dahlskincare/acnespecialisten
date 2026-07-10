@@ -4,7 +4,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'HIFU Ultraljud Stockholm - Hudåtstramning utan operation';
-$seo_description = 'HIFU ultraljud stramar upp huden utan kirurgi genom fokuserad ultraljudsenergi. Behandlingen når ner till SMAS-lagret och sätter igång kollagenproduktionen för naturligt lyft.';
+$seo_description = 'HIFU ultraljud stramar upp huden utan kirurgi. Fokuserad ultraljudsenergi når SMAS-lagret och sätter igång kollagenproduktionen för ett naturligt lyft.';
 $seo_keywords = 'HIFU, ultraljud, hudåtstramning, Stockholm';
 
 $seo_image = '/images/treatments/large/hifu.webp';
