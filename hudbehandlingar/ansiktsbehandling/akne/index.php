@@ -43,7 +43,7 @@ $path_segments = array(
 $model = new Service(
     title: 'Ansiktsbehandling mot akne',
     duration: '60 min',
-    price: 'Från 799 kr',
+    price: 'Från 999 kr',
     content: '',
     image_small: 'bilder/hudbehandlingar/424x324/portomning.webp',
     image_large: 'bilder/hudbehandlingar/424x456/portomning.webp',

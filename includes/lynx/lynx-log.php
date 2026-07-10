@@ -45,6 +45,50 @@ Fulltext flyttas till **`includes/lynx/lynx-log-archive.php`**; kvar här blir e
 | behandla-pigmentflackar.php | 14 | – | – | –/– | SIGNIFICANT | GOOD | – | 16 |
 | hudproblem/hudforandringar/ | 10 | – | 17 | 3/2 | SIGNIFICANT | OK | – | 8 |
 
+### 2026-07-10 #64 — Milier-verifieringen stängd + CryoPen-FAQ:n rättad (ägarbesked: "milier stämmer, cryopen är från 1995kr").
+**In:** Ägar-verifiering mot bokningssystemet, svar på 2 juli-beställningen.
+**Fynd:**
+- Milier bekräftade: enstaka 495 kr + paket 1595/3995/4995 — sajten stämmer, inget ändras. [STÄNGD]
+- CryoPen från 1995 kr ⇒ FAQ-svaret "Vad kostar det att ta bort en åldersvårta?" på `hudforandringar` bar gamla priset på TVÅ ställen i samma mening (från 1595 · första behandlingen 1595) — båda → 1995. Enda förekomsten i repot (grep); cryopen.php + seborroisk-keratos.php redan rätt. [STÄNGD]
+- Kvar EN siffra ur 2 juli-beställningen: CryoPen-återbesöket 295 kr/åldersvårta — obekräftat, frågan ställd till ägaren. [ÖPPEN → §9-raden]
+**Åtgärd:** `hudproblem/hudforandringar/index.php` · §9-raden uppdaterad · denna post. Väntar: ägarens merge → live-svep.
+**Kontroll:** grupperad diff läst (mönstret `^(\+\+\+|---) `) — 1 sidfil 2 rättade tal i samma FAQ-text + 2 lynx-filer; stat läst efter sista editen, före commit-meddelandet.
+
+### 2026-07-10 #63 — Från-priset 799→999 kr på fyra sidor (ägarbeslut): konventionen förklarad — per behandling i 5-paketet; 799 var före höjningen.
+**In:** Ägarbesked: *"från 799 kr ska nog bli från 999 kr och beror på höjning av priset på 5 behandlingar … även om det inte syns ska sidan vara korrekt för ai."*
+**Fynd:**
+- Konventionen: från-pris = per behandling i 5-packet. 799×5 = 3995 = gamla 5-packpriset; efter höjningen till 4995 → 999. Paketkorten på sidorna stämde alltså redan — bara från-fältet släpade. Fältet renderas inte men rättas ändå (korrekt för AI). §9.2-raden 799 kr stängd genom fixen. [STÄNGD]
+- Survey: ~150 `Från X kr`-fält sajtbrett med obekräftad konvention/färskhet (t.ex. hudterapeutens-val 1995 = styckpris; per konventionen 1199?) — eget pass efter ledigheten. [ÖPPEN → §9.2-rad]
+**Åtgärd:** `porrengoring` + `djuprengoring` + akne- + rosacea-undersidorna (commit cfd7ef62) · §9.2 (799-raden stängd, survey-rad ny) · denna post. Väntar: ägarens merge → live-svep.
+**Kontroll:** grupperad diff 4+/4− symmetrisk (ett mönster, fyra filer); stat läst efter sista editen, före commit-meddelandet.
+
+### 2026-07-10 #62 — Prisfix Hudterapeutens val på ägar-rapport: undersidan låg kvar på gamla prisklassen — text OCH boknings-URL:er rättade.
+**In:** Ägar-skärmbild av bokningssystemets prislista (Hudterapeutens Val 1995 kr/70 min) + rapport "fel pris". Bilden läst direkt; ej LYNX-data.
+**Fynd:**
+- Undersidan sa 1595 kr (hero + 2 block) med paket byggda på gamla priset OCH boknings-URL:er på PriceClass_3; översikten `ansiktsbehandlingar.php` stämde redan (1995/4995/5995, PriceClass_4). Rättat 1 fil 15+/15−: styck 1995 · 3-paket 4995 · spara omräknat 990/3980 · PriceClass_3→4 (6 URL:er). [STÄNGD]
+- Korskoll av skärmbildens övriga 7 rader mot översikten: 8/8 stämmer. Sidofynd: "Från 799 kr" i hero på akne-/rosacea-undersidorna matchar ingen bokningsrad. [ÖPPEN → §9.2-rad]
+- display_errors-raden nyanserad med ägarens bedömning 10 juli: lynx-URL:erna besöks aldrig och är oviktiga; radens kvarvarande motiv är fel på riktiga kundsidor. [ÖPPEN → §9.2-rad]
+**Åtgärd:** `hudterapeutens-val/index.php` (commit 479e33dd) · §9.2-rad (799 kr) · denna post. Väntar: ägarens merge → live-verifiering.
+**Kontroll:** grupperad diff 15+/15− exakt symmetrisk (varje minusrad har sin plusrad); staging-render verifierad efter deploy (16 träffar nya priser, 0 gamla); stat läst efter sista editen, före commit-meddelandet.
+**Errata (samma session):** bokförings-committen c8473055 skrev "11+/0−" mot faktiska 10+/0− — stat och meddelande skrevs i samma svep i stället för i ordning (§0.1 steg 2-brottet från #49, upprepat). Talen i denna post är kontrollräknade efteråt.
+
+### 2026-07-10 #61 — Ägarens main-push produktions-verifierad: svepen + parse-fixen live — ägaren ledig 3 veckor.
+**In:** Ägarbesked *"nu har jag pushat till main, bevaka"* (merge 2960def5). Ingen LYNX-data.
+**Fynd:**
+- Live-svep: 64/64 ändrade sidor HTTP 200 + 0 PHP-fel; nya strängar renderar (3 meta · specialist-titlar · Dermapen/CryoPen · microneedling-bilden); gamla mönster 0 träffar. [STÄNGD]
+- Lynx-filerna 15/15 = 0 bytes på live — publika parse-felet på gamla START BORTA; spökfilerna (3 gamla namn) tomma. §9.2-radens display_errors-symptom synkat (§0.2); felklassen står kvar som öppen rad. [ÖPPEN → §9.2-rad]
+- Main saknar endast bokförings-commits (lynx-only) — går med i nästa ordinarie merge. Mätklockan: svepen är attribut-/meta-nivå, inga §11.1-rader ändras. [STÄNGD]
+**Åtgärd:** `lynx-status` (ny LÄGE-bullet: svepen live + ägaren ledig 3 veckor) · `lynx-backlog` (§9.2-synk) · denna post.
+**Kontroll:** grupperad diff läst (mönstret `^(\+\+\+|---) `) — alla radmönster avsedda; slutlig stat läst efter sista editen, före commit-meddelandet.
+
+### 2026-07-10 #60 — Parse-fällan neutraliserad på ägarbeslut ("OK vi kör") — staging helt ren, redo för ägarens merge.
+**In:** Ägar-OK på #59-rekommendationen. Ingen LYNX-data.
+**Fynd:**
+- Arkivrad 200 neutraliserad ("exit-vaktade filer" + avstegsnot på raden enligt VENTILEN — HISTORIK-ändring på ägarbegäran, commit 42226c4a). [STÄNGD]
+- Efter staging-deploy: arkivfilen 191→0 bytes; helkoll 15/15 lynx-filer svarar 0 bytes. §9.2-radens (a) klar; (b) regelrad i START + tur-parsande rader kvarstår. [ÖPPEN → §9.2-rad]
+**Åtgärd:** `lynx-log-archive` (rad 200) · `lynx-backlog` (§9.2-raden) · denna post. Ägaren pushade main medan posten skrevs — nästa: live-svep (64 sidor + lynx-filerna + gamla START-felet).
+**Kontroll:** grupperad diff läst (mönstret `^(\+\+\+|---) `) — alla radmönster avsedda; staging-verifiering 15/15 = 0 bytes; slutlig stat läst efter sista editen, före commit-meddelandet.
+
 ### 2026-07-10 #59 — Main-push-undersökning inför 3 veckors frånvaro: diffen ren och staging-verifierad — GO med EN reservation (parse-fällan i arkivfilen).
 **In:** Ägar-uppdrag: är staging→main säkert att pusha? (3 veckors ledighet, inget får gå sönder.) Ingen LYNX-data.
 **Fynd:**
