@@ -17,7 +17,7 @@ $path_segments = array(
 $model = new Service(
     title: 'Porrengöring',
     duration: '60 min',
-    price: 'Från 799 kr',
+    price: 'Från 999 kr',
     content: '<p class="p200">En ansiktsbehandling mot porer för dig som vill ta bort pormaskar eller balansera hudens talgproduktion genom att rengöra porerna. Behandlingen består av en djupgående portömning som öppnar upp och rensar porerna.</p>',
     image_small: 'bilder/hudbehandlingar/358x274/portomning.webp',
     image_large: 'bilder/hudbehandlingar/424x456/portomning.webp',

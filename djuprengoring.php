@@ -17,7 +17,7 @@ $path_segments = array(
 $model = new Service(
     title: 'Djuprengöring ansikte',
     duration: '60 min',
-    price: 'Från 799 kr',
+    price: 'Från 999 kr',
     content: '<p class="p200">En djuprengörande behandling utformad för att effektivt eliminera pormaskar och balansera hudens talgproduktion genom en noggrann rengöring. Behandlingen inkluderar en intensiv portömning som öppnar upp porerna och rensar dem på djupet, vilket ger en klarare och mer balanserad hud.</p>',
     image_small: 'bilder/hudbehandlingar/358x274/ansiktsbehandlingar-mot-problemhy.webp',
     image_large: 'bilder/hudbehandlingar/424x456/ansiktsbehandlingar-mot-problemhy.webp',

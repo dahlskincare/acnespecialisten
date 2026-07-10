@@ -17,7 +17,7 @@ $path_segments = array(
 $model = new Service(
     title: 'Ansiktsbehandling mot rosacea',
     duration: '60 min',
-    price: 'Från 799 kr',
+    price: 'Från 999 kr',
     content: '',
     image_small: 'bilder/hudbehandlingar/358x274/ansiktsbehandling-rosacea.webp',
     image_large: 'bilder/hudbehandlingar/424x456/ansiktsbehandling-rosacea.webp',
