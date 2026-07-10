@@ -437,7 +437,7 @@ VALUE 66 · SCORE **60** (var 50) · GAPS 0⚡/1💡 · AI COPY 🔵 SLIGHT · A
 3. ⚠️ **Definitions-/förloppsprosa fastnar på 🟠 även mekanism-ledd.** Block #2 och #4 är sidans enda kvarvarande flaggor, och båda är samma genre: "vad tillståndet är och hur det utvecklas". Båda fick mekanism (talgkörtlar/bindväv växer till; förloppet över tid) och rörde sig ändå bara 🔴→🟠. **§2:s "led med mekanism" räcker till ett steg, inte två, i den genren.** Jfr §1.3 v5 "luta 🔴 på behandlingsprosa" — detta är dess syskon. **Micro-fix-kandidat med färskt facit: två block, resten av sidan rörs inte.**
 4. **Den klassiska AI-öppningen "Utforska vad som kännetecknar…" bär 🔵 orörd, tredje scanen i rad.** Ackumulation fäller, inte en enskild fras (§1.1). Sluta jaga den frasen isolerat.
 
-*(Language-fynd, live: block #3 slutar `"…rosacea bilder på näsan ."` — mellanslag före punkt. → `lynx-backlog` §9.2.)*
+*(Language-fynd, AVSKRIVET 10 juli: block #3 slutar i facitet `"…rosacea bilder på näsan ."` — men mellanslaget finns INTE i käll-HTML eller live-renderingen (`näsan</a>.`, curl-verifierad mot produktion). **LYNX textextraktion infogar mellanslag när inline-länken strippas → läs "mellanslag före skiljetecken" i block-text som möjlig extraktionsartefakt och kolla källan före fix.** Logg #45.)*
 
 ## /microdermabrasion.php — facit 25 Jun 2026, mottaget 2 jul em (MODERATE-vågen §8, EJ omskriven — FÖRE-facit; KOMPLETT)
 | Block (snippet) | Betyg | Varför (tolkning) |

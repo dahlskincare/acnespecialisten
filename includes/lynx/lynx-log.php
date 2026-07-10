@@ -44,6 +44,13 @@ Fulltext flyttas till **`includes/lynx/lynx-log-archive.php`**; kvar här blir e
 | behandla-pigmentflackar.php | 14 | – | – | –/– | SIGNIFICANT | GOOD | – | 16 |
 | hudproblem/hudforandringar/ | 10 | – | 17 | 3/2 | SIGNIFICANT | OK | – | 8 |
 
+### 2026-07-10 #45 — Ägarval ur öppningslistan: bildbuggen på microneedling-kortet rättad; mellanslags-fyndet var LYNX-extraktionsartefakt.
+**In:** Ägaren valde punkt 26 (fyndlådan: mellanslag före punkt, rhinophyma) + 3 (bildbugg microneedling-kortet). Ingen mätdata.
+**Fynd:**
+- Pigmentfläckar-kortet på microneedling.php pekade på mogen-hy.webp (dubblett av Rynkor-kortets bild); rättat till pigmentflackar.webp 102x102+200x200 (båda git-spårade ✓) — siddata §13.K, alt/title var redan rätt, ingen copy rörd. [STÄNGD]
+- Mellanslaget före punkt finns INTE i källan eller live (`näsan</a>.` curl-verifierad mot produktion; staging = main för filen) ⇒ **LYNX textextraktion infogar mellanslag när inline-länk strippas — Language-fynd i block-text kräver käll-koll före fix.** [STÄNGD → not i `lynx-examples`]
+**Åtgärd:** microneedling.php (2 rader, egen commit 39d35509) · lynx-backlog (§9-buggraden + §9.2-raden stängda) · lynx-examples (artefakt-noten). microneedling fortsatt EJ OMSKRIVEN — ⛔-förvillkoret (hela SCORE-popupen) orört och gäller före main-push.
+
 ### 2026-07-10 #44 — Femte dumpen utan badge-flytt: flagg-gruppen står stilla, pigmentflackar fortfarande oläst.
 **In:** Ägar-dump 08:42 (AICOPY-sorterad Pages-vy, 13 rader, trunkerad i SLIGHT-delen). Sparad FÖRST → `lynx-data-archive` 08:42-snapshot + AKTUELLT LÄGE (13 rader).
 **Fynd:**
