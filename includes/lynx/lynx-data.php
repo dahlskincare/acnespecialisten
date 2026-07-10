@@ -43,8 +43,9 @@ PEKAR-PÅ      lynx-data-archive = snapshots verbatim · lynx-examples/score/que
 *(SCORE-kolumnens tooltip ingick inte i leveransen — be om den vid tillfälle. AI FEATURES-kolumnen (toggle, sedd 7 juli) odokumenterad — tooltip beställd, se beställningssedeln #9.)*
 
 ## AKTUELLT LÄGE (senaste kända värde per sida × vy — datumet är del av värdet)
+> **Bildens status (ägarbesked 10 juli):** exporten är imperfekt (skärmbilder, partiella vyer) — tabellen är **bästa möjliga bild med kända glapp**, inte en exakt spegel av LYNX. Det är rätt ambitionsnivå: maximera tydlighet, acceptera glappen, och **kräver ett beslut säkerhet — verifiera cellen färskt först** (be ägaren om riktad dump).
 > **Mätprincip (§11.1):** LYNX uppdaterar per (sida × vy), aldrig i sajt-svep → en rads celler kan ha olika ålder. **"Sedd"-kolumnen daterar hela raden; celler med avvikande ålder får egen notering.** Markörer: **`FÖRE:`** = fryst baseline, skrivs ALDRIG över — ny avvikande mätning skrivs som `FÖRE:x → y ·datum` + mät-loop §10 · **`⟳`** = vyn blank i senaste dump = omanalys pågår (senaste kända värde står kvar; ägarbesked 7 juli: be EJ om omkörning) · **(stale)** på AI COPY-badge = crawlen äldre än vår live-text · år 2026 implicit i datum.
-> **Uppdateringsregler vid ny dump:** samma värde → uppdatera bara Sedd-datumet · nytt värde → skriv nya värdet (gamla finns i arkiv + git) · blank där värde funnits → lägg `⟳datum` (skriv ALDRIG över värde med blank) · kolumn ej synlig i dumpen → rör inte cellen · **Status/not ändras bara vid statusbyte** — prosa/prediktioner bor i §11.1 och loggen. **Sida som saknas i tabellen = ingen data efter 30 juni** → se 30 juni-inventeringen i arkivet.
+> **Uppdateringsregler vid ny dump:** samma värde → uppdatera bara Sedd-datumet · nytt värde → skriv nya värdet (gamla finns i arkiv + git) · blank där värde funnits → lägg `⟳datum` (skriv ALDRIG över värde med blank) · kolumn ej synlig i dumpen → rör inte cellen · **skymda kolumner (ägarbesked 10 juli): skiljer sig inga synliga värden mot sparat läge är de skymda troligen också oförändrade — behåll dem; en dump "nollar" aldrig celler. Skiljer sig ett synligt värde → sätt `*` på radens Sedd-datum: de skymda har rimligen också förändrats men vi vet inte — senast kända värden står kvar tills en dump visar kolumnen** · **Status/not ändras bara vid statusbyte** — prosa/prediktioner bor i §11.1 och loggen. **Sida som saknas i tabellen = ingen data efter 30 juni** → se 30 juni-inventeringen i arkivet.
 
 **Flagg-gruppen (AI COPY ≥ MODERATE i senaste vyn):**
 | URL | VAL | SCORE | AI COPY | AIQ | GAPS ⚡/💡 | KW | WORDS | CLICKS | P.PRICE | Sedd | Not (status: §11.1) |
@@ -81,14 +82,14 @@ PEKAR-PÅ      lynx-data-archive = snapshots verbatim · lynx-examples/score/que
 | /ansiktsbehandlingar.php | 21 | – | 🔵 | OK | | 15 | 966 | 1 | HIGHEST | 7/7 | ORÖRD |
 | /atrofiska-arr.php | 42 | – | 🔵 | OK | | 18 | 448 | 14 | – | 7/7 | ORÖRD |
 | /behandla-acnearr.php | 42 | – | 🔵 | OK | | 15 | 630 | 7 | – | 7/7 | ORÖRD |
-| /behandla-finnar-arr.php | 9 (var 8) | – | 🔵 | OK | | 2 | 687 | 0 | – | 10/7 16:22 | ORÖRD |
+| /behandla-finnar-arr.php | 9 (var 8) | – | 🔵 | OK | | 2 | 687 | 0 | – | 10/7 16:22* | ORÖRD |
 | /behandla-pigmentflackar.php | 10 | – (aldrig satt) | 🔵 (crawl 7/7 av VÅR text) | GOOD | –/– | 13 | 532 | 0 | – | 10/7 16:22 | → §11.1. **Öppet:** färsk SCORE + 4 micro-fix-block |
 | /behandla-stora-porer.php | 46 | **63 färsk** | 🔵 | OK | 1/1 | 39 | | | – | 10/7 16:22 | ORÖRD |
 | /behandlingar.php | 14 | – | 🔵 | OK | –/– | 0 | 275 | 1 | – | 10/7 08:42 | Redirect → /hudbehandlingar/; **STATUS 301 ✓** |
 | /blandhy.php | 11 | **24 färsk** | | | | | | | | 10/7 16:22 | Första data efter 30/6 (AICOPY-vyn b–f; endast VAL/SCORE synliga). **Lägsta-klassen (jfr roaccutan/melasma 23) — nedbrytning vid tillfälle** |
 | /blodprickar.php | 59 | 75 | 🔵 | OK | 2/1 | 169 | | | – | 10/7 16:22 | ORÖRD — Tier 2. **SCORE-popup 10/7 → `lynx-score`** (AI STYLE 85/Human-like 85) |
 | /cryopen.php | 42 | **60 färsk** | | | | | | | | 10/7 16:22 | Första data efter 30/6. **SCORE-popup 10/7 → `lynx-score`** (CQ-anomalin replikerad · AI STYLE 85/Human-like 85) |
-| /cystisk-acne.php | 59 (var 58) | 70 | 🔵 | OK | 0/0 | 21 | | | – | 10/7 16:22 | ORÖRD |
+| /cystisk-acne.php | 59 (var 58) | 70 | 🔵 | OK | 0/0 | 21 | | | – | 10/7 16:22* | ORÖRD |
 | /dermapen.php | 43 | **60 färsk** | | | | | | | | 10/7 16:22 | Första data efter 30/6 (AICOPY-vyn; endast VAL/SCORE synliga) |
 | /djuprengoring.php | 55 | 75 | 🔵 | OK | 1/1 | 7 | | | HIGH | 10/7 16:22 | ORÖRD |
 | /elevbehandlingar.php | 10 | 18 | 🟢 HUMAN | OK | 0/0 | 4 | | | HIGHEST | 7/7 | ORÖRD |
