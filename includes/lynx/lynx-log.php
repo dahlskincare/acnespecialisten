@@ -45,6 +45,14 @@ Fulltext flyttas till **`includes/lynx/lynx-log-archive.php`**; kvar här blir e
 | behandla-pigmentflackar.php | 14 | – | – | –/– | SIGNIFICANT | GOOD | – | 16 |
 | hudproblem/hudforandringar/ | 10 | – | 17 | 3/2 | SIGNIFICANT | OK | – | 8 |
 
+### 2026-07-10 #58 — Femte intro-incidenten trots #57-förenklingen — ägarbeslut: intro-problemet parkerat i §9.3, tas upp senare.
+**In:** Ägarbesked efter ny testsession (ingen LYNX-data): hälsningen uteblir fortfarande — *"lägg den på to do till senare".*
+**Fynd/beslut:**
+- Två regelfixar samma dag (#56/#57) ändrade beteendet men inte utfallet — felet bedöms sitta i terminalens visning av text kring verktygsanrop, inte i ritualtexten. Vidare utredning stoppad på ägarbeslut. [STÄNGD]
+- Ny §9.3-rad INTRO-RENDERINGEN med nästa steg när den tas upp (verifiera listhälsningen · annars rapportera visningsbuggen till Anthropic). §0.1 står kvar som bästa försök. [ÖPPEN → §9.3-rad]
+**Åtgärd:** `lynx-backlog` (§9.3-rad) · denna post. Inga sidfiler rörda.
+**Kontroll:** grupperad diff läst (korrigerade mönstret `^(\+\+\+|---) `, §9.2-raden om det är öppen) — alla radmönster avsedda, 2 lynx-filer; slutlig stat läst efter sista editen, före commit-meddelandet.
+
 ### 2026-07-10 #57 — Fjärde intro-incidenten: testsessionen tyst igen — ägarbeslut: tidshälsningen SKROTAD, vanlig hälsning + information räcker.
 **In:** Ägar-test 11:15 (skärmbild av ny parallell sessionsstart — ingen LYNX-data): ingen hälsning före verktygsanropen trots #56-regeln. Ägarens beslut: *"det blev för komplicerat så vi skippar tidsgrejen … vanlig hälsning och information".*
 **Fynd/beslut:**
