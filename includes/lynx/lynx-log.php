@@ -24,9 +24,10 @@ Senaste först. Korrelera mot LYNX-refresh. Per omskrivning: spara **FÖRE-basel
 **Fynd:** max 5 punkter à 1 rad. Varje punkt SLUTAR med en tagg:
    [ÖPPEN → §9-rad] · [RATIFICERAD → fil/§] · [STÄNGD] · [BASELINE → §11.1]
 **Åtgärd:** 1 rad — vilka filer uppdaterades + nästa steg.
+**Kontroll:** 1 rad — vad kördes + utfall (SLUTKONTROLLEN, §0.1 VID SLUT; siffror räknade ur diffen). Obligatorisk från 10 juli.
 **Baseline/prediktion** (endast sid-poster): 1 rad — FÖRE-siffror + förväntat EFTER (kanonisk kopia i §11.1).
 ```
-**Hårda ramar:** (1) blockdetaljer per omskrivning loggas ALDRIG i posten — git-diffen och `lynx-examples` äger dem; (2) §13.E-kvittensen skrivs som EN rad ("kvittens grön: sökord / punkt-count / streck"), grep-siffrorna går i commit-meddelandet; (3) en regel- eller modelländring beskrivs i REGELFILEN — posten får bara pekaren, aldrig samma prosa två gånger; (4) **en öppen tråd får ALDRIG ha loggen som enda bärare** — skapa §9-raden först, länka sen.
+**Hårda ramar:** (1) blockdetaljer per omskrivning loggas ALDRIG i posten — git-diffen och `lynx-examples` äger dem; (2) §13.E-kvittensen skrivs som EN rad ("kvittens grön: sökord / punkt-count / streck"), grep-siffrorna går i commit-meddelandet; (3) en regel- eller modelländring beskrivs i REGELFILEN — posten får bara pekaren, aldrig samma prosa två gånger; (4) **en öppen tråd får ALDRIG ha loggen som enda bärare** — skapa §9-raden först, länka sen; (5) **Kontroll-raden är obligatorisk** (SLUTKONTROLLEN, §0.1) — en post utan den är ofullständig.
 
 ### 🗄️ Arkiv-policy (beslutad 2026-07-02, skärpt 2026-07-08)
 Fulltext flyttas till **`includes/lynx/lynx-log-archive.php`**; kvar här blir en enrads-referens (format: `- DATUM #N kärnrubrik — utfall; öppet kvar: X (→ §9-rad)`). Syfte: en session behöver bara de senaste posterna.
@@ -43,6 +44,15 @@ Fulltext flyttas till **`includes/lynx/lynx-log-archive.php`**; kvar här blir e
 | ytliga-blodkarl.php | 42 | – | 22 | 2/2 | SIGNIFICANT | OK | – | 172 |
 | behandla-pigmentflackar.php | 14 | – | – | –/– | SIGNIFICANT | GOOD | – | 16 |
 | hudproblem/hudforandringar/ | 10 | – | 17 | 3/2 | SIGNIFICANT | OK | – | 8 |
+
+### 2026-07-10 #49 — SLUTKONTROLLEN grundnivå ratificerad: kontroll före varje push, siffror ur diffen; fördjupningen parkerad i §9.3.
+**In:** Ägarbeslut efter dubbelkoll-fyndet (#47-räknefelet): *"lägg in grundläggande kontroll och lägg resten på to do".* Fulla förslaget presenterades och godkändes i grundnivå.
+**Fynd/beslut:**
+- Grundnivån = grupperad diff före push · siffror räknas ur diffen, aldrig ur minnet (tvåvägs-räkning) · dump-transkription omläses mot bilden. Utfallet skrivs som obligatorisk Kontroll-rad i varje post. [RATIFICERAD → §0.1 VID SLUT + POST-MALLEN ram 5]
+- Skillnaden mot de raderade checkarna står utskriven i §0.1: per-uppgift, färsk härledning, inget tillstånd som kan ruttna — ingen stående detektor, inga skript i repot. [RATIFICERAD → §0.1]
+- Fördjupningen (§13.P-katalogen A–D + självkontrollens gräns) medvetet uppskjuten av ägaren. [ÖPPEN → §9.3]
+**Åtgärd:** `lynx-START` (§0.1 VID SLUT + parentesen omskriven) · `lynx-log` (POST-MALLEN + ram 5) · `lynx-backlog` (§9.3-rad). Inga sidfiler rörda.
+**Kontroll:** grupperad diff över 3 lynx-filer + diff-stat — **fångade direkt ett eget fel: §9.3-editen hade ERSATT raden om §9.0:s två kvarvarande ägarbeslut i stället för att lägga till (1+/1− där 2+/1− var avsett) — återställd före push.** Övriga radmönster avsedda; state-synk-grep "slutcheck": kvarvarande träffar är HISTORIK + korrekt historia; §-KARTAN oförändrad.
 
 ### 2026-07-10 #48 — ⛔-förvillkoret UPPFYLLT: microneedlings kompletta SCORE-popup levererad — AI STYLE-FÖRE 60, testet armerat.
 **In:** Ägar-dump 09:40 (SCORE-popup för microneedling + Pages-vyn URL-filtrerad "microneedling"). Sparad FÖRST → `lynx-score` (13 delvärden) · `lynx-data-archive` (09:40-snapshot) · AKTUELLT LÄGE (4 rader).

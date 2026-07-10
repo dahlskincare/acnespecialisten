@@ -165,12 +165,19 @@ Hittar du något äkta mitt i en uppgift: **skriv EN rad i §9.2 FYNDLÅDAN, sä
 
 **Frågan att ställa innan du bygger något som vaktar arbetet:** *vad är det som ändras, och ändras det fortfarande?* Vaktar verktyget ett pass som redan är genomfört är det skuld, inte skydd — det skriver grönt och lär nästa session falsk tillit. Det var därför de tre checkarna raderades 8 juli (§9). **Sidorna är uppdraget. Filerna är arbetsmaterial. Verktyg kring filerna är tredje ledet, och nästan alltid fel svar.**
 
-### ✅ VID SLUT — spara och pusha, alltid
-**Varje uppgift avslutas med commit + `git push` på `staging`.** Osparat arbete är den enda förlust som är oåterkallelig. **Rör aldrig `main`** — ägaren pushar dit.
+### ✅ VID SLUT — kontrollera, spara och pusha, alltid
+**Varje uppgift avslutas med SLUTKONTROLLEN → commit + `git push` på `staging`.** Osparat arbete är den enda förlust som är oåterkallelig. **Rör aldrig `main`** — ägaren pushar dit.
+
+**SLUTKONTROLLEN (grundnivå, ägarbeslut 10 juli) — körs FÖRE push; utfallet skrivs som Kontroll-raden i loggposten (POST-MALLEN, §11):**
+1. **Grupperad diff:** `git diff | grep -E '^[+-]' | grep -vE '^[+-]{2}' | sort | uniq -c` — varje radmönster ska vara avsett, plus- och minusrader ska gå ihop.
+2. **Siffror ur diffen, aldrig ur minnet:** fil-/radantal i commit och logg räknas ur `git diff --stat`/grupperingen — två oberoende räknevägar ska ge samma tal. *(Bakgrund: "24 filer" var ett minnestal, diffen sa 25 — logg #47/#48.)*
+3. **Vid dump-sparning:** läs transkriptionen EN gång till mot bilden före commit; osäker avläsning markeras "(?)" i cellen.
+
+*(Fördjupningen — per-uppgiftstyp-katalogen §13.P — är ägar-beställd men medvetet uppskjuten: §9.3.)*
 
 Vid **sidarbete** gäller dessutom före commit: §13.E · §7.4b · §6:s fras-koll. De skyddar ranking och juridik — det enda som faktiskt kan skada något utanför de här filerna.
 
-*(Ingen mekanisk slutcheck finns längre. Se §9 CHECK-REVISIONEN för varför: de tre checkarna vaktade §9.0:s omstrukturering, den är gjord, och de bevisades rapportera grönt på ett filset där 97 % av innehållet var borta. Bokföringsmissar lagas nästa session; en tappad ändring kan inte lagas.)*
+*(Skillnaden mot de raderade checkarna — §9 CHECK-REVISIONEN: de var STÅENDE detektorer som vaktade ett redan genomfört pass och kunde lysa grönt på ett urholkat filset. Slutkontrollen granskar det NYSS utförda arbetet, körs en gång, dör med uppgiften och har inget tillstånd som kan ruttna — varje tal härleds färskt ur diffen. Bokföringsmissar lagas nästa session; en tappad ändring kan inte lagas.)*
 
 **Om `.py`-filer:** allt LYNX-arbete stannar i `includes/lynx/*.php` — inga andra filtyper i repot, inga git-hooks, ingen git-konfiguration (ägarbeslut 8 juli). Behöver du ett engångsskript: lägg det i en temp-katalog utanför projektet och kasta det.
 
