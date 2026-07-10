@@ -123,7 +123,7 @@ Tre villkor, ägarens egna ord 8 juli, och de är hela ventilen:
 
 ### ▶ VID START — säg hej FÖRST, sedan tre steg
 
-**Innan du kör ett enda kommando: skriv en kort rad till ägaren.** Hälsa **utifrån tid på dygnet** ("God morgon" / "God eftermiddag" / "God kväll" — kolla klockan med `date`, gissa inte) och säg vad du gör härnäst — att du kontrollerar att ingen annan är igång, läser läget och **sedan presenterar alternativen**. Två meningar räcker. *(Skärpt 10 juli på ägar-rättelse: en sessionsstart hoppade över själva hälsningen — den är inte valfri.)*
+**Innan du kör ett enda kommando: skriv en kort rad till ägaren.** Hälsa **utifrån tid på dygnet** ("God morgon" / "God eftermiddag" / "God kväll" — kolla klockan med `date`, gissa inte) och säg vad du gör härnäst — att du kontrollerar att ingen annan är igång, läser läget och **sedan presenterar alternativen**. Två meningar räcker. **`date` är hälsningens enda tillåtna förberedelse och körs ENSAM** — bunta aldrig `git status` eller något annat kommando med den. Ordningen är regeln: läs START → `date` ensam → hälsa → först därefter steg 1–3 nedan. *(Skärpt 10 juli på ägar-rättelse: en sessionsstart hoppade över själva hälsningen. Skärpt IGEN 10 juli, logg #55: nästa session körde `date` och `git status` i samma svep — ägaren fick datumet och kontrollen före någon hälsning. Kontrollen är steg 1; den börjar inte förrän du sagt hej.)*
 
 Varför regeln finns (ägarbesked 8 juli): ritualen är tre tysta verktygsanrop. Utan en rad först ser ägaren bara filer öppnas och vet inte om du förstod uppgiften eller redan börjat ändra något. **Han ska aldrig behöva gissa vad som pågår i hans eget repo.**
 

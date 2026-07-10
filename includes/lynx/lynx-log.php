@@ -45,6 +45,14 @@ Fulltext flyttas till **`includes/lynx/lynx-log-archive.php`**; kvar här blir e
 | behandla-pigmentflackar.php | 14 | – | – | –/– | SIGNIFICANT | GOOD | – | 16 |
 | hudproblem/hudforandringar/ | 10 | – | 17 | 3/2 | SIGNIFICANT | OK | – | 8 |
 
+### 2026-07-10 #55 — Ritual-skärpning på ägar-rättelse: `date` körs ENSAM före hälsningen — kontrollen börjar inte förrän hej är sagt.
+**In:** Ägar-rättelse vid sessionsstart 10:55 (ingen mätdata): han fick bara datum/tid och sedan kördes kontrollen — hälsningen kom efter kommandona.
+**Fynd/beslut:**
+- Rotorsak: §0.1 sa "inget kommando före raden" MEN "kolla klockan med `date`" — exekutorn löste motsägelsen genom att bunta `date` + `git status` i ett svep. [STÄNGD]
+- §0.1 VID START skärpt med exakt ordning: läs START → `date` ensam → hälsa → först därefter steg 1–3. `date` är hälsningens enda tillåtna förberedelse. [RATIFICERAD → §0.1]
+**Åtgärd:** `lynx-START` (§0.1) · denna post. Inga sidfiler rörda; öppningslistan från 10:56 gäller — ägaren har ännu inte valt uppgift.
+**Kontroll:** grupperad diff läst (korrigerade mönstret `^(\+\+\+|---) ` pga §9.2-fyndet) — alla radmönster avsedda, 2 lynx-filer; slutlig stat läst efter sista editen, före commit-meddelandet.
+
 ### 2026-07-10 #54 — Avbrotts-ordningen ratificerad i §0.1: inget försvinner, men inkastat är inte prio — det tas efteråt.
 **In:** Ägarbekräftelse på #53-förslaget + principen med egna ord: han ser/kommer på saker medan exekutorn jobbar; inget får försvinna, men de utförs efteråt. Ingen mätdata.
 **Fynd/beslut:**
