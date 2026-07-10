@@ -45,6 +45,14 @@ Fulltext flyttas till **`includes/lynx/lynx-log-archive.php`**; kvar här blir e
 | behandla-pigmentflackar.php | 14 | – | – | –/– | SIGNIFICANT | GOOD | – | 16 |
 | hudproblem/hudforandringar/ | 10 | – | 17 | 3/2 | SIGNIFICANT | OK | – | 8 |
 
+### 2026-07-10 #56 — Tredje intro-incidenten: hälsningen skrevs enligt regel men visades aldrig — hej:et flyttat till sessionens FÖRSTA rad, tidshälsningen till öppningslistan.
+**In:** Ägar-rapport 11:03 (skärmbild av sessionsstarten — ingen LYNX-data, inget att spara): ingen hälsning syntes, *"intron fungerar inte"* — tredje gången.
+**Fynd/beslut:**
+- Hälsningen FANNS i konversationen (efter `date`, före `git status`, exakt enligt #55-regeln) men nådde aldrig terminalen — text mitt i en verktygskedja garanteras inte visas; pålitligt är bara turens FÖRSTA och SISTA meddelande. Rotorsaken var alltså visningen, inte beteendet — därför hjälpte inte #53/#55-skärpningarna. [STÄNGD]
+- §0.1 VID START omskriven: neutralt hej som sessionens allra första rad före ALLA verktygsanrop · tidshälsningen öppnar ÖPPNINGSLISTAN (turens sista meddelande, visas alltid) · `date`-ensam-kravet borttaget (skyddade en ordning som inte längre bär hälsningen). [RATIFICERAD → §0.1]
+**Åtgärd:** `lynx-START` (§0.1 VID START + ÖPPNINGSLISTAN-raden) · denna post. Inga sidfiler rörda.
+**Kontroll:** grupperad diff läst (korrigerade mönstret `^(\+\+\+|---) `, §9.2-raden om det är öppen) — alla radmönster avsedda, 2 lynx-filer; slutlig stat läst efter sista editen, före commit-meddelandet.
+
 ### 2026-07-10 #55 — Ritual-skärpning på ägar-rättelse: `date` körs ENSAM före hälsningen — kontrollen börjar inte förrän hej är sagt.
 **In:** Ägar-rättelse vid sessionsstart 10:55 (ingen mätdata): han fick bara datum/tid och sedan kördes kontrollen — hälsningen kom efter kommandona.
 **Fynd/beslut:**
