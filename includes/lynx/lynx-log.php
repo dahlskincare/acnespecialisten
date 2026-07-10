@@ -44,6 +44,14 @@ Fulltext flyttas till **`includes/lynx/lynx-log-archive.php`**; kvar här blir e
 | behandla-pigmentflackar.php | 14 | – | – | –/– | SIGNIFICANT | GOOD | – | 16 |
 | hudproblem/hudforandringar/ | 10 | – | 17 | 3/2 | SIGNIFICANT | OK | – | 8 |
 
+### 2026-07-10 #47 — Sweep del 2 på ägarval: §9.2-restfynden svepta (24 + 59 filer totalt); ett nytt fynd parkerat med föreslagen fix.
+**In:** Ägaren: *"ja fortsätt sweep om du tror det behövs, föreslå fix och lägg dem i din fyndlåda"* — restfynden exekverade, nya fynd parkeras i stället för att utföras. Ingen mätdata.
+**Fynd:**
+- 24 `$specialist_url_title`-filer rättade: ämnessidor → "Hudterapeuter specialiserade på X"; typos (Specialisserade/specialisterade) + versalisering fixade; nakna varianten fick minimal casing-fix ("Specialiserade hudterapeuter" ×5); 3 lämnade korrekta ("Se alla hudterapeuter" m.fl.). [STÄNGD]
+- Verktyg-bildtitlarna svepta sajtbrett: Dermapen (53) + CryoPen (11) → svensk sammanskrivning. 0 felmönster kvar (grep). [STÄNGD]
+- **Nytt fynd, PARKERAT per ägarens instruktion:** `image_alt: 'Dermapen Brand Logo'` på engelska i 53 filer — föreslagen fix `'Dermapen logotyp'` (syskonen använder "X logotyp"). [ÖPPEN → §9.2]
+**Åtgärd:** 59 sidfiler (egen commit 7ca56e95) · lynx-backlog (§9.2 två rader stängda + en ny, ärr-radens not, §12 tömd). Titel-/alt-attribut = siddata §13.K → ingen attributionsrisk.
+
 ### 2026-07-10 #46 — Ägarvald sweep: $specialist_url_title rättad i 27 filer; kartläggningen fann ≈25 varianter till + två Verktyg-bildtitlar.
 **In:** Ägaren valde §9-raden MALL-BOILERPLATE-LÄCKA (öppningslistans punkt 15), full sweep. Ingen mätdata.
 **Fynd:**
