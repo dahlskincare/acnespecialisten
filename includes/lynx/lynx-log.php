@@ -45,6 +45,15 @@ Fulltext flyttas till **`includes/lynx/lynx-log-archive.php`**; kvar här blir e
 | behandla-pigmentflackar.php | 14 | – | – | –/– | SIGNIFICANT | GOOD | – | 16 |
 | hudproblem/hudforandringar/ | 10 | – | 17 | 3/2 | SIGNIFICANT | OK | – | 8 |
 
+### 2026-07-10 #61 — Ägarens main-push produktions-verifierad: svepen + parse-fixen live — ägaren ledig 3 veckor.
+**In:** Ägarbesked *"nu har jag pushat till main, bevaka"* (merge 2960def5). Ingen LYNX-data.
+**Fynd:**
+- Live-svep: 64/64 ändrade sidor HTTP 200 + 0 PHP-fel; nya strängar renderar (3 meta · specialist-titlar · Dermapen/CryoPen · microneedling-bilden); gamla mönster 0 träffar. [STÄNGD]
+- Lynx-filerna 15/15 = 0 bytes på live — publika parse-felet på gamla START BORTA; spökfilerna (3 gamla namn) tomma. §9.2-radens display_errors-symptom synkat (§0.2); felklassen står kvar som öppen rad. [ÖPPEN → §9.2-rad]
+- Main saknar endast bokförings-commits (lynx-only) — går med i nästa ordinarie merge. Mätklockan: svepen är attribut-/meta-nivå, inga §11.1-rader ändras. [STÄNGD]
+**Åtgärd:** `lynx-status` (ny LÄGE-bullet: svepen live + ägaren ledig 3 veckor) · `lynx-backlog` (§9.2-synk) · denna post.
+**Kontroll:** grupperad diff läst (mönstret `^(\+\+\+|---) `) — alla radmönster avsedda; slutlig stat läst efter sista editen, före commit-meddelandet.
+
 ### 2026-07-10 #60 — Parse-fällan neutraliserad på ägarbeslut ("OK vi kör") — staging helt ren, redo för ägarens merge.
 **In:** Ägar-OK på #59-rekommendationen. Ingen LYNX-data.
 **Fynd:**
