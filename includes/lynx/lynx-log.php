@@ -45,6 +45,15 @@ Fulltext flyttas till **`includes/lynx/lynx-log-archive.php`**; kvar här blir e
 | behandla-pigmentflackar.php | 14 | – | – | –/– | SIGNIFICANT | GOOD | – | 16 |
 | hudproblem/hudforandringar/ | 10 | – | 17 | 3/2 | SIGNIFICANT | OK | – | 8 |
 
+### 2026-07-10 #62 — Prisfix Hudterapeutens val på ägar-rapport: undersidan låg kvar på gamla prisklassen — text OCH boknings-URL:er rättade.
+**In:** Ägar-skärmbild av bokningssystemets prislista (Hudterapeutens Val 1995 kr/70 min) + rapport "fel pris". Bilden läst direkt; ej LYNX-data.
+**Fynd:**
+- Undersidan sa 1595 kr (hero + 2 block) med paket byggda på gamla priset OCH boknings-URL:er på PriceClass_3; översikten `ansiktsbehandlingar.php` stämde redan (1995/4995/5995, PriceClass_4). Rättat 1 fil 15+/15−: styck 1995 · 3-paket 4995 · spara omräknat 990/3980 · PriceClass_3→4 (6 URL:er). [STÄNGD]
+- Korskoll av skärmbildens övriga 7 rader mot översikten: 8/8 stämmer. Sidofynd: "Från 799 kr" i hero på akne-/rosacea-undersidorna matchar ingen bokningsrad. [ÖPPEN → §9.2-rad]
+- display_errors-raden nyanserad med ägarens bedömning 10 juli: lynx-URL:erna besöks aldrig och är oviktiga; radens kvarvarande motiv är fel på riktiga kundsidor. [ÖPPEN → §9.2-rad]
+**Åtgärd:** `hudterapeutens-val/index.php` (commit 479e33dd) · §9.2-rad (799 kr) · denna post. Väntar: ägarens merge → live-verifiering.
+**Kontroll:** grupperad diff 15+/15− exakt symmetrisk (varje minusrad har sin plusrad); staging-render verifierad efter deploy (16 träffar nya priser, 0 gamla); stat läst efter sista editen, före commit-meddelandet.
+
 ### 2026-07-10 #61 — Ägarens main-push produktions-verifierad: svepen + parse-fixen live — ägaren ledig 3 veckor.
 **In:** Ägarbesked *"nu har jag pushat till main, bevaka"* (merge 2960def5). Ingen LYNX-data.
 **Fynd:**
