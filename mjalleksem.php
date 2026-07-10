@@ -287,7 +287,7 @@ $specialists = array(
 );
 
 $specialist_url_label = "Se alla specialister";
-$specialist_url_title = "mjalleksem Specialiserade Hudterapeuter";
+$specialist_url_title = "Hudterapeuter specialiserade på mjälleksem";
 
 $related_problems = array(
       new RelatedProblem(
@@ -330,7 +330,7 @@ $brands = array(
             label: 'Dermapen',
             image: 'bilder/logotyper/dermapen.svg',
             image_alt: 'Dermapen Brand Logo',
-            image_title: 'Dermapen - Microneedling Verktyg för Hudföryngring',
+            image_title: 'Dermapen - microneedlingverktyg för hudföryngring',
             url: '/dermapen.php',
             url_title: 'Läs mer om Dermapen Microneedling Hudvårdslösningar',
       ),

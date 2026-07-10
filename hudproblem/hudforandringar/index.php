@@ -629,7 +629,7 @@ $specialists = array(
 );
 
 $specialist_url_label = "Se alla hudterapeuter";
-$specialist_url_title = "Hudterapeuter specialisterade på hudförändringar";
+$specialist_url_title = "Hudterapeuter specialiserade på hudförändringar";
 
 $brands = array(
 
@@ -637,7 +637,7 @@ $brands = array(
             label: 'CryoPen',
             image: '/bilder/logotyper/cryopen.svg',
             image_alt: 'CryoPen Brand Logo',
-            image_title: 'CryoPen - Kryoterapi Verktyg för Hudbehandlingar',
+            image_title: 'CryoPen - kryoterapiverktyg för hudbehandlingar',
             url: '/cryopen.php',
             url_title: 'Läs mer om CryoPen Kryoterapi Hudbehandlingar',
       ),

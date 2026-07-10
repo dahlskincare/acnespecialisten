@@ -269,7 +269,7 @@ $specialists = array(
 );
 
 $specialist_url_label = "Se alla hudterapeut";
-$specialist_url_title = "Pigmentfläcks Specialiserade Hudterapeuter";
+$specialist_url_title = "Hudterapeuter specialiserade på pigmentfläckar";
 
 $brands = array(
     new Brand(
